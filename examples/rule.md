@@ -1,0 +1,1 @@
+Here you describe your rule, you link to any other feature file like so: [go here](conditioning/) the user gets a clickable link that leads to the referenced feature. The rule name gets converted from e.g. 'rules/rule_name.md' to 'Rule Name'
