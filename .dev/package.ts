@@ -6,7 +6,7 @@ const devDir = import.meta.dir!;
 const rootDir = resolve(devDir, "..");
 const outputPath = join(devDir, "sissify-me.zip");
 
-const exclude = new Set(["README.md", ".git", ".dev"]);
+const exclude = new Set(["README.md", ".git", ".dev", ".github"]);
 
 const zip = new AdmZip();
 
