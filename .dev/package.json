@@ -1,0 +1,13 @@
+{
+  "name": ".dev",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.0"
+  }
+}
