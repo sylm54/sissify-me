@@ -1,7 +1,5 @@
 ---
 description: Give the hypnos a brainwashing theme, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
-phase: habituation
-dependencies:
 ---
 
 ## Overview

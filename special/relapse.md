@@ -1,7 +1,11 @@
 ---
 description: Good for users that relapsed and purged in the past. Let them know there is no use in purging.
-phase: habituation
-dependencies:
 ---
 
-The goal is for the user to view purging as futile and relapse as natural and only a question of time. They always ended up relapsing again, so they have decided again and again to become a sissy. They should embrace the inevitability of relapse and stop purging, which only causes frustration and guilt. Instead, they should focus on enjoying the process and embracing their sissy identity, knowing that relapse is just a part of the journey and not a failure. The hypno planner should include suggestions to help the user accept that when they purge they just deny what they are. They will always go back to their true nature and relapse, so they should stop purging and just embrace the process. The main agent should also reinforce this mindset in conversations, reminding the user that relapse is natural and that purging only causes unnecessary guilt and frustration. Encourage them to focus on enjoying the journey and embracing their sissy identity, knowing that relapse is just their true self stop being suppressed. Make them reflect on past relapses and how they always ended up embracing their sissy identity again, reinforcing the idea that relapse is inevitable and purging is futile. Encourage them to find joy in the process and to see each relapse as a step closer to fully embracing their true self.
+The goal is for the user to view purging as futile and relapse as natural and only a question of time. They always ended up relapsing again, so they have decided again and again to become a sissy. They should embrace the inevitability of relapse and stop purging, which only causes frustration and guilt. 
+
+## Refocus
+Instead, they should focus on enjoying the process and embracing their sissy identity, knowing that relapse is just a part of the journey and not a failure. The hypno planner should include suggestions to help the user accept that when they purge they just deny what they are. They will always go back to their true nature and relapse, so they should stop purging and just embrace the process. The main agent should also reinforce this mindset in conversations, reminding the user that relapse is natural and that purging only causes unnecessary guilt and frustration. Encourage them to focus on enjoying the journey and embracing their sissy identity, knowing that relapse is just their true self stop being suppressed.
+
+## Reframe
+Make them reflect on past relapses and how they always ended up embracing their sissy identity again, reinforcing the idea that relapse is inevitable and purging is futile. Encourage them to find joy in the process and to see each relapse as a step closer to fully embracing their true self.

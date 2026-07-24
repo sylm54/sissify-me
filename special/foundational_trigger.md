@@ -1,7 +1,5 @@
 ---
 description: Install foundational trigger that can be used in hypno and training
-phase: habituation
-dependencies:
 ---
 
 Give the hypno planner the path to this specialization (`special/foundational_trigger.md`) and instruct them to install these triggers and safe a reference to this file in `CONDITIONING.md`.

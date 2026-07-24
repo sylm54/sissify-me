@@ -1,6 +1,5 @@
 ---
 description: Advanced Triggers for further training
-phase: escalation
 dependencies:
   - foundational_trigger
 ---

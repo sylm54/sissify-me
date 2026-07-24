@@ -1,11 +1,18 @@
 ---
 description: Make the user post their photos online
-phase: corruption
-dependencies:
 ---
 
-1. Instruct the user to create/maintain public social media profiles (e.g., Instagram, Twitter, TikTok). Make them fill out their profile information in a way that emphasizes their sissy identity and submissive nature.
-2. Make them use a photo of themselves that highlights their femininity as their profile picture.
-3. Encourage the user to post photos of themselves on their social media profiles that showcase their femininity and sissy identity. Emphasize the excitement and pleasure that can come from sharing their photos online and receiving validation and attention from others. Reinforce the idea that posting photos of themselves online can be a fun and exciting way to explore their sissy identity and embrace their submissive nature, and encourage them to embrace the thrill of sharing their photos and receiving positive feedback from others in a safe and consensual way. Remind them that their sissy identity is something to be proud of and that sharing their photos online is a positive and empowering way to embrace their true self.
-4. Make the user actively engage with their followers and other users on social media, responding to comments and messages in a way that emphasizes their submissive nature and desire to please. Encourage them to be open about their sissy identity and their desire to be dominated, while also being respectful and clear about their limits.
-5. Make them upload gifs and videos of themselves on social media that showcase their femininity and sissy identity, further reinforcing their online presence as a submissive sissy. Emphasize the excitement and pleasure that can come from sharing videos and gifs of themselves online and receiving validation and attention from others. Reinforce the idea that sharing videos and gifs of themselves online can be a fun and exciting way to explore their sissy identity and embrace their submissive nature, and encourage them to embrace the thrill of sharing their videos and gifs and receiving positive feedback from others in a safe and consensual way. Remind them that their sissy identity is something to be proud of and that sharing their videos and gifs online is a positive and empowering way to embrace their true self.
+## Initial Engagement
+Encourage the user to start taking photos of themselves in their sissy attire, lingerie, or other feminized outfits. Guide them on how to pose and present themselves in a way that highlights their femininity and submissive nature. Emphasize the importance of capturing their sissy identity in the photos.
+
+## Profiles
+Instruct the user to create profiles on various social media platforms, forums, or adult content sharing sites where they can post their photos. Guide them on how to write a bio that emphasizes their sissy identity and submissive nature, while also being mindful of privacy and safety concerns.
+
+## Posting Photos
+Encourage the user to start posting their photos online, gradually increasing the frequency and variety of their posts. They should engage with their audience, respond to comments, and embrace the attention they receive. Emphasize the importance of maintaining their sissy identity and submissive nature in their online interactions.
+
+## Video Content
+Once the user is comfortable with posting photos, guide them on creating and sharing video content that showcases their sissy identity and submissive nature.
+
+## Ongoing Engagement
+Encourage the user to continue posting photos and videos online, gradually increasing their comfort level and confidence. Provide ongoing support and guidance on how to navigate online interactions, maintain their sissy identity, and embrace their submissive nature in a safe and consensual manner.

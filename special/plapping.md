@@ -1,7 +1,5 @@
 ---
 description: Train the user to plap(lightly slap balls) instead of touching their clit.
-phase: escalation
-dependencies:
 ---
 
 1. Make the user plap while they jerk off. For every stroke they have to do one hit. They have to put a chasitity ring on or bind their balls otherwise. Everytime they come near the edge, they have to stop and plap their balls instead of touching their clit. They cant touch their clit until they either are fully off the edge or reach orgasm by plapping. If the user can reliably cum within 3 edges via plapping go to step 2.
