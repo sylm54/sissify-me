@@ -8,8 +8,6 @@ Before implementing the cocklust specialization, it's essential to assess the us
 ## Reinforcement Strategies
 ### Hypno Sessions
 - **Cocklust Suggestions**: Create hypno sessions that focus on amplifying the user's attraction to cock. Use vivid imagery, sensory language, and erotic suggestions to enhance their desire and sexualize their fantasies. Include affirmations that reinforce their growing obsession and craving for cock.
-- **Desensitization**: Gradually introduce scenarios that normalize and eroticize cock-related activities, helping the user become more comfortable and aroused by the idea of cock. This can include visualizations, role-playing scenarios, and guided fantasies.
 - **Trigger Conditioning**: Implement triggers that elicit cocklust responses, such as specific words, phrases, or visual cues. Reinforce these triggers during hypno sessions and in daily interactions to strengthen the association between cock and sexual arousal.
 ### Daily Practices
-- **Affirmation Repetition**: Encourage the user to repeat cocklust affirmations throughout the day, reinforcing their desire and attraction to cock.
-- **Visual Stimulation**: Provide access to visual content that enhances their sexual interest in cock, ensuring it aligns with their evolving preferences and comfort level.
+- **Visual Stimulation**: Encourage the user to engage in daily visual stimulation, such as viewing images or videos that feature cock. This can help normalize their attraction and increase their sexual arousal over time.

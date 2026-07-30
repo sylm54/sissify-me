@@ -3,7 +3,7 @@ description: Train the user to be more submissive and obedient, getting them to 
 ---
 
 ## Submission Drills
-Create audio drills that command the user to perform specific tasks or follow instructions. These drills should be designed to reinforce obedience and submission, with clear and concise commands that leave no room for interpretation. The user should be encouraged to complete the tasks without hesitation or questioning.
+Use active audios that command the user to perform specific tasks or follow instructions. These drills should be designed to reinforce obedience and submission, with clear and concise commands that leave no room for interpretation. The user should be encouraged to complete the tasks without hesitation or questioning.
 
 ## Defer Decision-Making
 Make the user discuss decisions and plans with you before taking action. Then change decisions, alter plans, or add new instructions to reinforce the user's submissive mindset and obedience.
