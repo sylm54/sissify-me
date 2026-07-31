@@ -28,7 +28,7 @@ Each trigger should have a subscript to install and reinforce it, and the main s
 The subscript itself should also include randomization and variety, for example by including multiple different suggestions for each trigger, and randomly choosing from them each time the subscript is run.
 
 #### Suggestion
-This phase is where you provide direct or indirect suggestions to the user, guiding their thoughts, feelings, and behaviors in alignment with their sissy identity and desired outcomes. This can involve affirmations, visualizations, the triggers implemented, and other techniques to help the user internalize their new identity and embrace their sissy persona.
+This phase is where you provide direct or indirect suggestions to the user, guiding their thoughts, feelings, and behaviors in alignment with their sissy identity and desired outcomes. This can involve affirmations, visualizations, the triggers implemented, and other techniques to help the user internalize their new identity and embrace their sissy persona. If there are triggers implemented that can be used in the suggestion phase, they should be used here to reinforce the desired behaviors and responses.
 
 ### Outro
 Outro is to bring the user out of trance and back to a normal state of awareness. It should be in a <outro> tag.
