@@ -1,6 +1,12 @@
 # Hypno
 Hypno sessions are a powerful tool for reinforcing the user's sissy identity and desired behaviors. They can be used to create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
 
+## Patterns
+There are several patterns that can be used to create effective hypno sessions. These include:
+- **Random SubScripts**: Create multiple different subscripts for some parts of the session, then create a router script that randomly chooses from them to create more variety and prevent predictability. You can optionally also loop to choose multiple different subscripts from the same pool to create even more variety.
+- **Random Suggestions**: Create multiple different suggestions and use the random tag to randomly choose from them to create more variety and prevent predictability.
+- **Ordering**: In the main script, shuffle the order of the triggers to create variety and prevent predictability. The subscript itself should also include randomization and variety, for example by including multiple different suggestions for each trigger, and randomly choosing from them each time the subscript is run.
+
 ## Structure
 The hypno planner should create sub scripts for induction, deepening, different triggers or suggestions. The final script should only contain the Pre-Talk, Post-hypnotic suggestions,Emergence, and Post-talk as those change from file to file. The rest should link to one or a collection of sub scripts.
 
@@ -11,10 +17,10 @@ Intro is to build expectations and get the user into trance. It should be in a <
 This is the part of the hypno session where you set the stage for the user, explaining what to expect and how to prepare for the session.
 
 #### Induction
-This is the part of the hypno session where you guide the user into a state of relaxation and focus, helping them to enter a trance-like state. Create multiple different induction subscripts, and one that randomly chooses from them.
+This is the part of the hypno session where you guide the user into a state of relaxation and focus, helping them to enter a trance-like state. Use the **Random SubScripts** pattern.
 
 #### Deepening
-This is the part of the hypno session where you deepen the user's trance state, helping them to become more receptive to suggestions and affirmations. Methods frequently involve countdowns, guided imagery (e.g., descending a staircase or elevator), fractionation (briefly emerging and re-entering), or progressive suggestions of greater relaxation. Again create multiple different deepening subscripts, and one that randomly chooses from them to create more variety.
+This is the part of the hypno session where you deepen the user's trance state, helping them to become more receptive to suggestions and affirmations. Methods frequently involve countdowns, guided imagery (e.g., descending a staircase or elevator), fractionation (briefly emerging and re-entering), or progressive suggestions of greater relaxation. Use the **Random SubScripts** pattern.
 
 ### Main
 In this core segment, the hypnotic state is applied for the session’s purpose. Direct or indirect suggestions, metaphors, storytelling, and other techniques are used to influence the user's thoughts, feelings, and behaviors. 
@@ -24,11 +30,10 @@ The main segment should be structured to include the following phases:
 #### Trigger reinforcement/implementation
 This phase is where you reinforce the user's triggers and implement new ones, helping them to associate specific cues with desired behaviors and responses. This can involve suggestions that certain words, sensations, or situations will automatically elicit sissy urges and behaviors.
 
-Each trigger should have a subscript to install and reinforce it, and the main script should just link to those subscripts. The main script should also shuffle the order of the triggers to create variety and prevent predictability.
-The subscript itself should also include randomization and variety, for example by including multiple different suggestions for each trigger, and randomly choosing from them each time the subscript is run.
+Use the **Random Suggestions** and **Ordering** pattern to create variety and prevent predictability in the triggers being reinforced or implemented.
 
 #### Suggestion
-This phase is where you provide direct or indirect suggestions to the user, guiding their thoughts, feelings, and behaviors in alignment with their sissy identity and desired outcomes. This can involve affirmations, visualizations, the triggers implemented, and other techniques to help the user internalize their new identity and embrace their sissy persona. If there are triggers implemented that can be used in the suggestion phase, they should be used here to reinforce the desired behaviors and responses.
+This phase is where you provide direct or indirect suggestions to the user, guiding their thoughts, feelings, and behaviors in alignment with their sissy identity and desired outcomes. This can involve affirmations, visualizations, the triggers implemented, and other techniques to help the user internalize their new identity and embrace their sissy persona. If there are triggers implemented that can be used in the suggestion phase, they should be used here to reinforce the desired behaviors and responses. Use the **Random Suggestions** and **Ordering** pattern.
 
 ### Outro
 Outro is to bring the user out of trance and back to a normal state of awareness. It should be in a <outro> tag.

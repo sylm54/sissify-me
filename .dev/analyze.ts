@@ -1,9 +1,14 @@
 #!/usr/bin/env bun
 /**
- * Agent Prompt Repo Analyzer
- * Usage:
- *   bun analyze.ts view [prompts-dir]
- *   bun analyze.ts lint [prompts-dir]
+ * Framework Analyzer
+ *
+ * Walks the prompts/ directory of the sissify-me framework, resolving
+ * {{{embed}}} includes and `path/file.md` links, and reports token sizes
+ * and broken references.
+ *
+ * Usage (defaults to <repo-root>/prompts, so it works from any cwd):
+ *   bun analyze.ts view [prompts-dir]   Recursive tree: tokens, embeds, links, headings
+ *   bun analyze.ts lint [prompts-dir]   Warn/error on token overflows + broken refs
  */
 
 import { readdir, readFile, stat } from "fs/promises";
@@ -186,13 +191,13 @@ function resolveLink(
   promptsDir: string,
   _sourceAbs: string,
 ): string {
-  // Strip leading "prompts/" (or whatever the dir basename is) if present,
-  // so `prompts/somepath/file.md` doesn't become `prompts/prompts/somepath/file.md`
+  // Strip a leading "prompts/" (or whatever the dir basename is) if present,
+  // so `prompts/somepath/file.md` doesn't become `prompts/prompts/somepath/file.md`.
   const dirBase = basename(promptsDir);
   const normalized = link.startsWith(dirBase + "/")
     ? link.slice(dirBase.length + 1)
     : link;
-  return link; //join(promptsDir, normalized);
+  return join(promptsDir, normalized);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -569,13 +574,21 @@ async function cmdLint(promptsDir: string) {
 
 async function main() {
   const [cmd, dir] = process.argv.slice(2);
-  const promptsDir = dir ?? join(process.cwd(), "prompts");
+  // Default to the framework's prompts/ directory (next to this script) so the
+  // tool works from any cwd, e.g. `bun run analyze.ts lint`.
+  const promptsDir = dir
+    ? resolve(dir)
+    : join(import.meta.dir!, "..", "prompts");
 
   if (!cmd || (cmd !== "view" && cmd !== "lint")) {
     console.log(`
 ${c.bold}Usage:${c.reset}
   bun analyze.ts ${c.cyan}view${c.reset} [prompts-dir]   Recursive tree: tokens, embeds, links, headings
   bun analyze.ts ${c.cyan}lint${c.reset} [prompts-dir]   Warn/error on token overflows + broken refs
+
+${c.bold}Defaults:${c.reset}
+  prompts-dir defaults to <repo>/prompts, so you can run it from anywhere:
+  ${c.dim}bun run analyze.ts lint${c.reset}
 
 ${c.bold}Token thresholds:${c.reset}
   ${c.yellow}warn${c.reset}   file > 800t  |  heading > 800t
