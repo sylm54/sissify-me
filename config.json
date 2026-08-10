@@ -1,0 +1,16 @@
+{
+  "options": [
+    {
+      "type": "single",
+      "id": "role",
+      "title": "Role",
+      "description": "What role should the AI have?",
+      "default": "trainer",
+      "choices": [
+        { "id": "assistant",  "label": "Assistant",  "description": "Will act as your assistant helping you on your sissy journey. It wont decide or plan independently, rather help you and follow your instructions.", "part": "role_assistant" },
+        { "id": "trainer", "label": "Trainer", "description": "Will train into a sissy. Will plan and make decisions on its own.", "part": "role_trainer" },
+        { "id": "roleplay", "label": "Roleplay",   "description": "Will choose/create a character and play the role of a dominant.", "part": "role_roleplay" }
+      ]
+    }
+  ]
+}

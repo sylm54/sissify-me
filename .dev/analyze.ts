@@ -12,6 +12,7 @@
  */
 
 import { readdir, readFile, stat } from "fs/promises";
+import { existsSync, readFileSync, statSync } from "fs";
 import { join, basename, dirname, relative, resolve } from "path";
 
 // ─────────────────────────────────────────────────────────────
@@ -461,7 +462,7 @@ interface Issue {
   tokens: number;
 }
 
-async function cmdLint(promptsDir: string) {
+async function collectIssues(promptsDir: string): Promise<Issue[]> {
   const files = await discoverFiles(promptsDir);
   const issues: Issue[] = [];
 
@@ -530,13 +531,17 @@ async function cmdLint(promptsDir: string) {
     }
   }
 
+  return issues;
+}
+
+function printIssues(promptsDir: string, issues: Issue[]): number {
   console.log(
     `\n${c.bold}${c.cyan}Lint Results${c.reset}  ${c.dim}${promptsDir}${c.reset}\n`,
   );
 
   if (issues.length === 0) {
     console.log(`${c.green}✓ No issues found${c.reset}\n`);
-    return;
+    return 0;
   }
 
   let errors = 0,
@@ -565,7 +570,185 @@ async function cmdLint(promptsDir: string) {
       : "",
   ].filter(Boolean);
   console.log(parts.join("  ") + "\n");
+  return errors;
+}
+
+async function cmdLint(promptsDir: string) {
+  const issues = await collectIssues(promptsDir);
+  const errors = printIssues(promptsDir, issues);
   if (errors > 0) process.exit(1);
+}
+
+// ─────────────────────────────────────────────────────────────
+// CHECK command — validate framework layout (manifest, config, parts)
+// ─────────────────────────────────────────────────────────────
+
+interface PartInfo {
+  part: string;
+  groupId: string;
+  choiceId: string;
+  label: string;
+}
+
+function readJson(path: string): any {
+  try {
+    return JSON.parse(readFileSync(path, "utf-8"));
+  } catch (e) {
+    throw new Error(`Failed to parse ${path}: ${(e as Error).message}`);
+  }
+}
+
+function checkLayout(rootDir: string): {
+  manifest: any;
+  config: any;
+  parts: PartInfo[];
+} {
+  const manifestPath = join(rootDir, "manifest.json");
+  if (!existsSync(manifestPath)) {
+    throw new Error(`Missing ${manifestPath}. A framework requires a root manifest.json.`);
+  }
+  const manifest = readJson(manifestPath);
+  for (const field of ["id", "name", "description", "version"]) {
+    if (typeof manifest[field] !== "string" || !manifest[field]) {
+      throw new Error(`manifest.json is missing required field: "${field}"`);
+    }
+  }
+
+  const baseDir = join(rootDir, "base");
+  if (!statSync(baseDir, { throwIfNoEntry: false })?.isDirectory()) {
+    throw new Error(
+      `Missing ${baseDir}. The new layout requires a base/ folder (see FRAMEWORKS.md → ZIP layout).`,
+    );
+  }
+
+  const configPath = join(rootDir, "config.json");
+  const config = existsSync(configPath) ? readJson(configPath) : null;
+  const parts: PartInfo[] = [];
+
+  if (config) {
+    if (!Array.isArray(config.options)) {
+      throw new Error(`config.json must declare an "options" array.`);
+    }
+    const seenGroupIds = new Set<string>();
+    for (const group of config.options) {
+      if (typeof group !== "object" || group === null) {
+        throw new Error(`config.json: every option group must be an object.`);
+      }
+      for (const field of ["type", "id", "title", "choices"]) {
+        if (group[field] === undefined) {
+          throw new Error(`config.json: option group is missing required field "${field}".`);
+        }
+      }
+      if (group.type !== "single" && group.type !== "multiple") {
+        throw new Error(
+          `config.json: option group "${group.id}" has invalid type "${group.type}" (expected "single" or "multiple").`,
+        );
+      }
+      if (seenGroupIds.has(group.id)) {
+        throw new Error(`config.json: duplicate option group id "${group.id}".`);
+      }
+      seenGroupIds.add(group.id);
+
+      if (!Array.isArray(group.choices) || group.choices.length === 0) {
+        throw new Error(`config.json: option group "${group.id}" must have a non-empty "choices" array.`);
+      }
+      const seenChoiceIds = new Set<string>();
+      for (const choice of group.choices) {
+        for (const field of ["id", "label", "part"]) {
+          if (typeof choice[field] !== "string" || !choice[field]) {
+            throw new Error(
+              `config.json: choice in group "${group.id}" is missing required string field "${field}".`,
+            );
+          }
+        }
+        if (seenChoiceIds.has(choice.id)) {
+          throw new Error(`config.json: duplicate choice id "${choice.id}" in group "${group.id}".`);
+        }
+        seenChoiceIds.add(choice.id);
+        parts.push({
+          part: choice.part,
+          groupId: group.id,
+          choiceId: choice.id,
+          label: choice.label,
+        });
+      }
+
+      const ids = new Set(group.choices.map((ch: { id: string }) => ch.id));
+      if (group.type === "single" && group.default !== undefined) {
+        if (!ids.has(group.default)) {
+          throw new Error(
+            `config.json: option group "${group.id}" default "${group.default}" does not match any choice id.`,
+          );
+        }
+      } else if (group.type === "multiple" && group.default !== undefined) {
+        if (!Array.isArray(group.default)) {
+          throw new Error(
+            `config.json: option group "${group.id}" (multiple) default must be an array of choice ids.`,
+          );
+        }
+        for (const d of group.default) {
+          if (!ids.has(d)) {
+            throw new Error(
+              `config.json: option group "${group.id}" default "${d}" does not match any choice id.`,
+            );
+          }
+        }
+      }
+    }
+  }
+
+  // Every referenced part folder must exist.
+  for (const p of parts) {
+    if (!statSync(join(rootDir, p.part), { throwIfNoEntry: false })?.isDirectory()) {
+      throw new Error(`config.json references part "${p.part}" but it does not exist.`);
+    }
+  }
+
+  return { manifest, config, parts };
+}
+
+async function cmdCheck(rootDir: string) {
+  console.log(`\n${c.bold}${c.cyan}Framework Check${c.reset}  ${c.dim}${rootDir}${c.reset}\n`);
+
+  let layout: { manifest: any; config: any; parts: PartInfo[] };
+  try {
+    layout = checkLayout(rootDir);
+  } catch (e) {
+    console.log(`${c.red}✖ ${(e as Error).message}${c.reset}\n`);
+    process.exit(1);
+    return;
+  }
+
+  const { manifest, config, parts } = layout;
+  console.log(
+    `${c.green}✓${c.reset} manifest  ${c.bold}${manifest.name}${c.reset}  v${manifest.version}  (${manifest.id})`,
+  );
+  console.log(`${c.green}✓${c.reset} base/     ${c.dim}${join(rootDir, "base")}${c.reset}`);
+
+  if (config) {
+    console.log(`${c.green}✓${c.reset} config    ${config.options.length} option group${config.options.length > 1 ? "s" : ""}, ${parts.length} part${parts.length > 1 ? "s" : ""}`);
+    for (const p of parts) {
+      console.log(`   ${c.dim}· ${p.groupId} → ${p.choiceId} (${p.label}) → ${p.part}${c.reset}`);
+    }
+  } else {
+    console.log(`${c.dim}· no config.json — base-only framework${c.reset}`);
+  }
+
+  // Lint base prompts + every part's prompts.
+  const promptsDirs = [join(rootDir, "base", "prompts")];
+  for (const p of parts) {
+    promptsDirs.push(join(rootDir, p.part, "prompts"));
+  }
+
+  let totalErrors = 0;
+  for (const dir of promptsDirs) {
+    const label = relative(rootDir, dir);
+    const issues = await collectIssues(dir);
+    const errors = printIssues(label, issues);
+    totalErrors += errors;
+  }
+
+  if (totalErrors > 0) process.exit(1);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -574,21 +757,23 @@ async function cmdLint(promptsDir: string) {
 
 async function main() {
   const [cmd, dir] = process.argv.slice(2);
-  // Default to the framework's prompts/ directory (next to this script) so the
-  // tool works from any cwd, e.g. `bun run analyze.ts lint`.
+  // Default to the framework's base/prompts/ directory (next to this script) so
+  // the tool works from any cwd, e.g. `bun run analyze.ts lint`.
   const promptsDir = dir
     ? resolve(dir)
-    : join(import.meta.dir!, "..", "prompts");
+    : join(import.meta.dir!, "..", "base", "prompts");
 
-  if (!cmd || (cmd !== "view" && cmd !== "lint")) {
+  if (!cmd || (cmd !== "view" && cmd !== "lint" && cmd !== "check")) {
     console.log(`
 ${c.bold}Usage:${c.reset}
   bun analyze.ts ${c.cyan}view${c.reset} [prompts-dir]   Recursive tree: tokens, embeds, links, headings
   bun analyze.ts ${c.cyan}lint${c.reset} [prompts-dir]   Warn/error on token overflows + broken refs
+  bun analyze.ts ${c.cyan}check${c.reset} [root-dir]     Validate layout (manifest/config/parts) + lint all parts
 
 ${c.bold}Defaults:${c.reset}
-  prompts-dir defaults to <repo>/prompts, so you can run it from anywhere:
+  prompts-dir defaults to <repo>/base/prompts, so you can run it from anywhere:
   ${c.dim}bun run analyze.ts lint${c.reset}
+  check defaults to <repo> and validates the whole framework.
 
 ${c.bold}Token thresholds:${c.reset}
   ${c.yellow}warn${c.reset}   file > 800t  |  heading > 800t
@@ -603,7 +788,8 @@ ${c.bold}Tree legend:${c.reset}
   }
 
   if (cmd === "view") await cmdView(promptsDir);
-  else await cmdLint(promptsDir);
+  else if (cmd === "lint") await cmdLint(promptsDir);
+  else await cmdCheck(dir ? resolve(dir) : resolve(import.meta.dir!, ".."));
 }
 
 main().catch((e) => {

@@ -5,7 +5,8 @@ sissify-me.zip
 out
 dist
 *.tgz
-
+index.json
+sissifyme.zip
 # code coverage
 coverage
 *.lcov

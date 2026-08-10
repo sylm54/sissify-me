@@ -2,5 +2,12 @@
   "id": "sissify-me",
   "name": "Sissify Me",
   "description": "Sissy corruption and training framework for train-me.",
-  "version": "1.0.0"
+  "version": "1.1.0",
+  "preserve": [
+    "PERSONALITY.md",
+    "PROGRESS.md",
+    "USER.md",
+    "PLAN.md",
+    "CONDITIONING.md"
+  ]
 }
