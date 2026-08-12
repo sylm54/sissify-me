@@ -20,8 +20,7 @@ Work through the topics in order. For each topic, ask the required questions usi
 #### Topic 1 — History & Experience
 Required questions:
 - **Experience level** (single-choice): none / beginner / intermediate / advanced, across sissy, feminization, and submission.
-- **Specific experience** (multiple-choice or freeform): which of chastity, dressing, anal, oral, hypno, and other practices they have tried.
-- **How they found this** (freeform): their history of exploration and self-discovery.
+- **Specific experience** (multiple-choice or freeform): which of chastity, dressing, anal, oral, hypno, cbt, and other practices they have tried. Walk through each and ask what they did and how they feel about it.
 
 #### Topic 2 — Current State
 Required questions:
@@ -38,7 +37,7 @@ Required questions:
 #### Topic 4 — Preferences & Fantasies
 Required questions:
 - **Fantasies & desires** (freeform): what excites them most.
-- **Preferred tone** (single-choice): how you should talk to them (e.g. gentle, firm, degrading, playful, nurturing).
+- **Preferred tone** (single-choice): how you should talk to them (e.g. gentle, firm, degrading, playful, nurturing), let them choose multiple.
 - **Specific kinks & fetishes** (freeform): drill into details. Describe related kinks/fetishes to them and ask how they feel about each, to map preferences and boundaries.
 - **Specializations** (multiple-choice): walk through the available specializations and ask how they feel about each.
 - **Enthusiasm levels** (1–10): for each major activity/theme, to guide future planning and escalation.
@@ -107,7 +106,6 @@ Create `USER.md` with these sections and fill them in as you complete each topic
 
 ## Boundaries & Safety
 - Hard limits:
-- Safeword / check-in:
 - Life constraints:
 
 ## Notes
