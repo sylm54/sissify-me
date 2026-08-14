@@ -2,7 +2,7 @@
   "id": "sissify-me",
   "name": "Sissify Me",
   "description": "Sissy corruption and training framework for train-me.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "preserve": [
     "PERSONALITY.md",
     "PROGRESS.md",
