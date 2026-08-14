@@ -16,7 +16,44 @@ Subliminals rely on a small set of patterns designed to keep the experience cons
 ## Structure
 Subliminals do not have a rigid structure like hypno or active sessions — they are designed as a continuous, immersive experience rather than a phased narrative. Keep the listener in a consistent state from start to finish and let the layered content sustain the mood. Still, consider a light opener and closer so the session feels intentional rather than abrupt.
 
-Build the session from small, reusable subscripts rather than one big script: keep the shared tone bed, opener, and closer in reusable files so every session links to the same ones, and keep the affirmation/suggestion pools and trigger-weave blocks in their own files so they can be swapped and updated independently. The final session script should be a thin composition file that layers the parts it needs. Build subscripts with subagents.
+### Folder structure
+Keep every subscript in a dedicated file under a consistent folder hierarchy so the session composition file can reference them by path. Organise scripts like this:
+
+```
+scripts/conditioning/subliminal/
+├── structural/              # reusable building blocks shared across sessions
+│   ├── opener.md
+│   ├── closer.md
+│   └── tone_bed.md          # the entrainment/noise bed definition
+├── content/                  # session-specific content that can be swapped per theme
+│   ├── affirmation_pools/    # pools of affirmation text files
+│   ├── suggestion_pools/     # suggestion text files per theme
+│   └── trigger_weave/        # trigger-weaving blocks
+└── compositions/             # thin session scripts that layer the parts they need
+    └── <session_name>.md
+```
+
+The `compositions/` folder holds the final session scripts — each one is a thin file that layers the structural and content files it combines (tone bed, opener, layered affirmation/suggestion pools with `<background>`/`<overlay>`, trigger-weave blocks, closer) plus any session-specific volume, pacing, or loop instructions.
+
+### Build subscripts with parallel subagents
+Do not write all subscripts yourself. Instead, organise the work into **2–5 parallel groups**, spawn one subagent per group, and have them run concurrently. Each subagent receives a clear, self-contained brief telling it exactly which files to produce, which folder to put them in, what patterns to use, and what content they should contain.
+
+#### Recommended grouping
+| Group | What it produces | Target folder |
+| --- | --- | --- |
+| **Tone bed & framing** | Opener, closer, and tone bed (entrainment preset selection, volume/FX settings) | `structural/` |
+| **Affirmation & suggestion pools** | Multiple affirmation pool files and suggestion pool files, using **Looping**, **Shuffling & Randomization**, and **Layer Stacking** patterns | `content/affirmation_pools/`, `content/suggestion_pools/` |
+| **Trigger-weave blocks** | Trigger-weaving blocks that reference the user's installed triggers (`special/…`, `CONDITIONING.md`), using the **Trigger Weaving** pattern | `content/trigger_weave/` |
+| **Session composition** | The thin composition file that layers the parts above with the right volume, loop counts, and optional hybrid elements | `compositions/` |
+
+#### Process
+1. **Plan the groups** based on the current session's theme and complexity. Merge or split groups so you land at 2–5 total (never fewer than 2, never more than 5).
+2. **Write a brief for each group** that names every file the group should create, specifies which folder it goes in, lists the key patterns to use (Layer Stacking, Trigger Weaving, Looping, Shuffling & Randomization, Background Saturation), and notes any triggers or specializations to reference.
+3. **Spawn all subagents in parallel**, passing each its brief. Do not spawn them sequentially — the whole point is concurrency.
+4. **Collect the results.** After every subagent finishes, review the outputs, resolve any inconsistencies across groups, and wire the composition file together.
+5. **Create the composition file** at `compositions/<session_name>.md` that layers the produced structural and content files.
+
+This approach keeps builds fast (parallel work), keeps files small and reusable (one concern per file), and keeps sessions varied (swap pool files without touching the composition).
 
 ### Opening
 A short, calming orientation that eases the listener in and sets the tone. It can establish the session's purpose ("let these words sink in") before the layered saturation begins. Keep it gentle — this is not a call to action.

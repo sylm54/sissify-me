@@ -15,7 +15,48 @@ Active sessions are built from a small set of reusable patterns. Mixing and laye
 - **Reinforcement Through Repetition**: End exercises by re-stating the suggestion or trigger they were practicing, turning the behavioral work into a conditioned moment (pair with a trigger from `CONDITIONING.md`).
 
 ## Structure
-Structure the session as Intro → Main → Outro using the structural markers. Build the session from small, reusable subscripts rather than one big script: keep shared structural parts (intro, outro, warm-up, reinforcement) in reusable files so every session links to the same ones, and keep the content parts (task pools, drill blocks, choice branches, escalation paths) in their own files so they can be swapped, extended, and updated independently. The final session script should be a thin composition file that links to the parts it needs plus any session-specific glue. Build subscripts with subagents.
+Structure the session as Intro → Main → Outro using the structural markers. Build the session from small, reusable subscripts rather than one big script.
+
+### Folder structure
+Keep every subscript in a dedicated file under a consistent folder hierarchy so the session composition file can reference them by path. Organise scripts like this:
+
+```
+scripts/conditioning/active/
+├── structural/          # reusable building blocks shared across sessions
+│   ├── intro.md
+│   ├── outro.md
+│   ├── warmup.md
+│   └── reinforcement.md
+├── content/             # session-specific content that can be swapped per theme
+│   ├── task_pools/      # individual task description files
+│   ├── drill_blocks/    # paced drill definition files
+│   ├── choice_branches/ # choice-branch definition files
+│   └── escalation_paths/
+└── compositions/        # thin session scripts that link to the parts they need
+    └── <session_name>.md
+```
+
+The `compositions/` folder holds the final session scripts — each one is a thin file that `<include>`s or references the structural and content files it combines, plus any session-specific glue. Do not put reusable parts directly in compositions.
+
+### Build subscripts with parallel subagents
+Do not write all subscripts yourself. Instead, organise the work into **3–5 parallel groups**, spawn one subagent per group, and have them run concurrently. Each subagent receives a clear, self-contained brief telling it exactly which files to produce, which folder to put them in, and what content they should contain.
+
+#### Recommended grouping
+| Group | What it produces | Target folder |
+| --- | --- | --- |
+| **Structural foundation** | Intro, outro, warm-up/grounding, reinforcement subscripts | `structural/` |
+| **Task & drill pools** | A set of task description files, drill block files, and any `<beatmeter>`/`<loop>` paced drill definitions | `content/task_pools/`, `content/drill_blocks/` |
+| **Choice & escalation paths** | Choice-branch definitions and escalation-path files (easy, medium, hard variants) | `content/choice_branches/`, `content/escalation_paths/` |
+| **Session composition** | The thin composition file that `<include>`s the parts above plus any session-specific glue | `compositions/` |
+
+#### Process
+1. **Plan the groups** based on the current session's theme and complexity. Merge or split groups so you land at 2–6 total (never fewer than 2, never more than 6).
+2. **Write a brief for each group** that names every file the group should create, specifies which folder it goes in, lists the key patterns to use (from the Patterns section above), and notes any triggers or specializations to reference.
+3. **Spawn all subagents in parallel**, passing each its brief. Do not spawn them sequentially — the whole point is concurrency.
+4. **Collect the results.** After every subagent finishes, review the outputs, resolve any inconsistencies across groups, and wire the composition file together.
+5. **Create the composition file** at `compositions/<session_name>.md` that links to the produced structural, task, and choice subscripts.
+
+This approach keeps builds fast (parallel work), keeps files small and reusable (one concern per file), and keeps sessions varied (swap content files without touching the compositione composition).
 
 ### Intro
 Set the stage: tell the user what the session will make them do, how to prepare (posture, focus, props, privacy), and what they should be ready to feel. This is your only chance before the work begins, so it should build anticipation and secure their willingness to comply. Wrap it in an `<intro>` tag.
