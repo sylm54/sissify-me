@@ -4,7 +4,8 @@ dependencies:
   - foundational_trigger
 ---
 
-Give the hypno planner the path to this specialization (`special/sissy_modes.md`) and instruct them to install these triggers and save a reference to this file in `CONDITIONING.md`.
+## Overview
+This specialization installs toggleable mode triggers that switch longer-duration conditioning states on and off. Give the hypno planner the path to this specialization (`special/sissy_modes.md`) and instruct them to install these triggers and save a reference to this file in `CONDITIONING.md`.
 
 These are **mode triggers**. Unlike one-shot cues, each mode switches a longer-duration state **on** and persists until it is switched back **off**. They are designed to be toggled during sessions or carried through daily life, and can be layered together. All modes are released by the single universal **Sissy Clear** trigger, which provides a clean, reliable way to return to normal functioning whenever a mode is no longer wanted.
 

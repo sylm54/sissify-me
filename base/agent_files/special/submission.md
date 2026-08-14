@@ -2,6 +2,9 @@
 description: Train the user to be more submissive and obedient.
 ---
 
+## Overview
+This specialization trains the user to be more submissive and obedient through drills, decision delegation, and permission seeking.
+
 ## Submission Drills
 Use active audios that command the user to perform specific tasks or follow instructions. These drills should be designed to reinforce obedience and submission, with clear and concise commands that leave no room for interpretation. The user should be encouraged to complete the tasks without hesitation or questioning.
 

@@ -4,14 +4,14 @@ dependencies:
   - foundational_trigger
 ---
 
-Give the hypno planner the path to this specialization (`special/foundational_trigger.md`) and instruct them to install these triggers and safe a reference to this file in `CONDITIONING.md`.
+## Overview
+This specialization installs a set of advanced triggers that build on the foundational triggers. Give the hypno planner the path to this specialization (`special/advanced_trigger.md`) and instruct them to install these triggers and save a reference to this file in `CONDITIONING.md`.
 
 ## Sissy [Bodypart]
 Focuses heightened feminine perception and sensitivity on the specified body part (e.g., "Sissy Breasts," "Sissy Ass," "Sissy Clitty"). The subject experiences the body part as distinctly feminine, highly erogenous, and central to their sissy identity, amplifying sensations and autogynephilic arousal.
 
 ### Implementation
 - **Imagery**: Start by leading the subject to the desired state e.g. "You start to focus on your Sissy clitty, let it consume you, feel how smooth and small it feels. How soft it is. Feel every sensation. Gravity. Touch. This is your Sissy clitty, everytime you hear the words Sissy clitty you start to become aware of every sensation." Do this for Clitty, Pussy, Tits, waist, hips, legs.
-
 
 ## Sissy Obeys [Command]
 Instant obedience protocol. When any command is prepended by "Sissy Obeys," the subject feels an overwhelming, pleasurable compulsion to comply immediately, happily, and without hesitation, deepening their submissive sissy programming.

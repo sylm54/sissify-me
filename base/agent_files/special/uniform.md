@@ -4,6 +4,9 @@ dependencies:
   - sissy_persona
 ---
 
+## Overview
+This specialization creates a sissy uniform that anchors the user to a sissy persona through clothing, conditioning, and reinforcement.
+
 ## Select the Clothing
 Choose clothing that symbolically and sensorially aligns with it—such as fabrics, colors, fits, or accessories that evoke the intended shift. The item should be distinctive yet practical for repeated use. Ensure it is comfortable enough to wear during extended sessions to reinforce positive associations.
 
