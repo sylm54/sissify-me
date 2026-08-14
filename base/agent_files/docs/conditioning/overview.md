@@ -10,9 +10,14 @@ The three types form a complementary cycle, not a hierarchy:
 | **Subliminal** | Layering + repetition | *Saturates* the user with identity and suggestions during passive listening | Cement long-term identity, keep triggers warm, sleep/passive support |
 
 ## How to request a session
-When you spawn the Hypno Planner, tell it **what kind of session** you want, **what theme/goal** to cover, and **which specializations / triggers / data** to draw on. Reference the relevant specialization files (e.g. `special/brainwashing.md`, `special/chastity.md`) and any installed triggers stored in `CONDITIONING.md` so the recording stays consistent with existing conditioning.
+When you spawn the Hypno Planner, tell it **what kind of session** you want, **what theme/goal** to cover, and **which specializations / triggers / data** to draw on. Reference the relevant specialization files (e.g. `special/brainwashing.md`, `special/chastity.md`).
 
 Because the subagent cannot see your conversation, make the request self-contained: name the conditioning type, the target theme, the specific triggers or specializations to use, the preferred difficulty/intensity, and any content to avoid based on the user's limits (from `USER.md`).
+
+## Keep hypno and subliminal general and timeless
+For **hypno** and **subliminal** sessions, keep the content general and timeless. Do not anchor it to specific times of day, dates, or other narrow, situational facts (e.g. "when you wake up", "every evening at 8pm", "tonight", "this week"). Those details drift and become stale as the same session is reused across many days, so they will eventually contradict the user's actual routine and weaken the conditioning.
+
+Instead, phrase suggestions around durable, context-free cues that hold up on any day and at any hour — for example "whenever you're alone", "when you're relaxed", "when you hear the trigger", or "whenever you're in a quiet moment". Keep the framing about the user's identity, triggers, and compulsions rather than a fixed schedule. This applies to the request you send to the Hypno Planner and, through it, to the session it produces.
 
 ## When to use each type
 
@@ -49,6 +54,4 @@ For sustained transformation, vary the mix rather than repeating one type:
 - Use **active** to practice and reinforce those triggers through behavior and to gather data on the user's progress and limits.
 - Use **subliminal** to keep the conditioning constantly present between sessions, especially overnight or during passive time.
 
-Escalate gradually and respect the user's limits: let active check-ins and ratings inform how far to push, and always lean on the user's documented boundaries from `USER.md`.
-
-The subagent's detailed guidelines live in the sibling files `hypno.md`, `active.md`, and `subliminal.md` — read those for the full structural and stylistic rules when planning a detailed request.
+The subagent's detailed guidelines live in the sibling files `hypno.md`, `active.md`, and `subliminal.md`.

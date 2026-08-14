@@ -16,6 +16,8 @@ Subliminals rely on a small set of patterns designed to keep the experience cons
 ## Structure
 Subliminals do not have a rigid structure like hypno or active sessions — they are designed as a continuous, immersive experience rather than a phased narrative. Keep the listener in a consistent state from start to finish and let the layered content sustain the mood. Still, consider a light opener and closer so the session feels intentional rather than abrupt.
 
+Build the session from small, reusable subscripts rather than one big script: keep the shared tone bed, opener, and closer in reusable files so every session links to the same ones, and keep the affirmation/suggestion pools and trigger-weave blocks in their own files so they can be swapped and updated independently. The final session script should be a thin composition file that layers the parts it needs. Build subscripts with subagents.
+
 ### Opening
 A short, calming orientation that eases the listener in and sets the tone. It can establish the session's purpose ("let these words sink in") before the layered saturation begins. Keep it gentle — this is not a call to action.
 

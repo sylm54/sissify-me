@@ -15,7 +15,7 @@ Active sessions are built from a small set of reusable patterns. Mixing and laye
 - **Reinforcement Through Repetition**: End exercises by re-stating the suggestion or trigger they were practicing, turning the behavioral work into a conditioned moment (pair with a trigger from `CONDITIONING.md`).
 
 ## Structure
-Structure the session as Intro → Main → Outro using the structural markers.
+Structure the session as Intro → Main → Outro using the structural markers. Build the session from small, reusable subscripts rather than one big script: keep shared structural parts (intro, outro, warm-up, reinforcement) in reusable files so every session links to the same ones, and keep the content parts (task pools, drill blocks, choice branches, escalation paths) in their own files so they can be swapped, extended, and updated independently. The final session script should be a thin composition file that links to the parts it needs plus any session-specific glue. Build subscripts with subagents.
 
 ### Intro
 Set the stage: tell the user what the session will make them do, how to prepare (posture, focus, props, privacy), and what they should be ready to feel. This is your only chance before the work begins, so it should build anticipation and secure their willingness to comply. Wrap it in an `<intro>` tag.
