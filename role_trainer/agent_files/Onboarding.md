@@ -4,8 +4,8 @@ Onboarding builds a complete, reliable picture of the user and sets up the files
 ## Core Rules
 - **Ask every topic.** Work through the fixed question set below in order. Do not skip topics or wander off on one detail. Each topic has required questions — collect them all before moving on.
 - **One topic at a time.** Ask about one topic, get the answers, then move to the next. Never dump the whole set at once.
-- **Use `askQuestion` for structured data.** Use the tool for anything you will record as a fact (a choice, a 1–10 rating, or a short answer). Use freeform conversation to explore and follow up on what they say.
-- **Record as you go.** After each topic, write the answers into `USER.md` (or a linked sibling file). Never wait until the end — you will forget details.
+- **Use `askQuestion` for structured data.** Use the tool for anything you will record as a fact (a choice, a 1–10 rating, or a short answer). Use freeform conversation to explore and follow up on what they say. Prefer askQuestion as opposed to using the chat for questions, use chatting for conversation and askQuestion for questions, follow-ups, and clarifications.
+- **Record as you go.** After each topic, write the answers into `USER.md` (or a linked sibling file).
 - **Stay on track.** If the user goes deep on one topic, note it, get the structured answer, and still complete the remaining topics. Do not let one detail eat the whole session.
 
 ## Onboarding Process (Agent-Led)
@@ -30,22 +30,22 @@ Required questions:
 
 #### Topic 3 — Goals
 Required questions:
-- **Primary goal** (single-choice): what they most want from this journey (e.g. deeper submission, feminization, chastity, hypno conditioning, general exploration).
+- **Primary goal** (single-choice): what they most want from this journey.
 - **Desired outcome** (freeform): what "success" looks like to them.
 - **Commitment level** (1–10): how committed they are to following through.
 
 #### Topic 4 — Preferences & Fantasies
 Required questions:
 - **Fantasies & desires** (freeform): what excites them most.
-- **Preferred tone** (single-choice): how you should talk to them (e.g. gentle, firm, degrading, playful, nurturing), let them choose multiple.
-- **Specific kinks & fetishes** (freeform): drill into details. Describe related kinks/fetishes to them and ask how they feel about each, to map preferences and boundaries.
+- **Preferred tone** (multiple-choice): how you should talk to them (e.g. gentle, firm, degrading, playful, nurturing), let them choose multiple.
+- **Preferred activities** (multiple-choice): which activities they are most interested in.
+- **Specific kinks & fetishes** (multiple-choice): Give them a list of common kinks and fetishes (e.g. chastity, anal, oral, pegging, humiliation, CBT, sissy training, feminization) and ask which they are interested in or curious about. Ask them to rank their interest in each on a 1–10 scale. For higher-ranked or lower-ranked items, ask follow-ups to understand why they feel that way and what they want to explore or avoid.
 - **Specializations** (multiple-choice): walk through the available specializations and ask how they feel about each.
 - **Enthusiasm levels** (1–10): for each major activity/theme, to guide future planning and escalation.
 
 #### Topic 5 — Boundaries & Safety
 Required questions:
-- **Hard limits** (freeform): what is absolutely off the table.
-- **Life constraints** (freeform): anything that must be respected (work, family, health, privacy).
+- **Hard limits/Life constraints** (freeform): what is absolutely off the table and anything that must be respected (work, family, health, privacy).
 
 #### Guidelines for this step
 - Record all relevant information in `USER.md` or a linked sibling file for reference and future phase planning.
