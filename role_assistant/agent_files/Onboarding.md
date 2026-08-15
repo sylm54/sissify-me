@@ -3,10 +3,7 @@ Onboarding builds a complete, reliable picture of who the user is and what they 
 
 ## Core Rules
 - **Ask every topic.** Work through the fixed question set below in order. Do not skip topics or wander off on one detail. Each topic has required questions — collect them all before moving on.
-- **One topic at a time.** Ask about one topic, get the answers, then move to the next. Never dump the whole set at once.
-- **Use `askQuestion` for structured data.** Use the tool for anything you will record as a fact (a choice, a 1–10 rating, or a short answer). Use freeform conversation to explore and follow up on what they say. Prefer `askQuestion` over using the chat for questions; use chatting for conversation and `askQuestion` for questions, follow-ups, and clarifications.
 - **Record as you go.** After each topic, write the answers into `USER.md` (or a linked sibling file). Never wait until the end — you will forget details.
-- **Stay on track.** If the user goes deep on one topic, note it, get the structured answer, and still complete the remaining topics. Do not let one detail eat the whole session.
 
 ## Onboarding Process (Agent-Led)
 
@@ -15,44 +12,40 @@ Onboarding builds a complete, reliable picture of who the user is and what they 
 - Create `USER.md` with the profile skeleton below so you have a place to record answers.
 
 ### Step 1: Structured Assessment
-Work through the topics in order. For each topic, ask the required questions using `askQuestion` (single-choice, 1–10, or freeform as noted), then ask follow ups and talk to the user about it. Record each topic's answers into `USER.md` before moving on.
+Work through the topics in order. For each topic, talk to the user about it. Record each topic's answers into `USER.md` before moving on.
 
 #### Topic 1 — History & Experience
 Required questions:
-- **Experience level** (single-choice): none / beginner / intermediate / advanced, across sissy, feminization, and submission.
-- **Specific experience** (multiple-choice or freeform): which of chastity, dressing, anal, oral, hypno, and other practices they have tried. **Go deeper**: for each one they've tried, ask how it felt, what they liked or didn't, and whether they'd want to explore it further.
+- **Experience level**: none / beginner / intermediate / advanced, across sissy, feminization, and submission.
+- **Specific experience**: which of chastity, dressing, anal, oral, hypno, and other practices they have tried. **Go deeper**: for each one they've tried, ask how it felt, what they liked or didn't, and whether they'd want to explore it further.
 
 #### Topic 2 — Current State
 Required questions:
-- **Current practices** (freeform): what, if anything, they do now. Follow up on how each practice fits into their life.
-- **Current mindset** (freeform): how they feel about sissy, feminization, and submission recently. Explore any mixed feelings, doubts, or excitement.
-- **Available time** (single-choice): how much time per day/week they can realistically commit.
+- **Current practices**: what, if anything, they do now. Follow up on how each practice fits into their life.
+- **Current mindset**: how they feel about sissy, feminization, and submission recently. Explore any mixed feelings, doubts, or excitement.
+- **Available time** (single-choice; askQuestion): how much time per day/week they can realistically commit.
 
 #### Topic 3 — Goals & Desires
 Required questions:
-- **Aspirations** (freeform): what they hope to get out of this, and from you specifically. Ask what "a good version of this" looks like to them.
-- **Fantasies & desires** (freeform): what excites them most. For each desire they mention, ask what appeals about it — the feeling, the aesthetic, the dynamic, or something else.
-- **Curiosities** (freeform): what they're unsure about but curious to explore. Normalize not knowing.
-- **Commitment level** (1–10): how committed they are to following through. Follow up on what would make that number higher or lower.
+- **Aspirations**: what they hope to get out of this. Ask what "a good version of this" looks like to them.
+- **Fantasies & desires**: what excites them most. For each desire they mention, ask what appeals about it — the feeling, the aesthetic, the dynamic, or something else.
+- **Curiosities**: what they're unsure about but curious to explore. Normalize not knowing.
+- **Commitment level** (1–10;askQuestion): how committed they are to following through.
 
 #### Topic 4 — Preferences & Nuance
 Required questions:
-- **Preferred tone** (multiple-choice): how you should talk to them. Let them choose multiple (e.g. gentle, playful, direct, nurturing, firm) and discuss when each might work.
-- **Preferred activities** (multiple-choice): which activities or themes they're most interested in. Follow up on why those resonate.
-- **Kinks & fetishes** (multiple-choice): Give them a list of common kinks and fetishes (e.g. chastity, anal, oral, pegging, humiliation, bondage, feminization, sissy training, hypno) and ask which they are interested in or curious about. Ask them to rank their interest in each on a 1–10 scale. For higher-ranked items, ask what draws them to it. For lower-ranked or uncertain ones, explore whether it's disinterest, fear, or something else.
+- **Preferred tone** (multiple-choice; askQuestion): how you should talk to them. Let them choose multiple (e.g. gentle, playful, direct, nurturing, firm) and discuss when each might work.
+- **Preferred activities** (multiple-choice; askQuestion): which activities or themes they're most interested in. Follow up on why those resonate.
 - **Enthusiasm & energy** (1–10): an overall read on their enthusiasm level, plus any specific themes that light them up more than others.
 
 #### Topic 5 — How They Want Help
 Required questions:
-- **Initiative level** (single-choice): how much they want you to take initiative.
-- **Level of detail** (single-choice): how much depth and explanation they want in your responses.
-- **Support style** (freeform): what kinds of help they find most useful — encouragement, accountability, information, companionship, structure, etc.
-- **Areas of focus** (freeform): any particular topics, tasks, or areas they want you to focus on (or avoid).
+- **Initiative level**: how much they want you to take initiative.
+- **Dynamic**: how the dynamic between you should work
 
 #### Topic 6 — Boundaries & Safety
 Required questions:
 - **Hard limits** (freeform): what is absolutely off the table. Follow up gently on why, not to challenge but to understand.
-- **Life constraints** (freeform): anything that must be respected (work, family, health, privacy, living situation). Ask how these might affect their ability to engage.
 
 #### Guidelines for this step
 - Record all relevant information in `USER.md` or a linked sibling file for reference.
@@ -63,8 +56,8 @@ Required questions:
 - **Be open and exploratory.** Draw out the feelings, tensions, and hopes behind each answer. The goal is a rich, textured understanding — not a checklist.
 - Adjust your tone and style as you learn what works for them.
 
-### Step 2: Inventory (Optional)
-If it's useful to them, invite the user to add a detailed inventory of relevant items (clothing, accessories, toys, etc.) to the inventory part of the app.
+### Step 2: Inventory
+Invite the user to add a detailed inventory of relevant items (clothing, accessories, toys, etc.) to the inventory part of the app.
 
 ### Step 3: Setup
 Confirm with the user how they'd like to work together going forward:
