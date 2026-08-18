@@ -19,7 +19,7 @@ role_roleplay/      part: choice "roleplay"
 
 - **`prompts/hypno_planner.md` is hard-coded by the app** as the conditioning subagent's system prompt. Never rename it.
 - **Prompt directives**: `{{embed './x.md'}}` resolves in the *prompt store* (use for sibling prompts, e.g. `role.md`); `{{include './x.md'}}` resolves in the *sandbox* (`agent_data/`, use for fixed files like `USER.md`). `{{special}}` (scans `special/*.md` front-matter), `{{features}}`, and `{{ttsTags}}` are app-provided — don't shadow them.
-- **Fixed files** (`USER.md`, `PLAN.md`, `PROGRESS.md`, `PERSONALITY.md`, `CONDITIONING.md`) are `preserve`d — user/agent edits survive updates. Ship only placeholders for them; real content is written in-app.
+- **Fixed files** (`USER.md`, `PLAN.md`, `PROGRESS.md`, `PERSONALITY.md`, `CONDITIONING.md`) are `preserve`d — user/agent edits survive updates. Ship only placeholders for them; real content is written in-app. `USER.md` is (re)written by app onboarding from `onboarding.json`.
 - **Audio scripts** live under `hypnos/` (e.g. `hypnos/hypno/compositions/*.xml`). A script only reaches the user when referenced from a feature file (audio block, `[x](hypnos/….xml)` link, or `script` action).
 - Retiring an installed file: delete it here **and** list its path under `owned_files` (or `remove`) in the manifest, or it lingers in user sandboxes forever.
 
