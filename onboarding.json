@@ -273,279 +273,528 @@
     "id": "milestone_first_oral",
     "answer": "choice",
     "prompt": "First oral service to a man:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_first_anal",
     "answer": "choice",
     "prompt": "First anal penetration by a partner:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_sustained_dynamic",
     "answer": "choice",
     "prompt": "A sustained submissive relationship dynamic:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_cuckolded",
     "answer": "choice",
     "prompt": "Being cuckolded or watching a partner with someone else:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_hands_free",
     "answer": "choice",
     "prompt": "Hands-free or prostate-focused orgasm:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_chastity_denial",
     "answer": "choice",
     "prompt": "Locked in chastity during periods of denial:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_hypno_orgasm",
     "answer": "choice",
     "prompt": "Orgasm while under the influence of sissy hypno:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_solo_anal_training",
     "answer": "choice",
     "prompt": "Regular solo anal training:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_larger_toys",
     "answer": "choice",
     "prompt": "Taking larger toys or partners:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_deep_throating",
     "answer": "choice",
     "prompt": "Deep-throating or prolonged oral service:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_full_outfit_private",
     "answer": "choice",
     "prompt": "Full feminine outfit in private:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_going_out_dressed",
     "answer": "choice",
     "prompt": "Going out dressed, even briefly:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_overnight_presentation",
     "answer": "choice",
     "prompt": "Overnight or multi-day feminine presentation:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_makeup_hair",
     "answer": "choice",
     "prompt": "Makeup and hair fully done:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_body_changes",
     "answer": "choice",
     "prompt": "Permanent or semi-permanent body changes (e.g., hair removal):",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_voice_training",
     "answer": "choice",
     "prompt": "Voice training or practising feminine mannerisms:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_power_exchange",
     "answer": "choice",
     "prompt": "An explicit power-exchange agreement or set of protocols:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_written_rules",
     "answer": "choice",
     "prompt": "Following written rules or tasks from a dominant:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_service_submission",
     "answer": "choice",
     "prompt": "Service-oriented submission (domestic, sexual, or both):",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_verbal_degradation",
     "answer": "choice",
     "prompt": "Verbal degradation during play:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_inferiority_affirmations",
     "answer": "choice",
     "prompt": "Writing or speaking affirmations of inferiority:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_public_humiliation",
     "answer": "choice",
     "prompt": "Public or semi-public humiliation elements:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_multiday_lockup",
     "answer": "choice",
     "prompt": "Multi-day continuous chastity lock-up:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_keyholder",
     "answer": "choice",
     "prompt": "Real or online keyholder control:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_longterm_chastity",
     "answer": "choice",
     "prompt": "Long-term (weeks or months) chastity:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_posting_online",
     "answer": "choice",
     "prompt": "Posting photos or videos online:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_strangers_sissy",
     "answer": "choice",
     "prompt": "Interacting with strangers while presenting as a sissy:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_recognition_risk",
     "answer": "choice",
     "prompt": "Real-life risk of being seen or recognised:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_regular_hypno",
     "answer": "choice",
     "prompt": "Regular listening to sissy hypno files:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_trance_effects",
     "answer": "choice",
     "prompt": "Noticeable trance or conditioning effects from hypno:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_hypno_behavior_changes",
     "answer": "choice",
     "prompt": "Long-term behavioural changes you attribute to hypno:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_chastity_limpness",
     "answer": "choice",
     "prompt": "Regular chastity-induced erectile dysfunction or limpness:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_breast_growth",
     "answer": "choice",
     "prompt": "Experiencing or pursuing breast growth (hormones, herbal, or other):",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_shrinkage",
     "answer": "choice",
     "prompt": "Observed or desired penile shrinkage from chastity or hormones:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_fucked_before_woman",
     "answer": "choice",
     "prompt": "Being fucked in front of a woman (partner or stranger):",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_dominated_by_woman",
     "answer": "choice",
     "prompt": "Being dominated by a woman in a sissy context:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_cleanup_duty",
     "answer": "choice",
     "prompt": "Cleanup duty after a partner's sexual activity:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_couple_dynamic",
     "answer": "choice",
     "prompt": "Serving as part of a couple dynamic (M/F doms):",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "milestone_pussyfree",
     "answer": "choice",
     "prompt": "Accepting or embracing a pussyfree lifestyle:",
-    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Desired",
+      "Fantasy only",
+      "Not interested"
+    ]
   },
   {
     "kind": "question",
     "id": "strongest_pulls",
-    "answer": "open",
-    "prompt": "Which three categories currently pull you most strongly toward further progression? Rank them (1 = strongest, then 2 and 3)."
+    "answer": "choice",
+    "prompt": "Which categories currently pull you most strongly toward further progression?",
+    "multiple": true,
+    "choices": [
+      "Oral service",
+      "Anal training",
+      "Crossdressing and feminisation",
+      "Chastity and denial",
+      "Hypno and conditioning",
+      "Humiliation and degradation",
+      "Power exchange and protocols",
+      "Public or semi-public exposure",
+      "Body changes (hair removal, breast growth, etc.)",
+      "Cuckolding and cleanup duty",
+      "Serving couples or women",
+      "Pussyfree / beta lifestyle"
+    ]
   },
   {
     "kind": "text",
@@ -624,119 +873,203 @@
   },
   {
     "kind": "text",
-    "text": "**Section 5 — Routines and frequency, then and now**\n\nRate each activity for the past (first 1–2 years of interest) and the present: 0 = never, 1 = rarely, 2 = occasionally (monthly or less), 3 = regularly (roughly weekly), 4 = frequently (several times a week), 5 = daily or near-daily."
+    "text": "**Section 5 — Routines and frequency, then and now**\n\nFor each activity, pick the frequency that fits for the past (first 1–2 years of interest) and the present: never, rarely, occasionally (monthly or less), regularly (roughly weekly), frequently (several times a week), or daily or near-daily."
   },
   {
     "kind": "question",
     "id": "freq_anal_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Anal play or training — past:"
+    "answer": "choice",
+    "prompt": "Anal play or training — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_anal_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Anal play or training — present:"
+    "answer": "choice",
+    "prompt": "Anal play or training — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_oral_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Oral practice or service (solo or with a partner) — past:"
+    "answer": "choice",
+    "prompt": "Oral practice or service (solo or with a partner) — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_oral_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Oral practice or service (solo or with a partner) — present:"
+    "answer": "choice",
+    "prompt": "Oral practice or service (solo or with a partner) — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_chastity_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Chastity wear — past:"
+    "answer": "choice",
+    "prompt": "Chastity wear — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_chastity_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Chastity wear — present:"
+    "answer": "choice",
+    "prompt": "Chastity wear — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_feminisation_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — past:"
+    "answer": "choice",
+    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_feminisation_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — present:"
+    "answer": "choice",
+    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_crossdressing_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Crossdressing (partial or full) — past:"
+    "answer": "choice",
+    "prompt": "Crossdressing (partial or full) — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_crossdressing_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Crossdressing (partial or full) — present:"
+    "answer": "choice",
+    "prompt": "Crossdressing (partial or full) — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_hypno_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Hypno or conditioning audio/video — past:"
+    "answer": "choice",
+    "prompt": "Hypno or conditioning audio/video — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_hypno_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Hypno or conditioning audio/video — present:"
+    "answer": "choice",
+    "prompt": "Hypno or conditioning audio/video — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_porn_past",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Pornography focused on sissy, feminisation, or related themes — past:"
+    "answer": "choice",
+    "prompt": "Pornography focused on sissy, feminisation, or related themes — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "question",
     "id": "freq_porn_present",
-    "answer": "rating",
-    "min": 0,
-    "max": 5,
-    "prompt": "Pornography focused on sissy, feminisation, or related themes — present:"
+    "answer": "choice",
+    "prompt": "Pornography focused on sissy, feminisation, or related themes — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ]
   },
   {
     "kind": "text",
