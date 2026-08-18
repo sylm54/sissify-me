@@ -2,7 +2,7 @@
   "id": "sissify-me",
   "name": "Sissify Me",
   "description": "Sissy corruption and training framework for train-me.",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "min_app_version": "0.12.0",
   "owned_files": [
     "prompts/main_agent.md",
