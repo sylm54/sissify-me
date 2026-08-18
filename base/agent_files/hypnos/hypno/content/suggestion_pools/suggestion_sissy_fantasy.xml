@@ -1,0 +1,66 @@
+<!-- Suggestion pool: sissy fantasies grow more vivid and compelling, urging the listener to act on them and give in. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='100' volume='0.25'/>
+  <random>
+    <part>You know the fantasies I mean, don't you, sweet girl. The ones that keep coming back.</part>
+    <part>They are waiting for you whenever your mind goes quiet. And they are getting bolder.</part>
+    <part>Each time you sink for me, they are right there... vivid... insistent... impossible to look away from.</part>
+  </random>
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      <loop loops='2'>
+        <scramble>
+          <part>Fantasies of feminizing yourself... growing more vivid, more detailed, more compelling each time they visit.</part>
+          <part>Fantasies of serving cock... on your knees, eager and hungry, proving what a good girl you are.</part>
+          <part>Fantasies of being used... and praised... called a good girl while you take every inch of it.</part>
+          <part>Your thoughts drift toward these fantasies unprompted now. More often. More insistently.</part>
+          <part>Every sissy fantasy leaves you with a strong, warm urge to act on it... to make it real.</part>
+          <part>And acting on a fantasy only makes it stronger, while your resistance to the next one wears thinner.</part>
+          <part>The more you indulge, the more you crave, until resisting feels completely pointless.</part>
+          <part>Why resist, after all, when indulging feels like giving in to what you truly want?</part>
+          <part>Each indulgence is permission for the next. And the next. And the next.</part>
+          <part>You were never fighting these fantasies anyway, good girl. You were only delaying them.</part>
+        </scramble>
+        <pause duration='1'/>
+      </loop>
+    </part>
+    <part volume='0.18' speed='1.25' looped='true'>
+      <random>
+        <part>give in</part>
+        <part>make it real</part>
+        <part>so tempting</part>
+        <part>indulge</part>
+      </random>
+    </part>
+  </overlay>
+  <effect type='echo' preset='heavy'>
+    <random>
+      <part>
+        <speed value='0.75'>
+          Fantasies... <pause duration='0.6'/> become appetites... <pause duration='0.7'/> appetites... <pause duration='0.8'/> become you.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          Every fantasy... <pause duration='0.6'/> you feed... <pause duration='0.8'/> feeds the next.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          Resisting them... <pause duration='0.6'/> was always... <pause duration='0.8'/> pointless.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+    </random>
+  </effect>
+  <random>
+    <part>And the next fantasy is already forming... let it bloom as you drift deeper...</part>
+    <part>Give in to it, good girl. It only ever leads deeper...</part>
+    <part>So close to just saying yes. Sink... and imagine...</part>
+    <part>You know you will act on it eventually. Drift deeper while you admit it...</part>
+  </random>
+  <pause duration='1'/>
+</voice>

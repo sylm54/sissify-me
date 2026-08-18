@@ -1,0 +1,89 @@
+<!-- Trigger block: installs the "Sissy Obeys [Command]" instant-obedience trigger.
+     "Sissy Obeys" before any command compels immediate, happy, hesitation-free
+     compliance. Reinforcement mantra variants, obedience imagery, and randomized
+     example commands. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <random>
+    <part>You already know how sweetly you drop for the word Sissy, good girl.</part>
+    <part>Sissies like you love to let go and listen... and you let go so well, good girl.</part>
+    <part>You know what you are now, and how good it feels to sink for me, good girl.</part>
+  </random>
+  <pause duration='0.8'/>
+  And now it is time for obedience that happens all by itself.
+  <loop loops='2'>
+    <background volume='0.18' speed='0.75'>Sissy Obeys. Obey. Good Girls obey.</background>
+    <random>
+      <part>Every time sissies like you hear 'Sissy Obeys' they automatically obey, without thinking, without resistance.</part>
+      <part>Whenever sissies like you hear 'Sissy Obeys' obedience follows instantly, all on its own.</part>
+      <part>Each time sissies like you hear 'Sissy Obeys' thinking stops... and obedience begins.</part>
+    </random>
+    <pause duration='0.5'/>
+    You have to obey the command like a Good Girl.
+    <random>
+      <part>Good Girls obey. Sissies obey. You obey.</part>
+      <part>Good Girls obey. Sissies obey. And you are such a Good Girl.</part>
+      <part>Good Girls obey. Sissies obey. You love to obey.</part>
+    </random>
+    <pause duration='0.8'/>
+  </loop>
+  <effect type='reverb' preset='small_room'>
+    And now, imagine it happening.
+    <pause duration='0.8'/>
+    A voice says... <sound type='snap' volume='0.5'/> Sissy Obeys.
+    <pause duration='1.2'/>
+    <overlay>
+      <part>
+        <random>
+          <part>A warm wave of obedience washes over you, from the top of your head to your pretty toes.</part>
+          <part>Obedience pours through you... soft... absolute... delicious.</part>
+          <part>A sweet heaviness of surrender melts through your whole body.</part>
+        </random>
+        Your mind goes quiet, focused only on listening for the command...
+        <pause duration='1'/>
+      </part>
+      <part volume='0.16' looped='true'>obey... obey... obey...</part>
+    </overlay>
+    <scramble>
+      <part>
+        Sissy Obeys... kneel.
+        <pause duration='1.2'/>
+        Your knees simply give out, and you drop, ready to obey... a rush of pleasure and pride in obeying like a Good Girl.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        Sissy Obeys... stand.
+        <pause duration='1.2'/>
+        You rise at once, gracefully, eagerly... obedience moving your body before a single thought can form.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        Sissy Obeys... present.
+        <pause duration='1.2'/>
+        You present yourself prettily, without hesitation... showing off what a good, obedient sissy you are.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        Sissy Obeys... say 'yes, Mistress'.
+        <pause duration='1.2'/>
+        The words slip out sweetly, all by themselves... yes, Mistress... and pleasure blooms through you, warm and proud.
+        <pause duration='0.6'/>
+      </part>
+    </scramble>
+  </effect>
+  And every single time you hear it, it works exactly the same way.
+  <random>
+    <part>It is your signal to prepare to obey immediately, happily, without hesitation.</part>
+    <part>It is your cue to go soft and ready... obeying at once, gladly, without a pause.</part>
+    <part>It readies you to obey instantly and joyfully, the moment the command arrives.</part>
+  </random>
+  <pause duration='0.5'/>
+  <random>
+    <part>And each time you obey, the trigger grows stronger.</part>
+    <part>And every obedience deepens the next one.</part>
+    <part>And with every repetition, it sinks deeper and holds tighter.</part>
+  </random>
+  <pause duration='0.8'/>
+  <volume value='0.75'>Good girl... so obedient... drifting deeper now, soft and blank and pleased.</volume>
+  <pause duration='1'/>
+</voice>

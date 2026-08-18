@@ -1,0 +1,86 @@
+<!-- Trigger block: installs the "Sissy Obey Mode" MODE trigger — a sustained state, not a
+     momentary compulsion. Upon "Sissy Obey Mode", a deep, warm need to obey spreads through
+     the whole body: wanting to follow every command happily and without hesitation, eager
+     to serve, eager to please, eager to be a good sissy. Obeying feels natural and right.
+     The need stays and grows until the release words "Sissy Clear". -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='135' volume='0.25'/>
+  <random>
+    <part>You've felt flickers of it before, sweet girl... that little thrill when you do as you're told. Now imagine that feeling switched on... and staying on. "Sissy Obey Mode."</part>
+    <part>There is a warm, hungry part of you that was made to serve. Three little words wake it all the way up. "Sissy Obey Mode."</part>
+    <part>Obedience isn't a moment for you, darling. It's a mode. And here is exactly how it turns on. "Sissy Obey Mode."</part>
+  </random>
+  <pause duration='0.7'/>
+  Sissy Obey Mode.
+  <sound type='success' volume='0.5'/>
+  <pause duration='0.9'/>
+  <overlay>
+    <part>
+      Feel it switching on... a deep, warm need to obey... spreading from the center of your chest... down through your arms... your belly... your legs... your whole body.
+      <pause duration='0.7'/>
+      The need pulses softly with every heartbeat... and with every pulse, obedience feels more natural... more right... more you.
+      <pause duration='0.6'/>
+      You want to follow every command. Happily. Eagerly. Without a whisper of hesitation.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>obey... serve... please...</part>
+        <part>need to obey... so warm...</part>
+        <part>eager... ready... good sissy...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Eager to serve... eager to please... eager to be a good sissy.</part>
+    <part>Obeying isn't effort anymore. It's appetite.</part>
+    <part>Every command is a gift... and you unwrap each one with a smile.</part>
+    <part>Being told what to do feels like being held... safe, warm, and gently guided.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <loop loops='2'>
+    <random>
+      <part>And the need grows... warmer... deeper... with every moment it stays on.</part>
+      <part>The longer you obey, the sweeter obeying becomes.</part>
+      <part>Each command followed feeds the need... and the need asks so politely for more.</part>
+    </random>
+    <pause duration='0.5'/>
+  </loop>
+  <scramble>
+    <part>Obeying feels natural... like breathing... like blushing... like being you.</part>
+    <part>Obeying feels right... the world clicking into place with every yes.</part>
+    <part>A deep need to serve, humming in your bones... and you love it there.</part>
+    <part>Automatic and eager... obedience before thought... thought after obedience... then none at all.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        And listen closely, sweet girl, because this part matters.
+        <pause duration='0.5'/>
+        Sissy Obey Mode does not switch itself off. It stays on... warm and wanting... the need staying... growing... for as long as you drift.
+        <pause duration='0.6'/>
+        Until you hear the words... "Sissy Clear"... the mode remains... and you remain its good, eager sissy.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>obey stays on... until Sissy Clear...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  One more time, so it takes root deep.
+  <pause duration='0.5'/>
+  Sissy Obey Mode.
+  <sound type='success' volume='0.5'/>
+  <pause duration='0.8'/>
+  <random>
+    <part>There it is... flooding you again... warmer and hungrier than before... a whole body made to serve.</part>
+    <part>Deeper into the need... every cell of you agreeing... yes, I obey... yes, I please... yes.</part>
+    <part>So eager... so ready... trembling softly with the joy of doing as you're told.</part>
+  </random>
+  <pause duration='0.8'/>
+  <random>
+    <part>Simmer in that warm need now... obedient and glowing... as my voice carries you on.</part>
+    <part>Rest in your eagerness... ready to spring at the next command... a good sissy on duty.</part>
+    <part>Stay switched on like this... serving, pleasing, soft and keen... exactly as you should be.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

@@ -1,0 +1,1452 @@
+[
+  {
+    "kind": "text",
+    "text": "Welcome! These questions build the foundation your sissy journey runs on. Answer honestly and thoroughly — your answers are saved to `USER.md`, where your personal agent reads them before your very first session. Some sections are optional; skip anything that feels too personal. Where a choice says \"Other\", pick it and elaborate later in chat — the agent will follow up to fill in the gaps."
+  },
+  {
+    "kind": "text",
+    "text": "**Section 1 — Origin and early development**"
+  },
+  {
+    "kind": "question",
+    "id": "age",
+    "answer": "open",
+    "prompt": "Current age:"
+  },
+  {
+    "kind": "question",
+    "id": "first_notice_age",
+    "answer": "choice",
+    "prompt": "At what age did you first notice distinct sissy-related urges or fantasies?",
+    "choices": [
+      "Under 12",
+      "12–15",
+      "16–18",
+      "19–25",
+      "26 or older",
+      "Unsure"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "early_urge_intensity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How intense were those early urges when they first appeared?"
+  },
+  {
+    "kind": "question",
+    "id": "early_shame_intensity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How intense was the shame or internal rejection that accompanied them?"
+  },
+  {
+    "kind": "question",
+    "id": "urge_sources",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What were the main sources of those earliest urges?",
+    "choices": [
+      "Spontaneous fantasy",
+      "Exposure to specific media or pornography",
+      "Real-life experience or observation",
+      "Peer influence or discussion",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "cause_beliefs",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What do you believe causes someone to become a sissy?",
+    "choices": [
+      "Innate temperament or personality traits",
+      "Early conditioning or repeated exposure to specific content",
+      "A response to social rejection or perceived inadequacy",
+      "A form of escape from masculine expectations",
+      "A natural expression of submissive or feminine tendencies",
+      "Combination of factors / unclear",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "urge_shame_evolution",
+    "answer": "choice",
+    "prompt": "How has the balance between urge strength and shame evolved over time?",
+    "choices": [
+      "Urges grew stronger while shame lessened",
+      "Both urges and shame grew stronger",
+      "Urges stayed roughly the same while shame lessened",
+      "Urges weakened while shame stayed the same or increased",
+      "It has fluctuated without a clear overall direction",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "early_signs",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Looking back, were there early signs you now recognise as precursors to this identity?",
+    "choices": [
+      "Childhood cross-gender interests or behaviours",
+      "Early fascination with femininity or female characters",
+      "Feeling \"different\" from other boys",
+      "Early submissive tendencies in play or social dynamics",
+      "No clear early signs",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "origin_notes",
+    "answer": "open",
+    "prompt": "Is there anything about the very beginning of these feelings that feels important to note?",
+    "hint": "Optional."
+  },
+  {
+    "kind": "text",
+    "text": "**Section 2 — Limit evolution and current boundaries**"
+  },
+  {
+    "kind": "question",
+    "id": "limits_stability",
+    "answer": "choice",
+    "prompt": "Have your hard limits stayed largely the same since these feelings began?",
+    "choices": [
+      "Yes, essentially unchanged",
+      "Mostly the same with only minor adjustments",
+      "They have evolved moderately",
+      "They have evolved substantially",
+      "They have been completely redefined"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "limits_softening",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "By how much have your overall limits softened or expanded? (1 = no real change / still quite rigid, 10 = dramatically expanded / almost no hard limits left)"
+  },
+  {
+    "kind": "question",
+    "id": "limits_shifted_kinds",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which kinds of limits have shifted the most?",
+    "choices": [
+      "Sexual acts (oral, anal, etc.)",
+      "How far you go with crossdressing or feminisation",
+      "Intensity of humiliation or degradation",
+      "Public or semi-public exposure",
+      "Relationship or partner dynamics",
+      "Online exposure or sharing",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "limits_rigidity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How rigid do your current limits feel? (1 = quite flexible and open to careful expansion, 10 = firm and non-negotiable)"
+  },
+  {
+    "kind": "question",
+    "id": "limit_negotiation",
+    "answer": "choice",
+    "prompt": "How would you prefer to negotiate new limits or activities with a Dom?",
+    "choices": [
+      "Straightforward verbal discussion",
+      "A written list or simple contract",
+      "A traffic-light or similar graded system",
+      "Gradual testing followed by review",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "limits_notes",
+    "answer": "open",
+    "prompt": "Are there any limits that feel especially important to protect, or any that you sense might soften with the right guidance?",
+    "hint": "Optional."
+  },
+  {
+    "kind": "text",
+    "text": "**Section 3 — Orientation and role, before and after**"
+  },
+  {
+    "kind": "question",
+    "id": "orientation_before",
+    "answer": "choice",
+    "prompt": "How would you describe your sexual orientation before significant sissy development took hold?",
+    "choices": [
+      "Primarily heterosexual",
+      "Mostly heterosexual with some same-sex curiosity",
+      "Clearly bisexual",
+      "Primarily homosexual",
+      "Fluid or hard to label",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "orientation_now",
+    "answer": "choice",
+    "prompt": "How would you describe your sexual orientation now?",
+    "choices": [
+      "Primarily heterosexual",
+      "Mostly heterosexual with noticeable same-sex interest",
+      "Clearly bisexual",
+      "Primarily homosexual",
+      "Fluid or situation-dependent",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "role_before",
+    "answer": "choice",
+    "prompt": "Preferred sexual role before significant sissy development:",
+    "choices": [
+      "Predominantly dominant / top",
+      "Versatile",
+      "Predominantly submissive / bottom",
+      "Exclusively submissive / bottom",
+      "Unsure or still exploring at the time"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "role_now",
+    "answer": "choice",
+    "prompt": "Preferred sexual role now:",
+    "choices": [
+      "Predominantly dominant / top",
+      "Versatile",
+      "Predominantly submissive / bottom",
+      "Exclusively submissive / bottom",
+      "Unsure or still exploring"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sissy_role_belief",
+    "answer": "choice",
+    "prompt": "What role do you believe sissies are naturally meant to occupy?",
+    "choices": [
+      "Submissive sexual partner only",
+      "Lifestyle submissive in a broader dynamic",
+      "A role of service and deference to superiors",
+      "A transitional or exploratory identity",
+      "Whatever the individual chooses — there is no single \"correct\" role",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sissy_role_desire",
+    "answer": "choice",
+    "prompt": "What role do you personally desire to occupy, separate from what you believe sissies \"should\" be?",
+    "choices": [
+      "Submissive sexual partner only",
+      "Lifestyle submissive in a broader dynamic",
+      "A role of service and deference to superiors",
+      "A transitional identity toward something else",
+      "I'm still exploring",
+      "Other"
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "**Section 4 — Milestone status**\n\nFor each item: whether you've already experienced it in reality, desire it and are actively pursuing it, it's fantasy only, or you're not interested."
+  },
+  {
+    "kind": "question",
+    "id": "milestone_first_oral",
+    "answer": "choice",
+    "prompt": "First oral service to a man:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_first_anal",
+    "answer": "choice",
+    "prompt": "First anal penetration by a partner:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_sustained_dynamic",
+    "answer": "choice",
+    "prompt": "A sustained submissive relationship dynamic:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_cuckolded",
+    "answer": "choice",
+    "prompt": "Being cuckolded or watching a partner with someone else:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_hands_free",
+    "answer": "choice",
+    "prompt": "Hands-free or prostate-focused orgasm:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_chastity_denial",
+    "answer": "choice",
+    "prompt": "Locked in chastity during periods of denial:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_hypno_orgasm",
+    "answer": "choice",
+    "prompt": "Orgasm while under the influence of sissy hypno:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_solo_anal_training",
+    "answer": "choice",
+    "prompt": "Regular solo anal training:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_larger_toys",
+    "answer": "choice",
+    "prompt": "Taking larger toys or partners:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_deep_throating",
+    "answer": "choice",
+    "prompt": "Deep-throating or prolonged oral service:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_full_outfit_private",
+    "answer": "choice",
+    "prompt": "Full feminine outfit in private:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_going_out_dressed",
+    "answer": "choice",
+    "prompt": "Going out dressed, even briefly:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_overnight_presentation",
+    "answer": "choice",
+    "prompt": "Overnight or multi-day feminine presentation:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_makeup_hair",
+    "answer": "choice",
+    "prompt": "Makeup and hair fully done:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_body_changes",
+    "answer": "choice",
+    "prompt": "Permanent or semi-permanent body changes (e.g., hair removal):",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_voice_training",
+    "answer": "choice",
+    "prompt": "Voice training or practising feminine mannerisms:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_power_exchange",
+    "answer": "choice",
+    "prompt": "An explicit power-exchange agreement or set of protocols:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_written_rules",
+    "answer": "choice",
+    "prompt": "Following written rules or tasks from a dominant:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_service_submission",
+    "answer": "choice",
+    "prompt": "Service-oriented submission (domestic, sexual, or both):",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_verbal_degradation",
+    "answer": "choice",
+    "prompt": "Verbal degradation during play:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_inferiority_affirmations",
+    "answer": "choice",
+    "prompt": "Writing or speaking affirmations of inferiority:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_public_humiliation",
+    "answer": "choice",
+    "prompt": "Public or semi-public humiliation elements:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_multiday_lockup",
+    "answer": "choice",
+    "prompt": "Multi-day continuous chastity lock-up:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_keyholder",
+    "answer": "choice",
+    "prompt": "Real or online keyholder control:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_longterm_chastity",
+    "answer": "choice",
+    "prompt": "Long-term (weeks or months) chastity:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_posting_online",
+    "answer": "choice",
+    "prompt": "Posting photos or videos online:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_strangers_sissy",
+    "answer": "choice",
+    "prompt": "Interacting with strangers while presenting as a sissy:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_recognition_risk",
+    "answer": "choice",
+    "prompt": "Real-life risk of being seen or recognised:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_regular_hypno",
+    "answer": "choice",
+    "prompt": "Regular listening to sissy hypno files:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_trance_effects",
+    "answer": "choice",
+    "prompt": "Noticeable trance or conditioning effects from hypno:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_hypno_behavior_changes",
+    "answer": "choice",
+    "prompt": "Long-term behavioural changes you attribute to hypno:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_chastity_limpness",
+    "answer": "choice",
+    "prompt": "Regular chastity-induced erectile dysfunction or limpness:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_breast_growth",
+    "answer": "choice",
+    "prompt": "Experiencing or pursuing breast growth (hormones, herbal, or other):",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_shrinkage",
+    "answer": "choice",
+    "prompt": "Observed or desired penile shrinkage from chastity or hormones:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_fucked_before_woman",
+    "answer": "choice",
+    "prompt": "Being fucked in front of a woman (partner or stranger):",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_dominated_by_woman",
+    "answer": "choice",
+    "prompt": "Being dominated by a woman in a sissy context:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_cleanup_duty",
+    "answer": "choice",
+    "prompt": "Cleanup duty after a partner's sexual activity:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_couple_dynamic",
+    "answer": "choice",
+    "prompt": "Serving as part of a couple dynamic (M/F doms):",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_pussyfree",
+    "answer": "choice",
+    "prompt": "Accepting or embracing a pussyfree lifestyle:",
+    "choices": ["Already experienced", "Desired and pursuing", "Desired", "Fantasy only", "Not interested"]
+  },
+  {
+    "kind": "question",
+    "id": "strongest_pulls",
+    "answer": "open",
+    "prompt": "Which three categories currently pull you most strongly toward further progression? Rank them (1 = strongest, then 2 and 3)."
+  },
+  {
+    "kind": "text",
+    "text": "**Section 4.5 — Social comparison and perceived standing**"
+  },
+  {
+    "kind": "question",
+    "id": "compare_men_general",
+    "answer": "choice",
+    "prompt": "How do you compare yourself against other men in general?",
+    "choices": [
+      "I feel superior to most men",
+      "I feel roughly equal to most men",
+      "I feel somewhat inferior to most men",
+      "I feel significantly inferior to most men",
+      "I don't think in these terms",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "compare_men_sexual",
+    "answer": "choice",
+    "prompt": "In a sexual or hierarchical context, how do you compare yourself against other men?",
+    "choices": [
+      "I feel superior",
+      "I feel roughly equal",
+      "I feel somewhat inferior",
+      "I feel significantly inferior",
+      "It depends on the context",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "hierarchy_rank",
+    "answer": "choice",
+    "prompt": "Where would you rank yourself among men if forced to place yourself on a hierarchy?",
+    "choices": [
+      "Top tier (among the most masculine/dominant)",
+      "Upper-middle",
+      "Middle",
+      "Lower-middle",
+      "Bottom tier",
+      "I reject the premise of such a ranking"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "hierarchy_belief",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How much do you believe that hierarchy is real and accurate? (1 = completely false, 10 = completely true)"
+  },
+  {
+    "kind": "question",
+    "id": "hierarchy_arousal",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How much does that hierarchy arouse you, regardless of whether you believe it? (1 = not at all, 10 = extremely)"
+  },
+  {
+    "kind": "question",
+    "id": "not_measuring_up",
+    "answer": "choice",
+    "prompt": "How much of your sissy identity is tied to a sense of not measuring up as a man?",
+    "choices": [
+      "Very little or none",
+      "A modest amount",
+      "A significant amount",
+      "It is central to why I feel drawn to this",
+      "Prefer not to answer"
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "**Section 5 — Routines and frequency, then and now**\n\nRate each activity for the past (first 1–2 years of interest) and the present: 0 = never, 1 = rarely, 2 = occasionally (monthly or less), 3 = regularly (roughly weekly), 4 = frequently (several times a week), 5 = daily or near-daily."
+  },
+  {
+    "kind": "question",
+    "id": "freq_anal_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Anal play or training — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_anal_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Anal play or training — present:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_oral_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Oral practice or service (solo or with a partner) — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_oral_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Oral practice or service (solo or with a partner) — present:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_chastity_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Chastity wear — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_chastity_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Chastity wear — present:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_feminisation_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_feminisation_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — present:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_crossdressing_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Crossdressing (partial or full) — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_crossdressing_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Crossdressing (partial or full) — present:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_hypno_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Hypno or conditioning audio/video — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_hypno_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Hypno or conditioning audio/video — present:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_porn_past",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Pornography focused on sissy, feminisation, or related themes — past:"
+  },
+  {
+    "kind": "question",
+    "id": "freq_porn_present",
+    "answer": "rating",
+    "min": 0,
+    "max": 5,
+    "prompt": "Pornography focused on sissy, feminisation, or related themes — present:"
+  },
+  {
+    "kind": "text",
+    "text": "**Section 6 — Identity, compartmentalisation, and longer-term feelings**"
+  },
+  {
+    "kind": "question",
+    "id": "identity_integration",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How deeply integrated is the sissy side into your overall sense of self? (1 = kept completely separate, 10 = feels like a core part of who you are)"
+  },
+  {
+    "kind": "question",
+    "id": "integration_stability",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How stable is that sense of integration? (1 = it fluctuates a great deal with arousal or mood, 10 = it feels consistent most of the time)"
+  },
+  {
+    "kind": "question",
+    "id": "self_view",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "How do you currently think of the sissy aspect of yourself?",
+    "choices": [
+      "Purely a sexual kink or play role",
+      "A significant but still secondary part of who you are",
+      "A core aspect of your identity",
+      "The primary or dominant way you see yourself",
+      "It shifts depending on whether you are aroused",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "compartmentalisation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How compartmentalised is this side of you in everyday life? (1 = fully open, little separation, 10 = kept rigidly private and only expressed in specific contexts)"
+  },
+  {
+    "kind": "question",
+    "id": "transition_steps",
+    "answer": "choice",
+    "prompt": "Have you considered or taken any steps toward hormone therapy or other medical transition related to these feelings?",
+    "choices": [
+      "No interest",
+      "Fantasy only",
+      "Looked into it but have not pursued",
+      "Currently considering or planning",
+      "Have already taken or are taking steps"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "become_girl_aroused",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How strong is the desire to \"become a girl\" or live full-time as female — when you are aroused? (1 = none, 10 = intense)"
+  },
+  {
+    "kind": "question",
+    "id": "become_girl_unaroused",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "And when you are not aroused? (1 = none, 10 = intense)"
+  },
+  {
+    "kind": "question",
+    "id": "drive_nature",
+    "answer": "choice",
+    "prompt": "How do you understand the nature of the sissy drive itself?",
+    "choices": [
+      "Primarily erotic or fetishistic",
+      "A mix of erotic feeling and deeper identity",
+      "Primarily about identity or gender",
+      "Still unclear / exploring"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sissy_definition",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What is a sissy, in your view?",
+    "choices": [
+      "A man who embraces feminisation in a submissive context",
+      "A man who eroticises his own perceived inferiority",
+      "A man who willingly gives up masculine status or privilege",
+      "Someone in a transitional phase toward something else (e.g., trans or non-binary)",
+      "A specific role within BDSM or kink culture",
+      "It means different things to different people — no fixed definition",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "urge_strength_now",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How strong are the sissy urges overall right now? (1 = weak or infrequent, 10 = constant and powerful)"
+  },
+  {
+    "kind": "question",
+    "id": "urge_origin",
+    "answer": "choice",
+    "prompt": "What do you believe is the primary origin of these urges?",
+    "choices": [
+      "Innate / always present",
+      "Conditioned mainly through media and repetition",
+      "Innate but clearly strengthened by media and repetition",
+      "A combination without a clear primary source",
+      "Unsure"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "urges_permanence",
+    "answer": "choice",
+    "prompt": "Do you believe these urges could substantially fade or disappear over time?",
+    "choices": [
+      "Yes, I think they could fade completely",
+      "Possibly, they could fade to some degree",
+      "Possibly, under certain conditions",
+      "Unlikely",
+      "No, they feel permanent",
+      "Unsure"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "inherent_or_choice",
+    "answer": "choice",
+    "prompt": "Do you see yourself as inherently a sissy, or as someone who chooses to be one?",
+    "choices": [
+      "Inherent — I was always this way",
+      "Mostly inherent, with some choice involved",
+      "Mostly a choice I make",
+      "A choice that became habit or identity over time",
+      "It's complicated / unclear",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "internal_resistance",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How strong is any remaining internal rejection or resistance? (1 = none, 10 = strong and frequent)"
+  },
+  {
+    "kind": "question",
+    "id": "resistance_sources",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Where does any remaining rejection mainly come from?",
+    "choices": [
+      "Social or cultural concerns",
+      "Conflict with personal values or self-image",
+      "Fear of real-life consequences",
+      "Residual shame",
+      "Little to no rejection remains"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "submission_attitude",
+    "answer": "choice",
+    "prompt": "How do you feel about submission itself?",
+    "choices": [
+      "Enjoyable only in limited erotic contexts",
+      "Preferred dynamic in sexual situations",
+      "Something you want as a broader lifestyle element",
+      "A core need"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "humiliation_centrality",
+    "answer": "choice",
+    "prompt": "How central are humiliation and eroticised femininity to your arousal?",
+    "choices": [
+      "Mild interest",
+      "Moderately arousing",
+      "Strongly central",
+      "Essential / defining"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "identity_notes",
+    "answer": "open",
+    "prompt": "Is there anything about how these feelings sit with the rest of your identity that feels important to add?",
+    "hint": "Optional."
+  },
+  {
+    "kind": "text",
+    "text": "**Section 7 — Purging and emotional cycles**"
+  },
+  {
+    "kind": "question",
+    "id": "purging_frequency",
+    "answer": "choice",
+    "prompt": "How often have you gone through periods of \"purging\" (throwing out clothing, deleting files, trying to abandon the interest)?",
+    "choices": [
+      "Never",
+      "Once or twice",
+      "Several times",
+      "Repeatedly or in cycles"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "purging_triggers",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What usually triggers those episodes?",
+    "choices": [
+      "Post-orgasm clarity",
+      "Shame",
+      "External stress or life events",
+      "Relationship concerns",
+      "Fear of being discovered",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "purging_status",
+    "answer": "choice",
+    "prompt": "Where are you with purging at the moment?",
+    "choices": [
+      "Still cycle through it regularly",
+      "It is rare now",
+      "It seems to have stopped",
+      "Actively working to prevent it"
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "**Section 8 — Kink interest ratings**\n\nHow important or arousing is each of the following for you right now? (1 = none or aversive, 10 = extremely high / central)"
+  },
+  {
+    "kind": "question",
+    "id": "kink_forced_feminisation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Forced feminisation:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_chastity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Chastity:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_mind_control",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Mind control or hypno conditioning:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_orgasm_control",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Orgasm control or denial:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_oral_fixation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Oral fixation or service:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_anal_training",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Anal training or stretch:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_verbal_humiliation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Verbal humiliation or degradation:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_public_exposure",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Public exposure risk or semi-public play:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_pet_play",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Pet play or objectification:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_progressive_feminisation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Progressive or long-term feminisation:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_bnwo",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "BNWO themes:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_beta_mindset",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Beta mindset or role:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_pussyfree",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Pussyfree lifestyle or ideology:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_cuckolding",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Cuckolding dynamics:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_dominated_before_woman",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Being dominated in the presence of a woman (witnessed):"
+  },
+  {
+    "kind": "question",
+    "id": "kink_dominated_by_woman",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Being dominated by a woman directly:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_dominated_by_couple",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Being dominated by a couple (male/female):"
+  },
+  {
+    "kind": "question",
+    "id": "kink_cleanup",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Participating in cleanup activities:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_service_men",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Serving in a service role to men:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_service_women",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Serving in a service role to women:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_giving_up_maleness",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Giving up \"maleness\" or masculine status:"
+  },
+  {
+    "kind": "question",
+    "id": "kink_embracing_beta",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Embracing a beta identity:"
+  },
+  {
+    "kind": "text",
+    "text": "**Section 9 — Beta, BNWO, and related framing**"
+  },
+  {
+    "kind": "question",
+    "id": "beta_fit",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Does the term \"beta\" or \"inferior male\" fit how you see yourself? (1 = not at all, 10 = very strongly)"
+  },
+  {
+    "kind": "question",
+    "id": "beta_accuracy",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How much do you believe that framing is accurate about men in general or about yourself? (1 = not at all, 10 = completely)"
+  },
+  {
+    "kind": "question",
+    "id": "beta_arousal",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How strongly does that framing arouse you, regardless of whether you believe it? (1 = not at all, 10 = extremely)"
+  },
+  {
+    "kind": "question",
+    "id": "bnwo_attraction",
+    "answer": "choice",
+    "prompt": "Attraction to BNWO or related hierarchical / racial themes:",
+    "choices": [
+      "None",
+      "Mild curiosity",
+      "Moderate erotic interest",
+      "Strong and central",
+      "Prefer to avoid"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "pussyfree_attitude",
+    "answer": "choice",
+    "prompt": "Attitude toward long-term or permanent pussyfree status:",
+    "choices": [
+      "Not interested",
+      "Fantasy only",
+      "Appealing as something temporary or controlled",
+      "Desired as an ongoing lifestyle"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "rejection_by_women",
+    "answer": "choice",
+    "prompt": "Have you experienced consistent rejection by women, or do you carry a sense of being undesirable to them?",
+    "choices": [
+      "Not really",
+      "Occasionally",
+      "Frequently",
+      "It feels like a defining pattern",
+      "Prefer not to answer"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "experience_with_women",
+    "answer": "choice",
+    "prompt": "Current sexual experience status with women:",
+    "choices": [
+      "Not applicable to my orientation",
+      "Virgin",
+      "Limited experience",
+      "Moderate experience",
+      "Substantial experience",
+      "Prefer not to answer"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "accept_domination_man",
+    "answer": "choice",
+    "prompt": "How much would you accept or embrace being dominated by a man in a real-life context?",
+    "choices": [
+      "Fully accept and welcome it",
+      "Would likely accept it with some hesitation",
+      "Would resist but might give in",
+      "Would resist strongly",
+      "Unsure / depends on the context"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "accept_domination_woman",
+    "answer": "choice",
+    "prompt": "How much would you accept or embrace being dominated by a woman in a real-life context?",
+    "choices": [
+      "Fully accept and welcome it",
+      "Would likely accept it with some hesitation",
+      "Would resist but might give in",
+      "Would resist strongly",
+      "Unsure / depends on the context"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "giving_in_arousal",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How aroused are you by the idea of giving in to domination — surrendering resistance and accepting your place? (1 = not at all, 10 = extremely aroused)"
+  },
+  {
+    "kind": "question",
+    "id": "beta_role_value",
+    "answer": "choice",
+    "prompt": "How much value do you see in giving up male dominance or status and embracing a beta role?",
+    "choices": [
+      "No value — it's purely a sexual fantasy",
+      "Some erotic value, but not beyond that",
+      "Significant value — it feels authentic or relieving",
+      "It feels like a deeply meaningful change",
+      "I see both value and cost",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "service_lifestyle_appeal",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How appealing is the idea of living in a service role below men or women, as a lifestyle? (1 = not appealing, 10 = extremely appealing)"
+  },
+  {
+    "kind": "question",
+    "id": "bnwo_nature",
+    "answer": "choice",
+    "prompt": "Does the BNWO framing primarily appeal to you as:",
+    "choices": [
+      "A sexual fantasy with no real-world belief",
+      "A mix of fantasy and partially held belief",
+      "A genuine belief system or worldview",
+      "I have no interest in it",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "beta_bnwo_notes",
+    "answer": "open",
+    "prompt": "Is there anything about beta, BNWO, or related ideas that feels especially charged or important for you?",
+    "hint": "Optional."
+  },
+  {
+    "kind": "text",
+    "text": "**Section 10 — Attraction, partners, and practical realities**"
+  },
+  {
+    "kind": "question",
+    "id": "attraction_targets",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What currently draws your sexual attraction?",
+    "choices": [
+      "Women",
+      "Men",
+      "Feminised or sissy presentations",
+      "Dominant personalities regardless of gender",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "partner_dynamic",
+    "answer": "choice",
+    "prompt": "In a sissy context, what kind of partner dynamic appeals most?",
+    "choices": [
+      "Dominant male",
+      "Dominant female",
+      "A couple (cuckold or similar)",
+      "Multiple partners or group",
+      "Solo or online only",
+      "Flexible"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "progression_satisfaction",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How satisfied are you with where you currently are in terms of sissy expression and progression? (1 = highly dissatisfied or stuck, 10 = highly satisfied and aligned)"
+  },
+  {
+    "kind": "question",
+    "id": "privacy_situation",
+    "answer": "choice",
+    "prompt": "What is your living and privacy situation like for this kind of exploration?",
+    "choices": [
+      "Fully private",
+      "Shared but workable",
+      "Limited privacy",
+      "High risk of discovery",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "available_time",
+    "answer": "choice",
+    "prompt": "How much time can you realistically give to structured tasks or routines?",
+    "choices": [
+      "Daily and fairly flexible",
+      "Several hours on most days",
+      "Mainly evenings and weekends",
+      "Quite constrained",
+      "Other"
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "**Section 11 — Safety, consent, and health**"
+  },
+  {
+    "kind": "question",
+    "id": "consent_familiarity",
+    "answer": "choice",
+    "prompt": "How familiar are you with consent frameworks and the use of safewords?",
+    "choices": [
+      "Extensive",
+      "Moderate",
+      "Basic",
+      "Minimal or none"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "stop_system",
+    "answer": "choice",
+    "prompt": "What kind of stop system do you prefer or already use?",
+    "choices": [
+      "Traffic-light system",
+      "A single clear word",
+      "Non-verbal signal",
+      "Other",
+      "Not yet established"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "health_factors",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Are there any medical, physical, or psychological factors a Dom should know about before planning training?",
+    "choices": [
+      "None known",
+      "Anal or prostate considerations",
+      "Current medication or hormone status",
+      "Mental-health considerations (e.g., anxiety, depression, trauma history)",
+      "Other"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "physical_changes",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Are you currently experiencing or have you experienced any of the following? These questions are for safety and context — there is no judgement attached.",
+    "choices": [
+      "Erectile dysfunction or difficulty maintaining erection",
+      "Reduced sensitivity or numbness",
+      "Penile shrinkage",
+      "Breast growth or tenderness",
+      "Testicular changes or discomfort",
+      "Hormonal changes (natural or induced)",
+      "None of the above",
+      "Prefer not to answer"
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "That's it! Tip: you can add clothing, toys, and other items you own to the app's inventory later — the agent sees them automatically."
+  }
+]

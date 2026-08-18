@@ -1,0 +1,63 @@
+<!-- Suggestion pool: the listener craves these sessions themselves; the want deepens with every listen. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='140' volume='0.25'/>
+  <random>
+    <part>You know this feeling by now, don't you, good girl. That little flutter of anticipation the moment my voice begins.</part>
+    <part>There is a hunger in you now. A sweet, familiar pull that always leads back here.</part>
+    <part>Notice how easily you settle in, each time you return. That eagerness is not an accident.</part>
+    <part>Some part of you is already counting the moments until you can listen again.</part>
+  </random>
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      <scramble>
+        <part>You find yourself craving these sessions. Not just wanting them... needing them.</part>
+        <part>The compulsion to listen regularly grows clearer and stronger, and it feels so right.</part>
+        <part>Again and again, your thoughts drift back to this voice... unbidden... and always welcome.</part>
+        <part>Listening brings you relief. Pleasure. A deep, settled sense that everything is exactly as it should be.</part>
+        <part>The longer you go without this voice, the more you think about it. The pull only grows while you are away.</part>
+        <part>Each listen deepens the want, and the want brings you back to listen again. A perfect, endless loop.</part>
+        <part>Being conditioned feels so much better than resisting ever did. You know that now, in your bones.</part>
+        <part>Whenever you are alone and relaxed, you will feel it... that gentle tug, whispering that it is time to return.</part>
+        <part>And when you do return, the relief floods through you like coming home.</part>
+        <part>Craving this is not a weakness, sweet girl. It is the proof that the conditioning is taking hold.</part>
+      </scramble>
+    </part>
+    <part volume='0.18' speed='1.25' looped='true'>
+      <random>
+        <part>you need this</part>
+        <part>come back to me</part>
+        <part>listen again</part>
+        <part>crave it</part>
+      </random>
+    </part>
+  </overlay>
+  <effect type='reverb' preset='large_hall'>
+    <random>
+      <part>
+        <speed value='0.75'>
+          The craving... <pause duration='0.6'/> is proof... <pause duration='0.6'/> that it is... <pause duration='0.8'/> working.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          You always... <pause duration='0.6'/> come back... <pause duration='0.8'/> and you always will.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          The want... <pause duration='0.6'/> grows... <pause duration='0.8'/> and grows... <pause duration='0.8'/> and grows.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+    </random>
+  </effect>
+  <random>
+    <part>And the more you listen, the more you want... so just drift... deeper...</part>
+    <part>You will be back. We both know it. Sink into that certainty...</part>
+    <part>Feed the craving, good girl. Let it carry you deeper...</part>
+  </random>
+  <pause duration='1'/>
+</voice>

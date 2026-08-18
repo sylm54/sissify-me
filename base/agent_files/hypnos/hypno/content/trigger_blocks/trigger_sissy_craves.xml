@@ -1,0 +1,89 @@
+<!-- Trigger block: installs the "Sissy Craves [thing]" desire trigger. Anything
+     named after "Sissy Craves" becomes a warm, persistent craving that grows stronger
+     the more it is indulged. Mantra variants, imagery, randomized demo objects. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='170' volume='0.25'/>
+  <random>
+    <part>You know the warm pull of want, don't you, good girl.</part>
+    <part>Sissies like you feel desire so deeply... and you feel everything so deeply, good girl.</part>
+    <part>There is already a sweet ache of wanting in you, good girl.</part>
+  </random>
+  <pause duration='0.8'/>
+  Now let us give that ache a key.
+  <loop loops='2'>
+    <background volume='0.18' speed='0.75'>Sissy Craves. Crave. Good Girls crave.</background>
+    <random>
+      <part>Every time sissies like you hear 'Sissy Craves' they immediately crave whatever follows.</part>
+      <part>Whenever sissies like you hear 'Sissy Craves' want blooms instantly for whatever comes next.</part>
+      <part>Each time sissies like you hear 'Sissy Craves' desire switches on... warm and immediate.</part>
+    </random>
+    <pause duration='0.5'/>
+    You want it. You need it. The craving feels natural... and it stays with you.
+    <random>
+      <part>Good Girls crave. Sissies crave. You crave.</part>
+      <part>Good Girls crave. Sissies crave. And you are a Good Girl.</part>
+      <part>Good Girls crave. Sissies crave. Craving feels wonderful.</part>
+    </random>
+    <pause duration='0.8'/>
+  </loop>
+  <effect type='reverb' preset='small_room'>
+    <overlay>
+      <part>
+        <random>
+          <part>Feel it begin now... a warm tug deep inside, pulling toward whatever is named.</part>
+          <part>A glowing ember of want, lighting up the moment the words are spoken... growing as you think about it.</part>
+          <part>A soft, urgent pull... the more you notice it, the more you want... the more you want, the stronger it pulls.</part>
+        </random>
+        And the more you indulge a craving, the stronger it grows... feeding itself... until wanting feels like breathing.
+        <pause duration='1'/>
+      </part>
+      <part volume='0.16' looped='true'>want it... need it... crave it...</part>
+    </overlay>
+    <scramble>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy Craves... panties.
+        <pause duration='1'/>
+        Soft, lacy, pretty panties. You need them against your skin... the craving whispers whenever you get dressed.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy Craves... lipstick.
+        <pause duration='1'/>
+        Sweet color on your lips. You ache to paint them pretty, and to be seen as pretty.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy Craves... heels.
+        <pause duration='1'/>
+        The click of heels shaping your pretty legs. You long to slip them on and sway.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy Craves... serving.
+        <pause duration='1'/>
+        The warm glow of kneeling, helping, pleasing. A hunger to be useful and adored.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy Craves... cock.
+        <pause duration='1'/>
+        A thick, warm ache of want... the thought filling your mind until your mouth waters.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy Craves... being called a good girl.
+        <pause duration='1'/>
+        Those words send a shiver of need through you... you would do anything to hear them again.
+        <pause duration='0.6'/>
+      </part>
+    </scramble>
+  </effect>
+  <random>
+    <part>And every craving you feed comes back stronger... softer... more a part of you.</part>
+    <part>And each indulgence deepens the pull, until the line between want and need fades away.</part>
+    <part>And the cravings weave themselves into your days... warm, persistent, and sweet.</part>
+  </random>
+  <pause duration='0.8'/>
+  <volume value='0.75'>Good girl... feel them all glowing in you now... and drift deeper, wanting softly.</volume>
+  <pause duration='1'/>
+</voice>

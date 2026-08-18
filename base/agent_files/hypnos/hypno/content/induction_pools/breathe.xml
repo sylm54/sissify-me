@@ -1,0 +1,21 @@
+<!-- Induction variant: guided breathing into trance. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='200' volume='0.25'/>
+  <loop loops='4'>
+    <background volume='0.3'>Breathe in.</background>
+    <pause duration='3'/>
+    <background volume='0.3'>And let go.</background>
+    <pause duration='4'/>
+  </loop>
+  With every breath you take, you feel yourself becoming calmer... softer... heavier.
+  <pause duration='1'/>
+  Each exhale carries away a little more of your thoughts, a little more of your tension, leaving only my voice.
+  <pause duration='1'/>
+  <loop loops='3'>
+    <volume value='@ramp(1.0, 0.7)'>
+      Breathing deeper... drifting further... sinking softly into trance for me.
+    </volume>
+    <pause duration='2'/>
+  </loop>
+  Good girl. You're almost there.
+</voice>

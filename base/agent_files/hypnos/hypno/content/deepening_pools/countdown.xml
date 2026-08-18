@@ -1,0 +1,69 @@
+<!-- Deepening variant: countdown from ten. -->
+<voice speaker='female' speed='0.85'>
+    <tone preset='binaural_delta' frequency='120' volume='0.3'/>
+    I'll count down from ten to one, and with every number you double your depth.
+    <pause duration='0.8'/>
+    <overlay>
+      <part>
+          <speed value='0.8'>
+              Ten
+              <pause duration='0.8'/>
+              nine
+              <pause duration='0.8'/>
+              drifting down
+              <pause duration='0.8'/>
+              eight
+              <pause duration='0.8'/>
+              seven
+              <pause duration='0.8'/>
+              so soft, so heavy
+              <pause duration='0.8'/>
+              six
+              <pause duration='0.8'/>
+              five
+              <pause duration='0.8'/>
+              half way there
+              <pause duration='0.8'/>
+              four
+              <pause duration='0.8'/>
+              three
+              <pause duration='0.8'/>
+              letting everything go
+              <pause duration='0.8'/>
+              two
+              <pause duration='0.8'/>
+              one
+              <pause duration='0.8'/>
+          </speed>
+      </part>
+      <part volume='0.2' looped='true'>
+          <random>
+            <part>Down</part>
+            <part>Sink</part>
+            <part>Lower</part>
+            <part>Drop</part>
+            <part>Fall</part>
+            <part>Heavier</part>
+            <part>Slower</part>
+            <part>Sink deeper</part>
+            <part>Let go</part>
+            <part>Relax</part>
+            <part>Release</part>
+          </random>
+      </part>
+    </overlay>
+    <pause duration='1'/>
+    <effect type='reverb' preset='cathedral'>
+        <scramble>
+            <part>Deep asleep.<pause duration='1'/></part>
+            <part>Deep in trance.<pause duration='1'/></part>
+            <part>Perfectly open to my voice.<pause duration='1'/></part>
+            <part>Completely relaxed.<pause duration='1'/></part>
+        </scramble>
+    </effect>
+    <random>
+        <part>Now, you are completely relaxed and open to my voice.</part>
+        <part>You mind is completely open to my voice, and ready to recieve new information.</part>
+        <part>You are now in the perfect state to recieve new information.</part>
+    </random>
+</voice>

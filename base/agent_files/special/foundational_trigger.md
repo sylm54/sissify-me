@@ -5,6 +5,15 @@ description: Install foundational trigger that can be used in hypno and training
 ## Overview
 This specialization installs the foundational triggers that can be used in hypno and training. Give the hypno planner the path to this specialization (`special/foundational_trigger.md`) and instruct them to install these triggers and save a reference to this file in `CONDITIONING.md`.
 
+## Prebuilt Hypno Blocks
+Install/reinforcement blocks for these triggers ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy.xml` — installs and reinforces the "Sissy" identity-and-name trigger.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissies_like_you.xml` — installs the "Sissies Like You" compulsion trigger.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_drops.xml` — installs the "Sissy Drops" instant-trance trigger.
+- `hypnos/hypno/content/trigger_blocks/trigger_good_girl.xml` — installs the "Good Girl / Good Sissy" reward trigger.
+
+Each block randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree — a session installing all four triggers includes each block once.
+
 ## Sissy
 Upon hearing "Sissy", the subject immediately shifts into deep self-referential autogynephilic mode. This trigger reinforces and strengthens their sissy identity, evoking intense feelings of femininity, arousal at their own feminization, and a profound sense of becoming a more authentic, submissive sissy.
 

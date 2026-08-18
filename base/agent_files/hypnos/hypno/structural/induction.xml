@@ -1,0 +1,6 @@
+<!-- Default induction router: randomly picks one variant from the pool each playback. -->
+<random>
+  <part><include src='../content/induction_pools/breathe.xml'/></part>
+  <part><include src='../content/induction_pools/progressive_relaxation.xml'/></part>
+  <part><include src='../content/induction_pools/eye_fixation.xml'/></part>
+</random>

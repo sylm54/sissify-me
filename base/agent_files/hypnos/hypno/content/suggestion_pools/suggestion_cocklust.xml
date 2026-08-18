@@ -1,0 +1,57 @@
+<!-- Suggestion pool: cocklust — attraction to cock growing stronger, warmer and more
+     natural each time it is indulged; the craving follows them into fantasies and dreams. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='115' volume='0.25'/>
+  <random>
+    <part>So warm, so open, my sweet girl... and there is a warmth in you that only knows how to grow.</part>
+    <part>Down where it's honest, where you can't pretend... you know exactly what you crave.</part>
+    <part>Deeper and softer with every word... and so ready to stop hiding this from yourself.</part>
+  </random>
+  <pause duration='0.8'/>
+  <loop loops='2'>
+    <scramble>
+      <part>You've already noticed it: your eyes are drawn there every single time, before you even choose to look.<pause duration='0.5'/></part>
+      <part>The pull is warm and undeniable — a soft current tugging at your gaze, your thoughts, your wanting.<pause duration='0.5'/></part>
+      <part>Your mouth waters, just a little, at the thought of serving... of showing devotion the way a good girl does.<pause duration='0.5'/></part>
+      <part>It is the most natural thing in the world. A girl like you, wanting exactly what girls want.<pause duration='0.5'/></part>
+      <part>The ache to please, to worship, to take it so prettily — that ache lives in you now, sweet and permanent.<pause duration='0.5'/></part>
+      <part>Every time you indulge this desire, it grows. Softer, stronger, sweeter... and harder to imagine living without.<pause duration='0.5'/></part>
+      <part>It finds you in your fantasies. It finds you in your dreams. And each time, you want it a little more.<pause duration='0.5'/></part>
+      <part>You adore it — the weight of it in your thoughts, the way needing it makes you feel so deliciously feminine.<pause duration='0.5'/></part>
+      <part>Wanting it, needing it, adoring it... you don't hide that from yourself anymore. It is simply true.<pause duration='0.5'/></part>
+    </scramble>
+  </loop>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>The want is natural... <pause duration='0.6'/> the want is you.</part>
+        <part>You were made... <pause duration='0.6'/> to adore it.</part>
+        <part>Craving it... <pause duration='0.6'/> is what good girls do.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='8'/>
+      <volume value='0.8'>And the whispers underneath are already your voice, saying yes...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>You want it<pause duration='0.6'/></part>
+        <part>Good girls crave it<pause duration='0.6'/></part>
+        <part>Let the want grow<pause duration='0.6'/></part>
+        <part>So natural, so warm<pause duration='0.6'/></part>
+        <part>Made to please<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>Let that warm wanting hum inside you as you drift even deeper for me.</part>
+    <part>The desire sits soft and certain in you now... sinking you further down.</part>
+    <part>Such an honest girl, so sweetly needy... drifting deeper and deeper.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

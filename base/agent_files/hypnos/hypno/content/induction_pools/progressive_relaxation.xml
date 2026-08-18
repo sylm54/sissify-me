@@ -1,0 +1,17 @@
+<!-- Induction variant: progressive relaxation from head to toes. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='180' volume='0.25'/>
+  Let your eyes close, and bring your attention to your forehead. Let it smooth out... soft and blank.
+  <pause duration='2'/>
+  Your jaw relaxes. Your neck goes loose and limp.
+  <pause duration='2'/>
+  Feel that warmth pour down through your shoulders... your arms... heavy and still.
+  <pause duration='2'/>
+  Your chest softens with every breath. Your tummy melts. Your legs turn to liquid all the way down to your toes.
+  <pause duration='2'/>
+  <effect type='reverb' preset='medium'>
+    Your whole body is loose, limp, and lazy — and the deeper your body relaxes, the deeper your mind follows.
+  </effect>
+  <pause duration='1.5'/>
+  Sinking now... into soft, deep trance.
+</voice>

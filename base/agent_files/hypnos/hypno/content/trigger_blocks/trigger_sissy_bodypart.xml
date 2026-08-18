@@ -1,0 +1,89 @@
+<!-- Trigger block: installs the "Sissy [Bodypart]" sensitivity trigger. When "Sissy"
+     precedes a body part, attention locks onto it - feminine, erogenous, central to her
+     sissy identity. All six parts play per listen, reshuffled, imagery randomized. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='140' volume='0.25'/>
+  <random>
+    <part>You know exactly what the word Sissy does to you by now, good girl.</part>
+    <part>The word Sissy has shaped you so deeply already, good girl.</part>
+    <part>You have felt the word Sissy settle into you so many times, good girl.</part>
+  </random>
+  <pause duration='0.8'/>
+  Now that word is going to claim your body, one soft part at a time.
+  <loop loops='2'>
+    <background volume='0.2' speed='0.75'>Sissy body. Feel it. Sissy body.</background>
+    Every time you hear the word Sissy before a body part, you become instantly aware of every sensation in that part.
+    <pause duration='0.6'/>
+    That part lights up... feminine... sensitive... pleasure-ready... undeniably yours.
+    <pause duration='0.8'/>
+  </loop>
+  <effect type='reverb' preset='small_room'>
+    <scramble>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy clitty.
+        <pause duration='1'/>
+        <random>
+          <part>So smooth, so small, so soft. Feel every little sensation in it... gravity, touch, warmth... every tiny spark of pleasure. This is your Sissy clitty.</part>
+          <part>A soft little button of pleasure, tucked away and tingling. Every brush of fabric makes you feel it, pretty and precious.</part>
+          <part>Sleek and quiet, shrinking sweetly out of the way, leaving only warmth... and a soft, fluttery need.</part>
+        </random>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy pussy.
+        <pause duration='1'/>
+        <random>
+          <part>Soft, hungry, aching to be filled. Feel how warm and open it is, pulsing gently with need.</part>
+          <part>Slick and needy, a sweet ache that blooms wider each time it is named.</part>
+          <part>Tender and yearning... its soft hunger pulling all of your attention between your legs.</part>
+        </random>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy tits.
+        <pause duration='1'/>
+        <random>
+          <part>Swollen and sensitive, nipples tingling, aching to be teased. Feel them stiffen at the words.</part>
+          <part>Full and warm and heavy... every breath makes them tingle a little more.</part>
+        </random>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy waist.
+        <pause duration='1'/>
+        <random>
+          <part>Narrowing... cinching... pulling in to a pretty feminine curve. Feel it happen, all by itself.</part>
+          <part>So slim and trim, sculpting itself petite and soft with every mention.</part>
+        </random>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy hips.
+        <pause duration='1'/>
+        <random>
+          <part>Widening... swaying... soft curves flaring out. Feel the sway begin on its own.</part>
+          <part>Round and soft and womanly, rolling gently whenever you walk, asking to be held.</part>
+        </random>
+      </part>
+      <part>
+        <sound type='ding' volume='0.35'/> Sissy legs.
+        <pause duration='1'/>
+        <random>
+          <part>Smooth, silky, shaped pretty. Feel their soft length, graceful from hip to toe.</part>
+          <part>Sleek and hairless and lovely, gliding against each other with every step.</part>
+        </random>
+      </part>
+    </scramble>
+  </effect>
+  <pause duration='0.8'/>
+  <overlay>
+    <part>
+      Feel your whole Sissy body now... awake, alive, and feminine.
+      <pause duration='2.5'/>
+    </part>
+    <part volume='0.18' looped='true'>
+      <random>
+        <part>Sissy clitty. Sissy pussy. Sissy tits. Sissy waist. Sissy hips. Sissy legs.</part>
+        <part>Every part of you is Sissy. Every part of you feels it.</part>
+      </random>
+    </part>
+  </overlay>
+  <volume value='0.75'>Good girl... drifting deeper... feeling prettier with every breath.</volume>
+  <pause duration='1'/>
+</voice>

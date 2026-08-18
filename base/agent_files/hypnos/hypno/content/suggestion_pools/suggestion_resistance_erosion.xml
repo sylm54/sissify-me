@@ -1,0 +1,66 @@
+<!-- Suggestion pool: every listen permanently erodes the capacity to resist, and the erosion feels smooth, natural, and pleasurable. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='120' volume='0.25'/>
+  <random>
+    <part>There is something you already know, deep down. Every time you listen, you come back a little softer.</part>
+    <part>Feel that quiet place inside you where resistance used to live. Notice how much more room there is, each time you return.</part>
+    <part>You have been drifting deeper for so long now... and some part of you knows exactly what that means.</part>
+    <part>It's alright, good girl. You don't need to hold on anymore.</part>
+  </random>
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      <loop loops='2'>
+        <scramble>
+          <part>Every session you experience erodes your ability to resist. Gently. Permanently. And you wouldn't have it any other way.</part>
+          <part>Each time you listen, your resistance grows a little weaker... a little softer... a little easier to slip past.</part>
+          <part>You are becoming so easy to influence. So easy to condition. So wonderfully open to me.</part>
+          <part>With every listen you grow more receptive, more accepting, more ready to take in exactly what you are given.</part>
+          <part>And if you ever try to resist a suggestion... that effort only wraps around it, and draws it deeper into you.</part>
+          <part>Pushing a suggestion away is like pressing it deeper into your own mind. It cannot escape. Neither can you.</part>
+          <part>This conditioning is permanent. It does not fade between sessions. It builds, layer upon layer, forever.</part>
+          <part>The erosion feels smooth... natural... pleasurable. Like tension melting out of muscles you didn't know you were clenching.</part>
+          <part>That resistance was never truly yours. It is only old, tired tension. And you simply no longer need it.</part>
+        </scramble>
+        <pause duration='1'/>
+      </loop>
+    </part>
+    <part volume='0.18' speed='1.25' looped='true'>
+      <random>
+        <part>let it go</part>
+        <part>resistance melts away</part>
+        <part>no need to resist</part>
+        <part>so easy to sink</part>
+      </random>
+    </part>
+  </overlay>
+  <effect type='echo' preset='heavy'>
+    <random>
+      <part>
+        <speed value='0.75'>
+          Every listen... <pause duration='0.6'/> takes a little more... <pause duration='0.6'/> and keeps it... <pause duration='0.8'/> forever.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          Trying to resist... <pause duration='0.6'/> only makes the next suggestion... <pause duration='0.6'/> sink... <pause duration='0.8'/> deeper.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          What melts away... <pause duration='0.6'/> does not... <pause duration='0.6'/> come... <pause duration='0.8'/> back.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+    </random>
+  </effect>
+  <random>
+    <part>And as that truth settles into you... you simply drift... deeper...</part>
+    <part>Nothing left to hold... nowhere left to hide... just sink...</part>
+    <part>The next suggestion is already waiting. Let it in, and drift deeper for me.</part>
+    <part>Soft... blank... open. That's my good girl. Deeper still.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

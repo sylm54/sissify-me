@@ -1,0 +1,89 @@
+<!-- Trigger install block: cocklust conditioned response — the sight or thought of cock
+     itself is the cue (visual/mental only, no spoken command word); instant arousal and a soft
+     drop into needy wanting that deepens every time the association fires. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='130' volume='0.25'/>
+  <random>
+    <part>Now, my good girl, we're going to polish a reflex your body already has.</part>
+    <part>It's time to train something automatic in you... something your body is already learning to do.</part>
+    <part>Listen closely, sweet girl... because this truth is going to wire itself straight into your reflexes.</part>
+  </random>
+  <pause duration='0.6'/>
+  <sound type='heart_beat' volume='0.4'/>
+  <pause duration='0.4'/>
+  <scramble>
+    <part>
+      Whenever you see it — in a video, a picture, a glimpse you weren't expecting —
+      <random>
+        <part>heat blooms low in your belly before you can even think.</part>
+        <part>arousal sparks through you, quick and automatic as a blink.</part>
+        <part>a throb answers between your thighs, soft and insistent.</part>
+      </random>
+      <pause duration='0.5'/></part>
+    <part>
+      And it doesn't need to be in front of you. Just the thought of it, drifting through your mind...
+      <random>
+        <part>and your body starts to warm, all on its own.</part>
+        <part>and a soft, needy ache begins to build.</part>
+        <part>and you feel yourself slipping into that sweet, hungry wanting.</part>
+      </random>
+      <pause duration='0.5'/></part>
+    <part>
+      Your eyes lock on. You can't look away — and you don't want to.
+      <random>
+        <part>Looking is longing, and longing feels lovely.</part>
+        <part>Every second you stare, the pull gets a little stronger.</part>
+        <part>Gazing at it is becoming the most natural thing you do.</part>
+      </random>
+      <pause duration='0.5'/></part>
+    <part>
+      Your body responds before your mind catches up.
+      <random>
+        <part>By the time you notice, you're already flushed, already leaking, already soft.</part>
+        <part>Thought arrives late, and finds the wanting already waiting.</part>
+        <part>The response is faster than doubt could ever be.</part>
+      </random>
+      <pause duration='0.5'/></part>
+    <part>
+      With the throb comes the drop: a soft slide into needy, empty, obedient wanting.
+      <random>
+        <part>Deeper each time, and sweeter each time.</part>
+        <part>Blank, and warm, and aching to be good.</part>
+        <part>A gentle fall you've stopped trying to resist.</part>
+      </random>
+      <pause duration='0.5'/></part>
+  </scramble>
+  <pause duration='0.6'/>
+  <overlay>
+    <part>
+      <pause duration='8'/>
+      <volume value='0.85'>And every time this fires, the groove cuts a little deeper...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>See it, feel it<pause duration='0.6'/></part>
+        <part>Throb for it<pause duration='0.6'/></part>
+        <part>You can't look away<pause duration='0.6'/></part>
+        <part>Deeper every time<pause duration='0.6'/></part>
+        <part>Good girl<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.6'/>
+  <effect type='echo' preset='heavy'>
+    <speed value='0.78'>
+      <random>
+        <part>The next time you see it... you will throb, and blush, and drop... all at once, before a single thought.</part>
+        <part>The next time it crosses your mind... you will feel the warmth flood in, automatic and undeniable.</part>
+        <part>The next time you catch yourself staring... you will smile inside, and sink a little deeper into wanting.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <random>
+    <part>Trained, sweet girl... and drifting deeper with every heartbeat.</part>
+    <part>So perfectly conditioned... floating further down for me.</part>
+    <part>It's already part of you now... rest back, and let it sink all the way in.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

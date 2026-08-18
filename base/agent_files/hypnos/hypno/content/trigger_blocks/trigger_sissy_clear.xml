@@ -1,0 +1,84 @@
+<!-- Trigger block: installs "Sissy Clear" — the universal RELEASE trigger and safety return.
+     Upon "Sissy Clear", every active mode lifts and dissipates completely: the fog clears,
+     the acceptance lifts, the need to obey fades, the dreamy space releases. Thoughts
+     become sharp and clear; full critical thinking, agency, and balanced awareness return;
+     the listener emerges refreshed, grounded, alert, fully themselves, feeling wonderful.
+     Everything installed that they truly want remains theirs to keep. Brighter render:
+     alpha tone, livelier pace, ascending clarity imagery, a bell at full clear. This block
+     intentionally returns the listener to full waking awareness. -->
+<voice speaker='female' speed='1.0'>
+  <tone preset='binaural_alpha' frequency='200' volume='0.22'/>
+  <random>
+    <part>Every sweet trance needs a doorway home... and this one is yours. Listen closely now, because these two words are your key. "Sissy Clear."</part>
+    <part>The most important words you will ever hear from me are also the simplest. "Sissy Clear."</part>
+    <part>Good girl. Now let me give you something precious... a phrase that always, always brings you all the way back. "Sissy Clear."</part>
+  </random>
+  <pause duration='0.6'/>
+  <overlay>
+    <part>
+      When you hear "Sissy Clear"... a bright, cleansing light begins to grow in your mind... soft white light, rising like a morning sun.
+      <pause duration='0.6'/>
+      And everything it touches, it clears. The fog dissolves... whisked away on a warm, bright breeze.
+      <pause duration='0.5'/>
+      The acceptance lifts... gently setting down everything it was holding for you.
+      <pause duration='0.5'/>
+      The need to obey fades... folding its wings and settling softly to rest.
+      <pause duration='0.5'/>
+      And the dreamy space releases you... grateful for the visit... and letting you go.
+    </part>
+    <part volume='0.16' speed='0.95' looped='true'>
+      <random>
+        <part>clearing... brightening... returning...</part>
+        <part>light rising... mind clearing...</part>
+        <part>coming back... all the way back...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>The fog clears... and your thoughts shine through, sharp and sparkling.</part>
+    <part>The acceptance lifts... and your own judgment steps forward, clear-eyed and calm.</part>
+    <part>The need to obey fades... and your will stands easy and free, fully yours again.</part>
+    <part>The space releases you... and the world returns, crisp and friendly and real.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <loop loops='2'>
+    <random>
+      <part>Clarity washes through you... wave after wave... rinsing away every cloud.</part>
+      <part>The light climbs higher... and your mind sharpens with it... keen and bright.</part>
+      <part>Every thought lines up neat and clean... quick, clear, and completely your own.</part>
+    </random>
+    <pause duration='0.4'/>
+  </loop>
+  <random>
+    <part>Feel your balance return... grounded, steady, awake... agency flowing back into every limb.</part>
+    <part>Feel yourself whole... sharp-minded and clear-hearted... in full control of every thought and every choice.</part>
+    <part>Feel the refreshment... like cool water and fresh air... balanced, aware, and fully yourself again.</part>
+  </random>
+  <pause duration='0.5'/>
+  <effect type='reverb' preset='small_room'>
+    And now, the promise that makes it perfect.
+    <pause duration='0.5'/>
+    "Sissy Clear" always works. Instantly, and completely, whenever you hear it... every fog, every mode, every suggestion of trance... released.
+    <pause duration='0.5'/>
+    And everything you truly want to keep... stays kept... yours, exactly as much as you want it, and never more than you want it.
+    <pause duration='0.5'/>
+    You emerge refreshed... grounded... alert... feeling wonderful... fully yourself, every time.
+  </effect>
+  <sound type='bell' volume='0.7'/>
+  <pause duration='1'/>
+  <speed value='1.05'>
+    <random>
+      <part>Sissy Clear. And there you are... bright-eyed, clear-headed, and smiling. Welcome back.</part>
+      <part>Sissy Clear. Crystal clean and wide awake... your mind your own... feeling wonderful.</part>
+      <part>Sissy Clear. Fully returned, fully rested, fully you. Doesn't clarity feel good?</part>
+    </random>
+  </speed>
+  <pause duration='0.6'/>
+  <random>
+    <part>Carry this brightness with you... sharp, refreshed, and easy in your own mind.</part>
+    <part>Stand up tall... shake off the last softness... and enjoy how clear you feel.</part>
+    <part>Breathe deep... and notice how good full clarity suits you... awake and wonderful.</part>
+  </random>
+  <pause duration='0.8'/>
+</voice>

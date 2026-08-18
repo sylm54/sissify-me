@@ -9,6 +9,16 @@ This specialization installs toggleable mode triggers that switch longer-duratio
 
 These are **mode triggers**. Unlike one-shot cues, each mode switches a longer-duration state **on** and persists until it is switched back **off**. They are designed to be toggled during sessions or carried through daily life, and can be layered together. All modes are released by the single universal **Sissy Clear** trigger, which provides a clean, reliable way to return to normal functioning whenever a mode is no longer wanted.
 
+## Prebuilt Hypno Blocks
+Install/reinforcement blocks for these modes ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_fog.xml` — installs the "Sissy Fog" mode.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_accept.xml` — installs the "Sissy Accept" mode.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_obey_mode.xml` — installs the "Sissy Obey Mode" mode.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_space.xml` — installs the "Sissy Space" mode.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_clear.xml` — installs the universal "Sissy Clear" release trigger.
+
+Each block randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree. Always install "Sissy Clear" in the same sessions that install any mode trigger, so the release is reliably conditioned alongside the modes.
+
 ## Sissy Fog
 Induces a thick, pleasurable mental fog that clouds thought, reduces resistance, and makes the subject inebriated and spaced out. Decision-making becomes difficult; obedience and feminine feelings become effortless and natural. The fog persists as a mode until cleared by **Sissy Clear**.
 

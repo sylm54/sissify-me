@@ -1,5 +1,13 @@
 # Hypno
-Hypno sessions are a powerful tool for reinforcing the user's sissy identity and desired behaviors. They can be used to create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
+Hypno sessions are a powerful tool for reinforcing the user's sissy identity and desired behaviors.
+
+## Default framework
+The framework ships a default library under `hypnos/hypno/` so you don't have to bootstrap the structural parts from scratch:
+- `structural/` — reusable pre-talk, induction/deepening/redeepening routers, and emergence (wakener).
+- `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` — randomized variants the routers pick from.
+- `content/trigger_blocks/`, `content/suggestion_pools/` — prebuilt trigger-install and suggestion blocks keyed to the specializations (`special/*.md` — each special lists the blocks it needs). Reuse these before writing new trigger or suggestion content from scratch; like the pools, they randomize themselves per playback and may each be `<include>`d at most once per render tree.
+
+**Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in session-specific trigger blocks and suggestion pools. Add new variants to the pools rather than forking copies. Note that a file may only be `<include>`d **once per render tree** — to repeat content, put a `<loop>`/`<scramble>` inside the subscript itself. They can be used to create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
 
 ## Patterns
 There are several patterns that can be used to create effective hypno sessions. These include:
@@ -14,21 +22,21 @@ Hypno sessions must be built from small, reusable subscripts rather than one big
 Keep every subscript in a dedicated file under a consistent folder hierarchy so the session composition file can reference them by path. Organise scripts like this:
 
 ```
-scripts/conditioning/hypno/
+hypnos/hypno/
 ├── structural/            # reusable building blocks shared across sessions
-│   ├── pre-talk.md
-│   ├── induction.md        # router that picks from pools/
-│   ├── deepening.md        # router that picks from pools/
-│   ├── redeepening.md      # router that picks from pools/
-│   └── emergence.md
+│   ├── pre-talk.xml
+│   ├── induction.xml        # router that picks from pools/
+│   ├── deepening.xml        # router that picks from pools/
+│   ├── redeepening.xml      # router that picks from pools/
+│   └── emergence.xml
 ├── content/                # session-specific trigger & suggestion files
 │   ├── trigger_blocks/     # one file per trigger
 │   ├── suggestion_pools/   # suggestion text pools per theme
-│   └── induction_pools/    # multiple induction variants for randomness
+│   ├── induction_pools/    # multiple induction variants for randomness
 │   ├── deepening_pools/    # multiple deepening variants
 │   └── redeepening_pools/  # multiple redeepening variants
 └── compositions/           # thin session scripts that link to the parts they need
-    └── <session_name>.md
+    └── <session_name>.xml
 ```
 
 The `compositions/` folder holds the final session scripts — each one is a thin file that `<include>`s or references the structural and content files it combines, plus the pre-talk, post-hypnotic suggestions, and post-talk that are unique per session.
@@ -49,7 +57,7 @@ Do not write all subscripts yourself. Instead, organise the work into **3–5 pa
 2. **Write a brief for each group** that names every file the group should create, specifies which folder it goes in, lists the key patterns to use (Random SubScripts, Random Suggestions, Ordering), and notes any triggers or specializations to reference.
 3. **Spawn all subagents in parallel**, passing each its brief. Do not spawn them sequentially — the whole point is concurrency.
 4. **Collect the results.** After every subagent finishes, review the outputs, resolve any inconsistencies across groups, and wire the composition file together.
-5. **Create the composition file** at `compositions/<session_name>.md` by combining the structural includes, trigger/suggestion blocks, pre-talk, post-hypnotic suggestions, and post-talk.
+5. **Create the composition file** at `compositions/<session_name>.xml` by combining the structural includes, trigger/suggestion blocks, pre-talk, post-hypnotic suggestions, and post-talk.
 
 This approach keeps builds fast (parallel work), keeps files small and reusable (one concern per file), and keeps sessions varied (swap pool files without touching the composition).
 

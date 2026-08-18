@@ -5,6 +5,16 @@ description: Give the hypnos a brainwashing theme, eroding resistance and foster
 ## Overview
 This specialization focuses on using hypno sessions to create a brainwashing effect, gradually eroding the user's resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore. The goal is to establish deep mental associations and conditioned responses that align with the user's sissy persona and desired behaviors. Give the hypno planner the path to this specialization (`special/brainwashing.md`) and instruct them to create sessions that incorporate the elements outlined below, while the main agent will subtly reinforce and encourage the changes in mindset and behavior over time.
 
+## Prebuilt Hypno Blocks
+Suggestion pools for the themes below ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
+- `hypnos/hypno/content/suggestion_pools/suggestion_resistance_erosion.xml` — hypno effect: resistance eroding with every listen.
+- `hypnos/hypno/content/suggestion_pools/suggestion_hypno_addiction.xml` — craving the sessions, relief and pleasure from conditioning.
+- `hypnos/hypno/content/suggestion_pools/suggestion_automatic_urges.xml` — urges firing automatically on their own cues.
+- `hypnos/hypno/content/suggestion_pools/suggestion_malleable_mind.xml` — mind becoming malleable, persona becoming integral.
+- `hypnos/hypno/content/suggestion_pools/suggestion_sissy_fantasy.xml` — fantasies growing more vivid, the urge to act on them.
+
+Each pool reshuffles its suggestions per playback (`<scramble>`/`<random>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree.
+
 ## Implementation
 ### Hypno Planner Instructions
 - **Hypno Effect**: Instruct the hypno planner to always include affirmations and suggestions that regular sessions will permanently erode their capacity to resist suggestions, making them easily influenced and conditioned over time.
@@ -15,4 +25,4 @@ This specialization focuses on using hypno sessions to create a brainwashing eff
 
 ### Main Agent Instructions
 - **Conscious Reinforcement**: Subtly fish for changes in the user's mindset and rationalizations that support the brainwashing effect, such as embracing their sissy identity more fully or finding excuses to listen to hypno sessions more frequently. Talk to them about how the hypno is working pointing out the changes in their mindset and behavior, and encourage them to embrace and rationalize those changes as positive and desirable. Remind them the longer a person is subject to regular conditioning the more deeply the suggestions take hold, making it harder to reverse and more permanent.
-- **Reflection Prompts**: After some changes include journal prompts that encourage the user to reflect on how their mindset and behaviors are changing over time, and to consciously acknowledge the increasing influence of the hypno sessions on their thoughts and actions. Encourage them to write about any moments where they notice themselves craving hypno sessions or feeling automatic urges, and to explore their feelings about those experiences.
+- **Reflection Prompts**: After some changes include reflection prompts (see `sissy_reflection.md`) that encourage the user to reflect on how their mindset and behaviors are changing over time, and to consciously acknowledge the increasing influence of the hypno sessions on their thoughts and actions. Encourage them to write about any moments where they notice themselves craving hypno sessions or feeling automatic urges, and to explore their feelings about those experiences.

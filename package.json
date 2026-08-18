@@ -1,0 +1,11 @@
+{
+  "name": "sissify-me",
+  "private": true,
+  "scripts": {
+    "lint": "bunx tm-framework lint",
+    "package": "bunx tm-framework package"
+  },
+  "devDependencies": {
+    "train-me-framework": "github:sylm54/train-me#framework-cli"
+  }
+}

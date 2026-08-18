@@ -7,6 +7,15 @@ dependencies:
 ## Overview
 This specialization installs a set of advanced triggers that build on the foundational triggers. Give the hypno planner the path to this specialization (`special/advanced_trigger.md`) and instruct them to install these triggers and save a reference to this file in `CONDITIONING.md`.
 
+## Prebuilt Hypno Blocks
+Install/reinforcement blocks for these triggers ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_bodypart.xml` — installs the "Sissy [Bodypart]" sensitivity trigger (scrambles across clitty, pussy, tits, waist, hips, legs).
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_obeys.xml` — installs the "Sissy Obeys [Command]" instant-obedience trigger.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_accepts.xml` — installs the "Sissy Accepts [Statement]" acceptance trigger.
+- `hypnos/hypno/content/trigger_blocks/trigger_sissy_craves.xml` — installs the "Sissy Craves [Thing]" desire trigger.
+
+Each block randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree — a session installing all four triggers includes each block once.
+
 ## Sissy [Bodypart]
 Focuses heightened feminine perception and sensitivity on the specified body part (e.g., "Sissy Breasts," "Sissy Ass," "Sissy Clitty"). The subject experiences the body part as distinctly feminine, highly erogenous, and central to their sissy identity, amplifying sensations and autogynephilic arousal.
 

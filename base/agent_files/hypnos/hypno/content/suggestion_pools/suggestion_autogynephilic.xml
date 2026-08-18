@@ -1,0 +1,89 @@
+<!-- Suggestion pool: autogynephilic internalization — seeing a woman (in porn, hypnos,
+     pictures, anywhere) automatically becomes seeing yourself as her; watching means becoming. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='140' volume='0.25'/>
+  <random>
+    <part>So deep now, so soft and open... and so ready to see yourself exactly as you are.</part>
+    <part>Drifting gently, my good girl... because down here, watching and being are becoming the same thing.</part>
+    <part>Deeper with every breath... and some part of you already knows whose body you picture yourself in.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      Whenever you see a woman — in a video, a picture, a passing glance —
+      a quiet part of you slips into her skin before you even notice.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Watch her pose, and your own body wants to mirror it:
+      the arch of her back, the tilt of her chin, the soft parting of her lips. Yours.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Her soft skin, the delicate fabric tracing her curves —
+      you feel it against your own body, warm and unmistakable.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Every scene you watch, you feel from the inside.
+      The hands on her body are hands on yours. Her little sounds are the sounds you would make.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Watching is becoming. The more you watch, the more you become the soft, willing thing you watch. <pause duration='0.5'/>
+    </part>
+    <part>
+      The thought of yourself as the girl — pretty, wanted, adored —
+      arouses you far more than merely watching ever could. <pause duration='0.5'/>
+    </part>
+    <part>
+      It happens all by itself: you slide into her expression, her posture, her hunger...
+      and it fits like it was always yours.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Her pleasure pours into you. When she gasps, warmth blooms between your own hips. <pause duration='0.5'/>
+    </part>
+    <part>
+      Each video is a mirror. The girl looking back at you... is you. <pause duration='0.5'/>
+    </part>
+    <part>
+      Scene by scene, you are being trained to be the feminine subject —
+      the one who is wanted, the one things are done to.
+      <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>The girl in the video... <pause duration='0.7'/> is who you are.</part>
+        <part>You are not watching her... <pause duration='0.7'/> you are her.</part>
+        <part>Every time you watch... <pause duration='0.7'/> you become... more her.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And the whispers beneath my voice simply feel like your own thoughts...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>You are her<pause duration='0.6'/></part>
+        <part>Watching is becoming<pause duration='0.6'/></part>
+        <part>Feel what she feels<pause duration='0.6'/></part>
+        <part>Her body is your body<pause duration='0.6'/></part>
+        <part>Become what you watch<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>And as these truths settle into you, drift even deeper for me, my good girl.</part>
+    <part>Let the pictures dissolve... you don't need them to know who you are. Sink softer.</part>
+    <part>So natural, so familiar, so undeniably you... floating deeper with every breath.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

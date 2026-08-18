@@ -1,0 +1,89 @@
+<!-- Trigger block: installs the "Sissy Fog" MODE trigger — a persistent state, not a moment.
+     Upon "Sissy Fog", a thick, pleasurable mental fog descends: thoughts cloud and blur,
+     decisions become difficult, the body feels distant and numb, senses slip away. Words
+     heard in the fog are simply accepted without thinking, commands are simply obeyed, and
+     being a good sissy becomes automatic. The fog stays until the release words
+     "Sissy Clear". -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='140' volume='0.25'/>
+  <random>
+    <part>There is a soft grey veil waiting just above your mind, sweet girl... waiting for two little words. "Sissy Fog."</part>
+    <part>Some pleasures are sharp. This one is wonderfully, deliciously hazy. Two words lower it over you. "Sissy Fog."</part>
+    <part>Your mind is about to learn the sweetest way to drift away and let go. All it takes is "Sissy Fog."</part>
+  </random>
+  <pause duration='0.7'/>
+  Sissy Fog.
+  <sound type='swoosh' volume='0.5'/>
+  <pause duration='0.9'/>
+  <overlay>
+    <part>
+      Feel it descending... thick, warm, and pleasurable... settling over your thoughts like a heavy blanket of cotton.
+      <pause duration='0.7'/>
+      Every thought it touches clouds and blurs... fuzzy at the edges... until thinking becomes so difficult... and so unnecessary.
+      <pause duration='0.6'/>
+      Your body drifts far away... distant, soft, and numb... your senses slipping gently into the grey... one by one by one.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>fog... hazy... drifting...</part>
+        <part>so foggy... so far away...</part>
+        <part>blurry... soft... letting go...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Dazed... spaced out... sweetly inebriated on the fog.</part>
+    <part>Floating through grey cotton... decisions dissolving before you can even hold them.</part>
+    <part>So dreamy... so drowsy... going with the flow.</part>
+    <part>Pleasantly numb... pleasantly blank... pleasantly gone.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  And in the fog... everything becomes so easy.
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Words you hear in the fog simply drift in... and are accepted, without thinking.</part>
+    <part>Commands reach you through the mist... and are simply obeyed.</part>
+    <part>There is no questioning in the fog. No deciding. Only soft, automatic acceptance.</part>
+    <part>Fog in... thoughts out... obedience in... good sissy.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <loop loops='2'>
+    <random>
+      <part>Let the fog think for you... let it carry you... you don't need to think at all.</part>
+      <part>The thicker the fog grows, the softer your mind becomes... and the better you obey.</part>
+      <part>Obedience and feminine feeling, effortless in the mist... automatic... natural.</part>
+    </random>
+    <pause duration='0.5'/>
+  </loop>
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        And listen closely, foggy girl, because this part matters.
+        <pause duration='0.5'/>
+        The fog does not lift on its own. The fog stays with you... hazy and obedient... soft and sweet... however long you drift.
+        <pause duration='0.6'/>
+        Until you hear the words... "Sissy Clear"... the fog remains... soft, thick, and wonderful.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>the fog stays... until Sissy Clear...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  One more time, so it sinks in deep.
+  <pause duration='0.5'/>
+  Sissy Fog.
+  <sound type='swoosh' volume='0.5'/>
+  <pause duration='0.8'/>
+  <random>
+    <part>There it is... thicker than before... wrapping your mind in warm grey cotton... thoughts fading into the mist.</part>
+    <part>Deeper into the haze... letting go... going with the flow... a dazed, dreamy, perfect sissy.</part>
+    <part>So blank, so soft, so far away... and everything you hear simply becomes true.</part>
+  </random>
+  <pause duration='0.8'/>
+  <random>
+    <part>Drift here now, foggy and free... my voice carrying you on through the mist.</part>
+    <part>Floating in the grey... obedient and automatic... ready for whatever comes next.</part>
+    <part>Stay wrapped in the fog... blank, blissful, and beautifully good.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

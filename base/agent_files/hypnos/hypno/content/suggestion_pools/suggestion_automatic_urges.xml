@@ -1,0 +1,63 @@
+<!-- Suggestion pool: everyday words, sights, and quiet moments trigger sissy urges automatically, and the urges keep growing. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='110' volume='0.25'/>
+  <random>
+    <part>So much of this happens all by itself now... doesn't it, good girl.</part>
+    <part>Your mind has been learning new reflexes. And it learns so beautifully.</part>
+    <part>You have already noticed it... the little things that set you off, without any warning at all.</part>
+  </random>
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      <loop loops='2'>
+        <scramble>
+          <part>A single word can make you feel soft. Instantly. Before you even have time to think.</part>
+          <part>A glance at lingerie, and something in you stirs... aches... clenches with need.</part>
+          <part>Quiet moments fill with sissy thoughts, all on their own. Your mind simply goes there.</part>
+          <part>The urges arrive without effort, without decision. They simply rise... and you simply feel.</part>
+          <part>More natural each time. More difficult to ignore each time.</part>
+          <part>Acting on them feels like following your own nature... because that is exactly what it is.</part>
+          <part>With every listen, the urges grow more frequent... more compelling... more impossible to dismiss.</part>
+          <part>You don't choose the urges anymore, sweet girl. The urges choose you.</part>
+        </scramble>
+        <pause duration='1'/>
+      </loop>
+    </part>
+    <part volume='0.18' speed='1.25' looped='true'>
+      <random>
+        <part>so soft</part>
+        <part>it just happens</part>
+        <part>let it rise</part>
+        <part>feel the pull</part>
+      </random>
+    </part>
+  </overlay>
+  <effect type='echo' preset='medium'>
+    <random>
+      <part>
+        <speed value='0.75'>
+          Softness... <pause duration='0.6'/> simply... <pause duration='0.6'/> happens... <pause duration='0.8'/> to you now.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          You feel it... <pause duration='0.6'/> before you can... <pause duration='0.8'/> even think.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+      <part>
+        <speed value='0.75'>
+          The urge... <pause duration='0.6'/> arrives... <pause duration='0.6'/> and you... <pause duration='0.8'/> obey it.
+          <pause duration='2.5'/>
+        </speed>
+      </part>
+    </random>
+  </effect>
+  <random>
+    <part>And whatever rises in you next... let it... as you drift deeper...</part>
+    <part>No effort. No decision. Just the urge... and the depth...</part>
+    <part>Let the next one come whenever it wants. Sink deeper while it blooms...</part>
+  </random>
+  <pause duration='1'/>
+</voice>

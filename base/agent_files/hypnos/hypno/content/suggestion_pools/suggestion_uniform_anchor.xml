@@ -1,0 +1,87 @@
+<!-- Suggestion pool: post-hypnotic uniform anchor — the touch of the chosen anchor garment
+     switches on the sissy persona. Deliberately generic ("your uniform", "the fabric", "the
+     softness against your skin") so it applies to whatever item was chosen.
+     Pairs with the special/uniform.md anchoring protocol. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='120' volume='0.25'/>
+  <random>
+    <part>Deeper and softer now... and already you can imagine that softness waiting against your skin.</part>
+    <part>Drifting, my good girl... the garment you wear when you're most yourself is listening too.</part>
+    <part>So open, so receptive... let's deepen the sweetest switch you own.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      The moment your uniform touches your skin, she floods in:
+      soft, feminine, submissive, eager. Just like that.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      The touch of the fabric is the switch.
+      It doesn't matter what the garment is — the touch itself means surrender.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      The softness against your skin whispers one word, over and over:
+      surrender... femininity... softness... you.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Wearing it, you move as she moves. You speak as she speaks.
+      You think her thoughts, naturally, effortlessly.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Every wearing deepens the anchor.
+      Each time, she arrives faster, and the shift feels more complete.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      It feels like coming home to yourself —
+      the gentle pull of a fabric that remembers exactly who you are.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Without it, you feel the absence:
+      a soft, persistent longing to be dressed... to be her again.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      You don't have to try. The uniform does the work. You simply... become.
+      <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>The fabric... <pause duration='0.7'/> is the switch.</part>
+        <part>To wear it... <pause duration='0.7'/> is to become her.</part>
+        <part>It fits... <pause duration='0.7'/> because she is you.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And even the memory of that touch makes you softer, here and now...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>The fabric is the switch<pause duration='0.6'/></part>
+        <part>Wear it, become her<pause duration='0.6'/></part>
+        <part>Surrender in the softness<pause duration='0.6'/></part>
+        <part>Home in your uniform<pause duration='0.6'/></part>
+        <part>Hers, the moment it touches<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>Let the memory of that softness wrap around you now, and carry you deeper.</part>
+    <part>Even the thought of your uniform makes you softer... sinking, settling, becoming.</part>
+    <part>Drift deeper, my good girl, wrapped in the promise of that touch.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

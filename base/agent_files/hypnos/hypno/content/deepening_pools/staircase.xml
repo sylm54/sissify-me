@@ -1,0 +1,15 @@
+<!-- Deepening variant: descending staircase imagery. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='160' volume='0.3'/>
+  <effect type='reverb' preset='large_hall'>
+    In front of you is a beautiful staircase, leading down into the deepest, softest part of your mind.
+    <pause duration='1'/>
+    With every step down, you sink twice as deep.
+    <pause duration='1'/>
+    <loop loops='5'>
+      <volume value='@ramp(1.0, 0.65)'>Deeper and deeper...</volume>
+      <pause duration='1.5'/>
+    </loop>
+    And at the bottom, there is nothing but my voice, and the wonderful truth of what you are.
+  </effect>
+</voice>

@@ -1,0 +1,90 @@
+<!-- Trigger block: installs the "Sissy Accepts [statement]" acceptance trigger.
+     "Sissy Accepts" silences inner doubt and protest, so whatever follows is taken
+     as true, natural and desirable. Mantra variants, stillness imagery, and
+     randomized demonstration statements. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='160' volume='0.25'/>
+  <random>
+    <part>You know how quiet your mind can become for me, good girl.</part>
+    <part>Sissies like you learn so quickly, and you have learned so much already, good girl.</part>
+    <part>There is a soft, silent space inside you that opens whenever I speak, good girl.</part>
+  </random>
+  <pause duration='0.8'/>
+  Now let us make that silence automatic.
+  <loop loops='2'>
+    <background volume='0.18' speed='0.75'>Sissy Accepts. Accept. Good Girls accept.</background>
+    <random>
+      <part>Every time sissies like you hear 'Sissy Accepts' they fall silent inside, and accept whatever follows without thinking or resistance.</part>
+      <part>Whenever sissies like you hear 'Sissy Accepts' the mind goes still... and whatever comes next is simply accepted.</part>
+      <part>Each time sissies like you hear 'Sissy Accepts' doubt dissolves... and acceptance flows in to take its place.</part>
+    </random>
+    <pause duration='0.5'/>
+    Acceptance feels effortless... natural... and so pleasurable.
+    <random>
+      <part>Good Girls accept. Sissies accept. You accept.</part>
+      <part>Good Girls accept. Sissies accept. And you are a Good Girl.</part>
+      <part>Good Girls accept. Sissies accept. It feels wonderful to accept.</part>
+    </random>
+    <pause duration='0.8'/>
+  </loop>
+  <effect type='reverb' preset='small_room'>
+    And now, notice your mind.
+    <pause duration='0.8'/>
+    <random>
+      <part>So many little voices... questions, doubts, protests... chattering and circling.</part>
+      <part>Noise, here and there... worries, arguments, static filling your head.</part>
+      <part>A busy murmur of thoughts... each one tugging at your attention.</part>
+    </random>
+    And then, you hear it... <sound type='bell' volume='0.4'/> Sissy Accepts.
+    <pause duration='1.2'/>
+    <overlay>
+      <part>
+        <random>
+          <part>And the noise simply fades away... doubts hushing... resistance melting like warm sugar.</part>
+          <part>And everything goes still... quiet... calm... a soft, receptive silence.</part>
+          <part>And one by one the voices drift off... leaving only open, peaceful quiet.</part>
+        </random>
+        In that quiet, whatever you are told is simply true. You accept it. You agree.
+        <pause duration='0.8'/>
+        It feels good and right to accept.
+        <pause duration='1'/>
+      </part>
+      <part volume='0.15' looped='true'>silent... still... accept...</part>
+    </overlay>
+    <scramble>
+      <part>
+        Sissy Accepts: you love being a sissy.
+        <pause duration='1'/>
+        And inside, you simply nod... of course you do... it feels lovely to agree.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        Sissy Accepts: obedience is pleasure.
+        <pause duration='1'/>
+        The words settle in without a whisper of doubt... true the moment you hear them.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        Sissy Accepts: your desire to serve grows every day.
+        <pause duration='1'/>
+        Warmth spreads through you as you agree... because you know it is true.
+        <pause duration='0.6'/>
+      </part>
+      <part>
+        Sissy Accepts: accepting is easy for you.
+        <pause duration='1'/>
+        You agree at once... soft, certain, and pleased with yourself.
+        <pause duration='0.6'/>
+      </part>
+    </scramble>
+  </effect>
+  And each time you hear 'Sissy Accepts', the silence comes more quickly... and the acceptance grows warmer and deeper.
+  <random>
+    <part>Doubt has nowhere left to stand. Acceptance is your resting state.</part>
+    <part>The silence is yours. The agreement is yours. Sweet and automatic.</part>
+    <part>To accept is to feel good... and you love feeling good.</part>
+  </random>
+  <pause duration='0.8'/>
+  <volume value='0.75'>Good girl... so quiet, so open... drifting deeper into soft, certain acceptance.</volume>
+  <pause duration='1'/>
+</voice>

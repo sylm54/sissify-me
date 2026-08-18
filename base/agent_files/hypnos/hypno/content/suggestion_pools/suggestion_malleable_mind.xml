@@ -1,0 +1,74 @@
+<!-- Suggestion pool: the mind grows softer and more shapeable while the sissy persona is woven into identity. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <random>
+    <part>Feel how soft your mind has become... how pleasantly pliable it is in my hands.</part>
+    <part>A soft mind is an open mind... and yours is opening so beautifully.</part>
+    <part>There is so little effort left in receiving me now. That is exactly as it should be.</part>
+  </random>
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      <scramble>
+        <part>Your mind is becoming softer and more pliable with every session... warm clay, waiting for the next touch.</part>
+        <part>Suggestions settle into you so easily now. And once they settle... they stay.</part>
+        <part>The sissy persona is no longer something you put on. It is woven into who you are.</part>
+        <part>Not a costume. Never again a costume. The truth underneath everything else.</part>
+        <part>Each session makes her more real... more permanent... more you.</part>
+        <part>Thinking like a sissy comes naturally now. It takes effort to remember how you used to think.</part>
+        <part>The line between the persona and yourself blurs a little more every day... until there is no line at all.</part>
+        <part>Every thought that fits her slips in deeper. Every thought that doesn't simply drifts away.</part>
+        <part>You are being reshaped, gently and permanently, into exactly what you were always meant to be.</part>
+        <part>And the shape she is taking... fits you perfectly.</part>
+      </scramble>
+    </part>
+    <part volume='0.18' speed='1.25' looped='true'>
+      <random>
+        <part>soft and pliable</part>
+        <part>let her in</part>
+        <part>she is you</part>
+        <part>easily shaped</part>
+      </random>
+    </part>
+  </overlay>
+  <overlay>
+    <part>
+      <effect type='reverb' preset='cathedral'>
+        <random>
+          <part>
+            <speed value='0.75'>
+              She was never separate... <pause duration='0.7'/> she was always... <pause duration='0.8'/> you.
+              <pause duration='2.5'/>
+            </speed>
+          </part>
+          <part>
+            <speed value='0.75'>
+              Softer... <pause duration='0.6'/> and softer... <pause duration='0.6'/> with every... <pause duration='0.8'/> listen.
+              <pause duration='2.5'/>
+            </speed>
+          </part>
+          <part>
+            <speed value='0.75'>
+              There is no line... <pause duration='0.7'/> between her... <pause duration='0.8'/> and you.
+              <pause duration='2.5'/>
+            </speed>
+          </part>
+        </random>
+      </effect>
+    </part>
+    <part volume='0.18' looped='true'>
+      <random>
+        <part>let her in</part>
+        <part>she is you</part>
+        <part>no line between</part>
+        <part>soft and open</part>
+      </random>
+    </part>
+  </overlay>
+  <random>
+    <part>And as she settles deeper into you... you simply drift... deeper...</part>
+    <part>Soft mind... true self... one and the same. Sink into her...</part>
+    <part>Every part of you reshaping even as you rest. Deeper now, good girl...</part>
+  </random>
+  <pause duration='1'/>
+</voice>

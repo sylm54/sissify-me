@@ -1,0 +1,10 @@
+<!-- Redeepening variant: one breath, one drop. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='130' volume='0.25'/>
+  Take one deep breath for me now.
+  <pause duration='3'/>
+  And as you let it out... feel yourself dropping... all the way back down... ten times deeper.
+  <pause duration='2'/>
+  <volume value='0.75'>Good girl. Soft, blank, and open.</volume>
+  <pause duration='1'/>
+</voice>

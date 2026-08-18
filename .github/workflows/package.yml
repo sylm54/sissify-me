@@ -2,7 +2,7 @@ name: Package
 
 on:
   push:
-    branches: [main,master]
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
@@ -13,49 +13,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-
-      - name: Install dependencies
-        run: bun install
-        working-directory: .dev
-
-      - name: Lint prompts
-        run: bun run analyze.ts lint
-        working-directory: .dev
+      - run: bun install
+      - run: bunx tm-framework lint
 
   package:
     runs-on: ubuntu-latest
     needs: lint
     steps:
       - uses: actions/checkout@v4
-
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-
-      - name: Install dependencies
-        run: bun install
-        working-directory: .dev
-
-      - name: Create zip
-        run: bun run package.ts
-        working-directory: .dev
-
-      - name: Delete stable release if it exists
+      - run: bun install
+      - run: bunx tm-framework package
+      - name: Rolling stable release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release delete stable --yes --cleanup-tag 2>/dev/null || true
-
-      - name: Create stable release
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
           gh release create stable \
             --title "Stable Release" \
             --notes "Latest packaged release of sissify-me" \
-            .dev/sissifyme.zip#sissifyme.zip \
-            .dev/index.json#index.json
+            dist/*.zip \
+            dist/index.json

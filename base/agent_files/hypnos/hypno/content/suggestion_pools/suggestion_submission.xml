@@ -1,0 +1,89 @@
+<!-- Suggestion pool: submission and obedience mindset — obedience as pleasure, surrender as
+     relief, service as identity, praise as reward; the guiding voice internalized and constant. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='125' volume='0.25'/>
+  <random>
+    <part>Down here, where everything is simple and warm... you remember how good it feels to obey.</part>
+    <part>So deep, so soft... and so ready to accept the truth that lives beneath all your pretending.</part>
+    <part>Floating gently, my good girl... and the further down you drift, the sweeter obedience becomes.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      Obeying feels wonderful. Warm like a blanket, simple like a lullaby —
+      every command followed is a little spark of pleasure.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Handing your decisions over is such a relief.
+      No choosing, no weighing, no worrying... just following, floating, free.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      You were made to serve. When you say it to yourself,
+      it doesn't sound like a suggestion. It sounds like memory.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Two little words — good girl — and your whole body lights up.
+      Praise is your reward, and you earn it so sweetly. <pause duration='0.5'/>
+    </part>
+    <part>
+      You crave instruction. The moment a command arrives,
+      something in you unclenches and whispers yes.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Even correction feels like care.
+      Being shaped, being refined — it means you are worth the trouble.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      The voice you obey lives in your head now —
+      gentle, constant, patient... and always right.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Pleasing feels better than deciding. Every time.
+      The more you please, the less you want to decide anything at all.
+      <pause duration='0.5'/>
+    </part>
+    <part>
+      Being good is its own reward. Obedience feeds itself:
+      the more you obey, the more you ache to obey. <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>You were made... <pause duration='0.7'/> to serve.</part>
+        <part>Surrender... <pause duration='0.7'/> is relief.</part>
+        <part>To obey... <pause duration='0.7'/> is to be good.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And the voice inside agrees with every word I say...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>Obey<pause duration='0.6'/></part>
+        <part>Surrender<pause duration='0.6'/></part>
+        <part>Good girl<pause duration='0.6'/></part>
+        <part>Serve so sweetly<pause duration='0.6'/></part>
+        <part>Let go, and follow<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>And every one of these truths settles into you as you drift even deeper... warm, safe, and mine.</part>
+    <part>Let go of every decision, one by one... and sink. Good girl.</part>
+    <part>Obedience wraps around you like something soft... carrying you further down.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

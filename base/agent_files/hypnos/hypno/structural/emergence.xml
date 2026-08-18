@@ -1,0 +1,20 @@
+<!-- Default emergence (wakener): counts the listener up while carrying the session's effects with them. -->
+<voice speaker='female' speed='1.0'>
+  <tone preset='binaural_alpha' frequency='140' volume='0.2'/>
+  In a moment I will count up from one to five, and with every number you will drift closer to the surface, keeping everything you've gained.
+  <pause duration='0.6'/>
+  <speed value='1.05'>
+    One. Energy beginning to return.
+    <pause duration='1'/>
+    Two. Breathing lifting, becoming lighter.
+    <pause duration='1'/>
+    Three. Limbs waking, gentle and heavy and calm.
+    <pause duration='1'/>
+    Four. Almost back now, and everything you feel stays with you — it's part of you now.
+    <pause duration='1'/>
+    Five. Eyes open, fully awake, feeling wonderful.
+  </speed>
+  <sound type='ding'/>
+  <pause duration='0.5'/>
+  <effect type='reverb' preset='small_room'>Welcome back, good girl. You did perfectly.</effect>
+</voice>

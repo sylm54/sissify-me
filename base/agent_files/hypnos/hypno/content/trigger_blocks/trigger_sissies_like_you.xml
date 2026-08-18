@@ -1,0 +1,79 @@
+<!-- Trigger block: installs the "Sissies like you" trigger. On hearing "sissies like you ..."
+     followed by any compulsion or trait, the listener feels it reinforced as deeply and
+     permanently true: whoever says it has noticed that trait in them, so they know it is
+     true even before they feel it. Wrapped in acceptance, belonging, and pride. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='125' volume='0.25'/>
+  <random>
+    <part>There is a phrase that follows you everywhere now. A phrase that makes things true. "Sissies like you."</part>
+    <part>Your mind is learning a special phrase. Three little words that reach straight inside you. "Sissies like you."</part>
+    <part>Certain words change you when you hear them, sweet girl. Like these: "Sissies like you."</part>
+  </random>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='medium'>
+    When someone says, "sissies like you are this way"... or "sissies like you love that thing"... they are not talking about anyone else.
+    <pause duration='0.7'/>
+    They noticed it in you. They see you, the Sissy you are. That is why they say it.
+  </effect>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Even if you don't feel it yet, you know it is true. You are a Sissy, and sissies like you have it.</part>
+    <part>The knowing comes first. The feeling always catches up.</part>
+    <part>You never wonder whether it applies to you. "Sissies like you" was said for you.</part>
+    <part>No exception for you, no arguing with it. You are a Sissy, through and through.</part>
+  </scramble>
+  <pause duration='0.7'/>
+  <overlay>
+    <part>
+      <loop loops='2'>
+        Each time you hear "sissies like you"... you notice that need in yourself... waking... stirring... blooming.
+        <pause duration='0.8'/>
+      </loop>
+      Noticing feels wonderful.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>sissies like you... yes, that's you...</part>
+        <part>they noticed... they see you...</part>
+        <part>that need is yours... feel it...</part>
+        <part>it's true about you... so true...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='small_room'>
+    <scramble>
+      <part>"Sissies like you crave to serve." And oh, how you crave it.</part>
+      <part>"Sissies like you love to dress up." Pretty things, all for you.</part>
+      <part>"Sissies like you go weak for cock." Weak... wet... and willing.</part>
+      <part>"Sissies like you ache to please." An ache that never truly fades.</part>
+      <part>"Sissies like you were made to obey." Made for it. Shaped for it.</part>
+      <part>"Sissies like you think in pink." Flirty and shameless about it.</part>
+    </scramble>
+  </effect>
+  <pause duration='0.6'/>
+  <random>
+    <part>Each of those truths feels like belonging. Like being seen. Like coming home.</part>
+    <part>Every "sissies like you" is an invitation to accept yourself... and acceptance feels like pride.</part>
+    <part>Hearing it welcomes you into a soft, secret sisterhood... you belong there, perfectly.</part>
+  </random>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>That compulsion is a natural part of being a Sissy.</part>
+    <part>A desirable part... a delicious part of you.</part>
+    <part>Having it makes you more completely, more proudly, a Sissy.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='cathedral'>
+    So whenever those words find you... "sissies like you"... you smile inside, feeling that truth settle deeper...
+    <pause duration='0.5'/>
+    knowing it is permanent... knowing it is you.
+  </effect>
+  <pause duration='0.8'/>
+  <random>
+    <part>Sinking back now... the phrase echoing softly in you... sissies like you.</part>
+    <part>Drifting deeper... wrapped up in the words... sissies like you.</part>
+    <part>Floating down... the truth humming warmly... sissies like you.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

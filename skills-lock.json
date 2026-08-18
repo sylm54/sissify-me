@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "framework-dev": {
+      "source": "sylm54/train-me",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/framework-dev/SKILL.md",
+      "computedHash": "25cfb2e90e2b3f0c4f8cd7b907918410e43edd9543eca8fa2947d1019cfcd29c"
+    }
+  }
+}

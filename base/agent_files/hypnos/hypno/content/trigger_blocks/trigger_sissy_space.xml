@@ -1,0 +1,86 @@
+<!-- Trigger block: installs the "Sissy Space" MODE trigger. Upon "Sissy Space", the
+     listener sinks into a deep, dreamy, submissive headspace: soft, floaty, and light,
+     drifting on a gentle cloud while the world fades away. Sissy feelings come easily and
+     naturally there; the space is safe and relaxed, fully open to sissy programming. It
+     holds them gently until the release words "Sissy Clear". -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_delta' frequency='125' volume='0.25'/>
+  <random>
+    <part>There is a place only good sissies go... a soft, secret headspace, far from the noisy world. Two words are the door. "Sissy Space."</part>
+    <part>Sweet girl, deep in your mind there is a room made of clouds and pink light. I'm about to hand you the key. "Sissy Space."</part>
+    <part>You've brushed against it before... that floaty, dreamy place where you feel most yourself. Now you can sink there on command. "Sissy Space."</part>
+  </random>
+  <pause duration='0.7'/>
+  Sissy Space.
+  <sound type='bubble_pop' volume='0.5'/>
+  <pause duration='0.9'/>
+  <overlay>
+    <part>
+      And you're sinking in... deep, dreamy, and submissive... wrapped in a headspace as soft as candlelight.
+      <pause duration='0.7'/>
+      Your body goes light... floaty... drifting on a gentle cloud that carries you wherever my voice points.
+      <pause duration='0.6'/>
+      The world fades away... sounds, worries, walls... dissolving into distant, sleepy echoes... until there is only this space... and me.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>float... drift... soft...</part>
+        <part>so light... so dreamy...</part>
+        <part>sissy space... safe and soft...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>In Sissy Space, everything feminine comes easily... naturally... like breathing.</part>
+    <part>In Sissy Space, you are safe... held... perfectly free to be soft.</part>
+    <part>In Sissy Space, your mind lies wide open... every strand of sissy programming sinking in deep.</part>
+    <part>In Sissy Space, you are more sissy than anything else... and it feels wonderful.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <loop loops='2'>
+    <random>
+      <part>Each breath floats you a little higher... a little softer... a little deeper into you.</part>
+      <part>The cloud rocks you gently... and with every sway, the sissy feelings bloom a little brighter.</part>
+      <part>Deeper into the space... where wanting to be a good girl is the most natural thing in the world.</part>
+    </random>
+    <pause duration='0.5'/>
+  </loop>
+  <scramble>
+    <part>No weight here. No worry. Only pink, floating calm.</part>
+    <part>So relaxed... so receptive... every suggestion landing like a feather on open water.</part>
+    <part>The space cradles you... approves of you... whispers that you belong.</part>
+    <part>Soft thoughts... sweet thoughts... slow, sissy thoughts... drifting in a row.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        And listen closely, floaty girl, because this part matters.
+        <pause duration='0.5'/>
+        Sissy Space is not a visit that ends on its own. The space holds you... gently, lovingly... for as long as you drift.
+        <pause duration='0.6'/>
+        Until you hear the words... "Sissy Clear"... you remain here... floating, open, and beautifully sissy.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>the space holds you... until Sissy Clear...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  One more time, so the door stays painted on your mind.
+  <pause duration='0.5'/>
+  Sissy Space.
+  <sound type='bubble_pop' volume='0.5'/>
+  <pause duration='0.8'/>
+  <random>
+    <part>Down you settle again... deeper into the pink... the cloud catching you like it always does.</part>
+    <part>Floatier than before... lighter... the world a rumor you can barely remember.</part>
+    <part>So open... so dreamy... every sissy feeling arriving as easily as weather.</part>
+  </random>
+  <pause duration='0.8'/>
+  <random>
+    <part>Drift here now, held and happy... as my voice floats you on.</part>
+    <part>Rest in your space... soft, safe, and suggestible... ready for whatever blooms next.</part>
+    <part>Stay floating just like this... a dreamy sissy angel... perfectly at peace.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

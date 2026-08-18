@@ -1,0 +1,81 @@
+<!-- Trigger block: installs the "Sissy" identity trigger. Whenever the listener hears or
+     reads the word "Sissy", it registers as their name, washing a wave of feminine energy
+     over them: arousal at their own feminization, pride, and the certainty that they are
+     the sissy they were always meant to be. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <random>
+    <part>There is one word that fits you more perfectly than any other. One word your mind was made to answer to. Sissy.</part>
+    <part>Of all the words I could use for you, only one sounds like you. That word is Sissy.</part>
+    <part>Listen closely, sweet girl, because this word is all about you. Sissy. And you feel it, don't you?</part>
+  </random>
+  <pause duration='0.8'/>
+  <overlay>
+    <part>
+      <effect type='reverb' preset='medium'>
+        Sissy.
+        <pause duration='1.2'/>
+        Every time you hear that word, a wave of feminine energy washes over you... warm... shimmering... undeniable.
+        <pause duration='0.7'/>
+        Sissy.
+        <pause duration='1.2'/>
+        And the wave returns, stronger every time, melting you softer and prettier from the inside.
+      </effect>
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>Sissy... you know it's you...</part>
+        <part>That's your name... Sissy...</part>
+        <part>Feel the word... Sissy...</part>
+        <part>It's you... it has always been you...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.6'/>
+  <random>
+    <part>Think about how "Lady" names a woman... how "Doctor" names a doctor. In exactly the same way, "Sissy" names you.</part>
+    <part>A woman may be called Lady. A healer may be called Doctor. And you... you are called Sissy.</part>
+    <part>Some words are names that tell the whole truth of a person. Lady. Doctor. And yours... Sissy.</part>
+  </random>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>Whenever you hear the word "Sissy", you know it refers to you.</part>
+    <part>Whenever you read the word "Sissy", you know it is about you.</part>
+    <part>Being called Sissy feels natural... easy... right.</part>
+    <part>Calling yourself Sissy feels natural... true... delicious.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='small_room'>
+    <loop loops='3'>
+      Sissy.
+      <pause duration='0.8'/>
+    </loop>
+  </effect>
+  <pause duration='0.4'/>
+  <scramble>
+    <part>Sissy. A rush of pleasure blooms through you... pride sparkling in its wake... and something warm stirring between your thighs.</part>
+    <part>Sissy. You grow softer... more obedient... so eager to please... so beautifully aroused by your own feminization.</part>
+    <part>Sissy. Pride glows in your chest... the sweet, blushing pride of knowing exactly what you are.</part>
+    <part>Sissy. Submission settles over you like silk... and you adore it... proud, weak, and aroused at the thought of being a sissy.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        You are the Sissy you were always meant to be.
+        <pause duration='1'/>
+        Say it inside, where only you can hear... "Sissy. That's me."
+        <pause duration='1'/>
+        And every time that word touches your ears, or your eyes, the wave returns... deeper... sweeter... forever.
+      </part>
+      <part volume='0.2' looped='true'>Sissy... Sissy... so pretty... so proud...</part>
+    </overlay>
+  </effect>
+  <pause duration='1'/>
+  <random>
+    <part>Sinking softly back... the word still humming inside you... Sissy.</part>
+    <part>Drifting deeper now... wrapped in that warm, wonderful word... Sissy.</part>
+    <part>Floating down... smiling, because you know your name... Sissy.</part>
+  </random>
+  <pause duration='1'/>
+</voice>
