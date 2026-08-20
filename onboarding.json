@@ -274,6 +274,7 @@
     "kind": "question",
     "id": "hypno_fantasy_depth",
     "answer": "choice",
+    "multiple": true,
     "showIf": {
       "all": [
         { "id": "focus_areas", "includes": "Fantasies and goals" },
@@ -289,13 +290,13 @@
       "Obedience triggers — commands that drop me instantly",
       "Rewired desires — craving what a sissy should crave",
       "Identity rewrite — the sissy becoming who I really am",
-      "All of it"
     ]
   },
   {
     "kind": "question",
     "id": "treatment_by_women",
     "answer": "choice",
+    "multiple": true,
     "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
     "prompt": "In your fantasies, how should sissies be treated by women?",
     "choices": [
@@ -311,6 +312,7 @@
     "kind": "question",
     "id": "treatment_by_men",
     "answer": "choice",
+    "multiple": true,
     "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
     "prompt": "And how should sissies be treated by men?",
     "choices": [
