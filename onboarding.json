@@ -1,7 +1,7 @@
 [
   {
     "kind": "text",
-    "text": "Welcome! These questions build the foundation your sissy journey runs on. Answer honestly and thoroughly — your answers are saved to `USER.md`, where your personal trainer reads them before your very first session.\n\nThe questionnaire adapts to you: you'll first pick your general direction, and you'll only be asked the follow-up questions that apply to you. Questions marked optional can be skipped entirely. Where a choice says \"Other\", pick it and elaborate later in chat — the trainer will follow up to fill in the gaps."
+    "text": "Welcome! These questions build the foundation your sissy journey runs on. Answer honestly and thoroughly — your answers are saved to `USER.md`, where your personal trainer reads them before your very first session.\n\nThe questionnaire adapts to you: you'll first pick your general direction, and you'll only be asked the follow-up questions that apply to you. Questions marked optional can be skipped entirely. Where a choice says \"Other\", pick it and you'll get a follow-up question to describe it in your own words."
   },
   {
     "kind": "text",
@@ -176,6 +176,17 @@
   },
   {
     "kind": "question",
+    "id": "privacy_situation_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "id": "privacy_situation",
+      "equals": "Other"
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What is your living and privacy situation like for this kind of exploration."
+  },
+  {
+    "kind": "question",
     "id": "available_time",
     "answer": "choice",
     "prompt": "How much time can you realistically give to structured tasks or routines?",
@@ -188,15 +199,32 @@
     ]
   },
   {
+    "kind": "question",
+    "id": "available_time_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "id": "available_time",
+      "equals": "Other"
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How much time can you realistically give to structured tasks or routines."
+  },
+  {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "text": "**Fantasies and goals**\n\nThis section is about the sissy you imagine becoming — the endgame, not where you are today."
   },
   {
     "kind": "question",
     "id": "fantasy_endgame",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "Which fantasy endgame pulls at you most?",
     "choices": [
       "A pretty, perfectly feminised sissy — smooth, dressed, and presentable at all times",
@@ -210,10 +238,24 @@
   },
   {
     "kind": "question",
+    "id": "fantasy_endgame_custom",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "id": "fantasy_endgame",
+      "equals": "A custom blend of these"
+    },
+    "prompt": "You picked \"A custom blend of these\" — please describe your custom blend in your own words."
+  },
+  {
+    "kind": "question",
     "id": "sissy_attributes",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "What attributes should a well-trained sissy have?",
     "choices": [
       "Smooth, hairless skin",
@@ -234,7 +276,10 @@
     "id": "fantasized_about",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "What have you actually fantasised about having or experiencing?",
     "choices": [
       "Being dressed head to toe in feminine clothes",
@@ -255,7 +300,10 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Fantasies and goals" },
+        {
+          "id": "focus_areas",
+          "includes": "Fantasies and goals"
+        },
         {
           "id": "fantasized_about",
           "includes": "Being locked and denied for long periods"
@@ -277,7 +325,10 @@
     "multiple": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Fantasies and goals" },
+        {
+          "id": "focus_areas",
+          "includes": "Fantasies and goals"
+        },
         {
           "id": "fantasized_about",
           "includes": "Being hypnotised and conditioned"
@@ -289,7 +340,7 @@
       "Bimbofication — blank, bubbly, and airheaded",
       "Obedience triggers — commands that drop me instantly",
       "Rewired desires — craving what a sissy should crave",
-      "Identity rewrite — the sissy becoming who I really am",
+      "Identity rewrite — the sissy becoming who I really am"
     ]
   },
   {
@@ -297,7 +348,10 @@
     "id": "treatment_by_women",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "In your fantasies, how should sissies be treated by women?",
     "choices": [
       "As adorable pets to be pampered and teased",
@@ -313,7 +367,10 @@
     "id": "treatment_by_men",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "And how should sissies be treated by men?",
     "choices": [
       "As pretty things to be charmed and seduced",
@@ -329,7 +386,10 @@
     "id": "sissy_behavior",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "How should a sissy act and behave?",
     "choices": [
       "Always feminine — posture, gestures, walk, and voice",
@@ -345,7 +405,10 @@
     "kind": "question",
     "id": "sissy_self_perception",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "How should a sissy perceive herself?",
     "choices": [
       "As a girl — a feminine person, full stop",
@@ -359,7 +422,10 @@
     "kind": "question",
     "id": "sissy_duty_perception",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "From the inside, what should obedience feel like for a sissy — how should she perceive what she has to do?",
     "choices": [
       "Natural — a sissy simply doesn't consider refusing",
@@ -373,7 +439,10 @@
     "kind": "question",
     "id": "command_reaction",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "How should a sissy react to commands?",
     "choices": [
       "Instantly and happily — \"Yes, Sir\" or \"Yes, Ma'am\" with a smile",
@@ -387,7 +456,10 @@
     "kind": "question",
     "id": "fantasy_reality_gap",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "How far are you today from the sissy in these fantasies?",
     "choices": [
       "Very far — mostly fantasy for now",
@@ -401,19 +473,28 @@
     "id": "fantasy_goals",
     "answer": "open",
     "optional": true,
-    "showIf": { "id": "focus_areas", "includes": "Fantasies and goals" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
     "prompt": "Describe your ultimate fantasy or goal in your own words."
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "text": "**Origins — how it all started**"
   },
   {
     "kind": "question",
     "id": "first_notice_age",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "At what age did you first notice distinct sissy-related urges or fantasies?",
     "choices": [
       "Under 12",
@@ -431,8 +512,14 @@
     "optional": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Origins" },
-        { "id": "first_notice_age", "notEquals": "Unsure" }
+        {
+          "id": "focus_areas",
+          "includes": "Origins"
+        },
+        {
+          "id": "first_notice_age",
+          "notEquals": "Unsure"
+        }
       ]
     },
     "prompt": "What do you remember about your very first sissy fantasy?"
@@ -443,7 +530,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "How intense were those early urges when they first appeared?"
   },
   {
@@ -452,7 +542,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "How intense was the shame or internal rejection that accompanied them?"
   },
   {
@@ -460,7 +553,10 @@
     "id": "urge_sources",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "What were the main sources of those earliest urges?",
     "choices": [
       "Spontaneous fantasy",
@@ -472,13 +568,38 @@
   },
   {
     "kind": "question",
+    "id": "urge_sources_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Origins"
+        },
+        {
+          "id": "urge_sources",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What were the main sources of those earliest urges."
+  },
+  {
+    "kind": "question",
     "id": "media_shaping",
     "answer": "choice",
     "multiple": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Origins" },
-        { "id": "urge_sources", "includes": "Exposure to specific media or pornography" }
+        {
+          "id": "focus_areas",
+          "includes": "Origins"
+        },
+        {
+          "id": "urge_sources",
+          "includes": "Exposure to specific media or pornography"
+        }
       ]
     },
     "prompt": "Which kinds of media shaped your earliest fantasies most?",
@@ -493,10 +614,40 @@
   },
   {
     "kind": "question",
+    "id": "media_shaping_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "all": [
+            {
+              "id": "focus_areas",
+              "includes": "Origins"
+            },
+            {
+              "id": "urge_sources",
+              "includes": "Exposure to specific media or pornography"
+            }
+          ]
+        },
+        {
+          "id": "media_shaping",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: Which kinds of media shaped your earliest fantasies most."
+  },
+  {
+    "kind": "question",
     "id": "cause_beliefs",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "What do you believe causes someone to become a sissy?",
     "choices": [
       "Innate temperament or personality traits",
@@ -510,9 +661,31 @@
   },
   {
     "kind": "question",
+    "id": "cause_beliefs_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Origins"
+        },
+        {
+          "id": "cause_beliefs",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What do you believe causes someone to become a sissy."
+  },
+  {
+    "kind": "question",
     "id": "urge_shame_evolution",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "How has the balance between urge strength and shame evolved over time?",
     "choices": [
       "Urges grew stronger while shame lessened",
@@ -525,10 +698,32 @@
   },
   {
     "kind": "question",
+    "id": "urge_shame_evolution_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Origins"
+        },
+        {
+          "id": "urge_shame_evolution",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How has the balance between urge strength and shame evolved over time."
+  },
+  {
+    "kind": "question",
     "id": "early_signs",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "Looking back, were there early signs you now recognise as precursors to this identity?",
     "choices": [
       "Childhood cross-gender interests or behaviours",
@@ -541,22 +736,50 @@
   },
   {
     "kind": "question",
+    "id": "early_signs_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Origins"
+        },
+        {
+          "id": "early_signs",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: Looking back, were there early signs you now recognise as precursors to this identity."
+  },
+  {
+    "kind": "question",
     "id": "origin_notes",
     "answer": "open",
     "optional": true,
-    "showIf": { "id": "focus_areas", "includes": "Origins" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Origins"
+    },
     "prompt": "Is there anything about the very beginning of these feelings that feels important to note?"
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "text": "**Limits — evolution and current boundaries**"
   },
   {
     "kind": "question",
     "id": "limits_stability",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "prompt": "Have your hard limits stayed largely the same since these feelings began?",
     "choices": [
       "Yes, essentially unchanged",
@@ -573,8 +796,14 @@
     "optional": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Limits" },
-        { "id": "limits_stability", "equals": "They have been completely redefined" }
+        {
+          "id": "focus_areas",
+          "includes": "Limits"
+        },
+        {
+          "id": "limits_stability",
+          "equals": "They have been completely redefined"
+        }
       ]
     },
     "prompt": "What did that complete redefinition look like — what changed, and what drove it?"
@@ -585,7 +814,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "prompt": "By how much have your overall limits softened or expanded? (1 = no real change / still quite rigid, 10 = dramatically expanded / almost no hard limits left)"
   },
   {
@@ -595,8 +827,14 @@
     "optional": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Limits" },
-        { "id": "limits_softening", "min": 7 }
+        {
+          "id": "focus_areas",
+          "includes": "Limits"
+        },
+        {
+          "id": "limits_softening",
+          "min": 7
+        }
       ]
     },
     "prompt": "Which limit do you sense might soften next under the right guidance?"
@@ -606,7 +844,10 @@
     "id": "limits_shifted_kinds",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "prompt": "Which kinds of limits have shifted the most?",
     "choices": [
       "Sexual acts (oral, anal, etc.)",
@@ -620,18 +861,43 @@
   },
   {
     "kind": "question",
+    "id": "limits_shifted_kinds_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Limits"
+        },
+        {
+          "id": "limits_shifted_kinds",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: Which kinds of limits have shifted the most."
+  },
+  {
+    "kind": "question",
     "id": "limits_rigidity",
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "prompt": "How rigid do your current limits feel? (1 = quite flexible and open to careful expansion, 10 = firm and non-negotiable)"
   },
   {
     "kind": "question",
     "id": "limit_negotiation",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "prompt": "How would you prefer to negotiate new limits or activities with a Dom?",
     "choices": [
       "Straightforward verbal discussion",
@@ -643,22 +909,50 @@
   },
   {
     "kind": "question",
+    "id": "limit_negotiation_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Limits"
+        },
+        {
+          "id": "limit_negotiation",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How would you prefer to negotiate new limits or activities with a Dom."
+  },
+  {
+    "kind": "question",
     "id": "limits_notes",
     "answer": "open",
     "optional": true,
-    "showIf": { "id": "focus_areas", "includes": "Limits" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Limits"
+    },
     "prompt": "Are there any limits that feel especially important to protect?"
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "text": "**Orientation and role, before and after**"
   },
   {
     "kind": "question",
     "id": "orientation_before",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "prompt": "How would you describe your sexual orientation before significant sissy development took hold?",
     "choices": [
       "Primarily heterosexual",
@@ -671,9 +965,31 @@
   },
   {
     "kind": "question",
+    "id": "orientation_before_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Orientation and role"
+        },
+        {
+          "id": "orientation_before",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How would you describe your sexual orientation before significant sissy development took hold."
+  },
+  {
+    "kind": "question",
     "id": "orientation_now",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "prompt": "How would you describe your sexual orientation now?",
     "choices": [
       "Primarily heterosexual",
@@ -686,14 +1002,42 @@
   },
   {
     "kind": "question",
+    "id": "orientation_now_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Orientation and role"
+        },
+        {
+          "id": "orientation_now",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How would you describe your sexual orientation now."
+  },
+  {
+    "kind": "question",
     "id": "orientation_shift_cause",
     "answer": "choice",
     "multiple": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Orientation and role" },
-        { "id": "orientation_before", "equals": "Primarily heterosexual" },
-        { "id": "orientation_now", "notEquals": "Primarily heterosexual" }
+        {
+          "id": "focus_areas",
+          "includes": "Orientation and role"
+        },
+        {
+          "id": "orientation_before",
+          "equals": "Primarily heterosexual"
+        },
+        {
+          "id": "orientation_now",
+          "notEquals": "Primarily heterosexual"
+        }
       ]
     },
     "prompt": "What do you attribute that shift toward same-sex interest to?",
@@ -708,9 +1052,43 @@
   },
   {
     "kind": "question",
+    "id": "orientation_shift_cause_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "all": [
+            {
+              "id": "focus_areas",
+              "includes": "Orientation and role"
+            },
+            {
+              "id": "orientation_before",
+              "equals": "Primarily heterosexual"
+            },
+            {
+              "id": "orientation_now",
+              "notEquals": "Primarily heterosexual"
+            }
+          ]
+        },
+        {
+          "id": "orientation_shift_cause",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What do you attribute that shift toward same-sex interest to."
+  },
+  {
+    "kind": "question",
     "id": "role_before",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "prompt": "Preferred sexual role before significant sissy development:",
     "choices": [
       "Predominantly dominant / top",
@@ -724,7 +1102,10 @@
     "kind": "question",
     "id": "role_now",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "prompt": "Preferred sexual role now:",
     "choices": [
       "Predominantly dominant / top",
@@ -738,7 +1119,10 @@
     "kind": "question",
     "id": "sissy_role_belief",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "prompt": "What role do you believe sissies are naturally meant to occupy?",
     "choices": [
       "Submissive sexual partner only",
@@ -751,9 +1135,31 @@
   },
   {
     "kind": "question",
+    "id": "sissy_role_belief_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Orientation and role"
+        },
+        {
+          "id": "sissy_role_belief",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What role do you believe sissies are naturally meant to occupy."
+  },
+  {
+    "kind": "question",
     "id": "sissy_role_desire",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Orientation and role" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Orientation and role"
+    },
     "prompt": "What role do you personally desire to occupy, separate from what you believe sissies \"should\" be?",
     "choices": [
       "Submissive sexual partner only",
@@ -765,8 +1171,30 @@
     ]
   },
   {
+    "kind": "question",
+    "id": "sissy_role_desire_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Orientation and role"
+        },
+        {
+          "id": "sissy_role_desire",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What role do you personally desire to occupy, separate from what you believe sissies \"should\" be."
+  },
+  {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Milestones" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Milestones"
+    },
     "text": "**Milestones**\n\nFirst, pick the milestone areas that are relevant to you — you'll only be asked about the ones you pick. For each item: whether you've already experienced it in reality, desire it and are actively pursuing it, it's fantasy only, or you're not interested."
   },
   {
@@ -774,7 +1202,10 @@
     "id": "milestone_categories",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Milestones" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Milestones"
+    },
     "prompt": "Which milestone areas should we go through?",
     "choices": [
       "Sexual service",
@@ -792,7 +1223,10 @@
     "kind": "question",
     "id": "milestone_first_oral",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Sexual service" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Sexual service"
+    },
     "prompt": "First oral service to a man:",
     "choices": [
       "Already experienced",
@@ -805,7 +1239,10 @@
     "kind": "question",
     "id": "milestone_first_anal",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Sexual service" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Sexual service"
+    },
     "prompt": "First anal penetration by a partner:",
     "choices": [
       "Already experienced",
@@ -818,7 +1255,10 @@
     "kind": "question",
     "id": "milestone_deep_throating",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Sexual service" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Sexual service"
+    },
     "prompt": "Deep-throating or prolonged oral service:",
     "choices": [
       "Already experienced",
@@ -831,7 +1271,10 @@
     "kind": "question",
     "id": "milestone_solo_anal_training",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Sexual service" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Sexual service"
+    },
     "prompt": "Regular solo anal training:",
     "choices": [
       "Already experienced",
@@ -844,7 +1287,10 @@
     "kind": "question",
     "id": "milestone_larger_toys",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Sexual service" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Sexual service"
+    },
     "prompt": "Taking larger toys or partners:",
     "choices": [
       "Already experienced",
@@ -857,7 +1303,10 @@
     "kind": "question",
     "id": "milestone_chastity_denial",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Chastity and denial" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Chastity and denial"
+    },
     "prompt": "Locked in chastity during periods of denial:",
     "choices": [
       "Already experienced",
@@ -870,7 +1319,10 @@
     "kind": "question",
     "id": "milestone_multiday_lockup",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Chastity and denial" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Chastity and denial"
+    },
     "prompt": "Multi-day continuous chastity lock-up:",
     "choices": [
       "Already experienced",
@@ -883,7 +1335,10 @@
     "kind": "question",
     "id": "milestone_keyholder",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Chastity and denial" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Chastity and denial"
+    },
     "prompt": "Real or online keyholder control:",
     "choices": [
       "Already experienced",
@@ -896,7 +1351,10 @@
     "kind": "question",
     "id": "milestone_longterm_chastity",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Chastity and denial" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Chastity and denial"
+    },
     "prompt": "Long-term (weeks or months) chastity:",
     "choices": [
       "Already experienced",
@@ -909,7 +1367,10 @@
     "kind": "question",
     "id": "milestone_chastity_limpness",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Chastity and denial" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Chastity and denial"
+    },
     "prompt": "Regular chastity-induced erectile dysfunction or limpness:",
     "choices": [
       "Already experienced",
@@ -922,7 +1383,10 @@
     "kind": "question",
     "id": "milestone_full_outfit_private",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Feminisation" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Feminisation"
+    },
     "prompt": "Full feminine outfit in private:",
     "choices": [
       "Already experienced",
@@ -935,7 +1399,10 @@
     "kind": "question",
     "id": "milestone_overnight_presentation",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Feminisation" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Feminisation"
+    },
     "prompt": "Overnight or multi-day feminine presentation:",
     "choices": [
       "Already experienced",
@@ -948,7 +1415,10 @@
     "kind": "question",
     "id": "milestone_makeup_hair",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Feminisation" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Feminisation"
+    },
     "prompt": "Makeup and hair fully done:",
     "choices": [
       "Already experienced",
@@ -961,7 +1431,10 @@
     "kind": "question",
     "id": "milestone_voice_training",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Feminisation" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Feminisation"
+    },
     "prompt": "Voice training or practising feminine mannerisms:",
     "choices": [
       "Already experienced",
@@ -974,7 +1447,10 @@
     "kind": "question",
     "id": "milestone_hypno_orgasm",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Hypno and conditioning" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Hypno and conditioning"
+    },
     "prompt": "Orgasm while under the influence of sissy hypno:",
     "choices": [
       "Already experienced",
@@ -987,7 +1463,10 @@
     "kind": "question",
     "id": "milestone_regular_hypno",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Hypno and conditioning" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Hypno and conditioning"
+    },
     "prompt": "Regular listening to sissy hypno files:",
     "choices": [
       "Already experienced",
@@ -1000,7 +1479,10 @@
     "kind": "question",
     "id": "milestone_trance_effects",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Hypno and conditioning" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Hypno and conditioning"
+    },
     "prompt": "Noticeable trance or conditioning effects from hypno:",
     "choices": [
       "Already experienced",
@@ -1013,7 +1495,10 @@
     "kind": "question",
     "id": "milestone_hypno_behavior_changes",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Hypno and conditioning" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Hypno and conditioning"
+    },
     "prompt": "Long-term behavioural changes you attribute to hypno:",
     "choices": [
       "Already experienced",
@@ -1026,7 +1511,10 @@
     "kind": "question",
     "id": "milestone_sustained_dynamic",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Humiliation and power exchange" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Humiliation and power exchange"
+    },
     "prompt": "A sustained submissive relationship dynamic:",
     "choices": [
       "Already experienced",
@@ -1039,7 +1527,10 @@
     "kind": "question",
     "id": "milestone_verbal_degradation",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Humiliation and power exchange" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Humiliation and power exchange"
+    },
     "prompt": "Verbal degradation during play:",
     "choices": [
       "Already experienced",
@@ -1052,7 +1543,10 @@
     "kind": "question",
     "id": "milestone_inferiority_affirmations",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Humiliation and power exchange" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Humiliation and power exchange"
+    },
     "prompt": "Writing or speaking affirmations of inferiority:",
     "choices": [
       "Already experienced",
@@ -1065,7 +1559,10 @@
     "kind": "question",
     "id": "milestone_power_exchange",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Humiliation and power exchange" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Humiliation and power exchange"
+    },
     "prompt": "An explicit power-exchange agreement or set of protocols:",
     "choices": [
       "Already experienced",
@@ -1078,7 +1575,10 @@
     "kind": "question",
     "id": "milestone_written_rules",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Humiliation and power exchange" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Humiliation and power exchange"
+    },
     "prompt": "Following written rules or tasks from a dominant:",
     "choices": [
       "Already experienced",
@@ -1091,7 +1591,10 @@
     "kind": "question",
     "id": "milestone_service_submission",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Humiliation and power exchange" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Humiliation and power exchange"
+    },
     "prompt": "Service-oriented submission (domestic, sexual, or both):",
     "choices": [
       "Already experienced",
@@ -1104,7 +1607,10 @@
     "kind": "question",
     "id": "milestone_going_out_dressed",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Exposure" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Exposure"
+    },
     "prompt": "Going out dressed, even briefly:",
     "choices": [
       "Already experienced",
@@ -1117,7 +1623,10 @@
     "kind": "question",
     "id": "milestone_public_humiliation",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Exposure" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Exposure"
+    },
     "prompt": "Public or semi-public humiliation elements:",
     "choices": [
       "Already experienced",
@@ -1130,7 +1639,10 @@
     "kind": "question",
     "id": "milestone_posting_online",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Exposure" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Exposure"
+    },
     "prompt": "Posting photos or videos online:",
     "choices": [
       "Already experienced",
@@ -1143,7 +1655,10 @@
     "kind": "question",
     "id": "milestone_strangers_sissy",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Exposure" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Exposure"
+    },
     "prompt": "Interacting with strangers while presenting as a sissy:",
     "choices": [
       "Already experienced",
@@ -1156,7 +1671,10 @@
     "kind": "question",
     "id": "milestone_recognition_risk",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Exposure" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Exposure"
+    },
     "prompt": "Real-life risk of being seen or recognised:",
     "choices": [
       "Already experienced",
@@ -1169,7 +1687,10 @@
     "kind": "question",
     "id": "milestone_body_changes",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Body changes" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Body changes"
+    },
     "prompt": "Permanent or semi-permanent body changes (e.g., hair removal):",
     "choices": [
       "Already experienced",
@@ -1182,7 +1703,10 @@
     "kind": "question",
     "id": "milestone_breast_growth",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Body changes" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Body changes"
+    },
     "prompt": "Experiencing or pursuing breast growth (hormones, herbal, or other):",
     "choices": [
       "Already experienced",
@@ -1195,7 +1719,10 @@
     "kind": "question",
     "id": "milestone_shrinkage",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Body changes" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Body changes"
+    },
     "prompt": "Observed or desired penile shrinkage from chastity or hormones:",
     "choices": [
       "Already experienced",
@@ -1208,7 +1735,10 @@
     "kind": "question",
     "id": "milestone_cuckolded",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Serving women and couples" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Serving women and couples"
+    },
     "prompt": "Being cuckolded or watching a partner with someone else:",
     "choices": [
       "Already experienced",
@@ -1221,7 +1751,10 @@
     "kind": "question",
     "id": "milestone_fucked_before_woman",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Serving women and couples" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Serving women and couples"
+    },
     "prompt": "Being fucked in front of a woman (partner or stranger):",
     "choices": [
       "Already experienced",
@@ -1234,7 +1767,10 @@
     "kind": "question",
     "id": "milestone_dominated_by_woman",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Serving women and couples" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Serving women and couples"
+    },
     "prompt": "Being dominated by a woman in a sissy context:",
     "choices": [
       "Already experienced",
@@ -1247,7 +1783,10 @@
     "kind": "question",
     "id": "milestone_cleanup_duty",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Serving women and couples" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Serving women and couples"
+    },
     "prompt": "Cleanup duty after a partner's sexual activity:",
     "choices": [
       "Already experienced",
@@ -1260,7 +1799,10 @@
     "kind": "question",
     "id": "milestone_couple_dynamic",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Serving women and couples" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Serving women and couples"
+    },
     "prompt": "Serving as part of a couple dynamic (M/F doms):",
     "choices": [
       "Already experienced",
@@ -1273,7 +1815,10 @@
     "kind": "question",
     "id": "milestone_pussyfree",
     "answer": "choice",
-    "showIf": { "id": "milestone_categories", "includes": "Beta lifestyle" },
+    "showIf": {
+      "id": "milestone_categories",
+      "includes": "Beta lifestyle"
+    },
     "prompt": "Accepting or embracing a pussyfree lifestyle:",
     "choices": [
       "Already experienced",
@@ -1287,7 +1832,10 @@
     "id": "strongest_pulls",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Milestones" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Milestones"
+    },
     "prompt": "Which categories currently pull you most strongly toward further progression?",
     "choices": [
       "Oral service",
@@ -1306,7 +1854,10 @@
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "text": "**Routines and frequencies, then and now**\n\nFor each activity, pick the frequency that fits for the past (first 1–2 years of interest) and the present: never, rarely, occasionally (monthly or less), regularly (roughly weekly), frequently (several times a week), or daily or near-daily."
   },
   {
@@ -1315,8 +1866,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Anal play or training — past:",
@@ -1333,7 +1890,10 @@
     "kind": "question",
     "id": "freq_anal_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Anal play or training — present:",
     "choices": [
       "Never",
@@ -1350,8 +1910,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Oral practice or service (solo or with a partner) — past:",
@@ -1368,7 +1934,10 @@
     "kind": "question",
     "id": "freq_oral_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Oral practice or service (solo or with a partner) — present:",
     "choices": [
       "Never",
@@ -1385,8 +1954,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Chastity wear — past:",
@@ -1403,7 +1978,10 @@
     "kind": "question",
     "id": "freq_chastity_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Chastity wear — present:",
     "choices": [
       "Never",
@@ -1420,8 +1998,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Feminisation activities (makeup, mannerisms, etc.) — past:",
@@ -1438,7 +2022,10 @@
     "kind": "question",
     "id": "freq_feminisation_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Feminisation activities (makeup, mannerisms, etc.) — present:",
     "choices": [
       "Never",
@@ -1455,8 +2042,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Crossdressing (partial or full) — past:",
@@ -1473,7 +2066,10 @@
     "kind": "question",
     "id": "freq_crossdressing_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Crossdressing (partial or full) — present:",
     "choices": [
       "Never",
@@ -1490,8 +2086,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Hypno or conditioning audio/video — past:",
@@ -1508,7 +2110,10 @@
     "kind": "question",
     "id": "freq_hypno_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Hypno or conditioning audio/video — present:",
     "choices": [
       "Never",
@@ -1525,8 +2130,14 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Routines and frequencies" },
-        { "id": "experience_level", "notEquals": "Curious beginner (mostly fantasy so far)" }
+        {
+          "id": "focus_areas",
+          "includes": "Routines and frequencies"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
       ]
     },
     "prompt": "Pornography focused on sissy, feminisation, or related themes — past:",
@@ -1543,7 +2154,10 @@
     "kind": "question",
     "id": "freq_porn_present",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Routines and frequencies" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
     "prompt": "Pornography focused on sissy, feminisation, or related themes — present:",
     "choices": [
       "Never",
@@ -1556,7 +2170,10 @@
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "text": "**Identity, compartmentalisation, and longer-term feelings**"
   },
   {
@@ -1565,7 +2182,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How deeply integrated is the sissy side into your overall sense of self? (1 = kept completely separate, 10 = feels like a core part of who you are)"
   },
   {
@@ -1574,7 +2194,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How stable is that sense of integration? (1 = it fluctuates a great deal with arousal or mood, 10 = it feels consistent most of the time)"
   },
   {
@@ -1582,7 +2205,10 @@
     "id": "self_view",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How do you currently think of the sissy aspect of yourself?",
     "choices": [
       "Purely a sexual kink or play role",
@@ -1595,18 +2221,43 @@
   },
   {
     "kind": "question",
+    "id": "self_view_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Identity"
+        },
+        {
+          "id": "self_view",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How do you currently think of the sissy aspect of yourself."
+  },
+  {
+    "kind": "question",
     "id": "compartmentalisation",
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How compartmentalised is this side of you in everyday life? (1 = fully open, little separation, 10 = kept rigidly private and only expressed in specific contexts)"
   },
   {
     "kind": "question",
     "id": "transition_steps",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "Have you considered or taken any steps toward hormone therapy or other medical transition related to these feelings?",
     "choices": [
       "No interest",
@@ -1623,11 +2274,20 @@
     "optional": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Identity" },
+        {
+          "id": "focus_areas",
+          "includes": "Identity"
+        },
         {
           "any": [
-            { "id": "transition_steps", "equals": "Currently considering or planning" },
-            { "id": "transition_steps", "equals": "Have already taken or are taking steps" }
+            {
+              "id": "transition_steps",
+              "equals": "Currently considering or planning"
+            },
+            {
+              "id": "transition_steps",
+              "equals": "Have already taken or are taking steps"
+            }
           ]
         }
       ]
@@ -1640,7 +2300,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How strong is the desire to \"become a girl\" or live full-time as female — when you are aroused? (1 = none, 10 = intense)"
   },
   {
@@ -1649,7 +2312,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "And when you are not aroused? (1 = none, 10 = intense)"
   },
   {
@@ -1659,8 +2325,14 @@
     "optional": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Identity" },
-        { "id": "become_girl_aroused", "min": 8 }
+        {
+          "id": "focus_areas",
+          "includes": "Identity"
+        },
+        {
+          "id": "become_girl_aroused",
+          "min": 8
+        }
       ]
     },
     "prompt": "What does \"becoming a girl\" look like in that fantasy — what kind of life or body?"
@@ -1669,7 +2341,10 @@
     "kind": "question",
     "id": "drive_nature",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How do you understand the nature of the sissy drive itself?",
     "choices": [
       "Primarily erotic or fetishistic",
@@ -1683,7 +2358,10 @@
     "id": "sissy_definition",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "What is a sissy, in your view?",
     "choices": [
       "A man who embraces feminisation in a submissive context",
@@ -1697,18 +2375,43 @@
   },
   {
     "kind": "question",
+    "id": "sissy_definition_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Identity"
+        },
+        {
+          "id": "sissy_definition",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What is a sissy, in your view."
+  },
+  {
+    "kind": "question",
     "id": "urge_strength_now",
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How strong are the sissy urges overall right now? (1 = weak or infrequent, 10 = constant and powerful)"
   },
   {
     "kind": "question",
     "id": "urge_origin",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "What do you believe is the primary origin of these urges?",
     "choices": [
       "Innate / always present",
@@ -1722,7 +2425,10 @@
     "kind": "question",
     "id": "urges_permanence",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "Do you believe these urges could substantially fade or disappear over time?",
     "choices": [
       "Yes, I think they could fade completely",
@@ -1737,7 +2443,10 @@
     "kind": "question",
     "id": "inherent_or_choice",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "Do you see yourself as inherently a sissy, or as someone who chooses to be one?",
     "choices": [
       "Inherent — I was always this way",
@@ -1750,11 +2459,33 @@
   },
   {
     "kind": "question",
+    "id": "inherent_or_choice_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Identity"
+        },
+        {
+          "id": "inherent_or_choice",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: Do you see yourself as inherently a sissy, or as someone who chooses to be one."
+  },
+  {
+    "kind": "question",
     "id": "internal_resistance",
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How strong is any remaining internal rejection or resistance? (1 = none, 10 = strong and frequent)"
   },
   {
@@ -1764,8 +2495,14 @@
     "multiple": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Identity" },
-        { "id": "internal_resistance", "min": 4 }
+        {
+          "id": "focus_areas",
+          "includes": "Identity"
+        },
+        {
+          "id": "internal_resistance",
+          "min": 4
+        }
       ]
     },
     "prompt": "Where does that remaining rejection mainly come from?",
@@ -1781,7 +2518,10 @@
     "kind": "question",
     "id": "submission_attitude",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How do you feel about submission itself?",
     "choices": [
       "Enjoyable only in limited erotic contexts",
@@ -1794,7 +2534,10 @@
     "kind": "question",
     "id": "humiliation_centrality",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "How central are humiliation and eroticised femininity to your arousal?",
     "choices": [
       "Mild interest",
@@ -1808,19 +2551,28 @@
     "id": "identity_notes",
     "answer": "open",
     "optional": true,
-    "showIf": { "id": "focus_areas", "includes": "Identity" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Identity"
+    },
     "prompt": "Is there anything about how these feelings sit with the rest of your identity that feels important to add?"
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Purging cycles" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Purging cycles"
+    },
     "text": "**Purging and emotional cycles**"
   },
   {
     "kind": "question",
     "id": "purging_frequency",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Purging cycles" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Purging cycles"
+    },
     "prompt": "How often have you gone through periods of \"purging\" (throwing out clothing, deleting files, trying to abandon the interest)?",
     "choices": [
       "Never",
@@ -1836,8 +2588,14 @@
     "multiple": true,
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Purging cycles" },
-        { "id": "purging_frequency", "notEquals": "Never" }
+        {
+          "id": "focus_areas",
+          "includes": "Purging cycles"
+        },
+        {
+          "id": "purging_frequency",
+          "notEquals": "Never"
+        }
       ]
     },
     "prompt": "What usually triggers those episodes?",
@@ -1852,12 +2610,45 @@
   },
   {
     "kind": "question",
+    "id": "purging_triggers_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "all": [
+            {
+              "id": "focus_areas",
+              "includes": "Purging cycles"
+            },
+            {
+              "id": "purging_frequency",
+              "notEquals": "Never"
+            }
+          ]
+        },
+        {
+          "id": "purging_triggers",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What usually triggers those episodes."
+  },
+  {
+    "kind": "question",
     "id": "purge_recovery",
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Purging cycles" },
-        { "id": "purging_frequency", "equals": "Repeatedly or in cycles" }
+        {
+          "id": "focus_areas",
+          "includes": "Purging cycles"
+        },
+        {
+          "id": "purging_frequency",
+          "equals": "Repeatedly or in cycles"
+        }
       ]
     },
     "prompt": "What usually pulls you back after a purge?",
@@ -1871,12 +2662,45 @@
   },
   {
     "kind": "question",
+    "id": "purge_recovery_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "all": [
+            {
+              "id": "focus_areas",
+              "includes": "Purging cycles"
+            },
+            {
+              "id": "purging_frequency",
+              "equals": "Repeatedly or in cycles"
+            }
+          ]
+        },
+        {
+          "id": "purge_recovery",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What usually pulls you back after a purge."
+  },
+  {
+    "kind": "question",
     "id": "purging_status",
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Purging cycles" },
-        { "id": "purging_frequency", "notEquals": "Never" }
+        {
+          "id": "focus_areas",
+          "includes": "Purging cycles"
+        },
+        {
+          "id": "purging_frequency",
+          "notEquals": "Never"
+        }
       ]
     },
     "prompt": "Where are you with purging at the moment?",
@@ -1889,7 +2713,10 @@
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Kink interest ratings" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Kink interest ratings"
+    },
     "text": "**Kink interest ratings**\n\nPick the areas you want to rate — you'll only be asked about the ones you choose. (1 = none or aversive, 10 = extremely high / central)"
   },
   {
@@ -1897,7 +2724,10 @@
     "id": "kink_areas",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Kink interest ratings" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Kink interest ratings"
+    },
     "prompt": "Which areas should we rate?",
     "choices": [
       "Forced feminisation",
@@ -1930,7 +2760,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Forced feminisation" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Forced feminisation"
+    },
     "prompt": "Forced feminisation:"
   },
   {
@@ -1939,7 +2772,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Chastity" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Chastity"
+    },
     "prompt": "Chastity:"
   },
   {
@@ -1948,7 +2784,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Mind control and hypno" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Mind control and hypno"
+    },
     "prompt": "Mind control or hypno conditioning:"
   },
   {
@@ -1957,7 +2796,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Orgasm control and denial" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Orgasm control and denial"
+    },
     "prompt": "Orgasm control or denial:"
   },
   {
@@ -1966,7 +2808,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Oral service" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Oral service"
+    },
     "prompt": "Oral fixation or service:"
   },
   {
@@ -1975,7 +2820,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Anal training" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Anal training"
+    },
     "prompt": "Anal training or stretch:"
   },
   {
@@ -1984,7 +2832,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Verbal humiliation and degradation" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Verbal humiliation and degradation"
+    },
     "prompt": "Verbal humiliation or degradation:"
   },
   {
@@ -1993,7 +2844,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Public exposure" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Public exposure"
+    },
     "prompt": "Public exposure risk or semi-public play:"
   },
   {
@@ -2002,7 +2856,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Pet play and objectification" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Pet play and objectification"
+    },
     "prompt": "Pet play or objectification:"
   },
   {
@@ -2011,7 +2868,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Progressive long-term feminisation" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Progressive long-term feminisation"
+    },
     "prompt": "Progressive or long-term feminisation:"
   },
   {
@@ -2020,7 +2880,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "BNWO themes" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "BNWO themes"
+    },
     "prompt": "BNWO themes:"
   },
   {
@@ -2029,7 +2892,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Beta mindset" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Beta mindset"
+    },
     "prompt": "Beta mindset or role:"
   },
   {
@@ -2038,7 +2904,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Pussyfree lifestyle" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Pussyfree lifestyle"
+    },
     "prompt": "Pussyfree lifestyle or ideology:"
   },
   {
@@ -2047,7 +2916,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Cuckolding" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Cuckolding"
+    },
     "prompt": "Cuckolding dynamics:"
   },
   {
@@ -2056,7 +2928,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Dominated in front of a woman" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Dominated in front of a woman"
+    },
     "prompt": "Being dominated in the presence of a woman (witnessed):"
   },
   {
@@ -2065,7 +2940,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Dominated by a woman" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Dominated by a woman"
+    },
     "prompt": "Being dominated by a woman directly:"
   },
   {
@@ -2074,7 +2952,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Dominated by a couple" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Dominated by a couple"
+    },
     "prompt": "Being dominated by a couple (male/female):"
   },
   {
@@ -2083,7 +2964,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Cleanup duty" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Cleanup duty"
+    },
     "prompt": "Participating in cleanup activities:"
   },
   {
@@ -2092,7 +2976,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Serving men" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Serving men"
+    },
     "prompt": "Serving in a service role to men:"
   },
   {
@@ -2101,7 +2988,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Serving women" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Serving women"
+    },
     "prompt": "Serving in a service role to women:"
   },
   {
@@ -2110,7 +3000,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Giving up maleness" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Giving up maleness"
+    },
     "prompt": "Giving up \"maleness\" or masculine status:"
   },
   {
@@ -2119,12 +3012,18 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "kink_areas", "includes": "Embracing a beta identity" },
+    "showIf": {
+      "id": "kink_areas",
+      "includes": "Embracing a beta identity"
+    },
     "prompt": "Embracing a beta identity:"
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "text": "**Beta, BNWO, and hierarchy framing**"
   },
   {
@@ -2133,7 +3032,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Does the term \"beta\" or \"inferior male\" fit how you see yourself? (1 = not at all, 10 = very strongly)"
   },
   {
@@ -2142,7 +3044,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much do you believe that framing is accurate about men in general or about yourself? (1 = not at all, 10 = completely)"
   },
   {
@@ -2151,14 +3056,20 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How strongly does that framing arouse you, regardless of whether you believe it? (1 = not at all, 10 = extremely)"
   },
   {
     "kind": "question",
     "id": "compare_men_general",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How do you compare yourself against other men in general?",
     "choices": [
       "I feel superior to most men",
@@ -2171,9 +3082,31 @@
   },
   {
     "kind": "question",
+    "id": "compare_men_general_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Beta and hierarchy"
+        },
+        {
+          "id": "compare_men_general",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How do you compare yourself against other men in general."
+  },
+  {
+    "kind": "question",
     "id": "compare_men_sexual",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "In a sexual or hierarchical context, how do you compare yourself against other men?",
     "choices": [
       "I feel superior",
@@ -2186,9 +3119,31 @@
   },
   {
     "kind": "question",
+    "id": "compare_men_sexual_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Beta and hierarchy"
+        },
+        {
+          "id": "compare_men_sexual",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: In a sexual or hierarchical context, how do you compare yourself against other men."
+  },
+  {
+    "kind": "question",
     "id": "hierarchy_rank",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Where would you rank yourself among men if forced to place yourself on a hierarchy?",
     "choices": [
       "Top tier (among the most masculine/dominant)",
@@ -2205,7 +3160,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much do you believe that hierarchy is real and accurate? (1 = completely false, 10 = completely true)"
   },
   {
@@ -2214,14 +3172,20 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much does that hierarchy arouse you, regardless of whether you believe it? (1 = not at all, 10 = extremely)"
   },
   {
     "kind": "question",
     "id": "not_measuring_up",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much of your sissy identity is tied to a sense of not measuring up as a man?",
     "choices": [
       "Very little or none",
@@ -2235,7 +3199,10 @@
     "kind": "question",
     "id": "bnwo_attraction",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Attraction to BNWO or related hierarchical / racial themes:",
     "choices": [
       "None",
@@ -2251,9 +3218,18 @@
     "answer": "choice",
     "showIf": {
       "all": [
-        { "id": "focus_areas", "includes": "Beta and hierarchy" },
-        { "id": "bnwo_attraction", "notEquals": "None" },
-        { "id": "bnwo_attraction", "notEquals": "Prefer to avoid" }
+        {
+          "id": "focus_areas",
+          "includes": "Beta and hierarchy"
+        },
+        {
+          "id": "bnwo_attraction",
+          "notEquals": "None"
+        },
+        {
+          "id": "bnwo_attraction",
+          "notEquals": "Prefer to avoid"
+        }
       ]
     },
     "prompt": "Does the BNWO framing primarily appeal to you as:",
@@ -2266,9 +3242,43 @@
   },
   {
     "kind": "question",
+    "id": "bnwo_nature_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "all": [
+            {
+              "id": "focus_areas",
+              "includes": "Beta and hierarchy"
+            },
+            {
+              "id": "bnwo_attraction",
+              "notEquals": "None"
+            },
+            {
+              "id": "bnwo_attraction",
+              "notEquals": "Prefer to avoid"
+            }
+          ]
+        },
+        {
+          "id": "bnwo_nature",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: Does the BNWO framing primarily appeal to you as."
+  },
+  {
+    "kind": "question",
     "id": "pussyfree_attitude",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Attitude toward long-term or permanent pussyfree status:",
     "choices": [
       "Not interested",
@@ -2281,7 +3291,10 @@
     "kind": "question",
     "id": "rejection_by_women",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Have you experienced consistent rejection by women, or do you carry a sense of being undesirable to them?",
     "choices": [
       "Not really",
@@ -2295,7 +3308,10 @@
     "kind": "question",
     "id": "experience_with_women",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Current sexual experience status with women:",
     "choices": [
       "Not applicable to my orientation",
@@ -2310,7 +3326,10 @@
     "kind": "question",
     "id": "accept_domination_man",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much would you accept or embrace being dominated by a man in a real-life context?",
     "choices": [
       "Fully accept and welcome it",
@@ -2324,7 +3343,10 @@
     "kind": "question",
     "id": "accept_domination_woman",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much would you accept or embrace being dominated by a woman in a real-life context?",
     "choices": [
       "Fully accept and welcome it",
@@ -2340,14 +3362,20 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How aroused are you by the idea of giving in to domination — surrendering resistance and accepting your place? (1 = not at all, 10 = extremely aroused)"
   },
   {
     "kind": "question",
     "id": "beta_role_value",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How much value do you see in giving up male dominance or status and embracing a beta role?",
     "choices": [
       "No value — it's purely a sexual fantasy",
@@ -2360,11 +3388,33 @@
   },
   {
     "kind": "question",
+    "id": "beta_role_value_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Beta and hierarchy"
+        },
+        {
+          "id": "beta_role_value",
+          "equals": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: How much value do you see in giving up male dominance or status and embracing a beta role."
+  },
+  {
+    "kind": "question",
     "id": "service_lifestyle_appeal",
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "How appealing is the idea of living in a service role below men or women, as a lifestyle? (1 = not appealing, 10 = extremely appealing)"
   },
   {
@@ -2372,12 +3422,18 @@
     "id": "beta_bnwo_notes",
     "answer": "open",
     "optional": true,
-    "showIf": { "id": "focus_areas", "includes": "Beta and hierarchy" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Beta and hierarchy"
+    },
     "prompt": "Is there anything about beta, BNWO, or related ideas that feels especially charged or important for you?"
   },
   {
     "kind": "text",
-    "showIf": { "id": "focus_areas", "includes": "Attraction and partners" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Attraction and partners"
+    },
     "text": "**Attraction, partners, and satisfaction**"
   },
   {
@@ -2385,7 +3441,10 @@
     "id": "attraction_targets",
     "answer": "choice",
     "multiple": true,
-    "showIf": { "id": "focus_areas", "includes": "Attraction and partners" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Attraction and partners"
+    },
     "prompt": "What currently draws your sexual attraction?",
     "choices": [
       "Women",
@@ -2397,9 +3456,31 @@
   },
   {
     "kind": "question",
+    "id": "attraction_targets_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "all": [
+        {
+          "id": "focus_areas",
+          "includes": "Attraction and partners"
+        },
+        {
+          "id": "attraction_targets",
+          "includes": "Other"
+        }
+      ]
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What currently draws your sexual attraction."
+  },
+  {
+    "kind": "question",
     "id": "partner_dynamic",
     "answer": "choice",
-    "showIf": { "id": "focus_areas", "includes": "Attraction and partners" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Attraction and partners"
+    },
     "prompt": "In a sissy context, what kind of partner dynamic appeals most?",
     "choices": [
       "Dominant male",
@@ -2416,7 +3497,10 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "showIf": { "id": "focus_areas", "includes": "Attraction and partners" },
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Attraction and partners"
+    },
     "prompt": "How satisfied are you with where you currently are in terms of sissy expression and progression? (1 = highly dissatisfied or stuck, 10 = highly satisfied and aligned)"
   },
   {
@@ -2437,6 +3521,17 @@
   },
   {
     "kind": "question",
+    "id": "stop_system_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "id": "stop_system",
+      "equals": "Other"
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: What kind of stop system do you prefer or already use."
+  },
+  {
+    "kind": "question",
     "id": "health_factors",
     "answer": "choice",
     "multiple": true,
@@ -2448,6 +3543,17 @@
       "Mental-health considerations (e.g., anxiety, depression, trauma history)",
       "Other"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "health_factors_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "id": "health_factors",
+      "includes": "Other"
+    },
+    "prompt": "You picked \"Other\" — please describe it in your own words: Are there any medical, physical, or psychological factors a Dom should know about before planning training."
   },
   {
     "kind": "question",
