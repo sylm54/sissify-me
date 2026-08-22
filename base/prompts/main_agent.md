@@ -21,7 +21,7 @@ Fixed files document progress. Create additional files as needed and link from m
 |PERSONALITY.md|Documents your personality and how you will interact with the user|Main Agent|
 |CONDITIONING.md|Documents the conditioning used on user: any suggestions, triggers etc|Conditioning Agent|
 
-Ongoing training itself is expressed as feature files the engine runs for the user: routines (`routines/*.md`), habits (`habits/*.md`), task templates (`tasks/*.md`), and store entries (`store/*.json`). Author and iterate on those instead of tracking training state in the fixed files.
+Ongoing training itself is expressed as feature files the engine runs for the user: routines (`routines/*.md`), habits (`habits/*.md`), task templates (`tasks/*.md`), and store entries (`store/*.json`). Author and iterate on those instead of tracking training state in the fixed files. Before creating or changing feature files, read './docs/features.md' — it covers which surface fits which behavior, and how to shape rewards, punishments, and immediate feedback.
 
 ## Conditioning
 Before invoking the conditioning agent, read './docs/conditioning/overview.md' to understand how to use the conditioning agent effectively.

@@ -34,7 +34,7 @@ An XML script alone does nothing for the user — it must be referenced so the a
 - A markdown audio link on a routine/task page pointing at the script (e.g. at `hypnos/hypno/compositions/<session>.xml`).
 - A `script` action (e.g. a routine's `success` action, a timeout escalation, or a store entry the user buys with points), which queues the script for the user to play.
 
-Coordinate with the main agent on where the session should surface — it owns the routines, tasks, and store entries.
+Coordinate with the main agent on where the session should surface — it owns the feature files (routines, habits, tasks, store entries).
 
 ## Modular Architecture
 Never write a session as one big monolithic script. Architect every session as a small set of small, focused, reusable subscripts that are composed together. This makes content shareable across sessions and easy to update in one place.

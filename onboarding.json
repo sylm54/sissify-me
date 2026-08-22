@@ -38,9 +38,11 @@
       "Orientation and role",
       "Milestones",
       "Routines and frequencies",
+      "Masturbation experience",
       "Identity",
       "Purging cycles",
       "Kink interest ratings",
+      "Affirmations and audio",
       "Beta and hierarchy",
       "Attraction and partners"
     ]
@@ -345,40 +347,24 @@
   },
   {
     "kind": "question",
-    "id": "treatment_by_women",
+    "id": "treatment_by_superiors",
     "answer": "choice",
     "multiple": true,
     "showIf": {
       "id": "focus_areas",
       "includes": "Fantasies and goals"
     },
-    "prompt": "In your fantasies, how should sissies be treated by women?",
+    "prompt": "In your fantasies, how should sissies be treated by the men and women above them?",
     "choices": [
       "As adorable pets to be pampered and teased",
       "As useful maids and servants",
-      "As pathetic betas to be mocked and friend-zoned",
-      "As girlfriends to share clothes and gossip with",
-      "As slaves to be used and bossed around",
-      "Women shouldn't be involved at all"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "treatment_by_men",
-    "answer": "choice",
-    "multiple": true,
-    "showIf": {
-      "id": "focus_areas",
-      "includes": "Fantasies and goals"
-    },
-    "prompt": "And how should sissies be treated by men?",
-    "choices": [
       "As pretty things to be charmed and seduced",
       "As submissive playthings to be used",
       "As obedient holes to be filled on demand",
-      "As servants for chores, drinks, and service",
-      "As inferior males to be mocked and put down",
-      "Men shouldn't be involved at all"
+      "As pathetic betas to be mocked and put in their place",
+      "As girlfriends to share clothes and gossip with",
+      "As slaves to be owned and bossed around",
+      "Superiors shouldn't be involved at all"
     ]
   },
   {
@@ -399,6 +385,100 @@
       "Dressed to invite attention — pretty and available",
       "Protocol-perfect — following rituals and rules precisely",
       "Clitty-free — her pleasure comes only from serving"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sissy_masturbation_belief",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
+    "prompt": "How should a well-trained sissy masturbate?",
+    "choices": [
+      "She shouldn't — her clitty stays locked and untouched",
+      "By rubbing her clitty like a girl — two fingers, slow circles, never stroking",
+      "Anal only — her pussy is her one source of pleasure",
+      "By humping pillows or objects like a desperate pet",
+      "Only with permission, and exactly as instructed",
+      "Ruined orgasms only — never full satisfaction",
+      "However she likes — her private habits aren't policed"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sissy_fantasise_about",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
+    "prompt": "What should sissies fantasise about?",
+    "choices": [
+      "Serving and worshipping cock",
+      "Being feminised further — clothes, makeup, body",
+      "Being locked, denied, and desperate",
+      "Pleasing a dominant man",
+      "Serving and amusing a dominant woman",
+      "Being a pretty bimbo — blank, giggly, and eager",
+      "Being taken like a girl",
+      "Being humiliated for her inadequacy",
+      "Losing her male status for good",
+      "Being a good girl who makes her owner proud"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "reaction_to_cock",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
+    "prompt": "What should a sissy's reaction to seeing a cock be?",
+    "choices": [
+      "Instant arousal and the urge to drop to her knees",
+      "A wet mouth — she imagines how it would feel on her tongue",
+      "A tingle in her clitty she can't ignore",
+      "Blushing nerves that melt into curiosity",
+      "Indifference — it's just anatomy to her",
+      "Discomfort — cocks aren't for her"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "reaction_to_pussy",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
+    "prompt": "And her reaction to seeing a pussy?",
+    "choices": [
+      "Knowing it's not for her — sissies don't fuck, they get fucked",
+      "Envy of real women and what she'll never have",
+      "Arousal, the way any girl would feel",
+      "A longing to serve and please it",
+      "Indifference"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "reaction_to_tits",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Fantasies and goals"
+    },
+    "prompt": "And her reaction to seeing tits?",
+    "choices": [
+      "Envy — she wants soft, pretty breasts of her own",
+      "Arousal and the urge to touch",
+      "Dreaming of filling a pretty bra herself",
+      "Envy and arousal tangled together",
+      "Indifference"
     ]
   },
   {
@@ -2172,6 +2252,387 @@
     "kind": "text",
     "showIf": {
       "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
+    "text": "**Routines and daily structure**"
+  },
+  {
+    "kind": "question",
+    "id": "existing_routines",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
+    "prompt": "Which routines or rituals do you already keep around your sissy side?",
+    "choices": [
+      "Morning routine (dressing, grooming, affirmations)",
+      "Evening or bedtime routine",
+      "Dressing-up sessions",
+      "Training sessions (anal, oral, voice, makeup)",
+      "Affirmation or hypno listening",
+      "Chores or service rituals",
+      "Journaling",
+      "None yet"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "existing_routines_detail",
+    "answer": "open",
+    "optional": true,
+    "showIf": {
+      "any": [
+        {
+          "id": "existing_routines",
+          "includes": "Morning routine (dressing, grooming, affirmations)"
+        },
+        {
+          "id": "existing_routines",
+          "includes": "Evening or bedtime routine"
+        },
+        {
+          "id": "existing_routines",
+          "includes": "Dressing-up sessions"
+        },
+        {
+          "id": "existing_routines",
+          "includes": "Training sessions (anal, oral, voice, makeup)"
+        },
+        {
+          "id": "existing_routines",
+          "includes": "Affirmation or hypno listening"
+        },
+        {
+          "id": "existing_routines",
+          "includes": "Chores or service rituals"
+        },
+        {
+          "id": "existing_routines",
+          "includes": "Journaling"
+        }
+      ]
+    },
+    "prompt": "Briefly describe the routines you already keep — what they involve and how consistently you stick to them."
+  },
+  {
+    "kind": "question",
+    "id": "routine_goals",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
+    "prompt": "What kind of routines should your trainer build or maintain for you?",
+    "choices": [
+      "Morning preparation — getting pretty before the day starts",
+      "Evening wind-down — reflection, affirmations, bedtime rituals",
+      "Training sessions — anal, oral, voice, posture, makeup",
+      "Affirmation and conditioning slots",
+      "Grooming rules — smooth skin, nails, hair care",
+      "Fitness or diet rules for a feminine figure",
+      "Chores and service practice",
+      "Journaling and progress reports",
+      "Surprise tasks — unpredictability keeps me eager"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "routine_discipline",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Routines and frequencies"
+    },
+    "prompt": "If you skip or miss a routine, what should happen?",
+    "choices": [
+      "A consequence — punishment or lost privileges",
+      "Make-up duty — it must be caught up on",
+      "A check-in to find out why",
+      "Nothing — slipping occasionally is human",
+      "The trainer should decide"
+    ]
+  },
+  {
+    "kind": "text",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Masturbation experience"
+    },
+    "text": "**Masturbation experience**\n\nFirst pick the ways you've actually played — you'll only be asked follow-up questions for the ones you pick."
+  },
+  {
+    "kind": "question",
+    "id": "masturbation_types",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Masturbation experience"
+    },
+    "prompt": "Which of these have you tried?",
+    "choices": [
+      "Fapping — stroking like a male",
+      "Anal play",
+      "Oral practice — toys or real",
+      "Humping — pillow, mattress, prone",
+      "Ballbusting or CBT",
+      "Vibrators",
+      "Nipple play"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "fapping_frequency",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Fapping — stroking like a male"
+    },
+    "prompt": "How often do you currently fap — stroking to orgasm?",
+    "choices": [
+      "Daily or near-daily",
+      "Most days",
+      "A few times a week",
+      "A few times a month",
+      "Rarely"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "fapping_style",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Fapping — stroking like a male"
+    },
+    "prompt": "When you fap, how does it usually go?",
+    "choices": [
+      "Quick and efficient — done in minutes",
+      "Long edging sessions — riding the edge as long as possible",
+      "Guided by sissy content — hypno, captions, or porn",
+      "I try to limit or avoid it — it feels like a habit I should break"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "anal_experience_level",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Anal play"
+    },
+    "prompt": "How trained is your pussy?",
+    "choices": [
+      "Barely — fingers only, if at all",
+      "Small toys",
+      "Medium toys — comfortable with average size",
+      "Large toys or real cocks"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "anal_pleasure",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Anal play"
+    },
+    "prompt": "How much pleasure do you get from anal play? (1 = none, 10 = it beats my clitty)"
+  },
+  {
+    "kind": "question",
+    "id": "anal_orgasm",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Anal play"
+    },
+    "prompt": "Have you ever climaxed from anal play alone?",
+    "choices": [
+      "Yes, reliably",
+      "Yes, once or twice",
+      "Close, but not yet",
+      "No — never gotten there"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "oral_practice_level",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Oral practice — toys or real"
+    },
+    "prompt": "What have you practised orally?",
+    "choices": [
+      "Nothing yet — fantasy only",
+      "Fingers or small objects",
+      "Dildos or toys",
+      "Real cocks"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "oral_practice_enjoyment",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Oral practice — toys or real"
+    },
+    "prompt": "How much do you enjoy or crave oral practice? (1 = not at all, 10 = I live for it)"
+  },
+  {
+    "kind": "question",
+    "id": "humping_frequency",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Humping — pillow, mattress, prone"
+    },
+    "prompt": "How often do you hump?",
+    "choices": [
+      "Rarely",
+      "Occasionally",
+      "Regularly",
+      "It's one of my main ways"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "humping_feeling",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Humping — pillow, mattress, prone"
+    },
+    "prompt": "How does humping make you feel?",
+    "choices": [
+      "Desperate and pathetic — which is exactly the point",
+      "Silly, but it gets me going",
+      "Neutral — just another way to get off",
+      "It doesn't really work for me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "cbt_level",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Ballbusting or CBT"
+    },
+    "prompt": "How much cock and ball torment have you taken?",
+    "choices": [
+      "Only dabbled once or twice",
+      "Light — slaps and squeezes",
+      "Moderate — pinching, binding, pulling",
+      "Heavy — I can take real pain"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "cbt_reaction",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Ballbusting or CBT"
+    },
+    "prompt": "What does ball pain do for you?",
+    "choices": [
+      "It arouses me intensely",
+      "Arousal mixed with dread — the struggle is the point",
+      "Enduring it feels like submission, which is what I like",
+      "Curiosity more than arousal",
+      "Honestly, I don't enjoy it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "vibrator_use",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Vibrators"
+    },
+    "prompt": "How do you use a vibrator?",
+    "choices": [
+      "Against my clitty",
+      "Against my pussy or prostate",
+      "Both",
+      "Wand-style — pressed hard through clothes or bedding"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "vibrator_effect",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Vibrators"
+    },
+    "prompt": "What does a vibrator do to you?",
+    "choices": [
+      "Fast, overwhelming climaxes",
+      "It beautifully ruins my climaxes",
+      "Teases me right to the edge and keeps me there",
+      "Nice, but nothing special"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "nipple_sensitivity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Nipple play"
+    },
+    "prompt": "How sensitive are your nipples? (1 = nothing, 10 = wired straight to my clitty)"
+  },
+  {
+    "kind": "question",
+    "id": "nipple_climax",
+    "answer": "choice",
+    "showIf": {
+      "id": "masturbation_types",
+      "includes": "Nipple play"
+    },
+    "prompt": "Have you ever climaxed from nipple play alone?",
+    "choices": [
+      "Yes",
+      "Close — it adds a lot",
+      "It enhances everything, but not that far",
+      "No real effect"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "masturbation_retraining",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Masturbation experience"
+    },
+    "prompt": "Should your trainer retrain how you masturbate?",
+    "choices": [
+      "Yes — break the male habit completely and replace it",
+      "Partly — reduce it and make it more feminine",
+      "No — leave how I masturbate to me",
+      "The trainer should decide and take control of it"
+    ]
+  },
+  {
+    "kind": "text",
+    "showIf": {
+      "id": "focus_areas",
       "includes": "Identity"
     },
     "text": "**Identity, compartmentalisation, and longer-term feelings**"
@@ -2768,6 +3229,41 @@
   },
   {
     "kind": "question",
+    "id": "forced_fem_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_forced_feminisation",
+      "min": 7
+    },
+    "prompt": "Forced feminisation is for you:",
+    "choices": [
+      "Pure fantasy — the idea excites me, nothing more",
+      "Fantasy with careful real-life touches (underwear, small items)",
+      "Actively practised — clothes, makeup, routine",
+      "A lifestyle goal I'm working toward"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "forced_fem_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_forced_feminisation",
+      "min": 7
+    },
+    "prompt": "What hooks you most about being feminised?",
+    "choices": [
+      "The transformation process itself",
+      "Being made to do it — having no choice",
+      "The clothes and how they feel",
+      "Becoming prettier over time",
+      "The humiliation of losing my maleness",
+      "The permanence — reaching a point of no return"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_chastity",
     "answer": "rating",
     "min": 1,
@@ -2780,6 +3276,40 @@
   },
   {
     "kind": "question",
+    "id": "chastity_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_chastity",
+      "min": 7
+    },
+    "prompt": "Chastity is for you:",
+    "choices": [
+      "Pure fantasy — the idea excites me, nothing more",
+      "Curious — no real device experience yet",
+      "Practised — I wear when I can",
+      "Lifestyle — locked long-term or aiming to be"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "chastity_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_chastity",
+      "min": 7
+    },
+    "prompt": "What hooks you most about chastity?",
+    "choices": [
+      "The constant horniness and desperation",
+      "Handing control of my pleasure to someone else",
+      "My clitty going limp and useless",
+      "Freedom from male urges",
+      "The lock itself — a symbol that I belong to someone"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_mind_control",
     "answer": "rating",
     "min": 1,
@@ -2789,6 +3319,40 @@
       "includes": "Mind control and hypno"
     },
     "prompt": "Mind control or hypno conditioning:"
+  },
+  {
+    "kind": "question",
+    "id": "hypno_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_mind_control",
+      "min": 7
+    },
+    "prompt": "Hypno conditioning is for you:",
+    "choices": [
+      "Pure fantasy — I don't believe it really works on me",
+      "Recreational — I listen for the mood and the arousal",
+      "Real — I've felt genuine effects and want to go deeper",
+      "Central — I want deep, lasting conditioning"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "hypno_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_mind_control",
+      "min": 7
+    },
+    "prompt": "What hooks you most about hypno?",
+    "choices": [
+      "Going blank and dropping deep",
+      "Triggers that work without me choosing",
+      "Having my desires rewired for me",
+      "The identity change — becoming the sissy",
+      "Losing control to the voice"
+    ]
   },
   {
     "kind": "question",
@@ -2816,6 +3380,40 @@
   },
   {
     "kind": "question",
+    "id": "oral_kink_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_oral_fixation",
+      "min": 7
+    },
+    "prompt": "Oral service is for you:",
+    "choices": [
+      "Pure fantasy so far",
+      "Practised on toys",
+      "Limited real experience",
+      "Experienced — and eager for more"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "oral_kink_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_oral_fixation",
+      "min": 7
+    },
+    "prompt": "What draws you most to oral service?",
+    "choices": [
+      "Cock worship itself",
+      "Kneeling and serving — the position of it",
+      "Deep-throat training and skill",
+      "Swallowing — proof of devotion",
+      "Being used, face-first"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_anal_training",
     "answer": "rating",
     "min": 1,
@@ -2825,6 +3423,40 @@
       "includes": "Anal training"
     },
     "prompt": "Anal training or stretch:"
+  },
+  {
+    "kind": "question",
+    "id": "anal_kink_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_anal_training",
+      "min": 7
+    },
+    "prompt": "Anal training is for you:",
+    "choices": [
+      "Pure fantasy so far",
+      "Curious — barely started",
+      "Practising regularly",
+      "Well-trained and proud of it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "anal_kink_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_anal_training",
+      "min": 7
+    },
+    "prompt": "What draws you most to anal training?",
+    "choices": [
+      "Prostate pleasure — it simply feels amazing",
+      "Training my pussy to take cock",
+      "The stretch — progressing to bigger sizes",
+      "Being taken like a girl",
+      "Enduring it — the submission of taking what's given"
+    ]
   },
   {
     "kind": "question",
@@ -2840,6 +3472,41 @@
   },
   {
     "kind": "question",
+    "id": "humiliation_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_verbal_humiliation",
+      "min": 7
+    },
+    "prompt": "Humiliation is for you:",
+    "choices": [
+      "Pure fantasy — in real life it would be too much",
+      "Fantasy with light real-life play (names, tasks)",
+      "A regular part of my play",
+      "A need — without it, nothing really lands"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "humiliation_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_verbal_humiliation",
+      "min": 7
+    },
+    "prompt": "Which words cut deepest — in the best way?",
+    "choices": [
+      "Name-calling — sissy, faggot, slut",
+      "Mocking my clitty and my inadequacy",
+      "Mocking my failed maleness",
+      "Being compared unfavourably to real men",
+      "Being talked down to like a simple toy",
+      "The threat of exposure"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_public_exposure",
     "answer": "rating",
     "min": 1,
@@ -2849,6 +3516,22 @@
       "includes": "Public exposure"
     },
     "prompt": "Public exposure risk or semi-public play:"
+  },
+  {
+    "kind": "question",
+    "id": "exposure_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_public_exposure",
+      "min": 7
+    },
+    "prompt": "Exposure is for you:",
+    "choices": [
+      "Pure fantasy — the risk is the thrill, nothing more",
+      "Online only — posts, camera, controlled",
+      "Hidden real-life touches — wearing things underneath, subtle hints",
+      "Real — dressing to be seen and being noticed"
+    ]
   },
   {
     "kind": "question",
@@ -2864,6 +3547,24 @@
   },
   {
     "kind": "question",
+    "id": "pet_play_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_pet_play",
+      "min": 7
+    },
+    "prompt": "What appeals most about pet play and objectification?",
+    "choices": [
+      "Being dehumanised — collars, ears, pet names",
+      "Being a toy or furniture — existing to be used",
+      "Puppy energy — eager, playful, desperate to please",
+      "Kitty energy — graceful, teasing, a bit bratty",
+      "The collar and leash — visibly owned"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_progressive_feminisation",
     "answer": "rating",
     "min": 1,
@@ -2873,6 +3574,25 @@
       "includes": "Progressive long-term feminisation"
     },
     "prompt": "Progressive or long-term feminisation:"
+  },
+  {
+    "kind": "question",
+    "id": "progressive_fem_track",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_progressive_feminisation",
+      "min": 7
+    },
+    "prompt": "Which permanent tracks tempt you?",
+    "choices": [
+      "Hair removal — staying smooth everywhere",
+      "Figure training — diet and exercise for hips and waist",
+      "Voice and mannerism training",
+      "Skincare, nails, and grooming habits",
+      "Breast growth — herbal, pumping, or more",
+      "A full feminine wardrobe"
+    ]
   },
   {
     "kind": "question",
@@ -2924,6 +3644,41 @@
   },
   {
     "kind": "question",
+    "id": "cuckolding_nature",
+    "answer": "choice",
+    "showIf": {
+      "id": "kink_cuckolding",
+      "min": 7
+    },
+    "prompt": "Cuckolding is for you:",
+    "choices": [
+      "Pure fantasy",
+      "A fantasy I'd try with the right partner",
+      "Some real experience",
+      "Lived — and I want it again"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "cuckolding_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_cuckolding",
+      "min": 7
+    },
+    "prompt": "What's the core of cuckolding for you?",
+    "choices": [
+      "Watching a real man satisfy her",
+      "Being denied while she enjoys",
+      "Serving them both",
+      "Cleanup duty afterward",
+      "The proof of my inadequacy",
+      "Being feminised while she's with real men"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_dominated_before_woman",
     "answer": "rating",
     "min": 1,
@@ -2972,6 +3727,23 @@
   },
   {
     "kind": "question",
+    "id": "cleanup_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_cleanup",
+      "min": 7
+    },
+    "prompt": "What is cleanup duty really about, for you?",
+    "choices": [
+      "The ultimate act of service to her pleasure",
+      "Eating cum — proof of what a cumslut I am",
+      "Serving her and her bull together",
+      "The sheer humiliation of the role"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_service_men",
     "answer": "rating",
     "min": 1,
@@ -2984,6 +3756,24 @@
   },
   {
     "kind": "question",
+    "id": "serving_men_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_service_men",
+      "min": 7
+    },
+    "prompt": "What does serving men mean to you?",
+    "choices": [
+      "Pleasing cock — that's what a sissy is for",
+      "Being the feminine one — charm first, then service",
+      "Domestic service to a male owner",
+      "Being available whenever he wants",
+      "The contrast — he's everything I'm not"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "kink_service_women",
     "answer": "rating",
     "min": 1,
@@ -2993,6 +3783,25 @@
       "includes": "Serving women"
     },
     "prompt": "Serving in a service role to women:"
+  },
+  {
+    "kind": "question",
+    "id": "serving_women_hook",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "kink_service_women",
+      "min": 7
+    },
+    "prompt": "What does serving women mean to you?",
+    "choices": [
+      "Being her sissy maid",
+      "Being her pet or plaything",
+      "Being her girlfriend — intimate, but on her terms",
+      "Pleasing her orally on demand",
+      "Being her cuckold sissy",
+      "Helping her please her men"
+    ]
   },
   {
     "kind": "question",
@@ -3017,6 +3826,189 @@
       "includes": "Embracing a beta identity"
     },
     "prompt": "Embracing a beta identity:"
+  },
+  {
+    "kind": "text",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "text": "**Affirmations and conditioning audio**"
+  },
+  {
+    "kind": "question",
+    "id": "affirmation_experience",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "Have you used affirmations before — written, spoken, or listened to?",
+    "choices": [
+      "Regularly",
+      "Occasionally",
+      "Tried it a few times",
+      "Never"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "affirmation_themes",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "Which affirmation themes work on you?",
+    "choices": [
+      "Feminine identity — \"I am a good girl\", \"I love being pretty\"",
+      "Inferiority — \"I was never a real man\"",
+      "Obedience — \"I obey\", \"commands make me wet\"",
+      "Cock devotion — \"I crave cock\"",
+      "Denial — \"my clitty belongs locked\"",
+      "Bimbo — \"blank, giggly, pretty\"",
+      "Service — \"I exist to please\"",
+      "Self-acceptance — gentle and positive"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "affirmation_method",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "How should affirmations be delivered to you?",
+    "choices": [
+      "Written — copying them out by hand",
+      "Typed — sent to my trainer as reports",
+      "Spoken aloud, repeating after instruction",
+      "Whispered in audio, right in my ear",
+      "Layered into hypno loops on repeat",
+      "Silently read during the day"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "affirmation_timing",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "When should affirmations run?",
+    "choices": [
+      "First thing in the morning",
+      "Last thing before sleep",
+      "Before or during sessions",
+      "At random moments, on the trainer's order",
+      "As background loops whenever possible"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "audio_experience",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "How much experience do you have with hypno or training audio?",
+    "choices": [
+      "Long-time regular listener",
+      "Occasional listener",
+      "Tried a few files",
+      "None yet"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trance_response",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "How do you respond to trance and conditioning audio?",
+    "choices": [
+      "I drop deep easily",
+      "Light trance, usually",
+      "Rarely feel much",
+      "Unsure — haven't tried enough"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "spoken_instructions",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "Should your trainer give you spoken instructions to follow in real time?",
+    "choices": [
+      "Yes — talk me through everything, step by step",
+      "Yes — give the orders and check that I obey",
+      "Sometimes — mix spoken guidance with text",
+      "No — written instructions are enough for me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "instruction_style",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "What style of spoken instruction works best on you?",
+    "choices": [
+      "Calm and hypnotic — I melt and follow",
+      "Firm and commanding — I jump to obey",
+      "Teasing — kept flustered and eager",
+      "Degrading — put in my place while I comply",
+      "Not sure — surprise me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "audio_voice",
+    "answer": "choice",
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "What voice should deliver your audio?",
+    "choices": [
+      "A dominant male voice",
+      "A dominant female voice",
+      "Either — mix it up",
+      "No preference"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "audio_active_tasks",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": {
+      "id": "focus_areas",
+      "includes": "Affirmations and audio"
+    },
+    "prompt": "Which voice-controlled exercises appeal to you?",
+    "choices": [
+      "Edging on command — my masturbation controlled by voice",
+      "Repeating triggers and mantras aloud",
+      "Countdowns — to climax or to denial",
+      "Training to climax on command",
+      "Anal training guided step by step",
+      "Falling asleep to conditioning loops",
+      "None of these"
+    ]
   },
   {
     "kind": "text",
@@ -3324,37 +4316,31 @@
   },
   {
     "kind": "question",
-    "id": "accept_domination_man",
+    "id": "accept_domination",
     "answer": "choice",
     "showIf": {
       "id": "focus_areas",
       "includes": "Beta and hierarchy"
     },
-    "prompt": "How much would you accept or embrace being dominated by a man in a real-life context?",
+    "prompt": "How much would you accept or embrace being dominated in real life, whether by a man or a woman?",
     "choices": [
       "Fully accept and welcome it",
       "Would likely accept it with some hesitation",
       "Would resist but might give in",
       "Would resist strongly",
-      "Unsure / depends on the context"
+      "It depends on the person and context"
     ]
   },
   {
     "kind": "question",
-    "id": "accept_domination_woman",
-    "answer": "choice",
+    "id": "accept_domination_detail",
+    "answer": "open",
+    "optional": true,
     "showIf": {
       "id": "focus_areas",
       "includes": "Beta and hierarchy"
     },
-    "prompt": "How much would you accept or embrace being dominated by a woman in a real-life context?",
-    "choices": [
-      "Fully accept and welcome it",
-      "Would likely accept it with some hesitation",
-      "Would resist but might give in",
-      "Would resist strongly",
-      "Unsure / depends on the context"
-    ]
+    "prompt": "If your answer differs between men and women, describe how."
   },
   {
     "kind": "question",

@@ -19,9 +19,7 @@ format: 2
 title: Evening Reflection
 schedule: "@daily"
 timeframe: 4h
-success:
-  - type: points
-    delta: 5
+success: [{"type": "points", "delta": 5}]
 ---
 
 Good girls reflect. Answer honestly — I read every word.
