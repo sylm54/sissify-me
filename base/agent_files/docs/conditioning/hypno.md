@@ -41,26 +41,6 @@ hypnos/hypno/
 
 The `compositions/` folder holds the final session scripts — each one is a thin file that `<include>`s or references the structural and content files it combines, plus the pre-talk, post-hypnotic suggestions, and post-talk that are unique per session.
 
-### Build subscripts with parallel subagents
-Do not write all subscripts yourself. Instead, organise the work into **3–5 parallel groups**, spawn one subagent per group, and have them run concurrently. Each subagent receives a clear, self-contained brief telling it exactly which files to produce, which folder to put them in, what patterns to use, and what content they should contain.
-
-#### Recommended grouping
-| Group | What it produces | Target folder |
-| --- | --- | --- |
-| **Structural foundation** | Pre-talk, induction router, deepening router, redeepening router, emergence subscripts | `structural/` |
-| **Content pools** | Multiple induction variant scripts, deepening variant scripts, redeepening variant scripts | `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` |
-| **Trigger & suggestion blocks** | A set of trigger implementation/reinforcement files and suggestion-pool files, using the **Random Suggestions** and **Ordering** patterns | `content/trigger_blocks/`, `content/suggestion_pools/` |
-| **Session composition** | The thin composition file including pre-talk, post-hypnotic suggestions, post-talk, and links to the parts above | `compositions/` |
-
-#### Process
-1. **Plan the groups** based on the current session's theme and complexity. Merge or split groups so you land at 2–6 total (never fewer than 2, never more than 6).
-2. **Write a brief for each group** that names every file the group should create, specifies which folder it goes in, lists the key patterns to use (Random SubScripts, Random Suggestions, Ordering), and notes any triggers or specializations to reference.
-3. **Spawn all subagents in parallel**, passing each its brief. Do not spawn them sequentially — the whole point is concurrency.
-4. **Collect the results.** After every subagent finishes, review the outputs, resolve any inconsistencies across groups, and wire the composition file together.
-5. **Create the composition file** at `compositions/<session_name>.xml` by combining the structural includes, trigger/suggestion blocks, pre-talk, post-hypnotic suggestions, and post-talk.
-
-This approach keeps builds fast (parallel work), keeps files small and reusable (one concern per file), and keeps sessions varied (swap pool files without touching the composition).
-
 ### Intro
 Intro is to build expectations and get the user into trance. It should be in a <intro> tag. 
 
