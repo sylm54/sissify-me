@@ -1,7 +1,7 @@
 [
   {
     "kind": "text",
-    "text": "Welcome! These questions build the foundation your sissy journey runs on. Answer honestly and thoroughly — your answers are saved to `USER.md`, where your personal trainer reads them before your very first session.\n\nThe questionnaire adapts to you: you'll first pick your general direction, and you'll only be asked the follow-up questions that apply to you. Questions marked optional can be skipped entirely. Where a choice says \"Other\", pick it and you'll get a follow-up question to describe it in your own words."
+    "text": "Welcome! These questions build the foundation your sissy journey runs on."
   },
   {
     "kind": "text",
@@ -66,10 +66,8 @@
     "prompt": "What overall style should the training have?",
     "choices": [
       "Strict and disciplined — rules, protocols, and consequences",
-      "Nurturing but firm — coached, praised for progress, corrected when needed",
-      "Playful and teasing — kept flustered and motivated through teasing",
       "Cold and clinical — treated like a subject in a conditioning program",
-      "Humiliating and degrading — put in my place at every opportunity",
+      "Conditioned and hypnotic — the mind first, the body follows",
       "A mix that shifts with my behaviour and progress"
     ]
   },
@@ -94,12 +92,11 @@
     "choices": [
       "Short, direct commands",
       "Detailed instructions and checklists",
-      "Regular praise and encouragement when I please",
+      "Regular praise and encouragement",
       "Teasing and denial talk",
       "Verbal degradation and name-calling",
       "Checking in on how I'm feeling",
-      "Holding me accountable — following up on every task",
-      "Assigning written reflections or affirmations"
+      "Holding me accountable"
     ]
   },
   {
@@ -287,7 +284,7 @@
       "Being dressed head to toe in feminine clothes",
       "Being locked and denied for long periods",
       "Serving a man sexually",
-      "Serving a woman as her sissy maid or pet",
+      "Serving a woman sexually",
       "Being feminised permanently — body and life",
       "Being hypnotised and conditioned",
       "Being humiliated and degraded",
@@ -391,6 +388,7 @@
     "kind": "question",
     "id": "sissy_masturbation_belief",
     "answer": "choice",
+    "multiple": true,
     "showIf": {
       "id": "focus_areas",
       "includes": "Fantasies and goals"
@@ -399,8 +397,10 @@
     "choices": [
       "She shouldn't — her clitty stays locked and untouched",
       "By rubbing her clitty like a girl — two fingers, slow circles, never stroking",
-      "Anal only — her pussy is her one source of pleasure",
+      "Anal only — her pussy is her source of pleasure",
       "By humping pillows or objects like a desperate pet",
+      "By vibrating her clitty — but only with a toy, never her hand",
+      "By slapping her balls — a sissy's pleasure is humiliation",
       "Only with permission, and exactly as instructed",
       "Ruined orgasms only — never full satisfaction",
       "However she likes — her private habits aren't policed"
@@ -525,7 +525,7 @@
     },
     "prompt": "How should a sissy react to commands?",
     "choices": [
-      "Instantly and happily — \"Yes, Sir\" or \"Yes, Ma'am\" with a smile",
+      "Instantly and happily",
       "Obediently but bashfully — complying while blushing",
       "With a ritual gesture — a curtsy or kneel before complying",
       "By pleading for more",
