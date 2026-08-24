@@ -12,6 +12,6 @@
   "packages": {
     "adm-zip": ["adm-zip@0.6.0", "", {}, "sha512-XleryMhbuksdKtofnWZ9Sk+4CUTbms4Mb/EU32SZwToAyZ5RgVos/ki8n+yr0LWHOGKuakbXTuuYNHLQjhddgg=="],
 
-    "train-me-framework": ["train-me-framework@github:sylm54/train-me#b912ca7", { "dependencies": { "adm-zip": "^0.6.0" }, "bin": { "tm-framework": "./src/cli.ts" } }, "sylm54-train-me-b912ca7", "sha512-MATsxYXM3Qfmy6xAPyF2Wu4gum5qE6gVdlg5NFIdlHv+FQV4ENL08NcoDyLTgB7gifXW2/UWjO0/QJPhBS6gSA=="],
+    "train-me-framework": ["train-me-framework@github:sylm54/train-me#77e943b", { "dependencies": { "adm-zip": "^0.6.0" }, "bin": { "tm-framework": "./src/cli.ts" } }, "sylm54-train-me-77e943b", "sha512-bB2Syyq/8WXxRl8fJJBM/SKpRc2q7NgvLr0pjq1GRC/FJNSxQjkWJWA4lhzOgBJnwzCcUEjOynQetRWAuKTkwQ=="],
   }
 }
