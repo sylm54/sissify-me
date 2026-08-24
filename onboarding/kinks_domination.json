@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_dominated_woman_couple",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Being dominated by a woman directly, by a couple, or witnessed by a woman:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Being dominated (by a woman, a couple, or witnessed)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "accept_domination",
+    "answer": "choice",
+    "prompt": "How much would you accept or embrace being dominated in real life, whether by a man or a woman?",
+    "choices": [
+      "Fully accept and welcome it",
+      "Would likely accept it with some hesitation",
+      "Would resist but might give in",
+      "Would resist strongly",
+      "It depends on the person and context"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_dominated_woman_couple",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "accept_domination_detail",
+    "answer": "open",
+    "optional": true,
+    "prompt": "If your answer differs between men and women, describe how.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_dominated_woman_couple",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "giving_in_arousal",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How aroused are you by the idea of giving in to domination — surrendering resistance and accepting your place? (1 = not at all, 10 = extremely aroused)",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_dominated_woman_couple",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

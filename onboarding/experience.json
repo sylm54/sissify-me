@@ -1,0 +1,1837 @@
+[
+  {
+    "kind": "text",
+    "text": "**Milestones**\n\nFirst, pick the milestone areas that are relevant to you — you'll only be asked about the ones you pick. For each item: whether you've already experienced it in reality, desire it and are actively pursuing it, it's fantasy only, or you're not interested."
+  },
+  {
+    "kind": "question",
+    "id": "milestone_categories",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which milestone areas should we go through?",
+    "choices": [
+      "Sexual service",
+      "Chastity and denial",
+      "Feminisation",
+      "Hypno and conditioning",
+      "Humiliation and power exchange",
+      "Exposure",
+      "Body changes",
+      "Serving women and couples",
+      "Beta lifestyle"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "milestone_first_oral",
+    "answer": "choice",
+    "prompt": "First oral service to a man:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Sexual service"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_first_anal",
+    "answer": "choice",
+    "prompt": "First anal penetration by a partner:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Sexual service"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_deep_throating",
+    "answer": "choice",
+    "prompt": "Deep-throating or prolonged oral service:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Sexual service"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_solo_anal_training",
+    "answer": "choice",
+    "prompt": "Regular solo anal training:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Sexual service"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_larger_toys",
+    "answer": "choice",
+    "prompt": "Taking larger toys or partners:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Sexual service"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_chastity_denial",
+    "answer": "choice",
+    "prompt": "Locked in chastity during periods of denial:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Chastity and denial"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_multiday_lockup",
+    "answer": "choice",
+    "prompt": "Multi-day continuous chastity lock-up:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Chastity and denial"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_keyholder",
+    "answer": "choice",
+    "prompt": "Real or online keyholder control:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Chastity and denial"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_longterm_chastity",
+    "answer": "choice",
+    "prompt": "Long-term (weeks or months) chastity:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Chastity and denial"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_chastity_limpness",
+    "answer": "choice",
+    "prompt": "Regular chastity-induced erectile dysfunction or limpness:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Chastity and denial"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_full_outfit_private",
+    "answer": "choice",
+    "prompt": "Full feminine outfit in private:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Feminisation"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_overnight_presentation",
+    "answer": "choice",
+    "prompt": "Overnight or multi-day feminine presentation:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Feminisation"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_makeup_hair",
+    "answer": "choice",
+    "prompt": "Makeup and hair fully done:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Feminisation"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_voice_training",
+    "answer": "choice",
+    "prompt": "Voice training or practising feminine mannerisms:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Feminisation"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_hypno_orgasm",
+    "answer": "choice",
+    "prompt": "Orgasm while under the influence of sissy hypno:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Hypno and conditioning"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_regular_hypno",
+    "answer": "choice",
+    "prompt": "Regular listening to sissy hypno files:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Hypno and conditioning"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_trance_effects",
+    "answer": "choice",
+    "prompt": "Noticeable trance or conditioning effects from hypno:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Hypno and conditioning"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_hypno_behavior_changes",
+    "answer": "choice",
+    "prompt": "Long-term behavioural changes you attribute to hypno:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Hypno and conditioning"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_sustained_dynamic",
+    "answer": "choice",
+    "prompt": "A sustained submissive relationship dynamic:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Humiliation and power exchange"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_verbal_degradation",
+    "answer": "choice",
+    "prompt": "Verbal degradation during play:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Humiliation and power exchange"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_inferiority_affirmations",
+    "answer": "choice",
+    "prompt": "Writing or speaking affirmations of inferiority:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Humiliation and power exchange"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_power_exchange",
+    "answer": "choice",
+    "prompt": "An explicit power-exchange agreement or set of protocols:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Humiliation and power exchange"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_written_rules",
+    "answer": "choice",
+    "prompt": "Following written rules or tasks from a dominant:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Humiliation and power exchange"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_service_submission",
+    "answer": "choice",
+    "prompt": "Service-oriented submission (domestic, sexual, or both):",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Humiliation and power exchange"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_going_out_dressed",
+    "answer": "choice",
+    "prompt": "Going out dressed, even briefly:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Exposure"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_public_humiliation",
+    "answer": "choice",
+    "prompt": "Public or semi-public humiliation elements:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Exposure"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_posting_online",
+    "answer": "choice",
+    "prompt": "Posting photos or videos online:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Exposure"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_strangers_sissy",
+    "answer": "choice",
+    "prompt": "Interacting with strangers while presenting as a sissy:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Exposure"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_recognition_risk",
+    "answer": "choice",
+    "prompt": "Real-life risk of being seen or recognised:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Exposure"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_body_changes",
+    "answer": "choice",
+    "prompt": "Permanent or semi-permanent body changes (e.g., hair removal):",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Body changes"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_breast_growth",
+    "answer": "choice",
+    "prompt": "Experiencing or pursuing breast growth (hormones, herbal, or other):",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Body changes"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_shrinkage",
+    "answer": "choice",
+    "prompt": "Observed or desired penile shrinkage from chastity or hormones:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Body changes"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_cuckolded",
+    "answer": "choice",
+    "prompt": "Being cuckolded or watching a partner with someone else:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Serving women and couples"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_fucked_before_woman",
+    "answer": "choice",
+    "prompt": "Being fucked in front of a woman (partner or stranger):",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Serving women and couples"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_dominated_by_woman",
+    "answer": "choice",
+    "prompt": "Being dominated by a woman in a sissy context:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Serving women and couples"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_cleanup_duty",
+    "answer": "choice",
+    "prompt": "Cleanup duty after a partner's sexual activity:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Serving women and couples"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_couple_dynamic",
+    "answer": "choice",
+    "prompt": "Serving as part of a couple dynamic (M/F doms):",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Serving women and couples"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "milestone_pussyfree",
+    "answer": "choice",
+    "prompt": "Accepting or embracing a pussyfree lifestyle:",
+    "choices": [
+      "Already experienced",
+      "Desired and pursuing",
+      "Fantasy only",
+      "Not interested"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "milestone_categories",
+          "includes": "Beta lifestyle"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "strongest_pulls",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which categories currently pull you most strongly toward further progression?",
+    "choices": [
+      "Oral service",
+      "Anal training",
+      "Crossdressing and feminisation",
+      "Chastity and denial",
+      "Hypno and conditioning",
+      "Humiliation and degradation",
+      "Power exchange and protocols",
+      "Public or semi-public exposure",
+      "Body changes (hair removal, breast growth, etc.)",
+      "Cuckolding and cleanup duty",
+      "Serving couples or women",
+      "Pussyfree / beta lifestyle"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "text",
+    "text": "**Routines and frequencies, then and now**\n\nFor each activity, pick the frequency that fits for the past (first 1–2 years of interest) and the present: never, rarely, occasionally (monthly or less), regularly (roughly weekly), frequently (several times a week), or daily or near-daily.",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_anal_past",
+    "answer": "choice",
+    "prompt": "Anal play or training — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_anal_present",
+    "answer": "choice",
+    "prompt": "Anal play or training — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_oral_past",
+    "answer": "choice",
+    "prompt": "Oral practice or service (solo or with a partner) — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_oral_present",
+    "answer": "choice",
+    "prompt": "Oral practice or service (solo or with a partner) — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_chastity_past",
+    "answer": "choice",
+    "prompt": "Chastity wear — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_chastity_present",
+    "answer": "choice",
+    "prompt": "Chastity wear — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_feminisation_past",
+    "answer": "choice",
+    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_feminisation_present",
+    "answer": "choice",
+    "prompt": "Feminisation activities (makeup, mannerisms, etc.) — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_crossdressing_past",
+    "answer": "choice",
+    "prompt": "Crossdressing (partial or full) — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_crossdressing_present",
+    "answer": "choice",
+    "prompt": "Crossdressing (partial or full) — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_hypno_past",
+    "answer": "choice",
+    "prompt": "Hypno or conditioning audio/video — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_hypno_present",
+    "answer": "choice",
+    "prompt": "Hypno or conditioning audio/video — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_porn_past",
+    "answer": "choice",
+    "prompt": "Pornography focused on sissy, feminisation, or related themes — past:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "freq_porn_present",
+    "answer": "choice",
+    "prompt": "Pornography focused on sissy, feminisation, or related themes — present:",
+    "choices": [
+      "Never",
+      "Rarely",
+      "Occasionally (monthly or less)",
+      "Regularly (roughly weekly)",
+      "Frequently (several times a week)",
+      "Daily or near-daily"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "text",
+    "text": "**Routines and daily structure**",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "existing_routines",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which routines or rituals do you already keep around your sissy side?",
+    "choices": [
+      "Morning routine (dressing, grooming, affirmations)",
+      "Evening or bedtime routine",
+      "Dressing-up sessions",
+      "Training sessions (anal, oral, voice, makeup)",
+      "Affirmation or hypno listening",
+      "Chores or service rituals",
+      "Journaling",
+      "None yet"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "existing_routines_detail",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Briefly describe the routines you already keep — what they involve and how consistently you stick to them.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "any": [
+            {
+              "id": "existing_routines",
+              "includes": "Morning routine (dressing, grooming, affirmations)"
+            },
+            {
+              "id": "existing_routines",
+              "includes": "Evening or bedtime routine"
+            },
+            {
+              "id": "existing_routines",
+              "includes": "Dressing-up sessions"
+            },
+            {
+              "id": "existing_routines",
+              "includes": "Training sessions (anal, oral, voice, makeup)"
+            },
+            {
+              "id": "existing_routines",
+              "includes": "Affirmation or hypno listening"
+            },
+            {
+              "id": "existing_routines",
+              "includes": "Chores or service rituals"
+            },
+            {
+              "id": "existing_routines",
+              "includes": "Journaling"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "routine_goals",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What kind of routines should your trainer build or maintain for you?",
+    "choices": [
+      "Morning preparation — getting pretty before the day starts",
+      "Evening wind-down — reflection, affirmations, bedtime rituals",
+      "Training sessions — anal, oral, voice, posture, makeup",
+      "Affirmation and conditioning slots",
+      "Grooming rules — smooth skin, nails, hair care",
+      "Fitness or diet rules for a feminine figure",
+      "Chores and service practice",
+      "Journaling and progress reports",
+      "Surprise tasks — unpredictability keeps me eager"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "routine_discipline",
+    "answer": "choice",
+    "prompt": "If you skip or miss a routine, what should happen?",
+    "choices": [
+      "A consequence — punishment or lost privileges",
+      "Make-up duty — it must be caught up on",
+      "A check-in to find out why",
+      "Nothing — slipping occasionally is human",
+      "The trainer should decide"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "text",
+    "text": "**Masturbation experience**\n\nFirst pick the ways you've actually played — you'll only be asked follow-up questions for the ones you pick.",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "masturbation_types",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which of these have you tried?",
+    "choices": [
+      "Fapping — stroking like a male",
+      "Anal play",
+      "Oral practice — toys or real",
+      "Humping — pillow, mattress, prone",
+      "Ballbusting or CBT",
+      "Vibrators",
+      "Nipple play"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "fapping_frequency",
+    "answer": "choice",
+    "prompt": "How often do you currently fap — stroking to orgasm?",
+    "choices": [
+      "Daily or near-daily",
+      "Most days",
+      "A few times a week",
+      "A few times a month",
+      "Rarely"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Fapping — stroking like a male"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "fapping_style",
+    "answer": "choice",
+    "prompt": "When you fap, how does it usually go?",
+    "choices": [
+      "Quick and efficient — done in minutes",
+      "Medium-length sessions — a bit more involved",
+      "Long edging sessions — riding the edge as long as possible",
+      "Guided by sissy content — hypno, captions, or porn",
+      "I try to limit or avoid it — it feels like a habit I should break"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Fapping — stroking like a male"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "anal_experience_level",
+    "answer": "choice",
+    "prompt": "How trained is your pussy?",
+    "choices": [
+      "Barely — fingers only, if at all",
+      "Small toys",
+      "Medium toys — comfortable with average size",
+      "Large toys or real cocks"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Anal play"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "anal_pleasure",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How much pleasure do you get from anal play? (1 = none, 10 = it beats my clitty)",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Anal play"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "anal_orgasm",
+    "answer": "choice",
+    "prompt": "Have you ever climaxed from anal play alone?",
+    "choices": [
+      "Yes, reliably",
+      "Yes, once or twice",
+      "Close, but not yet",
+      "No — never gotten there"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Anal play"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "oral_practice_level",
+    "answer": "choice",
+    "prompt": "What have you practised orally?",
+    "choices": [
+      "Nothing yet — fantasy only",
+      "Fingers or small objects",
+      "Dildos or toys",
+      "Real cocks"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Oral practice — toys or real"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "oral_practice_enjoyment",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How much do you enjoy or crave oral practice? (1 = not at all, 10 = I live for it)",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Oral practice — toys or real"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "humping_frequency",
+    "answer": "choice",
+    "prompt": "How often do you hump?",
+    "choices": [
+      "Rarely",
+      "Occasionally",
+      "Regularly",
+      "It's one of my main ways"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Humping — pillow, mattress, prone"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "humping_feeling",
+    "answer": "choice",
+    "prompt": "How does humping make you feel?",
+    "choices": [
+      "Desperate and pathetic — which is exactly the point",
+      "Silly, but it gets me going",
+      "Neutral — just another way to get off",
+      "I like the idea/theme, but it doesn't really work for me",
+      "It doesn't really work for me"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Humping — pillow, mattress, prone"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "cbt_level",
+    "answer": "choice",
+    "prompt": "How much cock and ball torment have you taken?",
+    "choices": [
+      "Only dabbled once or twice",
+      "Light — slaps, squeezes, stretching",
+      "Moderate — pinching, binding, pulling, weights",
+      "Heavy — I can take real pain"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Ballbusting or CBT"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "cbt_reaction",
+    "answer": "choice",
+    "prompt": "What does ball torment do for you?",
+    "choices": [
+      "It arouses me intensely",
+      "Arousal mixed with dread — the struggle is the point",
+      "Enduring it feels like submission, which is what I like",
+      "Curiosity more than arousal",
+      "Honestly, I don't enjoy it"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Ballbusting or CBT"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "plapping_experience",
+    "answer": "choice",
+    "prompt": "Have you tried plapping — rhythmically slapping your balls with a dildo or toy, that repeated 'plap' sound?",
+    "choices": [
+      "Never tried it",
+      "Tried it a little — curious about more",
+      "I plap regularly",
+      "It's one of my main ways of getting off"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Ballbusting or CBT"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "plapping_role",
+    "answer": "choice",
+    "prompt": "When you plap, what is it for?",
+    "choices": [
+      "Discipline or maintenance while locked in chastity",
+      "A submissive way to masturbate — using impact instead of stroking",
+      "Humiliation — I plap myself because I'm told I don't deserve to stroke",
+      "Just the sensation — the sting and throb feel good",
+      "I haven't figured that out yet"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Ballbusting or CBT"
+        },
+        {
+          "id": "plapping_experience",
+          "notEquals": "Never tried it"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "vibrator_use",
+    "answer": "choice",
+    "prompt": "How do you use a vibrator?",
+    "choices": [
+      "Against my clitty",
+      "Against my pussy or prostate",
+      "Both",
+      "Wand-style — pressed hard through clothes or bedding"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Vibrators"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "vibrator_effect",
+    "answer": "choice",
+    "prompt": "What does a vibrator do to you?",
+    "choices": [
+      "Fast, overwhelming climaxes",
+      "It beautifully ruins my climaxes",
+      "Teases me right to the edge and keeps me there",
+      "Nice, but nothing special"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Vibrators"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "nipple_sensitivity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How sensitive are your nipples? (1 = nothing, 10 = wired straight to my clitty)",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Nipple play"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "nipple_climax",
+    "answer": "choice",
+    "prompt": "Have you ever climaxed from nipple play alone?",
+    "choices": [
+      "Yes",
+      "Close — it adds a lot",
+      "It enhances everything, but not that far",
+      "No real effect"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "masturbation_types",
+          "includes": "Nipple play"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "masturbation_retraining",
+    "answer": "choice",
+    "prompt": "Should your trainer retrain how you masturbate?",
+    "choices": [
+      "Yes — break the male habit completely and replace it",
+      "Partly — reduce it and make it more feminine",
+      "No — leave how I masturbate to me",
+      "The trainer should decide and take control of it"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  }
+]

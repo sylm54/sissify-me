@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_verbal_humiliation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Verbal humiliation or degradation:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Verbal humiliation and degradation"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "humiliation_nature",
+    "answer": "choice",
+    "prompt": "Humiliation is for you:",
+    "choices": [
+      "Pure fantasy — in real life it would be too much",
+      "Currently a fantasy, but I want to try it in real life",
+      "Fantasy with light real-life play (names, tasks)",
+      "A regular part of my play",
+      "A need — without it, nothing really lands"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_verbal_humiliation",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "humiliation_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which words cut deepest — in the best way?",
+    "choices": [
+      "Name-calling — sissy, faggot, slut",
+      "Mocking my clitty and my inadequacy",
+      "Mocking my failed maleness",
+      "Being compared unfavourably to real men",
+      "Being talked down to like a simple toy",
+      "The threat of exposure"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_verbal_humiliation",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

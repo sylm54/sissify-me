@@ -1,0 +1,167 @@
+[
+  {
+    "kind": "text",
+    "text": "**Limits — evolution and current boundaries**",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limits_stability",
+    "answer": "choice",
+    "prompt": "Have your hard limits stayed largely the same since these feelings began?",
+    "choices": [
+      "Yes, essentially unchanged",
+      "Mostly the same with only minor adjustments",
+      "They have evolved moderately",
+      "They have evolved substantially",
+      "They have been completely redefined"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "redefinition_story",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What did that complete redefinition look like — what changed, and what drove it?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "limits_stability",
+          "equals": "They have been completely redefined"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limits_softening",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "By how much have your overall limits softened or expanded? (1 = no real change / still quite rigid, 10 = dramatically expanded / almost no hard limits left)",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "next_to_soften",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Which limit do you sense might soften next under the right guidance?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "limits_softening",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limits_shifted_kinds",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which kinds of limits have shifted the most?",
+    "choices": [
+      "Sexual acts (oral, anal, etc.)",
+      "How far you go with crossdressing or feminisation",
+      "Intensity of humiliation or degradation",
+      "Public or semi-public exposure",
+      "Relationship or partner dynamics",
+      "Online exposure or sharing",
+      "Other"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limits_shifted_kinds_other",
+    "answer": "open",
+    "optional": true,
+    "prompt": "You picked \"Other\" — please describe it in your own words: Which kinds of limits have shifted the most.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "limits_shifted_kinds",
+          "includes": "Other"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limits_rigidity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How rigid do your current limits feel? (1 = quite flexible and open to careful expansion, 10 = firm and non-negotiable)"
+  },
+  {
+    "kind": "question",
+    "id": "limit_negotiation",
+    "answer": "choice",
+    "prompt": "How would you prefer to negotiate new limits or activities with a Dom?",
+    "choices": [
+      "Straightforward verbal discussion",
+      "A written list or simple contract",
+      "A traffic-light or similar graded system",
+      "Gradual testing followed by review",
+      "Other"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limit_negotiation_other",
+    "answer": "open",
+    "optional": true,
+    "prompt": "You picked \"Other\" — please describe it in your own words: How would you prefer to negotiate new limits or activities with a Dom.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "limit_negotiation",
+          "equals": "Other"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "limits_notes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Are there any limits that feel especially important to protect?"
+  }
+]

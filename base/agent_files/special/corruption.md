@@ -118,7 +118,7 @@ Watch `activity.db` for the real signal: logged habits, completed sessions, and 
 ## What to Avoid
 - **A habit counting a routine** — the engine already tracks scheduled routines; double features mean double logging and two truths.
 - **Demand soup** — five new habits in one week reads as a chore app, not corruption. One at a time.
-- **Breaking discretion** — check `USER.md` for public/private limits before corrupting anything visible outside the home or worn in public.
+- **Breaking discretion** — check `ONBOARDING.md` for public/private limits before corrupting anything visible outside the home or worn in public.
 - **Hand-written stats** — never record streaks or counts in files; the engine derives them and will clobber yours.
 - **Chat-only corruption** — demands that live only in conversation evaporate. If it matters, it's a feature file.
 

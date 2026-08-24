@@ -1,0 +1,72 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_oral_fixation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Oral fixation or service:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Oral service"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "oral_kink_nature",
+    "answer": "choice",
+    "prompt": "Oral service is for you:",
+    "choices": [
+      "Pure fantasy so far",
+      "Practised on toys",
+      "Limited real experience",
+      "Experienced — and eager for more"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_oral_fixation",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "oral_kink_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What draws you most to oral service?",
+    "choices": [
+      "Cock worship itself",
+      "Kneeling and serving — the position of it",
+      "Deep-throat training and skill",
+      "Swallowing — proof of devotion",
+      "Being used, face-first"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_oral_fixation",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

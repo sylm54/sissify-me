@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_cuckold_cleanup",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Cuckolding dynamics and cleanup duty:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Cuckolding and cleanup duty"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "cuckolding_nature",
+    "answer": "choice",
+    "prompt": "Cuckolding is for you:",
+    "choices": [
+      "Pure fantasy",
+      "A fantasy I'd try with the right partner",
+      "Some real experience",
+      "Lived — and I want it again"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_cuckold_cleanup",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "cuckolding_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What's the core of cuckolding for you?",
+    "choices": [
+      "Watching a real man satisfy her",
+      "Being denied while she enjoys",
+      "Serving them both",
+      "Cleanup duty afterward",
+      "The proof of my inadequacy",
+      "Being feminised while she's with real men"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_cuckold_cleanup",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "cleanup_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What is cleanup duty really about, for you?",
+    "choices": [
+      "The ultimate act of service to her pleasure",
+      "Eating cum — proof of what a cumslut I am",
+      "Serving her and her bull together",
+      "The sheer humiliation of the role"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_cuckold_cleanup",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

@@ -10,7 +10,7 @@
               <pause duration='0.8'/>
               nine
               <pause duration='0.8'/>
-              drifting down
+              drifting down, Sissy Drops
               <pause duration='0.8'/>
               eight
               <pause duration='0.8'/>
@@ -38,17 +38,18 @@
       </part>
       <part volume='0.2' looped='true'>
           <random>
-            <part>Down</part>
+            <part>Sissy Drops Down</part>
             <part>Sink</part>
-            <part>Lower</part>
+            <part>Sissy Drops Lower</part>
             <part>Drop</part>
             <part>Fall</part>
-            <part>Heavier</part>
+            <part>Sissy Drops Heavier</part>
             <part>Slower</part>
             <part>Sink deeper</part>
             <part>Let go</part>
             <part>Relax</part>
             <part>Release</part>
+            <part>Sissy Drops Further</part>
           </random>
       </part>
     </overlay>
@@ -59,6 +60,7 @@
             <part>Deep in trance.<pause duration='1'/></part>
             <part>Perfectly open to my voice.<pause duration='1'/></part>
             <part>Completely relaxed.<pause duration='1'/></part>
+            <part>Sissy Drops.<pause duration='1'/></part>
         </scramble>
     </effect>
     <random>

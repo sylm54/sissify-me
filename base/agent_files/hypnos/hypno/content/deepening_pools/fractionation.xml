@@ -3,19 +3,21 @@
   <tone preset='binaural_theta' frequency='190' volume='0.25'/>
   In a moment, you'll briefly surface, and then drop right back down — twice as deep as before.
   <pause duration='0.8'/>
-  <speed value='1.05'>Wake.</speed>
-  <pause duration='1'/>
-  <sound type='snap'/>
-  <speed value='0.75'>
-    And... drop. All the way down, deeper than before.
-  </speed>
-  <pause duration='2'/>
-  <speed value='1.05'>Wake.</speed>
-  <pause duration='1'/>
-  <sound type='snap'/>
-  <speed value='0.7'>
-    Drop. Even deeper now. So easy, so natural, falling so far for me.
-  </speed>
-  <pause duration='2'/>
+  <loop loops='3'>
+    <speed value='1.05'>Wake.</speed>
+    <pause duration='1'/>
+    <sound type='snap'/>
+    <speed value='0.7'>
+      Sissy Drops.
+      <random>
+        <part>All the way down, deeper than before.</part>
+        <part>Even deeper now. So easy, so natural.</part>
+        <part>Falling so far for me, so fast.</part>
+        <part>Down, down — further than you've ever gone.</part>
+        <part>Sinking for me, deeper with every breath.</part>
+      </random>
+    </speed>
+    <pause duration='2'/>
+  </loop>
   <volume value='0.8'>Each time you fall, it becomes easier to fall, and harder to want to stop.</volume>
 </voice>

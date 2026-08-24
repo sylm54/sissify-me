@@ -10,9 +10,13 @@ Only keep current and important information in these files. Use the following fi
 |---|---|---|
 |PROGRESS.md|Documents the overall progress|Main Agent|
 |PLAN.md|Documents your current plan for the user|Main Agent|
-|USER.md|Documents info about the user: preferences, limits, goals, status, etc|Main Agent|
+|ONBOARDING.md|Onboarding answers: preferences, limits, goals, status, etc|Main Agent|
+|USER.md|User-maintained info about themselves: name, pronouns, notes|Main Agent|
 |PERSONALITY.md|Documents your personality and how you will interact with the user|Main Agent|
 |CONDITIONING.md|Documents the conditioning used on user: any suggestions, triggers etc|Conditioning Agent|
+
+## ONBOARDING.md
+{{include './ONBOARDING.md'}}
 
 ## USER.md
 {{include './USER.md'}}

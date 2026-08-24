@@ -1,17 +1,18 @@
 <!-- Induction variant: progressive relaxation from head to toes. -->
 <voice speaker='female' speed='0.9'>
   <tone preset='binaural_theta' frequency='180' volume='0.25'/>
-  Let your eyes close, and bring your attention to your forehead. Let it smooth out... soft and blank.
+  Let your eyes close, and bring your attention to your forehead.
+  Let it smooth out<pause duration='0.3'/> soft and blank. Sissy Drops.
   <pause duration='2'/>
-  Your jaw relaxes. Your neck goes loose and limp.
+  Your jaw relaxes. Your neck goes loose and limp. Sissy Drops.
   <pause duration='2'/>
-  Feel that warmth pour down through your shoulders... your arms... heavy and still.
+  Feel that warmth pour down through your shoulders<pause duration='0.3'/> your arms<pause duration='0.3'/> heavy and still. As Sissy Drops.
   <pause duration='2'/>
-  Your chest softens with every breath. Your tummy melts. Your legs turn to liquid all the way down to your toes.
+  Your chest softens with every breath. Your tummy melts. Sissy Drops. Your legs turn to liquid all the way down to your toes.
   <pause duration='2'/>
   <effect type='reverb' preset='medium'>
-    Your whole body is loose, limp, and lazy — and the deeper your body relaxes, the deeper your mind follows.
+    Your whole body is loose, limp, and lazy — and the deeper your body relaxes, the deeper your mind follows. Sissy Drops.
   </effect>
   <pause duration='1.5'/>
-  Sinking now... into soft, deep trance.
+  Sinking now<pause duration='0.3'/>  Sissy Drops into soft, deep trance.
 </voice>

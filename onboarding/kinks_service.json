@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_service_beta",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Serving in a service role to men or women:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Service roles (serving men or women)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "serving_men_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What does serving men mean to you?",
+    "choices": [
+      "Pleasing cock — that's what a sissy is for",
+      "Being the feminine one — charm first, then service",
+      "Domestic service to a male owner",
+      "Being available whenever he wants",
+      "The contrast — he's everything I'm not"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_service_beta",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "serving_women_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What does serving women mean to you?",
+    "choices": [
+      "Being her sissy maid",
+      "Being her pet or plaything",
+      "Being her girlfriend — intimate, but on her terms",
+      "Pleasing her orally on demand",
+      "Being her cuckold sissy",
+      "Helping her please her men"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_service_beta",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "service_lifestyle_appeal",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How appealing is the idea of living in a service role below men or women, as a lifestyle? (1 = not appealing, 10 = extremely appealing)",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_service_beta",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "rejection_by_women",
+    "answer": "choice",
+    "prompt": "Have you experienced consistent rejection by women, or do you carry a sense of being undesirable to them?",
+    "choices": [
+      "Not really",
+      "Occasionally",
+      "Frequently",
+      "It feels like a defining pattern",
+      "Prefer not to answer"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_service_beta",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "experience_with_women",
+    "answer": "choice",
+    "prompt": "Current sexual experience status with women:",
+    "choices": [
+      "Not applicable to my orientation",
+      "Virgin",
+      "Limited experience",
+      "Moderate experience",
+      "Substantial experience",
+      "Prefer not to answer"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_service_beta",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

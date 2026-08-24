@@ -1,0 +1,357 @@
+[
+  {
+    "kind": "text",
+    "text": "**Fantasies and goals**\n\nThis section is about the sissy you imagine becoming — the endgame, not where you are today.",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "fantasy_endgame",
+    "answer": "choice",
+    "prompt": "Which fantasy endgame pulls at you most?",
+    "choices": [
+      "A pretty, perfectly feminised sissy — smooth, dressed, and presentable at all times",
+      "A chastity-trained sissy — locked, denied, and dripping in service",
+      "A service sissy — kneeling, useful, and devoted to superiors",
+      "A brainwashed bimbo — blank, giggly, and endlessly eager",
+      "Full conversion — hormones and body changes toward living as female",
+      "An occasional erotic escape — normal life with a secret sissy release valve",
+      "A custom blend of these"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "fantasy_endgame_custom",
+    "answer": "open",
+    "optional": true,
+    "prompt": "You picked \"A custom blend of these\" — please describe your custom blend in your own words.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "fantasy_endgame",
+          "equals": "A custom blend of these"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "sissy_attributes",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What attributes should a well-trained sissy have?",
+    "choices": [
+      "Smooth, hairless skin",
+      "A slim or feminine figure",
+      "A pretty face and skilled makeup",
+      "A trained, eager mouth",
+      "A trained, accommodating pussy",
+      "A limp, useless clitty",
+      "A soft voice and feminine mannerisms",
+      "A wardrobe of pretty clothes",
+      "Instant obedience — dropping into compliance at a word",
+      "Humility — knowing her place",
+      "A sissy name and identity she answers to"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "fantasized_about",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What have you actually fantasised about having or experiencing?",
+    "choices": [
+      "Being dressed head to toe in feminine clothes",
+      "Being locked and denied for long periods",
+      "Serving a man sexually",
+      "Serving a woman sexually",
+      "Being feminised permanently — body and life",
+      "Being hypnotised and conditioned",
+      "Being humiliated and degraded",
+      "Being exposed or shown off",
+      "Being shared or pimped out",
+      "Losing my male status completely"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "denial_fantasy_depth",
+    "answer": "choice",
+    "prompt": "How deep does the denial fantasy go?",
+    "choices": [
+      "Teasing only — denial that always ends in release",
+      "Long lock-ups with rare, earned releases",
+      "Permanent denial — pleasure only through serving",
+      "Not sure yet"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "fantasized_about",
+          "includes": "Being locked and denied for long periods"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "hypno_fantasy_depth",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What should hypno conditioning achieve in your fantasy?",
+    "choices": [
+      "Bimbofication — blank, bubbly, and airheaded",
+      "Obedience triggers — commands that drop me instantly",
+      "Rewired desires — craving what a sissy should crave",
+      "Identity rewrite — the sissy becoming who I really am"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "fantasized_about",
+          "includes": "Being hypnotised and conditioned"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "treatment_by_superiors",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "In your fantasies, how should sissies be treated by the men and women above them?",
+    "choices": [
+      "As adorable pets to be pampered and teased",
+      "As useful maids and servants",
+      "As pretty things to be charmed and seduced",
+      "As submissive playthings to be used",
+      "As obedient holes to be filled on demand",
+      "As pathetic betas to be mocked and put in their place",
+      "As girlfriends to share clothes and gossip with",
+      "As slaves to be owned and bossed around",
+      "Superiors shouldn't be involved at all"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "sissy_behavior",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "How should a sissy act and behave?",
+    "choices": [
+      "Always feminine — posture, gestures, walk, and voice",
+      "Always deferential — never talking back, never demanding",
+      "Eager to please — offering service before being asked",
+      "Modest and blushing — shy about her body and needs",
+      "Dressed to invite attention — pretty and available",
+      "Protocol-perfect — following rituals and rules precisely",
+      "Clitty-free — her pleasure comes only from serving"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "sissy_masturbation_belief",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "How should a well-trained sissy masturbate?",
+    "choices": [
+      "She shouldn't — her clitty stays locked and untouched",
+      "By rubbing her clitty like a girl — two fingers, slow circles, never stroking",
+      "Anal only — her pussy is her source of pleasure",
+      "By humping pillows or objects like a desperate pet",
+      "By vibrating her clitty — but only with a toy, never her hand",
+      "By slapping her balls — a sissy's pleasure is humiliation",
+      "Only with permission, and exactly as instructed",
+      "Ruined orgasms only — never full satisfaction",
+      "However she likes — her private habits aren't policed"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "sissy_fantasise_about",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What should sissies fantasise about?",
+    "choices": [
+      "Serving and worshipping cock",
+      "Being feminised further — clothes, makeup, body",
+      "Being locked, denied, and desperate",
+      "Pleasing a dominant man",
+      "Serving and amusing a dominant woman",
+      "Being a pretty bimbo — blank, giggly, and eager",
+      "Being taken like a girl",
+      "Being humiliated for her inadequacy",
+      "Losing her male status for good",
+      "Being a good girl who makes her owner proud"
+    ],
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "reaction_to_cock",
+    "answer": "choice",
+    "prompt": "What should a sissy's reaction to seeing a cock be?",
+    "choices": [
+      "Instant arousal and the urge to drop to her knees",
+      "A wet mouth — she imagines how it would feel on her tongue",
+      "A tingle in her clitty she can't ignore",
+      "Blushing nerves that melt into curiosity",
+      "Indifference — it's just anatomy to her",
+      "Discomfort — cocks aren't for her"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "reaction_to_pussy",
+    "answer": "choice",
+    "prompt": "And her reaction to seeing a pussy?",
+    "choices": [
+      "Knowing it's not for her — sissies don't fuck, they get fucked",
+      "Envy of real women and what she'll never have",
+      "Arousal, the way any girl would feel",
+      "A longing to serve and please it",
+      "Indifference"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "reaction_to_tits",
+    "answer": "choice",
+    "prompt": "And her reaction to seeing tits?",
+    "choices": [
+      "Envy — she wants soft, pretty breasts of her own",
+      "Arousal and the urge to touch",
+      "Dreaming of filling a pretty bra herself",
+      "Envy and arousal tangled together",
+      "Indifference"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "sissy_self_perception",
+    "answer": "choice",
+    "prompt": "How should a sissy perceive herself?",
+    "choices": [
+      "As a girl — a feminine person, full stop",
+      "As a third thing — neither man nor woman, but a sissy",
+      "As an inferior male — a failed man who found her true level",
+      "As property — a toy that belongs to someone",
+      "As a work in progress — always becoming, never finished"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "sissy_duty_perception",
+    "answer": "choice",
+    "prompt": "From the inside, what should obedience feel like for a sissy — how should she perceive what she has to do?",
+    "choices": [
+      "Natural — a sissy simply doesn't consider refusing",
+      "A duty — commands are tasks to complete properly",
+      "A privilege — serving is a reward she earns",
+      "A compulsion — she can't help herself",
+      "A test — each command is a chance to prove herself"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "command_reaction",
+    "answer": "choice",
+    "prompt": "How should a sissy react to commands?",
+    "choices": [
+      "Instantly and happily",
+      "Obediently but bashfully — complying while blushing",
+      "With a ritual gesture — a curtsy or kneel before complying",
+      "By pleading for more",
+      "With hesitation that melts into obedience"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "fantasy_reality_gap",
+    "answer": "choice",
+    "prompt": "How far are you today from the sissy in these fantasies?",
+    "choices": [
+      "Very far — mostly fantasy for now",
+      "Somewhat far — some steps taken",
+      "Close — a few steps remain",
+      "I'm already living it"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "fantasy_goals",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Describe your ultimate fantasy or goal in your own words.",
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    }
+  }
+]

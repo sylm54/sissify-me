@@ -1,0 +1,161 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_beta_bnwo",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Beta identity, giving up maleness, BNWO themes, pussyfree lifestyle:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Beta and BNWO themes"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "bnwo_nature",
+    "answer": "choice",
+    "prompt": "Does the BNWO framing primarily appeal to you as:",
+    "choices": [
+      "A sexual fantasy with no real-world belief",
+      "A mix of fantasy and partially held belief",
+      "A genuine belief system or worldview",
+      "Other"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_beta_bnwo",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "bnwo_nature_other",
+    "answer": "open",
+    "optional": true,
+    "prompt": "You picked \"Other\" — please describe it in your own words: Does the BNWO framing primarily appeal to you as.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "all": [
+            {
+              "id": "kink_beta_bnwo",
+              "min": 7
+            },
+            {
+              "id": "bnwo_nature",
+              "equals": "Other"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "pussyfree_attitude",
+    "answer": "choice",
+    "prompt": "Attitude toward long-term or permanent pussyfree status:",
+    "choices": [
+      "Not interested",
+      "Fantasy only",
+      "Appealing as something temporary or controlled",
+      "Desired as an ongoing lifestyle"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_beta_bnwo",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "beta_role_value",
+    "answer": "choice",
+    "prompt": "How much value do you see in giving up male dominance or status and embracing a beta role?",
+    "choices": [
+      "No value — it's purely a sexual fantasy",
+      "Some erotic value, but not beyond that",
+      "Significant value — it feels authentic or relieving",
+      "It feels like a deeply meaningful change",
+      "I see both value and cost",
+      "Other"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_beta_bnwo",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "beta_role_value_other",
+    "answer": "open",
+    "optional": true,
+    "prompt": "You picked \"Other\" — please describe it in your own words: How much value do you see in giving up male dominance or status and embracing a beta role.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "beta_role_value",
+          "equals": "Other"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "beta_bnwo_notes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Is there anything about beta, BNWO, or related ideas that feels especially charged or important for you?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_beta_bnwo",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

@@ -1,15 +1,49 @@
-<!-- Deepening variant: descending staircase imagery. -->
+<!-- Deepening variant: descending staircase imagery. Randomized per playback so the
+     descent stays varied across listenings; uses the "Sissy Drops" trigger as the
+     drop cue at the top of the stairs and again at the bottom. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='160' volume='0.3'/>
   <effect type='reverb' preset='large_hall'>
-    In front of you is a beautiful staircase, leading down into the deepest, softest part of your mind.
+    <random>
+      <part>In front of you is a beautiful staircase, leading down into the deepest, softest part of your mind.</part>
+      <part>Before you, a staircase waits... each step carrying you down toward the softest, deepest part of your mind.</part>
+      <part>There is a staircase here, and it leads all the way down, deep into the quietest place inside you.</part>
+    </random>
     <pause duration='1'/>
-    With every step down, you sink twice as deep.
+    <random>
+      <part>When I say the words, you will begin to descend. Sissy Drops.</part>
+      <part>Ready to start walking down? Sissy Drops.</part>
+      <part>Take your first step for me now. Sissy Drops.</part>
+    </random>
     <pause duration='1'/>
-    <loop loops='5'>
-      <volume value='@ramp(1.0, 0.65)'>Deeper and deeper...</volume>
+    <loop loops='6'>
+      <volume value='@ramp(1.0, 0.65)'>
+        <random>
+          <part>One step down. Deeper and deeper...</part>
+          <part>Another step down. Sinking further...</part>
+          <part>Down you go. Softer and deeper...</part>
+          <part>Step by step. Further down...</part>
+        </random>
+      </volume>
       <pause duration='1.5'/>
+      <random>
+        <part>Twice as deep with every single step.</part>
+        <part>Each stair takes you down twice as far as the last.</part>
+      </random>
+      <pause duration='1'/>
     </loop>
-    And at the bottom, there is nothing but my voice, and the wonderful truth of what you are.
+    <random>
+      <part>And at the bottom, there is nothing but my voice, and the wonderful truth of what you are.</part>
+      <part>And at the very bottom, only my voice remains, and the sweet truth of what you are.</part>
+      <part>Until at last you reach the bottom, where nothing exists but my voice and what you truly are.</part>
+    </random>
+    <pause duration='0.8'/>
+    <speed value='1.05'>Sissy Drops.</speed>
+    <pause duration='0.6'/>
+    <random>
+      <part>Falling one more time... all the way down, deeper than ever before.</part>
+      <part>Dropping again, instantly... sinking past where the stairs ended.</part>
+      <part>Down once more... so fast, so deep, so good.</part>
+    </random>
   </effect>
 </voice>

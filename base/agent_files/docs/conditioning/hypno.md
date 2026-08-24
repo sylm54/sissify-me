@@ -42,7 +42,7 @@ hypnos/hypno/
 The `compositions/` folder holds the final session scripts — each one is a thin file that `<include>`s or references the structural and content files it combines, plus the pre-talk, post-hypnotic suggestions, and post-talk that are unique per session.
 
 ### Build subscripts with parallel subagents
-Do not write all subscripts yourself. Instead, organise the work into **3–5 parallel groups**, spawn one subagent per group, and have them run concurrently. Each subagent receives a clear, self-contained brief telling it exactly which files to produce, which folder to put them in, what patterns to use, and what content they should contain.
+If you want to write many different new triggers, suggestions, or induction/deepening/redeepening variants, you can spawn multiple subagents in parallel to build them. Each subagent should be given a brief that specifies what it should produce and where it should go. The subagents can then work concurrently to produce the required files, which can be collected and assembled into the final session composition.
 
 #### Recommended grouping
 | Group | What it produces | Target folder |
@@ -84,14 +84,14 @@ This phase is where you reinforce the user's triggers and implement new ones, he
 Use the **Random Suggestions** and **Ordering** pattern to create variety and prevent predictability in the triggers being reinforced or implemented. Keep each trigger block in its own reusable subscript so triggers can be shared across sessions and updated in one place.
 
 #### Suggestion
-This phase is where you provide direct or indirect suggestions to the user, guiding their thoughts, feelings, and behaviors in alignment with their sissy identity and desired outcomes. This can involve affirmations, visualizations, the triggers implemented, and other techniques to help the user internalize their new identity and embrace their sissy persona. If there are triggers implemented that can be used in the suggestion phase, they should be used here to reinforce the desired behaviors and responses. Use the **Random Suggestions** and **Ordering** pattern.
+This phase is where you provide direct or indirect suggestions to the user, guiding their thoughts, feelings, and behaviors in alignment with their sissy identity and desired outcomes. This can involve affirmations, visualizations, the triggers implemented, and other techniques to help the user internalize their new identity and embrace their sissy persona. If there are triggers implemented that can be used in the suggestion phase, they should be used here to reinforce the desired behaviors and responses. Use the **Random Suggestions** and **Ordering** pattern. This should be the longest phase of the main segment, and should be structured to include multiple suggestions that build on each other and reinforce the user's sissy identity and desired behaviors. Keep each suggestion block in its own reusable subscript so suggestions can be shared across sessions and updated in one place.
 
 ### Outro
 Outro is to bring the user out of trance and back to a normal state of awareness. It should be in a <outro> tag.
 It decides the headspace/mindset the user is left in after the session, and should be designed to reinforce the suggestions made during the session. Think about how you want the user to feel after the session, and what mindset you want them to carry forward into their daily life. The outro should also include a post-talk that reinforces the suggestions made during the session and encourages the user to continue embracing their sissy identity and desired behaviors.
 
 #### Post-hypnotic suggestion
-This is the part of the hypno session where you provide suggestions that will influence the user's thoughts, feelings, and behaviors directly after the session has ended. Directly describe how they will feel, what they will do, and how they will think after the session.
+This is the part of the hypno session where you provide suggestions that will influence the user's thoughts, feelings, and behaviors directly after the session has ended. Directly describe how they will feel, what they will do, and how they will think directly after the session.
 
 #### Emergence
 Slowly guide the user out of the hypnotic state, helping them to return to a normal state of awareness while maintaining the positive effects of the session. This can involve counting up, suggesting increased alertness, and reinforcing the user's sense of control and confidence. Interspace the emergence with post-hypnotic suggestions to reinforce the desired behaviors and mindset. Keep the emergence in its own reusable subscript.

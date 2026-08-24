@@ -1,21 +1,42 @@
 <!-- Induction variant: guided breathing into trance. -->
 <voice speaker='female' speed='0.9'>
   <tone preset='binaural_theta' frequency='200' volume='0.25'/>
-  <loop loops='4'>
-    <background volume='0.3'>Breathe in.</background>
-    <pause duration='3'/>
-    <background volume='0.3'>And let go.</background>
-    <pause duration='4'/>
-  </loop>
-  With every breath you take, you feel yourself becoming calmer... softer... heavier.
-  <pause duration='1'/>
-  Each exhale carries away a little more of your thoughts, a little more of your tension, leaving only my voice.
-  <pause duration='1'/>
-  <loop loops='3'>
-    <volume value='@ramp(1.0, 0.7)'>
-      Breathing deeper... drifting further... sinking softly into trance for me.
-    </volume>
-    <pause duration='2'/>
-  </loop>
-  Good girl. You're almost there.
+    <background volume='0.3'>
+        <loop loops='4'>
+            Breathe in.
+            <pause duration='2'/>
+            Sissy Drops
+            <pause duration='2'/>
+            And let go.
+            <pause duration='4'/>
+        </loop>
+    </background>
+    With every breath you take, <pause duration='1'/>
+    you feel yourself
+    <background volume='0.2'>
+        <loop loops='4'>
+            Sissy Drops<pause duration='0.3'/>
+        </loop>
+    </background>
+    becoming
+    calmer <pause duration='0.3'/>
+    softer <pause duration='0.3'/>
+    heavier
+    <pause duration='1'/>
+    Each exhale carries away a little more of your thoughts,<pause duration='0.3'/>
+    a little more of your tension<pause duration='0.4'/>
+    leaving only my voice.
+    <pause duration='1'/>
+    <loop loops='3'>
+        <volume value='@ramp(1.0, 0.7)'>
+        Breathing deeper<pause duration='0.3'/>
+        Sissy Drops<pause duration='0.3'/>
+        drifting further<pause duration='0.3'/>
+        Sissy Drops<pause duration='0.3'/>
+        sinking softly into trance for me.
+        </volume>
+        <pause duration='2'/>
+    </loop>
+    Sissy Drops<pause duration='0.3'/>
+    Good girl. You're almost there.
 </voice>

@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_orgasm_control",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Orgasm control or denial:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Orgasm control and denial"
+        }
+      ]
+    }
+  }
+]

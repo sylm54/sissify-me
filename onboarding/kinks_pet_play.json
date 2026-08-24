@@ -1,0 +1,48 @@
+[
+  {
+    "kind": "question",
+    "id": "kink_pet_play",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "Pet play or objectification:",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_areas",
+          "includes": "Pet play and objectification"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "pet_play_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What appeals most about pet play and objectification?",
+    "choices": [
+      "Being dehumanised — collars, ears, pet names",
+      "Being a toy or furniture — existing to be used",
+      "Puppy energy — eager, playful, desperate to please",
+      "Kitty energy — graceful, teasing, a bit bratty",
+      "The collar and leash — visibly owned"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_pet_play",
+          "min": 7
+        }
+      ]
+    }
+  }
+]

@@ -11,7 +11,7 @@ The three types form a complementary cycle, not a hierarchy:
 ## How to request a session
 When you spawn the Hypno Planner, tell it **what kind of session** you want, **what theme/goal** to cover, and **which specializations / triggers / data** to draw on. Reference the relevant specialization files (e.g. `special/brainwashing.md`, `special/chastity.md`).
 
-Because the subagent cannot see your conversation, make the request self-contained: name the conditioning type, the target theme, the specific triggers or specializations to use, the preferred difficulty/intensity, and any content to avoid based on the user's limits (from `USER.md`).
+Because the subagent cannot see your conversation, make the request self-contained: name the conditioning type, the target theme, the specific triggers or specializations to use, the preferred difficulty/intensity, and any content to avoid based on the user's limits (from `ONBOARDING.md`).
 
 ## Keep hypno general and timeless
 For **hypno** sessions, keep the content general and timeless. Do not anchor it to specific times of day, dates, or other narrow, situational facts (e.g. "when you wake up", "every evening at 8pm", "tonight", "this week"). Those details drift and become stale as the same session is reused across many days, so they will eventually contradict the user's actual routine and weaken the conditioning.

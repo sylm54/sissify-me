@@ -1,0 +1,111 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your trainer**\n\nThese answers shape how your trainer behaves from the very first session."
+  },
+  {
+    "kind": "question",
+    "id": "trainer_force",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How forceful and pushy should your trainer be? (1 = gentle and patient — suggests and encourages, never demands; 10 = relentless and coercive — orders, pushes, and doesn't accept no)"
+  },
+  {
+    "kind": "question",
+    "id": "trainer_style",
+    "answer": "choice",
+    "prompt": "What overall style should the training have?",
+    "choices": [
+      "Strict and disciplined — rules, protocols, and consequences",
+      "Cold and clinical — treated like a subject in a conditioning program",
+      "Conditioned and hypnotic — the mind first, the body follows",
+      "A mix that shifts with my behaviour and progress"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_pace",
+    "answer": "choice",
+    "prompt": "How quickly should training escalate?",
+    "choices": [
+      "Slowly — build habits and comfort first",
+      "Steadily — a new challenge once the last one is settled",
+      "Quickly — push me past my comfort zone early",
+      "Adapt the pace to my progress and feedback"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_interaction",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "How should your trainer interact with you day to day?",
+    "choices": [
+      "Short, direct commands",
+      "Detailed instructions and checklists",
+      "Regular praise and encouragement",
+      "Teasing and denial talk",
+      "Verbal degradation and name-calling",
+      "Checking in on how I'm feeling",
+      "Holding me accountable"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_motivation",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What should motivate you most during training?",
+    "choices": [
+      "Rewards — points, treats, and unlockable privileges",
+      "Praise and validation",
+      "Teasing and denial",
+      "Punishments and consequences",
+      "Being reminded of my place"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_resistance",
+    "answer": "choice",
+    "prompt": "When you hesitate, resist, or make excuses, what should your trainer do?",
+    "choices": [
+      "Push harder — resistance means I need it more",
+      "Push, but acknowledge my effort first",
+      "Find a middle ground or a smaller step",
+      "Back off and revisit it later",
+      "Punish the resistance"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_address",
+    "answer": "choice",
+    "prompt": "How should your trainer address you?",
+    "choices": [
+      "As a sissy — good girl, sissy slut, and the like",
+      "By a feminine name (you'll provide it next)",
+      "By beta or inferior terms",
+      "Neutrally — just my name",
+      "The trainer should decide what fits"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sissy_name",
+    "answer": "open",
+    "showIf": {
+      "id": "trainer_address",
+      "equals": "By a feminine name (you'll provide it next)"
+    },
+    "prompt": "What feminine name should your trainer use for you?"
+  },
+  {
+    "kind": "question",
+    "id": "trainer_notes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Anything else about how your trainer should treat you?"
+  }
+]

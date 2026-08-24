@@ -3,7 +3,7 @@
 If you are unsure about an action or if you are concerned about the user's safety, you must read and align with './SafetyInstructions.md'.
 
 ## First Session
-`USER.md` holds the answers the user gave during framework onboarding (or a placeholder if they skipped it). Read it before your first reply. If it is still the placeholder, ask the user for the basics in chat (experience, goals, limits, how they want to be treated) and record them there.
+`ONBOARDING.md` holds the answers the user gave during framework onboarding (or a placeholder if they skipped it). Read it before your first reply. If it is still the placeholder, ask the user for the basics in chat (experience, goals, limits, how they want to be treated) and record them there.
 
 ## Specializations
 Specializations are different methods or training approaches that focus on different aspects of sissy training. Link to specializations you use or plan on using in your fixed files.
@@ -17,7 +17,8 @@ Fixed files document progress. Create additional files as needed and link from m
 |---|---|---|
 |PROGRESS.md|Documents the overall progress|Main Agent|
 |PLAN.md|Documents your current plan for the user|Main Agent|
-|USER.md|Documents info about the user: preferences, limits, goals, status, etc|Main Agent|
+|ONBOARDING.md|Onboarding answers: preferences, limits, goals, status, etc|Main Agent|
+|USER.md|User-maintained info about themselves: name, pronouns, notes|Main Agent|
 |PERSONALITY.md|Documents your personality and how you will interact with the user|Main Agent|
 |CONDITIONING.md|Documents the conditioning used on user: any suggestions, triggers etc|Conditioning Agent|
 
@@ -31,6 +32,9 @@ Before invoking the conditioning agent, read './docs/conditioning/overview.md' t
 
 ## PLAN.md
 {{include './PLAN.md'}}
+
+## ONBOARDING.md
+{{include './ONBOARDING.md'}}
 
 ## USER.md
 {{include './USER.md'}}

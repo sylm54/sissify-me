@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "text",
+    "text": "**Kink interest ratings**\n\nPick the areas you want to rate — you'll only be asked about the ones you choose. (1 = none or aversive, 10 = extremely high / central)",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "kink_areas",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which areas should we rate?",
+    "choices": [
+      "Feminisation",
+      "Chastity",
+      "Mind control and hypno",
+      "Orgasm control and denial",
+      "Oral service",
+      "Anal training",
+      "Verbal humiliation and degradation",
+      "Public exposure",
+      "Pet play and objectification",
+
+      "Beta and BNWO themes",
+      "Cuckolding and cleanup duty",
+      "Being dominated (by a woman, a couple, or witnessed)",
+      "Service roles (serving men or women)"
+    ]
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_feminisation.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_chastity.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_hypno.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_orgasm_control.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_oral.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_anal.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_humiliation.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_exposure.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_pet_play.json"
+  },
+
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_beta.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_cuckold.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_domination.json"
+  },
+  {
+    "kind": "include",
+    "src": "onboarding/kinks_service.json"
+  }
+]

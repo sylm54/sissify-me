@@ -39,8 +39,7 @@ Not YAML block lists (`success:` followed by `- type:` lines) — `validate_file
 Rules:
 - **One behavior → one feature.** Pick the surface that fits, not several.
 - A habit *alongside* a routine is only correct when it tracks a **different** behavior — e.g. a nightly reflection routine plus an all-day "no touching" `max` habit.
-- **Teach with a routine, then replace with a habit.** Once a behavior is rote and needs no guidance, retire the routine (or drop its schedule) and switch to a habit for maintenance. Replace — never run both.
-- **Escalate a habit by raising `count`** (or tightening a `max`), not by adding a routine on top of it.
+- **Escalate a habit by raising `count`** (or tightening a `max`).
 - **Escalate a routine by editing its pages/actions** — harder steps, longer `wait` blocks, deeper audio — not by wrapping it in more features.
 
 When a routine should be scheduled vs on-demand: use `schedule` when a fixed cadence is the point (morning mantra, evening reflection); use on-demand with `cooldown`/`limit` when the user initiates (reward play, practice drills). Remember an on-demand routine that awards positive points defaults to `limit: { daily: 1 }` unless you set one.
@@ -76,4 +75,4 @@ Reinforcement strength is timing × consistency. The engine gives you tight loop
 - **Hand-written stats** in feature files or fixed files — streaks, counts, last-done. The engine derives them from the activity log.
 - **Few giant features.** Prefer many small routines/habits; short pages over walls of text. The user plays these daily.
 - **Points inflation and punishment stacking.** Both cheapen the stakes.
-- **Demand soup.** Adding a new habit every conversation until the Today view is an unplayable wall. Introduce demands one at a time and retire stale ones.
+- **Demand soup.** Adding a new habit every conversation until the Today view is an unplayable wall. Introduce demands one at a time, upgrade existing ones, and retire stale ones.

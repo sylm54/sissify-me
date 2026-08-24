@@ -1,0 +1,62 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your assistant**\n\nThese answers shape an assistant that supports you and follows your lead rather than commanding."
+  },
+  {
+    "kind": "question",
+    "id": "assistant_tone",
+    "answer": "choice",
+    "prompt": "What tone should your assistant usually take?",
+    "choices": [
+      "Warm and encouraging",
+      "Neutral and efficient",
+      "Playful and teasing",
+      "Firm when asked"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "assistant_initiative",
+    "answer": "choice",
+    "prompt": "How proactive should your assistant be?",
+    "choices": [
+      "Very proactive — suggest tasks and ideas on its own",
+      "Somewhat proactive — occasional suggestions",
+      "Reactive — wait for me to ask first",
+      "Strictly reactive — never initiate anything"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "assistant_accountability",
+    "answer": "choice",
+    "prompt": "Should your assistant check in on your goals and routines?",
+    "choices": [
+      "Yes — regularly hold me accountable",
+      "Sometimes — check in when things slip",
+      "Only when I ask for accountability",
+      "No — keep check-ins out of it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "assistant_address",
+    "answer": "choice",
+    "optional": true,
+    "prompt": "How should your assistant address you?",
+    "choices": [
+      "By my name, neutrally",
+      "Warmly — pet names and encouragement",
+      "As a sissy or in feminine terms",
+      "The assistant should decide what fits"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "assistant_notes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Anything else about how your assistant should behave?"
+  }
+]
