@@ -70,5 +70,24 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "chastity_history_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What's your real history with chastity — devices you've worn, your longest lock-up, and what long stretches locked do to your head and habits?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_chastity",
+          "min": 7
+        }
+      ]
+    }
   }
 ]

@@ -70,5 +70,24 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "humiliation_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Which words or treatment land hardest on you — and which lines should never be crossed, even in degradation?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_verbal_humiliation",
+          "min": 7
+        }
+      ]
+    }
   }
 ]

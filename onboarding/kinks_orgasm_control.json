@@ -18,5 +18,77 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "orgasm_control_nature",
+    "answer": "choice",
+    "prompt": "Orgasm control or denial is for you:",
+    "choices": [
+      "Pure fantasy — the idea excites me, nothing more",
+      "Curious — some self-denial or edging, nothing formal",
+      "Practised — I edge, ruin, or deny myself on purpose",
+      "Controlled — someone else has decided my releases (or did)",
+      "Lifestyle — denial is my default state"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_orgasm_control",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "orgasm_control_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What hooks you most about orgasm control?",
+    "choices": [
+      "The desperation and ache of going without",
+      "Handing over the key — someone else owns my releases",
+      "Edging forever — riding the edge without release",
+      "Ruined orgasms — proof I don't deserve full pleasure",
+      "The discipline — denying myself like a good girl",
+      "Coming only from anal, like a proper sissy",
+      "Permanent denial — pleasure only through serving"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_orgasm_control",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "orgasm_control_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What should your trainer know about your history with denial — past lock-ups, edging habits or denial streaks, how they affected you, and what you're hoping for now?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_orgasm_control",
+          "min": 7
+        }
+      ]
+    }
   }
 ]

@@ -46,10 +46,18 @@
   },
   {
     "kind": "question",
-    "id": "accept_domination_detail",
-    "answer": "open",
-    "optional": true,
-    "prompt": "If your answer differs between men and women, describe how.",
+    "id": "domination_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What hooks you most about being dominated?",
+    "choices": [
+      "Surrendering the decisions — being told what to do",
+      "The strength above me — someone taking what they want",
+      "Being put in my place — corrected and reminded",
+      "Serving their pleasure before mine",
+      "The helplessness — no say in what happens",
+      "Being witnessed — seen submitting by others"
+    ],
     "showIf": {
       "all": [
         {
@@ -65,11 +73,10 @@
   },
   {
     "kind": "question",
-    "id": "giving_in_arousal",
-    "answer": "rating",
-    "min": 1,
-    "max": 10,
-    "prompt": "How aroused are you by the idea of giving in to domination — surrendering resistance and accepting your place? (1 = not at all, 10 = extremely aroused)",
+    "id": "accept_domination_detail",
+    "answer": "open",
+    "optional": true,
+    "prompt": "If your answer differs between men and women, describe how.",
     "showIf": {
       "all": [
         {

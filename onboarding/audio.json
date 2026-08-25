@@ -112,6 +112,25 @@
   },
   {
     "kind": "question",
+    "id": "hypno_effects_history",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Which changes have you actually noticed in yourself from hypno or conditioning — in thoughts, moods, or behaviour — and how long did each of them last after the listening stopped?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "audio_experience",
+          "notEquals": "None yet"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
     "id": "spoken_instructions",
     "answer": "choice",
     "prompt": "Should your trainer give you spoken instructions to follow in real time?",

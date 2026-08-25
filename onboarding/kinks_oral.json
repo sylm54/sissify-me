@@ -68,5 +68,24 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "oral_kink_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Describe what oral service means in your fantasy life — a moment or scene that captures why it pulls you.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_oral_fixation",
+          "min": 7
+        }
+      ]
+    }
   }
 ]

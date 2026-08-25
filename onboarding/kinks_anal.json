@@ -68,5 +68,24 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "anal_kink_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Describe what anal training means to you — where you started, where you want your pussy to end up, and how the training makes you feel.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_anal_training",
+          "min": 7
+        }
+      ]
+    }
   }
 ]

@@ -42,5 +42,51 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "exposure_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What is the actual thrill of exposure for you?",
+    "choices": [
+      "The risk of being seen or found out",
+      "Being shown off — put on display for others",
+      "The proof it leaves — photos, posts, a record that exists",
+      "Small secrets in public — wearing things underneath",
+      "Being recognised for what I am",
+      "The shame of being seen and mocked"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_public_exposure",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "exposure_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Where is the line for you between thrilling exposure and going too far — and what in your history is already real versus fantasy?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_public_exposure",
+          "min": 7
+        }
+      ]
+    }
   }
 ]

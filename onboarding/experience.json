@@ -1275,6 +1275,44 @@
     }
   },
   {
+    "kind": "question",
+    "id": "frequency_past_schedule",
+    "answer": "open",
+    "optional": true,
+    "prompt": "In your own words: what did a typical week look like back in the earlier period — when and how often you dressed, played, trained, or listened, and how it all fit around your life at the time?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "frequency_evolution",
+    "answer": "open",
+    "optional": true,
+    "prompt": "How did you get from that schedule to today's? Describe the phases in between — escalations, pauses, purges, shifts in what you did most — and what drove each change.",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "experience_level",
+          "notEquals": "Curious beginner (mostly fantasy so far)"
+        }
+      ]
+    }
+  },
+  {
     "kind": "text",
     "text": "**Routines and daily structure**",
     "showIf": {

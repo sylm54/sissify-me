@@ -121,25 +121,16 @@
           "equals": "Deep"
         },
         {
-          "all": [
-            {
-              "all": [
-                {
-                  "id": "orientation_before",
-                  "equals": "Primarily heterosexual"
-                },
-                {
-                      "id": "orientation_change",
-                      "notEquals": "No change — still primarily heterosexual"
-                    }
-                  ]
-                },
-                {
-                  "id": "depth",
-              "id": "orientation_shift_cause",
-              "includes": "Other"
-            }
-          ]
+          "id": "orientation_before",
+          "equals": "Primarily heterosexual"
+        },
+        {
+          "id": "orientation_change",
+          "notEquals": "No change — still primarily heterosexual"
+        },
+        {
+          "id": "orientation_shift_cause",
+          "includes": "Other"
         }
       ]
     }
@@ -310,6 +301,24 @@
       "Multiple partners or group",
       "Solo or online only",
       "Flexible"
+    ],
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    }
+  },
+  {
+    "kind": "question",
+    "id": "experience_with_women",
+    "answer": "choice",
+    "prompt": "Current sexual experience status with women:",
+    "choices": [
+      "Not applicable to my orientation",
+      "Virgin",
+      "Limited experience",
+      "Moderate experience",
+      "Substantial experience",
+      "Prefer not to answer"
     ],
     "showIf": {
       "id": "depth",

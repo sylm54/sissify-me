@@ -34,7 +34,7 @@
       "all": [
         {
           "id": "depth",
-          "equals": "Deep"
+          "notEquals": "Light"
         },
         {
           "id": "kink_beta_bnwo",
@@ -72,6 +72,33 @@
   },
   {
     "kind": "question",
+    "id": "bnwo_hook",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What hooks you most about beta themes?",
+    "choices": [
+      "Giving up the pretence of being a real man",
+      "The hierarchy — knowing my place at the bottom",
+      "Pussyfree pride — accepting I don't deserve pussy",
+      "Serving and pleasing those above me",
+      "The permanence — no way back to maleness",
+      "The taboo of cheering on my own demotion"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_beta_bnwo",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
     "id": "pussyfree_attitude",
     "answer": "choice",
     "prompt": "Attitude toward long-term or permanent pussyfree status:",
@@ -90,51 +117,6 @@
         {
           "id": "kink_beta_bnwo",
           "min": 7
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "beta_role_value",
-    "answer": "choice",
-    "prompt": "How much value do you see in giving up male dominance or status and embracing a beta role?",
-    "choices": [
-      "No value — it's purely a sexual fantasy",
-      "Some erotic value, but not beyond that",
-      "Significant value — it feels authentic or relieving",
-      "It feels like a deeply meaningful change",
-      "I see both value and cost",
-      "Other"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "notEquals": "Light"
-        },
-        {
-          "id": "kink_beta_bnwo",
-          "min": 7
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "beta_role_value_other",
-    "answer": "open",
-    "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How much value do you see in giving up male dominance or status and embracing a beta role.",
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "equals": "Deep"
-        },
-        {
-          "id": "beta_role_value",
-          "equals": "Other"
         }
       ]
     }

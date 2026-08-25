@@ -62,30 +62,6 @@
       "all": [
         {
           "id": "depth",
-          "notEquals": "Light"
-        },
-        {
-          "id": "kink_feminisation",
-          "min": 7
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "fem_extent",
-    "answer": "choice",
-    "prompt": "How far do you want your feminisation to go?",
-    "choices": [
-      "Occasional dress-up in private",
-      "A regular practice — grooming, clothes, mannerisms",
-      "Long-term changes — hair removal, figure, voice",
-      "As far as possible — toward a point of no return"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
           "equals": "Deep"
         },
         {

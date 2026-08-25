@@ -25,6 +25,13 @@
     },
     {
       "kind": "question",
+      "id": "journey_status",
+      "answer": "open",
+      "optional": true,
+      "prompt": "In a sentence or two, in your own words: where does this journey stand for you right now?"
+    },
+    {
+      "kind": "question",
       "id": "depth",
       "answer": "choice",
       "prompt": "How deep should this onboarding go? Deeper means more thorough and introspective questions.",

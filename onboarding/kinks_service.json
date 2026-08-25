@@ -21,6 +21,30 @@
   },
   {
     "kind": "question",
+    "id": "service_nature",
+    "answer": "choice",
+    "prompt": "Service is for you:",
+    "choices": [
+      "Pure fantasy — serving is a hot idea, nothing more",
+      "Small real touches — chores, tasks, online service",
+      "Practised — I serve or have served in real dynamics",
+      "A lifestyle goal — living in service is the dream"
+    ],
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "notEquals": "Light"
+        },
+        {
+          "id": "kink_service_beta",
+          "min": 7
+        }
+      ]
+    }
+  },
+  {
+    "kind": "question",
     "id": "serving_men_hook",
     "answer": "choice",
     "multiple": true,
@@ -64,77 +88,6 @@
         {
           "id": "depth",
           "equals": "Deep"
-        },
-        {
-          "id": "kink_service_beta",
-          "min": 7
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "service_lifestyle_appeal",
-    "answer": "rating",
-    "min": 1,
-    "max": 10,
-    "prompt": "How appealing is the idea of living in a service role below men or women, as a lifestyle? (1 = not appealing, 10 = extremely appealing)",
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "equals": "Deep"
-        },
-        {
-          "id": "kink_service_beta",
-          "min": 7
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "rejection_by_women",
-    "answer": "choice",
-    "prompt": "Have you experienced consistent rejection by women, or do you carry a sense of being undesirable to them?",
-    "choices": [
-      "Not really",
-      "Occasionally",
-      "Frequently",
-      "It feels like a defining pattern",
-      "Prefer not to answer"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "notEquals": "Light"
-        },
-        {
-          "id": "kink_service_beta",
-          "min": 7
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "experience_with_women",
-    "answer": "choice",
-    "prompt": "Current sexual experience status with women:",
-    "choices": [
-      "Not applicable to my orientation",
-      "Virgin",
-      "Limited experience",
-      "Moderate experience",
-      "Substantial experience",
-      "Prefer not to answer"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "notEquals": "Light"
         },
         {
           "id": "kink_service_beta",

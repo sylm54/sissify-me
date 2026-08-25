@@ -68,5 +68,24 @@
         }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "hypno_desire_open",
+    "answer": "open",
+    "optional": true,
+    "prompt": "If conditioning truly works on you — what do you most want it to change or install, and where should it never go?",
+    "showIf": {
+      "all": [
+        {
+          "id": "depth",
+          "equals": "Deep"
+        },
+        {
+          "id": "kink_mind_control",
+          "min": 7
+        }
+      ]
+    }
   }
 ]
