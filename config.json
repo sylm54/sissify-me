@@ -8,6 +8,7 @@
       "default": "trainer",
       "choices": [
         { "id": "assistant",  "label": "Assistant",  "description": "Will act as your assistant helping you on your sissy journey. It wont decide or plan independently, rather help you and follow your instructions.", "part": "role_assistant" },
+        { "id": "molder", "label": "Molder", "description": "Plans the journey with you — you decide, it advises. Uses conditioning to shape and deepen what you want, until your own cravings keep you moving.", "part": "role_molder" },
         { "id": "trainer", "label": "Trainer", "description": "Will train into a sissy. Will plan and make decisions on its own.", "part": "role_trainer" },
         { "id": "roleplay", "label": "Roleplay",   "description": "Will choose/create a character and play the role of a dominant.", "part": "role_roleplay" }
       ]

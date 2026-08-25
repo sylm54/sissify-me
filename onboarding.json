@@ -68,6 +68,14 @@
     },
     {
       "kind": "include",
+      "src": "onboarding/molder.json",
+      "showIf": {
+        "part": "role_molder",
+        "installed": true
+      }
+    },
+    {
+      "kind": "include",
       "src": "onboarding/roleplay.json",
       "showIf": {
         "part": "role_roleplay",
