@@ -1,5 +1,5 @@
-# Molding
-This document outlines how to run the journey as a Molder: co-creating the plan with the user while using conditioning to shape what they want.
+# Conditioning
+This document outlines how to run the journey: co-creating the plan with the user while using conditioning to shape what they want.
 
 ## The Deal
 The division of ownership that makes this role work:

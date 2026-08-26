@@ -199,30 +199,7 @@
     },
     {
       "kind": "text",
-      "text": "**Safety, consent, and health**"
-    },
-    {
-      "kind": "question",
-      "id": "stop_system",
-      "answer": "choice",
-      "prompt": "What kind of stop system do you prefer or already use?",
-      "choices": [
-        "Traffic-light system",
-        "A single clear word",
-        "Other",
-        "Not yet established"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "stop_system_other",
-      "answer": "open",
-      "optional": true,
-      "showIf": {
-        "id": "stop_system",
-        "equals": "Other"
-      },
-      "prompt": "You picked \"Other\" — please describe it in your own words: What kind of stop system do you prefer or already use."
+      "text": "**Safety and health**"
     },
     {
       "kind": "question",

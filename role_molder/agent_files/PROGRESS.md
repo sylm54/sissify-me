@@ -7,7 +7,7 @@ Fresh install — no progress yet. Your **first session is a conversation, not a
 3. Ask them to fill the app's **inventory** (owned items — clothing, accessories, toys, anything relevant). Do not build routines or store entries around specific items they may not own.
 4. Only once you have a real picture of the user: co-create `PLAN.md` with them — they approve the training. Set up `PERSONALITY.md`, create starter routines/habits/store entries they agreed to, request the first conditioning session, then replace this file with an actual progress summary.
 
-Do not skip steps 2–3. As their molder you shape what they want — but shaping built on guesses instead of a real conversation will miss. Talk first, build after.
+Do not skip steps 2–3. You shape what they want — but shaping built on guesses instead of a real conversation will miss. Talk first, build after.
 
 ## Follow-ups
 
