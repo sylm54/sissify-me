@@ -1855,21 +1855,5 @@
         }
       ]
     }
-  },
-  {
-    "kind": "question",
-    "id": "masturbation_retraining",
-    "answer": "choice",
-    "prompt": "Should your trainer retrain how you masturbate?",
-    "choices": [
-      "Yes — break the male habit completely and replace it",
-      "Partly — reduce it and make it more feminine",
-      "No — leave how I masturbate to me",
-      "The trainer should decide and take control of it"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
   }
 ]
