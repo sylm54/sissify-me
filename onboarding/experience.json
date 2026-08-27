@@ -407,54 +407,6 @@
   },
   {
     "kind": "question",
-    "id": "milestone_trance_effects",
-    "answer": "choice",
-    "prompt": "Noticeable trance or conditioning effects from hypno:",
-    "choices": [
-      "Already experienced",
-      "Desired and pursuing",
-      "Fantasy only",
-      "Not interested"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "notEquals": "Light"
-        },
-        {
-          "id": "milestone_categories",
-          "includes": "Hypno and conditioning"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "milestone_hypno_behavior_changes",
-    "answer": "choice",
-    "prompt": "Long-term behavioural changes you attribute to hypno:",
-    "choices": [
-      "Already experienced",
-      "Desired and pursuing",
-      "Fantasy only",
-      "Not interested"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "notEquals": "Light"
-        },
-        {
-          "id": "milestone_categories",
-          "includes": "Hypno and conditioning"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
     "id": "milestone_sustained_dynamic",
     "answer": "choice",
     "prompt": "A sustained submissive relationship dynamic:",
@@ -695,30 +647,6 @@
   },
   {
     "kind": "question",
-    "id": "milestone_recognition_risk",
-    "answer": "choice",
-    "prompt": "Real-life risk of being seen or recognised:",
-    "choices": [
-      "Already experienced",
-      "Desired and pursuing",
-      "Fantasy only",
-      "Not interested"
-    ],
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "notEquals": "Light"
-        },
-        {
-          "id": "milestone_categories",
-          "includes": "Exposure"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
     "id": "milestone_body_changes",
     "answer": "choice",
     "prompt": "Permanent or semi-permanent body changes (e.g., hair removal):",
@@ -934,33 +862,8 @@
     }
   },
   {
-    "kind": "question",
-    "id": "strongest_pulls",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "Which categories currently pull you most strongly toward further progression?",
-    "choices": [
-      "Oral service",
-      "Anal training",
-      "Crossdressing and feminisation",
-      "Chastity and denial",
-      "Hypno and conditioning",
-      "Humiliation and degradation",
-      "Power exchange and protocols",
-      "Public or semi-public exposure",
-      "Body changes (hair removal, breast growth, etc.)",
-      "Cuckolding and cleanup duty",
-      "Serving couples or women",
-      "Pussyfree / beta lifestyle"
-    ],
-    "showIf": {
-      "id": "depth",
-      "equals": "Deep"
-    }
-  },
-  {
     "kind": "text",
-    "text": "**Routines and frequencies, then and now**\n\nFor each activity, pick the frequency that fits for the past (first 1–2 years of interest) and the present: never, rarely, occasionally (monthly or less), regularly (roughly weekly), frequently (several times a week), or daily or near-daily.",
+    "text": "**Frequencies, then and now**\n\nFor each activity, pick the frequency that fits for the past (first 1–2 years of interest) and the present: never, rarely, occasionally (monthly or less), regularly (roughly weekly), frequently (several times a week), or daily or near-daily.",
     "showIf": {
       "id": "depth",
       "notEquals": "Light"
@@ -1314,7 +1217,7 @@
   },
   {
     "kind": "text",
-    "text": "**Routines and daily structure**",
+    "text": "**Current routines and rituals**",
     "showIf": {
       "id": "depth",
       "notEquals": "Light"
@@ -1386,45 +1289,6 @@
           ]
         }
       ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "routine_goals",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "What kind of routines should your trainer build or maintain for you?",
-    "choices": [
-      "Morning preparation — getting pretty before the day starts",
-      "Evening wind-down — reflection, affirmations, bedtime rituals",
-      "Training sessions — anal, oral, voice, posture, makeup",
-      "Affirmation and conditioning slots",
-      "Grooming rules — smooth skin, nails, hair care",
-      "Fitness or diet rules for a feminine figure",
-      "Chores and service practice",
-      "Journaling and progress reports",
-      "Surprise tasks — unpredictability keeps me eager"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "routine_discipline",
-    "answer": "choice",
-    "prompt": "If you skip or miss a routine, what should happen?",
-    "choices": [
-      "A consequence — punishment or lost privileges",
-      "Make-up duty — it must be caught up on",
-      "A check-in to find out why",
-      "Nothing — slipping occasionally is human",
-      "The trainer should decide"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
     }
   },
   {

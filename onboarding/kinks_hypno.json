@@ -5,7 +5,7 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "prompt": "Mind control or hypno conditioning:",
+    "prompt": "Mind control or hypno conditioning: (1 = none or aversive, 10 = extremely high / central)",
     "showIf": {
       "all": [
         {

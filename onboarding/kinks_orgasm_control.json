@@ -5,7 +5,7 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "prompt": "Orgasm control or denial:",
+    "prompt": "Orgasm control or denial: (1 = none or aversive, 10 = extremely high / central)",
     "showIf": {
       "all": [
         {
@@ -77,7 +77,7 @@
     "id": "orgasm_control_open",
     "answer": "open",
     "optional": true,
-    "prompt": "What should your trainer know about your history with denial — past lock-ups, edging habits or denial streaks, how they affected you, and what you're hoping for now?",
+    "prompt": "What should your agent know about your history with denial — your edging habits and denial streaks, how they affected you, and what you're hoping for now?",
     "showIf": {
       "all": [
         {

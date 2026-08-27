@@ -26,7 +26,7 @@
     "id": "orientation_before_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How would you describe your sexual orientation before significant sissy development took hold.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -59,7 +59,7 @@
     "id": "orientation_change_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How has your sexual orientation changed since significant sissy development took hold.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -113,7 +113,7 @@
     "id": "orientation_shift_cause_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What do you attribute that shift toward same-sex interest to.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -193,7 +193,7 @@
     "id": "sissy_role_belief_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What role do you believe sissies are naturally meant to occupy.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -230,7 +230,7 @@
     "id": "sissy_role_desire_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What role do you personally desire to occupy, separate from what you believe sissies \"should\" be.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -275,7 +275,7 @@
     "id": "attraction_targets_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What currently draws your sexual attraction.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {

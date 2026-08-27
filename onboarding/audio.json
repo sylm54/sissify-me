@@ -48,7 +48,7 @@
     "prompt": "How should affirmations be delivered to you?",
     "choices": [
       "Written — copying them out by hand",
-      "Typed — sent to my trainer as reports",
+      "Typed — sent to my agent as reports",
       "Spoken aloud, repeating after instruction",
       "Whispered in audio, right in my ear",
       "Layered into hypno loops on repeat",
@@ -69,7 +69,7 @@
       "First thing in the morning",
       "Last thing before sleep",
       "Before or during sessions",
-      "At random moments, on the trainer's order",
+      "At random moments, on the agent's order",
       "As background loops whenever possible"
     ],
     "showIf": {
@@ -100,7 +100,7 @@
     "prompt": "How do you respond to trance and conditioning audio?",
     "choices": [
       "I drop deep easily",
-      "Medium trance, i drop but not too deep",
+      "Medium trance — I drop, but not deeply",
       "Light trance, usually",
       "Rarely feel much",
       "Unsure — haven't tried enough"
@@ -133,7 +133,7 @@
     "kind": "question",
     "id": "spoken_instructions",
     "answer": "choice",
-    "prompt": "Should your trainer give you spoken instructions to follow in real time?",
+    "prompt": "Should your agent give you spoken instructions to follow in real time?",
     "choices": [
       "Yes — talk me through everything, step by step",
       "Yes — give the orders and check that I obey",

@@ -79,6 +79,41 @@
     ]
   },
   {
+    "kind": "text",
+    "text": "**Routines and structure**"
+  },
+  {
+    "kind": "question",
+    "id": "routine_goals",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What kind of routines should your trainer build or maintain for you?",
+    "choices": [
+      "Morning preparation — getting pretty before the day starts",
+      "Evening wind-down — reflection, affirmations, bedtime rituals",
+      "Training sessions — anal, oral, voice, posture, makeup",
+      "Affirmation and conditioning slots",
+      "Grooming rules — smooth skin, nails, hair care",
+      "Fitness or diet rules for a feminine figure",
+      "Chores and service practice",
+      "Journaling and progress reports",
+      "Surprise tasks — unpredictability keeps me eager"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "routine_discipline",
+    "answer": "choice",
+    "prompt": "If you skip or miss a routine, what should happen?",
+    "choices": [
+      "A consequence — punishment or lost privileges",
+      "Make-up duty — it must be caught up on",
+      "A check-in to find out why",
+      "Nothing — slipping occasionally is human",
+      "The trainer should decide"
+    ]
+  },
+  {
     "kind": "question",
     "id": "trainer_address",
     "answer": "choice",

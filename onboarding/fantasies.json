@@ -32,7 +32,7 @@
       "all": [
         {
           "id": "depth",
-          "equals": "Deep"
+          "notEquals": "Light"
         },
         {
           "id": "fantasy_endgame",
@@ -321,22 +321,6 @@
       "With a ritual gesture — a curtsy or kneel before complying",
       "By pleading for more",
       "With hesitation that melts into obedience"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "fantasy_reality_gap",
-    "answer": "choice",
-    "prompt": "How far are you today from the sissy in these fantasies?",
-    "choices": [
-      "Very far — mostly fantasy for now",
-      "Somewhat far — some steps taken",
-      "Close — a few steps remain",
-      "I'm already living it"
     ],
     "showIf": {
       "id": "depth",

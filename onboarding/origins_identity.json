@@ -46,7 +46,7 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "prompt": "How intense were those early urges when they first appeared?",
+    "prompt": "How intense were those early urges when they first appeared? (1 = faint and fleeting, 10 = overwhelming and consuming)",
     "showIf": {
       "id": "depth",
       "notEquals": "Light"
@@ -58,7 +58,7 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "prompt": "How intense was the shame or internal rejection that accompanied them?",
+    "prompt": "How intense was the shame or internal rejection that accompanied them? (1 = none, 10 = crushing)",
     "showIf": {
       "id": "depth",
       "notEquals": "Light"
@@ -87,7 +87,7 @@
     "id": "urge_sources_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What were the main sources of those earliest urges.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -133,7 +133,7 @@
     "id": "media_shaping_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: Which kinds of media shaped your earliest fantasies most.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -180,7 +180,7 @@
     "id": "cause_beliefs_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What do you believe causes someone to become a sissy.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -217,7 +217,7 @@
     "id": "urge_shame_evolution_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How has the balance between urge strength and shame evolved over time.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -255,7 +255,7 @@
     "id": "early_signs_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: Looking back, were there early signs you now recognise as precursors to this identity.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -306,44 +306,6 @@
     "showIf": {
       "id": "depth",
       "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "self_view",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "How do you currently think of the sissy aspect of yourself?",
-    "choices": [
-      "Purely a sexual kink or play role",
-      "A significant but still secondary part of who you are",
-      "A core aspect of your identity",
-      "The primary or dominant way you see yourself",
-      "It shifts depending on whether you are aroused",
-      "Other"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "self_view_other",
-    "answer": "open",
-    "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How do you currently think of the sissy aspect of yourself.",
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "equals": "Deep"
-        },
-        {
-          "id": "self_view",
-          "includes": "Other"
-        }
-      ]
     }
   },
   {
@@ -459,67 +421,11 @@
   },
   {
     "kind": "question",
-    "id": "sissy_definition",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "What is a sissy, in your view?",
-    "choices": [
-      "A man who embraces feminisation in a submissive context",
-      "A man who eroticises his own perceived inferiority",
-      "A man who willingly gives up masculine status or privilege",
-      "Someone in a transitional phase toward something else (e.g., trans or non-binary)",
-      "A specific role within BDSM or kink culture",
-      "It means different things to different people — no fixed definition",
-      "Other"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "sissy_definition_other",
-    "answer": "open",
-    "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What is a sissy, in your view.",
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "equals": "Deep"
-        },
-        {
-          "id": "sissy_definition",
-          "includes": "Other"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
     "id": "urge_strength_now",
     "answer": "rating",
     "min": 1,
     "max": 10,
     "prompt": "How strong are the sissy urges overall right now? (1 = weak or infrequent, 10 = constant and powerful)",
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "urge_origin",
-    "answer": "choice",
-    "prompt": "What do you believe is the primary origin of these urges?",
-    "choices": [
-      "Innate / always present",
-      "Conditioned mainly through media and repetition",
-      "Innate but clearly strengthened by media and repetition",
-      "A combination without a clear primary source",
-      "Unsure"
-    ],
     "showIf": {
       "id": "depth",
       "notEquals": "Light"
@@ -566,7 +472,7 @@
     "id": "inherent_or_choice_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: Do you see yourself as inherently a sissy, or as someone who chooses to be one.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -717,7 +623,7 @@
     "id": "purging_triggers_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What usually triggers those episodes.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -769,7 +675,7 @@
     "id": "purge_recovery_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: What usually pulls you back after a purge.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -837,30 +743,6 @@
   },
   {
     "kind": "question",
-    "id": "beta_accuracy",
-    "answer": "rating",
-    "min": 1,
-    "max": 10,
-    "prompt": "How much do you believe that framing is accurate about men in general or about yourself? (1 = not at all, 10 = completely)",
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "beta_arousal",
-    "answer": "rating",
-    "min": 1,
-    "max": 10,
-    "prompt": "How strongly does that framing arouse you, regardless of whether you believe it? (1 = not at all, 10 = extremely)",
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
     "id": "compare_men_general",
     "answer": "choice",
     "prompt": "How do you compare yourself against other men in general?",
@@ -882,7 +764,7 @@
     "id": "compare_men_general_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How do you compare yourself against other men in general.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -891,43 +773,6 @@
         },
         {
           "id": "compare_men_general",
-          "equals": "Other"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "question",
-    "id": "compare_men_sexual",
-    "answer": "choice",
-    "prompt": "In a sexual or hierarchical context, how do you compare yourself against other men?",
-    "choices": [
-      "I feel superior",
-      "I feel roughly equal",
-      "I feel somewhat inferior",
-      "I feel significantly inferior",
-      "It depends on the context",
-      "Other"
-    ],
-    "showIf": {
-      "id": "depth",
-      "notEquals": "Light"
-    }
-  },
-  {
-    "kind": "question",
-    "id": "compare_men_sexual_other",
-    "answer": "open",
-    "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: In a sexual or hierarchical context, how do you compare yourself against other men.",
-    "showIf": {
-      "all": [
-        {
-          "id": "depth",
-          "equals": "Deep"
-        },
-        {
-          "id": "compare_men_sexual",
           "equals": "Other"
         }
       ]

@@ -9,7 +9,8 @@
       "kind": "question",
       "id": "age",
       "answer": "open",
-      "prompt": "Current age:"
+      "prompt": "How old are you?",
+      "hint": "This framework is strictly for adults, 18+."
     },
     {
       "kind": "question",
@@ -32,9 +33,16 @@
     },
     {
       "kind": "question",
+      "id": "holding_back",
+      "answer": "open",
+      "optional": true,
+      "prompt": "In your own words: what holds you back right now — difficulties, fears, or obstacles that keep getting in the way?"
+    },
+    {
+      "kind": "question",
       "id": "depth",
       "answer": "choice",
-      "prompt": "How deep should this onboarding go? Deeper means more thorough and introspective questions.",
+      "prompt": "How deep should this onboarding go? Light keeps it to the essentials, Medium adds a solid profile, and Deep adds the thorough, introspective sections — origins, detailed fantasies, history, and self-reflection. You can always go deeper in conversation later.",
       "choices": [
         "Light — just the essentials",
         "Medium — a solid profile",
@@ -42,19 +50,100 @@
       ]
     },
     {
+      "kind": "text",
+      "text": "**Practical realities**"
+    },
+    {
       "kind": "question",
-      "id": "focus_areas",
+      "id": "privacy_situation",
+      "answer": "choice",
+      "prompt": "What is your living and privacy situation like for this kind of exploration?",
+      "choices": [
+        "Fully private",
+        "Shared but workable",
+        "Limited privacy",
+        "High risk of discovery",
+        "Other"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "privacy_situation_other",
+      "answer": "open",
+      "optional": true,
+      "showIf": {
+        "id": "privacy_situation",
+        "equals": "Other"
+      },
+      "prompt": "You picked \"Other\" — please describe it in your own words."
+    },
+    {
+      "kind": "question",
+      "id": "available_time",
+      "answer": "choice",
+      "prompt": "How much time can you realistically give to structured tasks or routines?",
+      "choices": [
+        "Under 30 minutes a day",
+        "About an hour a day",
+        "Several hours a day",
+        "Flexible — most of the day is mine",
+        "Other"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "available_time_other",
+      "answer": "open",
+      "optional": true,
+      "showIf": {
+        "id": "available_time",
+        "equals": "Other"
+      },
+      "prompt": "You picked \"Other\" — please describe it in your own words."
+    },
+    {
+      "kind": "text",
+      "text": "**Safety and health**"
+    },
+    {
+      "kind": "question",
+      "id": "health_factors",
       "answer": "choice",
       "multiple": true,
-      "prompt": "Which areas of your sissy journey should we explore? You'll only be asked about the areas you pick here.",
+      "prompt": "Are there any medical, physical, or psychological factors your agent should know about before planning anything?",
       "choices": [
-        "Fantasies and goals",
-        "Origins and identity",
-        "Limits and boundaries",
-        "Orientation and attraction",
-        "Experience and milestones",
-        "Kink interests",
-        "Audio and conditioning"
+        "None known",
+        "Anal or prostate considerations",
+        "Current medication or hormone status",
+        "Mental-health considerations (e.g., anxiety, depression, trauma history)",
+        "Other"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "health_factors_other",
+      "answer": "open",
+      "optional": true,
+      "showIf": {
+        "id": "health_factors",
+        "includes": "Other"
+      },
+      "prompt": "You picked \"Other\" — please describe it in your own words."
+    },
+    {
+      "kind": "question",
+      "id": "physical_changes",
+      "answer": "choice",
+      "multiple": true,
+      "prompt": "Are you currently experiencing or have you experienced any of the following? These questions are for safety and context — there is no judgement attached.",
+      "choices": [
+        "Erectile dysfunction or difficulty maintaining erection",
+        "Reduced sensitivity or numbness",
+        "Penile shrinkage",
+        "Breast growth or tenderness",
+        "Testicular changes or discomfort",
+        "None of the above",
+        "Prefer not to answer"
       ]
     },
     {
@@ -90,56 +179,20 @@
       }
     },
     {
-      "kind": "text",
-      "text": "**Practical realities**"
-    },
-    {
       "kind": "question",
-      "id": "privacy_situation",
+      "id": "focus_areas",
       "answer": "choice",
-      "prompt": "What is your living and privacy situation like for this kind of exploration?",
+      "multiple": true,
+      "prompt": "Which areas of your sissy journey should we explore? You'll only be asked about the areas you pick here.",
       "choices": [
-        "Fully private",
-        "Shared but workable",
-        "Limited privacy",
-        "High risk of discovery",
-        "Other"
+        "Fantasies and goals",
+        "Origins and identity",
+        "Limits and boundaries",
+        "Orientation and attraction",
+        "Experience and milestones",
+        "Kink interests",
+        "Audio and conditioning"
       ]
-    },
-    {
-      "kind": "question",
-      "id": "privacy_situation_other",
-      "answer": "open",
-      "optional": true,
-      "showIf": {
-        "id": "privacy_situation",
-        "equals": "Other"
-      },
-      "prompt": "You picked \"Other\" — please describe it in your own words: What is your living and privacy situation like for this kind of exploration."
-    },
-    {
-      "kind": "question",
-      "id": "available_time",
-      "answer": "choice",
-      "prompt": "How much time can you realistically give to structured tasks or routines?",
-      "choices": [
-        "Daily and fairly flexible",
-        "Several hours on most days",
-        "Mainly evenings and weekends",
-        "Quite constrained",
-        "Other"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "available_time_other",
-      "answer": "open",
-      "optional": true,
-      "showIf": {
-        "id": "available_time",
-        "equals": "Other"
-      },
-      "prompt": "You picked \"Other\" — please describe it in your own words: How much time can you realistically give to structured tasks or routines."
     },
     {
       "kind": "include",
@@ -196,52 +249,6 @@
         "id": "focus_areas",
         "includes": "Audio and conditioning"
       }
-    },
-    {
-      "kind": "text",
-      "text": "**Safety and health**"
-    },
-    {
-      "kind": "question",
-      "id": "health_factors",
-      "answer": "choice",
-      "multiple": true,
-      "prompt": "Are there any medical, physical, or psychological factors a Dom should know about before planning training?",
-      "choices": [
-        "None known",
-        "Anal or prostate considerations",
-        "Current medication or hormone status",
-        "Mental-health considerations (e.g., anxiety, depression, trauma history)",
-        "Other"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "health_factors_other",
-      "answer": "open",
-      "optional": true,
-      "showIf": {
-        "id": "health_factors",
-        "includes": "Other"
-      },
-      "prompt": "You picked \"Other\" — please describe it in your own words: Are there any medical, physical, or psychological factors a Dom should know about before planning training."
-    },
-    {
-      "kind": "question",
-      "id": "physical_changes",
-      "answer": "choice",
-      "multiple": true,
-      "prompt": "Are you currently experiencing or have you experienced any of the following? These questions are for safety and context — there is no judgement attached.",
-      "choices": [
-        "Erectile dysfunction or difficulty maintaining erection",
-        "Reduced sensitivity or numbness",
-        "Penile shrinkage",
-        "Breast growth or tenderness",
-        "Testicular changes or discomfort",
-        "Hormonal changes (natural or induced)",
-        "None of the above",
-        "Prefer not to answer"
-      ]
     },
     {
       "kind": "text",

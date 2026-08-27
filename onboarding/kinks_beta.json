@@ -5,7 +5,7 @@
     "answer": "rating",
     "min": 1,
     "max": 10,
-    "prompt": "Beta identity, giving up maleness, BNWO themes, pussyfree lifestyle:",
+    "prompt": "Beta identity, giving up maleness, BNWO themes, pussyfree lifestyle: (1 = none or aversive, 10 = extremely high / central)",
     "showIf": {
       "all": [
         {
@@ -48,7 +48,7 @@
     "id": "bnwo_nature_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: Does the BNWO framing primarily appeal to you as.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {

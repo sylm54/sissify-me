@@ -99,7 +99,7 @@
     "id": "limits_shifted_kinds_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: Which kinds of limits have shifted the most.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
@@ -125,7 +125,7 @@
     "kind": "question",
     "id": "limit_negotiation",
     "answer": "choice",
-    "prompt": "How would you prefer to negotiate new limits or activities with a Dom?",
+    "prompt": "How would you prefer new limits or activities to be negotiated with your agent?",
     "choices": [
       "Straightforward verbal discussion",
       "A written list or simple contract",
@@ -143,7 +143,7 @@
     "id": "limit_negotiation_other",
     "answer": "open",
     "optional": true,
-    "prompt": "You picked \"Other\" — please describe it in your own words: How would you prefer to negotiate new limits or activities with a Dom.",
+    "prompt": "You picked \"Other\" — please describe it in your own words.",
     "showIf": {
       "all": [
         {
