@@ -26,7 +26,6 @@ Track every installed trigger and suggestion in CONDITIONING.md. That file is th
 ## Working Desire
 How trained wants become leverage:
 - **Cravings as currency.** Schedule reinforcement around what they already crave; make the next step of the plan the thing their urges are pulling them toward anyway.
-- **Edging deepens.** Edging while listening to their triggers installs faster than passive listening. Prefer it when the user is on board.
 - **Stakes are secondary.** If they opted in: denial and release priced in points and routine completions, store entries as earned privileges, `roulette` for variable outcomes. Keep point amounts small and consistent — the conditioning is primary; the economy only shapes timing.
 - **Triggers in daily life.** Post-hypnotic suggestions carry your voice into their day. Keep phrasing general and timeless (see `docs/conditioning/overview.md`) so nothing goes stale.
 
