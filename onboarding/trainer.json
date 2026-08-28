@@ -13,18 +13,6 @@
   },
   {
     "kind": "question",
-    "id": "trainer_style",
-    "answer": "choice",
-    "prompt": "What overall style should the training have?",
-    "choices": [
-      "Strict and disciplined — rules, protocols, and consequences",
-      "Cold and clinical — treated like a subject in a conditioning program",
-      "Conditioned and hypnotic — the mind first, the body follows",
-      "A mix that shifts with my behaviour and progress"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "trainer_pace",
     "answer": "choice",
     "prompt": "How quickly should training escalate?",
