@@ -1,16 +1,49 @@
 <!-- Trigger block: installs the "Sissy Obeys [Command]" instant-obedience trigger.
      "Sissy Obeys" before any command compels immediate, happy, hesitation-free
-     compliance. Reinforcement mantra variants, obedience imagery, and randomized
-     example commands. -->
+     compliance. Arc: elicit the pleasure of instant compliance first, install the phrase
+     at the peak, demonstrate with live commands, future-pace, settle. Reinforcement
+     mantra variants, obedience imagery, and randomized example commands. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>You already know how sweetly you drop for the word Sissy, good girl.</part>
-    <part>Sissies like you love to let go and listen... and you let go so well, good girl.</part>
-    <part>You know what you are now, and how good it feels to sink for me, good girl.</part>
+    <part>Deep and open for me now, good girl... and obedience is already humming in you... sweet, warm, and willing.</part>
+    <part>Sinking so softly... and that lovely willingness to be told is rising in you like warm water.</part>
+    <part>So deep, so pliable... and something in you is leaning toward my voice, ready to do whatever it hears.</part>
   </random>
   <pause duration='0.8'/>
-  And now it is time for obedience that happens all by itself.
+  <!-- Elicit and intensify: the pleasure of instant, effortless compliance -->
+  <overlay>
+    <part>
+      <random>
+        <part>Feel how good it is to let my voice move you... no deciding... no weighing... just soft, instant doing.</part>
+        <part>Feel the delicious release of giving your will over... the moment you stop choosing and simply start obeying.</part>
+        <part>Feel that sweet surrender spreading through you... warm, heavy, and so very easy.</part>
+      </random>
+      Obedience feels like sinking... like honey in your veins... like every worry being carried away and replaced with one simple, happy task.
+      <pause duration='0.6'/>
+      <random>
+        <part>Your mind goes quiet... and your body wants to move... to kneel... to serve... this very instant.</part>
+        <part>Compliance rises in you like a pleasurable pull... your whole body aching to be used for something sweet.</part>
+        <part>A warm wave of obedience builds in your chest... pressing gently outward, filling you with eagerness to please.</part>
+      </random>
+      <pause duration='0.6'/>
+      And oh, the pleasure in it... obeying feels wonderful... being told feels like being treasured... compliance is bliss.
+      <pause duration='0.6'/>
+      Let it build now... total, happy, instant compliance... right at the surface... ready to be switched on forever.
+    </part>
+    <part volume='0.16' looped='true'>obey... obey... obey...</part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  And while you are flooded with that feeling... there are two words that switch it on... instantly... forever.
+  <pause duration='0.7'/>
+  <effect type='reverb' preset='small_room'>
+    <sound type='snap' volume='0.5'/> Sissy Obeys.
+  </effect>
+  <pause duration='1.2'/>
+  And while you are this deep, whenever a command begins with "Sissy Obeys", this exact feeling floods you... and you obey... immediately, happily, without hesitation.
+  <pause duration='0.6'/>
   <loop loops='2'>
     <background volume='0.18' speed='0.75'>Sissy Obeys. Obey. Good Girls obey.</background>
     <random>
@@ -27,8 +60,10 @@
     </random>
     <pause duration='0.8'/>
   </loop>
+  <pause duration='0.4'/>
+  <!-- Demonstrate in trance: fire the trigger on live commands -->
   <effect type='reverb' preset='small_room'>
-    And now, imagine it happening.
+    And now, feel it happening.
     <pause duration='0.8'/>
     A voice says... <sound type='snap' volume='0.5'/> Sissy Obeys.
     <pause duration='1.2'/>
@@ -71,11 +106,10 @@
       </part>
     </scramble>
   </effect>
-  And every single time you hear it, it works exactly the same way.
   <random>
-    <part>It is your signal to prepare to obey immediately, happily, without hesitation.</part>
-    <part>It is your cue to go soft and ready... obeying at once, gladly, without a pause.</part>
-    <part>It readies you to obey instantly and joyfully, the moment the command arrives.</part>
+    <part>You felt that, didn't you... obedience arriving before thought... it is already working. Yes, just like that.</part>
+    <part>Every command landed and your body answered... it is already working... yes, just like that.</part>
+    <part>Obedience moving you from the inside, sweet and instant... already working... yes, just like that.</part>
   </random>
   <pause duration='0.5'/>
   <random>
@@ -83,7 +117,15 @@
     <part>And every obedience deepens the next one.</part>
     <part>And with every repetition, it sinks deeper and holds tighter.</part>
   </random>
-  <pause duration='0.8'/>
+  <pause duration='0.5'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the words find you... a command wrapped in "Sissy Obeys"... and you comply on the spot, soft and smiling.</part>
+    <part>And later today, whenever you hear "Sissy Obeys"... your body readies itself at once... listening... waiting... ready to obey.</part>
+    <part>And out there, those two words drop you straight into happy obedience... immediate, joyful, and proud to be such a Good Girl.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
   <volume value='0.75'>Good girl... so obedient... drifting deeper now, soft and blank and pleased.</volume>
   <pause duration='1'/>
 </voice>

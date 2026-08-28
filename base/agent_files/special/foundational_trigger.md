@@ -12,7 +12,16 @@ Install/reinforcement blocks for these triggers ship with the framework — comp
 - `hypnos/hypno/content/trigger_blocks/trigger_sissy_drops.xml` — installs the "Sissy Drops" instant-trance trigger.
 - `hypnos/hypno/content/trigger_blocks/trigger_good_girl.xml` — installs the "Good Girl / Good Sissy" reward trigger.
 
-Each block randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree — a session installing all four triggers includes each block once.
+Each block already follows the installation sequence below — it elicits and intensifies the response first, introduces the trigger at the peak, then reinforces — and randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree — a session installing all four triggers includes each block once.
+
+## Installation sequence
+Install every trigger — prebuilt block or custom script — in the order **Suggestion → Trigger** (see `docs/conditioning/hypno.md`):
+1. **Elicit and intensify** the target state while the subject is in trance, with specific, sensory, present-tense language — before the trigger is ever named.
+2. **Install at the peak**: introduce the trigger phrase and link it explicitly ("…and while you are this deep, whenever you hear '—', this exact feeling floods back, instantly, stronger each time").
+3. **Reinforce immediately**: restate the pairing in varied words, fire the trigger in trance, and ratify ("you feel it working already, don't you").
+4. **Future-pace**: place the trigger where the subject will actually meet the cue again.
+
+Reinforce installed triggers periodically in later sessions — unused triggers fade. The "every time you hear…" sample lines in the sections below are **reinforcement-stage phrasings** for steps 2–3: never open a cold install with the trigger itself; lead with elicitation. Keep all phrasing present-tense and positive — the unconscious handles negation poorly, so say "you feel calm", not "you will not be anxious".
 
 ## Sissy
 Upon hearing "Sissy", the subject immediately shifts into deep self-referential autogynephilic mode. This trigger reinforces and strengthens their sissy identity, evoking intense feelings of femininity, arousal at their own feminization, and a profound sense of becoming a more authentic, submissive sissy.

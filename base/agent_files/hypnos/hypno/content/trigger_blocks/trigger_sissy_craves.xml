@@ -1,15 +1,49 @@
 <!-- Trigger block: installs the "Sissy Craves [thing]" desire trigger. Anything
      named after "Sissy Craves" becomes a warm, persistent craving that grows stronger
-     the more it is indulged. Mantra variants, imagery, randomized demo objects. -->
+     the more it is indulged. Arc: elicit the warm pull of want first, install the
+     phrase at the peak, demonstrate on live cravings, future-pace, settle. Mantra
+     variants, imagery, randomized demo objects. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='170' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>You know the warm pull of want, don't you, good girl.</part>
-    <part>Sissies like you feel desire so deeply... and you feel everything so deeply, good girl.</part>
-    <part>There is already a sweet ache of wanting in you, good girl.</part>
+    <part>Deep and open for me now, good girl... and there is already a sweet ache of wanting in you... warm and alive.</part>
+    <part>Sinking softly... and that lovely hunger is waking... the warm pull of desire, deeper than thought.</part>
+    <part>So deep, so open... and desire is stirring in you like a soft, glowing ember.</part>
   </random>
   <pause duration='0.8'/>
-  Now let us give that ache a key.
+  <!-- Elicit and intensify: warm, growing want -->
+  <overlay>
+    <part>
+      <random>
+        <part>Find the want in your body... a warm tug, low and deep... pulling you toward something soft and sweet.</part>
+        <part>Find it as warmth spreading through your belly... a slow, delicious ache with no name yet.</part>
+        <part>Find it as a glow... growing brighter the moment you look at it, hungry and pleased to be noticed.</part>
+      </random>
+      Wanting feels wonderful, doesn't it... that warm, urgent pull... hard to ignore... so sweet to stop resisting.
+      <pause duration='0.6'/>
+      <random>
+        <part>And desire feeds itself... the more you want, the warmer it glows... the warmer it glows, the more you want.</part>
+        <part>And every taste of wanting makes the hunger bigger... softer... more completely yours.</part>
+        <part>And the craving grows each time you indulge it... until wanting feels like breathing.</part>
+      </random>
+      <pause duration='0.6'/>
+      Let it swell now... warm and bright and urgent... a craving with room in it for anything I choose...
+      <pause duration='0.8'/>
+      aching to be given a name.
+    </part>
+    <part volume='0.16' looped='true'>want it... need it... crave it...</part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  And while that wanting glows in you... there are two words that light it... instantly... aimed at anything at all.
+  <pause duration='0.7'/>
+  <effect type='reverb' preset='small_room'>
+    <sound type='ding' volume='0.5'/> Sissy Craves.
+  </effect>
+  <pause duration='1.2'/>
+  And while you are this deep, whatever is named after "Sissy Craves", you crave... immediately... a strong, natural craving that grows the more it is indulged.
+  <pause duration='0.6'/>
   <loop loops='2'>
     <background volume='0.18' speed='0.75'>Sissy Craves. Crave. Good Girls crave.</background>
     <random>
@@ -26,19 +60,9 @@
     </random>
     <pause duration='0.8'/>
   </loop>
+  <pause duration='0.4'/>
+  <!-- Demonstrate in trance: fire the trigger on live cravings -->
   <effect type='reverb' preset='small_room'>
-    <overlay>
-      <part>
-        <random>
-          <part>Feel it begin now... a warm tug deep inside, pulling toward whatever is named.</part>
-          <part>A glowing ember of want, lighting up the moment the words are spoken... growing as you think about it.</part>
-          <part>A soft, urgent pull... the more you notice it, the more you want... the more you want, the stronger it pulls.</part>
-        </random>
-        And the more you indulge a craving, the stronger it grows... feeding itself... until wanting feels like breathing.
-        <pause duration='1'/>
-      </part>
-      <part volume='0.16' looped='true'>want it... need it... crave it...</part>
-    </overlay>
     <scramble>
       <part>
         <sound type='ding' volume='0.35'/> Sissy Craves... panties.
@@ -79,11 +103,25 @@
     </scramble>
   </effect>
   <random>
+    <part>You felt each one light up in you, didn't you... warm and immediate... it is already working. Yes, just like that.</part>
+    <part>Every want switching on the moment it is named... already working... yes, just like that.</part>
+    <part>Each craving warm and glowing and real... already working... yes, just like that.</part>
+  </random>
+  <pause duration='0.5'/>
+  <random>
     <part>And every craving you feed comes back stronger... softer... more a part of you.</part>
     <part>And each indulgence deepens the pull, until the line between want and need fades away.</part>
     <part>And the cravings weave themselves into your days... warm, persistent, and sweet.</part>
   </random>
-  <pause duration='0.8'/>
+  <pause duration='0.5'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the words find you... "sissy craves"... and whatever follows becomes a warm, persistent want, right there on the spot.</part>
+    <part>And later today, when you hear "Sissy Craves"... the craving switches on instantly... natural, urgent, and sweet to feel.</part>
+    <part>And out there, those two words light your wanting like a match... and the craving follows you through your day, whispering.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
   <volume value='0.75'>Good girl... feel them all glowing in you now... and drift deeper, wanting softly.</volume>
   <pause duration='1'/>
 </voice>

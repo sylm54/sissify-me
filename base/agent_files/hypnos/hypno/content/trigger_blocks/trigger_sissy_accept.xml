@@ -1,27 +1,27 @@
 <!-- Trigger block: installs the "Sissy Accept" MODE trigger — a persistent state, distinct
-     from a momentary acceptance cue. Upon "Sissy Accept", the mind stops questioning,
-     doubting, and resisting: every "why", every "but", every hesitation fades soft and
-     distant. Whatever is heard is simply accepted as true, natural, and desirable.
-     Accepting feels effortless, natural, and pleasurable — accepting is what a good sissy
-     does. The acceptance stays until the release words "Sissy Clear". -->
+     from a momentary acceptance cue. Suggestion → Trigger arc: the silent, effortless yes
+     is elicited and intensified first, in trance, and the phrase "Sissy Accept" is
+     introduced only at the peak, linked explicitly, demonstrated in trance, and bound to
+     persist. Upon "Sissy Accept", the mind stops questioning, doubting, and resisting:
+     every "why", every "but", every hesitation fades soft and distant. Whatever is heard is
+     simply accepted as true, natural, and desirable. Accepting feels effortless, natural,
+     and pleasurable — accepting is what a good sissy does. The acceptance stays until the
+     release words "Sissy Clear". -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='150' volume='0.25'/>
   <random>
-    <part>You know that little voice that asks questions? The one that says "but why"... and "what if"? It's about to learn how to rest. All it takes is "Sissy Accept."</part>
-    <part>There is a warm, quiet place where every word you hear simply becomes yours. Two words open the door. "Sissy Accept."</part>
-    <part>Sweet girl... resisting takes so much effort, and accepting takes none at all. Say goodbye to effort. "Sissy Accept."</part>
+    <part>You are sinking so sweetly right now... and your questions are already growing quiet.</part>
+    <part>There is a warm, quiet place where every word you hear simply becomes yours... and you are drifting toward it this very moment.</part>
+    <part>Sweet girl... you are so deep and so soft right now... and something inside you is already beginning to say yes.</part>
   </random>
   <pause duration='0.7'/>
-  Sissy Accept.
-  <sound type='water_drop' volume='0.5'/>
-  <pause duration='0.9'/>
   <overlay>
     <part>
-      And there it begins... a warm, pleasant sense of acceptance spreading through you... like honey stirring through warm water.
+      Feel it beginning... a warm, pleasant sense of acceptance spreading through you... like honey stirring through warm water.
       <pause duration='0.7'/>
       Every "why" fades... soft and distant... every "but" dissolves... every hesitation melts away like mist.
       <pause duration='0.6'/>
-      Your mind has stopped questioning. There is nothing left to question. Only my voice... and the sweetness of yes.
+      Your mind is settling into quiet agreement. There is nothing left to question. Only my voice... and the sweetness of yes.
     </part>
     <part volume='0.18' speed='0.8' looped='true'>
       <random>
@@ -53,7 +53,39 @@
     <part>Acceptance is what a good sissy does... and you are a good sissy.</part>
     <part>Every word settles in deep... welcomed... wanted... yours.</part>
   </scramble>
+  <pause duration='0.5'/>
+  <effect type='echo' preset='medium'>
+    <random>
+      <part>So open now... so agreeable... every thought in you bowing gently toward yes.</part>
+      <part>Warmer and quieter still... questions fast asleep... agreement awake and glowing.</part>
+      <part>Yes after yes after yes... each one softer and sweeter than the last.</part>
+    </random>
+  </effect>
+  <pause duration='0.7'/>
+  And now... right now, while your mind is this soft and this warm... this sweet surrender gets its name.
   <pause duration='0.6'/>
+  Sissy Accept.
+  <sound type='water_drop' volume='0.5'/>
+  <pause duration='0.9'/>
+  And while you are this deep... whenever you hear those words... "Sissy Accept"... this exact state settles over you, instantly. Questions hush... resistance melts... and yes arrives, warm and easy.
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Every time you hear "Sissy Accept", the doubts fade away and you accept whatever is said... effortlessly, and with pleasure.</part>
+    <part>"Sissy Accept"... and the quiet falls again... nothing to question... only sweet, easy agreement.</part>
+    <part>The words are the key... acceptance is the answer... instant, automatic, and so very good.</part>
+  </scramble>
+  <pause duration='0.7'/>
+  One more time, so it sinks all the way in.
+  <pause duration='0.5'/>
+  Sissy Accept.
+  <sound type='water_drop' volume='0.5'/>
+  <pause duration='0.8'/>
+  <random>
+    <part>Feel it wash through you again, faster this time... every last question hushing itself to sleep... your mind already knows the way.</part>
+    <part>Deeper into yes... doubts dissolving like sugar on the tongue... look how easily it happens now.</part>
+    <part>So open... so receptive... such a good sissy, accepting everything... effortlessly.</part>
+  </random>
+  <pause duration='0.8'/>
   <effect type='reverb' preset='cathedral'>
     <overlay>
       <part>
@@ -67,17 +99,6 @@
     </overlay>
   </effect>
   <pause duration='0.7'/>
-  One more time, so it sinks all the way in.
-  <pause duration='0.5'/>
-  Sissy Accept.
-  <sound type='water_drop' volume='0.5'/>
-  <pause duration='0.8'/>
-  <random>
-    <part>Feel it wash through you again... warmer than before... every last question hushing itself to sleep.</part>
-    <part>Deeper into yes... doubts dissolving like sugar on the tongue... leaving only sweet, easy agreement.</part>
-    <part>So open... so receptive... a good sissy, accepting everything... effortlessly.</part>
-  </random>
-  <pause duration='0.8'/>
   <random>
     <part>Rest in that warm agreement now... open and easy... as my voice carries you on.</part>
     <part>Drifting in acceptance... soft and certain... ready for whatever you are told next.</part>

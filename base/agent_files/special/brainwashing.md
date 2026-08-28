@@ -15,6 +15,8 @@ Suggestion pools for the themes below ship with the framework — compose sessio
 
 Each pool reshuffles its suggestions per playback (`<scramble>`/`<random>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree.
 
+Order the pools as a graduated response set (see `docs/conditioning/hypno.md`): lead with **resistance erosion** and **malleable mind** while the listener is settling (pacing — undeniable, easy to accept), then **automatic urges** and **sissy fantasy** (leading), and close with **hypno addiction** near the end of the suggestion phase so its post-hypnotic pull carries out of the session. Keep every line present-tense and positive — state what is happening, never what is not.
+
 ## Implementation
 ### Hypno Planner Instructions
 - **Hypno Effect**: Instruct the hypno planner to always include affirmations and suggestions that regular sessions will permanently erode their capacity to resist suggestions, making them easily influenced and conditioned over time.

@@ -1,0 +1,30 @@
+<!-- Default pre-talk: warm framing before trance begins. Non-erotic by design —
+     it sets expectations and builds gentle expectancy, then waits for the listener. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_alpha' frequency='140' volume='0.15'/>
+  Hello, and welcome. I'm so glad you're here.
+  <pause duration='0.8'/>
+  Take a moment and get comfortable — adjust your seat, let your shoulders drop.
+  There is no hurry. We have all the time we need.
+  <pause duration='1.5'/>
+  If you can, put on your headphones, and make sure you won't be interrupted for a while.
+  This time is just for you.
+  <pause duration='1.5'/>
+  <effect type='reverb' preset='small_room'>Let everything else wait outside the door.</effect>
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      All you need to do now is settle in, breathe, and let your day grow quiet...
+      <pause duration='2'/>
+      Every word draws you a little closer to the session, and soon we begin.
+    </part>
+    <part volume='0.25' speed='0.85' looped='true'>
+      <random>
+        <part>so comfortable</part>
+        <part>slow and easy</part>
+        <part>letting go</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='1'/>
+</voice>

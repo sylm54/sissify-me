@@ -1,22 +1,67 @@
 <!-- Trigger block: installs the "Sissy [Bodypart]" sensitivity trigger. When "Sissy"
      precedes a body part, attention locks onto it - feminine, erogenous, central to her
-     sissy identity. All six parts play per listen, reshuffled, imagery randomized. -->
+     sissy identity. All six parts play per listen, reshuffled, imagery randomized.
+     Arc: elicit locked-on bodily attention and arousal first, install the naming rule at
+     the peak, demonstrate across all six parts, future-pace, settle. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='140' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>You know exactly what the word Sissy does to you by now, good girl.</part>
-    <part>The word Sissy has shaped you so deeply already, good girl.</part>
-    <part>You have felt the word Sissy settle into you so many times, good girl.</part>
+    <part>Deep and open for me now, good girl... and your body is beginning to listen... every soft inch of it waking up.</part>
+    <part>Sinking so sweetly... and your awareness is sliding into your skin... feeling everything so much more.</part>
+    <part>So deep, so focused... and your body is humming under my words, awake and attentive.</part>
   </random>
   <pause duration='0.8'/>
-  Now that word is going to claim your body, one soft part at a time.
+  <!-- Elicit and intensify: locked-on attention and rising sensitivity -->
+  <overlay>
+    <part>
+      <random>
+        <part>Notice the air on your skin right now... warm, cool, drifting... you can feel all of it, can't you.</part>
+        <part>Notice the fabric resting against you... every tiny point of touch, so much clearer than usual.</part>
+        <part>Notice your own warmth... the weight of your body... the pulse of blood beneath your skin.</part>
+      </random>
+      Good... your attention is a soft, warm spotlight, and wherever it rests, sensation blooms.
+      <pause duration='0.6'/>
+      And the more you notice, the more sensitive you become... and the more sensitive you become, the more you notice.
+      <pause duration='0.6'/>
+      <random>
+        <part>Arousal humming quietly under it all... your body pleased to be watched, pleased to be felt.</part>
+        <part>A sweet, tingling wakefulness spreading... your skin drinking in every sensation.</part>
+        <part>Pleasure-ready and trembling... every nerve leaning toward my voice, waiting to be lit.</part>
+      </random>
+      <pause duration='0.6'/>
+      And some parts of you are waking faster than others... soft, secret places beginning to hum... hungry for their turn in the light.
+      <pause duration='0.8'/>
+      Your body is ready to be claimed... every part of it... one at a time.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>feel it... every sensation...</part>
+        <part>waking... tingling... alive...</part>
+        <part>so sensitive... so aware...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the naming rule and link it -->
   <loop loops='2'>
-    <background volume='0.2' speed='0.75'>Sissy body. Feel it. Sissy body.</background>
+    <random>
+      <part>And while your body listens this closely... there is a way to aim all of this. The word "Sissy" before any part of you claims it.</part>
+      <part>And while you are this aware... two little syllables aim everything you feel. "Sissy" before a body part... and it is hers.</part>
+      <part>And while sensation floods you... I hand you the switch. "Sissy" placed before any part of you lights it up completely.</part>
+    </random>
+    <pause duration='0.5'/>
     Every time you hear the word Sissy before a body part, you become instantly aware of every sensation in that part.
-    <pause duration='0.6'/>
-    That part lights up... feminine... sensitive... pleasure-ready... undeniably yours.
+    <pause duration='0.5'/>
+    <random>
+      <part>That part lights up... feminine... sensitive... pleasure-ready... undeniably yours.</part>
+      <part>That part wakes... erogenous... eager... so distinctly, deliciously feminine.</part>
+      <part>That part becomes the center of you... soft, sensitive, and central to your sissy identity.</part>
+    </random>
     <pause duration='0.8'/>
   </loop>
+  <pause duration='0.4'/>
+  <!-- Demonstrate in trance: fire the trigger across all six parts -->
   <effect type='reverb' preset='small_room'>
     <scramble>
       <part>
@@ -74,7 +119,7 @@
   <pause duration='0.8'/>
   <overlay>
     <part>
-      Feel your whole Sissy body now... awake, alive, and feminine.
+      Feel your whole Sissy body now... awake, alive, and feminine... every part glowing... it is already working. Yes, just like that.
       <pause duration='2.5'/>
     </part>
     <part volume='0.18' looped='true'>
@@ -84,6 +129,15 @@
       </random>
     </part>
   </overlay>
+  <pause duration='0.6'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the words find you... a passing thought, a whispered phrase... and that part wakes instantly, right where you are.</part>
+    <part>And later today, some stray word aims your own awareness at a part of you... and it lights up, warm and feminine, on the spot.</part>
+    <part>And out there, every "Sissy" before a body part turns your skin into pure attention... instantly, anywhere, anytime.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
   <volume value='0.75'>Good girl... drifting deeper... feeling prettier with every breath.</volume>
   <pause duration='1'/>
 </voice>

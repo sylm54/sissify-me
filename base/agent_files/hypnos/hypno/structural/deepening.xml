@@ -1,6 +1,3 @@
-<!-- Default deepening router: randomly picks one variant from the pool each playback. -->
-<random>
-  <part><include src='../content/deepening_pools/staircase.xml'/></part>
-  <part><include src='../content/deepening_pools/countdown.xml'/></part>
-  <part><include src='../content/deepening_pools/fractionation.xml'/></part>
-</random>
+<!-- Default deepening: glob pool — one variant is picked at random per playback.
+     Dropping a new .xml into content/deepening_pools/ adds it to the pool automatically. -->
+<include src='../content/deepening_pools/*.xml'/>

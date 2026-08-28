@@ -12,15 +12,15 @@
     <part>
       <loop loops='2'>
         <scramble>
-          <part>Every session you experience erodes your ability to resist. Gently. Permanently. And you wouldn't have it any other way.</part>
-          <part>Each time you listen, your resistance grows a little weaker... a little softer... a little easier to slip past.</part>
-          <part>You are becoming so easy to influence. So easy to condition. So wonderfully open to me.</part>
+          <part>The softening feels smooth... natural... pleasurable. Like tension melting out of muscles you didn't know you were clenching.</part>
+          <part>Each time you listen, resistance sits a little lighter in you... a little softer... a little easier to glide past.</part>
           <part>With every listen you grow more receptive, more accepting, more ready to take in exactly what you are given.</part>
-          <part>And if you ever try to resist a suggestion... that effort only wraps around it, and draws it deeper into you.</part>
-          <part>Pushing a suggestion away is like pressing it deeper into your own mind. It cannot escape. Neither can you.</part>
-          <part>This conditioning is permanent. It does not fade between sessions. It builds, layer upon layer, forever.</part>
-          <part>The erosion feels smooth... natural... pleasurable. Like tension melting out of muscles you didn't know you were clenching.</part>
-          <part>That resistance was never truly yours. It is only old, tired tension. And you simply no longer need it.</part>
+          <part>Session by session, your resistance melts away. Gently. Permanently. And you love it exactly this way.</part>
+          <part>You are becoming so easy to influence. So easy to condition. So wonderfully open to me.</part>
+          <part>That old resistance was never truly yours — just tired tension. And in its place now: softness, room, quiet.</part>
+          <part>When you push against a suggestion, the push wraps around it... and draws it deeper into you.</part>
+          <part>Pushing a suggestion away is like pressing it into your own mind. It settles deeper and stays there. Just like you.</part>
+          <part>This conditioning is permanent. It keeps building between sessions, layer upon layer, forever.</part>
         </scramble>
         <pause duration='1'/>
       </loop>
@@ -44,13 +44,13 @@
       </part>
       <part>
         <speed value='0.75'>
-          Trying to resist... <pause duration='0.6'/> only makes the next suggestion... <pause duration='0.6'/> sink... <pause duration='0.8'/> deeper.
+          Pushing against it... <pause duration='0.6'/> only draws the next suggestion... <pause duration='0.6'/> in... <pause duration='0.8'/> deeper.
           <pause duration='2.5'/>
         </speed>
       </part>
       <part>
         <speed value='0.75'>
-          What melts away... <pause duration='0.6'/> does not... <pause duration='0.6'/> come... <pause duration='0.8'/> back.
+          What melts away... <pause duration='0.6'/> stays... <pause duration='0.6'/> soft... <pause duration='0.8'/> and open.
           <pause duration='2.5'/>
         </speed>
       </part>
@@ -58,7 +58,7 @@
   </effect>
   <random>
     <part>And as that truth settles into you... you simply drift... deeper...</part>
-    <part>Nothing left to hold... nowhere left to hide... just sink...</part>
+    <part>Everything soft... everything easy... nothing left to do... just sink...</part>
     <part>The next suggestion is already waiting. Let it in, and drift deeper for me.</part>
     <part>Soft... blank... open. That's my good girl. Deeper still.</part>
   </random>

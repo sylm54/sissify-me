@@ -11,7 +11,7 @@
     </random>
     <pause duration='1'/>
     <random>
-      <part>When I say the words, you will begin to descend. Sissy Drops.</part>
+      <part>When I say the words, you begin to descend. Sissy Drops.</part>
       <part>Ready to start walking down? Sissy Drops.</part>
       <part>Take your first step for me now. Sissy Drops.</part>
     </random>
@@ -32,6 +32,9 @@
       </random>
       <pause duration='1'/>
     </loop>
+    <pause duration='0.8'/>
+    That's it. You are walking down so perfectly... deeper still with every breath.
+    <pause duration='1'/>
     <random>
       <part>And at the bottom, there is nothing but my voice, and the wonderful truth of what you are.</part>
       <part>And at the very bottom, only my voice remains, and the sweet truth of what you are.</part>
@@ -45,5 +48,7 @@
       <part>Dropping again, instantly... sinking past where the stairs ended.</part>
       <part>Down once more... so fast, so deep, so good.</part>
     </random>
+    <pause duration='1'/>
+    That's it. So deep now... deeper still... and still you gently sink.
   </effect>
 </voice>

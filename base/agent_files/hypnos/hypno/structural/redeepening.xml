@@ -1,5 +1,3 @@
-<!-- Default redeepening router: a short drop back into trance, dropped into any main segment. -->
-<random>
-  <part><include src='../content/redeepening_pools/drift_deeper.xml'/></part>
-  <part><include src='../content/redeepening_pools/sinking_breath.xml'/></part>
-</random>
+<!-- Default redeepening: a short drop back into trance — glob pool, one variant per playback.
+     Dropping a new .xml into content/redeepening_pools/ adds it to the pool automatically. -->
+<include src='../content/redeepening_pools/*.xml'/>

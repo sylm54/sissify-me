@@ -5,17 +5,18 @@
         <loop loops='4'>
             Breathe in.
             <pause duration='2'/>
-            Sissy Drops
-            <pause duration='2'/>
             And let go.
             <pause duration='4'/>
         </loop>
     </background>
+    Feel the air moving in through your nose... <pause duration='1'/>
+    and out again, slow and easy.
+    <pause duration='1'/>
     With every breath you take, <pause duration='1'/>
     you feel yourself
     <background volume='0.2'>
         <loop loops='4'>
-            Sissy Drops<pause duration='0.3'/>
+            Deeper.<pause duration='0.3'/>
         </loop>
     </background>
     becoming
@@ -30,13 +31,30 @@
     <loop loops='3'>
         <volume value='@ramp(1.0, 0.7)'>
         Breathing deeper<pause duration='0.3'/>
-        Sissy Drops<pause duration='0.3'/>
         drifting further<pause duration='0.3'/>
-        Sissy Drops<pause duration='0.3'/>
         sinking softly into trance for me.
         </volume>
         <pause duration='2'/>
     </loop>
-    Sissy Drops<pause duration='0.3'/>
-    Good girl. You're almost there.
+    Now let your next breath be the deepest one yet... <pause duration='0.8'/>
+    and as you let it go —
+    <pause duration='0.3'/>
+    <sound type='snap'/>
+    Sissy Drops.
+    <pause duration='1.2'/>
+    All the way down... soft, heavy, and calm. That's it... deeper still.
+    <pause duration='2'/>
+    <loop loops='2'>
+        <volume value='@ramp(1.0, 0.7)'>
+        Breathing in trance now<pause duration='0.3'/>
+        sinking deeper with every easy breath<pause duration='0.3'/>
+        down, down for me.
+        </volume>
+        <pause duration='2'/>
+    </loop>
+    One more breath... and as it leaves you, let yourself drop even further.
+    <pause duration='0.8'/>
+    Sissy Drops.
+    <pause duration='1.2'/>
+    You are doing perfectly. So deep, so soft... right where I want you.
 </voice>

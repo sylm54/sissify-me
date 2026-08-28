@@ -4,7 +4,11 @@
   <effect type='echo' preset='medium'>
     And you may notice your mind wandering... drifting back toward the surface...
     <pause duration='0.8'/>
-    That's alright. Sissy Drops. Just breathe... and sink back down... deeper and deeper... right back where you belong.
+    That's alright. Just breathe...
+    <pause duration='0.8'/>
+    Sissy Drops.
+    <pause duration='1.2'/>
+    Sink back down... deeper and deeper... right back where you belong. That's it.
   </effect>
   <pause duration='1.5'/>
 </voice>

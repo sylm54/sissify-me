@@ -1,22 +1,22 @@
 <!-- Trigger block: installs the "Sissy Obey Mode" MODE trigger — a sustained state, not a
-     momentary compulsion. Upon "Sissy Obey Mode", a deep, warm need to obey spreads through
-     the whole body: wanting to follow every command happily and without hesitation, eager
-     to serve, eager to please, eager to be a good sissy. Obeying feels natural and right.
-     The need stays and grows until the release words "Sissy Clear". -->
+     momentary compulsion. Suggestion → Trigger arc: the warm, whole-body eagerness to obey
+     is elicited and intensified first, in trance, and the phrase "Sissy Obey Mode" is
+     introduced only at the peak, linked explicitly, demonstrated in trance, and bound to
+     persist. Upon "Sissy Obey Mode", a deep, warm need to obey spreads through the whole
+     body: wanting to follow every command happily and without hesitation, eager to serve,
+     eager to please, eager to be a good sissy. Obeying feels natural and right. The need
+     stays and grows until the release words "Sissy Clear". -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='135' volume='0.25'/>
   <random>
-    <part>You've felt flickers of it before, sweet girl... that little thrill when you do as you're told. Now imagine that feeling switched on... and staying on. "Sissy Obey Mode."</part>
-    <part>There is a warm, hungry part of you that was made to serve. Three little words wake it all the way up. "Sissy Obey Mode."</part>
-    <part>Obedience isn't a moment for you, darling. It's a mode. And here is exactly how it turns on. "Sissy Obey Mode."</part>
+    <part>You know that little thrill when you do as you're told... feel it now, beginning to spread through you.</part>
+    <part>Something warm is waking inside you at this depth, sweet girl... a hunger to be told exactly what to do.</part>
+    <part>Sink for me just as you are... and notice the warmth gathering in your chest... eager... attentive... waiting for my voice.</part>
   </random>
   <pause duration='0.7'/>
-  Sissy Obey Mode.
-  <sound type='success' volume='0.5'/>
-  <pause duration='0.9'/>
   <overlay>
     <part>
-      Feel it switching on... a deep, warm need to obey... spreading from the center of your chest... down through your arms... your belly... your legs... your whole body.
+      Feel it spreading... a deep, warm need to obey... moving outward from the center of your chest... down through your arms... your belly... your legs... your whole body.
       <pause duration='0.7'/>
       The need pulses softly with every heartbeat... and with every pulse, obedience feels more natural... more right... more you.
       <pause duration='0.6'/>
@@ -40,7 +40,7 @@
   <pause duration='0.5'/>
   <loop loops='2'>
     <random>
-      <part>And the need grows... warmer... deeper... with every moment it stays on.</part>
+      <part>And the need grows... warmer... deeper... with every moment it burns in you.</part>
       <part>The longer you obey, the sweeter obeying becomes.</part>
       <part>Each command followed feeds the need... and the need asks so politely for more.</part>
     </random>
@@ -52,7 +52,39 @@
     <part>A deep need to serve, humming in your bones... and you love it there.</part>
     <part>Automatic and eager... obedience before thought... thought after obedience... then none at all.</part>
   </scramble>
+  <pause duration='0.5'/>
+  <effect type='echo' preset='medium'>
+    <random>
+      <part>So eager now... a whole body humming with the wish to serve.</part>
+      <part>Warmer and hungrier still... every part of you leaning toward my next word.</part>
+      <part>Ready... willing... wanting... obedience glowing all the way through you.</part>
+    </random>
+  </effect>
+  <pause duration='0.7'/>
+  And now... right now, while that warm need fills you completely... this state gets its name.
   <pause duration='0.6'/>
+  Sissy Obey Mode.
+  <sound type='success' volume='0.5'/>
+  <pause duration='0.9'/>
+  And while you are this deep... whenever you hear those words... "Sissy Obey Mode"... this exact state switches on inside you, instantly. Warm... hungry... eager to obey every command happily and without hesitation.
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Every time you hear "Sissy Obey Mode", the need spreads through your whole body... eager, automatic obedience that stays with you.</part>
+    <part>"Sissy Obey Mode"... and the warmth floods back... ready to serve before you can blink.</part>
+    <part>The words are the switch... the need is the light... instant, automatic, and so very good.</part>
+  </scramble>
+  <pause duration='0.7'/>
+  One more time, so it takes root deep.
+  <pause duration='0.5'/>
+  Sissy Obey Mode.
+  <sound type='success' volume='0.5'/>
+  <pause duration='0.8'/>
+  <random>
+    <part>There it is... flooding you again, faster this time... warmer and hungrier than before... a whole body made to serve.</part>
+    <part>Deeper into the need... every cell of you agreeing... yes, I obey... yes, I please... yes... and look how easily it happens now.</part>
+    <part>So eager... so ready... trembling softly with the joy of doing as you're told... such a good sissy.</part>
+  </random>
+  <pause duration='0.8'/>
   <effect type='reverb' preset='cathedral'>
     <overlay>
       <part>
@@ -66,17 +98,6 @@
     </overlay>
   </effect>
   <pause duration='0.7'/>
-  One more time, so it takes root deep.
-  <pause duration='0.5'/>
-  Sissy Obey Mode.
-  <sound type='success' volume='0.5'/>
-  <pause duration='0.8'/>
-  <random>
-    <part>There it is... flooding you again... warmer and hungrier than before... a whole body made to serve.</part>
-    <part>Deeper into the need... every cell of you agreeing... yes, I obey... yes, I please... yes.</part>
-    <part>So eager... so ready... trembling softly with the joy of doing as you're told.</part>
-  </random>
-  <pause duration='0.8'/>
   <random>
     <part>Simmer in that warm need now... obedient and glowing... as my voice carries you on.</part>
     <part>Rest in your eagerness... ready to spring at the next command... a good sissy on duty.</part>

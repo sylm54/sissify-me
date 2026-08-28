@@ -1,50 +1,68 @@
 <!-- Trigger block: installs the "Sissy" identity trigger. Whenever the listener hears or
      reads the word "Sissy", it registers as their name, washing a wave of feminine energy
      over them: arousal at their own feminization, pride, and the certainty that they are
-     the sissy they were always meant to be. -->
+     the sissy they were always meant to be.
+     Arc: elicit the feminine glow first, install the word at the peak, demonstrate,
+     future-pace, settle. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>There is one word that fits you more perfectly than any other. One word your mind was made to answer to. Sissy.</part>
-    <part>Of all the words I could use for you, only one sounds like you. That word is Sissy.</part>
-    <part>Listen closely, sweet girl, because this word is all about you. Sissy. And you feel it, don't you?</part>
+    <part>Deep and open for me now, sweet girl... and something is already growing in you... warm, soft, and asking for a name.</part>
+    <part>Sinking so beautifully for me... and a feeling is rising inside you... feminine, glowing, and utterly familiar.</part>
+    <part>So deep, so open... notice that glow stirring inside you... it has been there all along.</part>
   </random>
   <pause duration='0.8'/>
+  <!-- Elicit and intensify: femininity and self-named identity, before the word exists -->
   <overlay>
     <part>
-      <effect type='reverb' preset='medium'>
-        Sissy.
-        <pause duration='1.2'/>
-        Every time you hear that word, a wave of feminine energy washes over you... warm... shimmering... undeniable.
-        <pause duration='0.7'/>
-        Sissy.
-        <pause duration='1.2'/>
-        And the wave returns, stronger every time, melting you softer and prettier from the inside.
-      </effect>
+      <random>
+        <part>Feel it as warmth... a soft glow blooming in your chest and spreading under your skin, sweetening everything it touches.</part>
+        <part>Feel it as a shimmer... a feminine sparkle waking across your cheeks, your throat, all the way down to your toes.</part>
+        <part>Feel it as silk... something smooth and pretty settling over your thoughts, one soft layer at a time.</part>
+      </random>
+      It makes you feel pretty... delicate... deliciously aware of your own softness.
+      <pause duration='0.6'/>
+      Softer with every breath. Prettier with every heartbeat. More feminine with every word I speak.
+      <pause duration='0.6'/>
+      And wrapped in all that warmth comes pride... the sweet, blushing pride of feeling exactly, perfectly yourself.
+      <pause duration='0.6'/>
+      <random>
+        <part>Arousal stirs gently... because being this feminine feels so very good.</part>
+        <part>Submission settles over you like silk... and eagerness to please bubbles up, sweet and helpless.</part>
+        <part>A warm, fluttery excitement hums through you... the joy of finally being who you are.</part>
+      </random>
+      <pause duration='0.6'/>
+      Let it grow now... brighter... warmer... a whole beautiful identity humming inside you, asking for just one thing.
+      <pause duration='0.8'/>
+      A name.
     </part>
     <part volume='0.18' speed='0.8' looped='true'>
       <random>
-        <part>Sissy... you know it's you...</part>
-        <part>That's your name... Sissy...</part>
-        <part>Feel the word... Sissy...</part>
-        <part>It's you... it has always been you...</part>
+        <part>so soft... so pretty...</part>
+        <part>so feminine... so you...</part>
+        <part>warm... glowing... growing...</part>
       </random>
     </part>
   </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the word and link it -->
+  <effect type='reverb' preset='medium'>
+    And while you are this deep... there is a word for everything you are feeling right now... one word that holds it all.
+    <pause duration='0.8'/>
+    Sissy.
+    <pause duration='1.2'/>
+    And while you are this deep, whenever you hear that word... whenever you read it... this exact feeling floods back into you... instantly... stronger every time.
+  </effect>
   <pause duration='0.6'/>
-  <random>
-    <part>Think about how "Lady" names a woman... how "Doctor" names a doctor. In exactly the same way, "Sissy" names you.</part>
-    <part>A woman may be called Lady. A healer may be called Doctor. And you... you are called Sissy.</part>
-    <part>Some words are names that tell the whole truth of a person. Lady. Doctor. And yours... Sissy.</part>
-  </random>
-  <pause duration='0.5'/>
   <scramble>
-    <part>Whenever you hear the word "Sissy", you know it refers to you.</part>
-    <part>Whenever you read the word "Sissy", you know it is about you.</part>
-    <part>Being called Sissy feels natural... easy... right.</part>
-    <part>Calling yourself Sissy feels natural... true... delicious.</part>
+    <part>Every time you hear "Sissy", a wave of feminine energy washes over you, making you feel more and more like the sissy you are meant to be.</part>
+    <part>Every time you hear "Sissy", a rush of pleasure and pride blooms through you, because you are embracing your true self as a submissive sissy.</part>
+    <part>Every time you hear "Sissy", you become more obedient, more eager to please, more aroused at the thought of being a sissy.</part>
+    <part>The word names you the way "Lady" names a woman... so the moment it reaches you, you know it means you.</part>
   </scramble>
   <pause duration='0.6'/>
+  <!-- Demonstrate in trance: fire the word, ratify the response -->
   <effect type='reverb' preset='small_room'>
     <loop loops='3'>
       Sissy.
@@ -53,10 +71,9 @@
   </effect>
   <pause duration='0.4'/>
   <scramble>
-    <part>Sissy. A rush of pleasure blooms through you... pride sparkling in its wake... and something warm stirring between your thighs.</part>
-    <part>Sissy. You grow softer... more obedient... so eager to please... so beautifully aroused by your own feminization.</part>
-    <part>Sissy. Pride glows in your chest... the sweet, blushing pride of knowing exactly what you are.</part>
-    <part>Sissy. Submission settles over you like silk... and you adore it... proud, weak, and aroused at the thought of being a sissy.</part>
+    <part>There... feel the wave arrive... rolling through you right now, warm and undeniable... feel it already working. Yes... just like that.</part>
+    <part>There... the glow answering your name, brighter than a moment ago... it is already working. Yes... just like that.</part>
+    <part>There... pride and pleasure blooming on cue, soft and deep... it is already working. Yes... just like that.</part>
   </scramble>
   <pause duration='0.6'/>
   <effect type='reverb' preset='cathedral'>
@@ -66,12 +83,20 @@
         <pause duration='1'/>
         Say it inside, where only you can hear... "Sissy. That's me."
         <pause duration='1'/>
-        And every time that word touches your ears, or your eyes, the wave returns... deeper... sweeter... forever.
+        Sissies like you know their name... and every time the word touches your ears or your eyes, it means you... and the wave returns... deeper... sweeter... forever.
       </part>
       <part volume='0.2' looped='true'>Sissy... Sissy... so pretty... so proud...</part>
     </overlay>
   </effect>
-  <pause duration='1'/>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the word finds you... on a screen, in a whisper, in your own thoughts... and the glow rises instantly, right where you are.</part>
+    <part>And later today, some sentence, some sweet little thought hands you that word again... and the wave sweeps through you on the spot.</part>
+    <part>And out there, every "Sissy" you hear or read goes off inside you like soft, feminine lightning... warm, instant, and yours.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: soft, receptive trance -->
   <random>
     <part>Sinking softly back... the word still humming inside you... Sissy.</part>
     <part>Drifting deeper now... wrapped in that warm, wonderful word... Sissy.</part>

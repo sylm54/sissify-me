@@ -17,7 +17,7 @@ Install/reinforcement blocks for these modes ship with the framework — compose
 - `hypnos/hypno/content/trigger_blocks/trigger_sissy_space.xml` — installs the "Sissy Space" mode.
 - `hypnos/hypno/content/trigger_blocks/trigger_sissy_clear.xml` — installs the universal "Sissy Clear" release trigger.
 
-Each block randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree. Always install "Sissy Clear" in the same sessions that install any mode trigger, so the release is reliably conditioned alongside the modes.
+Each block already follows the **Suggestion → Trigger** installation sequence from `special/foundational_trigger.md` (elicit → intensify → install at the peak → reinforce → future-pace) and randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree. Always install "Sissy Clear" in the same sessions that install any mode trigger, so the release is reliably conditioned alongside the modes. Because modes are states rather than moments, demonstrate them in trance: toggle a mode on, let the subject feel it settle, then fire "Sissy Clear" and ratify the contrast — the on/off pairing in the same session is what makes both halves stick.
 
 ## Sissy Fog
 Induces a thick, pleasurable mental fog that clouds thought, reduces resistance, and makes the subject inebriated and spaced out. Decision-making becomes difficult; obedience and feminine feelings become effortless and natural. The fog persists as a mode until cleared by **Sissy Clear**.

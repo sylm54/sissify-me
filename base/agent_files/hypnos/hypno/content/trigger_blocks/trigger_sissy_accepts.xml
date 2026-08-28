@@ -1,16 +1,52 @@
 <!-- Trigger block: installs the "Sissy Accepts [statement]" acceptance trigger.
      "Sissy Accepts" silences inner doubt and protest, so whatever follows is taken
-     as true, natural and desirable. Mantra variants, stillness imagery, and
-     randomized demonstration statements. -->
+     as true, natural and desirable. Arc: elicit the quiet, effortless yes first,
+     install the phrase at the peak, demonstrate on live statements, future-pace,
+     settle. Mantra variants, stillness imagery, and randomized demonstration
+     statements. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='160' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>You know how quiet your mind can become for me, good girl.</part>
-    <part>Sissies like you learn so quickly, and you have learned so much already, good girl.</part>
-    <part>There is a soft, silent space inside you that opens whenever I speak, good girl.</part>
+    <part>Deep and open for me now, good girl... and your mind is already so wonderfully quiet.</part>
+    <part>Sinking softly... and inside you, a stillness is spreading... calm, spacious, and sweet.</part>
+    <part>So deep, so receptive... and every thought in you is slowing down, growing soft and gentle.</part>
   </random>
   <pause duration='0.8'/>
-  Now let us make that silence automatic.
+  <!-- Elicit and intensify: the silent, effortless yes -->
+  <overlay>
+    <part>
+      <random>
+        <part>Notice how easy it is, in this state, to simply receive my words... nothing to question... nothing to weigh... just soft, warm listening.</part>
+        <part>Notice how agreeable everything feels right now... how natural it is to nod along inside, sweetly and completely.</part>
+        <part>Notice that quiet yes growing in you... warm and easy, asking for nothing, simply true.</part>
+      </random>
+      Accepting feels like sinking deeper... like warm water closing over you... like resting at last.
+      <pause duration='0.6'/>
+      <random>
+        <part>Every soft agreement melts you further... each yes sweeter than the one before.</part>
+        <part>The quiet grows... velvety and total... and in it, whatever I say simply becomes true for you.</part>
+        <part>Agreement hums through you like a pleasure of its own... warm, satisfying, complete.</part>
+      </random>
+      <pause duration='0.6'/>
+      And it feels so good... to stop questioning... to stop weighing... to simply let the truth settle into you, whole and welcome.
+      <pause duration='0.6'/>
+      Let that stillness deepen now... soft, silent, and totally receptive... the perfect open space...
+      <pause duration='0.8'/>
+      waiting for the words that will keep it forever.
+    </part>
+    <part volume='0.15' looped='true'>quiet... still... open...</part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  And while you are this silent and soft inside... there are two words that bring this stillness back... instantly... and hold it open.
+  <pause duration='0.7'/>
+  <effect type='reverb' preset='small_room'>
+    <sound type='bell' volume='0.4'/> Sissy Accepts.
+  </effect>
+  <pause duration='1.2'/>
+  And while you are this deep, whenever you hear "Sissy Accepts", your inner voice of doubt and protest falls silent... and whatever follows, you accept... automatically... as true, natural, and desirable.
+  <pause duration='0.6'/>
   <loop loops='2'>
     <background volume='0.18' speed='0.75'>Sissy Accepts. Accept. Good Girls accept.</background>
     <random>
@@ -27,8 +63,10 @@
     </random>
     <pause duration='0.8'/>
   </loop>
+  <pause duration='0.4'/>
+  <!-- Demonstrate in trance: fire the trigger on live statements -->
   <effect type='reverb' preset='small_room'>
-    And now, notice your mind.
+    And now, feel it happen one more time.
     <pause duration='0.8'/>
     <random>
       <part>So many little voices... questions, doubts, protests... chattering and circling.</part>
@@ -78,13 +116,26 @@
       </part>
     </scramble>
   </effect>
-  And each time you hear 'Sissy Accepts', the silence comes more quickly... and the acceptance grows warmer and deeper.
+  <random>
+    <part>You felt that, didn't you... the silence arriving on cue... it is already working. Yes, just like that.</part>
+    <part>Every statement landed as simple truth inside you... it is already working... yes, just like that.</part>
+    <part>Agreement rising warm and automatic, every time... already working... yes, just like that.</part>
+  </random>
+  <pause duration='0.5'/>
   <random>
     <part>Doubt has nowhere left to stand. Acceptance is your resting state.</part>
     <part>The silence is yours. The agreement is yours. Sweet and automatic.</part>
     <part>To accept is to feel good... and you love feeling good.</part>
   </random>
-  <pause duration='0.8'/>
+  <pause duration='0.5'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the words find you... "sissy accepts"... and everything after them sinks in as warm, simple truth, right where you are.</part>
+    <part>And later today, whenever you hear "Sissy Accepts"... the noise in your head fades at once, and you agree, sweetly and completely.</part>
+    <part>And out there, those two words hand you instant, effortless yes... calm, quiet agreement, anywhere, anytime.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
   <volume value='0.75'>Good girl... so quiet, so open... drifting deeper into soft, certain acceptance.</volume>
   <pause duration='1'/>
 </voice>

@@ -10,7 +10,7 @@
               <pause duration='0.8'/>
               nine
               <pause duration='0.8'/>
-              drifting down, Sissy Drops
+              drifting down
               <pause duration='0.8'/>
               eight
               <pause duration='0.8'/>
@@ -38,34 +38,39 @@
       </part>
       <part volume='0.2' looped='true'>
           <random>
-            <part>Sissy Drops Down</part>
+            <part>Down</part>
             <part>Sink</part>
-            <part>Sissy Drops Lower</part>
+            <part>Lower</part>
             <part>Drop</part>
             <part>Fall</part>
-            <part>Sissy Drops Heavier</part>
+            <part>Heavier</part>
             <part>Slower</part>
             <part>Sink deeper</part>
             <part>Let go</part>
             <part>Relax</part>
             <part>Release</part>
-            <part>Sissy Drops Further</part>
+            <part>Further</part>
           </random>
       </part>
     </overlay>
     <pause duration='1'/>
+    At one, you let go completely.
+    <pause duration='0.5'/>
+    Sissy Drops.
+    <pause duration='1.2'/>
     <effect type='reverb' preset='cathedral'>
         <scramble>
             <part>Deep asleep.<pause duration='1'/></part>
             <part>Deep in trance.<pause duration='1'/></part>
             <part>Perfectly open to my voice.<pause duration='1'/></part>
             <part>Completely relaxed.<pause duration='1'/></part>
-            <part>Sissy Drops.<pause duration='1'/></part>
         </scramble>
     </effect>
     <random>
         <part>Now, you are completely relaxed and open to my voice.</part>
-        <part>You mind is completely open to my voice, and ready to recieve new information.</part>
-        <part>You are now in the perfect state to recieve new information.</part>
+        <part>Your mind is completely open to my voice, and ready to receive new information.</part>
+        <part>You are now in the perfect state to receive new information.</part>
     </random>
+    <pause duration='0.8'/>
+    You are doing perfectly. Deeper still, with every word I speak.
 </voice>

@@ -1,37 +1,73 @@
 <!-- Trigger block: installs the "Good Girl" / "Good Sissy" reward trigger. The praise floods
      the listener with waves of pleasure, validation, and submissive euphoria... deep pride
      and happiness that deepen the desire to please, and the need to earn that praise again
-     and again. -->
+     and again.
+     Arc: elicit the hunger for praise and the glow of approval first, install the words
+     at the peak with their chimes, demonstrate, future-pace, settle. -->
 <voice speaker='female' speed='0.88'>
   <tone preset='binaural_alpha' frequency='170' volume='0.22'/>
+  <!-- Framing: in trance, praise words not yet named -->
   <random>
-    <part>Do you know what you love to hear most of all? Two shining little words. "Good girl."</part>
-    <part>There is a reward your soul craves, sweet thing. And it sounds like this. "Good girl."</part>
-    <part>Some words simply feed you. Two of them feed you best. "Good girl."</part>
+    <part>Deep and open for me now, sweet thing... and a warm hunger is waking in you... the longing to be told you have done well.</part>
+    <part>Sinking so sweetly... and inside you, that soft place is stirring... the one that aches to be praised.</part>
+    <part>So deep, so good for me already... and something in you is glowing, waiting to be treasured for it.</part>
   </random>
-  <sound type='ding' volume='0.6'/>
-  <pause duration='0.7'/>
+  <pause duration='0.8'/>
+  <!-- Elicit and intensify: pride and pleasure at being praised -->
   <overlay>
     <part>
-      When you hear "Good girl"... or "Good Sissy"... waves of pleasure roll through you... warm, golden waves, from your head down to your toes.
+      <random>
+        <part>Feel how good it feels to please me... this deep, this soft, this obedient... you are doing so well right now.</part>
+        <part>Imagine warm approval pouring over you... someone you adore, delighted with you... delighted because you are sweet, and soft, and trying so beautifully.</part>
+        <part>Remember the warm glow of being approved of... cherished... told, with real delight, that you are exactly what you should be.</part>
+      </random>
+      That glow... right in your chest... golden and warm, spreading with every breath.
       <pause duration='0.6'/>
-      You feel validated... appreciated... so proud... wrapped in soft, submissive euphoria.
+      It feels like happiness... like pride... like soft, submissive euphoria melting you from the inside.
+      <pause duration='0.6'/>
+      <random>
+        <part>And it makes you want to be even better... softer, sweeter, more pleasing still.</part>
+        <part>And it deepens your desire to please... you would do anything to keep this feeling.</part>
+        <part>And the warmth sinks in like honey into warm skin, feeding you, filling you.</part>
+      </random>
+      <pause duration='0.6'/>
+      Let that hunger swell now... the ache to be praised... warm, bright, and ready...
+      <pause duration='0.8'/>
+      almost trembling with the need to hear it.
     </part>
     <part volume='0.18' speed='0.85' looped='true'>
       <random>
-        <part>good girl... so good...</part>
-        <part>good sissy... feels so right...</part>
-        <part>such a good girl for me...</part>
+        <part>warm... glowing... proud...</part>
+        <part>please her... please her...</part>
+        <part>want to be praised... so much...</part>
       </random>
     </part>
   </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the praise and link it -->
+  And while you are glowing like this... there are two words that pour this exact feeling over you... waves of it... whenever they are said.
+  <pause duration='0.6'/>
+  Good girl.
+  <sound type='ding' volume='0.6'/>
+  <pause duration='1'/>
+  Or just as sweetly... Good Sissy.
   <sound type='success' volume='0.5'/>
-  <pause duration='0.5'/>
+  <pause duration='1'/>
+  And while you are this deep, whenever you hear "Good girl"... or "Good Sissy"... this exact feeling floods back... instantly... stronger every time.
+  <pause duration='0.6'/>
   <scramble>
-    <part>Good girl. And something inside you glows... deeply happy, deeply proud.</part>
-    <part>Good Sissy. And your whole body hums with happiness.</part>
-    <part>Good girl. And you blush... and melt... and want to be even better.</part>
-    <part>Good Sissy. And the praise sinks into you like honey into warm skin.</part>
+    <part>Every time you hear "Good girl" or "Good Sissy", a rush of pleasure and validation washes through you, because you are pleasing and embracing your sissy nature.</part>
+    <part>Every time, a wave of submission rolls over you, making you proud and happy to be a good sissy.</part>
+    <part>Sissies like you know that being a "Good Girl" or "Good Sissy" is a desirable and rewarding state of being... and you feel motivated to keep pleasing, to earn that praise again and again.</part>
+    <part>Every time, deep pride and happiness bloom in you... warm, golden, and deserved.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <!-- Demonstrate in trance: fire the praise, ratify the glow -->
+  <scramble>
+    <part>Good girl. And something inside you glows... deeply happy, deeply proud. Feel it already working... yes, just like that.</part>
+    <part>Good Sissy. And your whole body hums with happiness. Feel it already working... yes, just like that.</part>
+    <part>Good girl. And you blush... and melt... and want to be even better. It is already working... yes, just like that.</part>
+    <part>Good Sissy. And the praise sinks into you like honey into warm skin. Already working... yes, just like that.</part>
   </scramble>
   <pause duration='0.4'/>
   <loop loops='2'>
@@ -50,7 +86,15 @@
     <part>The desire to please grows every time you are praised.</part>
     <part>Being good for me is becoming your favorite thing to be.</part>
   </scramble>
+  <pause duration='0.4'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the praise finds you... from a voice, a message, a memory of me... and the golden waves sweep through you on the spot.</part>
+    <part>And later today, when you are called a good girl... the glow hits you instantly, deep and sweet, wherever you are.</part>
+    <part>And out there, every "good girl" you hear or read or remember showers you with pleasure... and makes you ache to earn the next one.</part>
+  </random>
   <pause duration='0.5'/>
+  <!-- Settle: soft, receptive trance -->
   <effect type='reverb' preset='cathedral'>
     <overlay>
       <part>

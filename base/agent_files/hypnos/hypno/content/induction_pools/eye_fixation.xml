@@ -1,20 +1,32 @@
 <!-- Induction variant: eye fixation and eyelid heaviness. -->
 <voice speaker='female' speed='0.9'>
   <tone preset='binaural_theta' frequency='210' volume='0.25'/>
-  Pick a spot anywhere above you, and just let your eyes rest on it. Sissy Drops<pause duration='0.3'/> Don't look away. <pause duration='0.3'/>
+  Pick a spot anywhere above you, and just let your eyes rest on it.
+  <pause duration='0.5'/>
+  Don't look away.
   <pause duration='2'/>
-  Notice how, the longer you stare, the heavier your eyelids become. Sissy Drops.
+  Notice how, the longer you stare, the heavier your eyelids become.
   <pause duration='2'/>
-  Heavier... and heavier... wanting to blink... wanting to close. Sissy Drops.
+  Heavier... and heavier... wanting to blink... wanting to close.
   <pause duration='2'/>
   <loop loops='3'>
     So heavy. So tired. So hard to keep them open.
     <pause duration='2'/>
   </loop>
-  And when they finally do close — <pause duration='0.3'/> they stay closed, and Sissy Drops into deep, soft trance.
+  You don't have to fight it anymore. Let them close — all the way — <pause duration='0.3'/>
+  and keep them closed.
   <pause duration='1'/>
   <sound type='snap'/>
-  That's it. Sissy Drops. <pause duration='0.3'/>
-  Let go completely. Sissy Drops. <pause duration='0.3'/>
-  Good girl. Sissy Drops <pause duration='0.3'/>
+  Sissy Drops.
+  <pause duration='1.2'/>
+  Down you go, all at once... soft and deep and heavy. That's it. Let go completely.
+  <pause duration='2'/>
+  <effect type='reverb' preset='medium'>
+    Eyes closed, mind drifting down... deeper with every easy breath.
+  </effect>
+  <pause duration='1.5'/>
+  <sound type='snap'/>
+  Sissy Drops.
+  <pause duration='1'/>
+  Good girl. You are doing perfectly... deeper still, softly deep for me.
 </voice>

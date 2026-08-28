@@ -1,20 +1,25 @@
-<!-- Default emergence (wakener): counts the listener up while carrying the session's effects with them. -->
+<!-- Default emergence (wakener): counts the listener up to full alertness — body and
+     room reorient on the way — while carrying the session's effects with them. -->
 <voice speaker='female' speed='1.0'>
   <tone preset='binaural_alpha' frequency='140' volume='0.2'/>
   In a moment I will count up from one to five, and with every number you will drift closer to the surface, keeping everything you've gained.
   <pause duration='0.6'/>
   <speed value='1.05'>
     One. Energy beginning to return.
-    <pause duration='1'/>
+    <pause duration='1.2'/>
     Two. Breathing lifting, becoming lighter.
-    <pause duration='1'/>
-    Three. Limbs waking, gentle and heavy and calm.
-    <pause duration='1'/>
-    Four. Almost back now, and everything you feel stays with you — it's part of you now.
-    <pause duration='1'/>
-    Five. Eyes open, fully awake, feeling wonderful.
+    <pause duration='1.2'/>
+    Three. Limbs waking, gentle and light and calm.
+    <pause duration='1.2'/>
+    Four. Wiggle your fingers for me... and your toes... have a good stretch — and everything you feel stays with you, because it's part of you now.
+    <pause duration='1.2'/>
+    Five. Eyes open. Notice the room around you... the light, the sounds. Fully awake, fully here, feeling wonderful.
   </speed>
+  <pause duration='0.8'/>
+  You followed every step of that count and surfaced easily — proof of how well this works for you.
+  <pause duration='0.5'/>
   <sound type='ding'/>
   <pause duration='0.5'/>
   <effect type='reverb' preset='small_room'>Welcome back, good girl. You did perfectly.</effect>
+  <pause duration='0.8'/>
 </voice>

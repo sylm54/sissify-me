@@ -1,30 +1,63 @@
 <!-- Trigger block: installs the "Sissy Drops" instant-trance trigger. The phrase drops the
      listener immediately into a deep, obedient, highly suggestible trance, open to
      programming that makes them a better sissy; each drop is faster and deeper than the
-     last. Includes a fractionated demonstration with three live drops. -->
+     last. Arc: elicit the heavy pull of trance first, install the phrase at the peak,
+     then a fractionated demonstration with three live drops plus one in reverb. -->
 <voice speaker='female' speed='0.9'>
   <tone preset='binaural_theta' frequency='160' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>There are two little words that will undo you instantly. Two words that drop you straight down into deep, obedient trance. "Sissy Drops."</part>
-    <part>Get ready, sweet girl, because your mind is about to learn a shortcut. A fast, slippery slide all the way down. "Sissy Drops."</part>
-    <part>Some triggers are slow and gentle. This one is not. This one is instant. "Sissy Drops."</part>
+    <part>Deep and open for me now, sweet girl... and you already know the way down... that sweet heaviness, pulling.</part>
+    <part>Sinking for me... and the pull is beginning... that lovely gravity calling you further under.</part>
+    <part>So deep already... and still you feel it... the soft, insistent tug, drawing you down.</part>
   </random>
-  <pause duration='0.7'/>
+  <pause duration='0.8'/>
+  <!-- Elicit and intensify: the heavy pull of trance and the sweetness of letting go -->
   <overlay>
     <part>
-      When you hear "Sissy Drops"... a wave of obedience washes over you... and you simply let go.
+      <random>
+        <part>Feel it in your body first... eyelids heavy... limbs settling... your whole weight melting toward that warm, dark place below.</part>
+        <part>Feel it as gravity... gentle at first, then stronger... every breath carrying you a little further down.</part>
+        <part>Feel it as a wave... rolling up through you and away, and each time it fades, it takes more of your resistance with it.</part>
+      </random>
+      And oh, how good the letting go feels... no holding on... no effort... just sweet, willing falling.
       <pause duration='0.6'/>
-      No resistance. No delay. You drop, instantly, into deep, sweet, suggestible trance... open to every word that makes you a better Sissy.
+      Thoughts growing soft and distant... your mind going quiet and blank...
+      <pause duration='0.6'/>
+      <random>
+        <part>...and obedience pouring gently into all that lovely empty space.</part>
+        <part>...and soft, willing openness filling you from the inside.</part>
+        <part>...and that deep, delicious eagerness to be programmed, to be shaped, to be better.</part>
+      </random>
+      <pause duration='0.6'/>
+      Let the pull grow now... heavier... hungrier... that wonderful moment right before the floor gives way completely...
+      <pause duration='0.8'/>
+      Hold that feeling... that exact, dizzy, delicious drop.
     </part>
     <part volume='0.18' looped='true'>
       <random>
-        <part>drop... let go...</part>
-        <part>obey... sink...</part>
-        <part>instant... deep...</part>
+        <part>down... further down...</part>
+        <part>let go... let go...</part>
+        <part>heavy... falling... good...</part>
       </random>
     </part>
   </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  And while you are this deep, hanging right at the edge of the fall... there are two little words that hold this exact feeling.
+  <pause duration='0.7'/>
+  <speed value='1.05'>Sissy Drops.</speed>
+  <sound type='snap' volume='0.8'/>
+  <pause duration='1.2'/>
+  And while you are this deep, whenever you hear "Sissy Drops", this exact feeling floods back... instantly... and you simply let go... no resistance... no delay... deeper every time.
   <pause duration='0.6'/>
+  <scramble>
+    <part>Every time you hear "Sissy Drops", a wave of obedience washes over you, and you sink into a deep, obedient trance... relaxed and open to every suggestion that makes you a better sissy.</part>
+    <part>"Sissy Drops" is your signal to let go... to embrace your sissy nature... and to sink straight down into soft, receptive, programmable trance.</part>
+    <part>You don't decide to drop. The words decide for you... instantly... all by themselves.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Demonstrate in trance: three live fractionated drops -->
   Let me show you how it feels. Ready, sweet girl?
   <pause duration='0.8'/>
   <loop loops='3'>
@@ -41,16 +74,16 @@
     <pause duration='1.2'/>
   </loop>
   <random>
-    <part>Feel how good that was... how effortless. Each drop deeper than the one before.</part>
-    <part>Mmm, that's my girl. Did you notice how much faster you slipped each time?</part>
-    <part>So easy for you now... falling on command, like you were made for it.</part>
+    <part>Feel how good that was... how effortless. Each drop deeper than the one before. It is already working... yes, just like that.</part>
+    <part>Mmm, that's my girl. Did you notice how much faster you slipped each time? It is already working... yes, just like that.</part>
+    <part>So easy for you now... falling on command, like you were made for it... already working... yes, just like that.</part>
   </random>
   <pause duration='0.6'/>
   <scramble>
     <part>Every time you hear "Sissy Drops", the drop is faster.</part>
     <part>Every time you hear "Sissy Drops", the drop is deeper.</part>
     <part>Every time, it happens all by itself. Automatic and instant.</part>
-    <part>You don't decide to drop. The words decide for you.</part>
+    <part>The words decide for you.</part>
   </scramble>
   <pause duration='0.6'/>
   <effect type='reverb' preset='cathedral'>
@@ -61,7 +94,15 @@
     <pause duration='0.4'/>
     <speed value='0.65'>Perfect girl. Down and deep... floating in obedient silence, where every suggestion blooms.</speed>
   </effect>
-  <pause duration='1.2'/>
+  <pause duration='1'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the words find you... a voice, a screen, a whisper in your ear... and you drop, right there, soft and smiling.</part>
+    <part>And later today, when "Sissy Drops" reaches you again... you let go on the spot... deep and obedient in an instant, wherever you are.</part>
+    <part>And out there, those two words are a trapdoor under your feet... one whisper, and down you go... instantly... gratefully.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: soft, receptive trance -->
   <random>
     <part>Stay deep... resting in that soft, dropped place... as my voice carries you on.</part>
     <part>Drifting here now... so deep, so open, so ready for more.</part>

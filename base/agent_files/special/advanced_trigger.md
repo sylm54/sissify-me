@@ -14,7 +14,7 @@ Install/reinforcement blocks for these triggers ship with the framework — comp
 - `hypnos/hypno/content/trigger_blocks/trigger_sissy_accepts.xml` — installs the "Sissy Accepts [Statement]" acceptance trigger.
 - `hypnos/hypno/content/trigger_blocks/trigger_sissy_craves.xml` — installs the "Sissy Craves [Thing]" desire trigger.
 
-Each block randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree — a session installing all four triggers includes each block once.
+Each block already follows the **Suggestion → Trigger** installation sequence from `special/foundational_trigger.md` (elicit → intensify → install at the peak → reinforce → future-pace) and randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree — a session installing all four triggers includes each block once. The sample lines below are reinforcement-stage phrasings: lead any custom install with elicitation, never with the trigger itself, and keep the wording present-tense and positive.
 
 ## Sissy [Bodypart]
 Focuses heightened feminine perception and sensitivity on the specified body part (e.g., "Sissy Breasts," "Sissy Ass," "Sissy Clitty"). The subject experiences the body part as distinctly feminine, highly erogenous, and central to their sissy identity, amplifying sensations and autogynephilic arousal.

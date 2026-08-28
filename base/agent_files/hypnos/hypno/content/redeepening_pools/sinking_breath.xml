@@ -3,8 +3,12 @@
   <tone preset='binaural_delta' frequency='130' volume='0.25'/>
   Take one deep breath for me now.
   <pause duration='3'/>
-  And as you let it out... Sissy Drops. feel yourself dropping... all the way back down... ten times deeper.
+  And as you let it all out...
+  <pause duration='0.5'/>
+  Sissy Drops.
+  <pause duration='1.2'/>
+  Feel yourself dropping... all the way back down... ten times deeper.
   <pause duration='2'/>
-  <volume value='0.75'>Good girl. Soft, blank, and open.</volume>
+  <volume value='0.75'>Good girl. Soft, blank, and open... deeper still.</volume>
   <pause duration='1'/>
 </voice>

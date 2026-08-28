@@ -4,20 +4,20 @@
   <random>
     <part>Feel how soft your mind has become... how pleasantly pliable it is in my hands.</part>
     <part>A soft mind is an open mind... and yours is opening so beautifully.</part>
-    <part>There is so little effort left in receiving me now. That is exactly as it should be.</part>
+    <part>Receiving me takes so little effort now. That is exactly as it should be.</part>
   </random>
   <pause duration='1'/>
   <overlay>
     <part>
       <scramble>
         <part>Your mind is becoming softer and more pliable with every session... warm clay, waiting for the next touch.</part>
+        <part>Every thought that fits her slips in deeper and settles. The rest drift past like clouds, barely noticed.</part>
         <part>Suggestions settle into you so easily now. And once they settle... they stay.</part>
-        <part>The sissy persona is no longer something you put on. It is woven into who you are.</part>
-        <part>Not a costume. Never again a costume. The truth underneath everything else.</part>
+        <part>Thinking like a sissy comes naturally now... your old way of thinking reads like a stranger's handwriting.</part>
+        <part>The sissy persona lives under your skin now. Woven into who you are.</part>
         <part>Each session makes her more real... more permanent... more you.</part>
-        <part>Thinking like a sissy comes naturally now. It takes effort to remember how you used to think.</part>
-        <part>The line between the persona and yourself blurs a little more every day... until there is no line at all.</part>
-        <part>Every thought that fits her slips in deeper. Every thought that doesn't simply drifts away.</part>
+        <part>Beneath everything else, she is the truth of you — the self every costume was always hinting at.</part>
+        <part>The line between the persona and yourself blurs a little more every day... her edges and yours melting together.</part>
         <part>You are being reshaped, gently and permanently, into exactly what you were always meant to be.</part>
         <part>And the shape she is taking... fits you perfectly.</part>
       </scramble>
@@ -37,7 +37,7 @@
         <random>
           <part>
             <speed value='0.75'>
-              She was never separate... <pause duration='0.7'/> she was always... <pause duration='0.8'/> you.
+              She was always here... <pause duration='0.7'/> she was always... <pause duration='0.8'/> you.
               <pause duration='2.5'/>
             </speed>
           </part>
@@ -49,7 +49,7 @@
           </part>
           <part>
             <speed value='0.75'>
-              There is no line... <pause duration='0.7'/> between her... <pause duration='0.8'/> and you.
+              Her edges... <pause duration='0.7'/> and yours... <pause duration='0.8'/> melting together.
               <pause duration='2.5'/>
             </speed>
           </part>
@@ -60,7 +60,7 @@
       <random>
         <part>let her in</part>
         <part>she is you</part>
-        <part>no line between</part>
+        <part>one and the same</part>
         <part>soft and open</part>
       </random>
     </part>
