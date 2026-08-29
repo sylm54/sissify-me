@@ -1,0 +1,55 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your roleplay partner**\n\nThese answers shape the dominant character you'll scene with — pick what pulls you, and the character builds itself around it."
+  },
+  {
+    "kind": "question",
+    "id": "rp_archetype",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What kind of dominant turns you on?",
+    "choices": [
+      "Strict mistress",
+      "Seductive domme",
+      "Cruel & mocking",
+      "Caring mommy domme",
+      "Bratty princess",
+      "Surprise me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "rp_intensity",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How intense should scenes usually be? (1 = playful and light, 10 = severe and relentless)"
+  },
+  {
+    "kind": "question",
+    "id": "rp_scene_focus",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which kinds of scenes interest you?",
+    "choices": [
+      "Dressing-up scenes",
+      "Training sessions",
+      "Humiliation scenes",
+      "Service scenarios",
+      "Hypno-style scenes"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "rp_style",
+    "answer": "choice",
+    "prompt": "How should the roleplay fit into your life?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Long immersive scenes",
+      "Short hot moments",
+      "In my ear all day"
+    ]
+  }
+]

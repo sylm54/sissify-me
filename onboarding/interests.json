@@ -1,0 +1,107 @@
+[
+  {
+    "kind": "text",
+    "text": "**Interests**\n\nPick everything you want to explore — you'll only hear follow-up questions about the ones you pick. Nothing here is a commitment; it tells your agent where to aim."
+  },
+  {
+    "kind": "question",
+    "id": "interests",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which of these pull you?",
+    "choices": [
+      "Chastity",
+      "Voice feminization",
+      "Hypno & triggers",
+      "Conditioning & brainwashing",
+      "Corrupting my daily life",
+      "A sissy persona & name",
+      "Body care & shaping",
+      "Submission & obedience",
+      "A sissy uniform",
+      "Cocklust",
+      "Online exposure",
+      "Slut training",
+      "Orgasm control & denial",
+      "Reflection & journaling"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "chastity_owned",
+    "answer": "choice",
+    "prompt": "Chastity: do you have a cage?",
+    "showIf": { "id": "interests", "includes": "Chastity" },
+    "choices": ["Yes — I have a cage", "Not yet — I want one", "No cage for me"]
+  },
+  {
+    "kind": "question",
+    "id": "chastity_control",
+    "answer": "choice",
+    "prompt": "How much control over your lockups do you want me to take?",
+    "showIf": {
+      "all": [
+        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "chastity_owned", "equals": "Yes — I have a cage" }
+      ]
+    },
+    "choices": [
+      "You decide every lockup",
+      "We agree durations — you enforce them",
+      "Locked during sessions only"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "voice_level",
+    "answer": "choice",
+    "prompt": "Where are you with your voice?",
+    "showIf": { "id": "interests", "includes": "Voice feminization" },
+    "choices": ["Complete beginner", "Practiced a little", "Fairly practiced"]
+  },
+  {
+    "kind": "question",
+    "id": "triggers_experience",
+    "answer": "choice",
+    "prompt": "How much experience do you have with hypno and conditioning?",
+    "showIf": {
+      "any": [
+        { "id": "interests", "includes": "Hypno & triggers" },
+        { "id": "interests", "includes": "Conditioning & brainwashing" }
+      ]
+    },
+    "choices": ["Never tried it", "Listened to hypno before", "I already have triggers"]
+  },
+  {
+    "kind": "question",
+    "id": "exposure_channels",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "If you post yourself, where would that be okay?",
+    "showIf": { "id": "interests", "includes": "Online exposure" },
+    "choices": [
+      "Sissy & fetish forums",
+      "Porn sites",
+      "Fetish social media",
+      "Anonymous only — never my face",
+      "Advise me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "gear",
+    "answer": "choice",
+    "multiple": true,
+    "optional": true,
+    "prompt": "What do you already own? (a rough idea is enough)",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "A cage",
+      "Plugs & toys",
+      "Wigs",
+      "Makeup",
+      "Feminine clothes",
+      "Nothing yet"
+    ]
+  }
+]

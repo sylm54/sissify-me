@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your assistant**\n\nA few answers so your assistant supports you the way you want, rather than guessing."
+  },
+  {
+    "kind": "question",
+    "id": "assistant_proactivity",
+    "answer": "choice",
+    "prompt": "How proactive should your assistant be?",
+    "choices": [
+      "Very — suggest tasks and ideas on your own",
+      "Somewhat — occasional suggestions",
+      "Reactive — wait until I ask"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "assistant_accountability",
+    "answer": "choice",
+    "prompt": "Should your assistant check in on your goals and routines?",
+    "choices": [
+      "Regularly hold me accountable",
+      "Only when things slip",
+      "Only when I ask",
+      "No check-ins"
+    ]
+  }
+]

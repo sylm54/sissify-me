@@ -1,5 +1,290 @@
 {
   "output": "ONBOARDING.md",
   "items": [
+    {
+      "kind": "text",
+      "text": "Welcome. Your answers here are the first thing your agent ever learns about you — they shape your plan, your training, and how you are treated from the very first session. Answer honestly; almost everything can be skipped or changed later in chat."
+    },
+    {
+      "kind": "question",
+      "id": "age",
+      "answer": "open",
+      "prompt": "How old are you?",
+      "hint": "This framework is strictly for adults, 18+."
+    },
+    {
+      "kind": "question",
+      "id": "depth",
+      "answer": "choice",
+      "prompt": "How deep should this onboarding go?",
+      "hint": "Light keeps it to the essentials, Medium adds a solid profile, Deep adds the thorough sections — interests, gear, history, and self-reflection. You can always go deeper in conversation later.",
+      "choices": [
+        "Light — just the essentials",
+        "Medium — a solid profile",
+        "Deep — thorough and introspective"
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "**About you**"
+    },
+    {
+      "kind": "question",
+      "id": "callname",
+      "answer": "open",
+      "optional": true,
+      "prompt": "What should I call you — a name, a nickname, or the feminine name you go by?"
+    },
+    {
+      "kind": "question",
+      "id": "pronouns",
+      "answer": "choice",
+      "multiple": true,
+      "optional": true,
+      "prompt": "Which pronouns fit how you want to be seen?",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "choices": ["she/her", "he/him", "they/them", "it/its"]
+    },
+    {
+      "kind": "question",
+      "id": "experience",
+      "answer": "choice",
+      "prompt": "How experienced are you with this side of yourself?",
+      "choices": [
+        "Brand new — mostly fantasy so far",
+        "Dabbler — occasional dressing or play",
+        "Active — a regular part of my life",
+        "Veteran — years in"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "time_daily",
+      "answer": "choice",
+      "prompt": "How much time can you realistically give this on an ordinary day?",
+      "hint": "Routines and sessions get planned around this — be honest, not optimistic.",
+      "choices": [
+        "Under 15 minutes a day",
+        "15–30 minutes a day",
+        "30–60 minutes a day",
+        "An hour or more a day",
+        "It varies a lot"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "living",
+      "answer": "choice",
+      "prompt": "Who's around while you do this?",
+      "hint": "This decides how private your tasks and rituals can be.",
+      "choices": [
+        "I live alone",
+        "With a partner — we're in this together",
+        "With a partner who doesn't know",
+        "With family or roommates",
+        "It's complicated — I'll explain"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "living_other",
+      "answer": "open",
+      "optional": true,
+      "showIf": { "id": "living", "equals": "It's complicated — I'll explain" },
+      "prompt": "Tell me about your living situation in your own words."
+    },
+    {
+      "kind": "question",
+      "id": "schedule_notes",
+      "answer": "open",
+      "optional": true,
+      "prompt": "Anything in your weekly schedule I should plan around — work, family, sleep?",
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+    },
+    {
+      "kind": "text",
+      "text": "**Your journey**"
+    },
+    {
+      "kind": "question",
+      "id": "goals",
+      "answer": "choice",
+      "multiple": true,
+      "prompt": "What do you want out of this?",
+      "choices": [
+        "Look more feminine",
+        "Think and act more feminine",
+        "Serve and obey",
+        "Be corrupted — want it more than I should",
+        "Explore my limits",
+        "Mostly just curious"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "pace",
+      "answer": "choice",
+      "prompt": "How fast should things move?",
+      "choices": [
+        "Slow — build comfort first",
+        "Steady — challenge me regularly",
+        "Fast — push past my comfort zone",
+        "You judge by my progress"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "end_goal",
+      "answer": "choice",
+      "prompt": "And how far does the road go, in your ideal future?",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "choices": [
+        "Curious exploration",
+        "A part-time sissy life",
+        "A full sissy lifestyle",
+        "Total transformation"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "story",
+      "answer": "open",
+      "optional": true,
+      "prompt": "In your own words: where are you right now on this journey, and what pulled you here?",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    },
+    {
+      "kind": "question",
+      "id": "holding_back",
+      "answer": "open",
+      "optional": true,
+      "prompt": "What holds you back right now — difficulties, fears, or obstacles that keep getting in the way?",
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/interests.json",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    },
+    {
+      "kind": "text",
+      "text": "**Limits and safety**"
+    },
+    {
+      "kind": "question",
+      "id": "hard_limits",
+      "answer": "open",
+      "optional": true,
+      "prompt": "Any hard limits — things that must never come up, in any form?",
+      "hint": "Leave blank if none. I take these literally; you can add more any time."
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/limits.json",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    },
+    {
+      "kind": "text",
+      "text": "**How I should treat you**\n\nThese answers shape my tone, my demands, and my language from the first session on."
+    },
+    {
+      "kind": "question",
+      "id": "tone",
+      "answer": "choice",
+      "prompt": "What tone should I usually take with you?",
+      "choices": [
+        "Sweet & encouraging",
+        "Strict & firm",
+        "Mean & humiliating",
+        "A mix — read my mood"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "autonomy",
+      "answer": "choice",
+      "prompt": "How much should I decide for you, versus ask first?",
+      "choices": [
+        "Decide for me — don't ask",
+        "Decide day-to-day things, ask before big changes",
+        "Always propose — I decide"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "escalation",
+      "answer": "choice",
+      "prompt": "May I turn up the intensity over time?",
+      "choices": [
+        "Only with my explicit OK each time",
+        "Small steps on your own, big ones with my OK",
+        "Freely — within my limits, surprise me"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "pushiness",
+      "answer": "rating",
+      "min": 1,
+      "max": 10,
+      "prompt": "When I hesitate, resist, or make excuses — how hard should I push? (1 = gentle and patient, 10 = relentless and coercive)"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/behavior.json",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/role_assistant.json",
+      "showIf": {
+        "all": [
+          { "id": "depth", "notEquals": "Light — just the essentials" },
+          { "part": "role_assistant" }
+        ]
+      }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/role_molder.json",
+      "showIf": {
+        "all": [
+          { "id": "depth", "notEquals": "Light — just the essentials" },
+          { "part": "role_molder" }
+        ]
+      }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/role_trainer.json",
+      "showIf": {
+        "all": [
+          { "id": "depth", "notEquals": "Light — just the essentials" },
+          { "part": "role_trainer" }
+        ]
+      }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/role_roleplay.json",
+      "showIf": {
+        "all": [
+          { "id": "depth", "notEquals": "Light — just the essentials" },
+          { "part": "role_roleplay" }
+        ]
+      }
+    },
+    {
+      "kind": "text",
+      "text": "**Almost done**\n\nYour agent reads every answer before your first conversation — honesty here saves time there. Anything you skip can be shared in chat later."
+    },
+    {
+      "kind": "question",
+      "id": "anything_else",
+      "answer": "open",
+      "optional": true,
+      "prompt": "Anything else your agent should know before you start?",
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+    }
   ]
 }

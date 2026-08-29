@@ -1,0 +1,43 @@
+[
+  {
+    "kind": "question",
+    "id": "limits_common",
+    "answer": "choice",
+    "multiple": true,
+    "optional": true,
+    "prompt": "Flag anything that's off the table for now:",
+    "hint": "Tap everything I must avoid. Limits can move later — that's your call, not mine.",
+    "choices": [
+      "Pain or CBT",
+      "Anal play",
+      "Public play",
+      "Photos of me",
+      "Spending money",
+      "Long-term denial"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "safeword",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Do you want a safeword?",
+    "hint": ""
+  },
+  {
+    "kind": "question",
+    "id": "health_notes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Anything physical or mental I should factor in? (injuries, medication, stress, dysphoria triggers…)",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+  },
+  {
+    "kind": "question",
+    "id": "never_say",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Anything I should never say or joke about — words, topics, triggers?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+  }
+]

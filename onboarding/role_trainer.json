@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your trainer**\n\nThese answers shape how your trainer runs you from the very first session."
+  },
+  {
+    "kind": "question",
+    "id": "trainer_secrecy",
+    "answer": "choice",
+    "prompt": "Should I share my plans for you, or keep you guessing?",
+    "choices": [
+      "Show me your plans",
+      "Keep me guessing",
+      "Tell me the theme, hide the details"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_motivation",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What should motivate you most?",
+    "choices": [
+      "Rewards — points, treats, privileges",
+      "Praise and validation",
+      "Teasing and denial",
+      "Punishments and consequences",
+      "Being reminded of my place"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_style",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "How should your trainer run your day to day?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Short, direct commands",
+      "Detailed instructions & checklists",
+      "Regular check-ins on how I feel",
+      "Holding me accountable for everything",
+      "Surprise tasks — unpredictability keeps me eager"
+    ]
+  }
+]

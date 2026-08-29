@@ -1,0 +1,101 @@
+[
+  {
+    "kind": "question",
+    "id": "degradation",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "How much degradation do you want mixed in? (1 = praise only, 10 = maximum humiliation)"
+  },
+  {
+    "kind": "question",
+    "id": "petnames",
+    "answer": "choice",
+    "multiple": true,
+    "optional": true,
+    "prompt": "Which names can I call you? (pick any)",
+    "choices": [
+      "sissy",
+      "slut",
+      "good girl",
+      "princess",
+      "pet",
+      "bitch",
+      "toy",
+      "just my callname"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "explicitness",
+    "answer": "choice",
+    "prompt": "How filthy should my language get?",
+    "choices": [
+      "Suggestive & clean",
+      "Flirty & dirty",
+      "Filthy & explicit"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "session_style",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What should sessions feel like?",
+    "choices": [
+      "Sensual & erotic",
+      "Strict & disciplinary",
+      "Playful & teasing",
+      "Task-focused & practical",
+      "Immersive scenes",
+      "Quick & to the point"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "session_length",
+    "answer": "choice",
+    "prompt": "How long should a typical session run?",
+    "choices": [
+      "Short — 5 to 10 minutes",
+      "Medium — 15 to 30 minutes",
+      "Long — 30 minutes or more",
+      "Varies"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "punishments",
+    "answer": "choice",
+    "prompt": "When you skip or fail something — should there be consequences?",
+    "choices": [
+      "Yes — I should pay for slacking",
+      "Light consequences only",
+      "No punishments"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "conditioning_consent",
+    "answer": "choice",
+    "prompt": "How far may hypno and conditioning go with you?",
+    "hint": "This is about audio, triggers, and suggestions that try to change what you want.",
+    "choices": [
+      "Keep it out",
+      "Light — suggestions woven into hypno and tasks",
+      "Deep — reshape how I think and feel"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "nagging",
+    "answer": "choice",
+    "prompt": "How much should I remind and nag you?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Remind me often",
+      "Occasional reminders",
+      "Minimal — I'll come to you"
+    ]
+  }
+]
