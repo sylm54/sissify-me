@@ -47,8 +47,9 @@
     },
     "choices": [
       "You decide every lockup",
-      "We agree durations — you enforce them",
-      "Locked during sessions only"
+      "We set durations together — you may push for longer",
+      "We set durations — you enforce them",
+      "Lockups only when we play"
     ]
   },
   {
@@ -70,38 +71,105 @@
         { "id": "interests", "includes": "Conditioning & brainwashing" }
       ]
     },
-    "choices": ["Never tried it", "Listened to hypno before", "I already have triggers"]
-  },
-  {
-    "kind": "question",
-    "id": "exposure_channels",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "If you post yourself, where would that be okay?",
-    "showIf": { "id": "interests", "includes": "Online exposure" },
     "choices": [
-      "Sissy & fetish forums",
-      "Porn sites",
-      "Fetish social media",
-      "Anonymous only — never my face",
-      "Advise me"
+      "Never tried it",
+      "Listened to hypno — no real effects",
+      "Listened — and I've felt it work on me",
+      "I already have triggers"
     ]
   },
   {
     "kind": "question",
-    "id": "gear",
-    "answer": "choice",
-    "multiple": true,
+    "id": "triggers_existing",
+    "answer": "open",
     "optional": true,
-    "prompt": "What do you already own? (a rough idea is enough)",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "prompt": "Tell me about the triggers you already have — the words or phrases, what they do to you, and how they were installed.",
+    "showIf": { "id": "triggers_experience", "equals": "I already have triggers" }
+  },
+  {
+    "kind": "question",
+    "id": "hypno_effects",
+    "answer": "open",
+    "optional": true,
+    "prompt": "How has hypno affected you — what's changed in your thoughts, moods, or habits, and what do you respond best to?",
+    "hint": "Themes, voices, pacing, induction style — anything that lands or doesn't.",
+    "showIf": {
+      "any": [
+        { "id": "triggers_experience", "equals": "Listened — and I've felt it work on me" },
+        { "id": "triggers_experience", "equals": "I already have triggers" }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "hypno_length",
+    "answer": "choice",
+    "prompt": "When you settle into hypno, how long should the tracks run?",
+    "showIf": {
+      "all": [
+        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        {
+          "any": [
+            { "id": "interests", "includes": "Hypno & triggers" },
+            { "id": "interests", "includes": "Conditioning & brainwashing" }
+          ]
+        }
+      ]
+    },
     "choices": [
-      "A cage",
-      "Plugs & toys",
-      "Wigs",
-      "Makeup",
-      "Feminine clothes",
-      "Nothing yet"
+      "Short — 5 to 10 minutes",
+      "Medium — 20 to 30 minutes",
+      "Long — an hour or more",
+      "Start short and grow longer"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "exposure_degree",
+    "answer": "choice",
+    "prompt": "If you posted yourself — how exposed could you be, at most?",
+    "showIf": {
+      "all": [
+        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "interests", "includes": "Online exposure" }
+      ]
+    },
+    "choices": [
+      "Anonymous — never face or anything identifying",
+      "Face visible, identity stays hidden",
+      "Fully exposed — face and identity",
+      "Start hidden, escalate over time"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "exposure_eagerness",
+    "answer": "choice",
+    "prompt": "And how close are you to actually posting?",
+    "showIf": {
+      "all": [
+        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "interests", "includes": "Online exposure" }
+      ]
+    },
+    "choices": [
+      "Already post somewhere",
+      "Ready — I just need the push",
+      "Want to want it — corrupt me into it",
+      "Fantasy only, for now"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "exposure_conditions",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What would have to happen — or never happen — for posting to feel okay to you?",
+    "showIf": {
+      "all": [
+        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "interests", "includes": "Online exposure" }
+      ]
+    }
   }
 ]

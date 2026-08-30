@@ -37,6 +37,25 @@
     },
     {
       "kind": "question",
+      "id": "petnames",
+      "answer": "choice",
+      "multiple": true,
+      "optional": true,
+      "prompt": "And which pet names may I use for you? (pick any)",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "choices": [
+        "sissy",
+        "slut",
+        "good girl",
+        "princess",
+        "pet",
+        "bitch",
+        "toy",
+        "none — just my name"
+      ]
+    },
+    {
+      "kind": "question",
       "id": "pronouns",
       "answer": "choice",
       "multiple": true,
@@ -134,15 +153,60 @@
     },
     {
       "kind": "question",
-      "id": "end_goal",
+      "id": "end_goal_sure",
       "answer": "choice",
-      "prompt": "And how far does the road go, in your ideal future?",
+      "prompt": "Setting fantasy aside: how far do you want this in real life — the level you're sure about?",
+      "hint": "Your floor: the life you'd commit to today.",
       "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
       "choices": [
         "Curious exploration",
         "A part-time sissy life",
         "A full sissy lifestyle",
         "Total transformation"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "end_goal_stretch",
+      "answer": "choice",
+      "prompt": "And where does it get uncertain — a level above that which pulls at you, even if you're not sure about it?",
+      "hint": "Your stretch zone. It's fine to want something and still be unsure of it.",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "choices": [
+        "No stretch zone — I'm sure where I stand",
+        "Curious exploration",
+        "A part-time sissy life",
+        "A full sissy lifestyle",
+        "Total transformation"
+      ]
+    },
+    {
+      "kind": "question",
+      "id": "end_goal_unsure_why",
+      "answer": "open",
+      "optional": true,
+      "prompt": "What makes that stretch uncertain — the reasons pulling you back from it?",
+      "hint": "Practical, emotional, whatever they are — these are the lines I shouldn't stumble into.",
+      "showIf": {
+        "all": [
+          { "id": "depth", "notEquals": "Light — just the essentials" },
+          { "id": "end_goal_stretch", "notEquals": "No stretch zone — I'm sure where I stand" }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "id": "end_goal_ceiling",
+      "answer": "choice",
+      "multiple": true,
+      "optional": true,
+      "prompt": "And is there a level you're sure you do NOT want, however far off?",
+      "hint": "These are levels I should never push you toward, even as a stretch.",
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+      "choices": [
+        "A full sissy lifestyle",
+        "Total transformation",
+        "No — nothing is off the table in principle"
       ]
     },
     {
@@ -196,6 +260,7 @@
         "Sweet & encouraging",
         "Strict & firm",
         "Mean & humiliating",
+        "Playful & humiliating",
         "A mix — read my mood"
       ]
     },
@@ -206,6 +271,7 @@
       "prompt": "How much should I decide for you, versus ask first?",
       "choices": [
         "Decide for me — don't ask",
+        "Talk it through with me — but you decide",
         "Decide day-to-day things, ask before big changes",
         "Always propose — I decide"
       ]

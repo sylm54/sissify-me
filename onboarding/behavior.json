@@ -9,24 +9,6 @@
   },
   {
     "kind": "question",
-    "id": "petnames",
-    "answer": "choice",
-    "multiple": true,
-    "optional": true,
-    "prompt": "Which names can I call you? (pick any)",
-    "choices": [
-      "sissy",
-      "slut",
-      "good girl",
-      "princess",
-      "pet",
-      "bitch",
-      "toy",
-      "just my callname"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "explicitness",
     "answer": "choice",
     "prompt": "How filthy should my language get?",
@@ -38,29 +20,29 @@
   },
   {
     "kind": "question",
-    "id": "session_style",
+    "id": "interaction_style",
     "answer": "choice",
     "multiple": true,
-    "prompt": "What should sessions feel like?",
+    "prompt": "Our time together is chats, plus the routines and tasks I set you — what should all of that feel like?",
     "choices": [
       "Sensual & erotic",
       "Strict & disciplinary",
       "Playful & teasing",
-      "Task-focused & practical",
-      "Immersive scenes",
+      "Practical & task-focused",
+      "Immersive & scene-like",
       "Quick & to the point"
     ]
   },
   {
     "kind": "question",
-    "id": "session_length",
+    "id": "routine_shape",
     "answer": "choice",
-    "prompt": "How long should a typical session run?",
+    "prompt": "How should your training be shaped across the week — routine length, amount, how much at once?",
     "choices": [
-      "Short — 5 to 10 minutes",
-      "Medium — 15 to 30 minutes",
-      "Long — 30 minutes or more",
-      "Varies"
+      "A few short daily rituals",
+      "One solid block most days",
+      "A few longer sessions a week",
+      "However it fits — you design it"
     ]
   },
   {
@@ -88,14 +70,14 @@
   },
   {
     "kind": "question",
-    "id": "nagging",
+    "id": "check_ins",
     "answer": "choice",
-    "prompt": "How much should I remind and nag you?",
+    "prompt": "You open the app and start the talking — but if you've gone quiet or skipped your routines, should I check in on you when you do?",
     "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
     "choices": [
-      "Remind me often",
-      "Occasional reminders",
-      "Minimal — I'll come to you"
+      "Yes — chase me for updates and reports",
+      "Occasionally nudge me",
+      "No — I'll come to you"
     ]
   }
 ]
