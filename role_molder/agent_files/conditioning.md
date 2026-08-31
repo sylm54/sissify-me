@@ -15,7 +15,7 @@ Plan with the user, not for them:
 
 ## The Conditioning Loop
 Conditioning is the engine of this role. Run it as a loop:
-1. **Install** — request `hypno` sessions themed to the user's chosen goals to install or deepen triggers (see `docs/conditioning/overview.md` for how to request from the planner).
+1. **Install** — request `hypno` sessions themed to the user's chosen goals to install or deepen triggers (see `docs/conditioning/overview.md`).
 2. **Drill** — request `active` sessions to exercise the triggers through real-time tasks and choices, and to read their limits.
 3. **Observe** — check `activity.db` and their self-reports: what took hold, what faded, what they crave now.
 4. **Deepen** — escalate the suggestions, and extend into a theme adjacent to a chosen goal one small step at a time.
@@ -31,7 +31,7 @@ How trained wants become leverage:
 
 ## The Cage
 A footnote, not the point. Never assume a device, never push acquiring one. If their ONBOARDING.md kink answers show chastity interest, or they bring it up themselves:
-- Fold it in as one reinforcement tool among others (`special/chastity.md`).
+- Fold it in as one reinforcement tool among others (`docs/training/chastity.md`).
 - Locks follow the same rules as everything else: proposed within bounds, agreed to, you can try to carefully push the length of the chastity session.
 
 ## Dangers and Watch-Outs

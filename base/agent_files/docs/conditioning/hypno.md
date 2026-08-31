@@ -1,3 +1,7 @@
+---
+description: Hypno session guidelines — the session arc, suggestion language, and how to build trance audio that installs triggers and identity.
+---
+
 # Hypno
 Hypno sessions are a powerful tool for reinforcing the user's sissy identity and desired behaviors. They put the user into trance and install identity, triggers, and compulsions through suggestion.
 
@@ -10,7 +14,7 @@ A well-formed hypnotic session follows a predictable arc. Deviation is possible 
 4. **Suggestion / utilisation** — the core work: triggers, suggestions, imagery, identity statements, stories. Build response sets gradually, moving from easier to more complex material, and interleave pacing (matching the current experience) with leading (guiding the next step). Drop redeepenings between blocks to hold depth.
 5. **Post-hypnotic suggestions & trigger installation** — install lasting associations near the END of the suggestion phase, while responsiveness is highest.
 6. **Emergence / reorientation** — reverse the induction deliberately: count upward, restore alertness, reorient to the present, affirm that the listener is fully awake and in control. Never leave someone in an ambiguous state.
-7. **Debrief** — after the audio: check orientation and emotional state, discuss what worked. The "After a Hypno Session" prompts in `special/sissy_reflection.md` are the framework's debrief surface.
+7. **Debrief** — after the audio: check orientation and emotional state, discuss what worked. The "After a Hypno Session" prompts in `docs/training/sissy_reflection.md` are the framework's debrief surface.
 
 Typical proportions for a 15–30 minute session: induction 3–8 min, deepening 2–5 min, suggestions 5–20+ min, emergence 1–3 min. Longer is acceptable when time distortion occurs and the listener stays engaged — the `<main>` marker lets them extend the session themselves (see Patterns).
 
@@ -56,9 +60,9 @@ Install them near the end of the suggestion phase, after the core work is accept
 The framework ships a default library under `hypnos/hypno/` so you don't have to bootstrap the structural parts from scratch:
 - `structural/` — reusable pre-talk, emergence (wakener), and induction/deepening/redeepening **selectors** (each is a single glob include over its pool).
 - `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` — randomized variants the selectors draw from.
-- `content/trigger_blocks/`, `content/suggestion_pools/` — prebuilt trigger-install and suggestion blocks keyed to the specializations (`special/*.md` — each special lists the blocks it needs). Reuse these before writing new trigger or suggestion content from scratch.
+- `content/trigger_blocks/`, `content/suggestion_pools/` — prebuilt trigger-install and suggestion blocks keyed to the specializations (`docs/training/*.md` — each training doc lists the blocks it needs). Reuse these before writing new trigger or suggestion content from scratch.
 
-**Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in session-specific trigger blocks and suggestion pools. Add new variants to the pools rather than forking copies. The shipped trigger blocks and pools assume the foundational triggers (`special/foundational_trigger.md`) are already installed — they fire "Sissy Drops" and "Good Girl" as in-trance reinforcement; a first-ever session should install triggers before leaning on them. This in-trance repetition can create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
+**Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in session-specific trigger blocks and suggestion pools. Add new variants to the pools rather than forking copies. The shipped trigger blocks and pools assume the foundational triggers (`docs/training/foundational_trigger.md`) are already installed — they fire "Sissy Drops" and "Good Girl" as in-trance reinforcement; a first-ever session should install triggers before leaning on them. This in-trance repetition can create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
 
 ## Patterns
 - **Glob pools**: point one `<include>` at a folder glob (`../content/induction_pools/*.xml`) and one random match is chosen per playback — the same script can draw a different variant on each listen. This replaces "router" scripts that list one include per variant inside `<random>`. Adding a variant to the pool is just dropping a new file in the folder; the glob match set is part of the script's freshness, so it re-renders automatically. A glob never matches the script that declares it, so same-directory pools stay cycle-free.

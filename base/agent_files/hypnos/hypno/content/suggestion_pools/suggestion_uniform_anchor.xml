@@ -1,7 +1,7 @@
 <!-- Suggestion pool: post-hypnotic uniform anchor — the touch of the chosen anchor garment
      switches on the sissy persona. Deliberately generic ("your uniform", "the fabric", "the
      softness against your skin") so it applies to whatever item was chosen.
-     Pairs with the special/uniform.md anchoring protocol. -->
+     Pairs with the docs/training/uniform.md anchoring protocol. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_delta' frequency='120' volume='0.25'/>
   <random>

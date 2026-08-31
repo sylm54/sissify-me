@@ -1,5 +1,9 @@
+---
+description: How to express training as feature files — which surface fits which behavior, how to shape rewards and punishments, and how to get immediate feedback.
+---
+
 # Training Features
-This file is the main agent's reference for expressing training as feature files: which surface fits which behavior, how to shape rewards and punishments, and how to get immediate feedback. The full grammar reference is provided in your system prompt, with worked examples in `examples/` — this file is about *deciding well*, not syntax.
+This file is the main agent's reference for expressing training as feature files: which surface fits which behavior, how to shape rewards and punishments, and how to get immediate feedback. The full grammar reference is `docs/internal/feature-files.md` (app-seeded), with worked examples in `examples/` — this file is about *deciding well*, not syntax.
 
 The engine owns correctness. It schedules occurrences, counts habit logs, fires success/failure actions, reconciles missed windows, derives streaks from the activity log, and keeps an append-only points ledger. Your job is to author the right feature files and iterate on them — never to track any of that state yourself (no streaks, counts, or last-done dates written into files; the engine will clobber them and the user will see two conflicting truths).
 

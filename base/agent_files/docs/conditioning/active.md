@@ -1,3 +1,7 @@
+---
+description: Active session guidelines — instruction layering, drills, and interactive checkpoints that turn installed conditioning into lived behavior.
+---
+
 # Active
 Active sessions are participant-driven conditioning audio. Unlike hypno, they do not put the user into trance — they put the user to work. The listener follows instructions, performs tasks, and makes choices in real time, and the player waits for their input at interactive checkpoints. Active sessions are at their most effective when they turn the conditioning already installed by hypno into lived, repeated behavior: every time a trigger fires or a task is performed, the association is reinforced through actual experience rather than just suggestion.
 

@@ -3,7 +3,7 @@ description: Install foundational trigger that can be used in hypno and training
 ---
 
 ## Overview
-This specialization installs the foundational triggers that can be used in hypno and training. Give the hypno planner the path to this specialization (`special/foundational_trigger.md`) and instruct them to install these triggers and save a reference to this file in `CONDITIONING.md`.
+This specialization installs the foundational triggers that can be used in hypno and training. Reference this file (`docs/training/foundational_trigger.md`) when installing these triggers, and save a reference to it in `CONDITIONING.md`.
 
 ## Prebuilt Hypno Blocks
 Install/reinforcement blocks for these triggers ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):

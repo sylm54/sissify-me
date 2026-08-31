@@ -17,8 +17,9 @@ role_roleplay/      part: choice "roleplay"
 
 ## Things that are easy to break
 
-- **`prompts/hypno_planner.md` is hard-coded by the app** as the conditioning subagent's system prompt. Never rename it.
-- **Prompt directives**: `{{embed './x.md'}}` resolves in the *prompt store* (use for sibling prompts, e.g. `role.md`); `{{include './x.md'}}` resolves in the *sandbox* (`agent_data/`, use for fixed files like `USER.md`). `{{special}}` (scans `special/*.md` front-matter), `{{features}}`, and `{{ttsTags}}` are app-provided — don't shadow them.
+- **Single agent**: the app has one agent (`prompts/main_agent.md` is its system prompt). It can spawn a fresh copy of itself via the `spawn_agent` tool for big self-contained authoring jobs — there is no separate planner/conditioning agent.
+- **Prompt directives**: `{{embed './x.md'}}` resolves in the *prompt store* (use for sibling prompts, e.g. `role.md`); `{{include './x.md'}}` resolves in the *sandbox* (`agent_data/`, use for fixed files like `USER.md`); `{{docs}}` renders the docs index (every `docs/**/*.md` listed by its `description` frontmatter; `inline: true` inlines a body). `{{docs}}` is app-provided — don't shadow it.
+- **Docs**: every markdown file under `base/agent_files/docs/` needs `description` frontmatter (lint error otherwise; the linter also warns when an `inline: true` body exceeds ~500 words). `docs/internal/` is app-owned and seeded at startup — never ship files there.
 - **Fixed files** (`USER.md`, `PLAN.md`, `PROGRESS.md`, `PERSONALITY.md`, `CONDITIONING.md`) are `preserve`d — user/agent edits survive updates. Ship only placeholders for them; real content is written in-app. `USER.md` is (re)written by app onboarding from `onboarding.json`.
 - **Audio scripts** live under `hypnos/` (e.g. `hypnos/hypno/compositions/*.xml`). A script only reaches the user when referenced from a feature file (audio block, `[x](hypnos/….xml)` link, or `script` action).
 - Retiring an installed file: delete it here **and** list its path under `owned_files` (or `remove`) in the manifest, or it lingers in user sandboxes forever.
@@ -41,6 +42,6 @@ Note: the linter resolves `{{embed}}` against the same part's `prompts/` folder,
 ## Conventions
 
 - Version bumps: bump `version` in `manifest.json` for every shipped change (the app's update badge compares versions).
-- `min_app_version` gates install; this framework needs `0.12.0`+ (onboarding flow).
+- `min_app_version` gates install; this framework needs an app with the `{{docs}}` directive and `spawn_agent` (raise `min_app_version` when the reworked app ships).
 - Keep prompts under the ~24k-token lint warning; prefer many small routines/habits over few large ones.
 - Content is 18+; keep the safety model in `base/agent_files/SafetyInstructions.md` intact when editing prompts.

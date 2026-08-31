@@ -127,4 +127,4 @@ Watch `activity.db` for the real signal: logged habits, completed sessions, and 
 - **chastity** — lock status pairs naturally with chore routines (a `chastity` feature block verifies they're locked before the session unlocks).
 - **brainwashing** / **sissy_mindset** — mantras and thought loops become `min` habits here, counted daily.
 - **sissy_reflection** — aim reflection prompts at the corruption itself: how chores now feel, what they notice missing from their old life.
-- **hypno_planner** — request the audio layer (chore drills, loop-with-suggestions) that routines reference.
+- **conditioning docs** — build the audio layer (chore drills, loop-with-suggestions) that routines reference; see `docs/conditioning/authoring.md`.
