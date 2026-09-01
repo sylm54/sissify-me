@@ -26,14 +26,16 @@ my-framework/
 ├─ onboarding.json    ← optional: deterministic first-run questions
 ├─ base/              ← always installed
 │   ├─ prompts/       ← → the app's prompt store (main_agent.md is the entry point)
-│   └─ agent_files/   ← → the agent's sandbox root (routines/, habits/, tasks/,
-│                         store/, hypnos/ … plus files like USER.md)
+│   └─ agent_files/   ← → the agent's sandbox root (docs/, routines/, habits/,
+│                         tasks/, store/, hypnos/ … plus files like USER.md)
 └─ my_part/           ← optional parts, selected via config.json choices
     ├─ prompts/
     └─ agent_files/
 ```
 
-Rules: `base/` first, then each selected part; later parts win on overlap. On a same-id update, `owned_files` globs prune files the new version dropped (unless `preserve`d); `remove` globs always apply. `{{include './FILE.md'}}` in a prompt inlines sandbox files; `{{embed ...}}` inlines sibling prompts; the app also provides `{{features}}` (feature-file docs) and `{{ttsTags}}` (XML authoring docs) to prompts.
+Rules: `base/` first, then each selected part; later parts win on overlap. On a same-id update, `owned_files` globs prune files the new version dropped (unless `preserve`d); `remove` globs always apply. `{{include './FILE.md'}}` in a prompt inlines sandbox files; `{{embed ...}}` inlines sibling prompts; `{{docs}}` renders the reference-docs surface.
+
+**Docs**: every markdown file under the sandbox's `docs/` is surfaced to the agent by `{{docs}}` — a tree-structured index (path + `description` frontmatter) with bodies read on demand via `read_file`. Required frontmatter: `description` (one line, shown in the index). Optional: `inline: true` inlines the body into the system prompt (for short always-needed maps; keep under ~500 words — the linter warns above that). `docs/internal/` is app-owned (feature grammar, TTS tag reference, builtins, feedback semantics) — seeded by the app at startup; frameworks must not ship there (lint error). The app also seeds `examples/` with worked feature files.
 
 ## The feature-file grammar (FORMAT.md, abridged)
 
@@ -61,7 +63,7 @@ Full spec: FORMAT.md in the train-me repo. Worked examples: `examples/` seeded i
 
 **TTS XML scripts** — the full tag reference (all tags, attributes, sound/tone/effect values, the `@` expression language, and a worked example) lives in [tts-tags.md](tts-tags.md) next to this file. Read it when authoring or editing `.xml` audio scripts.
 
-**onboarding.json** — a bare item array, or `{output, items}` (`output` = sandbox-relative answer-file path, default `USER.md`). Items: `{kind: "text", text, showIf?}`, `{kind: "question", id, answer: open|choice|rating, prompt, choices?, multiple?, min?/max?, hint?, optional?, showIf?}`, and `{kind: "include", src, showIf?}` — includes splice a subfile's item array (framework-root-relative `src`, must not escape; cycles rejected; the include's `showIf` is ANDed onto each spliced item). `showIf` conditions reference answers of questions *above* (`{id, equals/notEquals/includes/min/max/answered}`) and installed parts (`{part, installed?}` — part names validated against config.json choices), plus `all`/`any`/`not`. The questionnaire runs once, as the final wizard step after install (never re-asked later); `optional: true` questions may be skipped (skips render nothing). The generated answer file is one bold-prompt line per answered question; choice answers also list the declined options and flag multi-select.
+**onboarding.json** — a bare item array, or `{output, items}` (`output` = sandbox-relative answer-file path, default `USER.md`). Items: `{kind: "text", text, showIf?}`, `{kind: "question", id, answer: open|choice|rating, prompt, choices?, multiple?, min?/max?, hint?, optional?, showIf?}`, and `{kind: "include", src, showIf?}` — includes splice a subfile's item array (framework-root-relative `src`, must not escape; cycles rejected; the include's `showIf` is ANDed onto each spliced item). `showIf` conditions reference answers of questions *above* (`{id, equals/notEquals/includes/min/max/answered}`) and installed parts (`{part, installed?}` — part names validated against config.json choices), plus `all`/`any`/`not`. The questionnaire runs once, as the final wizard step after install (never re-asked later); `optional: true` questions may be skipped (skips render nothing). The generated answer file is one bold-prompt line per answered question; choice answers also list the declined options and flag multi-select. Non-`open` questions offer an optional free-text clarification, stored under the reserved `note:<id>` answer key and appended to the answer's line (`— note: "…"`, dropped when the question is skipped/hidden) — question ids must not start with `note:`.
 
 Always run the linter after editing — it catches dangling refs, invalid durations/cron/actions, missing `format: 2`, broken `<include>` trees, and showIf forward references.
 
