@@ -23,7 +23,8 @@
     "id": "interaction_style",
     "answer": "choice",
     "multiple": true,
-    "prompt": "Our time together is chats, plus the routines and tasks I set you — what should all of that feel like?",
+    "prompt": "Beyond tone — what should our chats, routines, and tasks feel like as a whole?",
+    "hint": "This sets the atmosphere of everything we do together: 'Practical & task-focused' means clear instruction over teasing; 'Immersive & scene-like' means building scenarios around you and staying in them. Pick all that appeal.",
     "choices": [
       "Sensual & erotic",
       "Strict & disciplinary",
@@ -31,29 +32,6 @@
       "Practical & task-focused",
       "Immersive & scene-like",
       "Quick & to the point"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "routine_shape",
-    "answer": "choice",
-    "prompt": "How should your training be shaped across the week — routine length, amount, how much at once?",
-    "choices": [
-      "A few short daily rituals",
-      "One solid block most days",
-      "A few longer sessions a week",
-      "However it fits — you design it"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "punishments",
-    "answer": "choice",
-    "prompt": "When you skip or fail something — should there be consequences?",
-    "choices": [
-      "Yes — I should pay for slacking",
-      "Light consequences only",
-      "No punishments"
     ]
   },
   {
@@ -66,18 +44,6 @@
       "Keep it out",
       "Light — suggestions woven into hypno and tasks",
       "Deep — reshape how I think and feel"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "check_ins",
-    "answer": "choice",
-    "prompt": "You open the app and start the talking — but if you've gone quiet or skipped your routines, should I check in on you when you do?",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
-    "choices": [
-      "Yes — chase me for updates and reports",
-      "Occasionally nudge me",
-      "No — I'll come to you"
     ]
   }
 ]

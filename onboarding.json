@@ -78,6 +78,15 @@
     },
     {
       "kind": "question",
+      "id": "body_shape",
+      "answer": "open",
+      "optional": true,
+      "prompt": "Describe your body as it is now — your build, and measurements if you know them (height, weight, chest, waist, hips) — and how you feel about your shape.",
+      "hint": "A rough self-assessment is fine; exact numbers aren't required. This grounds body and shaping goals in where you actually are.",
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+    },
+    {
+      "kind": "question",
       "id": "time_daily",
       "answer": "choice",
       "prompt": "How much time can you realistically give this on an ordinary day?",
@@ -202,7 +211,12 @@
       "optional": true,
       "prompt": "And is there a level you're sure you do NOT want, however far off?",
       "hint": "These are levels I should never push you toward, even as a stretch.",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+      "showIf": {
+        "all": [
+          { "id": "depth", "equals": "Deep — thorough and introspective" },
+          { "id": "end_goal_sure", "notEquals": "Total transformation" }
+        ]
+      },
       "choices": [
         "A full sissy lifestyle",
         "Total transformation",
@@ -211,10 +225,18 @@
     },
     {
       "kind": "question",
-      "id": "story",
+      "id": "journey_now",
       "answer": "open",
       "optional": true,
-      "prompt": "In your own words: where are you right now on this journey, and what pulled you here?",
+      "prompt": "In your own words, where do you currently stand in your experience as a sissy, and how integrated does this side of yourself feel in ordinary daily life rather than only during arousal or play?",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    },
+    {
+      "kind": "question",
+      "id": "journey_draw",
+      "answer": "open",
+      "optional": true,
+      "prompt": "What first drew you toward this, and what continues to pull you back to it now?",
       "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
     },
     {
@@ -249,7 +271,7 @@
     },
     {
       "kind": "text",
-      "text": "**How I should treat you**\n\nThese answers shape my tone, my demands, and my language from the first session on."
+      "text": "**How I should treat you**\n\nThese answers shape my tone, my language, and my boundaries from the first session on — the role-specific ones follow in the next section."
     },
     {
       "kind": "question",
@@ -265,80 +287,24 @@
       ]
     },
     {
-      "kind": "question",
-      "id": "autonomy",
-      "answer": "choice",
-      "prompt": "How much should I decide for you, versus ask first?",
-      "choices": [
-        "Decide for me — don't ask",
-        "Talk it through with me — but you decide",
-        "Decide day-to-day things, ask before big changes",
-        "Always propose — I decide"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "escalation",
-      "answer": "choice",
-      "prompt": "May I turn up the intensity over time?",
-      "choices": [
-        "Only with my explicit OK each time",
-        "Small steps on your own, big ones with my OK",
-        "Freely — within my limits, surprise me"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "pushiness",
-      "answer": "rating",
-      "min": 1,
-      "max": 10,
-      "prompt": "When I hesitate, resist, or make excuses — how hard should I push? (1 = gentle and patient, 10 = relentless and coercive)"
-    },
-    {
       "kind": "include",
       "src": "onboarding/behavior.json",
       "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
     },
     {
       "kind": "include",
-      "src": "onboarding/role_assistant.json",
-      "showIf": {
-        "all": [
-          { "id": "depth", "notEquals": "Light — just the essentials" },
-          { "part": "role_assistant" }
-        ]
-      }
+      "src": "onboarding/role_coach.json",
+      "showIf": { "part": "role_coach" }
     },
     {
       "kind": "include",
-      "src": "onboarding/role_molder.json",
-      "showIf": {
-        "all": [
-          { "id": "depth", "notEquals": "Light — just the essentials" },
-          { "part": "role_molder" }
-        ]
-      }
+      "src": "onboarding/role_guide.json",
+      "showIf": { "part": "role_guide" }
     },
     {
       "kind": "include",
       "src": "onboarding/role_trainer.json",
-      "showIf": {
-        "all": [
-          { "id": "depth", "notEquals": "Light — just the essentials" },
-          { "part": "role_trainer" }
-        ]
-      }
-    },
-    {
-      "kind": "include",
-      "src": "onboarding/role_roleplay.json",
-      "showIf": {
-        "all": [
-          { "id": "depth", "notEquals": "Light — just the essentials" },
-          { "part": "role_roleplay" }
-        ]
-      }
+      "showIf": { "part": "role_trainer" }
     },
     {
       "kind": "text",

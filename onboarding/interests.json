@@ -91,8 +91,7 @@
     "id": "hypno_effects",
     "answer": "open",
     "optional": true,
-    "prompt": "How has hypno affected you — what's changed in your thoughts, moods, or habits, and what do you respond best to?",
-    "hint": "Themes, voices, pacing, induction style — anything that lands or doesn't.",
+    "prompt": "How has hypno affected you — what's changed in your thoughts, moods, or habits?",
     "showIf": {
       "any": [
         { "id": "triggers_experience", "equals": "Listened — and I've felt it work on me" },
@@ -102,26 +101,17 @@
   },
   {
     "kind": "question",
-    "id": "hypno_length",
-    "answer": "choice",
-    "prompt": "When you settle into hypno, how long should the tracks run?",
+    "id": "hypno_response",
+    "answer": "open",
+    "optional": true,
+    "prompt": "And what do you respond best to?",
+    "hint": "Themes, voices, pacing, induction style — anything that lands or doesn't.",
     "showIf": {
-      "all": [
-        { "id": "depth", "equals": "Deep — thorough and introspective" },
-        {
-          "any": [
-            { "id": "interests", "includes": "Hypno & triggers" },
-            { "id": "interests", "includes": "Conditioning & brainwashing" }
-          ]
-        }
+      "any": [
+        { "id": "triggers_experience", "equals": "Listened — and I've felt it work on me" },
+        { "id": "triggers_experience", "equals": "I already have triggers" }
       ]
-    },
-    "choices": [
-      "Short — 5 to 10 minutes",
-      "Medium — 20 to 30 minutes",
-      "Long — an hour or more",
-      "Start short and grow longer"
-    ]
+    }
   },
   {
     "kind": "question",

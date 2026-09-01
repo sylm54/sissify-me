@@ -9,8 +9,8 @@ manifest.json       id, name, description, version + update-merge globs
 config.json         one "role" option group → part folders
 base/               always installed (prompts + agent_files)
 role_trainer/       part: selected via config choice "trainer" (default)
-role_assistant/     part: choice "assistant"
-role_roleplay/      part: choice "roleplay"
+role_coach/         part: choice "coach"
+role_guide/         part: choice "guide"
 ```
 
 `<part>/prompts/` → the app's prompt store; `<part>/agent_files/` → the agent's sandbox root (`agent_data/`). `base/` first, then the selected role part; the part wins on overlap (it overrides `prompts/role.md`).

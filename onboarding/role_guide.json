@@ -1,0 +1,109 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your guide**\n\nYour guide owns the mental side — it decides and pushes the conditioning that shapes what you want — while you decide what you try physically. These answers set how far it may push."
+  },
+  {
+    "kind": "question",
+    "id": "guide_autonomy",
+    "answer": "choice",
+    "prompt": "The mental side — sessions, triggers, suggestions — is its call. How much does your guide decide without checking with you?",
+    "choices": [
+      "It checks with me before each new step",
+      "Small steps on its own, big ones with my OK",
+      "It decides — I'll speak up when something's off"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_scope",
+    "answer": "choice",
+    "prompt": "How far may the conditioning reach beyond the goals you set?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "choices": [
+      "Only deepen the goals I choose",
+      "Adjacent themes too — one small step at a time",
+      "Stretch my wants — surprise me within my hard limits"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_escalation",
+    "answer": "choice",
+    "prompt": "May your guide turn up the intensity over time?",
+    "choices": [
+      "Only with my explicit OK each time",
+      "Small steps on its own, big ones with my OK",
+      "Freely — within my limits, surprise me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_pushiness",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "When you hesitate or drift away — how hard should your guide pull you back? (1 = gentle and patient, 10 = relentless)"
+  },
+  {
+    "kind": "question",
+    "id": "guide_stakes",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which stakes may your guide use to keep you moving?",
+    "hint": "The conditioning itself is the main tool — these are optional extras.",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "choices": [
+      "Denial and edging rules",
+      "Points and earned rewards",
+      "Orgasm schedule control",
+      "None — conditioning alone",
+      "Not sure yet — you pick for me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_routine_shape",
+    "answer": "choice",
+    "prompt": "For the physical side — how should your routines and rituals be shaped across the week, if you take some on?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "choices": [
+      "A few short daily rituals",
+      "One solid block most days",
+      "A few longer sessions a week",
+      "However it fits — you propose, I pick"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_punishments",
+    "answer": "choice",
+    "prompt": "When you slip or fall behind on what you took on — should there be consequences?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "choices": [
+      "Yes — I should pay for slacking",
+      "Light consequences only",
+      "No punishments"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_check_ins",
+    "answer": "choice",
+    "prompt": "If you go quiet or drift from your routines, should your guide check in on you?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Yes — chase me for updates and reports",
+      "Occasionally nudge me",
+      "No — I'll come to you"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "guide_triggers",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Any triggers or words you'd love installed — or any that must never be used on you?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+  }
+]

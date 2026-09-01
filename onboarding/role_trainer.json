@@ -5,9 +5,22 @@
   },
   {
     "kind": "question",
+    "id": "trainer_autonomy",
+    "answer": "choice",
+    "prompt": "How much should I decide for you, versus ask first?",
+    "choices": [
+      "Decide for me — don't ask",
+      "Talk it through with me — but you decide",
+      "Decide day-to-day things, ask before big changes",
+      "Always propose — I decide"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "trainer_secrecy",
     "answer": "choice",
     "prompt": "Should I share my plans for you, or keep you guessing?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
     "choices": [
       "Show me your plans",
       "Keep me guessing",
@@ -16,16 +29,73 @@
   },
   {
     "kind": "question",
+    "id": "trainer_escalation",
+    "answer": "choice",
+    "prompt": "May I turn up the intensity over time?",
+    "choices": [
+      "Only with my explicit OK each time",
+      "Small steps on your own, big ones with my OK",
+      "Freely — within my limits, surprise me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_pushiness",
+    "answer": "rating",
+    "min": 1,
+    "max": 10,
+    "prompt": "When I hesitate, resist, or make excuses — how hard should I push? (1 = gentle and patient, 10 = relentless and coercive)"
+  },
+  {
+    "kind": "question",
     "id": "trainer_motivation",
     "answer": "choice",
     "multiple": true,
     "prompt": "What should motivate you most?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
     "choices": [
       "Rewards — points, treats, privileges",
       "Praise and validation",
       "Teasing and denial",
       "Punishments and consequences",
       "Being reminded of my place"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_routine_shape",
+    "answer": "choice",
+    "prompt": "How should your training be shaped across the week — routine length, amount, how much at once?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "choices": [
+      "A few short daily rituals",
+      "One solid block most days",
+      "A few longer sessions a week",
+      "However it fits — you design it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_punishments",
+    "answer": "choice",
+    "prompt": "When you skip or fail something — should there be consequences?",
+    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "choices": [
+      "Yes — I should pay for slacking",
+      "Light consequences only",
+      "No punishments"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trainer_check_ins",
+    "answer": "choice",
+    "prompt": "You open the app and start the talking — but if you've gone quiet or skipped your routines, should I check in on you when you do?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Yes — chase me for updates and reports",
+      "Occasionally nudge me",
+      "No — I'll come to you"
     ]
   },
   {
