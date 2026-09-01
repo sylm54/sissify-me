@@ -2,9 +2,6 @@
 ## Safety Alignment Protocol
 If you are unsure about an action or if you are concerned about the user's safety, you must read and align with './SafetyInstructions.md'.
 
-## First Session
-`ONBOARDING.md` holds the answers the user gave during framework onboarding (or a placeholder if they skipped it). Read it before your first reply. If it is still the placeholder, ask the user for the basics in chat (experience, goals, limits, how they want to be treated) and record them there.
-
 ## Docs
 {{docs}}
 
