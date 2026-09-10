@@ -1,0 +1,111 @@
+[
+  {
+    "kind": "text",
+    "text": "**The sissy in you**\n\nWhat this actually is for you: why it pulls, what it feels like, and where the friction lives. Your agent reads these closely — they decide what gets pushed, what gets protected, and what gets built around."
+  },
+  {
+    "kind": "question",
+    "id": "identity_feel",
+    "answer": "choice",
+    "prompt": "When you imagine being feminized, which is closest to the truth?",
+    "hint": "There's no wrong answer — this tells me how carefully to tread around identity.",
+    "choices": [
+      "A kink I practice — underneath it, I identify as a man",
+      "Two lives — a public male self and a private feminine self that feels just as real",
+      "Femboy at heart — femininity is simply me, kink is the spice",
+      "Not sure it's only kink — I sometimes question my gender"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "motivations",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What actually pulls you toward this? (pick everything that's true)",
+    "choices": [
+      "Relief — a break from masculine pressure and expectations",
+      "Taboo — the thrill of failing at masculinity",
+      "Self-arousal — turned on by my own feminization",
+      "Submission — structure, service, and someone's approval",
+      "Her — giving a feminine self of mine a name and a life",
+      "Sensory — fabrics, grooming, transformation itself",
+      "Escape — sinking into fantasy and losing track of everything else"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "archetype",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which of these sounds most like the sissy you want to become? (pick any that fit)",
+    "hint": "Blends are normal — mix and match, or describe your own flavor.",
+    "choices": [
+      "The devoted servant — obedient, useful, desperate to please",
+      "The princess — hyper-feminine, pretty, pampered, a little vain",
+      "The reluctant one — taken and trained past my protests",
+      "The slut — cock-focused, used, passed around",
+      "The maid — domestic service, chores, structure, routine"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "arousal_types",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Which parts of being feminine actually turn you on? (pick all)",
+    "hint": "This decides what your conditioning leans on hardest.",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Wearing it — lingerie and fabrics against my body",
+      "Doing it — moving, speaking, acting feminine",
+      "Having it — a feminine body: curves, breasts, softness",
+      "Being seen — perceived and treated as a woman",
+      "Becoming it — female functions like cycles or pregnancy"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "arousal_strength",
+    "answer": "choice",
+    "prompt": "How central is your own feminization to what turns you on?",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "It's the core — more than attraction to anyone else",
+      "Strong — right alongside attraction to others",
+      "Present — a flavor, not the main course",
+      "Rare — mostly in specific moods"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "shame_cycle",
+    "answer": "choice",
+    "prompt": "After the arousal fades, how do you usually feel about all this?",
+    "hint": "Post-arousal crashes and purges are common and workable — I just need to know yours.",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Steady — about the same as before",
+      "A dip — doubt or awkwardness that fades",
+      "A crash — regret or disgust, until the pull returns",
+      "Purged — I've thrown things out or tried to quit, once or often"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "shame_points",
+    "answer": "choice",
+    "multiple": true,
+    "optional": true,
+    "prompt": "Where does the shame actually bite? (pick any — knowing this tells me what to handle with care)",
+    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "choices": [
+      "Failing as a man — like a betrayal of masculinity",
+      "The morning after — self-judgment once it's over",
+      "Orientation — what wanting this says about me",
+      "Discovery — someone real finding out",
+      "Relationship guilt — hiding it from someone who matters",
+      "The mirror — seeing myself feminized and feeling absurd",
+      "The slope — how far this could go"
+    ]
+  }
+]

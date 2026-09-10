@@ -17,7 +17,7 @@
       "id": "depth",
       "answer": "choice",
       "prompt": "How deep should this onboarding go?",
-      "hint": "Light keeps it to the essentials, Medium adds a solid profile, Deep adds the thorough sections — interests, gear, history, and self-reflection. You can always go deeper in conversation later.",
+      "hint": "Light keeps it to the essentials, Medium adds a solid profile, Deep adds the introspective layers — what this really is for you, what turns you on about it, and where the friction lives. You can always go deeper in conversation later.",
       "choices": [
         "Light — just the essentials",
         "Medium — a solid profile",
@@ -69,11 +69,13 @@
       "id": "experience",
       "answer": "choice",
       "prompt": "How experienced are you with this side of yourself?",
+      "hint": "Where you actually are today, not where you plan to be.",
       "choices": [
-        "Brand new — mostly fantasy so far",
-        "Dabbler — occasional dressing or play",
-        "Active — a regular part of my life",
-        "Veteran — years in"
+        "Curious — mostly fantasy so far",
+        "Experimenting — trying things in private",
+        "Practicing — a regular private part of my life",
+        "In training — structure, habits, protocols",
+        "Integrated — part of my daily life, not just play"
       ]
     },
     {
@@ -224,12 +226,17 @@
       ]
     },
     {
+      "kind": "include",
+      "src": "onboarding/identity.json",
+      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    },
+    {
       "kind": "question",
       "id": "journey_now",
       "answer": "open",
       "optional": true,
       "prompt": "In your own words, where do you currently stand in your experience as a sissy, and how integrated does this side of yourself feel in ordinary daily life rather than only during arousal or play?",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
     },
     {
       "kind": "question",
@@ -237,7 +244,7 @@
       "answer": "open",
       "optional": true,
       "prompt": "What first drew you toward this, and what continues to pull you back to it now?",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
     },
     {
       "kind": "question",
