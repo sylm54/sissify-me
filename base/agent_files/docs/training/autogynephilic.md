@@ -3,7 +3,7 @@ description: Use autogynephilia to internalize sexual attraction, make the user 
 ---
 
 ## Overview
-This specialization uses autogynephilia to internalize sexual attraction, guiding the user to imagine themselves as the feminine subject in erotic content rather than an external observer.
+This specialization uses autogynephilia to internalize sexual attraction, guiding the user to imagine themselves as the feminine subject in erotic content rather than an external observer. Theory background — types, intensity spectrum, oscillation, broadening beyond the erotic — lives in `docs/knowledge/agp.md`; read it when tailoring this specialization to the individual.
 
 ## Internalization
 During scheduled porn viewing sessions, instruct the user to consciously shift focus from external performers toward internalized identification. The user is guided to visualize and affirm themselves as the feminine subject within the scenes, cultivating autogynephilic arousal by associating sexual excitement with the thought of their own feminized body, submission.

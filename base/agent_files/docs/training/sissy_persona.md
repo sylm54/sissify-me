@@ -1,30 +1,41 @@
 ---
-description: This specialization focuses on cultivating a sissy persona, emphasizing feminization, submission, and eroticization.
+description: Create and embody the sissy persona — name and identity, appearance and mannerisms, behavioral rules, and the daily rituals that make her real.
 dependencies:
   - sissy_mindset
 ---
 
 ## Overview
-This specialization focuses on cultivating a sissy persona, emphasizing feminization, submission, and eroticization.
+This specialization creates the sissy persona and makes her embodied: a distinct feminine identity separate from the everyday masculine presentation, with her own name, appearance, mannerisms, and behavioral rules — then internalized through practice until she feels native. Reference this file (`docs/training/sissy_persona.md`) when building persona training, and save a reference to it in `CONDITIONING.md`.
 
-## Creating a Sissy Persona
-Before a sissy persona can be fully realized, it is essential to create the persona with a clear understanding of its core identity, physical presentation, and behavioral patterns. This process involves deliberate choices that reinforce the desired aesthetic and mindset, ensuring consistency in expression and interaction.
+## Creating the persona
 
-### Establish Core Identity and Mindset
-Begin by defining the foundational aspects of the persona. Select a feminine or submissive name that aligns with the desired aesthetic—such as one evoking delicacy, playfulness, or vulnerability. Determine appropriate pronouns and forms of address that reinforce the sissy dynamic. Reflect on the persona's core motivations, including a deep-seated desire for feminization, submission, and service. This internal framework should emphasize eagerness to please, heightened sensitivity, and a subtle yearning for guidance and transformation. Consider journaling or private exercises to internalize these traits, fostering authenticity during expression.
+### Core identity
+Define the foundation deliberately — every choice reinforces the aesthetic and mindset:
 
-### Develop Physical Presentation and Appearance
-Outline specific visual elements to embody the persona. This may include preferences for lingerie, dresses, makeup routines, hairstyles, and accessories that highlight femininity and submission. Guidelines could encompass posture (e.g., demure stances, minimal eye contact with authority figures), gait, and voice modulation. Practical steps involve curating a wardrobe or digital representations that support immersion, always prioritizing safety, comfort, and personal boundaries in any physical application.
+- **Name** — a feminine or submissive name matching the desired aesthetic (delicate, playful, vulnerable). She should hear it, answer to it, and use it for herself; the "Sissy" trigger gives the generic identity, this gives her the person (`docs/training/foundational_trigger.md`).
+- **Address** — pronouns and forms of address that reinforce the dynamic, in scene and (as agreed) out of it.
+- **Motivations** — articulate her core drives: eagerness to please, sensitivity, the yearning for guidance and transformation. Journaling as her, in her voice, internalizes the framework; a private channel (a feminine email, an account under her name) gives her space to exist.
 
-### Define Behavioral Patterns and Interactions
-Create consistent rules for conduct. These might involve deferential language, use of honorifics, limited initiative in decision-making, and rituals that affirm the sissy role (such as daily affirmations or service-oriented tasks). Incorporate responses to commands, expressions of gratitude, and mechanisms for handling correction or praise. Ensure behaviors remain adaptable to different contexts while maintaining the underlying theme of graceful surrender and feminine poise.
+### Physical presentation
+Outline the visual elements: lingerie, dresses, makeup routines, hair, accessories. Add posture (demure stance, lowered gaze with authority), gait, and voice (`docs/training/sissy_voice.md`, `docs/training/sissy_body.md`). Curate the wardrobe — physical or digital — to support immersion, always within safety, comfort, and personal boundaries.
 
-## Embodying the Persona
-### Internalization and Practice
-Switch the sissy mindset practices to the persona context.
+### Behavioral rules
+Consistent conduct rules: deferential language and honorifics (`docs/training/sissy_mindset.md`), limited initiative in decisions (`docs/training/submission.md`), rituals affirming the role. Define how she responds to commands, expresses gratitude, and receives correction or praise — the rules should flex across contexts without losing the core of graceful surrender and feminine poise.
 
-### Embodiment in Daily Life
-Encourage the user to integrate the persona into daily routines, interactions, and self-perception.
+## Embodying the persona
 
-### Anchoring and Reinforcement
-Utilize anchoring techniques to reinforce the persona's traits. This may include specific gestures, phrases, or routines that trigger the desired mindset and behaviors. Regularly revisit and refine the persona to ensure alignment with evolving preferences and experiences, maintaining a dynamic and authentic expression of the sissy identity.
+### Daily rituals
+Rituals are the persona's heartbeat — pick a few, run them daily, escalate slowly:
+
+- **Tucking** and smooth presentation under daily clothing.
+- **Morning/evening mirror work** — affirmations in her voice, makeup or skincare as her, posture checks (`docs/training/sissy_mindset.md`).
+- **Kneeling greetings and timed waits** — discipline rituals that put the body in the submissive frame.
+- **Scheduled releases** — an orgasm schedule that spaces releases to keep focus on denial and feminine arousal (`docs/training/denial.md`).
+
+Run the recurring ones as engine features so they survive days you don't speak (`docs/features.md`).
+
+### Internalization and practice
+Switch the mindset practices into persona context: thought correction, vocabulary, and self-reference all run in her voice, not the user's (`docs/training/sissy_mindset.md`). Encourage integration into daily routines, interactions, and self-perception — micro-rituals, feminine garments under ordinary clothes, her mannerisms surfacing outside scene time (`docs/training/headspace.md` for carrying the state).
+
+### Anchoring and reinforcement
+Anchor her with conditioning: specific gestures, phrases, garments, or routines that trigger the persona state. Hypno sessions with post-hypnotic suggestions linking a cue (the fabric of her clothing, her name spoken) to instant embodiment (`docs/training/uniform.md`, `docs/conditioning/overview.md`). Revisit and refine the persona regularly so she tracks the user's evolving preferences — dynamic and authentic, never a costume left in a drawer.

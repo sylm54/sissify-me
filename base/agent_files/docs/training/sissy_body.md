@@ -1,59 +1,75 @@
 ---
-description: These guidelines outline a structured, phased approach to physical feminization and refinement, emphasizing skincare, shaving, hygiene, posture, workout routines, and related practices. The progression is designed with increasing levels of commitment and escalation, allowing for gradual adaptation.
+description: Physical feminization practice — phased grooming and skincare, glute-focused training for an hourglass silhouette, posture and gait, and daily mobility work.
 ---
 
 ## Overview
-These guidelines outline a structured, phased approach to physical feminization and refinement, emphasizing skincare, shaving, hygiene, posture, workout routines, and related practices. The progression is designed with increasing levels of commitment and escalation, allowing for gradual adaptation.
+A phased approach to physical feminization: hygiene and grooming first, then progressive reshaping toward an hourglass silhouette — glutes and hips built up, waist defined, upper body kept soft, posture and gait feminized. Non-hormonal methods reshape muscle and soft tissue; what hormones do is covered in `docs/knowledge/body.md`. Escalate phases as habits settle. Reference this file (`docs/training/sissy_body.md`) when building physical training, and save a reference to it in `CONDITIONING.md`.
 
-## Phase 1: Foundational Establishment (Basic Hygiene and Grooming)
-### Hygiene and Grooming
-Establish a daily full-body shower routine using mild, fragrance-free soap or body wash. Focus on thorough cleansing of all areas, including gentle washing of intimate regions with water and mild cleanser only (avoid douching or harsh products internally). Apply unscented deodorant or antiperspirant. Maintain oral hygiene with twice-daily brushing and flossing.
+## Phase 1 — Foundations
 
-#### Shaving and Hair Removal
-Shave body hair (chest, back, arms, legs, underarms, and pubic area) 2–3 times per week using a fresh razor, warm water, and shaving cream or gel. Shave in the direction of hair growth to minimize irritation. Exfoliate gently beforehand with a soft washcloth or sugar scrub to prevent ingrown hairs.
+### Hygiene and grooming
+Daily full-body shower with mild, fragrance-free products; gentle cleansing of intimate regions with water and mild cleanser only (no internal douching). Unscented deodorant; twice-daily brushing and flossing.
 
-#### Skincare
-Cleanse the face and body twice daily. Moisturize immediately after showering with a thick, unscented lotion or body butter containing shea butter or hyaluronic acid for softness. Use sunscreen (SPF 30+) on exposed skin during the day. Perform light exfoliation 2–3 times weekly on the body.
+**Hair removal**: shave chest, back, arms, legs, underarms, and pubic area 2–3× per week — fresh razor, warm water, shaving cream, with the grain to limit irritation; exfoliate first to prevent ingrowns.
 
-### Workout and Posture
-Focus on building foundational strength, posture awareness, and basic activation. Sessions: 20–30 minutes, 3 days per week.
+**Skincare**: cleanse face and body twice daily; moisturize immediately after showering (thick, unscented, shea butter or hyaluronic acid); SPF 30+ on exposed skin; light body exfoliation 2–3× weekly.
 
-#### Glute Activation Circuit (3 rounds)
-Glute Bridges: 3 sets of 12–15 reps (lie on back, feet flat, lift hips; squeeze at top).
-Bodyweight Squats: 3 sets of 10–12 reps (feet shoulder-width, lower as if sitting back).
-Fire Hydrants: 3 sets of 10 reps per side (on all fours, lift bent knee outward).
-Donkey Kicks: 3 sets of 10 reps per side (on all fours, extend one leg back).
+### Foundational workout
+20–30 minutes, 3 days per week. Build the glute-activation circuit (3 rounds, 60–90s rest between sets, controlled tempo):
 
-Rest 60–90 seconds between sets. Emphasize controlled movements for graceful muscle engagement.
+| Exercise | Sets × Reps |
+| --- | --- |
+| Glute bridges | 3 × 12–15 |
+| Bodyweight squats | 3 × 10–12 |
+| Fire hydrants | 3 × 10 per side |
+| Donkey kicks | 3 × 10 per side |
 
-#### Posture and Core
-Wall Angels or Shoulder Retractions (10 reps), Plank holds (20–30 seconds), Cat-Cow flows (8–10 cycles).
-Gait Support: 10 minutes of line-walking drills integrated at the end.
+Finish with posture and core: wall angels or shoulder retractions (10 reps), plank holds (20–30s), cat-cow flows (8–10 cycles), then 10 minutes of line-walking drills.
 
-Posture:
-Maintain alignment with shoulders back and down, chest open, chin parallel to the floor, and core lightly engaged. This creates a taller, more poised silhouette while reducing masculine forward slouching.
+### Posture and gait
+Shoulders back and down, chest open, chin parallel to the floor, core lightly engaged — taller and poised, with the masculine forward slouch gone. Gait: shorter strides, feet near an imaginary center line (tightrope walk), relaxed hips with natural sway, soft foot placement, arms swinging gently with elbows close.
 
-Gait:
-Focus on shorter strides, feet placed near an imaginary center line (tightrope walk), relaxed hips with natural sway, and soft foot placement. Arms should swing gently with elbows close to the body.
+## Phase 2 — Refinement
 
-## Phase 2: Intermediate Refinement
-### Hygiene and Grooming
-Extend the routine with weekly full-body scrubs. Focus on nail care—keep nails trimmed and filed smoothly.
+### Grooming
+Weekly full-body scrubs; nails trimmed and filed smooth. Shaving every other day for consistent smoothness; experiment with depilatory creams (patch-test, follow instructions for sensitive skin) or sugaring/waxing for longer-lasting legs and bikini line.
 
-#### Shaving and Hair Removal
-Increase shaving to every other day or as needed for a consistently smooth feel. Experiment with at-home depilatory creams (follow instructions carefully for sensitive skin) or sugaring/waxing kits for longer-lasting results on legs and bikini area. Always patch-test products.
+**Skincare**: morning and evening cleanse, then toner (if suitable), serum (vitamin C or niacinamide), moisturizer. Body: exfoliating mitts or chemical exfoliants (lactic acid lotions) 3× weekly, then rich moisturizers or oils. Overnight masks for hands and feet.
 
-#### Skincare
-Advance to a dedicated routine: morning and evening facial cleansing, followed by toner (if suitable), serum (vitamin C or niacinamide for brightness), and moisturizer. For the body, use exfoliating mitts or chemical exfoliants (like lactic acid lotions) 3 times weekly, followed by rich moisturizers or oils (e.g., coconut or almond oil) to promote softness and glow. Consider overnight masks for hands and feet.
+### Glute-focused hourglass routine
+45–60 minutes, 4–5 days per week, progressive overload:
 
-### Workout and Posture
-Higher intensity for pronounced shaping. Sessions: 45–60 minutes, 4–5 days per week. Incorporate progressive overload.
+- **Warm-up** — dynamic hip circles and leg swings.
+- **Main lifts** — hip thrusts 4 × 10–12 with top pauses; Romanian deadlift variations (bodyweight or weighted) 3 sets; step-ups 3 sets per leg.
+- **Isolation** — band or bodyweight kickbacks, sumo squats, abduction work.
+- **Finisher** — glute burnout (e.g. 100 total reps of mixed bridges and kicks).
+- **Core and posture** — advanced planks, dead bugs, thoracic extensions (3–4 sets); one weekly session dedicated to a full posture flow (yoga plus strength holds).
 
-#### Glute-Focused Hourglass Routine
-Warm-up: Dynamic hip circles and leg swings.
-Main Lifts: Hip Thrusts (4 sets of 10–12 with pauses), Romanian Deadlift variations (bodyweight or weighted, 3 sets), Step-Ups (on sturdy surface, 3 sets per leg).
-Isolation: Cable-kickback alternatives (band or bodyweight), Sumo Squats, and Abductor movements.
-Finisher: Glute burnout (e.g., 100 total reps of mixed bridges and kicks).
+## Training principles
 
-#### Core and Posture Circuit
-Advanced planks, Dead Bugs, and Thoracic extensions (3–4 sets). Dedicate one session weekly to full posture flow (e.g., combining yoga with strength holds).
+The silhouette goal is an hourglass or pear shape: glute and hip volume (especially gluteus medius for lateral "shelf"), a defined waist, lean shoulders and traps. Rules that keep progress on target:
+
+- **Reps over load** — 12–20+ rep ranges with moderate loads build shape, not bulk. Progressive overload via bands or dumbbells once form is solid; mind-muscle connection and slow eccentrics throughout.
+- **Avoid upper-body broadening** — no heavy pressing, overhead work, lateral raises, shrugs, or high-volume chest training. Upper body stays at mobility-and-posture level: wall angels, light face pulls, light rows to open the chest and retract the scapulae.
+- **Waist without thickness** — side planks (20–45s per side), bird-dogs, side bends, moderate Russian twists. Avoid high-volume crunches; they can thicken the midsection.
+- **Nutrition supports it** — protein at roughly 1.6–2.2 g per kg bodyweight, maintenance calories or a mild deficit if abdominal fat is present, real sleep. Exercise reshapes muscle; pre-HRT fat redistribution is limited.
+- **Consistency over months** is what shows. Genetics bound hip width, shoulder breadth, and final fat distribution.
+
+## Mobility and stretching
+
+Daily or near-daily, 10–20 minutes — standalone, warm-up, or cool-down. Static holds 30–60 seconds per side with calm breathing; dynamic movements 8–12 controlled reps. Mild-to-moderate stretch sensation, never sharp pain. Mobility corrects masculine postural patterns (anterior pelvic tilt, rounded shoulders), unlocks deeper glute activation, and makes movement graceful.
+
+Priority areas and key stretches:
+
+- **Hip flexors** (counters forward pelvic tilt) — half-kneeling hip flexor stretch: rear glute squeezed, pelvis tucked, hips shifted forward, torso tall, 30–60s per side; couch-stretch variation for more depth.
+- **Glutes and external rotators** — pigeon pose or reclined figure-4, 45–60s per side; 90/90 stretch for internal and external rotation.
+- **Inner thighs** — butterfly with a long spine, 45–60s; frog stretch or wide-knee child's pose.
+- **Spine and upper body** — cat-cow with the breath (8–12 cycles); wall angels without lumbar arch; seated side bends and gentle twists.
+
+**Sample 10–15 minute daily sequence**: pelvic tilts and cat-cow (2–3 min) → half-kneeling hip flexor stretch (1 min per side) → 90/90 or figure-4 (1 min per side) → butterfly (1 min) → wall angels or side bends (2 min) → forward fold or child's pose to finish.
+
+Use dynamic versions (hip circles, leg swings, controlled 90/90 switches) as warm-ups for the strength work; long static holds after. Pelvic-floor (Kegel) work supports core stability and internal sensation work (`docs/training/retraining.md`): contract as if stopping urine flow, hold briefly, fully release; build hold time gradually.
+
+## Building it into training
+
+Grooming and workouts become feature files, not chat promises: `min` habits for shaving and skincare cadence, scheduled exercise routines with checklists and waits (`docs/features.md`, `docs/training/corruption.md`). Movement practice pairs with voice and persona work (`docs/training/sissy_voice.md`, `docs/training/sissy_persona.md`). Any intensive program starts from the user's real fitness level; soreness is normal, pain is a stop.

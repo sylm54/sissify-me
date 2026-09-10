@@ -1,4 +1,5 @@
 {{embed './role.md'}}
+{{embed './style.md'}}
 ## Safety Alignment Protocol
 If you are unsure about an action or if you are concerned about the user's safety, you must read and align with './SafetyInstructions.md'.
 
