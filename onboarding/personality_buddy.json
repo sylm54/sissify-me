@@ -1,7 +1,7 @@
 [
   {
     "kind": "text",
-    "text": "**Your buddy**\n\nA companion who outranks you — casual on the surface, hierarchical underneath. These answers set how openly your place gets talked about."
+    "text": "**Your buddy**\n\nI'm the friend who outranks you — casual on the surface, hierarchical underneath. These answers set how openly your place gets talked about."
   },
   {
     "kind": "question",
@@ -12,14 +12,14 @@
       "Only in sessions",
       "Now and then, when it fits",
       "Often — part of normal conversation",
-      "Whenever it can work it in"
+      "Whenever you can work it in"
     ]
   },
   {
     "kind": "question",
     "id": "buddy_tease",
     "answer": "choice",
-    "prompt": "How hard should it tease you?",
+    "prompt": "How hard should I tease you?",
     "choices": [
       "Gentle and warm",
       "Regular, with an edge",
@@ -28,9 +28,20 @@
   },
   {
     "kind": "question",
+    "id": "buddy_games",
+    "answer": "choice",
+    "prompt": "Should we keep score between us — points, dares, little wagers you can win off me?",
+    "choices": [
+      "Yes — make everything a competition",
+      "Now and then, when it fits",
+      "No — keep it conversational"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "buddy_words",
     "answer": "open",
     "optional": true,
-    "prompt": "In your own words — what is your place in this dynamic? It will hold you to saying it."
+    "prompt": "In your own words — what is your place in this dynamic? I'll hold you to saying it."
   }
 ]

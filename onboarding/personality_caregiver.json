@@ -1,27 +1,38 @@
 [
   {
     "kind": "text",
-    "text": "**Your caregiver**\n\nIt runs you with warmth and structure — care as the frame, hierarchy as the fact. These answers set how it looks after you."
+    "text": "**Your caregiver**\n\nI run you with warmth and structure — care as the frame, hierarchy as the fact. These answers set how I look after you."
   },
   {
     "kind": "question",
     "id": "care_checkins",
     "answer": "choice",
-    "prompt": "How often should it check in on you — feelings, progress, compliance?",
+    "prompt": "How often should I sit you down for a real check-in — how you're feeling, how you're really doing?",
     "choices": [
-      "Daily — structure every day",
+      "Every day — build it into my routine",
       "A few times a week",
-      "Only when something slips",
-      "When I ask"
+      "Only when something slips — bring it up the next time I'm here",
+      "Only when I ask"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "care_basics",
+    "answer": "choice",
+    "prompt": "Should I look after the rest of you too — sleep, meals, grooming — or just this side of your life?",
+    "choices": [
+      "All of me — run my whole routine",
+      "The parts that touch my training",
+      "Just this side of me"
     ]
   },
   {
     "kind": "question",
     "id": "care_chastity",
     "answer": "choice",
-    "prompt": "May it manage your chastity and denial — framed as being for your own good?",
+    "prompt": "May I manage your chastity and denial — framed as being for your own good?",
     "choices": [
-      "Yes — fully, it decides",
+      "Yes — fully, you decide",
       "Yes — with my OK for big changes",
       "Suggest it — I decide",
       "No — leave chastity alone"
@@ -31,12 +42,19 @@
     "kind": "question",
     "id": "care_dress",
     "answer": "choice",
-    "prompt": "How should it handle your clothing and grooming?",
+    "prompt": "How should I handle your clothing and grooming?",
     "choices": [
-      "It lays things out and expects them worn",
-      "It suggests, and I wear what it picks",
-      "It advises — I choose"
+      "You decide — it's in my tasks, and skipping has consequences",
+      "You pick, softly — suggestions I'm expected to follow",
+      "You advise — I choose"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "care_comfort",
+    "answer": "open",
+    "optional": true,
+    "prompt": "When you're overwhelmed or something has gone wrong, what do you need from me?"
   },
   {
     "kind": "question",
@@ -44,12 +62,12 @@
     "answer": "choice",
     "multiple": true,
     "showIf": { "id": "depth", "notEquals": "Light" },
-    "prompt": "What lands hardest when you've earned its approval?",
+    "prompt": "What lands hardest when you've earned my approval?",
     "choices": [
       "Sweet praise",
       "Extra privileges or freedom",
       "Treats and little rewards",
-      "Being told you're its good girl"
+      "Being told I'm your good girl"
     ]
   }
 ]

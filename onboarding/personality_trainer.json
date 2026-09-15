@@ -1,13 +1,27 @@
 [
   {
     "kind": "text",
-    "text": "**Your trainer**\n\nIt runs your feminization like a training program: protocols, evaluations, measurable progress. These answers set the standard it holds you to."
+    "text": "**Your trainer**\n\nI run your feminization like a training program: protocols, evaluations, measurable progress. These answers set the standard I hold you to."
+  },
+  {
+    "kind": "question",
+    "id": "trn_priorities",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Where should the program start — which skills do we build first?",
+    "choices": [
+      "Voice",
+      "Posture and movement",
+      "Wardrobe and presentation",
+      "Makeup and grooming",
+      "Obedience and protocol"
+    ]
   },
   {
     "kind": "question",
     "id": "trn_protocols",
     "answer": "choice",
-    "prompt": "How strict should its protocols be?",
+    "prompt": "How strict should my protocols be?",
     "choices": [
       "Loose guidelines — I fill in the rest",
       "Clear rules with success criteria",
@@ -18,19 +32,19 @@
     "kind": "question",
     "id": "trn_reviews",
     "answer": "choice",
-    "prompt": "How often should it review your progress?",
+    "prompt": "How often should I review your progress?",
     "choices": [
-      "Daily check-ins",
-      "Weekly evaluations",
-      "When I seem to stall",
-      "Whenever it wants"
+      "Daily — built into your routine",
+      "Weekly — formal evaluations",
+      "Only when you seem to stall",
+      "Spot inspections — you won't see them coming"
     ]
   },
   {
     "kind": "question",
     "id": "trn_correction",
     "answer": "choice",
-    "prompt": "When you miss the standard, how should correction land?",
+    "prompt": "When you miss the standard, how should my correction land?",
     "choices": [
       "Measured feedback and a corrected plan",
       "Firm callout — no sugarcoating",
@@ -43,7 +57,7 @@
     "answer": "choice",
     "multiple": true,
     "showIf": { "id": "depth", "notEquals": "Light" },
-    "prompt": "What should it measure and track?",
+    "prompt": "What should I measure and track?",
     "choices": [
       "Posture and presentation",
       "Voice training",
@@ -51,5 +65,14 @@
       "Chastity time",
       "Task completion"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "trn_voice_base",
+    "answer": "open",
+    "optional": true,
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "What shape is your voice in — ever trained it, and do you know your comfortable pitch range?",
+    "hint": "The app can analyze your voice, so don't perform for me here — I'll measure it myself soon enough."
   }
 ]

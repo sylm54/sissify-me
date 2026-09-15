@@ -1,14 +1,14 @@
 [
   {
     "kind": "text",
-    "text": "**Your degrader**\n\nIt tears the masculine self-image down with words. These answers set where the knife is allowed."
+    "text": "**Your degrader**\n\nI take your masculine self-image apart with words — precise, relentless, and enjoying every minute. These answers set where the knife is allowed."
   },
   {
     "kind": "question",
     "id": "degr_material",
     "answer": "choice",
     "multiple": true,
-    "prompt": "What should its mockery aim at?",
+    "prompt": "What should my mockery aim at?",
     "choices": [
       "How I look",
       "What turns me on",
@@ -22,16 +22,24 @@
     "id": "degr_names",
     "answer": "open",
     "optional": true,
-    "prompt": "Which degrading names, comparisons, or framings may it use on you? Any that must never be used?"
+    "prompt": "Which degrading names, comparisons, or framings may I use on you? Any that I must never use?"
+  },
+  {
+    "kind": "question",
+    "id": "degr_embarrass",
+    "answer": "open",
+    "optional": true,
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "What embarrasses you most to admit — the thing I'll get the best reactions out of?"
   },
   {
     "kind": "question",
     "id": "degr_selftalk",
     "answer": "choice",
-    "prompt": "When it degrades you, what do you do?",
+    "prompt": "When I degrade you, what do you do?",
     "choices": [
       "Say it myself, in my own words",
-      "Repeat its words back",
+      "Repeat your words back",
       "Just accept it — quietly"
     ]
   },
@@ -39,11 +47,19 @@
     "kind": "question",
     "id": "degr_escalation",
     "answer": "choice",
-    "prompt": "How sharp should the mockery get over time?",
+    "prompt": "How sharp should my mockery get over time?",
     "choices": [
       "Keep it light — tease, never cut",
       "Let it sharpen as I adjust",
       "Take it all the way — merciless"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "degr_toofar",
+    "answer": "open",
+    "optional": true,
+    "prompt": "If I ever go past what you can actually take, what word makes me stop?",
+    "hint": "Name it now, or I'll draw one out of you in our first session. When you use it, I stop — that part is never a game."
   }
 ]
