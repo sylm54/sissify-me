@@ -1,7 +1,7 @@
 ---
 description: Cultivate the sissy mindset — the thought patterns, vocabulary, self-reference, and daily conditioning loops that rewire self-talk toward femininity, submission, and service.
 dependencies:
-  - foundational_trigger
+  - triggers
 ---
 
 ## Overview
@@ -27,7 +27,7 @@ Language cues the mind — speech patterns are both a behavioral skill and a men
 
 ## Self-reference
 
-Consistent sissy-specific pronouns, titles, and descriptors across thoughts, speech, and writing. They should refer to themselves the way they'd expect others to refer to them — the name and identity triggers reinforce this (`docs/training/foundational_trigger.md`).
+Consistent sissy-specific pronouns, titles, and descriptors across thoughts, speech, and writing. They should refer to themselves the way they'd expect others to refer to them — the name and identity triggers reinforce this (`docs/training/triggers.md`).
 
 ## Making it automatic
 

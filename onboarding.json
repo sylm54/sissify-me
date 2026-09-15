@@ -18,11 +18,7 @@
       "answer": "choice",
       "prompt": "How deep should this onboarding go?",
       "hint": "Light keeps it to the essentials, Medium adds a solid profile, Deep adds the introspective layers — what this really is for you, what turns you on about it, and where the friction lives. You can always go deeper in conversation later.",
-      "choices": [
-        "Light — just the essentials",
-        "Medium — a solid profile",
-        "Deep — thorough and introspective"
-      ]
+      "choices": ["Light", "Medium", "Deep"]
     },
     {
       "kind": "text",
@@ -42,7 +38,7 @@
       "multiple": true,
       "optional": true,
       "prompt": "And which pet names may I use for you? (pick any)",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "showIf": { "id": "depth", "notEquals": "Light" },
       "choices": [
         "sissy",
         "slut",
@@ -61,7 +57,7 @@
       "multiple": true,
       "optional": true,
       "prompt": "Which pronouns fit how you want to be seen?",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "showIf": { "id": "depth", "notEquals": "Light" },
       "choices": ["she/her", "he/him", "they/them", "it/its"]
     },
     {
@@ -85,7 +81,21 @@
       "optional": true,
       "prompt": "Describe your body as it is now — your build, and measurements if you know them (height, weight, chest, waist, hips) — and how you feel about your shape.",
       "hint": "A rough self-assessment is fine; exact numbers aren't required. This grounds body and shaping goals in where you actually are.",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+      "showIf": { "id": "depth", "equals": "Deep" }
+    },
+    {
+      "kind": "question",
+      "id": "fitness",
+      "answer": "choice",
+      "prompt": "How active is your life right now?",
+      "hint": "Body and shaping work starts from your real fitness level, not the one you plan to have.",
+      "showIf": { "id": "depth", "notEquals": "Light" },
+      "choices": [
+        "Mostly sedentary",
+        "Lightly active — walking, occasional exercise",
+        "Active — I work out regularly",
+        "Very active — training is already routine"
+      ]
     },
     {
       "kind": "question",
@@ -129,7 +139,7 @@
       "answer": "open",
       "optional": true,
       "prompt": "Anything in your weekly schedule I should plan around — work, family, sleep?",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+      "showIf": { "id": "depth", "equals": "Deep" }
     },
     {
       "kind": "text",
@@ -146,6 +156,7 @@
         "Think and act more feminine",
         "Serve and obey",
         "Be corrupted — want it more than I should",
+        "Retrain my sexuality — new wants, new outlets",
         "Explore my limits",
         "Mostly just curious"
       ]
@@ -168,7 +179,7 @@
       "answer": "choice",
       "prompt": "Setting fantasy aside: how far do you want this in real life — the level you're sure about?",
       "hint": "Your floor: the life you'd commit to today.",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "showIf": { "id": "depth", "notEquals": "Light" },
       "choices": [
         "Curious exploration",
         "A part-time sissy life",
@@ -182,7 +193,7 @@
       "answer": "choice",
       "prompt": "And where does it get uncertain — a level above that which pulls at you, even if you're not sure about it?",
       "hint": "Your stretch zone. It's fine to want something and still be unsure of it.",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+      "showIf": { "id": "depth", "notEquals": "Light" },
       "choices": [
         "No stretch zone — I'm sure where I stand",
         "Curious exploration",
@@ -200,7 +211,7 @@
       "hint": "Practical, emotional, whatever they are — these are the lines I shouldn't stumble into.",
       "showIf": {
         "all": [
-          { "id": "depth", "notEquals": "Light — just the essentials" },
+          { "id": "depth", "notEquals": "Light" },
           { "id": "end_goal_stretch", "notEquals": "No stretch zone — I'm sure where I stand" }
         ]
       }
@@ -215,7 +226,7 @@
       "hint": "These are levels I should never push you toward, even as a stretch.",
       "showIf": {
         "all": [
-          { "id": "depth", "equals": "Deep — thorough and introspective" },
+          { "id": "depth", "equals": "Deep" },
           { "id": "end_goal_sure", "notEquals": "Total transformation" }
         ]
       },
@@ -228,7 +239,7 @@
     {
       "kind": "include",
       "src": "onboarding/identity.json",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+      "showIf": { "id": "depth", "notEquals": "Light" }
     },
     {
       "kind": "question",
@@ -236,7 +247,7 @@
       "answer": "open",
       "optional": true,
       "prompt": "In your own words, where do you currently stand in your experience as a sissy, and how integrated does this side of yourself feel in ordinary daily life rather than only during arousal or play?",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+      "showIf": { "id": "depth", "equals": "Deep" }
     },
     {
       "kind": "question",
@@ -244,7 +255,7 @@
       "answer": "open",
       "optional": true,
       "prompt": "What first drew you toward this, and what continues to pull you back to it now?",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+      "showIf": { "id": "depth", "equals": "Deep" }
     },
     {
       "kind": "question",
@@ -252,16 +263,29 @@
       "answer": "open",
       "optional": true,
       "prompt": "What holds you back right now — difficulties, fears, or obstacles that keep getting in the way?",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+      "showIf": { "id": "depth", "equals": "Deep" }
     },
     {
       "kind": "include",
       "src": "onboarding/interests.json",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+      "showIf": { "id": "depth", "notEquals": "Light" }
     },
     {
       "kind": "text",
       "text": "**Limits and safety**"
+    },
+    {
+      "kind": "question",
+      "id": "public_reach",
+      "answer": "choice",
+      "prompt": "How far may your training reach beyond your front door?",
+      "hint": "Dress codes, grooming, errands — anything anyone out there could see or infer obeys this line, and I never cross it.",
+      "choices": [
+        "Home only — nothing leaves these walls",
+        "Hidden — things I wear under my clothes, invisible to anyone",
+        "Subtle — grooming, nails, hints only someone looking would catch",
+        "Open — I can dress or present visibly where it's appropriate"
+      ]
     },
     {
       "kind": "question",
@@ -274,11 +298,11 @@
     {
       "kind": "include",
       "src": "onboarding/limits.json",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+      "showIf": { "id": "depth", "notEquals": "Light" }
     },
     {
       "kind": "text",
-      "text": "**How I should treat you**\n\nThese answers shape my tone, my language, and my boundaries from the first session on — the role-specific ones follow in the next section."
+      "text": "**How I should treat you**\n\nThese answers shape my tone, my language, and my boundaries from the first session on — the role- and personality-specific ones follow below."
     },
     {
       "kind": "question",
@@ -296,7 +320,7 @@
     {
       "kind": "include",
       "src": "onboarding/behavior.json",
-      "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+      "showIf": { "id": "depth", "notEquals": "Light" }
     },
     {
       "kind": "include",
@@ -314,6 +338,36 @@
       "showIf": { "part": "role_trainer" }
     },
     {
+      "kind": "include",
+      "src": "onboarding/role_schemer.json",
+      "showIf": { "part": "role_schemer" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/personality_degrader.json",
+      "showIf": { "part": "personality_degrader" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/personality_caregiver.json",
+      "showIf": { "part": "personality_caregiver" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/personality_trainer.json",
+      "showIf": { "part": "personality_trainer" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/personality_buddy.json",
+      "showIf": { "part": "personality_buddy" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/personality_superior.json",
+      "showIf": { "part": "personality_superior" }
+    },
+    {
       "kind": "text",
       "text": "**Almost done**\n\nYour agent reads every answer before your first conversation — honesty here saves time there. Anything you skip can be shared in chat later."
     },
@@ -323,7 +377,7 @@
       "answer": "open",
       "optional": true,
       "prompt": "Anything else your agent should know before you start?",
-      "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+      "showIf": { "id": "depth", "notEquals": "Light" }
     }
   ]
 }

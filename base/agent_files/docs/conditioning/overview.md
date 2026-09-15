@@ -33,7 +33,7 @@ Choose hypno when the goal is to change *what the user believes and feels* — i
 - Implement post-hypnotic suggestions that carry into daily life.
 
 **Example brief:**
-> Create a hypno session themed around **deepening submission**, using `docs/training/submission.md` and `docs/training/foundational_trigger.md`. Install and reinforce the "Sissies like you" trigger, implement a post-hypnotic suggestion that the user feels a wave of obedience whenever they hear the word "Good Girl", and leave them in a calm, devoted headspace. Medium intensity. Read `docs/conditioning/authoring.md` and `docs/conditioning/hypno.md` before writing.
+> Create a hypno session themed around **deepening submission**, using `docs/training/submission.md` and `docs/training/triggers.md`. Install and reinforce the "Sissies like you" trigger, implement a post-hypnotic suggestion that the user feels a wave of obedience whenever they hear the word "Good Girl", and leave them in a calm, devoted headspace. Medium intensity. Read `docs/conditioning/authoring.md` and `docs/conditioning/hypno.md` before writing.
 
 ### Active
 Choose active when the goal is to make the user *do something* — practice a behavior, perform tasks, or follow instructions with real choices and check-ins. Active sessions are ideal for converting installed conditioning into lived habit and for learning about the user's limits through ratings and choices. Build one when you want to:

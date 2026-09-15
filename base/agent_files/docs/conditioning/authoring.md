@@ -21,7 +21,7 @@ Before writing new content, check whether a suitable subscript already exists (s
 ### Keep parts small and focused
 - One clear job per file — a single induction, one trigger block, one task pool.
 - Keep each subscript short enough to read and reason about at a glance.
-- Name files by their role (`induction_*.xml`, `deepening_*.xml`, `trigger_*.xml`, `suggestion_*.xml`, `task_*.xml`) so the architecture is obvious from the file listing, and place them under the appropriate folder within `hypnos/<type>/`.
+- Name files by their role (`induction_*.xml`, `deepening_*.xml`, `trigger_*.xml`, `cue_*.xml`, `suggestion_*.xml`, `task_*.xml`) so the architecture is obvious from the file listing, and place them under the appropriate folder within `hypnos/<type>/`.
 - Update a part in place when its content changes; never fork a copy for a single session.
 
 ## Making a session playable

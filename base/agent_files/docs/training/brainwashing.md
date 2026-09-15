@@ -7,15 +7,13 @@ This specialization focuses on using hypno sessions to create a brainwashing eff
 
 ## Prebuilt Hypno Blocks
 Suggestion pools for the themes below ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
-- `hypnos/hypno/content/suggestion_pools/suggestion_resistance_erosion.xml` — hypno effect: resistance eroding with every listen.
-- `hypnos/hypno/content/suggestion_pools/suggestion_hypno_addiction.xml` — craving the sessions, relief and pleasure from conditioning.
-- `hypnos/hypno/content/suggestion_pools/suggestion_automatic_urges.xml` — urges firing automatically on their own cues.
-- `hypnos/hypno/content/suggestion_pools/suggestion_malleable_mind.xml` — mind becoming malleable, persona becoming integral.
-- `hypnos/hypno/content/suggestion_pools/suggestion_sissy_fantasy.xml` — fantasies growing more vivid, the urge to act on them.
+- `hypnos/hypno/content/suggestion_pools/suggestion_brainwash.xml` — conditioning as an irresistible, progressive addiction; the changes as lasting, foundational, and increasingly irreversible.
+- `hypnos/hypno/content/suggestion_pools/suggestion_impulsive.xml` — acting on sissy urges without hesitation or internal debate.
+- `hypnos/hypno/content/suggestion_pools/suggestion_identity.xml` — the sissy identity overwriting the old self-image as the default reality.
 
 Each pool reshuffles its suggestions per playback (`<scramble>`/`<random>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree.
 
-Order the pools as a graduated response set (see `docs/conditioning/hypno.md`): lead with **resistance erosion** and **malleable mind** while the listener is settling (pacing — undeniable, easy to accept), then **automatic urges** and **sissy fantasy** (leading), and close with **hypno addiction** near the end of the suggestion phase so its post-hypnotic pull carries out of the session. Keep every line present-tense and positive — state what is happening, never what is not.
+Order the pools as a graduated response set (see `docs/conditioning/hypno.md`): lead with **impulsive** while the listener is settling (pacing — undeniable, because the urges are already there), then **identity** (leading — the old self-image giving way), and close with **brainwash** near the end of the suggestion phase so its addiction-and-permanence pull carries out of the session. Keep every line present-tense and positive — state what is happening, never what is not.
 
 ## Implementation
 ### Session Requirements

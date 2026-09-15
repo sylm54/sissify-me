@@ -1,0 +1,93 @@
+<!-- Suggestion pool: clothing — feminine attire wired to comfort, arousal, and correctness;
+     fabric against shaved skin, the sway of a skirt, the click of heels, the waistband of
+     panties as a gentle constant reminder — resistance fading, preference strengthening. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='185' volume='0.25'/>
+  <random>
+    <part>So deep and so soft, sweet girl... and somewhere beneath your thoughts, fabric is settling against skin, warm and perfect.</part>
+    <part>Drifting... feeling that faint, delicious hug of something pretty, worn just for you, Sissy.</part>
+    <part>Down here everything is smooth silk and soft lace... and all of it feels made for your body.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      Lace against freshly shaved skin is a homecoming...
+      your whole body lights up in recognition. <pause duration='0.5'/>
+    </part>
+    <part>
+      The sway of a skirt around your thighs, the click of heels on tile...
+      each one a small, constant confirmation:
+      this is right, and this is you. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you wear the gentle, secret reminder all day:
+      the waistband of pretty panties resting against your hips,
+      humming quietly under everything else. <pause duration='0.5'/>
+    </part>
+    <part>
+      Dresses, stockings, heels, soft things with bows...
+      a wardrobe you live in, and a home your body adores. <pause duration='0.5'/>
+    </part>
+    <part>
+      Every zipper climbing your side is a little ascension...
+      by the time it reaches the top, you are more her
+      than when it started. <pause duration='0.5'/>
+    </part>
+    <part>
+      You may notice plain, masculine clothes feeling louder these days...
+      itchy in a way that has nothing to do with the fabric. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you choose who to be when they choose what to wear...
+      and every option is a shade of prettier. So is yours. <pause duration='0.5'/>
+    </part>
+    <part>
+      The mirror and the outfit complete each other...
+      dressed, you look right; looking right, you feel calm,
+      confident, and quietly turned on. <pause duration='0.5'/>
+    </part>
+    <part>
+      Even imagining it works, sweet girl... picture the straps,
+      the seam, the little bow...
+      and feel your body respond as if it were already against you. <pause duration='0.5'/>
+    </part>
+    <part>
+      Feminine clothes define you the way a frame defines a painting —
+      and sissies like you are made to be framed:
+      soft, fitted, and exactly correct. <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>Soft fabric... <pause duration='0.7'/> soft skin... <pause duration='0.7'/> home.</part>
+        <part>Dressed pretty... <pause duration='0.7'/> feels correct.</part>
+        <part>Every layer... <pause duration='0.7'/> more her.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And your skin remembers every pretty thing it has ever held, Sissy...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>So pretty<pause duration='0.6'/></part>
+        <part>Silk and lace<pause duration='0.6'/></part>
+        <part>Dressed for me<pause duration='0.6'/></part>
+        <part>So right<pause duration='0.6'/></part>
+        <part>Good girl<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>And all that softness settles over you as you sink... every word taken in, worn, warm, and wanted. Good girl.</part>
+    <part>Let the fabric hold you... deeper and deeper, sweet girl.</part>
+    <part>Pretty fits you, Sissy... sink into how right that feels, deeper still.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

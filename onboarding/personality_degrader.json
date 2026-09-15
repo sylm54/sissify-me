@@ -1,0 +1,49 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your degrader**\n\nIt tears the masculine self-image down with words. These answers set where the knife is allowed."
+  },
+  {
+    "kind": "question",
+    "id": "degr_material",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What should its mockery aim at?",
+    "choices": [
+      "How I look",
+      "What turns me on",
+      "How I speak and sound",
+      "My little failures and slips",
+      "Everything — wherever it lands"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "degr_names",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Which degrading names, comparisons, or framings may it use on you? Any that must never be used?"
+  },
+  {
+    "kind": "question",
+    "id": "degr_selftalk",
+    "answer": "choice",
+    "prompt": "When it degrades you, what do you do?",
+    "choices": [
+      "Say it myself, in my own words",
+      "Repeat its words back",
+      "Just accept it — quietly"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "degr_escalation",
+    "answer": "choice",
+    "prompt": "How sharp should the mockery get over time?",
+    "choices": [
+      "Keep it light — tease, never cut",
+      "Let it sharpen as I adjust",
+      "Take it all the way — merciless"
+    ]
+  }
+]

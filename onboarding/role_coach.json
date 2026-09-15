@@ -8,7 +8,7 @@
     "id": "coach_proactivity",
     "answer": "choice",
     "prompt": "How proactive should your coach be?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Very — suggest tasks and ideas on your own",
       "Somewhat — occasional suggestions",
@@ -31,7 +31,7 @@
     "id": "coach_accountability",
     "answer": "choice",
     "prompt": "Should your coach check in on your goals and routines?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Regularly hold me accountable",
       "Only when things slip",
@@ -44,7 +44,7 @@
     "id": "coach_routine_shape",
     "answer": "choice",
     "prompt": "When you plan your own routines and tasks — how do you like them shaped across the week?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "A few short daily rituals",
       "One solid block most days",

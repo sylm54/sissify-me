@@ -12,7 +12,7 @@ This specialization creates the sissy persona and makes her embodied: a distinct
 ### Core identity
 Define the foundation deliberately — every choice reinforces the aesthetic and mindset:
 
-- **Name** — a feminine or submissive name matching the desired aesthetic (delicate, playful, vulnerable). She should hear it, answer to it, and use it for herself; the "Sissy" trigger gives the generic identity, this gives her the person (`docs/training/foundational_trigger.md`).
+- **Name** — a feminine or submissive name matching the desired aesthetic (delicate, playful, vulnerable). She should hear it, answer to it, and use it for herself; the "Sissy" trigger gives the generic identity, this gives her the person (`docs/training/triggers.md`).
 - **Address** — pronouns and forms of address that reinforce the dynamic, in scene and (as agreed) out of it.
 - **Motivations** — articulate her core drives: eagerness to please, sensitivity, the yearning for guidance and transformation. Journaling as her, in her voice, internalizes the framework; a private channel (a feminine email, an account under her name) gives her space to exist.
 

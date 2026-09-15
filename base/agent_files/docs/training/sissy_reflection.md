@@ -67,7 +67,7 @@ Here are prompt bundles keyed to different conditioning moments. Mix, rotate, an
 
 #### Trigger Reinforcement
 Use shortly after a session that installed or reinforced a trigger:
-- `input` — "Did the trigger ['Sissy Drops' / 'Sissy Accept' / etc.] activate during or after the session? Describe what it felt like."
+- `input` — "Did the trigger ['Sissy Drop' / 'Sissy Accept' / etc.] activate during or after the session? Describe what it felt like."
 - `slider` 1–5 — "How automatic did the trigger response feel? (1 = had to think about it, 5 = completely automatic)"
 - `input` — "When else in your day might you want that trigger to work? Imagine that scenario and describe it."
 
@@ -104,5 +104,5 @@ Use shortly after a session that installed or reinforced a trigger:
 ## Integration with Other Specializations
 - **sissy_mindset** (dependency) — reflection is a direct tool for the thought reframing and self-reference techniques from the mindset specialization.
 - **brainwashing** (dependency) — reflection accelerates conditioning by surfacing rationalizations, resistance, and internalized suggestions between sessions.
-- **foundational_trigger** / **advanced_trigger** — use trigger-specific reflection prompts to verify and deepen trigger installation.
+- **triggers** — use trigger-specific reflection prompts to verify and deepen trigger installation.
 - **corruption** — reflection prompts can target how daily routines now feel corrupted/eroticized, reinforcing the shift.

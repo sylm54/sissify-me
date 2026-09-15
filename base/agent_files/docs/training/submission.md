@@ -6,7 +6,11 @@ description: Train the user to be more submissive and obedient — drills, decis
 This specialization trains the user to be more submissive and obedient through drills, decision delegation, permission seeking, and deliberate mental practices of deference. The distinction that guides everything: role-play is submission performed in scenes; genuine submission is an integrated orientation — a consistent preference for yielding, seeking direction, and finding satisfaction in compliance that persists outside structured interactions. Role-play is the practice field; the goal is the orientation. Reference this file (`docs/training/submission.md`) when building submission training, and save a reference to it in `CONDITIONING.md`.
 
 ## Prebuilt Hypno Blocks
-A submission-mindset suggestion pool ships at `hypnos/hypno/content/suggestion_pools/suggestion_submission.xml` — obedience-as-pleasure, surrender-as-relief, service-as-identity, and praise-as-reward suggestions. Use it in hypno sessions that install or deepen the submissive mindset (composition guidance in `docs/conditioning/hypno.md`); it pairs naturally with the foundational triggers — fire "Good Girl" after submission suggestions to praise-anchor them. The pool reshuffles itself per playback, so it stays varied across many listenings, and may be `<include>`d at most once per render tree.
+Two suggestion pools support this specialization (composition guidance in `docs/conditioning/hypno.md`):
+- `hypnos/hypno/content/suggestion_pools/suggestion_submission.xml` — obedience-as-pleasure, surrender-as-relief, service-as-identity, and praise-as-reward suggestions.
+- `hypnos/hypno/content/suggestion_pools/suggestion_inferiority.xml` — hierarchical inferiority as a pleasant, stabilizing position that deepens service.
+
+Use them in hypno sessions that install or deepen the submissive mindset; they pair naturally with the triggers — fire "Good Girl" after submission suggestions to praise-anchor them, and switch obedience segments on with "Sissy Submit and Obey" (`docs/training/triggers.md`). Each pool reshuffles itself per playback, so it stays varied across many listenings, and may be `<include>`d at most once per render tree.
 
 ## Submission drills
 Active audios that command specific tasks with clear, concise instructions that leave no room for interpretation (`docs/conditioning/active.md` for the format). Drills reinforce obedience when completed without hesitation or questioning — build them so the only sensible move is to comply, and reward the compliance immediately after.

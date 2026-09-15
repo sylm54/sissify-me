@@ -10,11 +10,10 @@ This specialization amplifies the user's attraction to cock and sexualizes their
 - **Cocklust Suggestions**: Create hypno sessions that focus on amplifying the user's attraction to cock. Use vivid imagery, sensory language, and erotic suggestions to enhance their desire and sexualize their fantasies. Include affirmations that reinforce their growing obsession and craving for cock.
 - **Trigger Conditioning**: Implement triggers that elicit cocklust responses, such as specific words, phrases, or visual cues. Reinforce these triggers during hypno sessions and in daily interactions to strengthen the association between cock and sexual arousal.
 
-Prebuilt blocks ship with the framework for both strategies — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
-- `hypnos/hypno/content/suggestion_pools/suggestion_cocklust.xml` — attraction-amplification suggestion pool.
-- `hypnos/hypno/content/trigger_blocks/trigger_cocklust.xml` — conditions the sight/thought of cock into an automatic arousal trigger (visual cue, no spoken command word).
+The sight cue ships as a prebuilt block — compose sessions from it instead of writing new conditioning (see `docs/conditioning/hypno.md` for composition):
+- `hypnos/hypno/content/cue_blocks/cue_cock_lust.xml` — conditions the sight of a cock into instant arousal and the desire to suck, serve, and please (visual cue, no spoken command word; see also `docs/training/triggers.md`, "Cues").
 
-Both blocks follow the **Suggestion → Trigger** install order from `docs/conditioning/hypno.md` — the trigger block elicits the arousal response first and only then conditions the sight/thought of cock as its cue — and randomize themselves per playback, so they stay varied across many listenings. Each may be `<include>`d at most once per render tree. Include the suggestion pool earlier in the suggestion phase and the trigger block later, so the response is already warm when the association is installed.
+The block follows the **Suggestion → Trigger** order from `docs/conditioning/hypno.md` — it elicits the arousal response in trance first and only then conditions the sight of cock as its cue — and randomizes itself per playback, so it stays varied across many listenings. It may be `<include>`d at most once per render tree. Pair it with `suggestion_inferiority.xml` when the cocklust framing is hierarchical (see `docs/training/submission.md`, `docs/training/pussyfree.md`), and lean on the daily visual stimulation below — every real exposure strengthens the reflex.
 
 ### Daily Practices
 - **Visual Stimulation**: Encourage the user to engage in daily visual stimulation, such as viewing images or videos that feature cock. This can help normalize their attraction and increase their sexual arousal over time.

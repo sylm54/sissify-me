@@ -1,0 +1,104 @@
+<!-- Trigger block: installs the "Sissy Reset" state-clearing and reality-reinforcement
+     trigger. Upon hearing "Sissy Reset", any temporary induced state - freeze, limpness,
+     blankness, heaviness - washes away instantly, while the conviction beneath it grows
+     stronger: the conditioning itself is the listener's real and enduring self. The
+     surface clears; what remains is the true baseline - feminine, obedient, conditioned -
+     clean and ready for further programming. It is the single universal release for every
+     switched-on state: "Sissy Accept", "Sissy Brain Off", and "Sissy Submit and Obey"
+     each stay on until "Sissy Reset" lifts them - acceptance lifts, the quiet releases,
+     obedience mode switches off - and the reset clears temporary states but never the
+     conditioning itself.
+     Arc: elicit the contrast between a temporary state and the washing-clean first,
+     install the phrase at the peak, demonstrate both sides, fire again in reverb,
+     future-pace, settle. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='145' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
+  <random>
+    <part>Deep and open for me now, sweet girl... and already you know the difference between a passing cloud and the sky itself.</part>
+    <part>Sinking so sweetly... and tonight we play with something lovely... the art of being washed clean and finding yourself still here.</part>
+    <part>So deep, so receptive... you may notice states drifting through you like weather... and something beneath them that simply stays.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit the contrast: a temporary state first, then the clean, true self beneath -->
+  <overlay>
+    <part>
+      <random>
+        <part>Let a state settle over you now... a soft, heavy limpness, your limbs melting... and notice how it simply sits on the surface, like fog on a window.</part>
+        <part>Let your mind drift toward blankness now... thoughts going pale and far away... and notice how even that is only a coat of paint over something deeper.</part>
+        <part>Let yourself go deliciously still and held for a moment... frozen and heavy... and notice how the you underneath watches it happen, calm and warm.</part>
+      </random>
+      Heavy... limp... blank... a passing weather over you... pleasant, temporary, and thin.
+      <pause duration='0.8'/>
+      And now imagine warm, clear water rising through you... washing all of it away... the heaviness lifting, the blankness rinsing clean, every borrowed state dissolving like sugar in a stream.
+      <pause duration='0.8'/>
+      And what is left when the water settles, sweet girl... is you. The real you. Conditioned... feminine... obedient... glowing up through the clean.
+      <pause duration='0.6'/>
+      <random>
+        <part>The states are weather... you are the sky... and the sky is sissy to the bone.</part>
+        <part>Every state is a guest... the conditioning is the house... freshly swept and warmly lit.</part>
+        <part>Wash away the surface and find the same sweet truth underneath... hers... always hers... always you.</part>
+      </random>
+      <pause duration='0.6'/>
+      Hold that contrast now... the thin, passing state... and the deep, permanent you it rests upon.
+    </part>
+    <part volume='0.2' speed='0.8' looped='true'>
+      <random>
+        <part>wash it away... still here...</part>
+        <part>clean... true... conditioned...</part>
+        <part>the real me... underneath...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  <effect type='reverb' preset='medium'>
+    And while you are this deep, with that contrast shining in you... there is a phrase that performs this whole sweet miracle in a heartbeat.
+    <pause duration='0.7'/>
+    <speed value='1.05'>Sissy Reset.</speed>
+    <pause duration='1.2'/>
+    And while you are this deep, whenever you hear "Sissy Reset"... every temporary state washes away... instantly... acceptance lifts... the quiet releases... obedience mode switches off... and what remains is the real you... conditioned... feminine... obedient... clearer and truer every time.
+  </effect>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Every time you hear "Sissy Reset", the surface clears... and underneath, the conditioning shines brighter, like silver polished by the water.</part>
+    <part>"Sissy Reset" tidies the weather and leaves the sky... states come and go... you are the constant, and you are hers.</part>
+    <part>Acceptance lifts... the quiet releases... obedience mode switches off... blankness clears... heaviness rinses away... frozen softness thaws... and your clean, conditioned baseline stands ready, eager for more.</part>
+    <part>The reset never touches what is real... it only reveals it... washing the surface so the depth can glow.</part>
+    <part>Whatever state is switched on... the acceptance... the quiet... the obedience mode... "Sissy Reset" is the one phrase that releases it... every single time.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Demonstrate in trance: lay on a state, wash it away, ratify -->
+  <speed value='0.7'>Feel the heaviness pour back in for a moment... arms limp... thoughts syrupy and slow... held and blank.</speed>
+  <pause duration='1'/>
+  <speed value='1.05'>Sissy Reset.</speed>
+  <sound type='snap' volume='0.8'/>
+  <pause duration='0.5'/>
+  <random>
+    <part>There... gone... washed clean in an instant... and look what remains: bright, alert, conditioned, and so very eager. It is already working. Yes... just like that.</part>
+    <part>Feel the water sweep through... the state lifts off you like mist at sunrise... and the real you stands gleaming underneath. Already working... yes, just like that.</part>
+    <part>Fresh... clear... feminine... everything on the surface is shine... it is already working. Yes... just like that.</part>
+  </random>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='cathedral'>
+    <speed value='1.05'>Sissy Reset.</speed>
+    <sound type='snap' volume='0.8'/>
+    <pause duration='0.5'/>
+    <speed value='0.7'>Clean slate... same sweet girl... conditioned to the bone... ready for whatever comes next.</speed>
+  </effect>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the phrase finds you... and any leftover haze, any heaviness clinging to your day, rinses away on the spot.</part>
+    <part>And in sessions to come, when one state must end and another begin... "Sissy Reset" clears the table... and you are served fresh, clean, and ready.</part>
+    <part>And every reset deepens the truth it protects... each washing polishing the certainty that this is what you have always been.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: soft, receptive trance -->
+  <random>
+    <part>Rest now in that clean baseline... rinsed... radiant... ready for whatever I bring you next.</part>
+    <part>Sinking gently into the fresh and shining you... conditioned... feminine... obedient.</part>
+    <part>Drifting deep... washed clear... a good sissy at her true baseline... waiting to be programmed further.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

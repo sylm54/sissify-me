@@ -1,0 +1,90 @@
+<!-- Cue block: conditions the sight of a cock. No command word - the conditioned
+     stimulus is the sight itself. Whenever the listener sees a cock, arousal arrives
+     instantly, braided with a clear, eager desire to suck it, serve it, and please it:
+     a reflex, not a decision... and the reflex grows stronger with every exposure.
+     Arc: framing, a vivid guided scene, conditioning the sight, reinforcement and
+     escalation, future-pace, settle. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <!-- Framing: in trance, no cue named yet -->
+  <random>
+    <part>Deep and open for me now, sweet girl... and let me tell you about wanting... the clean, simple, shining kind.</part>
+    <part>Sinking so sweetly... there is a truth in you that already knows how to kneel... tonight it learns to lift its head and smile.</part>
+    <part>So deep, so receptive... you may notice how certain images find their home in you faster than others... and how sweet it feels to let them.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit: guide the imagined scene vividly, from the inside -->
+  <overlay>
+    <part>
+      Picture it with me... you, on your knees... and in front of you, close enough to feel its warmth... a cock. Thick and proud and waiting for you.
+      <pause duration='0.7'/>
+      <random>
+        <part>Feel the pull behind your lips... that soft, empty ache... and how instantly your mouth wants to be full of it.</part>
+        <part>Feel your body lean in on its own... hips settling... hands rising... your face drifting closer like it is magnetized.</part>
+        <part>Feel the warm, wet wanting gathering between your legs... your whole body agreeing that this is what you are for.</part>
+      </random>
+      <pause duration='0.6'/>
+      Notice what is already happening in you... arousal first, quick and bright... and right behind it the wanting... to taste it... to serve it... to please it until it is pleased with you.
+      <pause duration='0.6'/>
+      Serving it feels like joy. Pleasing it feels like purpose. Being wanted by it feels like being seen all the way through... and adored for exactly what you are.
+      <pause duration='0.7'/>
+      Hold this feeling... knees soft... mouth watering... heart full of sweet, obedient hunger.
+    </part>
+    <part volume='0.2' speed='0.8' looped='true'>
+      <random>
+        <part>want it... serve it... please it...</part>
+        <part>on my knees... so hungry...</part>
+        <part>taste... serve... adore...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Condition the sight itself as the automatic cue -->
+  <effect type='reverb' preset='medium'>
+    And now, while you are this deep and this hungry... let us bind all of this to the seeing itself.
+    <pause duration='0.7'/>
+    Whenever you see a cock... on a screen... in a picture... in the flesh... this exact hunger floods you... instantly... without deciding to.
+    <pause duration='0.8'/>
+    You see it... and you want it... mouth, hands, and heart... all at once.
+  </effect>
+  <pause duration='0.6'/>
+  <!-- Reinforce and escalate -->
+  <scramble>
+    <part>Every time you see a cock, arousal blooms first... and the desire to suck it, serve it, and please it rises right behind it, sweet and irresistible.</part>
+    <part>The sight of a cock is an invitation your body accepts before your mind is consulted... knees softening... lips parting... wanting.</part>
+    <part>Seeing becomes wanting... wanting becomes kneeling... and kneeling feels like exactly where you belong.</part>
+    <part>One glance... and your whole body remembers its favorite purpose... to please.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>It is a reflex... and it grows stronger with every exposure... hungrier... wetter... quicker with every glance.</part>
+    <part>Each time you see one, the pull arrives faster and burns sweeter... training you... deepening you.</part>
+    <part>The more you see, the more you want... and the more you want, the more wonderfully yours the wanting becomes.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, when you scroll and one appears on your screen... the heat hits you instantly... and your mouth waters before a single thought arrives.</part>
+    <part>And next time you see one in a picture... a video... a glance stolen somewhere real... the wanting rises where you sit... soft, wet, and eager.</part>
+    <part>And every sighting from now on is a bell ringing in you... and every part of you answers... hungrier each time.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        You see it... and you want to please it, sweet girl.
+        <pause duration='0.6'/>
+        Instantly... eagerly... more with every look... that is what you are for... and it feels so good to be it.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>see it... want it... please it...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  <random>
+    <part>Sinking back now... warm and hungry... the wanting humming sweetly in you.</part>
+    <part>Drifting deeper... knees soft in your mind... lips ready... heart devoted.</part>
+    <part>Floating down, smiling... a good sissy, hungry in all the right ways.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

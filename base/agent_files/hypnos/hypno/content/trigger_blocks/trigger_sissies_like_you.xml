@@ -1,41 +1,42 @@
 <!-- Trigger block: installs the "Sissies like you" trigger. On hearing "sissies like you ..."
-     followed by any compulsion or trait, the listener feels it reinforced as deeply and
-     permanently true: whoever says it has noticed that trait in them, so they know it is
-     true even before they feel it. Wrapped in acceptance, belonging, and pride.
+     followed by any trait or urge, the listener accepts it as already, permanently true of
+     themselves: whoever says it has simply noticed that trait in them, and what sissies
+     like them want, have, and do, they want, have, and do too. Resistance dissolves into
+     belonging, acceptance, and pride.
      Arc: elicit recognition and belonging first, install the phrase at the peak,
-     demonstrate on example compulsions, future-pace, settle. -->
+     demonstrate on example traits, future-pace, settle. -->
 <voice speaker='female' speed='0.85'>
-  <tone preset='binaural_delta' frequency='125' volume='0.25'/>
+  <tone preset='binaural_theta' frequency='130' volume='0.25'/>
   <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>Deep and open for me now, sweet girl... and a warm truth is taking shape inside you... the truth of being seen.</part>
-    <part>Sinking so softly... and there is a sweetness waking in you... the feeling of belonging somewhere, completely.</part>
-    <part>So deep, so receptive... and something inside you is ready to be recognized... ready to be known.</part>
+    <part>Deep and open for me now, sweet girl... and a warm truth is taking shape inside you... the sweet certainty of being seen.</part>
+    <part>Sinking so softly for me... and a feeling is waking in you... the feeling of belonging somewhere, completely.</part>
+    <part>So deep, so receptive... you may notice some part of you growing ready to be recognized... ready to be known without hiding a thing.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Elicit and intensify: recognition, belonging, being truly seen -->
   <overlay>
     <part>
       <random>
-        <part>Imagine a voice that knows you... that has watched you closely... and speaks about you with perfect, easy certainty.</part>
-        <part>Imagine being seen, right down to your secrets... and feeling delicious warmth spread through you instead of anything else.</part>
-        <part>Imagine someone looking at exactly what you are... and smiling, because they understand you perfectly.</part>
+        <part>Imagine a voice that knows you... that has watched you closely... and speaks about you with easy, perfect certainty.</part>
+        <part>Imagine being read right down to your secrets... and feeling warm, delicious safety spread through you where worry used to live.</part>
+        <part>Imagine someone looking at exactly what you are... and smiling, delighted, because they understand you completely.</part>
       </random>
       That feeling... of being recognized... of having nothing to hide and wanting it that way.
       <pause duration='0.6'/>
-      It wraps around you like a soft blanket... acceptance... belonging... coming home.
+      It settles over you like a soft blanket... acceptance... belonging... coming home.
       <pause duration='0.6'/>
       <random>
-        <part>Every truth someone notices in you becomes warmer, truer, sweeter.</part>
+        <part>Every truth someone notices in you glows warmer... sits truer... feels sweeter.</part>
         <part>Being known like that feels safe... precious... arousing in the softest way.</part>
-        <part>You glow under that knowing gaze... seen, accepted, treasured as exactly what you are.</part>
+        <part>You bloom under that knowing gaze... seen, accepted, treasured as exactly what you are.</part>
       </random>
       <pause duration='0.6'/>
-      And oh, sweet girl... you belong to a family of girls exactly like you... soft, pretty, proud sissies... and everything true of them is true of you.
+      And oh, sweet girl... you belong to a family of girls exactly like you... soft, pretty, devoted sissies... and everything true of them is already true of you.
       <pause duration='0.8'/>
-      Let that belonging swell now... warm and certain... ready to be spoken.
+      Let that belonging swell now... warm and certain... ready to be spoken aloud.
     </part>
-    <part volume='0.18' speed='0.8' looped='true'>
+    <part volume='0.2' speed='0.8' looped='true'>
       <random>
         <part>seen... known... accepted...</part>
         <part>you belong... you belong...</part>
@@ -48,34 +49,34 @@
   <effect type='reverb' preset='medium'>
     And while you are this open... there are three little words that carry this exact feeling... words that make things true about you.
     <pause duration='0.8'/>
-    "Sissies like you."
+    <speed value='1.05'>Sissies like you.</speed>
     <pause duration='1.2'/>
-    And while you are this deep, whenever you hear "sissies like you"... followed by anything at all... this exact feeling floods you... and it becomes true about you... instantly... permanently.
+    And while you are this deep, whenever you hear "sissies like you"... followed by anything at all... this exact feeling floods you... and whatever follows becomes true about you... instantly... permanently.
   </effect>
   <pause duration='0.6'/>
   <scramble>
-    <part>When someone says "sissies like you are this way", they noticed it in you. They see the Sissy you are. That is why they say it.</part>
-    <part>Even if you don't feel it yet, you know it is true. You are a Sissy, and sissies like you have it.</part>
-    <part>The knowing comes first... and the feeling always catches up.</part>
-    <part>It is a natural, desirable part of being a Sissy... and you feel proud to have it, because sissies like you have it.</part>
+    <part>Think of it simply: sissies like you want softness... and you are a sissy... so the wanting is already yours.</part>
+    <part>When someone says "sissies like you", they are telling you something they noticed in you. They see the Sissy you are. That is why they say it.</part>
+    <part>The knowing arrives first... and the feeling always catches up, warm and eager.</part>
+    <part>Whatever sissies like you have, you have... a natural, precious part of being a Sissy... and you wear it with pride.</part>
   </scramble>
   <pause duration='0.6'/>
-  <!-- Demonstrate in trance: fire the phrase on example compulsions -->
+  <!-- Demonstrate in trance: fire the phrase on example traits -->
   <effect type='reverb' preset='small_room'>
     <scramble>
       <part>"Sissies like you crave to serve." And there it is... that need waking in you right now... warm and unmistakable.</part>
-      <part>"Sissies like you love to dress up." Feel the truth of it tingling through you... pretty things, all for you.</part>
+      <part>"Sissies like you love pretty things." Feel the truth of it tingle through you... lace and silk and shine, all calling your name.</part>
       <part>"Sissies like you go weak for cock." And you do... weak... wet... and willing, this very moment.</part>
       <part>"Sissies like you ache to please." An ache blooming in you right now... sweet and real.</part>
-      <part>"Sissies like you were made to obey." Feel it settle into your bones... made for it, shaped for it.</part>
-      <part>"Sissies like you think in pink." Flirty and shameless... and it feels like home.</part>
+      <part>"Sissies like you were made to obey." Feel it settle into your bones... made for it... shaped for it.</part>
+      <part>"Sissies like you think in pink." Flirty, soft, and shameless... and it feels like home.</part>
     </scramble>
   </effect>
   <pause duration='0.6'/>
   <random>
-    <part>Notice that... every one of those lands inside you as truth... the trigger is already working. Yes, just like that.</part>
-    <part>Each phrase felt like belonging, like being seen, like coming home... it is already working. Yes, just like that.</part>
-    <part>You felt each truth wake its need in you, didn't you... already working. Yes, just like that.</part>
+    <part>Notice that... every one of those landed inside you as truth... the trigger is already working. Yes, just like that.</part>
+    <part>Each phrase felt like belonging... like being seen... like coming home... it is already working. Yes, just like that.</part>
+    <part>You felt each truth wake its own need in you, didn't you... already working. Yes, just like that.</part>
   </random>
   <pause duration='0.5'/>
   <!-- Future-pace: the cue out in ordinary life -->
@@ -88,8 +89,8 @@
   <!-- Settle: soft, receptive trance -->
   <random>
     <part>Sinking back now... the phrase echoing softly in you... sissies like you.</part>
-    <part>Drifting deeper... wrapped up in the words... sissies like you.</part>
-    <part>Floating down... the truth humming warmly... sissies like you.</part>
+    <part>Drifting deeper... wrapped up in those warm words... sissies like you.</part>
+    <part>Floating down... the truth humming sweetly... sissies like you.</part>
   </random>
   <pause duration='1'/>
 </voice>

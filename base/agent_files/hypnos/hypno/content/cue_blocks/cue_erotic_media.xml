@@ -1,0 +1,90 @@
+<!-- Cue block: conditions the sight of women or sissies in erotic media. No command
+     word - the conditioned stimulus is the sight itself. Whenever the listener sees
+     women or sissies in erotic imagery, they slip automatically into the scene from the
+     receptive, feminine side: feeling what she feels, wanting what she wants. The screen
+     becomes somewhere they are rather than something they watch... and the reflex grows
+     stronger with every exposure. Arc: framing, scene, conditioning, future-pace, settle. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='150' volume='0.25'/>
+  <!-- Framing: in trance, no cue named yet -->
+  <random>
+    <part>Deep and open for me now, sweet girl... and let me tell you about the screen... and how it has been quietly waiting for you.</part>
+    <part>Sinking so sweetly... you already love to look... and tonight, looking becomes so much more.</part>
+    <part>So deep, so receptive... you may notice how easily your mind pictures what I describe... images arriving already feeling like memories.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit: guide the imagined scene vividly, from the inside -->
+  <overlay>
+    <part>
+      Picture it with me... a pretty girl on the screen... soft light... her curves... her little smile... the way she sinks into someone's hands like she belongs there.
+      <pause duration='0.7'/>
+      <random>
+        <part>Now slip into her... feel the mattress under your knees... the lace hugging you... the flush rising as you are looked at, wanted, taken in.</part>
+        <part>Now be her... feel your lashes lower... your lips part... that sweet, dizzy moment of being chosen... of being the soft one, the willing one.</part>
+        <part>Now see it through her eyes... looking up... feeling small and precious and utterly, deliciously desired.</part>
+      </random>
+      <pause duration='0.6'/>
+      You feel what she feels... the hands, the heat, the sweet surrender... and you want what she wants... to be desired... to be filled... to be good.
+      <pause duration='0.6'/>
+      And notice, sweet girl... you did that automatically. Nobody had to tell you to take her place... your mind already goes there, every time... and it feels like coming home.
+      <pause duration='0.7'/>
+      The screen is a doorway... and you are on the other side of it.
+    </part>
+    <part volume='0.2' speed='0.8' looped='true'>
+      <random>
+        <part>in the scene... being her...</part>
+        <part>her place... your place...</part>
+        <part>warm... wanting... hers...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Condition the sight itself as the automatic cue -->
+  <effect type='reverb' preset='medium'>
+    And now, while you are this deep... let us bind that feeling to the seeing itself.
+    <pause duration='0.7'/>
+    Whenever you see women or sissies in erotic media... a video... a picture... a caption... this exact slide into the scene happens... instantly... without deciding to.
+    <pause duration='0.8'/>
+    You see her... and you are her. The screen is somewhere you are.
+  </effect>
+  <pause duration='0.6'/>
+  <!-- Reinforce and escalate -->
+  <scramble>
+    <part>Every time you see erotic images of women or sissies, you slip into the receptive side of the scene... feeling what she feels... wanting what she wants.</part>
+    <part>The moment the image reaches you, your imagination takes her place... automatically... sweetly... every single time.</part>
+    <part>Watching becomes being... the scene casts you in the starring role, every time it plays.</part>
+    <part>You are the girl in the scene now... and it feels more natural in there than out here.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>It is a reflex... and it grows stronger with every exposure... quicker... deeper... more vivid.</part>
+    <part>Each time you see it, the pull into the scene arrives faster... and carries you further in.</part>
+    <part>The more you look, the more natural being her feels... and the more natural it feels, the more you look.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, when you scroll and something pretty catches your eye... you land inside her before the second heartbeat... warm and wanting, right where you sit.</part>
+    <part>And next time you watch, notice how the watching disappears... one glance, and you are in the scene... soft, receptive, and glowing.</part>
+    <part>And every glance at every pretty, dirty picture from now on is a little doorway... and through you go... deeper each time.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        The screen is somewhere you are now, sweet girl.
+        <pause duration='0.6'/>
+        See her... be her... feel what she feels... want what she wants... every time... more naturally each time.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>see her... be her... every time...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  <random>
+    <part>Sinking back now... the scene still glowing softly behind your eyes.</part>
+    <part>Drifting deeper... warm and wanting... somewhere soft on the other side of the screen.</part>
+    <part>Floating down, smiling... already imagining where you belong next time you look.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

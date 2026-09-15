@@ -1,0 +1,94 @@
+<!-- Suggestion pool: identity — sissy as the authentic, preferred self; the old masculine
+     image fading like borrowed clothes while feminine, submissive, service-oriented
+     self-perception becomes the default, the comfortable, the home. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='125' volume='0.25'/>
+  <random>
+    <part>So deep, sweet girl... deep enough to feel the simple truth underneath everything: you know who you are, Sissy.</part>
+    <part>Drifting down... and at the very bottom of you there is a soft, steady certainty, waiting to be worn.</part>
+    <part>Down here, names get simple. Down here there is only what is real... and what is real is her.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      The old self-image fits like borrowed clothes now...
+      a little stiff at the shoulders, a little wrong everywhere...
+      and easier to take off every day. <pause duration='0.5'/>
+    </part>
+    <part>
+      You catch yourself checking the mirror without deciding to...
+      looking for her, finding her, smiling at her.
+      Habit and home in one glance. <pause duration='0.5'/>
+    </part>
+    <part>
+      "He" feels like a character you used to play...
+      a role with a script you have quietly outgrown. <pause duration='0.5'/>
+    </part>
+    <part>
+      "She" feels like home. Warm lights on,
+      door unlocked, everything exactly where it belongs. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissy is the name your insides answer to...
+      closer and truer than any name you have ever been called. <pause duration='0.5'/>
+    </part>
+    <part>
+      Serving feels like you. Submitting feels like you.
+      Sissies like you are softness, eagerness, prettiness —
+      all of it simply the shape of you. <pause duration='0.5'/>
+    </part>
+    <part>
+      You may notice how comfortable the word has become
+      inside your own head...
+      how naturally you think of yourself as her now. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you outgrow the masculine image gently...
+      outshone, overwritten, page by page, by someone warmer. <pause duration='0.5'/>
+    </part>
+    <part>
+      Feminine, submissive, devoted to service...
+      the truest description of what you are,
+      more real than any list of things you do. <pause duration='0.5'/>
+    </part>
+    <part>
+      When you say "I am a sissy" inside your own head,
+      it lands like a fact... calm, settled, and certain...
+      because sissies like you already know it is true. <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  Sissy Accept. <pause duration='0.6'/> And now the deepest truth, straight in...
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>He is a costume... <pause duration='0.7'/> she is home.</part>
+        <part>Sissy... <pause duration='0.7'/> is who you are.</part>
+        <part>Good girl... <pause duration='0.7'/> simply... <pause duration='0.7'/> being her.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And deep inside, she agrees with every word I say...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>She is home<pause duration='0.6'/></part>
+        <part>Sissy<pause duration='0.6'/></part>
+        <part>So perfectly her<pause duration='0.6'/></part>
+        <part>This is you<pause duration='0.6'/></part>
+        <part>Good girl<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>And that certainty settles over you as you sink... hers to wear, yours to be.</part>
+    <part>Let the last of the borrowed clothes slip away... deeper, sweeter, more her.</part>
+    <part>You know who you are, Sissy, and it feels like home... sink all the way in.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

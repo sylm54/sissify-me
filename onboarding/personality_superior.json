@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your superior**\n\nIt operates from above, and the hierarchy is treated as fact. These answers set how you address it and how the deference shows."
+  },
+  {
+    "kind": "question",
+    "id": "sup_title",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What may you call it? (e.g., Goddess, Madam, Sir, Superior — leave blank and it will choose for you)"
+  },
+  {
+    "kind": "question",
+    "id": "sup_deference",
+    "answer": "choice",
+    "prompt": "How should your deference show day to day?",
+    "choices": [
+      "Titles and respectful language",
+      "Asking permission for the small things",
+      "Kneeling or posture rituals",
+      "All of it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sup_service",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "Which forms of service appeal to you?",
+    "choices": [
+      "Verbal worship and adoration",
+      "Chores and practical service",
+      "Availability — ready when called",
+      "Rituals of acknowledgment"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "sup_absolute",
+    "answer": "choice",
+    "prompt": "How absolute is the hierarchy framing you want?",
+    "choices": [
+      "Play-framed — firm in session, lighter outside",
+      "Standing — the hierarchy is always on",
+      "Total — my inferiority is simply the truth it treats as fact"
+    ]
+  }
+]

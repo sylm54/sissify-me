@@ -22,7 +22,7 @@
     "answer": "open",
     "optional": true,
     "prompt": "Do you want a safeword?",
-    "hint": ""
+    "hint": "A word that stops everything instantly — in chat, in a session, mid-audio. I'll honor it without question."
   },
   {
     "kind": "question",
@@ -30,14 +30,13 @@
     "answer": "open",
     "optional": true,
     "prompt": "Anything physical or mental I should factor in? (injuries, medication, stress, dysphoria triggers…)",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+    "hint": "Workouts, chastity, denial — everything physical gets tuned around this."
   },
   {
     "kind": "question",
     "id": "never_say",
     "answer": "open",
     "optional": true,
-    "prompt": "Anything I should never say or joke about — words, topics, triggers?",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" }
+    "prompt": "Anything I should never say or joke about — words, topics, triggers?"
   }
 ]

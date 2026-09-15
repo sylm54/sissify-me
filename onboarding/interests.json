@@ -11,19 +11,22 @@
     "prompt": "Which of these pull you?",
     "choices": [
       "Chastity",
+      "Orgasm control & denial",
+      "Retraining — prostate & hands-free",
+      "Pussyfree & beta",
       "Voice feminization",
+      "Body care & shaping",
+      "A sissy uniform",
+      "A sissy persona & name",
+      "Sissy mindset & vocabulary",
       "Hypno & triggers",
       "Conditioning & brainwashing",
-      "Corrupting my daily life",
-      "A sissy persona & name",
-      "Body care & shaping",
       "Submission & obedience",
-      "A sissy uniform",
+      "Corrupting my daily life",
+      "Reflection & journaling",
       "Cocklust",
-      "Online exposure",
       "Slut training",
-      "Orgasm control & denial",
-      "Reflection & journaling"
+      "Online exposure"
     ]
   },
   {
@@ -36,12 +39,25 @@
   },
   {
     "kind": "question",
+    "id": "chastity_experience",
+    "answer": "choice",
+    "prompt": "How long have you worn it — your longest stretch locked?",
+    "showIf": { "id": "chastity_owned", "equals": "Yes — I have a cage" },
+    "choices": [
+      "Only tried it briefly",
+      "A few hours to a day",
+      "Several days",
+      "A week or longer"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "chastity_control",
     "answer": "choice",
     "prompt": "How much control over your lockups do you want me to take?",
     "showIf": {
       "all": [
-        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "depth", "equals": "Deep" },
         { "id": "chastity_owned", "equals": "Yes — I have a cage" }
       ]
     },
@@ -50,6 +66,45 @@
       "We set durations together — you may push for longer",
       "We set durations — you enforce them",
       "Lockups only when we play"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "denial_baseline",
+    "answer": "choice",
+    "prompt": "How much denial experience do you have?",
+    "showIf": { "id": "interests", "includes": "Orgasm control & denial" },
+    "choices": [
+      "Never edged",
+      "I edge sometimes",
+      "Frequent edging, denial stretches",
+      "Long denial is routine for me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "anal_experience",
+    "answer": "choice",
+    "prompt": "How experienced are you with anal play?",
+    "hint": "Prostate work builds from wherever you actually are.",
+    "showIf": { "id": "interests", "includes": "Retraining — prostate & hands-free" },
+    "choices": [
+      "Never tried it",
+      "Fingers only",
+      "Toys — I play occasionally",
+      "Regular — I know what my prostate can do"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "pussyfree_reality",
+    "answer": "choice",
+    "prompt": "Pussyfree means giving up penetration — how far does that go for you?",
+    "showIf": { "id": "interests", "includes": "Pussyfree & beta" },
+    "choices": [
+      "A mindset and a label — my real sex life stays mine",
+      "Trial first — let's see how it fits",
+      "Real — I want penetration out of my life for good"
     ]
   },
   {
@@ -115,12 +170,30 @@
   },
   {
     "kind": "question",
+    "id": "cocklust_reality",
+    "answer": "choice",
+    "prompt": "Cock and being used — is that fantasy fuel, or something you want in real life?",
+    "showIf": {
+      "any": [
+        { "id": "interests", "includes": "Cocklust" },
+        { "id": "interests", "includes": "Slut training" }
+      ]
+    },
+    "choices": [
+      "Fantasy only — it stays in my head",
+      "Someday, with the right person",
+      "I want this in real life",
+      "Already living it"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "exposure_degree",
     "answer": "choice",
     "prompt": "If you posted yourself — how exposed could you be, at most?",
     "showIf": {
       "all": [
-        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "depth", "equals": "Deep" },
         { "id": "interests", "includes": "Online exposure" }
       ]
     },
@@ -138,7 +211,7 @@
     "prompt": "And how close are you to actually posting?",
     "showIf": {
       "all": [
-        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "depth", "equals": "Deep" },
         { "id": "interests", "includes": "Online exposure" }
       ]
     },
@@ -157,7 +230,7 @@
     "prompt": "What would have to happen — or never happen — for posting to feel okay to you?",
     "showIf": {
       "all": [
-        { "id": "depth", "equals": "Deep — thorough and introspective" },
+        { "id": "depth", "equals": "Deep" },
         { "id": "interests", "includes": "Online exposure" }
       ]
     }

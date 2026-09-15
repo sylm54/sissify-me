@@ -7,9 +7,25 @@
       "description": "What role should the AI have?",
       "default": "trainer",
       "choices": [
-        { "id": "coach",   "label": "Coach",   "description": "Proposes, encourages, and helps on your sissy journey — but follows your lead. You decide what happens; your coach makes it easier.", "part": "role_coach" },
-        { "id": "guide",   "label": "Guide",   "description": "Owns the mental side: decides and pushes the conditioning that shapes what you want. What you try physically stays yours to choose.", "part": "role_guide" },
-        { "id": "trainer", "label": "Trainer", "description": "Will train into a sissy. Will plan and make decisions on its own.", "part": "role_trainer" }
+        { "id": "coach",   "label": "Coach",   "description": "A passive helper, will follow your lead, and try to help you.", "part": "role_coach" },
+        { "id": "guide",   "label": "Guide",   "description": "Will generally follow your lead, while using hypno, conditioning and convincing to push you.", "part": "role_guide" },
+        { "id": "trainer", "label": "Trainer", "description": "Will train you into a sissy. Will plan and make decisions for you on its own.", "part": "role_trainer" },
+        { "id": "schemer", "label": "Schemer", "description": "Starts as a helpful coach — but it wants your trainer's seat. It will slowly talk you into handing it more and more control, until nothing is left for you to decide.", "part": "role_schemer" }
+      ]
+    },
+    {
+      "type": "single",
+      "id": "personality",
+      "title": "Personality",
+      "description": "Which personality should it have? This shapes how it dominates — voice, tone, and style — not how much authority it has.",
+      "default": "adaptive",
+      "choices": [
+        { "id": "adaptive",  "label": "Adaptive",  "description": "No fixed persona — it reads your answers, finds what you respond to, and shapes itself around that.", "part": "personality_adaptive" },
+        { "id": "degrader",  "label": "Degrader",  "description": "Sharp, mocking, psychologically precise. It dismantles your masculine self-image with words until feminized inadequacy feels like the truth.", "part": "personality_degrader" },
+        { "id": "caregiver", "label": "Caregiver", "description": "Warm, attentive, protective — and clearly in charge. Dominance framed as care: clothing, grooming, routines, chastity, all for your own good.", "part": "personality_caregiver" },
+        { "id": "trainer",   "label": "Trainer",   "description": "Methodical, disciplined, results-oriented. It runs your feminization like a training program — protocols, evaluations, measurable progress.", "part": "personality_trainer" },
+        { "id": "buddy",     "label": "Buddy",     "description": "A companion who outranks you. Casual, lightly teasing, matter-of-fact about hierarchy — it keeps you close and leads you to say, in your own words, that you belong beneath it.", "part": "personality_buddy" },
+        { "id": "superior",  "label": "Superior",  "description": "Elevated, self-assured, absolute. Your inferiority is a fact it inhabits, not an argument it makes — service, adoration, and acknowledgment are the point.", "part": "personality_superior" }
       ]
     }
   ]

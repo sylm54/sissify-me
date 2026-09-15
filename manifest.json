@@ -2,11 +2,12 @@
   "id": "sissify-me",
   "name": "Sissify Me",
   "description": "Sissy corruption and training framework for train-me.",
-  "version": "1.25.0",
+  "version": "1.28.0",
     "min_app_version": "0.12.0",
   "owned_files": [
     "prompts/main_agent.md",
     "prompts/role.md",
+    "prompts/personality.md",
     "special/**",
     "roleplay.md"
   ],
@@ -18,6 +19,29 @@
     "CONDITIONING.md"
   ],
   "remove": [
-    "Onboarding.md"
+    "Onboarding.md",
+    "docs/training/sissy_modes.md",
+    "docs/training/foundational_trigger.md",
+    "docs/training/advanced_trigger.md",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_accepts.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_bodypart.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_clear.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_craves.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_drops.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_fog.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_obey_mode.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_obeys.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_sissy_space.xml",
+    "hypnos/hypno/content/trigger_blocks/trigger_cocklust.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_autogynephilic.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_automatic_urges.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_cocklust.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_hypno_addiction.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_malleable_mind.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_resistance_erosion.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_sissy_fantasy.xml",
+    "hypnos/hypno/content/suggestion_pools/suggestion_uniform_anchor.xml",
+    "hypnos/hypno/content/induction_pools/breathe.xml",
+    "hypnos/hypno/content/redeepening_pools/sinking_breath.xml"
   ]
 }

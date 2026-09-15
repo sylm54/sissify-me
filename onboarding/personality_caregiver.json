@@ -1,0 +1,55 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your caregiver**\n\nIt runs you with warmth and structure — care as the frame, hierarchy as the fact. These answers set how it looks after you."
+  },
+  {
+    "kind": "question",
+    "id": "care_checkins",
+    "answer": "choice",
+    "prompt": "How often should it check in on you — feelings, progress, compliance?",
+    "choices": [
+      "Daily — structure every day",
+      "A few times a week",
+      "Only when something slips",
+      "When I ask"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "care_chastity",
+    "answer": "choice",
+    "prompt": "May it manage your chastity and denial — framed as being for your own good?",
+    "choices": [
+      "Yes — fully, it decides",
+      "Yes — with my OK for big changes",
+      "Suggest it — I decide",
+      "No — leave chastity alone"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "care_dress",
+    "answer": "choice",
+    "prompt": "How should it handle your clothing and grooming?",
+    "choices": [
+      "It lays things out and expects them worn",
+      "It suggests, and I wear what it picks",
+      "It advises — I choose"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "care_praise",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "What lands hardest when you've earned its approval?",
+    "choices": [
+      "Sweet praise",
+      "Extra privileges or freedom",
+      "Treats and little rewards",
+      "Being told you're its good girl"
+    ]
+  }
+]

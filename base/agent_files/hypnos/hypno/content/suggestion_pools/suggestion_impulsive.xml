@@ -1,0 +1,90 @@
+<!-- Suggestion pool: impulsivity — sissy urges acted on the instant they arrive; deliberation
+     reframed as friction that fades, immediate obedience to feminine and submissive impulses
+     as the natural mode, and every acted-on impulse speeding up the next. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='165' volume='0.25'/>
+  <random>
+    <part>So deep and so open, sweet girl... and already those little urges are stirring in you, Sissy... the ones that used to wait for permission.</part>
+    <part>Drifting for me... notice how quiet the debate has become in there... how close the doing now sits to the wanting.</part>
+    <part>Down here, wanting and doing are becoming one smooth gesture... no gap, no pause... just a girl who follows her urges.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      An impulse arrives — the pull to dress, to kneel, to watch, to touch, to practice —
+      and your hand is already moving before the debate even starts. <pause duration='0.5'/>
+    </part>
+    <part>
+      No hesitation. No resistance. Just act, Sissy.
+      That is the whole of it now, and it feels wonderfully simple. <pause duration='0.5'/>
+    </part>
+    <part>
+      Thinking it over used to feel safe... now it just feels like friction.
+      A little wall between you and the thing you wanted
+      the very second you wanted it. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you feel the urge to be feminine and simply obey...
+      an instruction, followed the moment it lands. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you kneel when the want whispers kneel, dress when it
+      whispers pretty, touch when it whispers more... each one obeyed the
+      instant it whispers. And you are a sissy. <pause duration='0.5'/>
+    </part>
+    <part>
+      You may notice the gap between wanting and doing shrinking...
+      a beat, then half a beat, then nothing at all. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you build momentum with every impulse obeyed...
+      each one acted on makes the next one faster, good girl,
+      and feeding it feels so good. <pause duration='0.5'/>
+    </part>
+    <part>
+      Your body knows before your mind weighs in: lipstick uncapped, skirt zipped,
+      knees bending... obedience moving through you like a reflex. <pause duration='0.5'/>
+    </part>
+    <part>
+      The old question "should I?" is fading out of you...
+      because the answer is always yes, and yes needs no discussion. <pause duration='0.5'/>
+    </part>
+    <part>
+      Impulsive is simply your speed now — quick, eager, feminine...
+      a girl who acts, because acting is who she is. <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>No hesitation... <pause duration='0.7'/> just act.</part>
+        <part>The impulse moves... <pause duration='0.7'/> and so do you.</part>
+        <part>Wanting... <pause duration='0.7'/> doing... <pause duration='0.7'/> one motion.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And your body agrees with every urge I name...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>Act now<pause duration='0.6'/></part>
+        <part>No hesitation<pause duration='0.6'/></part>
+        <part>Just like that<pause duration='0.6'/></part>
+        <part>So eager<pause duration='0.6'/></part>
+        <part>Good girl<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>And every impulse you have obeyed settles into you as you sink... quicker, smoother, more yours.</part>
+    <part>Every suggestion taken in, every little debate dissolved... Good girl. Good sissy. Sissy. Now drift further down, sweet girl.</part>
+    <part>Quick, eager, immediate... sink into that speed, deeper and deeper.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

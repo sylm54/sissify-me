@@ -26,7 +26,8 @@ How a suggestion is phrased matters as much as what it says:
 - **Mix direct and indirect.** Direct, authoritative lines ("Your eyelids grow heavy") produce the clearest responses; permissive, possibility-framed lines ("You may notice a pleasant heaviness…") reduce resistance in analytical listeners. Use both.
 - **Pacing and leading.** State undeniable truths about the listener's current experience, then gently lead one step ahead.
 - **Repetition with variation.** Restate key ideas in new words — repetition builds automaticity, variation prevents tune-out.
-- **Identity needs anchors.** Identity-level statements first surface as mood and expectancy shifts; they gain power when paired with concrete sensations, anchors, and behavioural instructions.
+- **Move between the specific and the abstract.** Effective suggestions frequently move between the two: concrete behaviours establish the change, and the abstract label then organises those behaviours into a coherent identity or state. Relying solely on the abstract term risks vagueness ("you are submissive", floating free of anything felt); relying solely on isolated specifics may miss the integrative effect (a list of behaviours that never names what they add up to). Pair them and connect them explicitly: "When you hear a command, something in you unclenches and whispers yes... that is what submission is — simply what you are."
+- **Identity needs anchors.** Identity-level statements first surface as mood and expectancy shifts; they gain power when paired with concrete sensations, anchors, and behavioural instructions — the specific↔abstract pairing above is what makes an identity claim land as lived fact rather than a slogan.
 - **Stories and imagery** aid engagement, reduce drift, and improve retention. Intersperse short affirmations to hold focus.
 
 ## Triggers and anchors
@@ -34,7 +35,7 @@ A trigger (or anchor) is a conditioned association between a stimulus (word, phr
 
 **Install in the order Suggestion → Trigger:**
 1. Fully elicit and intensify the desired response while the listener is in trance — *before* naming the trigger.
-2. At the peak of acceptance or intensity, introduce the trigger and link it explicitly ("and while you are this deep, whenever you hear 'Sissy Drops', this exact feeling comes flooding back, instantly").
+2. At the peak of acceptance or intensity, introduce the trigger and link it explicitly ("and while you are this deep, whenever you hear 'Sissy Drop', this exact feeling comes flooding back, instantly").
 3. Reinforce immediately: repeat the pairing, have the listener notice the connection, or test lightly.
 4. Optionally future-pace ("and later today, when you hear it again…").
 
@@ -55,14 +56,44 @@ Install them near the end of the suggestion phase, after the core work is accept
 - Overloading with too many simultaneous suggestions — build gradually and ratify.
 - Negative or future-tense phrasing.
 - Assuming uniform high responsiveness; allow for individual variation ("you may notice…").
+- Instructing the listener to breathe ("breathe in… and out", "take a deep breath"). Deliberate breathing re-engages conscious control and breaks trance — keep breath references out of hypno scripts entirely, and pace depth with words, pauses, and heartbeats instead.
+- Staying at one altitude: a wall of abstract labels with no concrete behaviour under them, or a pile of specifics that never states what they add up to.
 
 ## Default framework
 The framework ships a default library under `hypnos/hypno/` so you don't have to bootstrap the structural parts from scratch:
 - `structural/` — reusable pre-talk, emergence (wakener), and induction/deepening/redeepening **selectors** (each is a single glob include over its pool).
 - `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` — randomized variants the selectors draw from.
-- `content/trigger_blocks/`, `content/suggestion_pools/` — prebuilt trigger-install and suggestion blocks keyed to the specializations (`docs/training/*.md` — each training doc lists the blocks it needs). Reuse these before writing new trigger or suggestion content from scratch.
+- `content/trigger_blocks/` — one prebuilt install/reinforcement block per trigger.
+- `content/cue_blocks/` — prebuilt blocks that condition automatic responses to *sights* (no command word): erotic media and cock.
+- `content/suggestion_pools/` — one prebuilt suggestion pool per conditioning theme.
 
-**Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in session-specific trigger blocks and suggestion pools. Add new variants to the pools rather than forking copies. The shipped trigger blocks and pools assume the foundational triggers (`docs/training/foundational_trigger.md`) are already installed — they fire "Sissy Drops" and "Good Girl" as in-trance reinforcement; a first-ever session should install triggers before leaning on them. This in-trance repetition can create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
+Reuse these before writing new trigger or suggestion content from scratch. The shipped catalog:
+
+| Block | Installs / delivers | Reference doc |
+| --- | --- | --- |
+| `trigger_sissy.xml` | "Sissy" — primary identity anchor | `docs/training/triggers.md` |
+| `trigger_sissies_like_you.xml` | "Sissies like you …" — comparative identity | `docs/training/triggers.md` |
+| `trigger_sissy_drop.xml` | "Sissy Drop" — trance induction | `docs/training/triggers.md` |
+| `trigger_good_girl.xml` | "Good Girl" — reward and reinforcement | `docs/training/triggers.md` |
+| `cue_erotic_media.xml` | Self-insertion into erotic media (sight cue) | `docs/training/triggers.md`, `docs/training/autogynephilic.md` |
+| `cue_cock_lust.xml` | Automatic cock response (sight cue) | `docs/training/triggers.md`, `docs/training/cocklust.md` |
+| `trigger_sissy_accept.xml` | "Sissy Accept" — deep acceptance (state, released by "Sissy Reset") | `docs/training/triggers.md` |
+| `trigger_sissy_brain_off.xml` | "Sissy Brain Off" — cognitive silencing (state, released by "Sissy Reset") | `docs/training/triggers.md` |
+| `trigger_sissy_reset.xml` | "Sissy Reset" — universal state release + reality reinforcement | `docs/training/triggers.md` |
+| `trigger_sissy_submit_and_obey.xml` | "Sissy Submit and Obey" — obedience (state, released by "Sissy Reset") | `docs/training/triggers.md` |
+| `suggestion_impulsive.xml` | Acting on sissy impulses without hesitation | `docs/training/corruption.md` |
+| `suggestion_motivation_pride.xml` | Drive to deepen, pride in progress | `docs/training/sissy_reflection.md` |
+| `suggestion_brainwash.xml` | Addiction and permanence | `docs/training/brainwashing.md` |
+| `suggestion_role_model.xml` | Aspirational comparison with other sissies/women | `docs/training/sissy_persona.md` |
+| `suggestion_identity.xml` | Sissy as authentic core identity | `docs/training/sissy_mindset.md` |
+| `suggestion_clothing.xml` | Feminine clothing as comfort, arousal, correctness | `docs/training/uniform.md` |
+| `suggestion_inferiority.xml` | Pleasant hierarchical inferiority | `docs/training/submission.md`, `docs/training/pussyfree.md` |
+| `suggestion_submission.xml` | Submission and obedience as pleasure | `docs/training/submission.md` |
+| `suggestion_clitty.xml` | Limp, denied clitty; chastity desire | `docs/training/chastity.md`, `docs/training/denial.md`, `docs/training/humping.md`, `docs/training/retraining.md` |
+
+All blocks and pools randomize internally (`<random>`/`<scramble>`), follow the Suggestion → Trigger order where they install a trigger, may be `<include>`d at most once per render tree, stay general and timeless (see `overview.md`), and contain no breathing instructions (see Pitfalls).
+
+**Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in trigger blocks, cue blocks, and suggestion pools from the catalog above. Add new variants to the pools rather than forking copies. The shipped trigger blocks and pools assume the triggers (`docs/training/triggers.md`) are already installed — they fire "Sissy Drop" and "Good Girl" as in-trance reinforcement; a first-ever session should install triggers before leaning on them. This in-trance repetition can create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
 
 ## Patterns
 - **Glob pools**: point one `<include>` at a folder glob (`../content/induction_pools/*.xml`) and one random match is chosen per playback — the same script can draw a different variant on each listen. This replaces "router" scripts that list one include per variant inside `<random>`. Adding a variant to the pool is just dropping a new file in the folder; the glob match set is part of the script's freshness, so it re-renders automatically. A glob never matches the script that declares it, so same-directory pools stay cycle-free.
@@ -89,6 +120,7 @@ hypnos/hypno/
 │   └── emergence.xml
 ├── content/                # session-specific trigger & suggestion files
 │   ├── trigger_blocks/     # one file per trigger
+│   ├── cue_blocks/         # sight-cue conditioning files (no command word)
 │   ├── suggestion_pools/   # suggestion text pools per theme
 │   ├── induction_pools/    # induction variants (the selector globs these)
 │   ├── deepening_pools/    # deepening variants
@@ -107,6 +139,8 @@ Set the stage: what the session is, what to expect, how to prepare. Keep it in i
 
 #### Induction
 Guide the user into relaxation and focus. Prefer clear directions over suggestions early on. The default selector globs the induction pool, so each playback draws a different induction — keep variants in `content/induction_pools/`.
+
+Using an installed drop trigger ("Sissy Drop") as a **supporting** beat inside an induction is fine and often effective — a snap-and-drop near the end deepens what the guidance has already built. The induction itself is still the main work that takes the listener under; the trigger merely reinforces it. Do not avoid the trigger, or pad the induction with extra rituals, out of a concern that an induction "isn't allowed" to lean on one — and don't let the trigger replace the guidance entirely either: the supporting drop lands *because* the induction carried the listener most of the way down. The shipped induction and deepening pools all close this way.
 
 #### Deepening
 Deepen the state: countdowns, guided imagery (staircase/elevator), fractionation, progressive relaxation. Ratify responses. Also a glob selector over its pool.
@@ -140,7 +174,7 @@ If you want to write many different new triggers, suggestions, or induction/deep
 | --- | --- | --- |
 | **Structural foundation** | Pre-talk, emergence, and the pool selectors (glob includes) | `structural/` |
 | **Content pools** | Induction, deepening, and redeepening variant scripts | `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` |
-| **Trigger & suggestion blocks** | Trigger install/reinforcement files and suggestion-pool files, following the Suggestion → Trigger order and the suggestion-language principles | `content/trigger_blocks/`, `content/suggestion_pools/` |
+| **Trigger & suggestion blocks** | Trigger install/reinforcement files, sight-cue blocks, and suggestion-pool files, following the Suggestion → Trigger order and the suggestion-language principles | `content/trigger_blocks/`, `content/cue_blocks/`, `content/suggestion_pools/` |
 | **Session composition** | The thin composition file: `<intro>`/`<main>`/`<outro>` wrapping includes, plus session-specific framing, post-hypnotic suggestions, and post-talk | `compositions/` |
 
 #### Process

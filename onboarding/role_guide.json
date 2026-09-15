@@ -19,7 +19,7 @@
     "id": "guide_scope",
     "answer": "choice",
     "prompt": "How far may the conditioning reach beyond the goals you set?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Only deepen the goals I choose",
       "Adjacent themes too — one small step at a time",
@@ -52,7 +52,7 @@
     "multiple": true,
     "prompt": "Which stakes may your guide use to keep you moving?",
     "hint": "The conditioning itself is the main tool — these are optional extras.",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Denial and edging rules",
       "Points and earned rewards",
@@ -66,7 +66,7 @@
     "id": "guide_routine_shape",
     "answer": "choice",
     "prompt": "For the physical side — how should your routines and rituals be shaped across the week, if you take some on?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "A few short daily rituals",
       "One solid block most days",
@@ -79,7 +79,7 @@
     "id": "guide_punishments",
     "answer": "choice",
     "prompt": "When you slip or fall behind on what you took on — should there be consequences?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Yes — I should pay for slacking",
       "Light consequences only",
@@ -91,7 +91,7 @@
     "id": "guide_check_ins",
     "answer": "choice",
     "prompt": "If you go quiet or drift from your routines, should your guide check in on you?",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "Yes — chase me for updates and reports",
       "Occasionally nudge me",
@@ -104,6 +104,6 @@
     "answer": "open",
     "optional": true,
     "prompt": "Any triggers or words you'd love installed — or any that must never be used on you?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" }
+    "showIf": { "id": "depth", "notEquals": "Light" }
   }
 ]

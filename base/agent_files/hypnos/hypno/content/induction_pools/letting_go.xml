@@ -1,0 +1,49 @@
+<!-- Induction variant: letting go — grip released body first (shoulders, jaw, hands, belly,
+     legs settling one by one), then the mind's grip (thoughts set down like heavy bags, the
+     day filed away), ending on the drop trigger as a supporting deepening beat. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='180' volume='0.25'/>
+  Get comfortable, and let your eyes close. We start with your grip.
+  <pause duration='1.5'/>
+  Your shoulders. Let them drop... let them hang... nothing held there anymore.
+  <pause duration='2'/>
+  Your jaw. Let it unclench... teeth apart, tongue resting soft.
+  <pause duration='2'/>
+  Your hands. Open your fingers one by one... palms up, empty, nothing left to carry.
+  <pause duration='2'/>
+  Your belly. Soft and round... no holding it in, no effort at all.
+  <pause duration='2'/>
+  Your legs. Heavy... loose... settled wherever they rest.
+  <pause duration='2'/>
+  There. Your body has let go of everything it was gripping.
+  <pause duration='1.5'/>
+  <effect type='reverb' preset='medium'>
+    Now the same for your mind... because the mind grips too, doesn't it.
+  </effect>
+  <pause duration='0.8'/>
+  Whatever is in your head right now, imagine setting each thought down... like heavy bags after a long day.
+  <pause duration='2'/>
+  A bag for the errands... set down. A bag for the worries... set down. A bag for everybody else's opinions... set down.
+  <pause duration='2'/>
+  The whole day, filed away in its drawer... nothing left to hold, nothing left to sort.
+  <pause duration='2'/>
+  <random>
+    <part>And with every bag you set down, your arms feel lighter... and your attention drifts softer and softer toward my voice.</part>
+    <part>And with every bag you set down, your mind grows quieter... and my voice grows closer and warmer.</part>
+    <part>And with every bag you set down, everything unnecessary slides off you... leaving only comfort, and my voice.</part>
+  </random>
+  <pause duration='1'/>
+  Nothing left to grip. Nothing left to do... except fall.
+  <pause duration='0.8'/>
+  <sound type='snap'/>
+  Sissy Drop.
+  <pause duration='1.2'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      That's it... all the way down... soft, deep, and completely let go.
+    </speed>
+  </effect>
+  <pause duration='1'/>
+  Deeper and deeper now, sweet girl... drifting exactly where you belong.
+  <pause duration='1'/>
+</voice>

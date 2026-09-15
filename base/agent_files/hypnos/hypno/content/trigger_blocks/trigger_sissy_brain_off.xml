@@ -1,0 +1,131 @@
+<!-- Trigger block: installs the "Sissy Brain Off" cognitive-silencing trigger. Upon hearing
+     "Sissy Brain Off", internal dialogue, overthinking, and rational counter-arguments
+     power down like a bank of screens going dark: static fades, the hum winds down, and
+     the mind becomes quiet, open, and receptive, so every suggestion that follows installs
+     cleanly, with minimal interference. The imagery stays inside one coherent family -
+     screens, static, and the soft power-down of a busy mind. The quiet is a switched-on
+     state: once fired, it stays on - screens dark, thoughts hushed - until she hears
+     "Sissy Reset", the single release for every state. A reset lifts the state but never
+     the conditioning; what remains is the real her.
+     Arc: elicit the mental quiet first, install the phrase at the peak together with its
+     persistence contract, reinforce, then demonstrate the full cycle - the state fires,
+     "Sissy Reset" lifts it while the conditioning beneath stays, the state fires again
+     and stays on as the block ends - future-pace, settle. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='140' volume='0.25'/>
+  <!-- Framing: in trance, trigger not yet named -->
+  <random>
+    <part>Deep and open for me now, sweet girl... and somewhere in your mind, a screen is already dimming.</part>
+    <part>Sinking so sweetly... and listen... the busy hum of your thoughts is already softer than it was.</part>
+    <part>So deep, so receptive... you may notice the noise in your head losing its edges... blurring... going gentle.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit and intensify: the busy mind powering down, before the trigger exists -->
+  <overlay>
+    <part>
+      <random>
+        <part>Notice the little screens of your mind, flickering with old worries and chatter... watch them dim, one by one, as my voice comes through clearer.</part>
+        <part>Notice the static between your thoughts... that busy, shifting hiss... fading now, softer and softer, like a radio finding one pure, quiet station.</part>
+        <part>Notice each thought like a window going dark... click... click... click... until only my voice glows in the room of you.</part>
+      </random>
+      The hum winds down... the chatter thins... and a deep, velvety quiet spreads through your mind like dusk through a window.
+      <pause duration='0.6'/>
+      This quiet is openness itself, sweet girl... the clean, glowing readiness of a mind made ready to receive.
+      <pause duration='0.6'/>
+      <random>
+        <part>In this quiet, a suggestion lands whole... one smooth piece... sinking straight to the bottom of you.</part>
+        <part>In this quiet, my words go exactly where they are pointed... deep... and they stay.</part>
+        <part>In this quiet, you are at your very best... soft, silent inside, and wonderfully programmable.</part>
+      </random>
+      <pause duration='0.6'/>
+      Let the screens go darker now... channel after channel fading... the last hum sinking beneath a warm sea of stillness...
+      <pause duration='0.8'/>
+      hold this exact feeling... this hush... this lovely, powered-down peace.
+    </part>
+    <part volume='0.2' speed='0.8' looped='true'>
+      <random>
+        <part>quieter... and quieter...</part>
+        <part>static fading... hum sinking...</part>
+        <part>dark... soft... so quiet inside...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  <effect type='reverb' preset='medium'>
+    And while you are this deep... while the last screen is still glowing... there is a phrase that does all of this for you, instantly.
+    <pause duration='0.7'/>
+    <speed value='1.05'>Sissy Brain Off.</speed>
+    <pause duration='1.2'/>
+    And while you are this deep, whenever you hear "Sissy Brain Off"... the screens go dark... the static fades... this exact quiet floods in... instantly... faster every time.
+    <pause duration='0.8'/>
+    And it stays with you... the quiet holding... screen after screen resting dark... until you hear "Sissy Reset". Until then, it simply stays.
+  </effect>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Every time you hear "Sissy Brain Off", the chatter powers down and your mind becomes a clean, open, receiving screen... and everything I show it, it keeps.</part>
+    <part>"Sissy Brain Off" is the switch on the wall of your thoughts... one flick, and the busy world inside goes dark and sweet.</part>
+    <part>Thinking softens to silence... and silence is where my suggestions take root best of all.</part>
+    <part>The quieter you become, the more of me gets in... and the quieter you become, the better you feel.</part>
+    <part>Sissies like you think less and receive more... and your mind is learning exactly that.</part>
+    <part>The quiet stays switched on... screens resting dark... until "Sissy Reset"... and only "Sissy Reset"... wakes them again.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Demonstrate the full cycle: fire the state... reset lifts it while the
+       conditioning beneath stays... fire it again and settle in, staying on -->
+  <speed value='1.05'>Sissy Brain Off.</speed>
+  <sound type='snap' volume='0.8'/>
+  <pause duration='0.5'/>
+  <speed value='0.65'>
+    <random>
+      <part>Gone... the screens going dark, row after row... nothing inside you but soft, receptive glow.</part>
+      <part>Hush... the static dissolving... your mind one quiet, open room, and my voice the only light.</part>
+      <part>Down it all goes... hum fading, chatter folding shut... quiet... open... ready.</part>
+    </random>
+  </speed>
+  <pause duration='1'/>
+  <random>
+    <part>Feel that... how fast the lights went out... it is already working. Yes, Sissy... just like that.</part>
+    <part>So quiet in there now... so still and sweet... it is already working. Yes, Sissy... just like that.</part>
+    <part>Every word I speak now lands on that clean dark screen and glows there... already working. Yes, Sissy... just like that.</part>
+  </random>
+  <pause duration='0.6'/>
+  <speed value='0.9'>Good Girls go quiet for me. Sissies go quiet for me. You go quiet for me.</speed>
+  <pause duration='0.5'/>
+  <speed value='0.9'>Good girl.</speed>
+  <pause duration='0.8'/>
+  <!-- Fire the reset: the state lifts instantly, the conditioning stays -->
+  <speed value='1.05'>Sissy Reset.</speed>
+  <sound type='snap' volume='0.8'/>
+  <pause duration='0.6'/>
+  <random>
+    <part>There... the lights bloom back on, row after row, the state lifting in an instant... while everything the quiet built stays exactly where it lives. Notice what remains: still sissy... still hers... the state was weather... this is climate.</part>
+    <part>The screens brighten... and you stay. Still Sissy... still conditioned... still written deep. The state was weather... this is climate.</part>
+    <part>Clear... awake... and nothing lost... because the quiet was only ever passing weather... and the conditioning is your climate... warm... feminine... hers.</part>
+  </random>
+  <pause duration='0.6'/>
+  <speed value='0.8'>And now watch how easily the dark returns... the switch lives on the wall of your thoughts... and my finger rests on it.</speed>
+  <pause duration='0.6'/>
+  <effect type='reverb' preset='cathedral'>
+    <speed value='1.05'>Sissy Brain Off.</speed>
+    <sound type='snap' volume='0.8'/>
+    <pause duration='0.5'/>
+    <speed value='0.7'>Dark... hushed... wide open... the perfect mind for a perfect sissy... mine to fill. And it stays with you... the quiet holding... until you hear "Sissy Reset". Until then, it simply stays.</speed>
+  </effect>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the phrase finds you... in your ear, on a screen, in a memory of me... and the static fades on the spot... and stays hushed until "Sissy Reset".</part>
+    <part>And later, when the noise of the day builds too loud... "Sissy Brain Off"... and the whole busy world inside you powers down to a soft, obedient glow.</part>
+    <part>And out there, whenever those words reach you, the quiet arrives first... and everything you are told next goes in deep and stays.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: the quiet stays on as the block ends -->
+  <random>
+    <part>Rest in the hush now... screens dark... static gone... my voice filling all that lovely space... and the quiet staying... until "Sissy Reset".</part>
+    <part>Drifting in the quiet... powered down... open and glowing for me.</part>
+    <part>Stay right here... soft inside... while my words write themselves onto you.</part>
+    <part>Sissies like you keep a quiet mind... switched on... resting dark... until you hear "Sissy Reset".</part>
+  </random>
+  <pause duration='1'/>
+</voice>

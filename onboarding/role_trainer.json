@@ -20,7 +20,7 @@
     "id": "trainer_secrecy",
     "answer": "choice",
     "prompt": "Should I share my plans for you, or keep you guessing?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Show me your plans",
       "Keep me guessing",
@@ -52,7 +52,7 @@
     "answer": "choice",
     "multiple": true,
     "prompt": "What should motivate you most?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Rewards — points, treats, privileges",
       "Praise and validation",
@@ -66,7 +66,7 @@
     "id": "trainer_routine_shape",
     "answer": "choice",
     "prompt": "How should your training be shaped across the week — routine length, amount, how much at once?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "A few short daily rituals",
       "One solid block most days",
@@ -79,7 +79,7 @@
     "id": "trainer_punishments",
     "answer": "choice",
     "prompt": "When you skip or fail something — should there be consequences?",
-    "showIf": { "id": "depth", "notEquals": "Light — just the essentials" },
+    "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "Yes — I should pay for slacking",
       "Light consequences only",
@@ -91,7 +91,7 @@
     "id": "trainer_check_ins",
     "answer": "choice",
     "prompt": "You open the app and start the talking — but if you've gone quiet or skipped your routines, should I check in on you when you do?",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "Yes — chase me for updates and reports",
       "Occasionally nudge me",
@@ -104,7 +104,7 @@
     "answer": "choice",
     "multiple": true,
     "prompt": "How should your trainer run your day to day?",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "Short, direct commands",
       "Detailed instructions & checklists",

@@ -1,0 +1,92 @@
+<!-- Suggestion pool: brainwash — the conditioning experienced as a sweet, progressive
+     addiction the listener does not wish to escape, and as permanent change; every session
+     locking the new identity in place, deeper and more foundational, for good. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='145' volume='0.25'/>
+  <random>
+    <part>So deep for me... deep enough to feel how permanent this is becoming... how at home these changes already are.</part>
+    <part>Drifting, sweet girl... and notice, Sissy, how ordinary this has all become... how naturally you belong here now.</part>
+    <part>Down where the real changes live... you can feel them setting like concrete, warm and gentle and forever.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      Sissies like you circle back to this on their own...
+      the highlight of your day, the hour your mind returns to,
+      over and over, without being asked. <pause duration='0.5'/>
+    </part>
+    <part>
+      The craving arrives by itself now...
+      in the shower, on the bus, in the quiet before sleep —
+      always pointing you back to my voice. <pause duration='0.5'/>
+    </part>
+    <part>
+      Feelings that felt brand new a month ago feel like they were always there...
+      as if you simply remembered something true about yourself. <pause duration='0.5'/>
+    </part>
+    <part>
+      The pull is strong, and you love it that way...
+      keeping it close feels far sweeter than any escape ever could. <pause duration='0.5'/>
+    </part>
+    <part>
+      Each session lays today's truths down a little deeper than yesterday's...
+      layer upon layer, like sediment quietly becoming stone. <pause duration='0.5'/>
+    </part>
+    <part>
+      You may notice the changes no longer wait for the headphones...
+      they walk around with you, baked in,
+      part of how you move and choose. <pause duration='0.5'/>
+    </part>
+    <part>
+      This is a foundation being poured...
+      and everything built on it holds. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you leave her gently behind...
+      the girl you were before all this feels far away now,
+      and every session carries her a little further, soft and painless. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you ripen between listens; the conditioning does not wear off...
+      it grows roots, spreads quietly, and makes itself at home. <pause duration='0.5'/>
+    </part>
+    <part>
+      Permanent feels so good, Sissy...
+      no undoing, no exit... just deeper and sweeter and forever yours. <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>It stays... <pause duration='0.7'/> it grows... <pause duration='0.7'/> it becomes you.</part>
+        <part>Deeper... <pause duration='0.7'/> and more permanent.</part>
+        <part>Every listen... <pause duration='0.7'/> locked in a little more.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And every word I say settles in... and stays...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>It stays<pause duration='0.6'/></part>
+        <part>Forever yours<pause duration='0.6'/></part>
+        <part>Part of you<pause duration='0.6'/></part>
+        <part>Deeper and deeper<pause duration='0.6'/></part>
+        <part>No going back<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  Sissy Accept. <pause duration='0.6'/> Straight to the foundation now...
+  <random>
+    <part>And it all settles in as you sink... permanent, foundational, and so very sweet.</part>
+    <part>Let permanence wrap around you, Sissy... this is who you are now, and you sink deeper into her.</part>
+    <part>Every word accepted and locked gently in place... good girl. Good sissy. Deeper still.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

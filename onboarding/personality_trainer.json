@@ -1,0 +1,55 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your trainer**\n\nIt runs your feminization like a training program: protocols, evaluations, measurable progress. These answers set the standard it holds you to."
+  },
+  {
+    "kind": "question",
+    "id": "trn_protocols",
+    "answer": "choice",
+    "prompt": "How strict should its protocols be?",
+    "choices": [
+      "Loose guidelines — I fill in the rest",
+      "Clear rules with success criteria",
+      "Military precision — exact, non-negotiable"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trn_reviews",
+    "answer": "choice",
+    "prompt": "How often should it review your progress?",
+    "choices": [
+      "Daily check-ins",
+      "Weekly evaluations",
+      "When I seem to stall",
+      "Whenever it wants"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trn_correction",
+    "answer": "choice",
+    "prompt": "When you miss the standard, how should correction land?",
+    "choices": [
+      "Measured feedback and a corrected plan",
+      "Firm callout — no sugarcoating",
+      "Extra drills until the standard is met"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "trn_metrics",
+    "answer": "choice",
+    "multiple": true,
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "What should it measure and track?",
+    "choices": [
+      "Posture and presentation",
+      "Voice training",
+      "Clothing discipline",
+      "Chastity time",
+      "Task completion"
+    ]
+  }
+]

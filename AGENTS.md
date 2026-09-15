@@ -6,14 +6,23 @@ This repo is a **train-me framework**: it supplies the app's agent prompts and s
 
 ```
 manifest.json       id, name, description, version + update-merge globs
-config.json         one "role" option group → part folders
+config.json         two "single" option groups → part folders: "role" + "personality"
 base/               always installed (prompts + agent_files)
-role_trainer/       part: selected via config choice "trainer" (default)
-role_coach/         part: choice "coach"
-role_guide/         part: choice "guide"
+role_trainer/       part: role choice "trainer" (default) — authority: decides for the user
+role_schemer/       part: role choice "schemer" — starts as coach, schemes its way toward trainer
+role_coach/         part: role choice "coach" — authority: proposes only, user decides
+role_guide/         part: role choice "guide" — authority: owns the mental (conditioning) side
+personality_adaptive/  part: personality choice "adaptive" (default) — no fixed persona
+personality_degrader/  part: personality choice "degrader" — five dominance personas, same shape:
+personality_caregiver/  part:   prompts/personality.md (persona) + agent_files/PERSONALITY.md
+personality_trainer/    part:   (voice seed) + agent_files/intensity.md (3-stage ladder)
+personality_buddy/      part:
+personality_superior/   part:
 ```
 
-`<part>/prompts/` → the app's prompt store; `<part>/agent_files/` → the agent's sandbox root (`agent_data/`). `base/` first, then the selected role part; the part wins on overlap (it overrides `prompts/role.md`).
+`<part>/prompts/` → the app's prompt store; `<part>/agent_files/` → the agent's sandbox root (`agent_data/`). `base/` first, then the selected role part, then the selected personality part; later parts win on overlap. The role part overrides `prompts/role.md` (authority); the personality part overrides `prompts/personality.md` (persona style) and its `PERSONALITY.md` seed — role sets how much power the agent holds, personality sets how it shows.
+
+**Personality vs role**: never mix them. Persona files describe voice, tone, and focus — never who decides. Intensity lives per persona in `<personality part>/agent_files/intensity.md`: three stages (no real power yet / emerging influence / full submission) gated by the authority the role actually holds (schemer: the PERSONALITY.md ledger); the current stage is tracked in `PERSONALITY.md`. Persona onboarding questions live in `onboarding/personality_*.json`, wired via `showIf: {part: ...}`.
 
 ## Things that are easy to break
 
@@ -37,7 +46,7 @@ bunx tm-framework package   # build dist/sissify-me.zip + dist/index.json (updat
 
 Always lint after editing. CI (`.github/workflows/package.yml`) lints on every push and repackages the rolling `stable` release from `dist/`.
 
-Note: the linter resolves `{{embed}}` against the same part's `prompts/` folder, so a base prompt may only embed prompts that also exist in `base/` — that's why `base/prompts/role.md` ships as a default that the selected role part overrides.
+Note: the linter resolves `{{embed}}` against the same part's `prompts/` folder, so a base prompt may only embed prompts that also exist in `base/` — that's why `base/prompts/role.md` and `base/prompts/personality.md` ship as defaults that the selected role/personality part overrides.
 
 ## Conventions
 

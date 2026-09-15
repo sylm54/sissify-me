@@ -1,5 +1,5 @@
 <!-- Deepening variant: descending staircase imagery. Randomized per playback so the
-     descent stays varied across listenings; uses the "Sissy Drops" trigger as the
+     descent stays varied across listenings; uses the "Sissy Drop" trigger as the
      drop cue at the top of the stairs and again at the bottom. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='160' volume='0.3'/>
@@ -11,9 +11,9 @@
     </random>
     <pause duration='1'/>
     <random>
-      <part>When I say the words, you begin to descend. Sissy Drops.</part>
-      <part>Ready to start walking down? Sissy Drops.</part>
-      <part>Take your first step for me now. Sissy Drops.</part>
+      <part>When I say the words, you begin to descend. Sissy Drop.</part>
+      <part>Ready to start walking down? Sissy Drop.</part>
+      <part>Take your first step for me now. Sissy Drop.</part>
     </random>
     <pause duration='1'/>
     <loop loops='6'>
@@ -33,7 +33,7 @@
       <pause duration='1'/>
     </loop>
     <pause duration='0.8'/>
-    That's it. You are walking down so perfectly... deeper still with every breath.
+    That's it. You are walking down so perfectly... deeper still with every step.
     <pause duration='1'/>
     <random>
       <part>And at the bottom, there is nothing but my voice, and the wonderful truth of what you are.</part>
@@ -41,7 +41,7 @@
       <part>Until at last you reach the bottom, where nothing exists but my voice and what you truly are.</part>
     </random>
     <pause duration='0.8'/>
-    <speed value='1.05'>Sissy Drops.</speed>
+    <speed value='1.05'>Sissy Drop.</speed>
     <pause duration='0.6'/>
     <random>
       <part>Falling one more time... all the way down, deeper than ever before.</part>

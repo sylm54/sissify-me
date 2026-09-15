@@ -54,7 +54,7 @@
     "multiple": true,
     "prompt": "Which parts of being feminine actually turn you on? (pick all)",
     "hint": "This decides what your conditioning leans on hardest.",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "Wearing it — lingerie and fabrics against my body",
       "Doing it — moving, speaking, acting feminine",
@@ -68,7 +68,7 @@
     "id": "arousal_strength",
     "answer": "choice",
     "prompt": "How central is your own feminization to what turns you on?",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "It's the core — more than attraction to anyone else",
       "Strong — right alongside attraction to others",
@@ -77,12 +77,49 @@
     ]
   },
   {
+    "kind": "text",
+    "text": "**Where you are today**\n\nThe honest baseline your training builds from — no judgment, just data."
+  },
+  {
+    "kind": "question",
+    "id": "masturbation",
+    "answer": "choice",
+    "prompt": "How often do you usually touch yourself?",
+    "hint": "The honest number — denial and retraining are built on it.",
+    "choices": [
+      "Rarely — a few times a month or less",
+      "A few times a week",
+      "About once a day",
+      "Multiple times a day"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "porn_habits",
+    "answer": "choice",
+    "prompt": "And porn — how big a part of your life is it?",
+    "choices": [
+      "Barely use it",
+      "A few times a week",
+      "A daily habit",
+      "It runs me — I watch more than I want to"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "porn_tastes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What do you usually get off to — and is sissy or feminization content already in the mix?",
+    "showIf": { "id": "depth", "equals": "Deep" }
+  },
+  {
     "kind": "question",
     "id": "shame_cycle",
     "answer": "choice",
     "prompt": "After the arousal fades, how do you usually feel about all this?",
     "hint": "Post-arousal crashes and purges are common and workable — I just need to know yours.",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "Steady — about the same as before",
       "A dip — doubt or awkwardness that fades",
@@ -97,7 +134,7 @@
     "multiple": true,
     "optional": true,
     "prompt": "Where does the shame actually bite? (pick any — knowing this tells me what to handle with care)",
-    "showIf": { "id": "depth", "equals": "Deep — thorough and introspective" },
+    "showIf": { "id": "depth", "equals": "Deep" },
     "choices": [
       "Failing as a man — like a betrayal of masculinity",
       "The morning after — self-judgment once it's over",

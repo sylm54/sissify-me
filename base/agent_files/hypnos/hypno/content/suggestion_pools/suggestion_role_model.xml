@@ -1,0 +1,95 @@
+<!-- Suggestion pool: role models — every feminine or submissive woman observed triggers
+     automatic comparison; envy is converted on the spot into the drive to be more elegant,
+     more submissive, more available, and more thoroughly feminized. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='155' volume='0.25'/>
+  <random>
+    <part>So deep and so watchful, sweet girl... even down here, your eyes know exactly what they love to study.</part>
+    <part>Drifting... and somewhere in your mind beautiful women are walking past... and every single one of them is teaching you.</part>
+    <part>Down here, admiration and ambition have become one warm feeling... you see her, and you want to be her.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>
+      When you see a feminine woman — her hips, her poise, her obedient smile —
+      the comparison starts all by itself...
+      and the checklist writes itself. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you carry the list everywhere: more elegant, more submissive,
+      more available, more thoroughly feminized...
+      and it builds itself every single time you look. <pause duration='0.5'/>
+    </part>
+    <part>
+      Envy has stopped stinging and started fuelling...
+      every flicker of "I wish" turns instantly
+      into warm, ready motivation. <pause duration='0.5'/>
+    </part>
+    <part>
+      She walks into the room and your posture adjusts on its own...
+      spine lengthening, chin lifting, steps growing smaller and softer.
+      She is a lesson, and your body takes notes. <pause duration='0.5'/>
+    </part>
+    <part>
+      A sissy further along than you is a preview, sweet girl...
+      living, walking proof of how good it gets for sissies like you. <pause duration='0.5'/>
+    </part>
+    <part>
+      You may notice that admiring her feels like admiring
+      the woman you are becoming...
+      close enough to touch, closer every day. <pause duration='0.5'/>
+    </part>
+    <part>
+      Every beautiful woman is a syllabus now...
+      how she crosses her legs, how she lowers her eyes,
+      how she makes obedience look like grace. <pause duration='0.5'/>
+    </part>
+    <part>
+      Sissies like you feel want-to-be-her arrive automatically...
+      and it always settles into want-to-practice, soft and insistent.
+      It is settling in you right now. <pause duration='0.5'/>
+    </part>
+    <part>
+      You study her the way a devoted student studies...
+      the dress, the poise, the sweetness...
+      and you carry every detail home like homework you love, Sissy. <pause duration='0.5'/>
+    </part>
+    <part>
+      Seeing them leaves you hungry, and hungry is such a good way to feel...
+      because your hunger has only ever meant one thing: more. <pause duration='0.5'/>
+    </part>
+  </scramble>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>
+      <random>
+        <part>See her... <pause duration='0.7'/> study her... <pause duration='0.7'/> become her.</part>
+        <part>Every woman... <pause duration='0.7'/> a lesson in you.</part>
+        <part>Envy... <pause duration='0.7'/> sweetly into practice.</part>
+      </random>
+    </speed>
+  </effect>
+  <pause duration='0.5'/>
+  <overlay>
+    <part>
+      <pause duration='9'/>
+      <volume value='0.8'>And every beautiful woman shows you a little more of yourself, Sissy...</volume>
+    </part>
+    <part volume='0.2' looped='true'>
+      <random>
+        <part>Be like her<pause duration='0.6'/></part>
+        <part>So elegant<pause duration='0.6'/></part>
+        <part>Just like her<pause duration='0.6'/></part>
+        <part>Practice, sweet girl<pause duration='0.6'/></part>
+        <part>More and more<pause duration='0.6'/></part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.5'/>
+  <random>
+    <part>And every woman you have admired settles into you as you sink... another lesson, another layer of her.</part>
+    <part>Carry that grace down with you, Sissy... deeper and deeper.</part>
+    <part>You are becoming the woman you admire... every lesson landed, good girl. Sink into her, deeper still.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

@@ -1,0 +1,25 @@
+<!-- Redeepening variant: a warm wave of pleasant heaviness rolls from crown to heels, carrying the wandering mind back down. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='160' volume='0.25'/>
+  <effect type='echo' preset='medium'>
+    <random>
+      <part>You may notice your mind has wandered up toward the surface... chasing little thoughts far away from here.</part>
+      <part>And there you go drifting up again... attention scattered somewhere above this softness.</part>
+      <part>Your thoughts slip upward for a moment... away from my voice, away from the deep.</part>
+    </random>
+    <pause duration='0.8'/>
+    That's alright. Feel the heaviness gather at the crown of your head instead...
+    <pause duration='0.8'/>
+    a warm, pleasant wave of weight... rolling down over your forehead... your jaw... your shoulders... your chest... your belly... your hips... all the way to your heels... heavier and heavier everywhere it touches.
+    <pause duration='0.8'/>
+    <sound type='snap'/>
+    Sissy Drop.
+    <pause duration='1.2'/>
+    <random>
+      <part>Sinking straight back down with the wave... heavier than before... right where you belong. That's it.</part>
+      <part>The weight carries you all the way back... deeper and deeper... soft, heavy, and mine.</part>
+      <part>Back down with the heaviness... so easy, so natural... deeper still.</part>
+    </random>
+  </effect>
+  <pause duration='1.5'/>
+</voice>

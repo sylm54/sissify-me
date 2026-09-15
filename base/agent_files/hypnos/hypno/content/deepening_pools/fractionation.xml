@@ -1,20 +1,20 @@
 <!-- Deepening variant: brief fractionation — surface, then drop twice as deep. -->
 <voice speaker='female' speed='0.9'>
   <tone preset='binaural_theta' frequency='190' volume='0.25'/>
-  In a moment, you rise for one breath... and then drop right back down — twice as deep as before.
+  In a moment, you rise to the surface... and then drop right back down — twice as deep as before.
   <pause duration='0.8'/>
   <loop loops='3'>
-    <speed value='1.05'>Up... just for a breath.</speed>
+    <speed value='1.05'>Up... just for a moment.</speed>
     <pause duration='1'/>
     <sound type='snap'/>
     <speed value='0.7'>
-      Sissy Drops.
+      Sissy Drop.
       <random>
         <part>All the way down, deeper than before.</part>
         <part>Even deeper now. So easy, so natural.</part>
         <part>Falling so far for me, so fast.</part>
         <part>Down, down — further than you've ever gone.</part>
-        <part>Sinking for me, deeper with every breath.</part>
+        <part>Sinking for me, deeper with every drop.</part>
       </random>
     </speed>
     <pause duration='2'/>
