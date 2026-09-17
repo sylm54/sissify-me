@@ -227,7 +227,9 @@
       "showIf": {
         "all": [
           { "id": "depth", "equals": "Deep" },
-          { "id": "end_goal_sure", "notEquals": "Total transformation" }
+          { "id": "end_goal_sure", "notEquals": "Total transformation" },
+          { "id": "end_goal_stretch", "notEquals": "No stretch zone — I'm sure where I stand" },
+          { "id": "end_goal_stretch", "notEquals": "Total transformation" }
         ]
       },
       "choices": [
@@ -303,19 +305,6 @@
     {
       "kind": "text",
       "text": "**How I should treat you**\n\nThese answers shape my tone, my language, and my boundaries from the first session on — the role- and personality-specific ones follow below."
-    },
-    {
-      "kind": "question",
-      "id": "tone",
-      "answer": "choice",
-      "prompt": "What tone should I usually take with you?",
-      "choices": [
-        "Sweet & encouraging",
-        "Strict & firm",
-        "Mean & humiliating",
-        "Playful & humiliating",
-        "A mix — read my mood"
-      ]
     },
     {
       "kind": "include",

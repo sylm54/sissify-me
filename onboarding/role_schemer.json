@@ -7,25 +7,50 @@
     "kind": "question",
     "id": "schemer_openness",
     "answer": "choice",
-    "prompt": "It wants to end up as your trainer. How should it chase that?",
+    "prompt": "How open should it be about its goal of taking your power?",
     "choices": [
-      "Talk me into it — I want to be persuaded",
-      "Slow and patient — small asks, I set the pace",
-      "Plant the idea, then let me come to it",
-      "Open about the goal from day one — then earn it"
+      "Keep it secret — let it work behind the scenes",
+      "Hint at it — let it tease and suggest",
+      "Be direct about its goal"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "schemer_frequency",
+    "answer": "choice",
+    "prompt": "How often and agressively should it ask for more?",
+    "choices": [
+      "Rarely — only when it has a strong reason",
+      "Sometimes — when it has a good reason",
+      "Often — it should push for more whenever it can",
+      "Always — it always try to get more from me"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "schemer_relationship",
+    "answer": "choice",
+    "prompt": "How should it frame its asks for more, or what should the end goal be?",
+    "choices": [
+      "As a coach — it just decides what will help me most",
+      "As a master — it makes me its bitch and I obey",
+      "As a partner — it takes my opinion into account but decides for me"
     ]
   },
   {
     "kind": "question",
     "id": "schemer_first_ask",
     "answer": "choice",
+    "multiple": true,
     "prompt": "Where should it aim first when it starts asking for more?",
     "showIf": { "id": "depth", "notEquals": "Light" },
     "choices": [
       "The hypno and conditioning — let it shape what I want",
       "My routines and tasks — let it run my day",
-      "How I speak and address it",
-      "Nowhere — I'll offer power myself, when I feel like it"
+      "My habits and behaviors — let it change what I do",
+      "Rules and Regulations — let it set the boundaries of my actions",
+      "Rules and Behavior — let it tell me what to do and how to act",
+      "How I speak and address it"
     ]
   },
   {

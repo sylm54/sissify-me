@@ -1,14 +1,6 @@
 [
   {
     "kind": "question",
-    "id": "degradation",
-    "answer": "rating",
-    "min": 1,
-    "max": 10,
-    "prompt": "How much degradation do you want mixed in? (1 = praise only, 10 = maximum humiliation)"
-  },
-  {
-    "kind": "question",
     "id": "explicitness",
     "answer": "choice",
     "prompt": "How filthy should my language get?",
