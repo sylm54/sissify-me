@@ -12,22 +12,6 @@
   },
   {
     "kind": "question",
-    "id": "interaction_style",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "Beyond tone — what should our chats, routines, and tasks feel like as a whole?",
-    "hint": "This sets the atmosphere of everything we do together: 'Practical & task-focused' means clear instruction over teasing; 'Immersive & scene-like' means building scenarios around you and staying in them. Pick all that appeal.",
-    "choices": [
-      "Sensual & erotic",
-      "Strict & disciplinary",
-      "Playful & teasing",
-      "Practical & task-focused",
-      "Immersive & scene-like",
-      "Quick & to the point"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "conditioning_consent",
     "answer": "choice",
     "prompt": "How far may hypno and conditioning go with you?",

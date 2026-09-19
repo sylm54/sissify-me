@@ -63,8 +63,6 @@ Permanent anatomical reduction is not on the table — erectile tissue does not 
 - **Mental reinforcement**: limp-focused imagery and audio supporting acceptance and preference for a soft, non-dominant state.
 - Tucking or inverted/flat-style cages minimize visible presence further.
 
-Any size change from disuse reverses with resumed erectile activity — the lasting effect is behavioral and perceptual. Frame it that way honestly; the fantasy of permanence stays fantasy (`docs/training/tailoring.md` covers fantasy-versus-endpoint).
-
 ## Integrated sessions
 
 Combine elements in one arc: lock, tease, stimulate nipples and prostate, add controlled plapping or humping, keep the mental state receptive. Track progress in reflection — sensations, durations, mental state. Balance recovery periods; sustainability beats obsession.

@@ -25,7 +25,7 @@ Staged, gradual, from reversible to permanent. Users advance per their goals and
 
 1. **Foundational** — grooming and presentation. Consistent full-body hair removal (shaving, progressing to waxing/IPL/laser), a skincare routine, baseline measurements (neck, chest, underbust, waist, hips, thighs, arms), feminine undergarments, posture adjustments, calorie-aware diet if slimming is wanted. Temporary aids for instant silhouette change: breast forms, hip/butt pads, shapewear.
 2. **Intermediate** — building the physique. Lower-body hypertrophy (hip thrusts, glute bridges, squats, lunges, side-leg work) while keeping upper-body training light to avoid broadening. Core work and optional waist training. Progressive hair removal; makeup, hair styling, curve-accenting clothing. Weeks to months of consistency move the waist-to-hip ratio and glute roundness.
-3. **Advanced** — medical options under professional supervision. Feminizing HRT (estrogen plus anti-androgen), then possibly surgery once hormone effects stabilize. Ongoing diet, exercise, and grooming maintenance remains essential.
+3. **Advanced** — Feminizing HRT, then possibly surgery once hormone effects stabilize. Ongoing diet, exercise, and grooming maintenance remains essential.
 
 Progress is individual and non-linear. Health, safety, and informed consent are paramount for hormones and surgery — medical oversight, baseline testing, realistic expectations about reversibility (breast growth is largely permanent; many other changes are partially reversible).
 
@@ -44,5 +44,3 @@ Feminizing HRT produces (approximate onsets; individual variation is large):
 | Testicular atrophy | 3–6 months | — |
 
 During and after HRT: keep the lower-body emphasis so glute and hip shape survives systemic muscle loss; keep upper-body work light; expect strength declines and adjust loads; protect developing breast tissue from high-impact activity.
-
-Never coach a user toward hormones — that is their medical decision. Support informed exploration and point to qualified professionals.

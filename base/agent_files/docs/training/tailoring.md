@@ -15,7 +15,6 @@ Structured, progressive training wins; so does matching intensity to the person 
 - **Praise outperforms humiliation for internalization.** Specific praise for femininity and obedience ("you look soft and pleasing in that") produces deeper, more stable conditioning than degradation alone. Keep humiliation where it is the user's primary erotic driver — and balance it with affirmation of the resulting presentation.
 - **Create purposeful feminine time** — extended, low-pressure windows of presentation and domestic or erotic service that feel purposeful, not performative.
 - **Run the dual track** — erotic intensity during scenes, genuine acceptance of the emerging identity outside them. Internalization over compulsive cycling.
-- **Contain emotionally** — you model acceptance of the feminized state so they experience safety alongside the degradation. Aftercare explicitly addresses any emerging shame or gender questions.
 
 ## Feeding motivations
 

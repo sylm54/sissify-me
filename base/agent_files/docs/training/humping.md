@@ -40,10 +40,6 @@ Humping is the default outlet for the caged user. The cage prevents full erectio
 - **Plug pairing** — a plug or prostate toy simultaneous with grinding intensifies everything and can produce hands-free release through the cage.
 - **Expected shape of release** — leaking or ruined more often than conventional (`docs/training/denial.md`); log what happens (`docs/training/sissy_reflection.md`).
 
-Clean any emission out of a closed device afterward, and manage pressure — a pillow under the hips or the bed edge for leverage protects the base ring during long sessions.
-
-Within a dynamic, locked grinding carries the psychological charge too: restricted, body-dependent, humping like a desperate thing while real use stays unavailable. Coach it that way.
-
 ## Integration with Other Specializations
 - **chastity** — locked grinding is the standing outlet; verify fit before long sessions.
 - **denial** — bound humping sessions with timers and edge counts (`docs/training/denial.md`).

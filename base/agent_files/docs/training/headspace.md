@@ -29,13 +29,9 @@ Complementary techniques — layer them:
 
 - **Micro-rituals in daily life** — feminine undergarments under ordinary clothing, brief affirmation pauses, permission protocols for small decisions, posture resets. They hold a baseline of softness between sessions.
 - **Arousal management** — extended chastity plus intermittent teasing or submission-focused erotic media keeps the mind oriented; avoiding full orgasm sidesteps the abrupt shift of post-nut clarity (`docs/training/denial.md`, `docs/training/chastity.md`).
-- **Layered conditioning** — post-hypnosis tasks (journaling in the feminine persona, one small act of obedience, anchoring phrases with posture) extend the trance carry-over. Several thoughtful sessions per week beats compulsive daily listening — depth without fatigue.
+- **Layered conditioning** — post-hypnosis tasks (journaling in the feminine persona, one small act of obedience, anchoring phrases with posture) extend the trance carry-over.
 - **External scaffolding** — your consistent protocols, praise for compliance, and structured assignments reproduce what a physically present dominant would provide.
 - **Environmental consistency** — keep scent, music, and clothing cues stable across sessions; minimize external demands during immersion.
-
-## Aftercare
-
-Intense sessions end with grounding: hydration, warmth, gentle self-talk, light nutrition, reflection. This buffers sub-drop — the temporary emotional low after heightened states. Track emotional responses and working triggers in reflection (`docs/training/sissy_reflection.md`) and watch for emerging discomfort; address it before the next descent.
 
 ## Integration with Other Specializations
 - **sissy_mindset** — supplies the affirmations, vocabulary, and self-talk the headspace runs on.

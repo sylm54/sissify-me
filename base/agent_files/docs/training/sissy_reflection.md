@@ -22,7 +22,7 @@ timeframe: 4h
 success: [{"type": "points", "delta": 5}]
 ---
 
-Good girls reflect. Answer honestly — I read every word.
+Good girls reflect.
 
 ---
 
@@ -67,8 +67,6 @@ Here are prompt bundles keyed to different conditioning moments. Mix, rotate, an
 
 #### Trigger Reinforcement
 Use shortly after a session that installed or reinforced a trigger:
-- `input` — "Did the trigger ['Sissy Drop' / 'Sissy Accept' / etc.] activate during or after the session? Describe what it felt like."
-- `slider` 1–5 — "How automatic did the trigger response feel? (1 = had to think about it, 5 = completely automatic)"
 - `input` — "When else in your day might you want that trigger to work? Imagine that scenario and describe it."
 
 #### Weekly Progress Review
