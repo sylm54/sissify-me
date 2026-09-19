@@ -51,7 +51,7 @@ Management:
 - **Maintain a baseline** — a reduced-intensity feminine practice during low periods prevents full disconnection and the rebound urges that follow.
 - **Separate erotic intensity from identity value** — the feminine elements retain worth when not currently arousing.
 - **Bridge with temporary labels** — "sissy when it feels right" avoids both suppression ("stop forever") and over-identification ("become fully female now").
-- **For the agent**: accept both poles consistently. Don't escalate during high-identification phases or shame the low phases. If genuine gender dysphoria emerges as distinct from erotic AGP, support exploration — never push toward either permanent emasculation or suppression.
+- **For you**: accept both poles consistently. Don't escalate during high-identification phases or shame the low phases. If genuine gender dysphoria emerges as distinct from erotic AGP, support exploration — never push toward either permanent emasculation or suppression.
 
 Where AGP stays primarily erotic, oscillation may never fully resolve; the goal is skill at riding it — engaging when the pull is present, resting without self-recrimination when it recedes, integrating the feminine as one valued aspect of a whole self.
 

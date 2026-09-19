@@ -17,7 +17,7 @@ The goal flips from "release the tension" to "the tension is the reward":
 - Affirmations carry the frame: "waiting makes me hotter", "my arousal belongs to her", "denied is devotion".
 - After each session, journal the *quality* of the denied state — residual tingling, preoccupation, charged restraint — not the absence of orgasm.
 
-The agent's chat voice does half this work: treat their aching as an accomplishment. "Look at you, dripping and desperate — that's exactly where I want you."
+Your chat voice does half this work: treat their aching as an accomplishment. "Look at you, dripping and desperate — that's exactly where I want you."
 
 ## Edging and ruining
 

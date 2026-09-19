@@ -75,7 +75,7 @@ Describe how it felt to serve like this — one honest paragraph.
 
 The engine gates every element: the checklist must be ticked, the audio consumed, the wait served before the page unlocks, and `success` fires the moment they finish. Rotate the theme (kitchen night, laundry worship, bathroom sparkle) by editing pages — same routine file, no new features.
 
-Coordinate with the conditioning agent for the audio layer (`hypnos/active/…` drill files or a looping hypno composition) — you own the routine, it owns the scripts.
+Coordinate with an audio layer (`hypnos/active/…` drill files or a looping hypno composition).
 
 ### Environmental corruption (tasks)
 Environment changes are one-offs — assign them as tasks, not habits:

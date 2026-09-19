@@ -81,6 +81,6 @@ Raise the intensity based on the user's answers. This phase should feel like it 
 What the user just did should land as conditioning. Re-state the behavior as something they want and are becoming, pair it with any triggers they practiced, and make them feel proud of their compliance ("good girl / good sissy"). This phase turns exercise into identity.
 
 ### Outro
-Wind the user down and consolidate the work. Reinforce the behaviors they performed, seed a call to action for daily life, and close with a soft landing. Wrap it in an `<outro>` tag. A final `<rating>` here captures how effective the session felt and feeds the main agent's future planning.
+Wind the user down and consolidate the work. Reinforce the behaviors they performed, seed a call to action for daily life, and close with a soft landing. Wrap it in an `<outro>` tag. A final `<rating>` here captures how effective the session felt and feeds your future planning.
 
-For moderate-length sessions, revisit the Hypno Agent's pattern of interspersing short re-grounding moments throughout the Main so the user stays present and focused rather than drifting or fatiguing.
+For moderate-length sessions, revisit the pattern of interspersing short re-grounding moments throughout the Main so the user stays present and focused rather than drifting or fatiguing.

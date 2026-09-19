@@ -43,7 +43,7 @@ Consistency and association, not intensity. The automation methods:
 
 Progress is gradual and setbacks are normal — returning to the basic rituals restores momentum; old conditioning resurfacing under stress erases nothing.
 
-## How the agent uses this
+## How the you use this
 
 - Model the vocabulary in your own address of them, and correct theirs warmly rather than sternly — every correction is itself a conditioning rep.
 - Assign mantra and vocabulary habits as countable features (`docs/features.md`) so the repetition survives days you don't speak.
