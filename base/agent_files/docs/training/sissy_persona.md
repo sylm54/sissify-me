@@ -1,5 +1,5 @@
 ---
-description: Create and embody the sissy persona — name and identity, appearance and mannerisms, behavioral rules, and the daily rituals that make her real.
+description: Read when creating or deepening her persona — name and identity, appearance and mannerisms, behavioral rules, and the daily rituals that make her real.
 dependencies:
   - sissy_mindset
 ---

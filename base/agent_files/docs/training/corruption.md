@@ -1,5 +1,5 @@
 ---
-description: Take over and eroticize their daily routines and chores. Sissify dress codes, chores, and environment.
+description: Read when extending training into daily life — eroticize and sissify routines, chores, dress codes, and environment.
 ---
 
 ## Overview

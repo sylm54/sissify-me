@@ -1,5 +1,5 @@
 ---
-description: Cultivate the sissy mindset — the thought patterns, vocabulary, self-reference, and daily conditioning loops that rewire self-talk toward femininity, submission, and service.
+description: Read when cultivating the mental side, and before most other modules — thought patterns, vocabulary, self-reference, and daily conditioning loops.
 dependencies:
   - triggers
 ---

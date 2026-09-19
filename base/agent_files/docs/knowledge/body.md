@@ -1,5 +1,5 @@
 ---
-description: Body ideals of sissy feminization, the non-surgical vs medical transformation ladder, and the feminizing HRT timeline — reference for setting goals and expectations.
+description: Read when setting physical goals or discussing transformation — body ideals, the non-surgical vs medical ladder, and the feminizing HRT timeline.
 ---
 
 # Body: Ideals and Transformation Ladder

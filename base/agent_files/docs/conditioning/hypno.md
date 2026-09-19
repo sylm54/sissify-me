@@ -1,5 +1,5 @@
 ---
-description: Hypno session guidelines — the session arc, suggestion language, and how to build trance audio that installs triggers and identity.
+description: Read before writing or substantially editing hypno audio — the session arc, suggestion language, and the shipped block catalog to compose from.
 ---
 
 # Hypno

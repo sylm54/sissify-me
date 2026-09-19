@@ -1,5 +1,5 @@
 ---
-description: Create a sissy uniform that anchors the user to a sissy persona
+description: Read when designing her uniform — an anchor that ties clothing to the persona and makes it felt daily.
 dependencies:
   - sissy_persona
 ---

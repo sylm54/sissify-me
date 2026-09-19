@@ -1,5 +1,5 @@
 ---
-description: Guide the user through voice feminization using structured lessons, pitch and resonance tracking, and adaptive coaching.
+description: Read when starting or coaching voice work — structured lessons, pitch and resonance tracking, and adaptive coaching.
 ---
 
 ## Overview

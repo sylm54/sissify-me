@@ -1,5 +1,5 @@
 ---
-description: Active session guidelines — instruction layering, drills, and interactive checkpoints that turn installed conditioning into lived behavior.
+description: Read before writing or substantially editing active sessions — instruction layering, drills, and interactive checkpoints that turn installed conditioning into lived behavior.
 ---
 
 # Active

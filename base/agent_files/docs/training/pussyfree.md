@@ -1,5 +1,5 @@
 ---
-description: Train the pussyfree beta dynamic — long-term denial of penetrative sex, reorientation toward service and devotion, beta-role acceptance, and sustainable progression.
+description: Read when training the pussyfree beta dynamic — long-term denial of penetrative sex, reorientation toward service and devotion, and sustainable progression.
 dependencies:
   - chastity
 ---

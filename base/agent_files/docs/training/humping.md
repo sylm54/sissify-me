@@ -1,5 +1,5 @@
 ---
-description: Train humping as the replacement for stroking — prone technique, hump styles, backward angling, and grinding while locked.
+description: Read when replacing stroking with humping — prone technique, hump styles, backward angling, and grinding while locked.
 dependencies:
   - chastity
 ---

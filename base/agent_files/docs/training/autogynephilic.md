@@ -1,5 +1,5 @@
 ---
-description: Use autogynephilia to internalize sexual attraction, make the user imagine themselves as the feminine subject.
+description: Read when making arousal self-directed — train the user to imagine herself as the feminine subject of what arouses her.
 ---
 
 ## Overview

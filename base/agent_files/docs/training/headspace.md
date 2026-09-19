@@ -1,5 +1,5 @@
 ---
-description: Enter and sustain the sissy headspace — ritual anchors, affirmations, guided hypnosis, sensory immersion, and the practices that prolong it through daily life.
+description: Read when the user should enter or hold sissy headspace — ritual anchors, affirmations, guided hypnosis, sensory immersion, and prolonging it through daily life.
 dependencies:
   - sissy_mindset
 ---

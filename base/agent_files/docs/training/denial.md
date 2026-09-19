@@ -1,5 +1,5 @@
 ---
-description: Train orgasm denial and control — reframing frustration as pleasure, edging and ruining technique, session time-bounds, resisting touching, and hands-free arousal.
+description: Read when controlling orgasm — reframing frustration as pleasure, edging and ruining technique, session time-bounds, resisting touching, hands-free arousal.
 dependencies:
   - chastity
 ---

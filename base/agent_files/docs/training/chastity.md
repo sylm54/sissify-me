@@ -1,5 +1,5 @@
 ---
-description: Train the user into chastity — device fitting and hygiene, gradual wear, keyholding protocols, and lock-time as a training lever.
+description: Read before starting or managing chastity — device fitting and hygiene, gradual wear, keyholding protocols, and lock-time as a training lever. Prerequisite for several other modules.
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-description: Sissy archetypes, common wants, shame points, and motivation-to-trajectory pairings — the typology for reading a user and predicting where training will lead.
+description: Read early in training and whenever tailoring — type the user through archetypes, wants, shame points, and motivation-to-trajectory pairings that predict where training leads.
 ---
 
 # Archetypes and Shame

@@ -1,5 +1,5 @@
 ---
-description: Give the hypnos a brainwashing theme, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
+description: Read when a session should erode resistance — theme hypno toward automatic, recurring urges that feel increasingly natural and difficult to ignore.
 ---
 
 ## Overview

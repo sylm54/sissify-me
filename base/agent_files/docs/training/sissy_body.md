@@ -1,5 +1,5 @@
 ---
-description: Physical feminization practice — phased grooming and skincare, glute-focused training for an hourglass silhouette, posture and gait, and daily mobility work.
+description: Read when planning physical feminization — phased grooming and skincare, glute-focused training for an hourglass silhouette, posture and gait, daily mobility.
 ---
 
 ## Overview

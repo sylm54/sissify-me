@@ -1,5 +1,5 @@
 ---
-description: The trigger library — every conditioning trigger and sight cue, its prebuilt block, the installation sequence, and the state persistence contract (released by "Sissy Reset").
+description: Read before installing, reinforcing, or firing any trigger — the full trigger library, each trigger's prebuilt block, the installation sequence, and the Sissy Reset state contract.
 ---
 
 ## Overview

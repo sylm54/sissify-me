@@ -1,5 +1,5 @@
 ---
-description: Autogynephilia — Blanchard's framework, the four types, intensity spectrum, cultivation vs innate orientation, broadening beyond erotic arousal, and managing identity oscillation.
+description: Read when conditioning self-directed attraction or navigating identity oscillation — Blanchard's framework, the four types, cultivation vs innate orientation, broadening beyond arousal.
 ---
 
 # Autogynephilia (AGP)

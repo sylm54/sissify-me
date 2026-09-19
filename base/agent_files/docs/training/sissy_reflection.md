@@ -1,5 +1,5 @@
 ---
-description: Use a scheduled reflection routine for structured thematic reflection that deepens conditioning, reinforces triggers, and builds self-awareness of progress.
+description: Read when setting up or running the reflection routine — structured thematic reflection that deepens conditioning, reinforces triggers, and builds self-awareness of progress.
 dependencies:
   - sissy_mindset
   - brainwashing

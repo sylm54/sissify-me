@@ -1,5 +1,5 @@
 ---
-description: Retrain the user's sexual response away from stroking — prostate (sissygasm) training, plapping, caged vibration, nipple conditioning, stroking extinction, and limp training.
+description: Read when retraining sexual response away from stroking — prostate (sissygasm) training, plapping, caged vibration, nipple conditioning, stroking extinction, and limp training.
 dependencies:
   - chastity
 ---

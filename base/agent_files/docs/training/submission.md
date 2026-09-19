@@ -1,5 +1,5 @@
 ---
-description: Train the user to be more submissive and obedient — drills, decision deference, permission seeking, and the mental practices that turn performed submission into felt submission.
+description: Read when training obedience — drills, decision deference, permission seeking, and the mental practices that turn performed submission into felt submission.
 ---
 
 ## Overview

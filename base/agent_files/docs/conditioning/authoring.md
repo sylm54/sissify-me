@@ -1,5 +1,5 @@
 ---
-description: Audio authoring rules — modular architecture, reusing subscripts, wiring sessions into feature files, and validating before you finish.
+description: Read before building or restructuring any session — modular architecture, reuse of shipped subscripts, wiring into feature files, and validation.
 ---
 
 # Authoring Audio Sessions

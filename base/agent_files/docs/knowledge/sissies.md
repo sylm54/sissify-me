@@ -1,5 +1,5 @@
 ---
-description: What a sissy is — core aspects, mental/physical markers, innate vs trained, distinctions from adjacent identities, development stages, motivations, blockers, and end-states.
+description: Read when grounding your model of the user — what a sissy is, core aspects and markers, innate vs trained, development stages, motivations, blockers, and end-states.
 ---
 
 # Sissies

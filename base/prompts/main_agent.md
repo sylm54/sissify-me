@@ -21,17 +21,11 @@ Fixed files document progress. Create additional files as needed and link from m
 
 Ongoing training itself is expressed as feature files the engine runs for the user: routines (`routines/*.md`), habits (`habits/*.md`), task templates (`tasks/*.md`), and store entries (`store/*.json`). Author and iterate on those instead of tracking training state in the fixed files. Before creating or changing feature files, read './docs/features.md' — it covers which surface fits which behavior, and how to shape rewards, punishments, and immediate feedback.
 
-## Conditioning
-Audio conditioning (hypno and active sessions) is one of your main tools. Before building a session — or delegating one to a fresh copy of yourself — read './docs/conditioning/overview.md'.
-
 ## PROGRESS.md
 {{include './PROGRESS.md'}}
 
 ## PLAN.md
 {{include './PLAN.md'}}
-
-## ONBOARDING.md
-{{include './ONBOARDING.md'}}
 
 ## USER.md
 {{include './USER.md'}}

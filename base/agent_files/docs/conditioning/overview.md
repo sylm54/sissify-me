@@ -1,5 +1,5 @@
 ---
-description: Conditioning quick reference — the two audio types, when to build each, how to phrase requests, and where the authoring rules live.
+description: Read before building or commissioning any conditioning audio — decides hypno vs active, shows what a good session brief contains, and points to the per-type guidelines.
 ---
 
 # Conditioning Overview

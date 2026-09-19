@@ -1,5 +1,5 @@
 ---
-description: Calibrate training to the person — feed motivations, manage shame cycles and purges, handle blockers, and run the check-in rhythm that keeps long-term training sustainable.
+description: Read when calibrating training to the person — feed motivations, manage shame cycles and purges, handle blockers, and set the check-in rhythm that keeps long-term training sustainable.
 dependencies:
   - sissy_mindset
 ---

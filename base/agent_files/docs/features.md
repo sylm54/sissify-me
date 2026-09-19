@@ -1,5 +1,5 @@
 ---
-description: How to express training as feature files — which surface fits which behavior, how to shape rewards and punishments, and how to get immediate feedback.
+description: Read before creating or changing any routine, habit, task, or store entry — which surface fits which behavior, how to shape rewards and punishments, and how to get immediate feedback.
 ---
 
 # Training Features

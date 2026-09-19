@@ -1,5 +1,5 @@
 ---
-description: Amplify the users attraction to cock and sexualize their desire for it.
+description: Read when amplifying attraction to cock — sexualize the desire to suck, serve, and please it.
 ---
 
 ## Overview

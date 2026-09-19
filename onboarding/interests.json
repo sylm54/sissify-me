@@ -52,24 +52,6 @@
   },
   {
     "kind": "question",
-    "id": "chastity_control",
-    "answer": "choice",
-    "prompt": "How much control over your lockups do you want me to take?",
-    "showIf": {
-      "all": [
-        { "id": "depth", "equals": "Deep" },
-        { "id": "chastity_owned", "equals": "Yes — I have a cage" }
-      ]
-    },
-    "choices": [
-      "You decide every lockup",
-      "We set durations together — you may push for longer",
-      "We set durations — you enforce them",
-      "Lockups only when we play"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "denial_baseline",
     "answer": "choice",
     "prompt": "How much denial experience do you have?",
