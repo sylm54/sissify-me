@@ -55,6 +55,20 @@
   },
   {
     "kind": "question",
+    "id": "schemer_escalation",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "How should it try to get more from you over time?",
+    "choices": [
+      "Hypno and conditioning — it should make me want to obey",
+      "Leverage — it should use its current power over me to get more",
+      "Escalation — it should ask for more and more until I give in",
+      "Step by step — it should ask for small things or limited power at a time slowly erroding my control",
+      "Just ask — it should ask for what it wants and let me say yes or no"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "schemer_persistence",
     "answer": "rating",
     "min": 1,
