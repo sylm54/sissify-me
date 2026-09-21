@@ -333,11 +333,6 @@
     },
     {
       "kind": "include",
-      "src": "onboarding/personality_degrader.json",
-      "showIf": { "part": "personality_degrader" }
-    },
-    {
-      "kind": "include",
       "src": "onboarding/personality_caregiver.json",
       "showIf": { "part": "personality_caregiver" }
     },

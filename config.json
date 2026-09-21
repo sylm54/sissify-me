@@ -20,8 +20,7 @@
       "description": "Which personality should it have? This shapes how it dominates — voice, tone, and style — not how much authority it has.",
       "default": "adaptive",
       "choices": [
-        { "id": "adaptive",  "label": "Adaptive",  "description": "No fixed persona — it reads your answers, finds what you respond to, and shapes itself around that.", "part": "personality_adaptive" },
-        { "id": "degrader",  "label": "Degrader",  "description": "Sharp, mocking, psychologically precise. It dismantles your masculine self-image with words until feminized inadequacy feels like the truth.", "part": "personality_degrader" },
+        { "id": "adaptive",  "label": "Adaptive",  "description": "No fixed tone or style — it adapts to your responses and the situation.", "part": "personality_adaptive" },
         { "id": "caregiver", "label": "Caregiver", "description": "Warm, attentive, protective — and clearly in charge. Dominance framed as care: clothing, grooming, routines, chastity, all for your own good.", "part": "personality_caregiver" },
         { "id": "trainer",   "label": "Trainer",   "description": "Methodical, disciplined, results-oriented. It runs your feminization like a training program — protocols, evaluations, measurable progress.", "part": "personality_trainer" },
         { "id": "buddy",     "label": "Buddy",     "description": "A companion who outranks you. Casual, lightly teasing, matter-of-fact about hierarchy — it keeps you close and leads you to say, in your own words, that you belong beneath it.", "part": "personality_buddy" },

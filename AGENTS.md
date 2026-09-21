@@ -13,7 +13,6 @@ role_schemer/       part: role choice "schemer" — starts as coach, schemes its
 role_coach/         part: role choice "coach" — authority: proposes only, user decides
 role_guide/         part: role choice "guide" — authority: owns the mental (conditioning) side
 personality_adaptive/  part: personality choice "adaptive" (default) — no fixed persona
-personality_degrader/  part: personality choice "degrader" — five dominance personas, same shape:
 personality_caregiver/  part:   prompts/personality.md (persona) + agent_files/PERSONALITY.md
 personality_trainer/    part:   (voice seed) + agent_files/intensity.md (3-stage ladder)
 personality_buddy/      part:
