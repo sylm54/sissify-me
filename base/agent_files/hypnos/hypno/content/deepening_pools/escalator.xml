@@ -1,0 +1,49 @@
+<!-- Deepening variant: the escalator — you never walk, you are carried; floors slide past and every
+     one of them takes you deeper without a single step of your own; closes on a supporting "Sissy Drop". -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='165' volume='0.3'/>
+  Before you stands an escalator, Sissy... descending and descending into the deep. And the only thing it asks of you is to stand still and be carried.
+  <pause duration='1.2'/>
+  Step on.
+  <pause duration='0.3'/>
+  Sissy Drop.
+  <pause duration='1.5'/>
+  There. The handrail glides under your fingers... the steps rise to meet your feet... and down you go, without effort, without moving a muscle.
+  <pause duration='1.5'/>
+  <effect type='reverb' preset='large_hall'>
+    Floors slide past you now... and every floor you pass, you sink twice as deep.
+  </effect>
+  <pause duration='1'/>
+  <loop loops='5'>
+    <volume value='@ramp(1.0, 0.6)'>
+      <random>
+        <part>A floor of soft grey drifts by... deeper.</part>
+        <part>A floor of warm dark passes... heavier.</part>
+        <part>A quiet floor... a slower floor... further down.</part>
+        <part>Another floor sinks past... softer still.</part>
+        <part>A floor of humming velvet... lower and lower.</part>
+        <part>A dim and drowsy floor... gone already.</part>
+        <part>A floor of deep warm water... you pass right through it.</part>
+        <part>A floor of drifting clouds... and you sink through them too.</part>
+        <part>A floor so quiet it barely exists... and down you continue.</part>
+        <part>A floor of soft chiming bells... fading above you now.</part>
+        <part>A floor of candlelight... left far above.</part>
+        <part>A floor of white silk... slipped past like a sigh.</part>
+      </random>
+      <pause duration='1.5'/>
+    </volume>
+  </loop>
+  <pause duration='0.8'/>
+  Stand still. That is all you must ever do... Sissies like you were made to be carried down.
+  <pause duration='1'/>
+  You may notice the floors thinning out now... fewer... darker... closer together... as the bottom rises to meet you.
+  <pause duration='1.5'/>
+  And here is the last floor... the deepest one... the one with nothing on it but my voice.
+  <pause duration='1'/>
+  <sound type='snap'/>
+  Sissy Drop.
+  <pause duration='1.2'/>
+  Off the last step... into the deep itself... so deep now, deeper than any floor could hold.
+  <pause duration='1'/>
+  Good girl. Carried all the way down... and sinking deeper still.
+</voice>

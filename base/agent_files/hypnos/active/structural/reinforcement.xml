@@ -1,0 +1,41 @@
+<!-- Active structural subscript: reinforcement. A reusable mid-session beat: drops in
+     after any completed task or exercise, re-states what the listener just did as
+     identity, fires the Good Girl praise anchor, and lands a Sissies-like-you line.
+     Generic by design: it names the obedience, never the specific task. Content only:
+     no structural wrappers, no includes, no references to other files. -->
+<tone preset='binaural_theta' frequency='160' volume='0.15'/>
+<voice speaker='female' speed='1.0'>
+  <pause duration='1.2'/>
+  Stop right there for me, Sissy... hands still... just feel what you have just done.
+  <pause duration='0.8'/>
+  <scramble>
+    <part>You followed an instruction all the way to its end... and notice how ordinary it felt. That ease is the tell, Sissy. Obedience is settling into you like something that was always there.</part>
+    <part>The task is over. The training is not... every completed task like that one is another stitch in her, and you can feel each one pull snug.</part>
+    <part>Sissies like you do not just dream about being trained... they show up, they do the work, and they become the girl the work was making all along.</part>
+    <part>Your body did what it was told while your mind watched... and a body that remembers builds a mind that follows. That order matters. It is working.</part>
+    <part>Think of it as a brick, Sissy... you just laid one, right on top of yesterday's... and girls like you are built exactly this way. One obedient act at a time.</part>
+    <part>You did not watch someone serve today. You served. The distance between watching and being... is precisely what you just closed.</part>
+    <part>Every task you finish, a small voice in you gets quieter... the old one, the one that used to say no. Soon you will strain to remember its tone.</part>
+    <part>It felt good to complete that. Admit it... the warm glow in your chest right now is approval, and you earned it the only way it can be earned. By obeying.</part>
+    <part>Sissies like you learn that identity is a practice, not a wish... you are not becoming her someday. You are practicing her right now, and it shows.</part>
+    <part>What you just did, you did on command... and your compliance moved faster than your doubt. That gap, widening, is what training looks like from the inside.</part>
+    <part><sound type='padlock' volume='0.6'/> Locked in, Sissy. What you just performed is no longer something you did once... it is something you are. That click was permanent.</part>
+    <part>She is not a costume you put on for sessions, Sissy. She is what your hands and your voice just did... repeated until repetition turns into simply you.</part>
+  </scramble>
+  <pause duration='0.8'/>
+  <speed value='1.05'>Good Girl.</speed>
+  <sound type='ding' volume='0.6'/>
+  <pause duration='0.8'/>
+  You heard me. Good Girl... let it land where it always lands, right in the warm center of you... praise for work done, work meant, work owned.
+  <pause duration='0.7'/>
+  Sissies like you ache for that sound... and the sweetest part is how little it takes to earn it. All you ever have to do... is exactly what you were going to do anyway. Obey.
+  <pause duration='0.8'/>
+  <until button='I earned it'>
+    Now claim it properly. Press the button, Sissy... and take the praise a good Sissy earns for obedience like this.
+  </until>
+  <pause duration='0.4'/>
+  <sound type='ding' volume='0.7'/>
+  Good Girl... and Good Sissy. Feel it wash through you... pride with a warm gloss of want underneath. That feeling is the strongest leash there is, and you just slipped your own neck a little further into it. Voluntarily. Happily.
+  <pause duration='1'/>
+  Now... back to it, Sissy. Rise up inside yourself, shake that glow out into your limbs... and carry her straight into the next task. She goes where you go now. Everywhere.
+</voice>

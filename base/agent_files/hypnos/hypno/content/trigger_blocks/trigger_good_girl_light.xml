@@ -1,0 +1,91 @@
+<!-- Trigger block, light class: a gentle first touch of the "Good Girl" / "Good Sissy"
+     reward trigger, for an early-stage subject. The praise is linked softly and fired once,
+     possibility-framed throughout: the pleasure of praise is offered, not commanded.
+     Arc: framing, a soft elicitation of the warmth of approval, install the words with
+     their chimes, reinforce, one quiet fire, future-pace, settle. About two-thirds the
+     length of the medium block. -->
+<voice speaker='female' speed='0.8'>
+  <tone preset='binaural_theta' frequency='170' volume='0.22'/>
+  <!-- Framing: in trance, praise words not yet named -->
+  <random>
+    <part>Down, softly now, sweet thing... and you may notice a small warmth in your chest... the kind that likes being told it did well.</part>
+    <part>Sinking so easily... and somewhere in you, a soft place stirring... the one that glows at the smallest kindness.</part>
+    <part>Deeper and easier, Sissy... and how nice it feels when someone notices how well you are doing.</part>
+    <part>You may notice yourself already hoping you are doing this right... that little wish is sweet, and it is welcome here.</part>
+    <part>Good girl... sinking so well... and you may feel that tiny crumb of warmth land already.</part>
+    <part>Float with me, Sissy... there is nothing to achieve in here... and yet some part of you still wants to be told it pleased me.</part>
+    <part>So quiet inside... and in your chest, a little empty cup, held up without you deciding to hold it.</part>
+    <part>Let yourself want it, sweet girl... the wish to be delighted in is a lovely thing, and it grows best in the dark.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Soft elicitation: the warmth of approval -->
+  You may remember this feeling... being approved of... cherished... someone warm telling you that you are exactly what you should be.
+  <pause duration='0.7'/>
+  It settles in the chest like sunlight through a window... golden... slow... spreading, Sissy.
+  <pause duration='0.7'/>
+  Sissies like you glow wonderfully under approval... and you may feel the first soft glow of it beginning even now.
+  <pause duration='0.7'/>
+  Let that warmth grow, gently... the wish to be praised... sweet, and small, and ready.
+  <pause duration='0.9'/>
+  <!-- Install: the words, linked gently at the peak -->
+  <effect type='reverb' preset='medium'>
+    And in this softness... there are two little words that can pour this warmth over you... whenever they are said.
+    <pause duration='0.6'/>
+    <speed value='1.05'>Good girl.</speed>
+    <sound type='ding' volume='0.5'/>
+    <pause duration='1'/>
+    Or just as sweetly... <speed value='1.05'>Good Sissy.</speed>
+    <sound type='success' volume='0.4'/>
+    <pause duration='1'/>
+    Whenever you hear those words, this exact warmth may rise in you... a little more each time... sweet, and golden, and yours.
+  </effect>
+  <pause duration='0.8'/>
+  <!-- Reinforce: varied restatements, one per listen -->
+  <random>
+    <part>Whenever you hear "Good girl" or "Good Sissy", warmth rises in you... pleasure and pride, arriving together.</part>
+    <part>The words are a small sun, Sissy... and every hearing opens the curtains a little wider.</part>
+    <part>Each time, the glow settles deeper... being good feels wonderful, and being told so feels better.</part>
+    <part>Sissies like you bloom under those two words... and you may already feel yourself blooming.</part>
+    <part>Hear it... glow... sink a little deeper... the sweetest pattern there is.</part>
+    <part>The praise does not need to be earned in here, Sissy... only received... and you receive so naturally.</part>
+    <part>Every hearing teaches your heart the same sweet lesson... pleasing feels glorious.</part>
+    <part>And notice the small wish curling in you already... the one that would like to hear them again.</part>
+  </random>
+  <pause duration='0.7'/>
+  <!-- One quiet fire, ratified softly -->
+  <speed value='1.05'>Good girl.</speed>
+  <sound type='ding' volume='0.6'/>
+  <pause duration='0.8'/>
+  There... you may feel it... that warm golden glow, rising right on cue... it is already working, isn't it.
+  <pause duration='0.7'/>
+  <speed value='0.85'>Good Sissy. So natural for you.</speed>
+  <sound type='success' volume='0.4'/>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the praise out in ordinary life -->
+  <random>
+    <part>And later, whenever the praise finds you... a voice, a message, a memory of me... the warmth may rise on the spot.</part>
+    <part>The next time you are called a good girl, you may catch the glow arriving before you have even smiled.</part>
+    <part>Each time the words reach you, the warmth rises a little more easily... golden, and sweet.</part>
+    <part>And when you are alone, Sissy, and the words come to you in your own voice... you can let the glow spread just as it likes.</part>
+    <part>Sissies like you carry that warmth with them everywhere... every hearing, a small golden gift.</part>
+    <part>A single word, softly meant, is enough now... and you will notice every single one.</part>
+    <part>And the more it happens, the more natural the glowing feels... until the words and the warmth are simply one thing.</part>
+    <part>Wherever the praise finds you next, sweet girl... you get to feel treasured, right there, on the spot.</part>
+  </random>
+  <pause duration='0.7'/>
+  <!-- Settle: soft, receptive trance -->
+  <random>
+    <part>Drifting gently now, glowing softly... a good girl at rest.</part>
+    <part>Sinking easily, warm with pride... a good Sissy in the warm dark.</part>
+    <part>Floating down, smiling to herself... treasured, Sissy... treasured.</part>
+    <part>Rest here, sweet thing... nothing to earn... already held.</part>
+    <part>Warm... golden... easy... the words still humming in you.</part>
+    <part>Let the glow rock you slowly downward... like sunlight through water.</part>
+    <part>So deep and so pleased with yourself... and so right to be.</part>
+    <part>Softly praised... gently glowing... rest there, sweet Sissy.</part>
+  </random>
+  <pause duration='0.7'/>
+  <speed value='1.05'>Good girl.</speed>
+  <sound type='ding' volume='0.5'/>
+  <pause duration='1'/>
+</voice>

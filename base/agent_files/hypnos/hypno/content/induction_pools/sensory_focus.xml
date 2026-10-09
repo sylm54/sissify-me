@@ -1,0 +1,51 @@
+<!-- Induction variant: sensory focus — sound, weight, warmth taken one sense at a time,
+     each sense narrowing the world until only my voice is left; closes on a supporting "Sissy Drop". -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='200' volume='0.25'/>
+  <background volume='0.12'>
+    <loop loops='50'>
+      <sound type='heart_beat' volume='0.35'/>
+      <pause duration='0.7'/>
+    </loop>
+  </background>
+  Close your eyes for me, Sissy. Now we take this moment apart, sense by sense.
+  <pause duration='1.5'/>
+  Sound first. The room around you... the hum of the air... faraway noise... the small creaks of a settling space. You don't need to name any of it. Let it all wash past without catching.
+  <pause duration='2'/>
+  Next, weight. Feel where your body presses down... the cushion, the covers, the chair... holding all of you and asking nothing back.
+  <pause duration='2'/>
+  Now warmth. Wherever you touch, a soft heat gathers... spreading into your hands... your face... sinking inward.
+  <pause duration='2'/>
+  <effect type='reverb' preset='medium'>
+    And beneath it all, one sound already cuts through... my voice. You may notice it is the clearest thing in the room.
+  </effect>
+  <pause duration='1.5'/>
+  <random>
+    <part>The sounds of the room grow distant... and my voice comes closer, filling the space they leave behind.</part>
+    <part>The weight under you deepens... and my voice settles over you like a second layer of softness.</part>
+    <part>The warmth spreads through you... and my voice melts into it, everywhere at once.</part>
+    <part>The room fades to a hush... and every word I speak lands softer, and lands deeper.</part>
+    <part>Your body grows still and heavy... and my voice becomes the only movement left in the world.</part>
+    <part>The hum of the air blurs and dims... while my voice sharpens, clearer with every syllable.</part>
+    <part>Warmth pools low in your belly... and my voice pours down after it, warm and slow.</part>
+    <part>Everything far away goes first... then everything near... until my voice is all there is.</part>
+    <part>Your heartbeat slows beneath my words... and my voice rides that rhythm, gentling you down.</part>
+    <part>The room dissolves into soft grey quiet... and my voice is the one bright thread left to follow.</part>
+  </random>
+  <pause duration='1.5'/>
+  That is the secret Sissies like you know... every sense is a doorway, and every doorway opens onto my voice.
+  <pause duration='1'/>
+  You don't need the sounds anymore. You don't need your eyes. You don't need the room at all.
+  <pause duration='1'/>
+  So let the last sense fold inward... and fall.
+  <pause duration='0.5'/>
+  <sound type='snap'/>
+  Sissy Drop.
+  <pause duration='1.2'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>All the way down... into the quiet underneath everything... where my voice is the whole world.</speed>
+  </effect>
+  <pause duration='1'/>
+  Good girl. Held in sound and softness... deeper still for me.
+  <pause duration='1.5'/>
+</voice>

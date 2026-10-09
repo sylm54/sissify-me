@@ -19,7 +19,11 @@
   <sound type='snap'/>
   Sissy Drop.
   <pause duration='1.2'/>
-  Down you go, all at once... soft and deep and heavy. That's it. Let go completely.
+  <random>
+    <part>Down you go, all at once... soft and deep and heavy. That's it. Let go completely.</part>
+    <part>Everything drops at once... eyes, thoughts, weight... all the way down. Just let go.</part>
+    <part>And down you go... one soft, sudden drop... eyes closed, mind open. Let go completely.</part>
+  </random>
   <pause duration='2'/>
   <effect type='reverb' preset='medium'>
     Eyes closed, mind drifting down... deeper with every easy moment.
@@ -28,5 +32,9 @@
   <sound type='snap'/>
   Sissy Drop.
   <pause duration='1'/>
-  Good girl. You are doing perfectly... deeper still, softly deep for me.
+  <random>
+    <part>Good girl. You are doing perfectly... deeper still, softly deep for me.</part>
+    <part>Good girl. Held here in the warm dark, sinking... and you are doing beautifully.</part>
+    <part>Good girl. So deep now... and still it comes, softly... deeper still.</part>
+  </random>
 </voice>

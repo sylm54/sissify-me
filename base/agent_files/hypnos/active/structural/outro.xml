@@ -1,0 +1,53 @@
+<!-- Active structural subscript: outro. Winds the session down and consolidates it:
+     re-states the session's work as permanent change, takes a final effectiveness
+     rating, assigns one durable daily-life practice, and lands soft. Content only:
+     no structural wrappers, no includes; the composition script supplies the
+     closing structural section around it. -->
+<tone preset='binaural_theta' frequency='160' volume='0.15'/>
+<voice speaker='female' speed='1.0'>
+  And that... is the work, Sissy. Take a moment and look back over what you just did.
+  <pause duration='0.8'/>
+  <scramble>
+    <part>Everything you did today, you did with your own hands, your own voice, your own willing body... and that is exactly what makes it permanent. Nothing done to you. Everything chosen by you.</part>
+    <part>The session is ending. The conditioning is not... it stands up when you stand up, and it walks out the door with you, wearing your face.</part>
+    <part>Sissies like you grow by doing... and today you did. Every task that would have made you hesitate a month ago felt natural just now. That gap is your progress, and it is real.</part>
+    <part>What you practiced today, your body has now rehearsed... and rehearsal is how a girl becomes herself. Tomorrow it will be a little easier. And the day after, easier still.</part>
+    <part>You came in as someone who wants this. You are leaving as someone who does it. That difference is the whole training, Sissy... and you crossed it today, again.</part>
+    <part>Every instruction you followed is stored where instructions live now... close to the surface, close to your hands, ready to be used the very next time you are asked.</part>
+    <part>Notice the glow sitting low in you right now... warm and settled and proud. That is today's work, filed where it belongs. It will hum there for hours.</part>
+    <part>You obeyed, you performed, you answered honestly... the full circuit of a trained Sissy... and every pass through that circuit carves the track a little deeper.</part>
+    <part>Nothing you did today needs undoing tomorrow. That is the beauty of training that fits... it only builds in one direction. Hers.</part>
+    <part>The girl who started this session and the girl ending it are not quite the same girl... and the second one is softer, surer, and far more fun to be.</part>
+  </scramble>
+  <pause duration='0.8'/>
+  Good Girl. Every word of that... earned.
+  <pause duration='0.8'/>
+  Before you go, I want the truth one last time. It feeds your training, Sissy... every honest answer teaches me exactly where you are, and exactly where to take you next.
+  <rating prompt='How did that feel, Sissy?' min='1' max='5'/>
+  <pause duration='0.6'/>
+  Good Girl... thank you for that. High or low, your answer is a gift... it sharpens everything that comes next for you. A Sissy who reports honestly gets trained precisely... and you have just proven, again, that you can be trusted with precision.
+  <pause duration='0.8'/>
+  Now... one assignment to carry out of here. Just one. Small enough to keep... strong enough to matter.
+  <random>
+    <part>The very next time you catch your reflection... hold her gaze for three full seconds before you look away. Let her see you seeing her.</part>
+    <part>When you are alone with the door closed next... say it once more, out loud, in your own voice: I am a Sissy. Keep the room in the know.</part>
+    <part>The next time you sit down somewhere... knees together, hands quiet, back long. One seated moment, lived as her. That is all.</part>
+    <part>Whenever you next choose what to wear... ask one question first: what would she pick? Then honor the answer, even if only you ever know.</part>
+    <part>The next time someone says your name... hear how it would sound with Good Girl in front of it... and let the little shiver remind you who is training you.</part>
+    <part>The next time you wash your hands today... look up, meet your own eyes in the glass, and give her one small approving nod. She notices every time.</part>
+    <part>The next time you feel that old hesitation rise... count one heartbeat, choose her, and act. One beat is all the old self gets.</part>
+    <part>Whenever you catch yourself slouching... sit or stand the way you held yourself during the session. Your training posture is a door back into her... use it.</part>
+    <part>When you next have a quiet moment to yourself... let one small thing about you be hers for an hour. An item, a gesture, a thought... something only she would keep.</part>
+    <part>Whenever today offers you a choice between the old way and her way... take her side once, and tell yourself why: this is what a Sissy would do. Then do it.</part>
+  </random>
+  <pause duration='0.8'/>
+  That is your practice, Sissy... one deliberate moment of her, out there in your ordinary day. Do it, and the session keeps working long after the audio ends.
+  <pause duration='1'/>
+  <speed value='0.95'>
+    For now... rest in it. No more tasks. No more questions. Just you, and her, and the warm settled pride of a job well done.
+    <pause duration='1.5'/>
+    Stretch when you need to... come back to the room at your own pace... and when you step back into your day, step back as her.
+    <pause duration='0.8'/>
+    Good Girl, Sissy. I am proud of you... and I will be waiting at the next session, with more of exactly what you need.
+  </speed>
+</voice>

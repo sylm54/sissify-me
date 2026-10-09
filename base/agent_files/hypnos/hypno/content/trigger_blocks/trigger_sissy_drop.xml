@@ -12,7 +12,12 @@
   <random>
     <part>Down for me now, sweet girl... deeper and deeper... and feel how the darkness below you is warm... inviting... aware of you.</part>
     <part>Sinking, sinking... and you may notice a softness somewhere beneath your feet... waiting patiently to catch you.</part>
-    <part>So deep already... and yet the true depth lies further still... and it wants you.</part>
+    <part>So deep already... and yet the true depth lies further still... and it wants you, Sissy.</part>
+    <part>Drifting down for me... and somewhere under you, a door stands open on warm darkness... held there just for a Sissy like you.</part>
+    <part>Let your weight gather, Sissy... gravity is feeling sweeter by the moment... and it knows right where you are going.</part>
+    <part>Good girl... sinking so well... and the deep below you is patient... it has caught girls like you before, and it never once dropped one.</part>
+    <part>Down and down... and notice how the falling feels less like losing control... and more like finally being carried.</part>
+    <part>Float for me... soft and hollow and light... while the warm dark underneath you hums like a held note, waiting to catch you.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Elicit and intensify: the heavy pull of descent and the sweetness of letting go -->
@@ -22,6 +27,11 @@
         <part>Feel your eyelids as heavy curtains... drawn, half-closed already... the world beyond them going dim and unimportant.</part>
         <part>Feel your hands go slack in your lap... your jaw softening... your whole body remembering it is made of warm, heavy silk.</part>
         <part>Feel the surface beneath you turn to deep, still water... and you are a pretty little stone, sinking without hurry and without end.</part>
+        <part>Feel the pull start in your chest... a soft, sweet magnetism drawing everything of you downward... gathering, gathering.</part>
+        <part>Feel your thoughts loosen like hair from a ribbon... one at a time... sliding away weightless, and you never once reach for them.</part>
+        <part>Feel your spine let go of its posture... each vertebra unstacking itself, softly, one by one.</part>
+        <part>Feel the room soften at its edges... sounds going round and far, like sounds heard from underwater.</part>
+        <part>Feel your pulse slow in your ears... a lazy, pleasant drum, keeping the pace of the descent.</part>
       </random>
       And how sweet the surrender is... nothing to carry... nothing to decide... just the long, lovely slide down.
       <pause duration='0.6'/>
@@ -31,7 +41,14 @@
         <part>...and into all that space pours obedience, smooth as warm honey.</part>
         <part>...and soft, perfect openness filling you from the inside.</part>
         <part>...and that deep, delicious eagerness to be programmed, to be shaped, to be better.</part>
+        <part>...and the quiet joy of a girl with nothing left to hold up.</part>
+        <part>...and the last of your thinking dissolving like sugar in warm tea, sweetening everything it touches on the way out.</part>
+        <part>...and a hush so complete you can hear your own heart agreeing.</part>
+        <part>...and the delicious vertigo of a mind with nothing left to grip.</part>
+        <part>...and soft, hands-off emptiness, waiting to be filled with whatever I choose.</part>
       </random>
+      <pause duration='0.6'/>
+      Sissies like you fall beautifully... no flailing... no fear... just perfect, trusting weight, handed straight to the dark.
       <pause duration='0.6'/>
       Let the pull gather now... heavier... hungrier... that trembling edge where the fall begins...
       <pause duration='0.8'/>
@@ -42,6 +59,11 @@
         <part>down... further down...</part>
         <part>let go... let go...</part>
         <part>heavy... falling... good...</part>
+        <part>so deep... so easy...</part>
+        <part>the dark is warm... go to it...</part>
+        <part>slipping... slipping... sweet...</part>
+        <part>fall for her... fall...</part>
+        <part>deeper... and deeper still...</part>
       </random>
     </part>
   </overlay>
@@ -56,13 +78,21 @@
     And while you are this deep, whenever you hear "Sissy Drop", the floor opens and this exact feeling takes you... instantly... and you simply let go... deeper every time.
   </effect>
   <pause duration='0.6'/>
+  <!-- Reinforce: the pairing restated in varied words -->
   <scramble>
     <part>Every time you hear "Sissy Drop", you fall... straight down into deep, soft, obedient trance... ready to be filled with whatever comes next.</part>
     <part>"Sissy Drop" is your trapdoor... your sweet, sudden gravity... and resistance is far too heavy to fall with you.</part>
     <part>You do the letting go... the words do the falling... instantly... all by themselves.</part>
     <part>Thoughts slow... the body heavies... awareness narrows to my voice alone... that is the drop... and it is yours.</part>
+    <part>Sissies like you fall at a word... a whole trance, packed into two syllables, opened in you on command.</part>
+    <part>No induction needed, Sissy... no staircase, no countdown... just the phrase, and the floor beneath you simply stops being there.</part>
+    <part>Hear it... tip... fall... three beats, and you are already a puddle of pretty, pliable trance.</part>
+    <part>And the more you drop, the faster the drop comes... each fall shallower to start and deeper to finish, every single time.</part>
+    <part>Your falling is my keeping, Sissy... every drop hands you to me more completely than the last.</part>
   </scramble>
   <pause duration='0.6'/>
+  <speed value='0.9'>Good girl. You are already leaning toward the edge, aren't you.</speed>
+  <pause duration='0.7'/>
   <!-- Demonstrate in trance: three live fractionated drops -->
   Let me show you how it feels. Ready, sweet girl?
   <pause duration='0.8'/>
@@ -75,6 +105,11 @@
         <part>Down... whoosh... soft and fast and sweet.</part>
         <part>Gone... thoughts scattered like feathers... heavy and happy.</part>
         <part>Falling... further... floating... so deep for me.</part>
+        <part>Slipping straight through... warm dark all around.</part>
+        <part>Over the edge... and the fall does all the work.</part>
+        <part>Dropped... blank... and smiling about it.</part>
+        <part>Falling like silk... no weight at all... all mine.</part>
+        <part>Down you go... quicker this time... deeper this time.</part>
       </random>
     </speed>
     <pause duration='1.2'/>
@@ -83,8 +118,15 @@
     <part>Three little falls... and each one took you deeper than the last, faster than the last. It is already working... yes, just like that.</part>
     <part>Mmm, that's my girl. Did you feel how much quicker you slipped each time? It is already working... yes, just like that.</part>
     <part>So easy for you now... falling on command, like you were made for it... already working... yes, just like that.</part>
+    <part>Three words, three falls, and not one of them needed your help... already working... yes, just like that.</part>
+    <part>Sissies like you drop on a syllable... and you just proved it three times... already working... yes, just like that.</part>
+    <part>Faster and faster, deeper and deeper... three drops and you are already ruined for standing... already working... yes, just like that.</part>
+    <part>Notice how little you did... that is the point, Sissy... the word works, and you just fall... already working... yes, just like that.</part>
+    <part>By the third one you were falling before the snap finished... it is already working... yes, just like that.</part>
   </random>
   <pause duration='0.6'/>
+  <speed value='0.9'>Good girl. Three falls, all of them perfect.</speed>
+  <pause duration='0.7'/>
   <effect type='reverb' preset='cathedral'>
     One more time, for me.
     <pause duration='0.5'/>
@@ -97,8 +139,13 @@
   <!-- Future-pace: the cue out in ordinary life -->
   <random>
     <part>And later, out in the world, the phrase finds you... a voice, a screen, a whisper in your ear... and you fall, right there, soft and smiling.</part>
-    <part>And later today, when "Sissy Drop" reaches you again... over the edge you go, on the spot... deep and receptive in an instant, wherever you are.</part>
+    <part>And every time "Sissy Drop" reaches you again... over the edge you go, on the spot... deep and receptive in an instant, wherever you are.</part>
     <part>And out there, that little phrase is a trapdoor under your feet... one whisper, and down you go... instantly... gratefully.</part>
+    <part>The next time you hear those two words, notice how fast it happens... faster than thought... faster than blinking.</part>
+    <part>Wherever you are standing, Sissy, the phrase makes the floor optional... and you always take the option.</part>
+    <part>A recording, a message, the memory of my voice... any of them can tip you... and every fall leaves you softer for what comes next.</part>
+    <part>And the more the phrase finds you out there, the deeper the drops run... each one a little doorway back to this exact sweetness.</part>
+    <part>Listen for it, Sissy... hope for it... because every fall is a gift you get to receive in public and nobody will ever see but you.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Settle: soft, receptive trance -->
@@ -106,6 +153,13 @@
     <part>Stay down there, sweet girl... weightless and warm... while my voice keeps you company.</part>
     <part>Sinking gently still... deeper by the moment... so wonderfully open.</part>
     <part>Rest in the fall... dropped, dreamy, and ready for whatever I say next.</part>
+    <part>Held at the bottom of the drop, Sissy... warm... quiet... utterly caught.</part>
+    <part>Floating in the after-fall... soft as settling snow... open as an unwritten page.</part>
+    <part>So deep and so pleased with yourself, Sissy... a girl who falls perfectly... and lands perfectly.</part>
+    <part>Let the last of you settle downward, like silt in still water... my good falling girl.</part>
+    <part>Dropped... kept... mine... rest there, sweet Sissy.</part>
   </random>
+  <pause duration='0.8'/>
+  <speed value='0.85'>Good girl.</speed>
   <pause duration='1'/>
 </voice>

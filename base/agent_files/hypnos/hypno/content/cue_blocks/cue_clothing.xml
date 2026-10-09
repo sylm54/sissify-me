@@ -1,0 +1,145 @@
+<!-- Cue block: conditions the sight of feminine clothing, lingerie, heels, and makeup.
+     No command word - the conditioned stimulus is the sight itself. Whenever the
+     listener's eyes land on something soft and pretty, rightness and a mild, warm
+     glow arrive instantly... braided with a quiet pull toward wearing the item, or
+     at least imagining it on her body... and the pull grows stronger with every
+     sighting. Three image families each get their own beat: lingerie, heels, makeup.
+     Arc: framing, guided sightings, conditioning the sight, reinforcement and
+     escalation, future-pace, settle. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='155' volume='0.25'/>
+  <!-- Framing: in trance, no cue named yet -->
+  <random>
+    <part>Deep and open for me now, Sissy... and let me tell you about your eyes... how they already snag on soft and pretty things.</part>
+    <part>Sinking so sweetly... and somewhere in you there is a little shop after closing... low lights... shelves full of soft, waiting things.</part>
+    <part>So deep, so receptive... you may notice how certain sights seem to call your name... softly... patiently... until you turn to look.</part>
+    <part>Down here everything is quiet, Sissy... and in that quiet, images may step closer... close enough to touch.</part>
+    <part>Let your mind wander a display floor... satin... shine... little lights... and see where your gaze chooses to rest.</part>
+    <part>So soft for me... and your eyes are open in there, even now... drifting toward whatever glows.</part>
+    <part>There is a reason your gaze lingers where it lingers... and down here, that reason finally gets to speak.</part>
+    <part>Good and deep... and ready, Sissy... because what I am about to show you, you have been noticing all your life.</part>
+  </random>
+  <pause duration='0.8'/>
+  Good girl... such soft, willing eyes.
+  <pause duration='0.7'/>
+  <!-- Elicit: guide the imagined sightings vividly, from the inside -->
+  <overlay>
+    <part>
+      Picture it with me... a shop window on your way home... low light... and behind the glass, a set of lingerie laid out like a promise... blush and black lace... straps draped over velvet.
+      <pause duration='0.7'/>
+      <random>
+        <part>Now the lingerie... feel the lace under your fingertips through the glass... imagine those straps settling over your shoulders... a soft warmth blooming low in your belly.</part>
+        <part>Now the satin slip on its hanger... swaying the way water moves... and the wish to feel that shine sliding over your hips instead.</part>
+        <part>Now the little bow at the center of the set... such a small thing... and look what a smile it pulls out of you.</part>
+        <part>Now the heels... a pair on a display stand... the arch... the shine... the slender heel catching the light... and your ankles tingling with the wish to stand taller.</part>
+        <part>Now the flash of a sole as someone crosses her legs across the room... and your spine quietly trying that posture on for size.</part>
+        <part>Now the ankle strap... one small buckle... and the soft, sudden wish to hear it click shut around you.</part>
+        <part>Now the makeup... a counter ringed with little lights... rows of lipsticks like a box of sweets... and the quick, soft wish to see those colors on your own mouth.</part>
+        <part>Now the mascara wand drawing one slow stroke on the screen you are watching... and the wish, warm and instant, for eyes that dark and that wide.</part>
+        <part>Now the blush palette opened like a little sunset... and the ache to be the cheek it is meant to grace.</part>
+      </random>
+      <pause duration='0.6'/>
+      Notice what happens, Sissy... your eyes land... time goes soft... a gentle warmth stirs... and something in you leans toward the glass... toward owning it... toward wearing it... or at least wearing it in your imagination for a while.
+      <pause duration='0.6'/>
+      That pull is quiet and sweet and completely natural... because Sissies like you never simply pass pretty things by... you recognize them.
+      <pause duration='0.7'/>
+      Hold that feeling now... eyes caught... heart warm... wanting.
+    </part>
+    <part volume='0.2' speed='0.8' looped='true'>
+      <random>
+        <part>see it... want it...</part>
+        <part>so pretty... so close...</part>
+        <part>just looking... and yet...</part>
+        <part>imagine it on you...</part>
+        <part>soft... shiny... yours...</part>
+        <part>eyes snag... heart glows...</part>
+        <part>one more look...</part>
+        <part>pretty things call...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Condition the sight itself as the automatic cue -->
+  <effect type='reverb' preset='medium'>
+    And now, while you are this deep and this warm... let us bind all of this to the seeing itself.
+    <pause duration='0.7'/>
+    Whenever you see lingerie... heels... makeup... in a window... on a screen... in a store... draped over a chair... this exact rightness and this exact warmth arrive... instantly... without deciding to.
+    <pause duration='0.8'/>
+    You see the silk... and the silk sees you, Sissy... rightness blooms... a soft glow stirs... and the wish to wear it, or to imagine it on your body, rises all by itself.
+  </effect>
+  <pause duration='0.6'/>
+  Good girl... it is done... and it is already working.
+  <pause duration='0.5'/>
+  <!-- Reinforce and escalate -->
+  <scramble>
+    <part>Every time your eyes land on something soft and pretty, warmth blooms first... and the quiet wish to wear it rises right behind it, gentle and sweet.</part>
+    <part>Lace in a window is a hand on your chin, Sissy... turning your face... saying look... and you look.</part>
+    <part>Sissies like you linger in front of pretty displays... one heartbeat longer... two... feeling more at home with every second.</part>
+    <part>A row of heels does something to you now... each pair a small, bright imagine-yourself... taller... smoother... more you.</part>
+    <part>The sight of lipstick is a question your heart answers before your mind is asked... would that color suit me... oh... yes.</part>
+    <part>Seeing becomes wanting... wanting becomes imagining... and imagining it on your body feels warm and right and easy.</part>
+    <part>You do not decide to notice, Sissy... pretty things simply catch you... and being caught feels soft and good.</part>
+    <part>Mild, warm, constant... like a candle lit somewhere in you whenever something feminine crosses your sight.</part>
+    <part>Sissies like you know that look... the one where your reflection in the shop glass quietly joins the display... and fits right in.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>It is a reflex... and it grows stronger with every exposure... warmer... quicker... closer to the skin with every glance.</part>
+    <part>Each sighting trains the next... the more you see, the sweeter the pull... and the sweeter the pull, the more you see.</part>
+    <part>Windows you once passed now hold you for whole minutes... and you love what the lingering does to you.</part>
+    <part>The warmth starts smaller than a thought and arrives faster than one.</part>
+    <part>Every display is a small door now, Sissy... and every glance walks you a little further through it.</part>
+    <part>One day the looking turns to touching... the touching to trying... and the trying to keeping... each step more delicious than the last.</part>
+    <part>The pull is patient... it does not need to rush... it has your eyes, and your eyes always come back.</part>
+    <part>Sissies like you let their eyes do what eyes love... and the reflex grows stronger every time, all by itself.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  Good girl... every one of those landed, and you felt each one settle.
+  <pause duration='0.6'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, when you pass a shop window on your way home... the lace catches you... and you stop without meaning to... warm and leaning closer.</part>
+    <part>And next time you scroll and something silky slides past your thumb... you slow down... you go back... and the glow follows.</part>
+    <part>And when a stranger crosses the cafe in heels that click... your eyes follow the sound... and something in you tries the shoes on from where you sit.</part>
+    <part>And the next time you drift down that bright, beautiful aisle of a store... the softness around you feels arranged for you alone.</part>
+    <part>And whenever a friend leaves something lacy draped over a chair... your eyes go straight to it... and stay... and wonder.</part>
+    <part>And in the drugstore, in the checkout line, beside the little displays of gloss and polish... that familiar small warmth arrives right on time.</part>
+    <part>And on screens of every size, photos of pretty things find you, Sissy... and each one lands like a message addressed only to you.</part>
+    <part>And every sighting from now on is another stitch... sewing the sight of pretty things to the feel of being you.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: soft, receptive trance -->
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        You see the pretty things... and the pretty things see you, Sissy.
+        <pause duration='0.6'/>
+        Warmth... pull... belonging... every glance... every time... softer and more yours each time... and every time you feel it and lean in, you are such a good girl for me.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>
+        <random>
+          <part>see it... glow...</part>
+          <part>so right... so her...</part>
+          <part>soft things... call...</part>
+          <part>look... and lean...</part>
+          <part>pretty... warmer...</part>
+          <part>one glance... home...</part>
+          <part>silk sees you...</part>
+          <part>want it, Sissy...</part>
+        </random>
+      </part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  <random>
+    <part>Sinking back now... warm and soft... the pull humming sweetly somewhere under your thoughts.</part>
+    <part>Drifting deeper... eyes at rest... and still, behind them, something lacy sways.</part>
+    <part>Floating down, Sissy... pretty things waiting patiently out there... in no hurry at all.</part>
+    <part>Deeper and quieter... carrying the glow like a secret under your skin.</part>
+    <part>So soft for me... and out there, your eyes already know where to go.</part>
+    <part>Down and down... wrapped in the thought of silk you have not even met yet.</part>
+    <part>Warm, sleepy, wanting nothing... except the next pretty thing.</part>
+    <part>Sinking, smiling... a good girl who looks... and a Sissy who leans.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

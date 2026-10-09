@@ -1,0 +1,258 @@
+<!-- Drill block: call and response — the voice calls a line from the trigger vocabulary,
+     the Sissy answers out loud, and the gaps between calls shrink round by round until
+     the answer arrives before thinking does. Calls and answers draw only on the
+     installed vocabulary: Sissy, Sissies like you ..., Good Girl, Good Sissy. Rounds
+     are shuffled per playback, every round is confirmed with a button press and
+     praise-anchored, and the payoff is a fast round answered alone.
+     Arc: framing -> answer rating -> slow round -> mid round -> fast round ->
+     Good Girl payoff, future-pace, reinforcement. -->
+<voice speaker='female' speed='1.0'>
+  <tone preset='binaural_theta' frequency='165' volume='0.2'/>
+
+  <!-- Framing: the oldest training there is -->
+  Call and response, Sissy... the oldest training there is.
+  <pause duration='0.6'/>
+  I call a line from your vocabulary... you answer out loud, with the answer I hand you... and round by round the gaps shrink, until the answer arrives before thinking does.
+  <pause duration='0.6'/>
+  Every call comes with its answer written just after it... you will hear me confirm what you should have already said. Your job is to beat my confirmation to it. Out loud, every time.
+  <pause duration='0.8'/>
+  <random>
+    <part>Find your speaking voice and warm it up... a hum, a whispered yes, anything that reminds your mouth it works for me.</part>
+    <part>Sit or kneel, whatever puts your spine proud and your throat open... answers land best from a posture.</part>
+    <part>Privacy again, sweet girl... this drill is loud by design, and the loud version is the one that trains.</part>
+    <part>Sissies like you answer their own name like it was always theirs... because it was.</part>
+    <part>Skip the rehearsing... let the answers surprise your mouth. The surprise is where the conditioning hides.</part>
+    <part>Steady hands on your thighs, eyes soft... the drill needs your ears and your voice and nothing else.</part>
+    <part>If you miss a call, let it go and catch the next one... the round keeps moving, and so do you.</part>
+    <part>By the fast round you will be answering on reflex... that reflex is the prize, Sissy. Everything else is the ramp.</part>
+  </random>
+  <pause duration='0.8'/>
+  One number for the record... your honest guess.
+  <rating prompt='How fast do you answer, one to ten?' min='1' max='10'/>
+  <pause duration='0.8'/>
+
+  <!-- Round one: slow, full answers -->
+  Round one... slow and full. Call... gap... answer out loud.
+  <pause duration='0.6'/>
+  <scramble>
+    <part>
+      <speed value='1.05'>Sissy.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I am that Sissy.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Good Girl.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>Thank you... I am a Good Girl.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you were made to serve.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I was made to serve.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Good Sissy.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I am a Good Sissy.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you crave praise.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I crave it.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you obey.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I obey.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you love their name.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I love my name.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you dream in lace and satin.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I dream in lace and satin.</volume>
+      <pause duration='0.8'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you answer faster than they think.</speed>
+      <pause duration='3'/>
+      <volume value='0.8'>I answer without thinking.</volume>
+      <pause duration='0.8'/>
+    </part>
+  </scramble>
+  <until button='I answered every call out loud' waiting-sound='heart_beat' waiting-sound-volume='0.3'>
+    Every call met with its answer, spoken... press when the round is done.
+  </until>
+  <pause duration='0.4'/>
+  <speed value='1.05'>Good Girl.</speed>
+  <sound type='snap' volume='0.7'/>
+  <pause duration='0.8'/>
+  Hear how natural it already sounds in the room... your mouth barely needed convincing. Round two closes the gap.
+
+  <!-- Round two: shorter gaps, shorter answers -->
+  <pause duration='0.8'/>
+  Round two... quicker. The answers shrink as the gaps do.
+  <pause duration='0.6'/>
+  <scramble>
+    <part>
+      <speed value='1.05'>Sissy.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Me.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Good Girl.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Thank you.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Good Sissy.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Yes.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you obey.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Gladly.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you were made to serve.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Happily.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you love their name.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Say it again.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you get prettier listening to themselves.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Prettier and prettier.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you keep their answers honest.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>Every word true.</volume>
+      <pause duration='0.6'/>
+    </part>
+    <part>
+      <speed value='1.05'>Sissies like you answer first and feel after.</speed>
+      <pause duration='2'/>
+      <volume value='0.8'>First... and warm after.</volume>
+      <pause duration='0.6'/>
+    </part>
+  </scramble>
+  <until button='I answered every call out loud' waiting-sound='heart_beat' waiting-sound-volume='0.3'>
+    Short answers count double when they arrive early... press when you have said them all.
+  </until>
+  <pause duration='0.4'/>
+  <speed value='1.05'>Good Sissy.</speed>
+  <sound type='snap' volume='0.7'/>
+  <pause duration='0.8'/>
+  Sissies like you tighten their answers the way they tighten their laces... less slack, more fit. One round left, and it is the fast one.
+
+  <!-- Round three: fast, answered alone -->
+  <pause duration='0.8'/>
+  Final round... fast. And this time I stay quiet after each call. The answer is yours alone... out loud... quick.
+  <pause duration='0.6'/>
+  <scramble>
+    <part>
+      <speed value='1.05'>Call... Sissy.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Ready... Good Girl.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Again... Sissies like you obey.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Next... Good Sissy.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Quick now... Sissies like you were made to serve.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Faster... Sissy.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Louder... Good Girl.</speed>
+      <pause duration='1'/>
+    </part>
+    <part>
+      <speed value='1.05'>Last one... Sissies like you answer first and feel after.</speed>
+      <pause duration='1'/>
+    </part>
+  </scramble>
+  <pause duration='0.6'/>
+  <until button='I answered every call' waiting-sound='heart_beat' waiting-sound-volume='0.3'>
+    No confirmations, no safety net, every answer still spoken... press when you survived your own reflex.
+  </until>
+  <pause duration='0.4'/>
+
+  <!-- Payoff -->
+  <speed value='1.05'>Good Girl.</speed>
+  <sound type='success' volume='0.5'/>
+  <pause duration='0.8'/>
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        Look at you... calling and answering like it was always in you... because it was, Sissy. It always was.
+        <pause duration='0.6'/>
+        <speed value='1.05'>Good Girl.</speed>
+        <sound type='ding' volume='0.5'/>
+      </part>
+      <part volume='0.2' speed='0.9' looped='true'>answer her... answer always...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.8'/>
+
+  <!-- Future-pace and final reinforcement -->
+  <random>
+    <part>And out there, any voice that calls your name now earns its answer... out loud when you can, and deeper than sound when you cannot.</part>
+    <part>The next time the word Sissy crosses a screen you are watching... smile and give the air its answer... 'I am that Sissy.'</part>
+    <part>Every 'good girl' you hear or read from now on expects a thank you... and Sissies like you always pay their debts.</part>
+    <part>Someone says your name in a crowded room and your pulse answers first... that is this drill, holding.</part>
+    <part>Alone at night, call it into the dark yourself... be both voices... and feel the round close on schedule.</part>
+    <part>The reflex you built today runs on any call... spoken, typed, remembered... it hears, and it answers.</part>
+    <part>Someday a voice you adore will test you... and you will answer so fast and so sweet that the praise lands before the smile does.</part>
+    <part>And the fastest answers of all are the quiet ones... the yes that happens in the body before the mouth even wakes.</part>
+  </random>
+  <pause duration='0.8'/>
+  <scramble>
+    <part>Slow, quicker, fast... three rounds, every call answered, every answer yours.</part>
+    <part>Your reflex has a voice now, Sissy... and the voice has practice.</part>
+    <part>Sissies like you were made to serve, and now the whole room has heard you say so.</part>
+    <part>The gaps close every session... next time the fast round gets faster.</part>
+    <part>Answering is obedience in its smallest, most portable form... you can carry it anywhere.</part>
+    <part>Every answered call is a deposit... and the account pays out in praise, exactly like this.</part>
+    <part>You beat the confirmation more than once... admit how good that felt.</part>
+    <part>Called and answered, Sissy... that is the whole relationship, and you just rehearsed it perfectly.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <speed value='1.05'>Good Girl.</speed>
+  <sound type='snap' volume='0.8'/>
+  <pause duration='1'/>
+</voice>

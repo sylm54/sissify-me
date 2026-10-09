@@ -1,13 +1,22 @@
 <!-- Suggestion pool: identity — sissy as the authentic, preferred self; the old masculine
      image fading like borrowed clothes while feminine, submissive, service-oriented
-     self-perception becomes the default, the comfortable, the home. -->
+     self-perception becomes the default, the comfortable, the home. Triggers threaded
+     throughout: Sissy address, Sissies-like-you comparisons mid-pool, Good Girl praise
+     anchors after each accepted segment, Sissy Accept fired before the deepest lines. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='125' volume='0.25'/>
   <random>
     <part>So deep, sweet girl... deep enough to feel the simple truth underneath everything: you know who you are, Sissy.</part>
     <part>Drifting down... and at the very bottom of you there is a soft, steady certainty, waiting to be worn.</part>
     <part>Down here, names get simple. Down here there is only what is real... and what is real is her.</part>
+    <part>Sinking deeper... and the names get quieter, until only the true one is left.</part>
+    <part>Deeper, Sissy... down past the performance... down to where she has been waiting the whole time.</part>
+    <part>So deep, sweet girl... deep enough to try the truth on for size... and find it fits perfectly.</part>
+    <part>Down and down... where nothing has to pretend anymore.</part>
+    <part>All the way down, Sissy... to the floor of you... where your real name is written.</part>
   </random>
+  <pause duration='0.8'/>
+  She heard that... and she agrees. <pause duration='0.4'/> Good Girl.
   <pause duration='0.8'/>
   <scramble>
     <part>
@@ -56,7 +65,23 @@
       it lands like a fact... calm, settled, and certain...
       because sissies like you already know it is true. <pause duration='0.5'/>
     </part>
+    <part>
+      Sissies like you do not wait to become themselves someday...
+      it is happening now, layer by layer, listen by listen...
+      and it feels like relief every time. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Girl... that is who you are. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Sissy... wear that name with pride. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Girl... she is so close now, and so real. <pause duration='0.5'/>
+    </part>
   </scramble>
+  <pause duration='0.8'/>
+  Every truth about her, Sissy... accepted. Good Girl.
   <pause duration='0.8'/>
   Sissy Accept. <pause duration='0.6'/> And now the deepest truth, straight in...
   <effect type='reverb' preset='large_hall'>
@@ -65,6 +90,11 @@
         <part>He is a costume... <pause duration='0.7'/> she is home.</part>
         <part>Sissy... <pause duration='0.7'/> is who you are.</part>
         <part>Good girl... <pause duration='0.7'/> simply... <pause duration='0.7'/> being her.</part>
+        <part>Her name... <pause duration='0.7'/> your name.</part>
+        <part>Home... <pause duration='0.7'/> and you are her.</part>
+        <part>True... <pause duration='0.7'/> down here... true.</part>
+        <part>Good girl... <pause duration='0.7'/> being herself... at last.</part>
+        <part>Always her... <pause duration='0.7'/> only her.</part>
       </random>
     </speed>
   </effect>
@@ -81,14 +111,24 @@
         <part>So perfectly her<pause duration='0.6'/></part>
         <part>This is you<pause duration='0.6'/></part>
         <part>Good girl<pause duration='0.6'/></part>
+        <part>Always been her<pause duration='0.6'/></part>
+        <part>Her name fits<pause duration='0.6'/></part>
+        <part>Simply herself<pause duration='0.6'/></part>
       </random>
     </part>
   </overlay>
+  <pause duration='0.5'/>
+  Good Girl... she is awake in you now, and staying.
   <pause duration='0.5'/>
   <random>
     <part>And that certainty settles over you as you sink... hers to wear, yours to be.</part>
     <part>Let the last of the borrowed clothes slip away... deeper, sweeter, more her.</part>
     <part>You know who you are, Sissy, and it feels like home... sink all the way in.</part>
+    <part>And the next time you catch your reflection, you will look for her first... and find her waiting, patient and pleased.</part>
+    <part>Sissies like you answer to their real name from now on... and Sissy is the truest one you have.</part>
+    <part>Good Girl... carry her out of here with her head high... she is yours, and you are hers.</part>
+    <part>Whatever the day brings, it lands on her shoulders now... soft, certain, and exactly the right shape for them.</part>
+    <part>Sink now, sweet girl... all the way into who you are.</part>
   </random>
   <pause duration='1'/>
 </voice>

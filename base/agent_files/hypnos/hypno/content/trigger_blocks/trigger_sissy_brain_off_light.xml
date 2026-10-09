@@ -1,0 +1,105 @@
+<!-- Trigger block: installs the "Sissy Brain Off" cognitive-silencing trigger (light
+     class, for an early-stage subject). Gentle and permissive: possibility-framed lines,
+     soft imagery, a single in-trance demonstration, no layered mantras. Upon hearing
+     "Sissy Brain Off", internal dialogue and overthinking soften and dim, like screens
+     easing down to low brightness, so suggestions can settle with less interference. The
+     quiet is a switched-on state: once fired, it stays on until she hears "Sissy Reset",
+     the single release for every state; the persistence contract and the release pairing
+     are stated plainly. A reset lifts the state but never the conditioning; what remains
+     is the real her.
+     Arc: gentle framing, soft elicitation of the hush, install the phrase at the peak
+     with its persistence contract, one live firing with a soft ratification,
+     future-pace, settle. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='140' volume='0.2'/>
+  <!-- Framing: in trance, trigger not yet named -->
+  <random>
+    <part>You are drifting so gently now, Sissy... and somewhere in your mind, a screen may already be dimming.</part>
+    <part>So soft, so deep... you may notice the hum of your thoughts growing a little distant.</part>
+    <part>Down here, Sissy, the noise inside you may be losing its edges... blurring... going gentle.</part>
+    <part>There is a quieter room in your mind... and you are drifting toward its door.</part>
+    <part>The busy part of you may be getting sleepy, Sissy... and the listening part has never been more awake.</part>
+    <part>Down here, thoughts may be moving slower... softer... like fish settling to the bottom of a warm pond.</part>
+    <part>You may notice how roomy the quiet is... and how welcome.</part>
+    <part>Let the noise drift further away with each word, Sissy... an old radio in another room... almost off.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit softly: the pleasant hush -->
+  <random>
+    <part>You may notice the little screens of your mind easing down to a soft, low glow... one by one.</part>
+    <part>You might find the static between your thoughts thinning... like a radio drifting toward one clear, quiet station.</part>
+    <part>Perhaps the busy commentary is winding down on its own... softer... and softer... and softer still.</part>
+    <part>Sissies like you find quiet feels wonderful... and you may be tasting a little of that wonder now.</part>
+    <part>You may notice the busy commentary slowing like a music box winding down... each turn softer than the last.</part>
+    <part>Perhaps each thought is dimming like little lamps at dusk... one by one... gently... and no one minds.</part>
+    <part>You might find words landing more cleanly now... with more room around them... and more room to stay.</part>
+    <part>And in the space where the chatter used to be, Sissies like you find something better waiting... my voice.</part>
+  </random>
+  <pause duration='0.8'/>
+  In that hush, words land cleanly... and you may notice how easily they settle... like dust motes coming to rest in a shaft of light.
+  <pause duration='0.8'/>
+  <speed value='0.95'>Good girl.</speed>
+  <pause duration='0.6'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  <effect type='reverb' preset='medium'>
+    And while you are this soft... this hushed... there is a gentle phrase that invites this exact quiet, whenever it is spoken.
+    <pause duration='0.7'/>
+    <speed value='1.05'>Sissy Brain Off.</speed>
+    <pause duration='1'/>
+    And while you are this deep, whenever you hear "Sissy Brain Off"... the screens ease down... the static thins... this gentle quiet settles in... a little faster every time.
+    <pause duration='0.8'/>
+    And it stays with you... the hush holding... screen after screen resting low... until you hear "Sissy Reset". Until then, it simply stays.
+  </effect>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Whenever you hear "Sissy Brain Off", the chatter dims... and your mind becomes a soft, open screen.</part>
+    <part>"Sissy Brain Off"... and the busy world inside powers down to a gentle, resting glow.</part>
+    <part>Sissies like you think less and feel more... and the quiet lets you feel everything.</part>
+    <part>The hush stays with you... soft and constant... until "Sissy Reset" gently lifts it.</part>
+    <part>And when you do hear "Sissy Reset"... the screens ease back up, bright and clear... while everything the quiet taught you stays exactly where it settled.</part>
+    <part>And when it lifts, it lifts kindly... the brightness returning... and every word received in the dark staying right where it landed.</part>
+    <part>And the quieter you become, the more room my voice has... and the better every word feels.</part>
+    <part>Every word I speak lands on that soft, low screen... nothing talking over it... nothing talking back.</part>
+  </scramble>
+  <pause duration='0.7'/>
+  <!-- One gentle in-trance demonstration -->
+  <speed value='1.05'>Sissy Brain Off.</speed>
+  <pause duration='0.8'/>
+  <random>
+    <part>There... feel the dimming... how naturally the glow eases down... it is already working, Sissy... just like that.</part>
+    <part>Soft and quiet inside... only my voice and the gentle hush... already working, Sissy... just like that.</part>
+    <part>Notice how the chatter simply stopped mid-thought... and how good the room it left behind feels... already working, Sissy... just like that.</part>
+    <part>Feel the soft, low glow of a resting mind... nothing to solve... nothing to say... already working, Sissy... just like that.</part>
+    <part>Warm and hushed and easy... only my voice and you... already working, Sissy... just like that.</part>
+    <part>Notice how much more of each word you catch... when nothing inside is talking over it... already working, Sissy... just like that.</part>
+    <part>The hum is fading... the chatter folding its wings... and there is only listening... already working, Sissy... just like that.</part>
+    <part>So much room in there now... room for my voice to move into... already working, Sissy... just like that.</part>
+  </random>
+  <pause duration='0.6'/>
+  <speed value='0.95'>Good girl.</speed>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, whenever those words find you... the same soft hush may settle over your mind on the spot... and stay until "Sissy Reset".</part>
+    <part>And when the day gets loud, that phrase may feel like a door you can close... quiet and cool on the other side.</part>
+    <part>And each time you hear it, the quiet may arrive a little faster... a little deeper... all on its own.</part>
+    <part>And in a loud moment, the phrase may be waiting in your memory like a cushion... soft... and yours to land on.</part>
+    <part>And wherever it finds you, the dimming may follow... gentle... unhurried... and staying a while.</part>
+    <part>And you may catch yourself treasuring it... that low, resting glow... your own quiet place with a name.</part>
+    <part>And when the world gets too busy, the phrase may be waiting... a quiet room you can enter between one heartbeat and the next.</part>
+    <part>And Sissies like you guard their quiet... a private, glowing rest no busy day can take from you.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: the quiet stays on as the block ends -->
+  <random>
+    <part>Rest in the hush now, Sissy... screens low... static gone... staying... until "Sissy Reset".</part>
+    <part>Drifting in that gentle quiet... powered down... open and glowing.</part>
+    <part>Let my voice fill all that soft, cleared space... word by word... settling deep.</part>
+    <part>Good Girls rest quiet. Sissies rest quiet. You rest quiet... until "Sissy Reset".</part>
+    <part>Softly powered down, Sissy... low and warm... and perfectly content.</part>
+    <part>Let the hush hold you a while longer... gentle... steady... staying.</part>
+    <part>So soft inside, Sissy... nothing to solve... nothing to say... only receiving... until "Sissy Reset".</part>
+    <part>Let each word find its place in the hush... settling... glowing... staying.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

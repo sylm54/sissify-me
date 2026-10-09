@@ -1,0 +1,60 @@
+<!-- Active structural subscript: warm-up. An easy compliance opener that establishes
+     obedience and a responsive mindset before the core work: a casual choice (a small
+     physical act of respect), a spoken identity line confirmed by the listener, and a
+     first baseline rating. Light praise throughout. Content only: no structural
+     wrappers, no includes, no references to other files. -->
+<tone preset='binaural_theta' frequency='160' volume='0.15'/>
+<voice speaker='female' speed='1.0'>
+  We start easy, Sissy. Small obediences first... little warm-up wins, so your body remembers how good it feels to simply do as it is told.
+  <pause duration='0.7'/>
+  Nothing in this part is hard. All you have to do is pick, and perform... and be adored for it.
+  <pause duration='0.8'/>
+  <choice prompt='First little task, Sissy. Choose how you greet your training.'>
+    <part label='Kneel'>Of course you picked that. Kneel, then... down onto the floor, back straight, hands resting open on your thighs, eyes lowered the way a well-made Sissy holds them. Hold it for me... five slow heartbeats. Feel the floor taking your weight... feel how naturally the position fits. That is muscle memory waking up. Good Girl.</part>
+    <part label='Curtsey'>A performer. I like that. Then curtsey for me... one smooth, proper dip... hold the hem of an imaginary skirt... rise with a little smile you cannot quite suppress. You just performed respect, on command, in an empty room... and it felt lovely. Good Girl.</part>
+    <part label='Sit tall'>Poised, then. Sit up tall for me... shoulders back, chin lifted, hands open and still on your knees... presented like something worth keeping. Hold it. Feel the difference between slouching through a day and sitting like a girl with a purpose. Good Girl.</part>
+  </choice>
+  <pause duration='0.7'/>
+  Notice what just happened, Sissy. You were offered a choice, you made it for me, and your body carried it out without a single argument. Even your choices are obedience now... and Sissies like you find that endlessly, deliciously soothing.
+  <pause duration='0.8'/>
+  Now... your voice. It has answered in silence so far. Time to let it commit out loud.
+  <pause duration='0.4'/>
+  <sound type='snap' volume='0.7'/>
+  Say it, out loud, plain and clear: <speed value='1.05'>I am a Sissy.</speed>
+  <pause duration='1.2'/>
+  <until button='I said it out loud'>
+    Go on... the room is listening. Say it like it is simply true... because it is.
+  </until>
+  <pause duration='0.4'/>
+  <sound type='ding' volume='0.6'/>
+  Good Girl. There it is... your own voice, agreeing with your training. Feel that little glow right under the words... that is relief, Sissy. That is what it feels like when the truth stops needing to hide. The room knows now... and so do you.
+  <pause duration='1'/>
+  <overlay>
+    <part>
+      You are warming up beautifully... loose... willing... and we are only just getting started.
+    </part>
+    <part volume='0.18' speed='0.95' looped='true'>
+      <random>
+        <part>warmed up and willing...</part>
+        <part>so easy when you stop resisting...</part>
+        <part>small yes... then a bigger yes...</part>
+        <part>your voice knows the words now...</part>
+        <part>made to be told...</part>
+        <part>blushing and glowing at once...</part>
+        <part>the work will feel so good...</part>
+        <part>obedience suits her...</part>
+        <part>loose... eager... ready...</part>
+        <part>every task from here is easier...</part>
+        <part>what a good start, Sissy...</part>
+        <part>she is showing up for you...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  One last thing before the real work... a baseline, so we both know where today begins.
+  <rating prompt='Baseline check, Sissy: how strong is your urge to obey right now?' min='1' max='10'/>
+  <pause duration='0.6'/>
+  Whatever number you chose... that is your starting line, and moving it is now my job. Thank you for the honest answer... honest baselines build good training, and honest girls get praised. Good Girl.
+  <pause duration='0.8'/>
+  Warmed up... committed out loud... measured. You are ready, Sissy. Now the real work begins.
+</voice>

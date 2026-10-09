@@ -1,0 +1,26 @@
+<!-- Redeepening variant: the snap — one crisp snap of my fingers, and the drifting Sissy is pulled straight under. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='190' volume='0.25'/>
+  <effect type='echo' preset='medium'>
+    Drifting up again, Sissy? Listen.
+    <pause duration='0.6'/>
+    <sound type='snap'/>
+    <pause duration='0.6'/>
+    Sissies like you fall the instant they hear that sound.
+    <pause duration='0.4'/>
+    <sound type='snap'/>
+    Sissy Drop.
+    <pause duration='1.2'/>
+    <random>
+      <part>Straight under. All the way. Just like that.</part>
+      <part>Straight under. Faster every time. Good girl.</part>
+      <part>Straight under. So deep, so suddenly.</part>
+      <part>Straight under. The deep catches you every time.</part>
+      <part>Straight under. No drift survives the snap.</part>
+      <part>Straight under. Heavier than before. That's it.</part>
+      <part>Straight under. Down where my voice owns the quiet.</part>
+      <part>Straight under. Instant. Soft. Complete.</part>
+    </random>
+  </effect>
+  <pause duration='1.5'/>
+</voice>

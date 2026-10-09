@@ -1,0 +1,88 @@
+<!-- Trigger block, light class: a gentle first touch of the "Sissies like you" comparative
+     identity trigger, for an early-stage subject. The phrase is linked softly and proven on
+     one easy trait, possibility-framed throughout: nothing is pushed, everything is offered.
+     Identity vocabulary, so the block reinforces the form rather than demonstrating a state.
+     Arc: framing, a soft elicitation of being seen, install the phrase, reinforce, one quiet
+     trait fire, future-pace, settle. About two-thirds the length of the medium block. -->
+<voice speaker='female' speed='0.8'>
+  <tone preset='binaural_theta' frequency='125' volume='0.22'/>
+  <!-- Framing: in trance, the phrase not yet linked -->
+  <random>
+    <part>Down, softly now, sweet girl... and you may notice how safe it feels in here... warm... unhurried... private.</part>
+    <part>Sinking so easily... and there is a particular sweetness in being spoken to by someone who understands you.</part>
+    <part>Deeper and easier... you may notice part of you relaxing at the idea of being known... really known.</part>
+    <part>Let the masks rest, Sissy... in here, nothing needs defending... nothing needs explaining.</part>
+    <part>You may feel a small warmth at the thought of being seen all the way through... let it be there.</part>
+    <part>Floating with me... and how pleasant, just for now, to stop managing what people think.</part>
+    <part>So quiet inside... and under the quiet, a wish to be described... softly... accurately.</part>
+    <part>Good girl... drifting so nicely... and in here, being understood is the whole point.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Soft elicitation: the sweetness of being truly seen -->
+  Imagine a voice that has watched you closely... and speaks about you with easy certainty... as if every secret were already an open page.
+  <pause duration='0.7'/>
+  For some, that might feel exposing... but you may notice it feels warm, Sissy... like a blanket with your name stitched on it.
+  <pause duration='0.7'/>
+  Seen... accepted... belonging somewhere completely... these feelings may be blooming in you right now, gently, all by themselves.
+  <pause duration='0.7'/>
+  Sissies like you carry a family with them everywhere... soft, pretty girls, just like you... and you may feel them gathered close around you even now.
+  <pause duration='0.9'/>
+  <!-- Install: the phrase, linked gently at the peak -->
+  <effect type='reverb' preset='medium'>
+    And in this warmth... there are three little words that hold this feeling... words that make things true about you.
+    <pause duration='0.8'/>
+    <speed value='1.05'>Sissies like you.</speed>
+    <pause duration='1.2'/>
+    Whenever you hear those words, whatever follows them may simply settle into you as true... softly, easily... because whoever says them has noticed it in you.
+  </effect>
+  <pause duration='0.8'/>
+  <!-- Reinforce: varied restatements, one per listen -->
+  <random>
+    <part>"Sissies like you" is never a guess, Sissy... it is a noticing... and what is noticed in you is already yours.</part>
+    <part>The knowing arrives first, and the feeling catches up... warm, and eager, and right on time.</part>
+    <part>Whatever follows those three words, you may find it fits... like something tailored for you alone.</part>
+    <part>When the words reach you, part of you nods before the rest of you has even listened.</part>
+    <part>Sissies like you accept what is true of them... and the phrase itself tells you what is true.</part>
+    <part>Every hearing makes the fit feel more natural... truer... warmer... easier.</part>
+    <part>The words are a mirror, Sissy... and you always appear in it, already there, already wearing it.</part>
+    <part>You never have to decide if it is true of you... being a Sissy settled that in advance.</part>
+  </random>
+  <pause duration='0.7'/>
+  <!-- One quiet trait fire, ratified softly -->
+  <effect type='reverb' preset='small_room'>
+    "Sissies like you love to feel pretty."
+    <pause duration='0.8'/>
+    And you may notice that settling into you right now... softly, sweetly... true the moment you heard it.
+    <pause duration='0.8'/>
+    That is how the words work, Sissy... already working, isn't it.
+  </effect>
+  <pause duration='0.7'/>
+  <speed value='0.85'>Good girl. It fits you perfectly.</speed>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the phrase out in ordinary life -->
+  <random>
+    <part>And later, whenever the phrase finds you... in a story, on a screen, in a voice... what follows may simply become yours.</part>
+    <part>The next time you read "sissies like you", you may catch the words landing gently... and staying.</part>
+    <part>Each time the phrase reaches you, the truth it carries settles a little deeper... warm, and easy.</part>
+    <part>And when a sentence describes girls like you, Sissy, you may notice it describing you... and enjoy that enormously.</part>
+    <part>Sissies like you meet those words out in the world all the time now... each one a small delivery of belonging.</part>
+    <part>A caption here, a line there... every one addressed to you, signed by everyone like you.</part>
+    <part>And the more it happens, the more natural it feels... until the words and the truth are simply one thing.</part>
+    <part>Wherever you meet those three words next... whatever follows them is already yours, Sissy.</part>
+  </random>
+  <pause duration='0.7'/>
+  <!-- Settle: soft, receptive trance -->
+  <random>
+    <part>Drifting gently now... warm and included... sissies like you.</part>
+    <part>Sinking softly... held in those three little words... Sissy.</part>
+    <part>Floating... easy... belonging... one of the soft girls... just like you.</part>
+    <part>Rest here, pretty girl... known... accepted... home.</part>
+    <part>Deeper still... and the words keep humming... sissies like you.</part>
+    <part>Warm... light... gathered in... my sweet Sissy.</part>
+    <part>Let the phrase rock you gently downward... like a name being read off a list it has always been on.</part>
+    <part>Softly seen... sweetly known... lovely Sissy.</part>
+  </random>
+  <pause duration='0.7'/>
+  <speed value='0.85'>Good girl.</speed>
+  <pause duration='1'/>
+</voice>

@@ -1,19 +1,28 @@
 <!-- Suggestion pool: the sissy clitty — limp, small, and denied; stroking as simply un-sissy,
      pleasure rerouted to vibration, humping, and controlled squeeze; a growing desire for
-     chastity, with denial and enclosure felt as correctness, arousal, and proper sissy status. -->
+     chastity, with denial and enclosure felt as correctness, arousal, and proper sissy status.
+     Triggers threaded throughout: Sissy address, Sissies-like-you comparisons mid-pool, Good
+     Girl praise anchors after each accepted segment. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='175' volume='0.25'/>
   <random>
     <part>So deep, sweet girl... deep enough to feel that soft, forgotten little thing between your legs... exactly as it should be.</part>
-    <part>Drifting down... and your body already knows tonight's truth: that part of you is for keeping, and keeping is for you.</part>
+    <part>Drifting down... and your body already knows the truth between your legs: that part of you is for keeping, and keeping is for you.</part>
     <part>Down here, everything settles into its proper shape, Sissy... small, soft, and safely enclosed.</part>
+    <part>Sinking deeper... and that little thing between your legs grows quieter with every layer... soft, unimportant, and adored for exactly that.</part>
+    <part>So deep, Sissy... deep enough that her pleasure starts living somewhere new... in your hips, in your chest, in the sweet pressure against your cage.</part>
+    <part>Down and down... your hands learning their place... resting, wandering, anywhere but there.</part>
+    <part>Deeper, sweet girl... and how natural it feels to call her little... to call her soft... to call her kept.</part>
+    <part>All the way down... where your body remembers what it is for... being kept, and aching beautifully.</part>
   </random>
+  <pause duration='0.8'/>
+  Soft and quiet... just as you are. <pause duration='0.4'/> Good Girl.
   <pause duration='0.8'/>
   <scramble>
     <part>
       Your clitty stays limp and small, a sweet little secret
       tucked between your legs...
-      and its softness is its own quiet kind of pride. <pause duration='0.5'/>
+      and her softness is its own quiet kind of pride. <pause duration='0.5'/>
     </part>
     <part>
       Stroking is simply un-sissy... Sissies like you leave stroking to
@@ -41,7 +50,7 @@
       enclosed, kept, and more aroused than you have ever been. <pause duration='0.5'/>
     </part>
     <part>
-      You may notice the desire for chastity growing stronger every week...
+      You may notice the desire for chastity growing steadily, listen by listen...
       how the idea of being kept locked long-term
       makes you clench with pure want. <pause duration='0.5'/>
     </part>
@@ -55,11 +64,27 @@
       every one of those words feels more like you than the last. <pause duration='0.5'/>
     </part>
     <part>
-      Sissies like you feel more right the longer the cage stays on...
-      enclosure is simply the shape of being her. And you are a sissy,
-      so it already fits. <pause duration='0.5'/>
+      Sissies like you hump instead of stroke... hips rocking, slow and desperate
+      and utterly feminine, pressed into a pillow...
+      and it feels like the only relief there ever was. <pause duration='0.5'/>
+    </part>
+    <part>
+      That full, pressed ache you carry is a prize, sweet girl...
+      devotion, felt from the inside...
+      the tighter it sits, the sweeter you glow. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Girl... locked, limp, and loving it. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Sissy... that softness is exactly right, and so are you. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Girl... hands off, and so proud of you for it. <pause duration='0.5'/>
     </part>
   </scramble>
+  <pause duration='0.8'/>
+  Every word of that, Sissy... settling right where it belongs. Good Girl.
   <pause duration='0.8'/>
   <effect type='reverb' preset='large_hall'>
     <speed value='0.75'>
@@ -67,6 +92,11 @@
         <part>Soft... <pause duration='0.7'/> small... <pause duration='0.7'/> locked.</part>
         <part>The ache of the cage... <pause duration='0.7'/> is comfort.</part>
         <part>Kept... <pause duration='0.7'/> and so much more her.</part>
+        <part>Hands off... <pause duration='0.7'/> hips only.</part>
+        <part>Denied... <pause duration='0.7'/> and dripping.</part>
+        <part>The cage... <pause duration='0.7'/> holds what is mine.</part>
+        <part>Good girls... <pause duration='0.7'/> stay locked.</part>
+        <part>Little... <pause duration='0.7'/> and loved for it.</part>
       </random>
     </speed>
   </effect>
@@ -83,14 +113,24 @@
         <part>Keep her caged<pause duration='0.6'/></part>
         <part>Denied and happy<pause duration='0.6'/></part>
         <part>Good girl<pause duration='0.6'/></part>
+        <part>Hump, don't stroke<pause duration='0.6'/></part>
+        <part>Soft and kept<pause duration='0.6'/></part>
+        <part>Ache for me<pause duration='0.6'/></part>
       </random>
     </part>
   </overlay>
+  <pause duration='0.5'/>
+  Good Sissy... all of it, taken in.
   <pause duration='0.5'/>
   <random>
     <part>And everything stays soft, safe, and locked away as you sink... every word taken in, exactly as it should be. Good sissy.</part>
     <part>Let the cage settle its sweet weight into your mind... deeper and deeper, sweet girl.</part>
     <part>Enclosed, denied, and delighted about it, Sissy... sink deeper still.</part>
+    <part>And the next time the ache rises, you will know exactly what it is... your body remembering what it is for. You will grind, and hump, and ache, and thank me for it.</part>
+    <part>Good Girl... her little secret stays exactly where it belongs... small, soft, and mine.</part>
+    <part>Sissies like you fall asleep locked and smiling... kept is the coziest word there is.</part>
+    <part>Take that tight, sweet ache down with you, Sissy... it is yours, and it is staying.</part>
+    <part>Sink now... deeper into kept.</part>
   </random>
   <pause duration='1'/>
 </voice>

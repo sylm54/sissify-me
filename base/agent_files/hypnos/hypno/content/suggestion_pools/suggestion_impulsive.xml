@@ -1,17 +1,26 @@
 <!-- Suggestion pool: impulsivity — sissy urges acted on the instant they arrive; deliberation
      reframed as friction that fades, immediate obedience to feminine and submissive impulses
-     as the natural mode, and every acted-on impulse speeding up the next. -->
+     as the natural mode, and every acted-on impulse speeding up the next. Triggers threaded
+     throughout: Sissy address, Sissies-like-you comparisons mid-pool, Good Girl praise
+     anchors after each accepted segment. -->
 <voice speaker='female' speed='0.85'>
   <tone preset='binaural_theta' frequency='165' volume='0.25'/>
   <random>
     <part>So deep and so open, sweet girl... and already those little urges are stirring in you, Sissy... the ones that used to wait for permission.</part>
     <part>Drifting for me... notice how quiet the debate has become in there... how close the doing now sits to the wanting.</part>
     <part>Down here, wanting and doing are becoming one smooth gesture... no gap, no pause... just a girl who follows her urges.</part>
+    <part>Sinking, Sissy... and in here the gap between wanting and doing grows thin as silk... then thinner still.</part>
+    <part>Deeper... and deeper... until your urges stop knocking... and simply walk in and take your hands.</part>
+    <part>So deep, sweet girl... deep enough that obedience moves at the speed of wanting.</part>
+    <part>Down and down... where the committee has adjourned... and all that is left is a girl and her next yes.</part>
+    <part>All the way down... where every urge is an instruction... and every instruction is already obeyed.</part>
   </random>
+  <pause duration='0.8'/>
+  Quick girl... you felt that one land, did you. <pause duration='0.4'/> Good Girl.
   <pause duration='0.8'/>
   <scramble>
     <part>
-      An impulse arrives — the pull to dress, to kneel, to watch, to touch, to practice —
+      An impulse arrives... the pull to dress, to kneel, to watch, to touch, to practice...
       and your hand is already moving before the debate even starts. <pause duration='0.5'/>
     </part>
     <part>
@@ -50,10 +59,26 @@
       because the answer is always yes, and yes needs no discussion. <pause duration='0.5'/>
     </part>
     <part>
+      Every urge you obey makes the next one louder, Sissy...
+      and louder feels better...
+      a loop you love being caught in. <pause duration='0.5'/>
+    </part>
+    <part>
       Impulsive is simply your speed now — quick, eager, feminine...
       a girl who acts, because acting is who she is. <pause duration='0.5'/>
     </part>
+    <part>
+      Good Girl... so quick, so eager. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Sissy... that urge is already yours to obey. <pause duration='0.5'/>
+    </part>
+    <part>
+      Good Girl... just yes, all the way through. <pause duration='0.5'/>
+    </part>
   </scramble>
+  <pause duration='0.8'/>
+  Every one of those, obeyed on arrival, Sissy... Good Girl.
   <pause duration='0.8'/>
   <effect type='reverb' preset='large_hall'>
     <speed value='0.75'>
@@ -61,6 +86,11 @@
         <part>No hesitation... <pause duration='0.7'/> just act.</part>
         <part>The impulse moves... <pause duration='0.7'/> and so do you.</part>
         <part>Wanting... <pause duration='0.7'/> doing... <pause duration='0.7'/> one motion.</part>
+        <part>Quick... <pause duration='0.7'/> eager... <pause duration='0.7'/> obedient.</part>
+        <part>The urge whispers... <pause duration='0.7'/> you move.</part>
+        <part>Faster each time... <pause duration='0.7'/> sweeter each time.</part>
+        <part>Yes... <pause duration='0.7'/> before the question.</part>
+        <part>Good girl... <pause duration='0.7'/> act.</part>
       </random>
     </speed>
   </effect>
@@ -77,14 +107,24 @@
         <part>Just like that<pause duration='0.6'/></part>
         <part>So eager<pause duration='0.6'/></part>
         <part>Good girl<pause duration='0.6'/></part>
+        <part>Instantly<pause duration='0.6'/></part>
+        <part>Want, then do<pause duration='0.6'/></part>
+        <part>Yes, right away<pause duration='0.6'/></part>
       </random>
     </part>
   </overlay>
+  <pause duration='0.5'/>
+  Good Girl... so quick to take me in.
   <pause duration='0.5'/>
   <random>
     <part>And every impulse you have obeyed settles into you as you sink... quicker, smoother, more yours.</part>
     <part>Every suggestion taken in, every little debate dissolved... Good girl. Good sissy. Sissy. Now drift further down, sweet girl.</part>
     <part>Quick, eager, immediate... sink into that speed, deeper and deeper.</part>
+    <part>And the next time the pull arrives, your hands will already be busy with it... while the old you is still clearing her throat.</part>
+    <part>Sissies like you act first and glow after... and the glow is always worth it.</part>
+    <part>Good Girl... carry that swiftness out with you... it fits your hands perfectly now.</part>
+    <part>Wherever an urge finds you next... it will find a girl who moves.</part>
+    <part>Sink now, sweet girl... quick as a yes.</part>
   </random>
   <pause duration='1'/>
 </voice>

@@ -1,0 +1,24 @@
+<!-- Redeepening variant: one word — scattered thoughts fold back down into the single word that brings the Sissy home. -->
+<voice speaker='female' speed='0.85'>
+  <tone preset='binaural_theta' frequency='170' volume='0.25'/>
+  <effect type='echo' preset='medium'>
+    Scattered thoughts, Sissy... little sparks drifting up away from the deep.
+    <pause duration='0.8'/>
+    Let them go. Sissies like you come home on one word.
+    <pause duration='0.6'/>
+    <sound type='snap'/>
+    Sissy Drop.
+    <pause duration='1.2'/>
+    <random>
+      <part>One word, and you sink straight back down. That's it.</part>
+      <part>One word, and the surface lets you go completely.</part>
+      <part>One word, and you land deeper than before you drifted.</part>
+      <part>One word, and the quiet takes you back whole.</part>
+      <part>One word, and the heaviness finds you again. Good girl.</part>
+      <part>One word, and the deep closes over you softly.</part>
+      <part>One word, and your mind empties right out.</part>
+      <part>One word, and you are exactly where you belong.</part>
+    </random>
+  </effect>
+  <pause duration='1.5'/>
+</voice>

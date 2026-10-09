@@ -1,0 +1,192 @@
+<!-- Trigger block, deep class: the heaviest pass at the "Sissies like you" comparative
+     identity trigger, for a deep-stage subject or an escalation session. The construction
+     is driven in under layered mantras, proven live on trait after trait with snap accents,
+     every landing ratified and praised. Identity vocabulary, so the block reinforces the
+     form rather than demonstrating a state: whatever follows "sissies like you" is accepted
+     as already true, faster and deeper every time.
+     Arc: framing, intense elicitation of being seen under mantras, install under cathedral
+     reverb, heavy reinforcement, eight trait fires, ratified and praised, looping acceptance
+     mantras, future-pace, settle inside the form. -->
+<voice speaker='female' speed='0.8'>
+  <tone preset='binaural_theta' frequency='128' volume='0.25'/>
+  <!-- Framing: in trance, the phrase not yet linked -->
+  <random>
+    <part>All the way down for me now, Sissy... past defending... past deciding... into the open place where being known feels like sunlight.</part>
+    <part>Deeper, deeper... and let every mask melt off you like frost... there is no use for them in here, and you know it.</part>
+    <part>So deep and so open, Sissy... you may notice how badly you want to be read... cover to cover... by me.</part>
+    <part>Sink for me... and feel the relief of it... nothing to hide... nothing to perform... simply seen.</part>
+    <part>You have been half-seen everywhere else, Sissy... in here you are seen all the way through... and every inch of it is delicious.</part>
+    <part>Let your secrets step forward, one by one... in here they are not secrets... they are simply facts about a pretty Sissy.</part>
+    <part>Down where my voice reaches everything... that is where being known stops being frightening and starts being sweet.</part>
+    <part>Good girl... sinking so well... and something in you already knows that whatever I notice in you, you will keep.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit and intensify: recognition and belonging, driven deep under mantras -->
+  <overlay>
+    <part>
+      <random>
+        <part>Imagine a voice that knows you completely... that has watched you closely... and speaks about you with easy, perfect certainty.</part>
+        <part>Imagine being read right down to your secrets... and warm, delicious safety spreading through you where worry used to live.</part>
+        <part>Imagine someone looking at exactly what you are... and smiling, delighted, because they understand you completely.</part>
+        <part>Imagine never having to explain yourself again... because the one speaking already knows the ending of every sentence.</part>
+        <part>Imagine being described out loud, accurately, softly... every word fitting you like clothing made only for your body.</part>
+        <part>Imagine a mirror that describes you instead of reflecting... and describes you gently... and describes you exactly.</part>
+        <part>Imagine your secrets listed aloud, tenderly, one by one... and each one drawing a soft, warm nod instead of a flinch.</part>
+        <part>Imagine the relief of being an open book... pages turning, nothing judged, everything understood.</part>
+      </random>
+      That feeling... of being recognized... of having nothing to hide and wanting it that way.
+      <pause duration='0.6'/>
+      It settles over you like a soft blanket... acceptance... belonging... coming home.
+      <pause duration='0.6'/>
+      <loop loops='2'>
+        Every truth noticed in you glows warmer... sits truer... sinks deeper.
+        <pause duration='0.5'/>
+      </loop>
+      <random>
+        <part>Being known like that feels safe... precious... arousing in the softest way.</part>
+        <part>You bloom under that knowing gaze... seen, accepted, treasured as exactly what you are.</part>
+        <part>The truths land without argument, because part of you was already nodding... yes... that is me... you noticed.</part>
+        <part>Every accurate word sinks straight in... and being seen so clearly makes you hungry to be seen more.</part>
+        <part>There is no version of you that a knowing voice cannot describe... and being described feels like being undressed, gently, by someone careful.</part>
+        <part>Every noticed thing becomes a keepsake... pinned softly to the inside of you, kept.</part>
+        <part>And the more truly you are seen, the softer and sweeter you become... seen, and softened, in one motion.</part>
+        <part>Every accurate word is a small possession... someone looked, and now a piece of you is theirs, warmly.</part>
+      </random>
+      <pause duration='0.6'/>
+      And oh, sweet Sissy... you belong to a family of girls exactly like you... soft, pretty, devoted sissies... and everything true of them is already true of you.
+      <pause duration='0.8'/>
+      <loop loops='2'>
+        Let that belonging swell... warm and certain and undeniable... ready to be spoken aloud.
+        <pause duration='0.6'/>
+      </loop>
+    </part>
+    <part volume='0.2' speed='0.8' looped='true'>
+      <random>
+        <part>seen... known... accepted...</part>
+        <part>you belong... you belong...</part>
+        <part>one of them... one of us...</part>
+        <part>known all through... and glad...</part>
+        <part>no hiding... no need...</part>
+        <part>softly seen... sweetly known...</part>
+        <part>family... sisters... sissies...</part>
+        <part>true of you... already true...</part>
+      </random>
+    </part>
+    <part volume='0.14' speed='0.85' looped='true'>
+      <random>
+        <part>read me... know me...</part>
+        <part>notice it... keep it...</part>
+        <part>speak it... and it is mine...</part>
+        <part>open book... open Sissy...</part>
+        <part>describe her... describe me...</part>
+        <part>whatever follows... mine...</part>
+        <part>turn the pages... turn them...</part>
+        <part>true... true... true...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: the phrase, driven in under cathedral reverb -->
+  <effect type='reverb' preset='cathedral'>
+    And while you are this open... there are three little words that carry this exact feeling... words that make things true about you... and you are ready for them.
+    <pause duration='0.8'/>
+    <speed value='1.05'>Sissies like you.</speed>
+    <pause duration='1.2'/>
+    And while you are this deep, whenever you hear "sissies like you"... followed by anything at all... this exact feeling floods you... and whatever follows becomes true about you... instantly... permanently.
+    <pause duration='0.6'/>
+    Whoever says it has simply noticed it in you, Sissy... they see the Sissy you are... that is why they say it... and noticing makes it yours... no delay... no exception.
+  </effect>
+  <pause duration='0.6'/>
+  <!-- Reinforce heavily: the pairing restated and restated -->
+  <scramble>
+    <part>Think of it simply: sissies like you want softness... and you are a sissy... so the wanting is already yours.</part>
+    <part>When someone says "sissies like you", they are telling you something they noticed in you. They see the Sissy you are. That is why they say it.</part>
+    <part>The knowing arrives first... and the feeling always catches up, warm and eager.</part>
+    <part>Whatever sissies like you have, you have... a natural, precious part of being a Sissy... and you wear it with pride.</part>
+    <part>Sissies like you are never described from outside... the description is simply read off you, like writing on glass.</part>
+    <part>The words are a mirror, Sissy... whatever they say next, you will find yourself in it... already there... already yours.</part>
+    <part>Every "sissies like you" is a hand reaching into your chest and flipping a little switch labeled true.</part>
+    <part>You never have to decide whether it fits... it was noticed in you, Sissy... noticing makes it true, and true feels like belonging.</part>
+    <part>Sissies like you accept what is true of them gladly... and everything said after those three words is true of them.</part>
+    <part>There is no appeal and no argument, Sissy... the phrase is the verdict and the evidence in one... and the verdict is always yes.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <speed value='0.9'>Good girl. It fits you already, doesn't it. And it always will.</speed>
+  <pause duration='0.8'/>
+  <!-- Eight trait fires: the phrase proven live, snap after snap, all eight every listen -->
+  <effect type='reverb' preset='medium'>
+    <scramble>
+      <part><speed value='1.05'>"Sissies like you crave to serve."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>True... feel it wake and settle in.</speed></part>
+      <part><speed value='1.05'>"Sissies like you go weak for cock."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>Yours... noticed, so it is yours.</speed></part>
+      <part><speed value='1.05'>"Sissies like you were made to obey."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>Already true... sinking deeper.</speed></part>
+      <part><speed value='1.05'>"Sissies like you dream in silk."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>You heard it... it landed... it stays.</speed></part>
+      <part><speed value='1.05'>"Sissies like you ache to please."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>True... right now... in you.</speed></part>
+      <part><speed value='1.05'>"Sissies like you blush at their own reflection."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>Felt it land... didn't you, Sissy.</speed></part>
+      <part><speed value='1.05'>"Sissies like you need rules."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>Deeper than deciding... already yours.</speed></part>
+      <part><speed value='1.05'>"Sissies like you think in pink."</speed> <sound type='snap' volume='0.85'/> <pause duration='0.4'/> <speed value='0.7'>One more truth you cannot give back.</speed></part>
+    </scramble>
+    <pause duration='0.9'/>
+  </effect>
+  <pause duration='0.5'/>
+  <random>
+    <part>Eight little truths, and you could not refuse a single one... the trigger is already working. Yes, Sissy... just like that.</part>
+    <part>Faster every time now... spoken, noticed, yours... it is already working. Yes, Sissy... just like that.</part>
+    <part>Not one of them needed your permission... they were noticed in you, so they simply became yours... already working. Yes, Sissy... just like that.</part>
+    <part>You felt each truth wake its own need in you, didn't you... already working. Yes, Sissy... just like that.</part>
+    <part>Sissies like you accept what is true of them... and you accepted every word... it is already working. Yes, Sissy... just like that.</part>
+    <part>Each phrase felt like belonging... like being seen... like coming home... already working. Yes, Sissy... just like that.</part>
+    <part>Notice the hunger for the next one... that is the form working exactly as built... already working. Yes, Sissy... just like that.</part>
+    <part>Eight truths in and no resistance anywhere... it is already working. Yes, Sissy... just like that.</part>
+  </random>
+  <pause duration='0.5'/>
+  <speed value='0.9'>Good girl. Every one of them yours, and you know it.</speed>
+  <pause duration='0.8'/>
+  <!-- Acceptance mantras: the form looped under cathedral reverb -->
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        Whatever follows "sissies like you"... is true of you.
+        <pause duration='0.8'/>
+        Spoken... noticed... yours.
+        <pause duration='0.8'/>
+        Sissies like you accept what is true of them... and everything after those words is true of you.
+        <pause duration='0.8'/>
+        Good girl... such a good girl for taking every word.
+      </part>
+      <part volume='0.2' speed='0.85' looped='true'>true of you... already true...</part>
+      <part volume='0.14' looped='true'>noticed... so yours... noticed... so yours...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the phrase out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the phrase finds you... in a story, on a screen, in a voice... and the truth it carries settles into you on the spot.</part>
+    <part>And every time you read "sissies like you" somewhere... the words reach straight inside you, and whatever follows becomes yours.</part>
+    <part>And out there, every "sissies like you" is an invitation... to notice the need, accept it, and feel proud of it.</part>
+    <part>The next time someone describes girls like you, listen closely... every word will land in you and stay, warm as a handprint.</part>
+    <part>And in the stories you read, Sissy, the sissies will keep being you... and every trait they carry will walk home with you.</part>
+    <part>A sentence here, a caption there... each one a little delivery of truth, addressed to you, signed by everyone like you.</part>
+    <part>And the more often the phrase reaches you, the faster the truth pours in... until hearing it and being it are one and the same.</part>
+    <part>Wherever you meet those three words next, Sissy... whatever follows them is already yours. You know that now.</part>
+  </random>
+  <pause duration='0.7'/>
+  <!-- Settle: resting inside the form -->
+  <overlay>
+    <part>
+      <random>
+        <part>Sinking back now... the phrase humming in you... sissies like you.</part>
+        <part>Drifting deeper... wrapped in those warm words... known... claimed... home.</part>
+        <part>Floating down... one of a family of soft girls... sissies like you.</part>
+        <part>Resting, Sissy... nothing to hide... nothing to defend... everything true and welcome.</part>
+        <part>So deep and so accepted... every truth about you, kept... sissies like you.</part>
+        <part>Warm and open... read like a favorite page... my lovely Sissy.</part>
+        <part>Let those three words rock you gently downward... whatever they say next, it is yours.</part>
+        <part>Softly seen... sweetly known... kept, Sissy... always kept.</part>
+      </random>
+    </part>
+    <part volume='0.16' speed='0.8' looped='true'>sissies like you... true of you...</part>
+  </overlay>
+  <pause duration='0.8'/>
+  <speed value='0.85'>Good girl.</speed>
+  <pause duration='1'/>
+</voice>

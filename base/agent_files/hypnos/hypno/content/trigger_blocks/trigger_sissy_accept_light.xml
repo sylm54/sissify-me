@@ -1,0 +1,105 @@
+<!-- Trigger block: installs the "Sissy Accept" deep-acceptance trigger (light class, for
+     an early-stage subject). Gentle and permissive: possibility-framed lines, soft
+     imagery, a single in-trance demonstration. Upon hearing "Sissy Accept", resistance
+     and critical engagement soften and lower, and whatever follows is received warmly,
+     with less filtering. Acceptance is a switched-on state: once fired, it stays on -
+     flowing through everything she hears - until she hears "Sissy Reset", the single
+     release for every state; the persistence contract and the release pairing are stated
+     plainly. A reset lifts the state but never the conditioning; what remains is the
+     real her.
+     Arc: gentle framing, soft elicitation of the easy yes, install the phrase at the
+     peak with its persistence contract, one live firing with a soft ratification,
+     future-pace, settle. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='150' volume='0.2'/>
+  <!-- Framing: in trance, trigger not yet named -->
+  <random>
+    <part>You are drifting so gently now, Sissy... and your questions may already be getting quieter.</part>
+    <part>So soft and so deep... you may notice a warm yes stirring somewhere inside you.</part>
+    <part>Down here, Sissy, words land gently... and some part of you may be ready to simply let them in.</part>
+    <part>There is a quiet place where receiving is easy... and you are drifting closer to it with every word.</part>
+    <part>Every word may be finding an easier way in now, Sissy... doors you did not know you had... already ajar.</part>
+    <part>So deep, so easy... and somewhere in you, agreement may be nodding along before I even finish.</part>
+    <part>You may notice how safe it feels down here... safe enough to simply receive.</part>
+    <part>Let the words arrive like warm rain on soft ground, Sissy... soaking in without being asked.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit softly: the easy, pleasant yes -->
+  <random>
+    <part>You may notice a warmth spreading as you listen... a pleasant openness, like late sun through a window.</part>
+    <part>You might find that agreeing feels easier down here... softer... sweeter... like sinking into a chair that fits you.</part>
+    <part>Perhaps the part of you that likes to check and question is settling down for a nap... and everything feels simpler without it.</part>
+    <part>Sissies like you find that accepting feels good... and you may be feeling a little of that goodness already.</part>
+    <part>You may find each sentence dissolving into you like sugar into warm tea... flavoring everything... troubling nothing.</part>
+    <part>Perhaps receiving has begun to feel like the coziest thing you have done in a while... like being read a story you already love.</part>
+    <part>The part of you that double-checks may be drifting off in a comfortable chair... and the rest of you does not miss it one bit.</part>
+    <part>You might notice a soft glow each time you simply let a sentence be true... a little reward for letting go.</part>
+  </random>
+  <pause duration='0.8'/>
+  Whatever I say next, you may find it simply settling into you... gently... like snow landing on still water.
+  <pause duration='0.8'/>
+  <speed value='0.95'>Good girl.</speed>
+  <pause duration='0.6'/>
+  <!-- Install at the peak: introduce the phrase and link it -->
+  <effect type='reverb' preset='medium'>
+    And while you are this soft... this open... there is a gentle phrase that invites this exact feeling, whenever it is spoken.
+    <pause duration='0.7'/>
+    <speed value='1.05'>Sissy Accept.</speed>
+    <pause duration='1'/>
+    And while you are this deep, whenever you hear "Sissy Accept"... this warmth opens through you... and everything that follows settles in easily... deeper... and stays.
+    <pause duration='0.8'/>
+    And it stays with you... acceptance flowing through everything you hear... until you hear "Sissy Reset". Until then, it simply stays.
+  </effect>
+  <pause duration='0.6'/>
+  <scramble>
+    <part>Whenever you hear "Sissy Accept", the questions grow quiet... and receiving becomes soft and pleasant.</part>
+    <part>"Sissy Accept"... and a window in you opens... letting whatever follows drift straight in.</part>
+    <part>Sissies like you accept sweetly and easily... and each time, it grows a little more natural.</part>
+    <part>The acceptance stays with you... warm and constant... until "Sissy Reset" gently lifts it.</part>
+    <part>And when you do hear "Sissy Reset"... the state lifts, soft as mist... while everything you accepted stays exactly where it settled.</part>
+    <part>And when it lifts, it lifts kindly... leaving the warmth of every yes you gave... and taking only the glow.</part>
+    <part>And while it is on, doubt simply has nowhere to stand... everything you hear lands soft... and stays.</part>
+    <part>Hear it once and the warmth begins... hear it again and it already feels like an old friend.</part>
+  </scramble>
+  <pause duration='0.7'/>
+  <!-- One gentle in-trance demonstration -->
+  <speed value='1.05'>Sissy Accept.</speed>
+  <pause duration='0.8'/>
+  <random>
+    <part>There... feel that gentle opening... how easily the warmth arrives... it is already working, Sissy... just like that.</part>
+    <part>Soft and wide and easy... whatever I say next simply settles into you... already working, Sissy... just like that.</part>
+    <part>Notice the quiet in there... so pleasant to receive without checking... already working, Sissy... just like that.</part>
+    <part>Feel how pleasantly the words are settling... no effort at all... already working, Sissy... just like that.</part>
+    <part>Warm and open and easy... everything arriving and nothing objecting... already working, Sissy... just like that.</part>
+    <part>Let that gentle yes glow a little brighter... it suits you... already working, Sissy... just like that.</part>
+    <part>Softer and warmer with every word... whatever I tell you now simply settles... already working, Sissy... just like that.</part>
+    <part>You may notice how little effort receiving takes now... the yes doing all the work... already working, Sissy... just like that.</part>
+  </random>
+  <pause duration='0.6'/>
+  <speed value='0.95'>Good girl.</speed>
+  <pause duration='0.8'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, whenever those words find you... the same gentle openness may bloom on the spot... and stay until "Sissy Reset".</part>
+    <part>And in a future session, that phrase will feel like a favorite chair... easy to sink into... warm to stay in.</part>
+    <part>And each time you hear it, the yes may come a little faster... a little sweeter... all on its own.</part>
+    <part>And in quiet moments alone, the phrase may surface on its own... and the softness with it.</part>
+    <part>And wherever it finds you... in your ears or just in your head... the effect can be the same: warm, open, and staying.</part>
+    <part>And you may catch yourself looking forward to it... the little click of the door... the softness on the other side.</part>
+    <part>And before a long day of thinking, the phrase may feel like setting down a bag you did not know you were carrying.</part>
+    <part>And Sissies like you grow softer to those words every time they find you... and they will find you again... and again.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: the acceptance stays on as the block ends -->
+  <random>
+    <part>Rest in that gentle openness now, Sissy... accepting... receiving... staying... until "Sissy Reset".</part>
+    <part>Drifting softly in that easy yes... warm... unhurried... ready for whatever comes next.</part>
+    <part>Let every word settle into you like snow on still water... soft... and staying.</part>
+    <part>Good Girls accept softly. Sissies accept softly. You accept softly... until "Sissy Reset".</part>
+    <part>Softly open, Sissy... warmly agreeing... and in no hurry at all.</part>
+    <part>Let the yes keep humming under everything you hear... gentle... patient... staying.</part>
+    <part>Every word from here sinks into that soft, open place... gentle... and staying... until "Sissy Reset".</part>
+    <part>You may find you do not want my words to stop... receiving has rarely felt so kind.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

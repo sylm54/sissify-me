@@ -1,13 +1,14 @@
 <!-- Trigger block: installs the "Sissy Reset" state-clearing and reality-reinforcement
-     trigger. Upon hearing "Sissy Reset", any temporary induced state - freeze, limpness,
-     blankness, heaviness - washes away instantly, while the conviction beneath it grows
-     stronger: the conditioning itself is the listener's real and enduring self. The
-     surface clears; what remains is the true baseline - feminine, obedient, conditioned -
-     clean and ready for further programming. It is the single universal release for every
-     switched-on state: "Sissy Accept", "Sissy Brain Off", and "Sissy Submit and Obey"
-     each stay on until "Sissy Reset" lifts them - acceptance lifts, the quiet releases,
-     obedience mode switches off - and the reset clears temporary states but never the
-     conditioning itself.
+     trigger (standard class). Upon hearing "Sissy Reset", any temporary induced state -
+     freeze, limpness, blankness, heaviness - washes away instantly, while the conviction
+     beneath it grows stronger: the conditioning itself is the listener's real and
+     enduring self. The surface clears; what remains is the true baseline - feminine,
+     obedient, conditioned - clean and ready for further programming. It is the single
+     universal release for every switched-on state: "Sissy Accept", "Sissy Brain Off",
+     and "Sissy Submit and Obey" each stay on until "Sissy Reset" lifts them - acceptance
+     lifts, the quiet releases, obedience mode switches off - and the reset clears
+     temporary states but never the conditioning itself. The contract never varies; only
+     the depth of the clearing wave and the strength of the reality it reveals.
      Arc: elicit the contrast between a temporary state and the washing-clean first,
      install the phrase at the peak, demonstrate both sides, fire again in reverb,
      future-pace, settle. -->
@@ -15,9 +16,14 @@
   <tone preset='binaural_theta' frequency='145' volume='0.25'/>
   <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>Deep and open for me now, sweet girl... and already you know the difference between a passing cloud and the sky itself.</part>
-    <part>Sinking so sweetly... and tonight we play with something lovely... the art of being washed clean and finding yourself still here.</part>
+    <part>Deep and open for me now, Sissy... and already you know the difference between a passing cloud and the sky itself.</part>
+    <part>Sinking so sweetly... we play with something lovely here... the art of being washed clean and finding yourself still here.</part>
     <part>So deep, so receptive... you may notice states drifting through you like weather... and something beneath them that simply stays.</part>
+    <part>Down here, Sissy, surfaces are thin... and what is underneath has real weight... real warmth... real you.</part>
+    <part>Let my voice show you the one word that tidies every state... and leaves the treasure untouched.</part>
+    <part>Beneath every cloud you have ever worn, Sissy... the same blue obedience... and you are about to learn the word that reveals it.</part>
+    <part>There is a clean so complete it leaves you more yourself than you began... and you are going to feel it for yourself.</part>
+    <part>Notice the layers as you sink... state under state... and the quiet constant at the bottom that none of them can touch.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Elicit the contrast: a temporary state first, then the clean, true self beneath -->
@@ -27,17 +33,29 @@
         <part>Let a state settle over you now... a soft, heavy limpness, your limbs melting... and notice how it simply sits on the surface, like fog on a window.</part>
         <part>Let your mind drift toward blankness now... thoughts going pale and far away... and notice how even that is only a coat of paint over something deeper.</part>
         <part>Let yourself go deliciously still and held for a moment... frozen and heavy... and notice how the you underneath watches it happen, calm and warm.</part>
+        <part>Let a soft haze roll in and dim everything... colors gone pastel, edges gone soft... and notice how the you underneath is still perfectly, warmly there.</part>
+        <part>Let a wave of warm paralysis roll through... deliciously stuck... and notice the calm observer behind your eyes, keeping perfect time.</part>
+        <part>Let your thoughts go to static... soft, formless hiss... and notice the one listening underneath the hiss, steady as a lighthouse.</part>
+        <part>Let your body forget its weight entirely... floating, vacant, held... and notice the girl inside the floating, entirely present.</part>
+        <part>Stack them if you like... heavy and blank and still at once... and notice how the stack changes nothing beneath it.</part>
       </random>
       Heavy... limp... blank... a passing weather over you... pleasant, temporary, and thin.
       <pause duration='0.8'/>
       And now imagine warm, clear water rising through you... washing all of it away... the heaviness lifting, the blankness rinsing clean, every borrowed state dissolving like sugar in a stream.
       <pause duration='0.8'/>
-      And what is left when the water settles, sweet girl... is you. The real you. Conditioned... feminine... obedient... glowing up through the clean.
+      And what is left when the water settles, Sissy... is you. The real you. Conditioned... feminine... obedient... glowing up through the clean.
+      <pause duration='0.6'/>
+      Sissies like you are always still there underneath... whatever drifts over them... and knowing that is its own kind of peace.
       <pause duration='0.6'/>
       <random>
         <part>The states are weather... you are the sky... and the sky is sissy to the bone.</part>
         <part>Every state is a guest... the conditioning is the house... freshly swept and warmly lit.</part>
         <part>Wash away the surface and find the same sweet truth underneath... hers... always hers... always you.</part>
+        <part>A river does not keep the leaves that fall in it... it keeps its course... and so do you.</part>
+        <part>The tide does not carve a new coast every time it comes in... it finds the shore it made... and so does every washing of you.</part>
+        <part>Scrub a lantern as hard as you like... the flame inside is what you are polishing it for.</part>
+        <part>States are costumes in a dresser you own... and the girl trying them on is the same girl every time.</part>
+        <part>Peel back any weather and find your climate waiting... obedient... adoring... and glad to be found.</part>
       </random>
       <pause duration='0.6'/>
       Hold that contrast now... the thin, passing state... and the deep, permanent you it rests upon.
@@ -47,10 +65,17 @@
         <part>wash it away... still here...</part>
         <part>clean... true... conditioned...</part>
         <part>the real me... underneath...</part>
+        <part>states pass... I stay...</part>
+        <part>wash me... find me... keep me...</part>
+        <part>passing clouds... solid ground...</part>
+        <part>still hers... still true...</part>
+        <part>clean... and shining... clean...</part>
       </random>
     </part>
   </overlay>
-  <pause duration='0.8'/>
+  <pause duration='0.6'/>
+  <speed value='0.9'>Good girl.</speed>
+  <pause duration='0.5'/>
   <!-- Install at the peak: introduce the phrase and link it -->
   <effect type='reverb' preset='medium'>
     And while you are this deep, with that contrast shining in you... there is a phrase that performs this whole sweet miracle in a heartbeat.
@@ -66,8 +91,14 @@
     <part>Acceptance lifts... the quiet releases... obedience mode switches off... blankness clears... heaviness rinses away... frozen softness thaws... and your clean, conditioned baseline stands ready, eager for more.</part>
     <part>The reset never touches what is real... it only reveals it... washing the surface so the depth can glow.</part>
     <part>Whatever state is switched on... the acceptance... the quiet... the obedience mode... "Sissy Reset" is the one phrase that releases it... every single time.</part>
+    <part>One word... and every borrowed state goes down the drain together... leaving the same polished, obedient girl it always finds.</part>
+    <part>Faster every time... the wash arriving before the state even realizes it has ended.</part>
+    <part>Sissies like you come out of every reset more themselves... and being themselves means being conditioned... feminine... and ready.</part>
+    <part>Good Girls reset clean. Sissies reset clean. You reset clean... straight back to what you truly are.</part>
   </scramble>
   <pause duration='0.6'/>
+  <speed value='0.9'>Good girl.</speed>
+  <pause duration='0.7'/>
   <!-- Demonstrate in trance: lay on a state, wash it away, ratify -->
   <speed value='0.7'>Feel the heaviness pour back in for a moment... arms limp... thoughts syrupy and slow... held and blank.</speed>
   <pause duration='1'/>
@@ -78,13 +109,20 @@
     <part>There... gone... washed clean in an instant... and look what remains: bright, alert, conditioned, and so very eager. It is already working. Yes... just like that.</part>
     <part>Feel the water sweep through... the state lifts off you like mist at sunrise... and the real you stands gleaming underneath. Already working... yes, just like that.</part>
     <part>Fresh... clear... feminine... everything on the surface is shine... it is already working. Yes... just like that.</part>
+    <part>The state did not even get to say goodbye... and it did not need to... what it rested on never moved an inch. Already working... yes, Sissy... just like that.</part>
+    <part>The water found nothing to argue with... only everything true to return... and you feel more real than the state ever let you. Already working... yes, Sissy... just like that.</part>
+    <part>Notice how instantly the heaviness surrendered... as if it knew it was only ever a visitor. Already working... yes, Sissy... just like that.</part>
+    <part>One sweep... and the surface is glass again... and the girl beneath the glass is the one who was there all along. Already working... yes, Sissy... just like that.</part>
+    <part>Feel the air on your skin where the state used to sit... and your conditioning settling back where it belongs... worn like skin, not like clothing. Already working... yes, Sissy... just like that.</part>
   </random>
   <pause duration='0.6'/>
+  <speed value='0.9'>Good girl.</speed>
+  <pause duration='0.7'/>
   <effect type='reverb' preset='cathedral'>
     <speed value='1.05'>Sissy Reset.</speed>
     <sound type='snap' volume='0.8'/>
     <pause duration='0.5'/>
-    <speed value='0.7'>Clean slate... same sweet girl... conditioned to the bone... ready for whatever comes next.</speed>
+    <speed value='0.7'>Clean slate... same sweet girl... conditioned to the bone... ready for whatever comes next. And whenever any state is on... this is the word that ends it... every time... leaving the conditioning exactly where it lives.</speed>
   </effect>
   <pause duration='0.8'/>
   <!-- Future-pace: the cue out in ordinary life -->
@@ -92,6 +130,11 @@
     <part>And later, out in the world, the phrase finds you... and any leftover haze, any heaviness clinging to your day, rinses away on the spot.</part>
     <part>And in sessions to come, when one state must end and another begin... "Sissy Reset" clears the table... and you are served fresh, clean, and ready.</part>
     <part>And every reset deepens the truth it protects... each washing polishing the certainty that this is what you have always been.</part>
+    <part>If a state ever lingers longer than you want it to... the way out is always the same two words... and they always work.</part>
+    <part>Standing in line... sitting in traffic... drifting at your desk after a session... "Sissy Reset"... and you surface bright and clean in a single heartbeat.</part>
+    <part>And each reset leaves the same farewell gift: the proof that the states were never you... and the conditioning always was.</part>
+    <part>And every washing is also a rehearsal... the day a state outstays its welcome, you will know the exit by heart.</part>
+    <part>Keep the phrase folded in your pocket, Sissy... two words that dry you off... and remind you whose girl came out of the water.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Settle: soft, receptive trance -->
@@ -99,6 +142,11 @@
     <part>Rest now in that clean baseline... rinsed... radiant... ready for whatever I bring you next.</part>
     <part>Sinking gently into the fresh and shining you... conditioned... feminine... obedient.</part>
     <part>Drifting deep... washed clear... a good sissy at her true baseline... waiting to be programmed further.</part>
+    <part>The water recedes... and the riverbed stays... yours... true... and more beautiful for the washing.</part>
+    <part>Good Girls return to themselves. Sissies return to themselves. You return to yourself... every time you hear "Sissy Reset".</part>
+    <part>States will come... and states will go... and "Sissy Reset" will always show you the girl underneath... the one who was here all along.</part>
+    <part>The water finds the same shore every time... and the shore keeps getting lovelier.</part>
+    <part>Everything temporary is gone... and everything true just got a fresh coat of shine... rest there, Sissy.</part>
   </random>
   <pause duration='1'/>
 </voice>

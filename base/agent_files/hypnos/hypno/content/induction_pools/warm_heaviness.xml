@@ -1,0 +1,49 @@
+<!-- Induction variant: warm heaviness — one soft glow of warmth in the chest spreading outward and downward,
+     warmth and weight becoming the same thing and carrying the whole body under; closes on a supporting "Sissy Drop". -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='185' volume='0.25'/>
+  Settle in, Sissy. Eyes closed, body still. There is nothing to do but feel.
+  <pause duration='1.5'/>
+  Bring your attention to the center of your chest. A small point of warmth is glowing there... like a coal wrapped in soft cloth.
+  <pause duration='2'/>
+  Feel it spread... out through your shoulders... down your arms... your hands growing heavy and warm.
+  <pause duration='2'/>
+  Down through your belly... your hips... your thighs... your legs filling with soft, sinking heat.
+  <pause duration='2'/>
+  Up your back... your neck... your cheeks... and everywhere it touches, you grow heavier... and the heavier you grow, the further you sink into what holds you.
+  <pause duration='2'/>
+  <effect type='reverb' preset='medium'>
+    Like sinking into a deep, warm bath... like a heated blanket drawing you down... the warmth and the weight are the same thing now... and they are taking you under.
+  </effect>
+  <pause duration='1.5'/>
+  <random>
+    <part>You may notice your limbs are too heavy to move now... and how good it feels to stop wanting to.</part>
+    <part>Perhaps the warmth is pooling in your hands and feet... tingling, humming, melting the edges away.</part>
+    <part>You might find your body gone completely still... warm stone sinking through dark honey.</part>
+    <part>The heat reaches your eyelids... until even behind closed eyes everything glows soft and slow.</part>
+    <part>Wave after wave rolls outward from your chest... each one heavier... each one further down.</part>
+    <part>You are wrapped in sun-warmed sand now... holding you close, pulling you gently under as you settle into it.</part>
+    <part>The weight settles into your bones... deep, drowsy, delicious gravity.</part>
+    <part>You may notice time going thick and slow... the warmth stretching every moment out sweet and long.</part>
+    <part>Perhaps your fingers have gone lax and open... too heavy to lift, too pleased to want to.</part>
+    <part>The glow reaches the soles of your feet... warm lead, sinking, sinking.</part>
+    <part>You might feel your head heavy against what rests it... nodding slowly toward the deep.</part>
+    <part>Every wave a little warmer... every wave a little lower... carrying you under and under.</part>
+  </random>
+  <pause duration='1.5'/>
+  And Sissies like you melt so beautifully under warmth... every sissy knows the sweet surrender of going soft and heavy and down.
+  <pause duration='1'/>
+  You are almost entirely warmth now. There is no edge of you left to hold on with.
+  <pause duration='0.8'/>
+  So let go of the rest.
+  <pause duration='0.5'/>
+  <sound type='snap'/>
+  Sissy Drop.
+  <pause duration='1.2'/>
+  <effect type='reverb' preset='large_hall'>
+    <speed value='0.75'>Under... all the way under... warm and heavy and held... deeper than weight alone could take you.</speed>
+  </effect>
+  <pause duration='1'/>
+  Good girl. Soft, heavy, mine... and sinking deeper still.
+  <pause duration='1.5'/>
+</voice>

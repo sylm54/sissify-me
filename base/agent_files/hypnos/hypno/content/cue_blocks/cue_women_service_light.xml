@@ -1,0 +1,91 @@
+<!-- Cue block, light class: a gentle first pass at conditioning the sight of an
+     attractive or dominant woman. No command word - the seeing itself is the cue,
+     in person, in media, or in imagination. Possibility-framed throughout: the
+     listener may notice a soft urge to serve, a wish to please, and the pleasant
+     comfort of standing one step below her. One in-trance demonstration, no layered
+     mantra work, roughly two-thirds the length of the standard block. For an
+     early-stage subject. Arc: framing, soft guided scene, conditioning at the peak,
+     one demonstration, future-pace, settle. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='150' volume='0.2'/>
+  <!-- Framing: permissive, the cue not yet named -->
+  <random>
+    <part>Soft and deep for me now, Sissy... nothing to do here... only listen, while I tell you about her.</part>
+    <part>Drifting gently... you may notice how pleasant it is to think about a beautiful woman... no hurry in it at all.</part>
+    <part>So calm, so open... somewhere in you there may already be a small, warm wish... to be useful to her.</part>
+    <part>You may find your mind wandering toward her already... the ones who carry themselves like the main event... and how sweet it is to follow that wandering.</part>
+    <part>There is no work in this, Sissy... only noticing... and what you notice may surprise you with how good it feels.</part>
+    <part>Deeper and softer... like sinking into a warm bath after a long day... and in that warmth, her picture begins to form.</part>
+    <part>You may notice that some women make the world feel organized... and that the organization feels like relief.</part>
+    <part>You may notice a gentle willingness arriving before any reason for it... let it... it is welcome here.</part>
+    <part>Some part of you may already know how to be soft in her presence... let that part come forward for a while.</part>
+    <part>You may notice your shoulders softening at the very thought of her... the body is allowed to know things first.</part>
+    <part>There may be a sweetness in deferring that you have never had a reason to name... this is a fine place to name it.</part>
+    <part>Whenever you are ready, then... let a woman you find magnetic drift into view... and see what stirs.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit: soft guided imagery, from the inside -->
+  Let her be there now... however she looks in your mind... beautiful, certain, at ease... the kind of woman the room tilts toward.
+  <pause duration='0.7'/>
+  <random>
+    <part>You may feel your gaze want to lower... just a little... and the lowering may feel strangely like comfort.</part>
+    <part>You may notice a wish to tidy yourself in her presence... softer... neater... presentable... like something worth arranging.</part>
+    <part>You may feel her comfort becoming interesting to you... whether she is happy... whether she is pleased... a warm, quiet curiosity.</part>
+    <part>You may notice a small glow at the idea of being useful to her... fetching... helping... anticipating.</part>
+    <part>You may feel a pleasant step of distance opening between you... her above, you below... and the below may feel like the soft side of the pillow.</part>
+    <part>You may find the word 'yes' rising on its own... yes to her preferences... yes to her plans... and it may taste sweet.</part>
+    <part>You may notice your own wants getting quieter... politely waiting... while her pleasure takes the comfortable chair.</part>
+    <part>You may feel pleased, in a small shy way, whenever her eyes pass over you... seen by her... and glad to be seen.</part>
+    <part>You may feel yourself listening for her opinion... a small, warm interest in how she sees things.</part>
+    <part>You may notice the day feeling softer with her in it... as if a kind order has entered the picture.</part>
+  </random>
+  <pause duration='0.6'/>
+  Whatever you felt was enough, Sissy... Sissies like you lean before they know they are leaning... a soft tilt toward her... the seed of the wish to serve... and it is allowed to feel as lovely as it does. Good girl... that soft lean is exactly it.
+  <pause duration='0.8'/>
+  <!-- Condition the sight itself, gently, at the peak -->
+  <effect type='reverb' preset='medium'>
+    And while you are this soft, Sissy... you may let this settle, gently, at its own pace.
+    <pause duration='0.7'/>
+    Whenever you see a woman like her... in person... in a picture... on a screen... or in your imagination... you may find a warm, pleasant urge arriving... to serve her... to please her... to hold her comfort and her pleasure as the important things.
+    <pause duration='0.8'/>
+    The seeing and the serving may simply grow into one motion... and each time, a little more naturally than the last.
+  </effect>
+  <pause duration='0.6'/>
+  Good Sissy... let that click softly into place.
+  <pause duration='0.7'/>
+  <!-- One in-trance demonstration of the cue -->
+  Now, once, while it is this easy... see her again in your mind. There she is... and notice the little warm turn inside you, toward her service, toward her pleasure... that is the reflex waking... one look, one glow... it is already yours. Let it be easy... nothing needs to be strong yet... only true, and only warm. Good girl... you felt it, did you not.
+  <pause duration='0.8'/>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And the next time a magnetic woman crosses your day... you may catch the soft lean beginning... and smile at it.</part>
+    <part>And when she appears on your screen, glowing... the warmth may arrive with her, unhurried and pleasant.</part>
+    <part>And if she speaks first... an instruction, a request, a sigh... you may find your yes already on its way.</part>
+    <part>And in your imagination, later and alone... she may visit, and the serving may bloom there too.</part>
+    <part>And each sighting may leave the path a little smoother... a little sweeter... a little more yours.</part>
+    <part>And someday soon you may notice it happening all by itself... her picture... your glow... no deciding anywhere in it.</part>
+    <part>And you may find yourself glad, each time... glad for the glance, and for the low, warm place it shows you.</part>
+    <part>And the more it happens, the more natural it may feel... like something that was always allowed to be true.</part>
+    <part>And when she laughs somewhere nearby... you may feel the sound rearrange the room... and your wishes rearrange around it.</part>
+    <part>And the more you allow it, the more it may feel less like something happening to you... and more like something you are happily becoming.</part>
+  </random>
+  <pause duration='0.6'/>
+  Good girl... carry that softly out with you.
+  <pause duration='0.7'/>
+  <!-- Settle -->
+  <random>
+    <part>Sinking softly now... the picture of her resting warm behind your eyes.</part>
+    <part>Drifting, Sissy... gentle, open, and quietly pleased with what is waking in you.</part>
+    <part>Let the glow stay lit... small, patient, and ready for the next time you see her.</part>
+    <part>So soft and so willing... one step below her, and comfortable there.</part>
+    <part>Whatever stirred just now may keep growing on its own... sweetly, and in its own time.</part>
+    <part>Warmer and softer, deeper and easier... her comfort a pleasant thought you carry.</part>
+    <part>All the way down, sweet girl... where wanting to please her feels like the most natural thing in the world.</part>
+    <part>Let the picture rest... unhurried... the way good things rest while they grow.</part>
+    <part>And when you rise, Sissy... you may carry a small, secret gladness... the knowledge that the next time you see her, something in you will lean.</part>
+    <part>Sinking further... and the wanting to serve her may curl up somewhere warm in you... and stay.</part>
+    <part>Drifting... unhurried... the way a girl drifts when something in her has been settled.</part>
+    <part>Rest there, Sissy... and let the serving come find you, the next time you see her.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

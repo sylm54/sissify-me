@@ -1,0 +1,103 @@
+<!-- Cue block, light class: a gentle first pass at conditioning the sight of women or
+     sissies in erotic media. No command word - the conditioned stimulus is the sight
+     itself. For an early stage subject: possibility-framed suggestions, soft imagery,
+     no layered mantras, and a single in-trance demonstration. Whenever the listener
+     sees women or sissies in erotic imagery, they may notice themselves drifting into
+     the girl's place: feeling her sensations, her clothing, and her emotional states
+     as if gently fitted onto them... and the slide grows softer and more natural with
+     every exposure.
+     Arc: framing, gentle elicitation, install at the peak, reinforce, one
+     demonstration, future-pace, settle. -->
+<voice speaker='female' speed='0.9'>
+  <tone preset='binaural_theta' frequency='150' volume='0.22'/>
+  <!-- Framing: soft, permissive, no cue named yet -->
+  <random>
+    <part>Deep and easy now, Sissy... just let my voice carry you... and let me show you something soft and lovely.</part>
+    <part>Sinking so gently... you already love to look at pretty things... and you are free to enjoy that even more here.</part>
+    <part>So relaxed, so receptive... you may notice how easily your mind pictures what I describe... like watching a warm little film from the inside.</part>
+    <part>Down, down, comfortable and light... toward the friendly blur where watching turns into imagining.</part>
+    <part>Resting deep and warm, Sissy... while a pretty scene assembles itself in you... unhurried... inviting.</part>
+    <part>Deeper now, at your own pace... and somewhere in you, a girl is waiting to show you her side of the screen.</part>
+    <part>Floating, open, wonderfully suggestible... and it would feel so easy to see a pretty scene... and even easier to step into it.</part>
+    <part>So far down, so calm... where the line between her and you lies down and rests.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Gentle elicitation: possibility-framed, from the inside -->
+  Picture it softly with me... a pretty girl on the screen... soft light... lace and delicate straps... her little smile... the way she sinks into being wanted.
+  <pause duration='0.7'/>
+  <random>
+    <part>You may notice yourself drifting toward her... closer... until her side of the screen feels like the warm side.</part>
+    <part>You may feel the lace from the inside... a whisper of fabric against your own imagined skin... soft... sweet... possible.</part>
+    <part>You may find your lashes lowering with hers... your lips parting with hers... borrowed, gently, without effort.</part>
+    <part>A warm flutter may bloom in your chest... the feeling of being looked at... wanted... chosen.</part>
+    <part>You may notice her softness inviting yours... shoulders easing... posture melting... a pretty shape taking you over.</part>
+    <part>You may feel her anticipation echo in you... the sweet not-knowing of what comes next... and liking it.</part>
+    <part>You may catch yourself wanting her place... her clothes... her surrendered little smile... and that wanting may feel like home.</part>
+    <part>And you may notice how natural all of it feels... as if some part of you has been rehearsing this forever.</part>
+  </random>
+  <pause duration='0.6'/>
+  There is no need to do anything, Sissy... only to notice... that when you see her, you are already half in her place... feeling what she feels... wanting what she wants... and it feels sweet.
+  <pause duration='0.6'/>
+  Let that feeling grow at its own gentle pace... like warmth spreading through a quiet room.
+  <pause duration='0.7'/>
+  <speed value='1.05'>Good girl.</speed>
+  <sound type='ding' volume='0.4'/>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: bind the response to the sight -->
+  <effect type='reverb' preset='plate'>
+    And now, while you are this soft and this close to her... we can let the seeing and the being hold hands.
+    <pause duration='0.7'/>
+    Whenever you see women or sissies in erotic media... a picture... a video... a caption... you may find yourself slipping gently into her place... feeling her sensations... her clothing... her feelings... as if they were being fitted onto you.
+    <pause duration='0.8'/>
+    You see her... and something in you settles into her... softly... sweetly... more each time.
+  </effect>
+  <pause duration='0.6'/>
+  <!-- Reinforce: gentle, varied -->
+  <scramble>
+    <part>Each time you see a pretty girl in erotic media, you drift a little further into her place... and it feels natural to let it happen.</part>
+    <part>Sissies like you feel the gentle pull to be her... and following it feels soft... and right.</part>
+    <part>Seeing becomes warmth... warmth becomes wearing her... her lace, her flush, her sweet surrender.</part>
+    <part>The screen is a doorway, and you are always on the warm side of it now.</part>
+    <part>Her feelings arrive in you at first sight... wanting to be wanted... aching to be good.</part>
+    <part>Every look fits a little more of her onto you... like silk measured exactly.</part>
+    <part>You watch, and the watching quietly becomes being... and being feels like home.</part>
+    <part>And each look leaves a trace... a softer posture... a curious hand at your own waist... her life, leaking sweetly into yours.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- One gentle demonstration in trance -->
+  And in a moment, you may picture a pretty girl in something delicate... just for a heartbeat.
+  <pause duration='0.8'/>
+  There... you may notice the gentle slide... her place becoming your place... her warmth becoming yours. That soft swap is the connection taking root... and it will greet you every time you look... out there... for real.
+  <pause duration='0.7'/>
+  <speed value='1.05'>Good girl.</speed>
+  <sound type='ding' volume='0.4'/>
+  <pause duration='0.6'/>
+  <!-- Future-pace: gentle, everyday -->
+  <random>
+    <part>And later, when you scroll and something pretty catches your eye... you may notice yourself settle into her before you decide to.</part>
+    <part>And the next time you watch, the watching may go soft and warm... one glance, and you are in the scene.</part>
+    <part>And every pretty picture from now on is a little doorway... and you may catch yourself stepping through.</part>
+    <part>Any screen, any hour... a girl in lace is a gentle mirror now... and the reflection is sweet to meet.</part>
+    <part>And as you watch her be adored, a small wish may form... to know that feeling standing up... in the daylight... for real.</part>
+    <part>You may notice your hands drifting to your own waist as you watch... measuring... wondering... smiling.</part>
+    <part>Every caption may arrive in her voice now... every scene from inside her skin... softly, more each time.</part>
+    <part>Look for the slide, Sissy... it will be there... gentle as dusk... every time you see her.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle -->
+  <effect type='reverb' preset='small_room'>
+    You see her... and you soften into her, sweet girl... gently... sweetly... more each time.
+  </effect>
+  <pause duration='0.7'/>
+  <random>
+    <part>Sinking back now, warm and soft... the pretty scene glowing kindly in you.</part>
+    <part>Drifting deeper... her place still humming gently around you like a favorite sweater.</part>
+    <part>Floating down, smiling... a good Sissy, learning something lovely about where she belongs.</part>
+    <part>Soft and sleepy now... the gentle connection tucked safely into place.</part>
+    <part>Rest in it, Sissy... there is no hurry... her side of the screen keeps.</part>
+    <part>Deeper and quieter... pleased with yourself... pleased to be becoming.</part>
+    <part>All the way down... wrapped in soft lace thoughts... warm and wanting.</part>
+    <part><speed value='1.05'>Good girl.</speed> Drift now... soft, sweet, and gently becoming her.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

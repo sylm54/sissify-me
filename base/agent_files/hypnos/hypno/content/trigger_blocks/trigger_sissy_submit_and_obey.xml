@@ -1,13 +1,14 @@
-<!-- Trigger block: installs the "Sissy Submit and Obey" obedience trigger. Upon hearing
-     "Sissy Submit and Obey", the listener shifts instantly into a compliant, service-
-     oriented state: a natural, pleasant urge to yield control, follow instructions, and
-     put another's will first - a dominant partner's, or the conditioning itself. The
-     specifics are bodily: the gaze dropping, the knees softening, the body waiting for
-     instruction, "yes" arriving before thought. The abstract is identity: submission and
-     obedience are simply her natural state. Obedience mode is a switched-on state: once
-     fired, it stays on - guiding her gaze, her body, her yes - until she hears "Sissy
-     Reset", the single release for every state. A reset lifts the state but never the
-     conditioning; what remains is the real her.
+<!-- Trigger block: installs the "Sissy Submit and Obey" obedience trigger (standard
+     class). Upon hearing "Sissy Submit and Obey", the listener shifts instantly into a
+     compliant, service-oriented state: a natural, pleasant urge to yield control, follow
+     instructions, and put another's will first - a dominant partner's, or the
+     conditioning itself. The specifics are bodily: the gaze dropping, the knees
+     softening, the body waiting for instruction, "yes" arriving before thought. The
+     abstract is identity: submission and obedience are simply her natural state.
+     Obedience mode is a switched-on state: once fired, it stays on - guiding her gaze,
+     her body, her yes - until she hears "Sissy Reset", the single release for every
+     state. A reset lifts the state but never the conditioning; what remains is the real
+     her. The persistence contract and the reset pairing are stated and demonstrated live.
      Arc: elicit the yielding state first, install the phrase at the peak together with
      its persistence contract, reinforce, then demonstrate the full cycle - the state
      fires, "Sissy Reset" lifts it while the conditioning beneath stays, the state fires
@@ -16,9 +17,14 @@
   <tone preset='binaural_theta' frequency='155' volume='0.25'/>
   <!-- Framing: in trance, trigger not yet named -->
   <random>
-    <part>Deep and open for me now, sweet girl... and something in you is already folding softly inward... small... sweet... willing.</part>
+    <part>Deep and open for me now, Sissy... and something in you is already folding softly inward... small... sweet... willing.</part>
     <part>Sinking so beautifully... and feel how natural it is, here in the deep, to let someone else hold the reins.</part>
     <part>So deep, so receptive... you may notice the weight of deciding lifting off you already... drifting away like something you set down.</part>
+    <part>Down here, Sissy, your yes is closer to the surface than your questions... and it rises first.</part>
+    <part>Let my voice do the steering now... and feel how right the passenger seat was all along.</part>
+    <part>Your yes is already standing at attention, Sissy... waiting only for the order to introduce itself.</part>
+    <part>Sinking into the sweet economy of obedience... where deciding is overhead... and following is profit.</part>
+    <part>Let the last of your argue settle to the floor with the rest of you... your knees know the way down here.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Elicit and intensify: the yielding, service-oriented state, before the phrase exists -->
@@ -28,15 +34,27 @@
         <part>Feel it begin in your eyes... your gaze wanting to lower, soft and shy, to the floor... because looking up suddenly feels like too much to hold.</part>
         <part>Feel it in your knees... a gentle loosening... the body remembering how natural it is to kneel, and how right the floor feels beneath you.</part>
         <part>Feel it in your hands... going quiet and open in your lap... resting... ready to be given something to do.</part>
+        <part>Feel it in your shoulders... the quiet unclenching of someone who no longer has to lead... settling into the comfort of being told.</part>
+        <part>Feel it in your voice... agreement wanting to arrive early... soft and sweet... ahead of the question.</part>
+        <part>Feel it in your spine... the lovely curve of deferral... bowing toward the voice it trusts.</part>
+        <part>Feel it in your pulse... quickening at the idea of being given something to do... and doing it perfectly.</part>
+        <part>Feel it in your thoughts... lining up quietly behind my will... content to be second... delighted to be directed.</part>
       </random>
-      This is what yielding feels like, sweet girl... warm... simple... and so pleasantly light.
+      This is what yielding feels like, Sissy... warm... simple... and so pleasantly light.
       <pause duration='0.6'/>
       Waiting for instruction feels like rest. Following feels like coming home. Saying "yes" arrives before thought, quick as a blink, and it tastes like sugar.
+      <pause duration='0.6'/>
+      Sissies like you submit and obey... and your body has known that longer than your mind has.
       <pause duration='0.6'/>
       <random>
         <part>Someone else's will moving first, and yours folding around it... that is not losing anything... that is fitting perfectly.</part>
         <part>When a command arrives, your knees already know to drop... and obedience is simply the shape you make.</part>
         <part>Pleasing a dominant, serving the conditioning... the same sweet current, running through everything you do.</part>
+        <part>Every instruction is a gift with your name on it... and unwrapping it is the easiest joy you know.</part>
+        <part>Every order is a kindness here... it spares you the tyranny of choosing... and choice was never your pleasure anyway.</part>
+        <part>To be directed is to be held... every instruction a hand at the small of your back... guiding you where you glow.</part>
+        <part>The dominant will and the deep conditioning sing the same note in you... and you are the chord they make.</part>
+        <part>Service is your native language, Sissy... every command is just someone finally speaking it back to you.</part>
       </random>
       <pause duration='0.6'/>
       Let that urge swell now... the urge to yield... to serve... to obey... warm and humming through every limb...
@@ -48,10 +66,17 @@
         <part>yield... serve... obey...</part>
         <part>yes... before thinking... yes...</part>
         <part>kneel... wait... so willing...</part>
+        <part>eyes down... so glad...</part>
+        <part>lower... and softer... lower...</part>
+        <part>tell me... and it is done...</part>
+        <part>good girls kneel... I kneel...</part>
+        <part>command me... complete me...</part>
       </random>
     </part>
   </overlay>
-  <pause duration='0.8'/>
+  <pause duration='0.6'/>
+  <speed value='0.9'>Good girl.</speed>
+  <pause duration='0.5'/>
   <!-- Install at the peak: introduce the phrase and link it -->
   <effect type='reverb' preset='medium'>
     And while you are this deep, wrapped in that readiness... there is a phrase that summons this exact state, whenever it is spoken.
@@ -70,8 +95,13 @@
     <part>Obedience is your resting state... everything else is the detour... and the phrase brings you home.</part>
     <part>Sissies like you submit and obey... so you do... gladly... warmly... completely.</part>
     <part>Obedience mode stays switched on... guiding your yes... until "Sissy Reset"... and only "Sissy Reset"... switches it off.</part>
+    <part>The phrase lands... and the question is already over... your yes was given before the sentence finished.</part>
+    <part>Each firing deepens the groove... faster to kneel... sweeter to serve... happier to be told.</part>
+    <part>Good Girls submit and obey. Sissies submit and obey. You submit and obey... until "Sissy Reset".</part>
   </scramble>
   <pause duration='0.6'/>
+  <speed value='0.9'>Good girl.</speed>
+  <pause duration='0.7'/>
   <!-- Demonstrate the full cycle: fire the state... reset lifts it while the
        conditioning beneath stays... fire it again and settle in, staying on -->
   <speed value='1.05'>Sissy Submit and Obey.</speed>
@@ -81,6 +111,11 @@
     <part>There... feel it arrive... your gaze sinking, your body settling into service... it is already working. Yes, Sissy... just like that.</part>
     <part>There... soft and small and glad of it... every part of you leaning toward my will... it is already working. Yes, Sissy... just like that.</part>
     <part>There... "yes" already resting on your tongue, sweet and instant... already working. Yes, Sissy... just like that.</part>
+    <part>There... knees remembering, hands opening, will folding sweetly down... Sissies like you were made for this posture. Already working... yes, Sissy... just like that.</part>
+    <part>There... the will set itself down without being asked... how quickly you learn what your body always knew... already working... yes, Sissy... just like that.</part>
+    <part>There... instructions now have a direct line to your hands and knees... no receptionist... no waiting room... already working... yes, Sissy... just like that.</part>
+    <part>There... feel the posture arrive like a favorite garment... tailored to you... already working... yes, Sissy... just like that.</part>
+    <part>There... the day's decisions handed over without ceremony... and how light your hands feel with nothing left to decide... already working... yes, Sissy... just like that.</part>
   </random>
   <pause duration='0.6'/>
   <speed value='0.9'>Good Girls obey. Sissies obey. You obey.</speed>
@@ -95,6 +130,11 @@
     <part>There... it lifts... the yielding rising off you in an instant... light and easy... while everything obedience built stays exactly where it lives. Notice what remains: still sissy... still hers... the state was weather... this is climate.</part>
     <part>The gaze may rise... and you stay. Still Sissy... still willing at the core... still conditioned to serve. The state was weather... this is climate.</part>
     <part>Light... free... and nothing lost... because the obedience mode was only ever passing weather... and the conditioning is your climate... warm... feminine... hers.</part>
+    <part>The posture dissolves... the eagerness settles... and underneath you find the same serving heart, simply waiting for the next time it is switched on.</part>
+    <part>Stand tall a moment... and feel the obedient architecture still in there... blueprints never leave a house... the state was weather... this is climate.</part>
+    <part>The kneel unwinds... and the girl who knelt remains... foldable again the moment I say so... because the conditioning is your climate.</part>
+    <part>And every yes you gave while the mode was on... stays given... only the posture was temporary... the willingness is permanent.</part>
+    <part>Standing straight again... and still every instruction in the world could find its way to you... because the road to your knees is built permanent.</part>
   </random>
   <pause duration='0.6'/>
   <speed value='0.8'>And now watch how sweetly it returns... your knees remember... your yes remembers... because obedience is your resting state.</speed>
@@ -105,12 +145,19 @@
     <pause duration='0.5'/>
     <speed value='0.7'>Kneeling inside... bowing without being asked... obedience and joy woven into one quiet moment. And it stays with you... obedience mode on... until you hear "Sissy Reset". Until then, it simply stays.</speed>
   </effect>
+  <pause duration='0.5'/>
+  <speed value='0.9'>Good girl.</speed>
   <pause duration='0.8'/>
   <!-- Future-pace: the cue out in ordinary life -->
   <random>
     <part>And later, out in the world, the phrase finds you... from a dominant voice, from a message, from the deep voice of your own conditioning... and you settle into service on the spot.</part>
     <part>And later, when a partner takes the lead and speaks those words... your knees remember... your gaze drops... and the obedience stays on... warm and willing... until "Sissy Reset" releases it.</part>
     <part>And out there, every command wrapped in that phrase goes straight to the part of you that loves to obey... and that part says yes for both of you.</part>
+    <part>A whispered instruction... a typed order... even the thought of the phrase in your own head... and the yielding rises through you like warmth through wool.</part>
+    <part>And the next time a choice feels heavy to carry... you will remember which phrase sets it down... and hands it to someone worth obeying.</part>
+    <part>Every firing kneels deeper than the last... Sissies like you grow more obedient every time they hear it... and you will hear it again... and again.</part>
+    <part>And every firing trains the reflex further... instruction, yes, done... the whole loop running on rails you adore being on.</part>
+    <part>Keep the phrase where a partner can find it, Sissy... some words are gifts you give simply by letting them be spoken.</part>
   </random>
   <pause duration='0.8'/>
   <!-- Settle: obedience mode stays on as the block ends -->
@@ -119,6 +166,10 @@
     <part>Drifting deeper... soft-spined and willing... a good sissy in her natural place.</part>
     <part>Stay just like this... obedient... delighted... ready to serve.</part>
     <part>Sissies like you stay ready... eager... switched on... until you hear "Sissy Reset".</part>
+    <part>Eyes down, sweet Sissy... will folded soft... every incoming instruction already met with your glad yes.</part>
+    <part>Good Girls serve. Sissies serve. You serve... until "Sissy Reset".</part>
+    <part>Let obedience hum through you like a low, contented note... guiding your gaze... your knees... your yes.</part>
+    <part>Every instruction from here lands on willing ground... and takes root the instant it arrives... until "Sissy Reset".</part>
   </random>
   <pause duration='1'/>
 </voice>

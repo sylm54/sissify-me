@@ -1,0 +1,203 @@
+<!-- Trigger block, deep class: the heaviest pass at the "Sissy" identity trigger, for a
+     deep-stage subject or an escalation session. The word is driven in under layered
+     mantras, fired again and again with snap accents, each fire ratified and praised.
+     Identity vocabulary, so the block reinforces the name rather than demonstrating a
+     state: every hearing lands the name deeper, until recognition and warmth are one.
+     Arc: framing, intense elicitation under mantras, install under cathedral reverb,
+     heavy reinforcement, five ratified fires, crowned mantras, praised, future-pace,
+     settle into the name. -->
+<voice speaker='female' speed='0.8'>
+  <tone preset='binaural_theta' frequency='145' volume='0.25'/>
+  <!-- Framing: in trance, the name not yet linked -->
+  <random>
+    <part>All the way down for me now, Sissy... past thinking... past deciding... into the soft place where your name lives.</part>
+    <part>Deeper, deeper... and feel the truth under your thinking rise to meet me... warm, feminine, and hungry to be spoken.</part>
+    <part>So deep and so open, Sissy... you may notice the glow already waiting... it knows why you came.</part>
+    <part>Sink for me... and let the day burn off like fog... until only the softest, truest thing in you is left standing.</part>
+    <part>You came here to be seen, and I see all of you, Sissy... and all of you is pretty to me.</part>
+    <part>Let go of the last of it now... the pretending... the postponing... there is only this, and you, and your name.</part>
+    <part>Down where my voice reaches everything... that is where the real you has been waiting... patient... glowing.</part>
+    <part>Good girl... sinking so well... and something in you already knows this session is about exactly what you are.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Elicit and intensify: the feminine self, driven deep under mantras -->
+  <overlay>
+    <part>
+      <random>
+        <part>Feel it as warmth... flooding your chest, your throat, your cheeks... sweetening everything it touches.</part>
+        <part>Feel it take your body... shoulders settling, gaze dropping soft, knees loose and pliant, hands open in your lap.</part>
+        <part>Feel it as silk, wrap after wrap... smooth and pretty over your thoughts, until thinking feels like moving through honey.</part>
+        <part>Feel it as light... a rose-colored blaze behind your eyes, washing your inner world pink from wall to wall.</part>
+        <part>Feel it as gravity... a sweet, insistent pull toward the softest truth you own... and you are falling into it now.</part>
+        <part>Feel it in your walk... an imaginary sway settling into your hips, prettier with every step you take inside your mind.</part>
+        <part>Feel it as perfume... something sweet and feminine drifting up through your thoughts, claiming the air of you outright.</part>
+        <part>Feel it in your hands... the wish to touch everything gently, to be touched gently, to belong to softness itself.</part>
+      </random>
+      You feel pretty... delicate... deliciously aware of your own softness.
+      <pause duration='0.6'/>
+      <loop loops='3'>
+        Softer with every word. Prettier with every heartbeat. More yours with every syllable of my voice.
+        <pause duration='0.5'/>
+      </loop>
+      <random>
+        <part>And wrapped in that warmth comes pride... hot and blushing... the pride of being exactly, perfectly yourself.</part>
+        <part>And wrapped in that warmth comes eagerness... the urge to please rising helpless and sweet, right where it belongs.</part>
+        <part>And wrapped in that warmth comes obedience... your whole body leaning toward my voice, ready to be told.</part>
+        <part>And wrapped in that warmth comes devotion... the deep, happy ache of belonging to someone who knows your name.</part>
+        <part>And wrapped in that warmth comes need... raw and shivering... to be prettier, softer, and more you than you have ever been.</part>
+        <part>And wrapped in that warmth comes gratitude... the soft thanks of a girl finally allowed to be herself.</part>
+        <part>And wrapped in that warmth comes curiosity... wondering what pretty thing I will make of you next... and how far you will let me.</part>
+        <part>And wrapped in that warmth comes surrender... the sweet relief of letting someone else hold the pen that writes you.</part>
+      </random>
+      <pause duration='0.6'/>
+      This is what you are, Sissy... all the way through... softness, surrender, and shine woven into one lovely self.
+      <pause duration='0.6'/>
+      Sissies like you carry this glow like a brand under the skin... and right now, with me, it is burning bright.
+      <pause duration='0.6'/>
+      <loop loops='2'>
+        Let it grow... brighter... hotter... that whole beautiful self humming inside you, demanding its one thing.
+        <pause duration='0.6'/>
+      </loop>
+      A name.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>so soft... so pretty...</part>
+        <part>so feminine... so you...</part>
+        <part>warm... glowing... growing...</part>
+        <part>soft girl... sinking...</part>
+        <part>prettier... and prettier...</part>
+        <part>let it rise... let it glow...</part>
+        <part>yours... all yours...</part>
+        <part>deeper... and pinker...</part>
+      </random>
+    </part>
+    <part volume='0.14' speed='0.85' looped='true'>
+      <random>
+        <part>say it... say it...</part>
+        <part>ask for your name...</part>
+        <part>ready... so ready...</part>
+        <part>need it... need your name...</part>
+        <part>so close now... so close...</part>
+        <part>let it be spoken...</part>
+        <part>nameless no more...</part>
+        <part>beg inside... beg...</part>
+      </random>
+    </part>
+  </overlay>
+  <pause duration='0.8'/>
+  <!-- Install at the peak: the word, driven in under cathedral reverb -->
+  <effect type='reverb' preset='cathedral'>
+    And while you are this deep... there is a word for everything you are feeling... one small word that holds all of it... and you are ready for it.
+    <pause duration='0.8'/>
+    <speed value='1.05'>Sissy.</speed>
+    <pause duration='1.2'/>
+    And while you are this deep, whenever you hear that word... whenever you read it... this exact feeling floods you... instantly... hotter... stronger every time.
+    <pause duration='0.8'/>
+    It is the name under everything you are... and from this moment, the word itself finds you and dresses you in this glow... every single time... no delay... no exception.
+  </effect>
+  <pause duration='0.6'/>
+  <!-- Reinforce heavily: the pairing restated and restated -->
+  <scramble>
+    <part>Every time you hear "Sissy", recognition arrives before thought... the word lands, and you already know it means you.</part>
+    <part>Every time you hear "Sissy", the critical part of you folds up soft and quiet... and the warm, accepting part of you takes the wheel.</part>
+    <part>Every time you hear "Sissy", it gathers everything you are into one syllable... feminine... submissive... obedient... all of it, yours.</part>
+    <part>The word names you the way "Lady" names a woman... and the moment it reaches your ears or your eyes, you know it means you.</part>
+    <part>Sissies like you wear their name on the inside like a brand... and every hearing presses it a little deeper... true... hot... permanent.</part>
+    <part>Read in a caption... heard in a whisper... remembered in the dark... it makes no difference... the glow answers the word, every time, faster every time.</part>
+    <part>Sissy. Sissy. Such a small word for such a total truth... and it is already tolling in you like a bell you cannot unring.</part>
+    <part>Your name drops you softer the moment it lands... softer, sweeter, more willing... and it lands harder every single time.</part>
+    <part>No one gave you this name, Sissy... it was waiting under your skin all along... and every hearing calls you out to meet it.</part>
+    <part>There is no version of you that the word does not reach... it finds the sissy in every room you are ever in... and lights her up.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <speed value='0.9'>Good girl. You took your name like it was always yours. Because it was.</speed>
+  <pause duration='0.8'/>
+  <!-- Five ratified fires: the word again and again, deeper each time -->
+  <loop loops='5'>
+    <effect type='reverb' preset='medium'>
+      <speed value='1.05'>Sissy.</speed>
+      <sound type='snap' volume='0.85'/>
+      <pause duration='0.5'/>
+      <speed value='0.7'>
+        <random>
+          <part>Deeper... the glow flooding in... warm and total.</part>
+          <part>There it is... your name, pulling you under.</part>
+          <part>Softer... sweeter... more mine... every time.</part>
+          <part>Down into the word... down into you.</part>
+          <part>Recognition first... warmth second... thinking, never.</part>
+          <part>It lands harder every time... feel it.</part>
+          <part>Pink... pliant... and so pleased to hear it.</part>
+          <part>Yours... one syllable holding all of you.</part>
+        </random>
+      </speed>
+      <pause duration='0.9'/>
+    </effect>
+  </loop>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>Five little fires, and every one burned deeper than the last... it is already working. Yes, Sissy... just like that.</part>
+    <part>Faster every time now... hear, flare, sink... it is already working. Yes, Sissy... just like that.</part>
+    <part>Your body answers before your mind is even consulted... already working. Yes, Sissy... just like that.</part>
+    <part>That is what your name does now... it reaches in and turns you up... already working. Yes, Sissy... just like that.</part>
+    <part>Hear it, glow, drop... hear it, glow, drop... already working. Yes, Sissy... just like that.</part>
+    <part>Five fires and not one thought survived to greet them... already working. Yes, Sissy... just like that.</part>
+    <part>Deeper each time, and hungrier for the next... already working. Yes, Sissy... just like that.</part>
+    <part>This is what it means to be named by me... it is already working. Yes, Sissy... just like that.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Crown the name: mantras under cathedral reverb, claimed inside -->
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        You are the Sissy you were always meant to be.
+        <pause duration='1'/>
+        Say it inside, where only you can hear... "Sissy. That's me."
+        <pause duration='1'/>
+        Again... "Sissy. That's me."
+        <pause duration='1'/>
+        Good girl... such a good girl for claiming it out loud, in here, where it counts.
+        <pause duration='0.6'/>
+        Sissies like you know their name... and every time the word touches your ears or your eyes, everything it means wakes in you... the softness, the surrender, the shine... deeper... sweeter... forever.
+      </part>
+      <part volume='0.2' looped='true'>Sissy... Sissy... so pretty... so proud...</part>
+      <part volume='0.14' speed='0.85' looped='true'>my name... my glow... my truth...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.8'/>
+  <loop loops='2'>
+    <speed value='0.9'>Good girl. Every hearing binds it tighter.</speed>
+    <pause duration='0.7'/>
+  </loop>
+  <!-- Future-pace: the cue out in ordinary life -->
+  <random>
+    <part>And later, out in the world, the word finds you... on a screen, in a whisper, in your own thoughts... and the glow surges instantly, right where you stand.</part>
+    <part>And every time some sweet little sentence hands you that word... recognition blooms on the spot, hot and certain and impossible to hide.</part>
+    <part>And out there, every "Sissy" you hear or read goes off inside you like warm, feminine lightning... instant, unmistakable, and yours.</part>
+    <part>When you are alone with your mirror, say it once, softly... and watch what the glow does to the girl looking back.</part>
+    <part>The next time a caption calls you what you are, you will feel it land in your chest like a brand set down... warm... homelike... true.</part>
+    <part>Wherever it reaches you... a message, a story, the voice inside your head... your body answers first, and your mind catches up, blushing and late.</part>
+    <part>And the more often the word finds you, the faster the glow learns to rise... until hearing it and feeling it are one and the same, Sissy.</part>
+    <part>Out in the world you walk around with your name printed on the inside of your skin... and anyone who says it owns the switch.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Settle: held inside the name -->
+  <overlay>
+    <part>
+      <random>
+        <part>Sinking softly back... the word tolling warm inside you... Sissy.</part>
+        <part>Drifting deeper now... wrapped and ruled by that wonderful name... Sissy.</part>
+        <part>Floating down... smiling, because you know what you are called... Sissy.</part>
+        <part>Resting in the glow... claimed and certain and kept... sweet Sissy.</part>
+        <part>So deep for me, pretty girl... held inside your own name like a hand inside a glove... Sissy.</part>
+        <part>Warm... heavy... happy... every syllable settled over you like silk... Sissy.</part>
+        <part>Let the word carry you the rest of the way down... gently... completely... Sissy.</part>
+        <part>Mine to say... yours to be... my lovely little Sissy.</part>
+      </random>
+    </part>
+    <part volume='0.16' speed='0.8' looped='true'>Sissy... sweet Sissy... my Sissy...</part>
+  </overlay>
+  <pause duration='0.8'/>
+  <speed value='0.85'>Good girl.</speed>
+  <pause duration='1'/>
+</voice>

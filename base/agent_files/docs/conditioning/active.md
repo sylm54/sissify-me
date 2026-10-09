@@ -5,7 +5,23 @@ description: Read before writing or substantially editing active sessions — in
 # Active
 Active sessions are participant-driven conditioning audio. Unlike hypno, they do not put the user into trance — they put the user to work. The listener follows instructions, performs tasks, and makes choices in real time, and the player waits for their input at interactive checkpoints. Active sessions are at their most effective when they turn the conditioning already installed by hypno into lived, repeated behavior: every time a trigger fires or a task is performed, the association is reinforced through actual experience rather than just suggestion.
 
-Where hypno *installs* the triggers and suggestions, active sessions *exercise* them. Use active sessions to drill obedience, train the body and mind toward the user's sissy persona, and gather information (`<choice>`/`<rating>`) about how far the user is willing to go so future conditioning can escalate accordingly.
+Where hypno *installs* the triggers and suggestions, active sessions *exercise* them. Active work is one of the two main places triggers fire — in trance inside a hypno session, or here, live, with the user performing (`docs/training/triggers.md`); post-hypnotic carryover into daily life is real, but session work is the main channel. Use active sessions to drill obedience, train the body and mind toward the user's sissy persona, and gather information (`<choice>`/`<rating>`) about how far the user is willing to go so future conditioning can escalate accordingly.
+
+## Shipped blocks
+The framework ships a base active library under `hypnos/active/` so you don't have to bootstrap every session from scratch:
+
+- `structural/intro.xml` — sets the stage: what the session will make them do, posture and props, and the contract their willingness signs.
+- `structural/warmup.xml` — low-stakes opening work: easy instructions and a first `<choice>`/`<rating>` to establish compliance and a baseline.
+- `structural/reinforcement.xml` — lands the work as conditioning: restates what they did as identity, fires the practiced triggers, praise-anchors it.
+- `structural/outro.xml` — winds down: consolidates the behaviors, seeds a daily-life call to action, closes soft with a final `<rating>`.
+- `content/drill_blocks/drill_verbal_response.xml` — paced verbal drills: affirmations and scripted answers repeated until they come out automatic.
+- `content/drill_blocks/drill_comparison.xml` — comparison exercises: measuring herself against real women, other sissies, or her past self to fix aspiration and pleasurable inferiority.
+- `content/drill_blocks/drill_self_degradation.xml` — self-degradation sequences: spoken humiliation that converts shame into arousal and belonging.
+- `content/drill_blocks/drill_call_and_response.xml` — call-and-response: the voice fires phrases and triggers, she answers on cue, obedience practiced live.
+
+See `docs/training/drills.md` for what each drill is for, when to assign it, and how it escalates.
+
+**These blocks are a base, not finished sessions.** Adjust them to the user and the session's theme before use — re-pace them, re-word them, extend them, intensify them, swap drills in and out. They are starting points you tailor; the rules in this file are how you tailor them.
 
 ## Patterns
 Active sessions are built from a small set of reusable patterns. Mixing and layering these creates variety and keeps the user engaged.

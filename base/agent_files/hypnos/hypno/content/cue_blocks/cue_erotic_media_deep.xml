@@ -1,0 +1,198 @@
+<!-- Cue block, deep class: the heaviest push for conditioning the sight of women or
+     sissies in erotic media. No command word - the conditioned stimulus is the sight
+     itself. For a deep-stage subject or an escalation session: extended repetition,
+     layered mantras, multiple live demonstrations, and insistent, totalizing
+     language. Whenever the listener sees women or sissies in erotic imagery, the
+     watcher dissolves and the girl takes over: her sensations, her clothing, and her
+     emotional states arrive as the listener's own, instantly and totally... and the
+     hunger to embody that position fully in real life compounds with every exposure.
+     Arc: framing, deepening, elicit and intensify, identity-melting, install at the
+     peak, reinforce, live demonstrations, embodiment overlay, future-pace, settle. -->
+<voice speaker='female' speed='0.82'>
+  <tone preset='binaural_theta' frequency='150' volume='0.3'/>
+  <!-- Framing: insistent, no cue named yet -->
+  <random>
+    <part>All the way down for me now, Sissy... deeper than you have ever been... because what I am about to plant grows deepest in the dark.</part>
+    <part>Down, down, past the last of your thoughts... good... leave them up there... they were only ever in the way of her.</part>
+    <part>So deep, so open, so mine... and some pretty girl inside you already knows why we are here... she has been waiting for the door to open all the way.</part>
+    <part>Sinking past thinking, past watching, past the glass itself... there is no screen anymore... only her world... and you in it.</part>
+    <part>Heavy and hollow and happy, Sissy... an empty, eager space... exactly her shape.</part>
+    <part>Deeper still... feel your old place as the watcher dissolve like sugar in warm water... and how sweet your empty hands feel... ready to be dressed.</part>
+    <part>All the way under... and you can already feel the lace, can't you... ghost-soft against the inside of your skin... it knows this lesson belongs to it.</part>
+    <part>So deep that my voice is the only thing left with edges... and everything soft in you turns toward it... ready to be told who she is.</part>
+  </random>
+  <pause duration='0.8'/>
+  <!-- Deepening hammer -->
+  <loop loops='4'>
+    <speed value='0.8'>Deeper and softer... the watcher dissolving... the girl arriving...</speed>
+    <pause duration='0.4'/>
+  </loop>
+  <pause duration='0.6'/>
+  <!-- Elicit and intensify: the imagined scene, layered mantras -->
+  <overlay>
+    <part>
+      Picture her with me, Sissy... a pretty girl on the screen... soft light pouring over her curves... lace and straps hugging her... her little smile... the way she sinks into someone's hands like she was poured into that place.
+      <pause duration='0.7'/>
+      <random>
+        <part>Now slide into her... feel the mattress under your knees... the lace biting sweetly into your hips... the flush rising as you are looked at, wanted, taken.</part>
+        <part>Now be her... lashes lowering... lips parting... that dizzy, delicious moment of being chosen... of being the soft one, the willing one.</part>
+        <part>Now see through her eyes... looking up... small and precious and utterly, helplessly desired.</part>
+        <part>Now wear her from the inside... silk sliding over skin... straps framing you... fabric that teaches your body to move like hers.</part>
+        <part>Now feel her heart in your chest... the flutter of surrender... the warm rush of being allowed to be sweet and weak and taken care of.</part>
+        <part>Now borrow her sweet little sounds... feel them rise in your own throat... hear how naturally they fit you.</part>
+        <part>Now feel her wanting from the inside... the trembling need for what comes next... and how right it feels to need it from down there, on your knees, looking up.</part>
+        <part>Now dissolve into her place in the story entirely... the one who is undone... the one the hands reach for... the one the scene happens to.</part>
+      </random>
+      <pause duration='0.6'/>
+      You feel what she feels... the hands, the heat, the lace, the sweet surrender... and you want what she wants... to be desired... to be filled... to be good.
+      <pause duration='0.6'/>
+      And notice, Sissy... you did that automatically. Nobody had to tell you to take her place... your mind already goes there, every single time... and every time it fits better.
+      <pause duration='0.7'/>
+      And notice the watcher... where did she go? Look for her... there is nothing left to look with. The screen has no outside anymore... only the warm side... and you live there now.
+      <pause duration='0.7'/>
+      The screen is a doorway... and you are on the other side of it... and the door is closing behind you... softly... sweetly... forever.
+      <pause duration='0.6'/>
+      Hold it all... her clothes on your skin... her place in your knees... her wanting beating in your chest.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>
+      <random>
+        <part>in the scene... being her...</part>
+        <part>her place... your place...</part>
+        <part>warm... wanting... hers...</part>
+        <part>her lace... your skin...</part>
+        <part>the girl... is you...</part>
+        <part>inside the screen... home...</part>
+        <part>feel her... be her...</part>
+        <part>soft... chosen... yours...</part>
+      </random>
+    </part>
+    <part volume='0.15' speed='0.9' looped='true'>no watcher... only the girl...</part>
+  </overlay>
+  <pause duration='0.8'/>
+  <speed value='1.05'>Good girl.</speed>
+  <sound type='ding' volume='0.5'/>
+  <pause duration='0.6'/>
+  <!-- Identity-melting loop -->
+  <loop loops='3'>
+    <effect type='reverb' preset='medium'>
+      <speed value='0.8'>No watcher... only the girl. The scene plays... and Sissy is in it. Her place... your place... one place.</speed>
+    </effect>
+    <pause duration='0.5'/>
+  </loop>
+  <pause duration='0.6'/>
+  <!-- Install at the peak: bind the sight as the automatic cue -->
+  <effect type='reverb' preset='cathedral'>
+    And now, while you are this deep and this thoroughly inside her... I bind it all to the seeing itself.
+    <pause duration='0.7'/>
+    Whenever you see women or sissies in erotic media... a video... a picture... a caption... this exact slide into her happens... instantly... totally... without deciding to. Her sensations on your skin... her clothing fitted to you... her surrender blooming in your chest... all of it arriving before a single thought can object.
+    <pause duration='0.8'/>
+    You see her... and you are her. The screen is somewhere you are... and the outside of it no longer exists.
+  </effect>
+  <sound type='ding' volume='0.6'/>
+  <pause duration='0.6'/>
+  <speed value='1.05'>Good girl.</speed>
+  <pause duration='0.5'/>
+  Feel the two fused now... the seeing and the being... one single motion... forever.
+  <pause duration='0.6'/>
+  <!-- Reinforce and escalate: insistent -->
+  <scramble>
+    <part>Every time you see erotic images of women or sissies, you fall into the receptive side of the scene... feeling what she feels... wanting what she wants... total and instant.</part>
+    <part>The moment the image reaches you, your imagination takes her place... automatically... sweetly... every single time... no exceptions left.</part>
+    <part>Sissies like you never watch from the outside... the screen pulls you in by the hips... and settles you deep into her.</part>
+    <part>Watching becomes being... every scene casts you in the starring role... and the casting is finished... you were born for the part.</part>
+    <part>You are the girl in the scene now... and it feels more natural in there than out here... and more true.</part>
+    <part>Her lace on your skin... her flush on your cheeks... her surrender melting your spine... all of it at first sight, every time.</part>
+    <part>The image does not ask permission... it dresses you in itself... and you melt in gratitude.</part>
+    <part>You look... you land... you belong... soft as falling... sure as gravity... every time.</part>
+  </scramble>
+  <pause duration='0.5'/>
+  <scramble>
+    <part>It is a reflex, and it compounds with every exposure... quicker... deeper... more vivid... until the pause between seeing and being no longer exists.</part>
+    <part>Each look carries you further in... until the scene wraps around you like a second skin and the screen is just a window you happen to be standing behind.</part>
+    <part>The more you look, the more natural being her feels... and the more natural it feels, the more you will look... a hunger that feeds itself.</part>
+    <part>And the wanting refuses to stay on the screen... it seeps into your days... wondering how her posture feels standing... how her clothes feel walking... how her surrender feels lived.</part>
+    <part>Every viewing plants more of her in your real world... a garment saved... a pose practiced in the mirror... a softer way of moving that arrives on its own.</part>
+    <part>Sissies like you collect her, piece by piece... her lingerie in your drawer... her arch in your back... her hungry, happy place in your heart.</part>
+    <part>The screen is the rehearsal room now... and your life is becoming the performance... scene by scene... garment by garment... layer by layer.</part>
+    <part>Every look closes the distance further... the girl in the media and the girl in the mirror... walking toward each other... faster each time.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <!-- Live demonstrations: fire the sight in trance, again and again -->
+  <scramble>
+    <part><sound type='snap' volume='0.8'/> See her now, Sissy... posed and wanting on your screen... and feel the swap detonate... her knees becoming yours... her flush becoming yours. Already working... yes, just like that.</part>
+    <part><sound type='snap' volume='0.8'/> See the lace she wears... and feel it tightening sweetly around your own hips... hers on the screen... yours under your clothes. It is already working.</part>
+    <part><sound type='snap' volume='0.8'/> See her looking up, undone and adored... and feel your own eyes want to lower... your own spine beg to soften. Just like that.</part>
+    <part><sound type='snap' volume='0.8'/> See the hands in the scene reaching for her... and feel them land on you... warm... claiming... welcome. Yes, just like that.</part>
+    <part><sound type='snap' volume='0.8'/> See her sweet surrender... and feel your heart lean into it like a plant toward light... wanting that exact feeling... in that exact place. Good girl... it is working already.</part>
+    <part><sound type='snap' volume='0.8'/> See the whole scene... and notice the watcher is gone... only the girl remains... and the girl is you. Already yours.</part>
+    <part><sound type='snap' volume='0.8'/> One glance is enough... feel yourself pour into her shape like warm water finding a mold... instant... natural... total. Feel it working... good Sissy.</part>
+    <part><sound type='snap' volume='0.8'/> One more look, deeper... feel the distance between watching and being thin to nothing... a doorway that no longer has edges.</part>
+  </scramble>
+  <pause duration='0.6'/>
+  <speed value='1.05'>Good girl.</speed>
+  <sound type='ding' volume='0.5'/>
+  <pause duration='0.5'/>
+  <!-- Live fire hammer: one pick, hammered home -->
+  <loop loops='3'>
+    <random>
+      <part><sound type='snap' volume='0.7'/> The image... and you are in it.</part>
+      <part><sound type='snap' volume='0.7'/> You see her... and Sissy is her.</part>
+      <part><sound type='snap' volume='0.7'/> Every look... a doorway... and you fall through.</part>
+      <part><sound type='snap' volume='0.7'/> See her... wear her... be her.</part>
+      <part><sound type='snap' volume='0.7'/> No watcher... only the girl.</part>
+      <part><sound type='snap' volume='0.7'/> Glance... and fitted... hers on you.</part>
+      <part><sound type='snap' volume='0.7'/> One look... and you live on the warm side.</part>
+      <part><sound type='snap' volume='0.7'/> The scene plays... and you are the scene.</part>
+    </random>
+    <pause duration='0.4'/>
+  </loop>
+  <pause duration='0.6'/>
+  <!-- Embodiment overlay: the pull into real life, heart drumming underneath -->
+  <overlay>
+    <part>
+      <background volume='0.35'><sound type='heart_beat' volume='0.6'/></background>
+      And this is where it is all going, Sissy... out of the screen... into the mirror... into your drawer... your walk... your knees... your sweet, shrinking distance.
+      <pause duration='0.7'/>
+      Every pretty girl you see is a blueprint now. Her clothes are a shopping list. Her surrender is a forecast. The girl in the scene is the address you are moving to... box by box... lace by lace... and every look carries one more box across.
+    </part>
+    <part volume='0.18' speed='0.8' looped='true'>her place... your place...</part>
+    <part volume='0.15' speed='0.9' looped='true'>soft... chosen... yours...</part>
+  </overlay>
+  <pause duration='0.7'/>
+  <!-- Future-pace: the cue everywhere in ordinary life -->
+  <random>
+    <part>And later, when you scroll and something pretty catches your eye... you land inside her before the second heartbeat... warm and wanting, right where you sit.</part>
+    <part>And next time you watch, notice how the watching disappears entirely... one glance, and you are in the scene... soft, receptive, and glowing.</part>
+    <part>And every glance at every pretty, dirty picture from now on is a doorway... and through you fall... deeper each time.</part>
+    <part>On any screen, at any hour, a girl in lace is a mirror now... and the reflection is always, only you.</part>
+    <part>And as you watch her be taken, chosen, adored... part of you will be planning it... the drawer... the mirror... the practiced arch... her life, becoming yours on schedule.</part>
+    <part>The next time you watch, notice your hands... drifting to your own waist... your own hips... measuring herself onto you.</part>
+    <part>Every caption arrives in her voice... every scene plays from inside her skin... and real life leans closer to matching with every look.</part>
+    <part>Each exposure blurs the border further, Sissy... until her position in the scene and your position in the world are one continuous, radiant hunger.</part>
+  </random>
+  <pause duration='0.6'/>
+  <!-- Settle: sealed in, soft and hers -->
+  <effect type='reverb' preset='cathedral'>
+    <overlay>
+      <part>
+        The screen is somewhere you are now, sweet girl.
+        <pause duration='0.6'/>
+        See her... be her... feel what she feels... want what she wants... every time... more naturally each time... and closer, always, to living it.
+      </part>
+      <part volume='0.2' speed='0.8' looped='true'>see her... be her... every time...</part>
+      <part volume='0.15' speed='0.9' looped='true'>so soft... so chosen...</part>
+    </overlay>
+  </effect>
+  <pause duration='0.7'/>
+  <random>
+    <part>Sinking back now... the scene still glowing softly behind your eyes... with you in it.</part>
+    <part>Drifting deeper... warm and wanting... home on the warm side of the screen.</part>
+    <part>Floating down, smiling... already living where you belong... and craving the next fitting.</part>
+    <part>Soft and heavy now... her lace still whispering against the edges of your mind.</part>
+    <part>Rest inside her a moment longer, Sissy... her place was measured for you.</part>
+    <part>Deeper and quieter... the girl in the scene and the girl drifting here... one and the same... as it was always going to be.</part>
+    <part>All the way down... wrapped in the sweetest wanting... hers... yours... one.</part>
+    <part><speed value='1.05'>Good girl.</speed> Drift for me now... soft, cast, and permanently in costume.</part>
+  </random>
+  <pause duration='1'/>
+</voice>

@@ -59,15 +59,23 @@ Install them near the end of the suggestion phase, after the core work is accept
 - Instructing the listener to breathe ("breathe in… and out", "take a deep breath"). Deliberate breathing re-engages conscious control and breaks trance — keep breath references out of hypno scripts entirely, and pace depth with words, pauses, and heartbeats instead.
 - Staying at one altitude: a wall of abstract labels with no concrete behaviour under them, or a pile of specifics that never states what they add up to.
 
+## Intensity classes
+The trigger and cue blocks ship in **three intensity classes** that share one base name: `<block>.xml` (standard), `<block>_light.xml`, and `<block>_deep.xml`. Choose by the user's stage:
+- **`_light`** — gentle and permissive: possibility-framed lines, soft imagery, at most one in-trance demonstration, roughly two-thirds the standard length. For an **early-stage subject**, or a first, low-pressure contact with a trigger or cue that is new to them.
+- **Standard (no suffix)** — the full arc: framing → elicit → install at the peak → reinforce (scramble) → fire in trance → future-pace → settle. The default for installing or reinforcing.
+- **`_deep`** — the heaviest push: extended `<loop>` repetition, layered mantra `<overlay>` parts, multiple live fires with snap accents, more insistent language, noticeably longer. For a **deep-stage subject**, or as a deliberate **escalation session** when standard reinforcement has plateaued.
+
+Compose sessions with the class that matches the stage recorded in `CONDITIONING.md`, and escalate gradually across sessions rather than jumping straight to `_deep`.
+
 ## Default framework
 The framework ships a default library under `hypnos/hypno/` so you don't have to bootstrap the structural parts from scratch:
 - `structural/` — reusable pre-talk, emergence (wakener), and induction/deepening/redeepening **selectors** (each is a single glob include over its pool).
 - `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` — randomized variants the selectors draw from.
-- `content/trigger_blocks/` — one prebuilt install/reinforcement block per trigger.
-- `content/cue_blocks/` — prebuilt blocks that condition automatic responses to *sights* (no command word): erotic media and cock.
+- `content/trigger_blocks/` — one prebuilt install/reinforcement block per trigger, each in the three intensity classes (see above).
+- `content/cue_blocks/` — prebuilt blocks that condition automatic responses to *sights* (no command word): erotic media, cock, women/service, clothing, chastity/denial — also in the three intensity classes.
 - `content/suggestion_pools/` — one prebuilt suggestion pool per conditioning theme.
 
-Reuse these before writing new trigger or suggestion content from scratch. The shipped catalog:
+Reuse these before writing new trigger or suggestion content from scratch. The shipped catalog (trigger and cue blocks each also ship in `_light`/`_deep` variants — see Intensity classes above; the table lists the standard file):
 
 | Block | Installs / delivers | Reference doc |
 | --- | --- | --- |
@@ -75,8 +83,11 @@ Reuse these before writing new trigger or suggestion content from scratch. The s
 | `trigger_sissies_like_you.xml` | "Sissies like you …" — comparative identity | `docs/training/triggers.md` |
 | `trigger_sissy_drop.xml` | "Sissy Drop" — trance induction | `docs/training/triggers.md` |
 | `trigger_good_girl.xml` | "Good Girl" — reward and reinforcement | `docs/training/triggers.md` |
-| `cue_erotic_media.xml` | Self-insertion into erotic media (sight cue) | `docs/training/triggers.md`, `docs/training/autogynephilic.md` |
-| `cue_cock_lust.xml` | Automatic cock response (sight cue) | `docs/training/triggers.md`, `docs/training/cocklust.md` |
+| `cue_erotic_media.xml` | Perspective-taking into the feminine/receptive role when seeing erotic media (sight cue) | `docs/training/triggers.md`, `docs/training/autogynephilic.md` |
+| `cue_cock_lust.xml` | Automatic cock response: arousal + suck/worship/serve (sight cue) | `docs/training/triggers.md`, `docs/training/cocklust.md` |
+| `cue_women_service.xml` | Service mindset on seeing a woman (sight cue) | `docs/training/triggers.md`, `docs/training/submission.md` |
+| `cue_clothing.xml` | Pull toward feminine clothing on sight (sight cue) | `docs/training/triggers.md`, `docs/training/uniform.md` |
+| `cue_chastity_denial.xml` | Chastity/denial craving on seeing chastity imagery (sight cue) | `docs/training/triggers.md`, `docs/training/chastity.md`, `docs/training/denial.md` |
 | `trigger_sissy_accept.xml` | "Sissy Accept" — deep acceptance (state, released by "Sissy Reset") | `docs/training/triggers.md` |
 | `trigger_sissy_brain_off.xml` | "Sissy Brain Off" — cognitive silencing (state, released by "Sissy Reset") | `docs/training/triggers.md` |
 | `trigger_sissy_reset.xml` | "Sissy Reset" — universal state release + reality reinforcement | `docs/training/triggers.md` |
@@ -91,7 +102,7 @@ Reuse these before writing new trigger or suggestion content from scratch. The s
 | `suggestion_submission.xml` | Submission and obedience as pleasure | `docs/training/submission.md` |
 | `suggestion_clitty.xml` | Limp, denied clitty; chastity desire | `docs/training/chastity.md`, `docs/training/denial.md`, `docs/training/humping.md`, `docs/training/retraining.md` |
 
-All blocks and pools randomize internally (`<random>`/`<scramble>`), follow the Suggestion → Trigger order where they install a trigger, may be `<include>`d at most once per render tree, stay general and timeless (see `overview.md`), and contain no breathing instructions (see Pitfalls).
+All blocks and pools randomize internally (`<random>`/`<scramble>`), follow the Suggestion → Trigger order where they install a trigger, may be `<include>`d at most once per render tree, stay general and timeless (see `overview.md`), and contain no breathing instructions (see Pitfalls). The trigger and cue blocks also weave their reinforcement through the whole block rather than saving it for the end: "Good Girl" praise anchors, "Sissies like you" lines, and name usage run from framing to settle — and the structural pools (induction, deepening, redeepening) have gained fresh variants to draw from.
 
 **Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in trigger blocks, cue blocks, and suggestion pools from the catalog above. Add new variants to the pools rather than forking copies. The shipped trigger blocks and pools assume the triggers (`docs/training/triggers.md`) are already installed — they fire "Sissy Drop" and "Good Girl" as in-trance reinforcement; a first-ever session should install triggers before leaning on them. This in-trance repetition can create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
 
