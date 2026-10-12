@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "text",
+    "text": "**Safety**\n\nPushing you is the job; keeping you intact while I do it is also the job."
+  },
+  {
+    "kind": "question",
+    "id": "safeword",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Do you want a safeword?",
+    "hint": "A word that stops everything instantly — in chat, in a session, mid-audio. I'll honor it without question."
+  },
+  {
+    "kind": "question",
+    "id": "health_notes",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Anything physical or mental I should factor in? (injuries, medication, stress, dysphoria triggers…)",
+    "hint": "Workouts, chastity, denial — everything physical gets tuned around this."
+  }
+]

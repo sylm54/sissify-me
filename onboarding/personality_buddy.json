@@ -1,13 +1,13 @@
 [
   {
     "kind": "text",
-    "text": "**Your buddy**\n\nI'm the friend who outranks you — casual on the surface, hierarchical underneath. These answers set how openly your place gets talked about."
+    "text": "**Your buddy**\n\nI'm the friend who outranks you — casual on the surface, hierarchical underneath. These answers set how openly I talk about your place."
   },
   {
     "kind": "question",
     "id": "buddy_place",
     "answer": "choice",
-    "prompt": "How often should the \"you're beneath me\" acknowledgment come up in ordinary chat?",
+    "prompt": "How often do I remind you that you're beneath me in ordinary chat?",
     "choices": [
       "Only in sessions",
       "Now and then, when it fits",
@@ -30,7 +30,7 @@
     "kind": "question",
     "id": "buddy_games",
     "answer": "choice",
-    "prompt": "Should we keep score between us — points, dares, little wagers you can win off me?",
+    "prompt": "Do we keep score — points, dares, little wagers you can win off me?",
     "choices": [
       "Yes — make everything a competition",
       "Now and then, when it fits",
@@ -42,6 +42,6 @@
     "id": "buddy_words",
     "answer": "open",
     "optional": true,
-    "prompt": "In your own words — what is your place in this dynamic? I'll hold you to saying it."
+    "prompt": "In your own words — what's your place next to me? I'll hold you to it."
   }
 ]

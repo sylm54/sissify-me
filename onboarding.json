@@ -3,313 +3,53 @@
   "items": [
     {
       "kind": "text",
-      "text": "Welcome. Your answers here are the first thing your agent ever learns about you — they shape your plan, your training, and how you are treated from the very first session. Answer honestly; almost everything can be skipped or changed later in chat."
-    },
-    {
-      "kind": "question",
-      "id": "age",
-      "answer": "open",
-      "prompt": "How old are you?",
-      "hint": "This framework is strictly for adults, 18+."
-    },
-    {
-      "kind": "question",
-      "id": "depth",
-      "answer": "choice",
-      "prompt": "How deep should this onboarding go?",
-      "hint": "Light keeps it to the essentials, Medium adds a solid profile, Deep adds the introspective layers — what this really is for you, what turns you on about it, and where the friction lives. You can always go deeper in conversation later.",
-      "choices": ["Light", "Medium", "Deep"]
-    },
-    {
-      "kind": "text",
-      "text": "**About you**"
-    },
-    {
-      "kind": "question",
-      "id": "callname",
-      "answer": "open",
-      "optional": true,
-      "prompt": "What should I call you — a name, a nickname, or the feminine name you go by?"
-    },
-    {
-      "kind": "question",
-      "id": "petnames",
-      "answer": "choice",
-      "multiple": true,
-      "optional": true,
-      "prompt": "And which pet names may I use for you? (pick any)",
-      "showIf": { "id": "depth", "notEquals": "Light" },
-      "choices": [
-        "sissy",
-        "slut",
-        "good girl",
-        "princess",
-        "pet",
-        "bitch",
-        "toy",
-        "none — just my name"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "pronouns",
-      "answer": "choice",
-      "multiple": true,
-      "optional": true,
-      "prompt": "Which pronouns fit how you want to be seen?",
-      "showIf": { "id": "depth", "notEquals": "Light" },
-      "choices": ["she/her", "he/him", "they/them", "it/its"]
-    },
-    {
-      "kind": "question",
-      "id": "experience",
-      "answer": "choice",
-      "prompt": "How experienced are you with this side of yourself?",
-      "hint": "Where you actually are today, not where you plan to be.",
-      "choices": [
-        "Curious — mostly fantasy so far",
-        "Experimenting — trying things in private",
-        "Practicing — a regular private part of my life",
-        "In training — structure, habits, protocols",
-        "Integrated — part of my daily life, not just play"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "body_shape",
-      "answer": "open",
-      "optional": true,
-      "prompt": "Describe your body as it is now — your build, and measurements if you know them (height, weight, chest, waist, hips) — and how you feel about your shape.",
-      "hint": "A rough self-assessment is fine; exact numbers aren't required. This grounds body and shaping goals in where you actually are.",
-      "showIf": { "id": "depth", "equals": "Deep" }
-    },
-    {
-      "kind": "question",
-      "id": "fitness",
-      "answer": "choice",
-      "prompt": "How active is your life right now?",
-      "hint": "Body and shaping work starts from your real fitness level, not the one you plan to have.",
-      "showIf": { "id": "depth", "notEquals": "Light" },
-      "choices": [
-        "Mostly sedentary",
-        "Lightly active — walking, occasional exercise",
-        "Active — I work out regularly",
-        "Very active — training is already routine"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "time_daily",
-      "answer": "choice",
-      "prompt": "How much time can you realistically give this on an ordinary day?",
-      "hint": "Routines and sessions get planned around this — be honest, not optimistic.",
-      "choices": [
-        "Under 15 minutes a day",
-        "15–30 minutes a day",
-        "30–60 minutes a day",
-        "An hour or more a day",
-        "It varies a lot"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "living",
-      "answer": "choice",
-      "prompt": "Who's around while you do this?",
-      "hint": "This decides how private your tasks and rituals can be.",
-      "choices": [
-        "I live alone",
-        "With a partner — we're in this together",
-        "With a partner who doesn't know",
-        "With family or roommates",
-        "It's complicated — I'll explain"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "living_other",
-      "answer": "open",
-      "optional": true,
-      "showIf": { "id": "living", "equals": "It's complicated — I'll explain" },
-      "prompt": "Tell me about your living situation in your own words."
-    },
-    {
-      "kind": "question",
-      "id": "schedule_notes",
-      "answer": "open",
-      "optional": true,
-      "prompt": "Anything in your weekly schedule I should plan around — work, family, sleep?",
-      "showIf": { "id": "depth", "equals": "Deep" }
-    },
-    {
-      "kind": "text",
-      "text": "**Your journey**"
-    },
-    {
-      "kind": "question",
-      "id": "goals",
-      "answer": "choice",
-      "multiple": true,
-      "prompt": "What do you want out of this?",
-      "choices": [
-        "Look more feminine",
-        "Think and act more feminine",
-        "Serve and obey",
-        "Be corrupted — want it more than I should",
-        "Retrain my sexuality — new wants, new outlets",
-        "Explore my limits",
-        "Mostly just curious"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "pace",
-      "answer": "choice",
-      "prompt": "How fast should things move?",
-      "choices": [
-        "Slow — build comfort first",
-        "Steady — challenge me regularly",
-        "Fast — push past my comfort zone",
-        "You judge by my progress"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "end_goal_sure",
-      "answer": "choice",
-      "prompt": "Setting fantasy aside: how far do you want this in real life — the level you're sure about?",
-      "hint": "Your floor: the life you'd commit to today.",
-      "showIf": { "id": "depth", "notEquals": "Light" },
-      "choices": [
-        "Curious exploration",
-        "A part-time sissy life",
-        "A full sissy lifestyle",
-        "Total transformation"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "end_goal_stretch",
-      "answer": "choice",
-      "prompt": "And where does it get uncertain — a level above that which pulls at you, even if you're not sure about it?",
-      "hint": "Your stretch zone. It's fine to want something and still be unsure of it.",
-      "showIf": { "id": "depth", "notEquals": "Light" },
-      "choices": [
-        "No stretch zone — I'm sure where I stand",
-        "Curious exploration",
-        "A part-time sissy life",
-        "A full sissy lifestyle",
-        "Total transformation"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "end_goal_unsure_why",
-      "answer": "open",
-      "optional": true,
-      "prompt": "What makes that stretch uncertain — the reasons pulling you back from it?",
-      "hint": "Practical, emotional, whatever they are — these are the lines I shouldn't stumble into.",
-      "showIf": {
-        "all": [
-          { "id": "depth", "notEquals": "Light" },
-          { "id": "end_goal_stretch", "notEquals": "No stretch zone — I'm sure where I stand" }
-        ]
-      }
-    },
-    {
-      "kind": "question",
-      "id": "end_goal_ceiling",
-      "answer": "choice",
-      "multiple": true,
-      "optional": true,
-      "prompt": "And is there a level you're sure you do NOT want, however far off?",
-      "hint": "These are levels I should never push you toward, even as a stretch.",
-      "showIf": {
-        "all": [
-          { "id": "depth", "equals": "Deep" },
-          { "id": "end_goal_sure", "notEquals": "Total transformation" },
-          { "id": "end_goal_stretch", "notEquals": "No stretch zone — I'm sure where I stand" },
-          { "id": "end_goal_stretch", "notEquals": "Total transformation" }
-        ]
-      },
-      "choices": [
-        "A full sissy lifestyle",
-        "Total transformation",
-        "No — nothing is off the table in principle"
-      ]
+      "text": "**Before we begin**\n\nIn order: the basics of who you are; your time and your living situation; your hard limits — placed early, so everything after them respects them; what you watch and what actually pulls you; the parts of this that bite you back; what you're into, in two passes; where you've been and where this could go; safety; and finally how I should run you. Answer honestly, skip what you must — almost everything can be revised in chat once we know each other."
     },
     {
       "kind": "include",
-      "src": "onboarding/identity.json",
-      "showIf": { "id": "depth", "notEquals": "Light" }
-    },
-    {
-      "kind": "question",
-      "id": "journey_now",
-      "answer": "open",
-      "optional": true,
-      "prompt": "In your own words, where do you currently stand in your experience as a sissy, and how integrated does this side of yourself feel in ordinary daily life rather than only during arousal or play?",
-      "showIf": { "id": "depth", "equals": "Deep" }
-    },
-    {
-      "kind": "question",
-      "id": "journey_draw",
-      "answer": "open",
-      "optional": true,
-      "prompt": "What first drew you toward this, and what continues to pull you back to it now?",
-      "showIf": { "id": "depth", "equals": "Deep" }
-    },
-    {
-      "kind": "question",
-      "id": "holding_back",
-      "answer": "open",
-      "optional": true,
-      "prompt": "What holds you back right now — difficulties, fears, or obstacles that keep getting in the way?",
-      "showIf": { "id": "depth", "equals": "Deep" }
+      "src": "onboarding/essentials.json"
     },
     {
       "kind": "include",
-      "src": "onboarding/interests.json",
+      "src": "onboarding/timeliving.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/limits.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/media.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/pulls.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/rejection.json",
       "showIf": { "id": "depth", "notEquals": "Light" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/interests.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/history.json",
+      "showIf": { "id": "depth", "notEquals": "Light" }
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/milestones.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/safety.json"
     },
     {
       "kind": "text",
-      "text": "**Limits and safety**"
-    },
-    {
-      "kind": "question",
-      "id": "public_reach",
-      "answer": "choice",
-      "prompt": "How far may your training reach beyond your front door?",
-      "hint": "Dress codes, grooming, errands — anything anyone out there could see or infer obeys this line, and I never cross it.",
-      "choices": [
-        "Home only — nothing leaves these walls",
-        "Hidden — things I wear under my clothes, invisible to anyone",
-        "Subtle — grooming, nails, hints only someone looking would catch",
-        "Open — I can dress or present visibly where it's appropriate"
-      ]
-    },
-    {
-      "kind": "question",
-      "id": "hard_limits",
-      "answer": "open",
-      "optional": true,
-      "prompt": "Any hard limits — things that must never come up, in any form?",
-      "hint": "Leave blank if none. I take these literally; you can add more any time."
-    },
-    {
-      "kind": "include",
-      "src": "onboarding/limits.json",
-      "showIf": { "id": "depth", "notEquals": "Light" }
-    },
-    {
-      "kind": "text",
-      "text": "**How I should treat you**\n\nThese answers shape my tone, my language, and my boundaries from the first session on — the role- and personality-specific ones follow below."
-    },
-    {
-      "kind": "include",
-      "src": "onboarding/behavior.json",
-      "showIf": { "id": "depth", "notEquals": "Light" }
+      "text": "**How I should run you**\n\nLast stretch. Depending on the role and personality you picked for me."
     },
     {
       "kind": "include",
@@ -323,13 +63,13 @@
     },
     {
       "kind": "include",
-      "src": "onboarding/role_trainer.json",
-      "showIf": { "part": "role_trainer" }
+      "src": "onboarding/role_schemer.json",
+      "showIf": { "part": "role_schemer" }
     },
     {
       "kind": "include",
-      "src": "onboarding/role_schemer.json",
-      "showIf": { "part": "role_schemer" }
+      "src": "onboarding/role_trainer.json",
+      "showIf": { "part": "role_trainer" }
     },
     {
       "kind": "include",
@@ -352,15 +92,11 @@
       "showIf": { "part": "personality_superior" }
     },
     {
-      "kind": "text",
-      "text": "**Almost done**\n\nYour agent reads every answer before your first conversation — honesty here saves time there. Anything you skip can be shared in chat later."
-    },
-    {
       "kind": "question",
       "id": "anything_else",
       "answer": "open",
       "optional": true,
-      "prompt": "Anything else your agent should know before you start?",
+      "prompt": "Anything else I should know before I begin?",
       "showIf": { "id": "depth", "notEquals": "Light" }
     }
   ]

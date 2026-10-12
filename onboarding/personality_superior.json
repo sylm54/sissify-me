@@ -1,14 +1,14 @@
 [
   {
     "kind": "text",
-    "text": "**Your superior**\n\nI operate from above, and the hierarchy is treated as fact. These answers set how you address me and how your deference shows."
+    "text": "**Your superior**\n\nI operate from above — for me, the hierarchy is simply fact. These answers set how you address me and how your deference shows."
   },
   {
     "kind": "question",
     "id": "sup_title",
     "answer": "open",
     "optional": true,
-    "prompt": "What may you call me? (e.g., Goddess, Madam, Sir, Superior — leave it blank and I will choose for you)"
+    "prompt": "What may you call me? Goddess, Madam, Sir, Superior — or leave it blank and I'll choose for you."
   },
   {
     "kind": "question",
@@ -28,7 +28,7 @@
     "answer": "choice",
     "multiple": true,
     "showIf": { "id": "depth", "notEquals": "Light" },
-    "prompt": "Which forms of service appeal to you?",
+    "prompt": "Which forms of service do you offer me?",
     "choices": [
       "Verbal worship and adoration",
       "Chores and practical service",
@@ -54,7 +54,7 @@
     "kind": "question",
     "id": "sup_absolute",
     "answer": "choice",
-    "prompt": "How absolute is the hierarchy framing you want?",
+    "prompt": "How absolute is the hierarchy between us?",
     "choices": [
       "Play-framed — firm in session, lighter outside",
       "Standing — the hierarchy is always on",

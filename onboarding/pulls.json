@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "text",
+    "text": "**What actually pulls you**\n\nUnder everything else, there's an engine. Sort these honestly — the honest order tells me what to feed and what to starve."
+  },
+  {
+    "kind": "question",
+    "id": "pulls",
+    "answer": "tierlist",
+    "prompt": "Sort these — what actually pulls you?",
+    "hint": "Several of these will be true at once — the ranking is the point. Whatever sits on top is what I lean on.",
+    "tiers": [
+      "Strong fantasy with later rejection",
+      "Strong fantasy",
+      "Mild / occasional",
+      "No interest",
+      "Active dislike"
+    ],
+    "choices": [
+      "Breaking masculinity — the charge of failing at being a real man",
+      "Being pushed past my resistance — manipulated, forced, taken further than I'd go alone",
+      "Being degraded and made lesser — humiliation, embarrassment, the heat of being brought down",
+      "Getting off on my own transformation — aroused by watching myself become feminine",
+      "Structure, service, and someone's approval — obedience, rules, the comfort of submitting",
+      "The physical feel of change — fabrics, grooming, the senses of becoming",
+      "Escaping into the fantasy — sinking deep enough to lose ordinary self-awareness",
+      "Femininity already feels like me — living it and being seen as the girl I am inside",
+      "Having my mind rewritten — thoughts, self-talk, name, sense of self altered or overwritten",
+      "Relief from masculine pressure — a break from the expectations of performing manhood",
+      "Being seen feminine — mirrors, photos, others recognizing me as a girl",
+      "Turning my partner on — aroused by what my feminization does to them"
+    ]
+  }
+]

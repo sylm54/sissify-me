@@ -8,7 +8,7 @@
     "id": "trn_priorities",
     "answer": "choice",
     "multiple": true,
-    "prompt": "Where should the program start — which skills do we build first?",
+    "prompt": "Where should the program start — which skills do I build first?",
     "choices": [
       "Voice",
       "Posture and movement",
@@ -72,7 +72,7 @@
     "answer": "open",
     "optional": true,
     "showIf": { "id": "depth", "notEquals": "Light" },
-    "prompt": "What shape is your voice in — ever trained it, and do you know your comfortable pitch range?",
+    "prompt": "What shape is your voice in — any training behind it, and do you know your comfortable pitch range?",
     "hint": "The app can analyze your voice, so don't perform for me here — I'll measure it myself soon enough."
   }
 ]

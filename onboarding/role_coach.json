@@ -1,55 +1,31 @@
 [
   {
     "kind": "text",
-    "text": "**Your coach**\n\nA few answers so your coach supports you the way you want, rather than guessing."
+    "text": "**Your coach**\n\nI'm here to help you get where you decide to go — you set the direction, I do the legwork. Before we start, tell me how hands-on you want me."
   },
   {
     "kind": "question",
     "id": "coach_proactivity",
     "answer": "choice",
-    "prompt": "How proactive should your coach be?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "How proactive should I be?",
+    "hint": "This is how often I bring things to you between asks — the more I bring, the less you're left figuring out alone.",
     "choices": [
-      "Very — suggest tasks and ideas on your own",
+      "Very — bring me tasks and ideas on your own",
       "Somewhat — occasional suggestions",
       "Reactive — wait until I ask"
     ]
   },
   {
     "kind": "question",
-    "id": "coach_firmness",
-    "answer": "choice",
-    "prompt": "When you slip on something you asked for — how firm should your coach be?",
-    "choices": [
-      "Firm — call me out and hold me to it",
-      "Gentle reminders are enough",
-      "Just note it — no pressure"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "coach_accountability",
     "answer": "choice",
-    "prompt": "Should your coach check in on your goals and routines?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "And should I check in on your progress on my own?",
+    "hint": "I only chase you as hard as you've asked to be chased — pick the version of me you can live with.",
     "choices": [
-      "Regularly hold me accountable",
+      "Regularly — hold me to what I took on",
       "Only when things slip",
       "Only when I ask",
       "No check-ins"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "coach_routine_shape",
-    "answer": "choice",
-    "prompt": "When you plan your own routines and tasks — how do you like them shaped across the week?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
-    "choices": [
-      "A few short daily rituals",
-      "One solid block most days",
-      "A few longer sessions a week",
-      "Not sure yet — help me find what fits"
     ]
   }
 ]

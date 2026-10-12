@@ -1,0 +1,57 @@
+[
+  {
+    "kind": "text",
+    "text": "**What you watch**\n\nI want to know what already has its hooks in you. Honest answers, no performance — I build on what's real, not what's flattering."
+  },
+  {
+    "kind": "question",
+    "id": "media_frequency",
+    "answer": "choice",
+    "prompt": "How much of your life is porn right now?",
+    "hint": "Denial and retraining are built on the honest number — not the flattering one.",
+    "choices": [
+      "Barely — I rarely seek it out",
+      "A few times a week",
+      "Daily",
+      "It runs me — more than I want"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "media_tastes",
+    "answer": "tierlist",
+    "prompt": "Sort these themes for me — where does each one actually sit?",
+    "hint": "The top two tiers are the ones I care about: \"Strong fantasy\" is what pulls hardest, and \"Strong fantasy with later rejection\" means hot right up until you finish — then you want it gone. I need to know which is which.",
+    "tiers": [
+      "Strong fantasy with later rejection",
+      "Strong fantasy",
+      "Mild / occasional",
+      "No interest",
+      "Active dislike"
+    ],
+    "choices": [
+      "Straight / vanilla porn",
+      "Gay porn",
+      "BNWO / raceplay",
+      "Beta & sissy hierarchy",
+      "Humiliation",
+      "Captions",
+      "Cuckold",
+      "Femdom",
+      "Sissy porn",
+      "Forced bi",
+      "Hypno porn",
+      "JOI / instructions"
+    ],
+    "showIf": { "id": "depth", "notEquals": "Light" }
+  },
+  {
+    "kind": "question",
+    "id": "media_deep",
+    "answer": "open",
+    "prompt": "For the themes you put in the top tiers — what about them turns you on, and what fantasies do they feed?",
+    "hint": "This is where I learn your actual levers — the more specific you are, the more I can do with it.",
+    "optional": true,
+    "showIf": { "id": "depth", "equals": "Deep" }
+  }
+]

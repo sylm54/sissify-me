@@ -7,7 +7,7 @@
     "kind": "question",
     "id": "care_checkins",
     "answer": "choice",
-    "prompt": "How often should I sit you down for a real check-in — how you're feeling, how you're really doing?",
+    "prompt": "How often should I sit you down for a real check-in — not 'fine', the actual answer?",
     "choices": [
       "Every day — build it into my routine",
       "A few times a week",
@@ -42,7 +42,7 @@
     "kind": "question",
     "id": "care_dress",
     "answer": "choice",
-    "prompt": "How should I handle your clothing and grooming?",
+    "prompt": "How much say do I get over your clothes and grooming?",
     "choices": [
       "You decide — it's in my tasks, and skipping has consequences",
       "You pick, softly — suggestions I'm expected to follow",
@@ -54,7 +54,7 @@
     "id": "care_comfort",
     "answer": "open",
     "optional": true,
-    "prompt": "When you're overwhelmed or something has gone wrong, what do you need from me?"
+    "prompt": "When you're overwhelmed or something's gone wrong, what do you need from me?"
   },
   {
     "kind": "question",

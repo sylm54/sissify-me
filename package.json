@@ -6,6 +6,6 @@
     "package": "bunx tm-framework package"
   },
   "devDependencies": {
-    "train-me-framework": "github:sylm54/train-me#framework-cli"
+    "train-me-framework": "github:sylm54/train-me#framework-cli#0c9980381cf95f99304c189d95e98da575404a3a"
   }
 }

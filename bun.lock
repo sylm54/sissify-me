@@ -5,13 +5,13 @@
     "": {
       "name": "sissify-me",
       "devDependencies": {
-        "train-me-framework": "github:sylm54/train-me#framework-cli",
+        "train-me-framework": "github:sylm54/train-me#framework-cli#0c9980381cf95f99304c189d95e98da575404a3a",
       },
     },
   },
   "packages": {
     "adm-zip": ["adm-zip@0.6.0", "", {}, "sha512-XleryMhbuksdKtofnWZ9Sk+4CUTbms4Mb/EU32SZwToAyZ5RgVos/ki8n+yr0LWHOGKuakbXTuuYNHLQjhddgg=="],
 
-    "train-me-framework": ["train-me-framework@github:sylm54/train-me#77e943b", { "dependencies": { "adm-zip": "^0.6.0" }, "bin": { "tm-framework": "./src/cli.ts" } }, "sylm54-train-me-77e943b", "sha512-bB2Syyq/8WXxRl8fJJBM/SKpRc2q7NgvLr0pjq1GRC/FJNSxQjkWJWA4lhzOgBJnwzCcUEjOynQetRWAuKTkwQ=="],
+    "train-me-framework": ["train-me-framework@github:sylm54/train-me#0c99803", { "dependencies": { "adm-zip": "^0.6.0" }, "bin": { "tm-framework": "./src/cli.ts" } }, "sylm54-train-me-0c99803", "sha512-qNOEPcG2a/fwqoXw4r2Evw3sTK05ZMcsf6gBZ0FpRG2BLFfKoze2GJSXwBOytX+Z5e6Tr2mPZ/jqA1lLV3vtBg=="],
   }
 }

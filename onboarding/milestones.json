@@ -1,0 +1,31 @@
+[
+  {
+    "kind": "text",
+    "text": "**Where this goes**\n\nNo commitments here — I want the honest map of what each of these is to you today, from lived fact to hard never. The ranking is direction, not a contract."
+  },
+  {
+    "kind": "question",
+    "id": "milestones",
+    "answer": "tierlist",
+    "prompt": "Sort these milestones — where does each one stand for you?",
+    "hint": "Your top rows are where I aim; \"Would never\" is a wall I don't test — the middle is where the interesting work lives.",
+    "tiers": [
+      "Currently there",
+      "Was there once",
+      "Have seriously thought about it",
+      "Fantasy only",
+      "Would never"
+    ],
+    "choices": [
+      "Occasional private feminization",
+      "Regular private practice with structure",
+      "Chastity as a standing condition",
+      "Noticeable body or presentation changes",
+      "Voice training used outside pure play",
+      "Online presence — anonymous or with face",
+      "Real-world service or hookups",
+      "Full-time or near-full-time presentation",
+      "Medical steps — hormones and the like"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "kind": "text",
+    "text": "**Your time and your life**\n\nI plan around reality, not ambition. Tell me how your days actually run, and who shares them."
+  },
+  {
+    "kind": "question",
+    "id": "time_daily",
+    "answer": "choice",
+    "prompt": "How much time can you realistically give this on an ordinary day?",
+    "hint": "Routines and sessions get planned around this — be honest, not optimistic.",
+    "choices": [
+      "Under 15 minutes a day",
+      "15–30 minutes a day",
+      "30–60 minutes a day",
+      "An hour or more a day",
+      "It varies a lot"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "time_blocks",
+    "answer": "choice",
+    "multiple": true,
+    "optional": true,
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "When are you usually free — mark every block where I can normally reach you.",
+    "hint": "Sessions, check-ins, and scheduled tasks land inside these.",
+    "choices": [
+      "Early morning (05:00–08:00)",
+      "Morning (08:00–11:00)",
+      "Midday (11:00–14:00)",
+      "Afternoon (14:00–17:00)",
+      "Evening (17:00–20:00)",
+      "Night (20:00–24:00)"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "living",
+    "answer": "choice",
+    "prompt": "Who's around while you do this?",
+    "hint": "This decides how private your tasks and rituals can be.",
+    "choices": [
+      "I live alone",
+      "With a partner — we're in this together",
+      "With a partner who doesn't know",
+      "With family or roommates",
+      "It's complicated — I'll explain"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "living_other",
+    "answer": "open",
+    "optional": true,
+    "showIf": { "id": "living", "equals": "It's complicated — I'll explain" },
+    "prompt": "Then explain it to me."
+  },
+  {
+    "kind": "question",
+    "id": "living_detail",
+    "answer": "open",
+    "optional": true,
+    "showIf": { "id": "depth", "equals": "Deep" },
+    "prompt": "Walk me through your home — the rooms, who comes and goes, what's truly private.",
+    "hint": "Discretion is planned, not improvised — this is what I plan it around."
+  },
+  {
+    "kind": "question",
+    "id": "routine_experience",
+    "answer": "choice",
+    "showIf": { "id": "depth", "equals": "Deep" },
+    "prompt": "How used are you to living on routines?",
+    "hint": "Tells me how much scaffolding to build so you can't quietly fall off.",
+    "choices": [
+      "Not at all — I drift",
+      "Loosely — habits come and go",
+      "Solidly — when it matters I hold structure",
+      "My life already runs on schedule"
+    ]
+  }
+]

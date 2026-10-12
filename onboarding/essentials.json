@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "text",
+    "text": "**The basics**\n\nBefore I plan anything, I need to know who I'm taking in hand."
+  },
+  {
+    "kind": "question",
+    "id": "depth",
+    "answer": "choice",
+    "prompt": "How deep should this intake go?",
+    "hint": "Light keeps it to the essentials; Medium builds a solid profile; Deep adds the introspective layers — what this actually is for you, what turns you on about it, where the friction lives. You can always go deeper in chat later.",
+    "choices": [
+      "Light",
+      "Medium",
+      "Deep"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "callname",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What should I call you, a name, a nickname, or the feminine name you go by?"
+  },
+  {
+    "kind": "question",
+    "id": "body_basics",
+    "answer": "open",
+    "optional": true,
+    "showIf": { "id": "depth", "equals": "Deep" },
+    "prompt": "Height, weight, and a short physical description — your build, what I'd see if I looked you over.",
+    "hint": "Rough numbers are fine; exact ones aren't required — body and shaping goals start from where you actually are."
+  }
+]

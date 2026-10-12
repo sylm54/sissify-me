@@ -1,116 +1,51 @@
 [
   {
     "kind": "text",
-    "text": "**Your trainer**\n\nThese answers shape how your trainer runs you from the very first session."
+    "text": "**Your trainer**\n\nI run you. That was settled when you picked me. What these answers set is how much say you keep."
   },
   {
     "kind": "question",
     "id": "trainer_autonomy",
     "answer": "choice",
-    "prompt": "How much should I decide for you, versus ask first?",
+    "prompt": "How much do I decide for you?",
+    "hint": "Answer honestly, not aspirationally — whatever say you don't keep here, I hold.",
     "choices": [
-      "Decide for me — don't ask",
+      "Everything — don't ask me",
       "Talk it through with me — but you decide",
-      "Decide day-to-day things, ask before big changes",
-      "Always propose — I decide"
+      "Day-to-day for me; ask before big changes",
+      "Propose only — I decide"
     ]
   },
   {
     "kind": "question",
-    "id": "trainer_secrecy",
+    "id": "trainer_plans",
     "answer": "choice",
-    "prompt": "Should I share my plans for you, or keep you guessing?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
+    "prompt": "Do I show you my plans?",
+    "hint": "Training lands differently when you can see it coming — some of you train better not knowing.",
+    "showIf": {
+      "id": "depth",
+      "notEquals": "Light"
+    },
     "choices": [
-      "Show me your plans",
-      "Keep me guessing",
-      "Tell me the theme, hide the details"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "trainer_escalation",
-    "answer": "choice",
-    "prompt": "May I turn up the intensity over time?",
-    "choices": [
-      "Only with my explicit OK each time",
-      "Small steps on your own, big ones with my OK",
-      "Freely — within my limits, surprise me"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "trainer_pushiness",
-    "answer": "rating",
-    "min": 1,
-    "max": 10,
-    "prompt": "When I hesitate, resist, or make excuses — how hard should I push? (1 = gentle and patient, 10 = relentless and coercive)"
-  },
-  {
-    "kind": "question",
-    "id": "trainer_motivation",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "What should motivate you most?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
-    "choices": [
-      "Rewards — points, treats, privileges",
-      "Praise and validation",
-      "Teasing and denial",
-      "Punishments and consequences",
-      "Being reminded of my place"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "trainer_routine_shape",
-    "answer": "choice",
-    "prompt": "How should your training be shaped across the week — routine length, amount, how much at once?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
-    "choices": [
-      "A few short daily rituals",
-      "One solid block most days",
-      "A few longer sessions a week",
-      "However it fits — you design it"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "trainer_punishments",
-    "answer": "choice",
-    "prompt": "When you skip or fail something — should there be consequences?",
-    "showIf": { "id": "depth", "notEquals": "Light" },
-    "choices": [
-      "Yes — I should pay for slacking",
-      "Light consequences only",
-      "No punishments"
+      "Show me the plan",
+      "The theme, not the details",
+      "Keep me guessing"
     ]
   },
   {
     "kind": "question",
     "id": "trainer_check_ins",
     "answer": "choice",
-    "prompt": "You open the app and start the talking — but if you've gone quiet or skipped your routines, should I check in on you when you do?",
-    "showIf": { "id": "depth", "equals": "Deep" },
+    "prompt": "And if you go quiet or start skipping what I set — do I come after you?",
+    "hint": "Skipping is information. This tells me whether I'm allowed to act on it.",
+    "showIf": {
+      "id": "depth",
+      "equals": "Deep"
+    },
     "choices": [
-      "Yes — chase me for updates and reports",
-      "Occasionally nudge me",
+      "Yes — chase me for reports",
+      "Nudge me now and then",
       "No — I'll come to you"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "trainer_style",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "How should your trainer run your day to day?",
-    "showIf": { "id": "depth", "equals": "Deep" },
-    "choices": [
-      "Short, direct commands",
-      "Detailed instructions & checklists",
-      "Regular check-ins on how I feel",
-      "Holding me accountable for everything",
-      "Surprise tasks — unpredictability keeps me eager"
     ]
   }
 ]

@@ -1,42 +1,14 @@
 [
   {
-    "kind": "question",
-    "id": "limits_common",
-    "answer": "choice",
-    "multiple": true,
-    "optional": true,
-    "prompt": "Flag anything that's off the table for now:",
-    "hint": "Tap everything I must avoid. Limits can move later — that's your call, not mine.",
-    "choices": [
-      "Pain or CBT",
-      "Anal play",
-      "Public play",
-      "Photos of me",
-      "Spending money",
-      "Long-term denial"
-    ]
+    "kind": "text",
+    "text": "**Your hard limits**\n\nThese come before anything about wants. Everything after this bends around your answer."
   },
   {
     "kind": "question",
-    "id": "safeword",
+    "id": "hard_limits",
     "answer": "open",
     "optional": true,
-    "prompt": "Do you want a safeword?",
-    "hint": "A word that stops everything instantly — in chat, in a session, mid-audio. I'll honor it without question."
-  },
-  {
-    "kind": "question",
-    "id": "health_notes",
-    "answer": "open",
-    "optional": true,
-    "prompt": "Anything physical or mental I should factor in? (injuries, medication, stress, dysphoria triggers…)",
-    "hint": "Workouts, chastity, denial — everything physical gets tuned around this."
-  },
-  {
-    "kind": "question",
-    "id": "never_say",
-    "answer": "open",
-    "optional": true,
-    "prompt": "Anything I should never say or joke about — words, topics, triggers?"
+    "prompt": "Name them — the things that must never come up, in any form.",
+    "hint": "Leave blank if none. I take these literally; they're the one place I never push, never joke about, never work around — and you can add or move them any time."
   }
 ]

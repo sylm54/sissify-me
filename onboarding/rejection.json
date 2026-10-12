@@ -1,0 +1,45 @@
+[
+  {
+    "kind": "text",
+    "text": "**The parts that bite back**\n\nMost people who want this also fight it — you're in ordinary company. I need the map of your recoil: what I'm handling, and how carefully."
+  },
+  {
+    "kind": "question",
+    "id": "reaction_experiences",
+    "answer": "tierlist",
+    "prompt": "How well do you know each of these?",
+    "hint": "Whatever sits high on this list is live wire — it decides how carefully I handle you.",
+    "tiers": [
+      "Know it intimately",
+      "Often",
+      "Sometimes",
+      "Rarely",
+      "Never"
+    ],
+    "choices": [
+      "Disgust at myself",
+      "The urge to purge — delete it all, throw it out",
+      "Soft purging — quietly thinning things out",
+      "Shame spirals",
+      "Numbness or flatness after",
+      "Anger at the desire itself",
+      "Feeling fundamentally wrong",
+      "Fear of where this is going",
+      "Guilt toward the people in my life"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "reaction_pattern",
+    "answer": "choice",
+    "prompt": "And when it hits — what do you actually do?",
+    "hint": "I time my pushes and my patience around this — the pattern matters as much as the feelings.",
+    "choices": [
+      "Ride it out — it fades on its own",
+      "Purge — throw it out, delete it all, quit",
+      "Suppress — lock it down for weeks",
+      "Cycle — quit and come back hungrier each time",
+      "Lean in — the recoil only feeds it"
+    ]
+  }
+]
