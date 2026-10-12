@@ -18,6 +18,28 @@
   },
   {
     "kind": "question",
+    "id": "attraction_map",
+    "answer": "tierlist",
+    "prompt": "And who actually turns you on — people and selves, not genres.",
+    "hint": "Genres come next; this is the attraction underneath them. \"Myself, feminized\" means the image of you as a girl is its own turn-on. The top two tiers are what I feed — and \"with later rejection\" means hot until you finish, then it curdles.",
+    "tiers": [
+      "Strong fantasy with later rejection",
+      "Strong fantasy",
+      "Mild / occasional",
+      "No interest",
+      "Active dislike"
+    ],
+    "choices": [
+      "Women",
+      "Men",
+      "Trans women",
+      "Femboys / feminized men",
+      "Myself, feminized — being my own turn-on",
+      "Cock itself — the object, not the man attached to it"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "media_tastes",
     "answer": "tierlist",
     "prompt": "Sort these themes for me — where does each one actually sit?",
@@ -50,7 +72,7 @@
     "id": "media_deep",
     "answer": "open",
     "prompt": "For the themes you put in the top tiers — what about them turns you on, and what fantasies do they feed?",
-    "hint": "This is where I learn your actual levers — the more specific you are, the more I can do with it.",
+    "hint": "This is where I learn your actual levers — the more specific you are, the more I can do with it. (As a reminder, the themes in the previous question are: Straight / vanilla porn, Gay porn, BNWO / raceplay, Beta & sissy hierarchy, Humiliation, Captions, Cuckold, Femdom, Sissy porn, Forced bi, Hypno porn, JOI / instructions; Feel free to add others if you want.)",
     "optional": true,
     "showIf": { "id": "depth", "equals": "Deep" }
   }

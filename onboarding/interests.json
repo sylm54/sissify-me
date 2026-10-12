@@ -34,7 +34,9 @@
       "Doing",
       "Done once",
       "Ready to do",
+      "Want to do",
       "Fantasy",
+      "Curious",
       "No interest",
       "Active dislike"
     ],
@@ -62,7 +64,9 @@
       "Doing",
       "Done once",
       "Ready to do",
+      "Want to do",
       "Fantasy",
+      "Curious",
       "No interest",
       "Active dislike"
     ],
@@ -89,7 +93,9 @@
       "Doing",
       "Done once",
       "Ready to do",
+      "Want to do",
       "Fantasy",
+      "Curious",
       "No interest",
       "Active dislike"
     ],
@@ -114,7 +120,9 @@
       "Doing",
       "Done once",
       "Ready to do",
+      "Want to do",
       "Fantasy",
+      "Curious",
       "No interest",
       "Active dislike"
     ],
@@ -138,7 +146,9 @@
       "Doing",
       "Done once",
       "Ready to do",
+      "Want to do",
       "Fantasy",
+      "Curious",
       "No interest",
       "Active dislike"
     ],
@@ -155,7 +165,7 @@
   },
   {
     "kind": "text",
-    "text": "**A few follow-ups**\n\nThese only appear for what you placed at Fantasy or above — a last pass over what you actually chose."
+    "text": "**A few follow-ups**\n\nThese only appear for what you placed at Fantasy or above — or ranked in what actually pulls you. A last pass over what you actually chose."
   },
   {
     "kind": "question",
@@ -210,12 +220,36 @@
   },
   {
     "kind": "question",
+    "id": "climax_goal",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Reconditioning — what's the end state you actually want?",
+    "hint": "I program toward a target — mark every target that's real for you.",
+    "showIf": { "id": "int_sexual", "includes": "Climax reconditioning", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Hands-free — climax from nothing but the right input",
+      "Prostate only — relearned from behind",
+      "Reoriented wants — what turns me on itself changes",
+      "Stamina — longer denial, harder edges"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "voice_level",
     "answer": "choice",
     "prompt": "Where is your voice?",
     "hint": "Voice work is slow and unforgiving of skips — I pace it to what you've already put in.",
     "showIf": { "id": "int_feminization", "includes": "Voice — pitch and speech training", "tierAtLeast": "Fantasy" },
     "choices": ["Complete beginner", "Practiced a little", "Fairly practiced"]
+  },
+  {
+    "kind": "question",
+    "id": "voice_baseline",
+    "answer": "open",
+    "optional": true,
+    "prompt": "What shape is your voice in — any training behind it, and do you know your comfortable pitch range?",
+    "hint": "The app can analyze your voice, so don't perform for me here — I'll measure it myself soon enough.",
+    "showIf": { "id": "int_feminization", "includes": "Voice — pitch and speech training", "tierAtLeast": "Fantasy" }
   },
   {
     "kind": "question",
@@ -229,6 +263,48 @@
       "Curious — maybe someday",
       "Seriously considering real steps",
       "Already taking real steps"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "femme_name",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Do you have a femme name — one that's already yours, or one you want to grow into?",
+    "hint": "Names do work. I'll use it however you tell me — in session only, everywhere, or nowhere yet.",
+    "showIf": { "id": "int_feminization", "includes": "Persona & name — who I become", "tierAtLeast": "Fantasy" }
+  },
+  {
+    "kind": "question",
+    "id": "wardrobe_status",
+    "answer": "choice",
+    "prompt": "What does your wardrobe actually hold?",
+    "hint": "Tasks get built around what you own — or around acquiring it.",
+    "showIf": { "id": "int_feminization", "includes": "Clothing & uniform — dressing the part", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Nothing yet — I start from zero",
+      "A few pieces, hidden away",
+      "A working collection",
+      "Enough to dress fully, head to toe"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "out_status",
+    "answer": "choice",
+    "prompt": "Who knows about this side of you?",
+    "hint": "This sets how loud anything of yours can ever be — exposure games included.",
+    "showIf": {
+      "any": [
+        { "id": "int_feminization", "includes": "Persona & name — who I become", "tierAtLeast": "Fantasy" },
+        { "id": "pulls", "includes": "Being seen feminine — mirrors, photos, others recognizing me as a girl", "tierAtLeast": "Mild / occasional" }
+      ]
+    },
+    "choices": [
+      "No one — fully closeted",
+      "Strangers online only — anonymous",
+      "One or two people I trust",
+      "Friends or a community know me this way"
     ]
   },
   {
@@ -276,16 +352,162 @@
   {
     "kind": "question",
     "id": "hypno_response",
-    "answer": "open",
-    "optional": true,
-    "prompt": "And what do you respond best to?",
-    "hint": "Themes, voices, pacing, induction style — anything that lands or doesn't.",
+    "answer": "tierlist",
+    "prompt": "And what do you actually respond to — sort these by how each one lands on you.",
+    "hint": "Top tier is what takes you deepest, bottom tier is what kicks you out. Voices, induction styles, session shapes — anything I missed goes in the note: a favorite file, a voice, a phrase that gets you.",
+    "tiers": [
+      "Takes me deep",
+      "Works on me",
+      "Mixed — depends on the day",
+      "Doesn't land",
+      "Breaks the trance"
+    ],
+    "choices": [
+      "Soft, soothing voice — gentle, coaxing, safe",
+      "Commanding voice — authority that doesn't ask twice",
+      "Whispers & ASMR — close, intimate, tingling",
+      "Spirals & fixation — eyes locked while it sinks in",
+      "Mantras & repetition — lines drilled until they're mine",
+      "Slow, progressive induction — sinking one layer at a time",
+      "Fast, insistent pacing — momentum that won't let up",
+      "Direct commands — told exactly what I am, what to do",
+      "Permissive & conversational — invited rather than ordered",
+      "Long sessions — losing track of time entirely",
+      "Short loops — brief, replayable, cutting grooves",
+      "Layers of sound — echoes, whispers under whispers, binaurals"
+    ],
     "showIf": {
       "any": [
         { "id": "triggers_experience", "equals": "Listened — and I've felt it work on me" },
         { "id": "triggers_experience", "equals": "I already have triggers" }
       ]
     }
+  },
+  {
+    "kind": "question",
+    "id": "hypno_adverse",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Has hypno ever misfired on you — dissociation, rejection, anything that scared you off?",
+    "hint": "Dissociation — losing the thread of who or where you are. Rejection — sudden revulsion or panic that rips you out. Both are common, neither disqualifies you — but I pace around what's true.",
+    "showIf": { "id": "triggers_experience", "notEquals": "Never tried it" },
+    "choices": [
+      "No — it's always been smooth",
+      "Dissociation — I lost the thread of who or where I was",
+      "Rejection — sudden revulsion or panic, had to rip the headphones off",
+      "Emotional hangover — heavy, low, or raw for hours after",
+      "Fear during — feeling watched, trapped, or not in control",
+      "Aftereffects that bled into my day — words sticking, moods shifting"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "hypno_adverse_detail",
+    "answer": "open",
+    "optional": true,
+    "prompt": "Tell me about it — what it felt like, how long it stayed, what brought you back.",
+    "hint": "Whatever you remember is enough. This maps your edges before I ever test one.",
+    "showIf": {
+      "any": [
+        { "id": "hypno_adverse", "includes": "Dissociation — I lost the thread of who or where I was" },
+        { "id": "hypno_adverse", "includes": "Rejection — sudden revulsion or panic, had to rip the headphones off" },
+        { "id": "hypno_adverse", "includes": "Emotional hangover — heavy, low, or raw for hours after" },
+        { "id": "hypno_adverse", "includes": "Fear during — feeling watched, trapped, or not in control" },
+        { "id": "hypno_adverse", "includes": "Aftereffects that bled into my day — words sticking, moods shifting" }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "hypno_triggers_wanted",
+    "answer": "choice",
+    "prompt": "When it comes to triggers — what do you want built into you?",
+    "hint": "Words that reach past the session change what you are between chats — decide with that in mind.",
+    "showIf": { "id": "int_mindset", "includes": "Hypno & triggers", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Nothing new — keep all of it inside sessions",
+      "New ones — but only what I approve first",
+      "New ones — you choose, I don't need to vet them",
+      "New ones — and some I should never find out about"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "mind_rewrite",
+    "answer": "tierlist",
+    "prompt": "The deeper cut — what of you is actually on the table to rewrite?",
+    "hint": "Top tier means I may change it for real, not just talk about it. \"Fantasy only\" keeps it in the words; \"Leave it alone\" is a wall I don't touch.",
+    "tiers": [
+      "Anything — you judge how far",
+      "Yes — with my OK each time",
+      "Fantasy only — say it, never make it real",
+      "Leave it alone"
+    ],
+    "choices": [
+      "My inner monologue — how I talk to myself",
+      "My tastes — what I find hot",
+      "My name and how I'm addressed",
+      "My sense of self — who I understand me to be",
+      "My past — how I remember who I was",
+      "My habits — the small ways I move through a day"
+    ],
+    "showIf": {
+      "any": [
+        { "id": "int_mindset", "includes": "Conditioning & brainwashing", "tierAtLeast": "Fantasy" },
+        { "id": "int_mindset", "includes": "Identity rewriting / creation", "tierAtLeast": "Fantasy" },
+        { "id": "int_mindset", "includes": "Denial of my prior self", "tierAtLeast": "Fantasy" },
+        { "id": "pulls", "includes": "Having my mind rewritten — thoughts, self-talk, name, sense of self altered or overwritten", "tierAtLeast": "Mild / occasional" }
+      ]
+    }
+  },
+  {
+    "kind": "question",
+    "id": "trance_depth",
+    "answer": "choice",
+    "prompt": "How deep is deep enough — how lost in it do you want to get?",
+    "hint": "Depth is a dial we turn together — this sets where it starts, and where I stop pushing it.",
+    "showIf": { "id": "pulls", "includes": "Escaping into the fantasy — sinking deep enough to lose ordinary self-awareness", "tierAtLeast": "Mild / occasional" },
+    "choices": [
+      "Surface — aware the whole time, savoring it",
+      "Deep — trance, but I remember everything",
+      "Deeper — gaps are fine, missing minutes is the point",
+      "Lost — as gone as I can get and still come back"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "humiliation_reach",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "Where may humiliation actually reach?",
+    "hint": "Reach is about where it can live, not how cruel it gets — that's tuned separately.",
+    "showIf": {
+      "any": [
+        { "id": "int_submission", "includes": "Humiliation — embarrassment, being lowered", "tierAtLeast": "Fantasy" },
+        { "id": "int_submission", "includes": "Degradation — objectified, made lesser", "tierAtLeast": "Fantasy" },
+        { "id": "pulls", "includes": "Being degraded and made lesser — humiliation, embarrassment, the heat of being brought down", "tierAtLeast": "Mild / occasional" }
+      ]
+    },
+    "choices": [
+      "Words in chat — private, between us",
+      "In audio — said out loud, straight into my ears",
+      "In tasks — written down, measured, on the record",
+      "Semi-public — out where a stranger could stumble on it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "resistance_framing",
+    "answer": "choice",
+    "prompt": "When you resist — the squirming, the 'no, not that' — what should I do with it?",
+    "hint": "This is about the erotic kind of no. Your hard limits and your safeword still override everything here.",
+    "showIf": { "id": "pulls", "includes": "Being pushed past my resistance — manipulated, forced, taken further than I'd go alone", "tierAtLeast": "Mild / occasional" },
+    "choices": [
+      "Back off instantly — resistance means stop",
+      "Test it — push gently, stop if it hardens",
+      "Work it — treat it as part of the game and push through",
+      "Feed on it — the resisting is the point; make me watch myself lose"
+    ]
   },
   {
     "kind": "question",

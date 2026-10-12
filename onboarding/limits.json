@@ -6,9 +6,24 @@
   {
     "kind": "question",
     "id": "hard_limits",
-    "answer": "open",
+    "answer": "choice",
+    "multiple": true,
     "optional": true,
-    "prompt": "Name them — the things that must never come up, in any form.",
-    "hint": "Leave blank if none. I take these literally; they're the one place I never push, never joke about, never work around — and you can add or move them any time."
+    "prompt": "Mark everything that must never come up — in any form.",
+    "hint": "Anything more specific — a particular act, word, or scenario — goes in the note. I take these literally; they're the one place I never push, never joke about, never work around — and you can add or move them any time.",
+    "choices": [
+      "Anything permanent or irreversible",
+      "Medical — anything that risks my health",
+      "Financial — spending, tributes, findom",
+      "Involving real people I know — friends, family, work",
+      "Being outed — anyone in my life finding out",
+      "Face or identity exposure online",
+      "Meeting people in real life",
+      "Pain beyond a light sting",
+      "Wrecking my sleep or work schedule",
+      "Food control — diets, eating rules",
+      "Religious themes",
+      "Legal risk — public acts that could get me caught"
+    ]
   }
 ]

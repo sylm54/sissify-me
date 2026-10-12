@@ -8,15 +8,24 @@
     "id": "safeword",
     "answer": "open",
     "optional": true,
-    "prompt": "Do you want a safeword?",
-    "hint": "A word that stops everything instantly — in chat, in a session, mid-audio. I'll honor it without question."
+    "prompt": "Choose your safeword — the one thing you can say that stops everything, instantly.",
+    "hint": "Pick something you'd never say mid-scene by accident — \"red\" is the classic. Skip this and I'll take it as working without one."
   },
   {
     "kind": "question",
     "id": "health_notes",
-    "answer": "open",
+    "answer": "choice",
+    "multiple": true,
     "optional": true,
-    "prompt": "Anything physical or mental I should factor in? (injuries, medication, stress, dysphoria triggers…)",
-    "hint": "Workouts, chastity, denial — everything physical gets tuned around this."
+    "prompt": "Anything physical or mental I should factor in? Mark what applies — the specifics go in the note.",
+    "hint": "Workouts, chastity, denial, pacing — everything gets tuned around this.",
+    "choices": [
+      "Nothing — I'm clear",
+      "Physical — injuries, mobility, chronic conditions",
+      "Medication that affects energy, mood, or arousal",
+      "Mental health — anxiety, depression, dissociation",
+      "Dysphoria triggers — things that spike it",
+      "Under heavy stress or limited bandwidth right now"
+    ]
   }
 ]

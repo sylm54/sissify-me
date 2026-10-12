@@ -59,6 +59,15 @@
   },
   {
     "kind": "question",
+    "id": "living_partner",
+    "answer": "open",
+    "optional": true,
+    "showIf": { "id": "living", "equals": "With a partner — we're in this together" },
+    "prompt": "Tell me about them — how much of this they actually share, what their limits are, what's off-limits to me entirely.",
+    "hint": "Whatever touches them touches us both — I'd rather know the shape of it than trip over it."
+  },
+  {
+    "kind": "question",
     "id": "living_detail",
     "answer": "open",
     "optional": true,

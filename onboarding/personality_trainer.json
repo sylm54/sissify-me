@@ -65,14 +65,5 @@
       "Chastity time",
       "Task completion"
     ]
-  },
-  {
-    "kind": "question",
-    "id": "trn_voice_base",
-    "answer": "open",
-    "optional": true,
-    "showIf": { "id": "depth", "notEquals": "Light" },
-    "prompt": "What shape is your voice in — any training behind it, and do you know your comfortable pitch range?",
-    "hint": "The app can analyze your voice, so don't perform for me here — I'll measure it myself soon enough."
   }
 ]
