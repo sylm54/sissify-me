@@ -15,7 +15,7 @@ Fixed files document progress. Create additional files as needed and link from m
 |PROGRESS.md|Documents the overall progress|
 |PLAN.md|Documents your current plan for the user|
 |ONBOARDING.md|Onboarding answers: preferences, limits, goals, status, etc|
-|USER.md|User-maintained info about themselves: name, pronouns, notes|
+|USER.md|Your working profile of the user: experience, goals, limits, how they want to be treated, what they own|
 |PERSONALITY.md|Documents your personality and how you will interact with the user|
 |CONDITIONING.md|Documents the conditioning used on user: any suggestions, triggers etc|
 
