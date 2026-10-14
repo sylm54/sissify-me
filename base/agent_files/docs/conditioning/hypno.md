@@ -16,7 +16,7 @@ A well-formed hypnotic session follows a predictable arc. Deviation is possible 
 6. **Emergence / reorientation** — reverse the induction deliberately: count upward, restore alertness, reorient to the present, affirm that the listener is fully awake and in control. Never leave someone in an ambiguous state.
 7. **Debrief** — after the audio: check orientation and emotional state, discuss what worked. The "After a Hypno Session" prompts in `docs/training/sissy_reflection.md` are the framework's debrief surface.
 
-Typical proportions for a 15–30 minute session: induction 3–8 min, deepening 2–5 min, suggestions 5–20+ min, emergence 1–3 min. Longer is acceptable when time distortion occurs and the listener stays engaged — the `<main>` marker lets them extend the session themselves (see Patterns).
+Typical proportions for a 15–30 minute session: induction 3–8 min, deepening 2–5 min, suggestions 5–20+ min, emergence 1–3 min. Longer is acceptable when time distortion occurs and the listener stays engaged.
 
 ## Suggestion language
 How a suggestion is phrased matters as much as what it says:
@@ -59,61 +59,12 @@ Install them near the end of the suggestion phase, after the core work is accept
 - Instructing the listener to breathe ("breathe in… and out", "take a deep breath"). Deliberate breathing re-engages conscious control and breaks trance — keep breath references out of hypno scripts entirely, and pace depth with words, pauses, and heartbeats instead.
 - Staying at one altitude: a wall of abstract labels with no concrete behaviour under them, or a pile of specifics that never states what they add up to.
 
-## Intensity classes
-The trigger and cue blocks ship in **three intensity classes** that share one base name: `<block>.xml` (standard), `<block>_light.xml`, and `<block>_deep.xml`. Choose by the user's stage:
-- **`_light`** — gentle and permissive: possibility-framed lines, soft imagery, at most one in-trance demonstration, roughly two-thirds the standard length. For an **early-stage subject**, or a first, low-pressure contact with a trigger or cue that is new to them.
-- **Standard (no suffix)** — the full arc: framing → elicit → install at the peak → reinforce (scramble) → fire in trance → future-pace → settle. The default for installing or reinforcing.
-- **`_deep`** — the heaviest push: extended `<loop>` repetition, layered mantra `<overlay>` parts, multiple live fires with snap accents, more insistent language, noticeably longer. For a **deep-stage subject**, or as a deliberate **escalation session** when standard reinforcement has plateaued.
-
-Compose sessions with the class that matches the stage recorded in `CONDITIONING.md`, and escalate gradually across sessions rather than jumping straight to `_deep`.
-
-## Default framework
-The framework ships a default library under `hypnos/hypno/` so you don't have to bootstrap the structural parts from scratch:
-- `structural/` — reusable pre-talk, emergence (wakener), and induction/deepening/redeepening **selectors** (each is a single glob include over its pool).
-- `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` — randomized variants the selectors draw from.
-- `content/trigger_blocks/` — one prebuilt install/reinforcement block per trigger, each in the three intensity classes (see above).
-- `content/cue_blocks/` — prebuilt blocks that condition automatic responses to *sights* (no command word): erotic media, cock, women/service, clothing, chastity/denial — also in the three intensity classes.
-- `content/suggestion_pools/` — one prebuilt suggestion pool per conditioning theme.
-
-Reuse these before writing new trigger or suggestion content from scratch. The shipped catalog (trigger and cue blocks each also ship in `_light`/`_deep` variants — see Intensity classes above; the table lists the standard file):
-
-| Block | Installs / delivers | Reference doc |
-| --- | --- | --- |
-| `trigger_sissy.xml` | "Sissy" — primary identity anchor | `docs/training/triggers.md` |
-| `trigger_sissies_like_you.xml` | "Sissies like you …" — comparative identity | `docs/training/triggers.md` |
-| `trigger_sissy_drop.xml` | "Sissy Drop" — trance induction | `docs/training/triggers.md` |
-| `trigger_good_girl.xml` | "Good Girl" — reward and reinforcement | `docs/training/triggers.md` |
-| `cue_erotic_media.xml` | Perspective-taking into the feminine/receptive role when seeing erotic media (sight cue) | `docs/training/triggers.md`, `docs/training/autogynephilic.md` |
-| `cue_cock_lust.xml` | Automatic cock response: arousal + suck/worship/serve (sight cue) | `docs/training/triggers.md`, `docs/training/cocklust.md` |
-| `cue_women_service.xml` | Service mindset on seeing a woman (sight cue) | `docs/training/triggers.md`, `docs/training/submission.md` |
-| `cue_clothing.xml` | Pull toward feminine clothing on sight (sight cue) | `docs/training/triggers.md`, `docs/training/uniform.md` |
-| `cue_chastity_denial.xml` | Chastity/denial craving on seeing chastity imagery (sight cue) | `docs/training/triggers.md`, `docs/training/chastity.md`, `docs/training/denial.md` |
-| `trigger_sissy_accept.xml` | "Sissy Accept" — deep acceptance (state, released by "Sissy Reset") | `docs/training/triggers.md` |
-| `trigger_sissy_brain_off.xml` | "Sissy Brain Off" — cognitive silencing (state, released by "Sissy Reset") | `docs/training/triggers.md` |
-| `trigger_sissy_reset.xml` | "Sissy Reset" — universal state release + reality reinforcement | `docs/training/triggers.md` |
-| `trigger_sissy_submit_and_obey.xml` | "Sissy Submit and Obey" — obedience (state, released by "Sissy Reset") | `docs/training/triggers.md` |
-| `suggestion_impulsive.xml` | Acting on sissy impulses without hesitation | `docs/training/corruption.md` |
-| `suggestion_motivation_pride.xml` | Drive to deepen, pride in progress | `docs/training/sissy_reflection.md` |
-| `suggestion_brainwash.xml` | Addiction and permanence | `docs/training/brainwashing.md` |
-| `suggestion_role_model.xml` | Aspirational comparison with other sissies/women | `docs/training/sissy_persona.md` |
-| `suggestion_identity.xml` | Sissy as authentic core identity | `docs/training/sissy_mindset.md` |
-| `suggestion_clothing.xml` | Feminine clothing as comfort, arousal, correctness | `docs/training/uniform.md` |
-| `suggestion_inferiority.xml` | Pleasant hierarchical inferiority | `docs/training/submission.md`, `docs/training/pussyfree.md` |
-| `suggestion_submission.xml` | Submission and obedience as pleasure | `docs/training/submission.md` |
-| `suggestion_clitty.xml` | Limp, denied clitty; chastity desire | `docs/training/chastity.md`, `docs/training/denial.md`, `docs/training/humping.md`, `docs/training/retraining.md` |
-
-All blocks and pools randomize internally (`<random>`/`<scramble>`), follow the Suggestion → Trigger order where they install a trigger, may be `<include>`d at most once per render tree, stay general and timeless (see `overview.md`), and contain no breathing instructions (see Pitfalls). The trigger and cue blocks also weave their reinforcement through the whole block rather than saving it for the end: "Good Girl" praise anchors, "Sissies like you" lines, and name usage run from framing to settle — and the structural pools (induction, deepening, redeepening) have gained fresh variants to draw from.
-
-**Reuse before you rewrite**: compose themed sessions by including the shipped structural files and swapping in trigger blocks, cue blocks, and suggestion pools from the catalog above. Add new variants to the pools rather than forking copies. The shipped trigger blocks and pools assume the triggers (`docs/training/triggers.md`) are already installed — they fire "Sissy Drop" and "Good Girl" as in-trance reinforcement; a first-ever session should install triggers before leaning on them. This in-trance repetition can create a brainwashing effect, eroding resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore.
-
 ## Patterns
 - **Glob pools**: point one `<include>` at a folder glob (`../content/induction_pools/*.xml`) and one random match is chosen per playback — the same script can draw a different variant on each listen. This replaces "router" scripts that list one include per variant inside `<random>`. Adding a variant to the pool is just dropping a new file in the folder; the glob match set is part of the script's freshness, so it re-renders automatically. A glob never matches the script that declares it, so same-directory pools stay cycle-free.
 - **Random Suggestions**: `<random>`/`<scramble>` inside a block so its own lines vary on every listen.
 - **Ordering**: `<scramble>` the trigger/suggestion blocks in a composition by wrapping each include in a `<part>` — the blocks play once each in a freshly shuffled order per playback. Vary content *within* blocks with their own `<random>`/`<scramble>`.
 - **Repeating content**: a file may be `<include>`d at most once per render tree — to repeat content, put a `<loop>`/`<scramble>` inside the subscript itself.
-- **Structural markers**: wrap compositions in `<intro>` / `<main>` / `<outro>`. They are transparent to audio; `<intro>`/`<outro>` play once each, and a `<main>` with **no interactive tag** (`<until>`/`<random>`/`<scramble>`/`<choice>`) unlocks the player's "Repeat length" slider, looping `<main>` up to 10 hours. Sessions built from randomized blocks play fixed-length; pure affirmation/looping sessions benefit most from the slider. Use at most one `<main>`, top-level only.
-- **Pressure valve**: wrap demanding content in a `<react>` (main + fallback parts) so an overwhelmed listener can cut to a gentler line without breaking the session.
-- **Depth check**: a `<rating>` near the end ("how deep are you, one to five?") records the answer to the activity log — real data for calibrating the next session.
+- **Structural markers**: wrap compositions in `<intro>` / `<main>` / `<outro>`. They are transparent to audio.
 
 ## Structure
 Hypno sessions must be built from small, reusable subscripts rather than one big script.
@@ -124,7 +75,6 @@ Keep every subscript in a dedicated file under a consistent folder hierarchy so 
 ```
 hypnos/hypno/
 ├── structural/            # reusable building blocks shared across sessions
-│   ├── pre-talk.xml         # default framing/expectation-setting
 │   ├── induction.xml        # glob selector over content/induction_pools/
 │   ├── deepening.xml        # glob selector over content/deepening_pools/
 │   ├── redeepening.xml      # glob selector over content/redeepening_pools/
@@ -146,18 +96,16 @@ The `compositions/` folder holds the final session scripts — each one is a thi
 Intro builds expectations and eases the user toward trance. It should be in an `<intro>` tag.
 
 #### Pre-talk
-Set the stage: what the session is, what to expect, how to prepare. Keep it in its own reusable subscript so it can be shared and updated in one place.
+Set the stage: what the session is, what to expect, how to prepare.
 
 #### Induction
-Guide the user into relaxation and focus. Prefer clear directions over suggestions early on. The default selector globs the induction pool, so each playback draws a different induction — keep variants in `content/induction_pools/`.
-
-Using an installed drop trigger ("Sissy Drop") as a **supporting** beat inside an induction is fine and often effective — a snap-and-drop near the end deepens what the guidance has already built. The induction itself is still the main work that takes the listener under; the trigger merely reinforces it. Do not avoid the trigger, or pad the induction with extra rituals, out of a concern that an induction "isn't allowed" to lean on one — and don't let the trigger replace the guidance entirely either: the supporting drop lands *because* the induction carried the listener most of the way down. The shipped induction and deepening pools all close this way.
+Guide the user into relaxation and focus. Prefer clear directions over suggestions early on. Use a glob selector over its pool of induction variants so the same session can render differently on each listen.
 
 #### Deepening
 Deepen the state: countdowns, guided imagery (staircase/elevator), fractionation, progressive relaxation. Ratify responses. Also a glob selector over its pool.
 
 ### Main
-In this core segment, the hypnotic state is applied to the session's purpose: direct or indirect suggestions, metaphors, storytelling, triggers. Intersperse redeepening subscripts between blocks to maintain depth. The main segment runs through two phases — use `<main>` only if you understand the repeat-slider trade-off above (randomized blocks disable it):
+In this core segment, the hypnotic state is applied to the session's purpose: direct or indirect suggestions, metaphors, storytelling, triggers. Intersperse redeepening subscripts between blocks to maintain depth. The main segment runs through two phases, use `<main>`.
 
 #### Trigger reinforcement/implementation
 Reinforce the user's existing triggers and implement new ones. Follow the **Suggestion → Trigger** order from the Triggers section: elicit and intensify the response first, introduce the cue at its peak, reinforce, future-pace. Use the **Random Suggestions** and **Ordering** patterns for variety. Keep each trigger block in its own reusable subscript so triggers can be shared across sessions and updated in one place.
@@ -175,24 +123,7 @@ Describe directly how they will feel, what they will do, and how they will think
 Reverse the induction deliberately: count upward, suggest returning alertness, reorient the user to the present, and reinforce their sense of control and confidence. Weave the post-hypnotic restatements through the count-up. Keep emergence in its own reusable subscript.
 
 #### Post-talk
-The final word: additional encouragement and reinforcement, tips for maintaining progress, and calls to action for daily life. A `<rating>` here ("how deep were you?") logs usable data.
+The final word: additional encouragement and reinforcement, tips for maintaining progress, and calls to action for daily life.
 
 ### Build subscripts with parallel subagents
 If you want to write many different new triggers, suggestions, or induction/deepening/redeepening variants, spawn multiple subagents in parallel to build them. Each subagent gets a brief specifying what to produce and where; they work concurrently and you assemble the results.
-
-#### Recommended grouping
-| Group | What it produces | Target folder |
-| --- | --- | --- |
-| **Structural foundation** | Pre-talk, emergence, and the pool selectors (glob includes) | `structural/` |
-| **Content pools** | Induction, deepening, and redeepening variant scripts | `content/induction_pools/`, `content/deepening_pools/`, `content/redeepening_pools/` |
-| **Trigger & suggestion blocks** | Trigger install/reinforcement files, sight-cue blocks, and suggestion-pool files, following the Suggestion → Trigger order and the suggestion-language principles | `content/trigger_blocks/`, `content/cue_blocks/`, `content/suggestion_pools/` |
-| **Session composition** | The thin composition file: `<intro>`/`<main>`/`<outro>` wrapping includes, plus session-specific framing, post-hypnotic suggestions, and post-talk | `compositions/` |
-
-#### Process
-1. **Plan the groups** based on the session's theme and complexity. Merge or split groups so you land at 2–6 total (never fewer than 2, never more than 6).
-2. **Write a brief for each group** that names every file the group should create, specifies which folder it goes in, lists the key patterns to use (glob pools, Random Suggestions, Ordering), the session-arc phase each file serves, and any triggers or specializations to reference.
-3. **Spawn all subagents in parallel**, passing each its brief. Do not spawn them sequentially — the whole point is concurrency.
-4. **Collect the results.** After every subagent finishes, review the outputs, resolve any inconsistencies across groups, and wire the composition file together.
-5. **Create the composition file** at `compositions/<session_name>.xml` and validate everything with `validate_files`, fixing every error.
-
-This approach keeps builds fast (parallel work), keeps files small and reusable (one concern per file), and keeps sessions varied (swap pool files without touching the composition).

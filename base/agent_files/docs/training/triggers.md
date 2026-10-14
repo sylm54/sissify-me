@@ -3,41 +3,9 @@ description: Read before installing, reinforcing, or firing any trigger — the 
 ---
 
 ## Overview
-This is the framework's trigger library: the triggers useful for conditioning. There are no tiers — every trigger here is a working tool, and sessions combine them freely. Reference this file (`docs/training/triggers.md`) when installing triggers, and save a reference to it in `CONDITIONING.md`.
+This is the framework's trigger library: the triggers useful for conditioning. Reference this file (`docs/training/triggers.md`) when installing triggers, and save a reference to it in `CONDITIONING.md`.
 
-**Where triggers fire.** These triggers are mostly for in-session use: fired in trance during a hypno session (`docs/conditioning/hypno.md`), or worked live in an active session (`docs/conditioning/active.md`). Post-hypnotic carryover into daily life exists — the future-pace stage builds it — but the library's blocks are built to be fired in session, where trance or live practice is what makes them stick. Standalone everyday use is reinforcement, not the main channel.
-
-## Prebuilt Hypno Blocks
-Install/reinforcement blocks for every trigger ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
-- `hypnos/hypno/content/trigger_blocks/trigger_sissy.xml` — installs and reinforces the "Sissy" identity-and-name trigger.
-- `hypnos/hypno/content/trigger_blocks/trigger_sissies_like_you.xml` — installs the "Sissies like you" comparative identity trigger.
-- `hypnos/hypno/content/trigger_blocks/trigger_sissy_drop.xml` — installs the "Sissy Drop" instant-trance trigger.
-- `hypnos/hypno/content/trigger_blocks/trigger_good_girl.xml` — installs the "Good Girl / Good Sissy" reward trigger.
-- `hypnos/hypno/content/trigger_blocks/trigger_sissy_accept.xml` — installs the "Sissy Accept" deep-acceptance state (persists until "Sissy Reset").
-- `hypnos/hypno/content/trigger_blocks/trigger_sissy_brain_off.xml` — installs the "Sissy Brain Off" cognitive-silencing state (persists until "Sissy Reset").
-- `hypnos/hypno/content/trigger_blocks/trigger_sissy_submit_and_obey.xml` — installs the "Sissy Submit and Obey" obedience state (persists until "Sissy Reset").
-- `hypnos/hypno/content/trigger_blocks/trigger_sissy_reset.xml` — installs the "Sissy Reset" release trigger (clears states, keeps the conditioning).
-- `hypnos/hypno/content/cue_blocks/cue_erotic_media.xml` — conditions erotic media (seeing women or sissies) into automatic perspective-taking in the feminine, receptive role.
-- `hypnos/hypno/content/cue_blocks/cue_cock_lust.xml` — conditions the sight of a cock into instant arousal and the desire to suck, worship, and serve.
-- `hypnos/hypno/content/cue_blocks/cue_women_service.xml` — conditions the sight of a woman into the instinct to serve, please, and be useful to her.
-- `hypnos/hypno/content/cue_blocks/cue_clothing.xml` — conditions the sight of feminine clothing into the pull to wear it, feel it, and be right in it.
-- `hypnos/hypno/content/cue_blocks/cue_chastity_denial.xml` — conditions the sight of chastity imagery into craving the locked, denied state.
-
-**Three intensity classes.** Every trigger and cue block above ships in three variants that share one base name: no suffix = standard (the documented paths, unchanged), plus `_light` and `_deep` (e.g. `trigger_sissy.xml`, `trigger_sissy_light.xml`, `trigger_sissy_deep.xml`).
-- **`_light`** — gentle and permissive: possibility-framed lines, soft imagery, at most one in-trance demonstration, roughly two-thirds the standard length. Reach for it with an **early-stage subject**, or as first, low-pressure contact with a trigger or cue that is new to them.
-- **Standard (no suffix)** — the full arc: elicit → install at the peak → reinforce → fire in trance → future-pace → settle. The default for a **standard install**.
-- **`_deep`** — extended loop repetition, layered mantra overlays, multiple live fires, more insistent language, noticeably longer. Reach for it with a **deep-stage subject**, or as an **escalation session** when standard reinforcement has stopped moving the needle.
-
-Each block already follows the installation sequence below — it elicits and intensifies the response first, introduces the trigger at the peak, then reinforces — and randomizes itself per playback (`<random>`/`<scramble>` inside), so it stays varied across many listenings. Trigger reinforcement runs through the whole block rather than only at the end: "Good Girl" praise anchors, "Sissies like you" lines, and name usage are woven from framing to settle. A file may be `<include>`d at most once per render tree — a session installing several triggers includes each block once.
-
-## Installation sequence
-Install every trigger — prebuilt block or custom script — in the order **Suggestion → Trigger** (see `docs/conditioning/hypno.md`):
-1. **Elicit and intensify** the target state while the subject is in trance, with specific, sensory, present-tense language — before the trigger is ever named.
-2. **Install at the peak**: introduce the trigger phrase and link it explicitly ("…and while you are this deep, whenever you hear '—', this exact feeling floods back, instantly, stronger each time").
-3. **Reinforce immediately**: restate the pairing in varied words, fire the trigger in trance, and ratify ("you feel it working already, don't you").
-4. **Future-pace**: place the trigger where the subject will actually meet the cue again.
-
-Reinforce installed triggers periodically in later sessions — unused triggers fade. The "every time you hear…" sample lines in the sections below are **reinforcement-stage phrasings** for steps 2–3: never open a cold install with the trigger itself; lead with elicitation. Keep all phrasing present-tense and positive — the unconscious handles negation poorly. And keep each trigger's suggestions moving between the specific and the abstract: a concrete behaviour establishes the change, the label organises it into identity — pair them.
+**Where triggers fire.** These triggers are mostly for in-session use
 
 ## State triggers persist until "Sissy Reset"
 Three triggers switch a state **on** that stays on: **Sissy Accept**, **Sissy Brain Off**, and **Sissy Submit and Obey**. Each state persists — through the rest of the session, or into daily life if you future-pace it there — until the subject hears **"Sissy Reset"**, which releases it.
@@ -119,21 +87,6 @@ Direct obedience state. Upon hearing "Sissy Submit and Obey", the subject shifts
 
 ## Cues (automatic conditioned responses)
 Cue blocks condition a **sight**, not a spoken command word: the response fires automatically upon seeing the cue, without anyone saying anything. Install them with the same Suggestion → Trigger order — elicit the response in trance first, then condition the sight itself as the cue at the peak, reinforce, and future-pace to where the subject actually encounters it. Each cue grows stronger with repeated real-world exposure, so pair the blocks with the viewing practices in `docs/training/autogynephilic.md` and `docs/training/cocklust.md`.
-
-### Erotic media
-Prebuilt block: `hypnos/hypno/content/cue_blocks/cue_erotic_media.xml`. Upon seeing women or sissies in erotic media, the subject automatically takes the feminine, receptive role in the scene — her sensations on their skin, her clothing on their body, her emotional states in their chest — and wants not just to watch her but to be her, and to embody it in reality. The screen stops being something they watch and becomes somewhere they are. "Whenever you see a beautiful woman or sissy on your screen, you slide into her without deciding to — feeling what she feels, wearing what she wears, wanting what she wants — because that perspective is simply yours now."
-
-### Cock
-Prebuilt block: `hypnos/hypno/content/cue_blocks/cue_cock_lust.xml`. Upon seeing a cock, the subject experiences instant reflexive arousal braided with the urge to suck it, worship it, and serve it — resistance fades before it can form, and the reflex grows stronger with every exposure. "The moment you see a cock, arousal blooms and your mouth waters with the urge to kneel and serve — reflexive, instant, and stronger every time."
-
-### Women and service
-Prebuilt block: `hypnos/hypno/content/cue_blocks/cue_women_service.xml` (also `_light`/`_deep`). Upon seeing a woman — on the street, on a screen, anywhere — the subject drops into a service mindset: the instinct to please her, anticipate her, and make herself useful to her arrives without being asked. Pairs with the submission training in `docs/training/submission.md`.
-
-### Clothing
-Prebuilt block: `hypnos/hypno/content/cue_blocks/cue_clothing.xml` (also `_light`/`_deep`). Feminine clothing seen anywhere — a shop window, a screen, a passer-by — registers as theirs and pulls: the urge to wear it, feel it, and be correct in it sharpens with every sighting. Pairs with the uniform work in `docs/training/uniform.md`.
-
-### Chastity and denial
-Prebuilt block: `hypnos/hypno/content/cue_blocks/cue_chastity_denial.xml` (also `_light`/`_deep`). Upon seeing chastity imagery — a cage, a locked silhouette, denial themes — the subject feels the pull toward the locked, denied state: craving the cage, treasuring the ache, wanting the key in someone else's hands. Pairs with `docs/training/chastity.md` and `docs/training/denial.md`.
 
 ## Using triggers together
 The triggers are a vocabulary, not a menu of isolated effects — sessions speak it fluently:

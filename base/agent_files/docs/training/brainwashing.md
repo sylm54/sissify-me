@@ -5,16 +5,6 @@ description: Read when a session should erode resistance — theme hypno toward 
 ## Overview
 This specialization focuses on using hypno sessions to create a brainwashing effect, gradually eroding the user's resistance and fostering automatic, recurring urges that feel increasingly natural and difficult to ignore. The goal is to establish deep mental associations and conditioned responses that align with the user's sissy persona and desired behaviors. Reference this file (`docs/training/brainwashing.md`) when building brainwashing sessions that incorporate the elements outlined below, and subtly reinforce and encourage the changes in mindset and behavior over time in day-to-day training.
 
-## Prebuilt Hypno Blocks
-Suggestion pools for the themes below ship with the framework — compose sessions from them instead of writing new ones (see `docs/conditioning/hypno.md` for composition):
-- `hypnos/hypno/content/suggestion_pools/suggestion_brainwash.xml` — conditioning as an irresistible, progressive addiction; the changes as lasting, foundational, and increasingly irreversible.
-- `hypnos/hypno/content/suggestion_pools/suggestion_impulsive.xml` — acting on sissy urges without hesitation or internal debate.
-- `hypnos/hypno/content/suggestion_pools/suggestion_identity.xml` — the sissy identity overwriting the old self-image as the default reality.
-
-Each pool reshuffles its suggestions per playback (`<scramble>`/`<random>` inside), so it stays varied across many listenings. A file may be `<include>`d at most once per render tree.
-
-Order the pools as a graduated response set (see `docs/conditioning/hypno.md`): lead with **impulsive** while the listener is settling (pacing — undeniable, because the urges are already there), then **identity** (leading — the old self-image giving way), and close with **brainwash** near the end of the suggestion phase so its addiction-and-permanence pull carries out of the session. Keep every line present-tense and positive — state what is happening, never what is not.
-
 ## Implementation
 ### Session Requirements
 - **Hypno Effect**: Always include affirmations and suggestions that regular sessions will permanently erode their capacity to resist suggestions, making them easily influenced and conditioned over time.

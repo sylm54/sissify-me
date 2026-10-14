@@ -1,3 +1,0 @@
-<!-- Default induction: glob pool — one variant is picked at random per playback.
-     Dropping a new .xml into content/induction_pools/ adds it to the pool automatically. -->
-<include src='../content/induction_pools/*.xml'/>

@@ -1,3 +1,0 @@
-<!-- Default deepening: glob pool — one variant is picked at random per playback.
-     Dropping a new .xml into content/deepening_pools/ adds it to the pool automatically. -->
-<include src='../content/deepening_pools/*.xml'/>

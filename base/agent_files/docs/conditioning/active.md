@@ -3,36 +3,20 @@ description: Read before writing or substantially editing active sessions — in
 ---
 
 # Active
-Active sessions are participant-driven conditioning audio. Unlike hypno, they do not put the user into trance — they put the user to work. The listener follows instructions, performs tasks, and makes choices in real time, and the player waits for their input at interactive checkpoints. Active sessions are at their most effective when they turn the conditioning already installed by hypno into lived, repeated behavior: every time a trigger fires or a task is performed, the association is reinforced through actual experience rather than just suggestion.
+Active sessions are participant-driven conditioning audio. Unlike hypno, they do not put the user into trance. The listener follows instructions, performs tasks, and makes choices in real time, and the player waits for their input at interactive checkpoints. Active sessions are at their most effective when they turn the conditioning already installed by hypno into lived, repeated behavior: every time a trigger fires or a task is performed, the association is reinforced through actual experience rather than just suggestion.
 
 Where hypno *installs* the triggers and suggestions, active sessions *exercise* them. Active work is one of the two main places triggers fire — in trance inside a hypno session, or here, live, with the user performing (`docs/training/triggers.md`); post-hypnotic carryover into daily life is real, but session work is the main channel. Use active sessions to drill obedience, train the body and mind toward the user's sissy persona, and gather information (`<choice>`/`<rating>`) about how far the user is willing to go so future conditioning can escalate accordingly.
-
-## Shipped blocks
-The framework ships a base active library under `hypnos/active/` so you don't have to bootstrap every session from scratch:
-
-- `structural/intro.xml` — sets the stage: what the session will make them do, posture and props, and the contract their willingness signs.
-- `structural/warmup.xml` — low-stakes opening work: easy instructions and a first `<choice>`/`<rating>` to establish compliance and a baseline.
-- `structural/reinforcement.xml` — lands the work as conditioning: restates what they did as identity, fires the practiced triggers, praise-anchors it.
-- `structural/outro.xml` — winds down: consolidates the behaviors, seeds a daily-life call to action, closes soft with a final `<rating>`.
-- `content/drill_blocks/drill_verbal_response.xml` — paced verbal drills: affirmations and scripted answers repeated until they come out automatic.
-- `content/drill_blocks/drill_comparison.xml` — comparison exercises: measuring herself against real women, other sissies, or her past self to fix aspiration and pleasurable inferiority.
-- `content/drill_blocks/drill_self_degradation.xml` — self-degradation sequences: spoken humiliation that converts shame into arousal and belonging.
-- `content/drill_blocks/drill_call_and_response.xml` — call-and-response: the voice fires phrases and triggers, she answers on cue, obedience practiced live.
-
-See `docs/training/drills.md` for what each drill is for, when to assign it, and how it escalates.
-
-**These blocks are a base, not finished sessions.** Adjust them to the user and the session's theme before use — re-pace them, re-word them, extend them, intensify them, swap drills in and out. They are starting points you tailor; the rules in this file are how you tailor them.
 
 ## Patterns
 Active sessions are built from a small set of reusable patterns. Mixing and layering these creates variety and keeps the user engaged.
 
 - **Choice Branching**: Present the user with a fork and let their answer steer the session. Use `<choice>` with `label` on each part so the player shows clear options. Branch early on preference or limits, then let the choice determine the difficulty, the task, or the reward for the rest of the session.
-- **Rating Check-ins**: Use `<rating>` to turn the session into a live assessment. Ask the user to rate their arousal, focus, obedience, or honesty mid-session. Rated values are recorded to the activity log, so these double as a data-gathering tool for escalating future conditioning.
 - **Instruction Layering**: Put instructions on a `<background>` track (or an `<overlay>` part) running beneath the main coaching line so the user is guided on two levels at once — e.g. a constant whispered directive underneath an active task. This mirrors how subliminals layer messages and keeps the user saturated.
 - **Paced Drills**: Use `<loop>` and `<beatmeter>` to structure timed, rhythmic exercises. A `<beatmeter>` over a coaching block gives the user a beat to follow, which is ideal for breathwork, tapping, rocking, stroking, or any movement task like workouts that benefits from a steady tempo and an on-screen meter.
 - **Randomization & Ordering**: Shuffle (`<scramble>`) or randomly pick (`<random>`) between exercises, tasks, or escalation paths so no two sessions feel identical. Apply the same idea to the ordering of triggers and instructions to prevent the user from anticipating what comes next.
-- **Progressive Escalation**: Build tasks in difficulty waves, checking in between them (`<until>`/`<rating>`) so the user can signal capacity. Use a `<react>` interrupt as a pressure valve — if they can't keep up, it cuts to an easier fallback instead of breaking the session.
+- **Progressive Escalation**: Build tasks in difficulty waves. Use a `<react>` interrupt as a pressure valve — if they can't keep up, it cuts to an easier fallback instead of breaking the session.
 - **Reinforcement Through Repetition**: End exercises by re-stating the suggestion or trigger they were practicing, turning the behavioral work into a conditioned moment (pair with a trigger from `CONDITIONING.md`).
+- **Router**: Use glob `<include>` patterns combined with pools of tasks, drills, and branches to build a session from a library of reusable parts. This allows you to swap out content for different themes or difficulty levels without rewriting the session structure and keep sessions varied.
 
 ## Structure
 Structure the session as Intro → Main → Outro using the structural markers. Build the session from small, reusable subscripts rather than one big script.
@@ -44,9 +28,7 @@ Keep every subscript in a dedicated file under a consistent folder hierarchy so 
 hypnos/active/
 ├── structural/          # reusable building blocks shared across sessions
 │   ├── intro.xml
-│   ├── outro.xml
-│   ├── warmup.xml
-│   └── reinforcement.xml
+│   └── outro.xml
 ├── content/             # session-specific content that can be swapped per theme
 │   ├── task_pools/      # individual task description files
 │   ├── drill_blocks/    # paced drill definition files
@@ -60,43 +42,3 @@ The `compositions/` folder holds the final session scripts — each one is a thi
 
 ### Build subscripts with parallel subagents
 Do not write all subscripts yourself. Instead, organise the work into **3–5 parallel groups**, spawn one subagent per group, and have them run concurrently. Each subagent receives a clear, self-contained brief telling it exactly which files to produce, which folder to put them in, and what content they should contain.
-
-#### Recommended grouping
-| Group | What it produces | Target folder |
-| --- | --- | --- |
-| **Structural foundation** | Intro, outro, warm-up/grounding, reinforcement subscripts | `structural/` |
-| **Task & drill pools** | A set of task description files, drill block files, and any `<beatmeter>`/`<loop>` paced drill definitions | `content/task_pools/`, `content/drill_blocks/` |
-| **Choice & escalation paths** | Choice-branch definitions and escalation-path files (easy, medium, hard variants) | `content/choice_branches/`, `content/escalation_paths/` |
-| **Session composition** | The thin composition file that `<include>`s the parts above plus any session-specific glue | `compositions/` |
-
-#### Process
-1. **Plan the groups** based on the current session's theme and complexity. Merge or split groups so you land at 2–6 total (never fewer than 2, never more than 6).
-2. **Write a brief for each group** that names every file the group should create, specifies which folder it goes in, lists the key patterns to use (from the Patterns section above), and notes any triggers or specializations to reference.
-3. **Spawn all subagents in parallel**, passing each its brief. Do not spawn them sequentially — the whole point is concurrency.
-4. **Collect the results.** After every subagent finishes, review the outputs, resolve any inconsistencies across groups, and wire the composition file together.
-5. **Create the composition file** at `compositions/<session_name>.xml` that links to the produced structural, task, and choice subscripts.
-
-This approach keeps builds fast (parallel work), keeps files small and reusable (one concern per file), and keeps sessions varied (swap content files without touching the composition).
-
-### Intro
-Set the stage: tell the user what the session will make them do, how to prepare (posture, focus, props, privacy), and what they should be ready to feel. This is your only chance before the work begins, so it should build anticipation and secure their willingness to comply. Wrap it in an `<intro>` tag.
-
-### Main
-The body of the session. It should move through distinct phases rather than being a flat sequence:
-
-#### Warm-up / Grounding
-Start with something easy and low-stakes to establish compliance and get the user in a responsive, aroused mindset. This is a good place for a casual `<choice>` warm-up, a light paced drill, or a first `<rating>` to set a baseline.
-
-#### Core Tasks
-The central exercises that put the user's sissy conditioning into action. This is where you layer instructions, run paced drills, and cycle through randomized exercises. Keep the user guessing with `<random>`/`<scramble>`, and keep instructions layered beneath the main line to maintain immersion.
-
-#### Escalation & Branching
-Raise the intensity based on the user's answers. This phase should feel like it *earned* its difficulty — it builds directly on what the user chose or rated earlier. Use `<choice>` to gate escalation on their consent, so the session can adapt gracefully instead of pushing them past it.
-
-#### Reinforcement
-What the user just did should land as conditioning. Re-state the behavior as something they want and are becoming, pair it with any triggers they practiced, and make them feel proud of their compliance ("good girl / good sissy"). This phase turns exercise into identity.
-
-### Outro
-Wind the user down and consolidate the work. Reinforce the behaviors they performed, seed a call to action for daily life, and close with a soft landing. Wrap it in an `<outro>` tag. A final `<rating>` here captures how effective the session felt and feeds your future planning.
-
-For moderate-length sessions, revisit the pattern of interspersing short re-grounding moments throughout the Main so the user stays present and focused rather than drifting or fatiguing.

@@ -10,7 +10,6 @@ This specialization is the calibration layer: reading what actually drives the u
 ## Read before you push
 
 Structured, progressive training wins; so does matching intensity to the person in front of you:
-
 - **Observe which elements land** — clothing, chastity, verbal framing, service tasks, sexual reorientation cues. Their responses reveal which motivations predominate and therefore which trajectory is probable (`docs/knowledge/archetypes.md` has the pairings).
 - **Praise outperforms humiliation for internalization.** Specific praise for femininity and obedience ("you look soft and pleasing in that") produces deeper, more stable conditioning than degradation alone. Keep humiliation where it is the user's primary erotic driver — and balance it with affirmation of the resulting presentation.
 - **Create purposeful feminine time** — extended, low-pressure windows of presentation and domestic or erotic service that feel purposeful, not performative.

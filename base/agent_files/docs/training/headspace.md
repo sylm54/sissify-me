@@ -10,7 +10,6 @@ This specialization cultivates and sustains the submissive sissy headspace: a so
 Forcing the state activates analytical resistance; patient, cued entry wins. Initial sessions may last minutes — consistent practice extends both depth and duration, and with time the state becomes accessible on demand.
 
 ## Setup
-
 - **Intention and safety** — boundaries and desires are clear before descent (`ONBOARDING.md`); safewords and non-verbal signals defined, since deeper headspace temporarily reduces verbal capacity and critical judgment.
 - **Environment** — interruption-free, soft lighting, a specific scent or curated playlist as transition signals.
 - **Symbolic items** — lingerie, a collar, the cage, feminine accessories: physical anchors that bind sensation to mental shift.
@@ -18,7 +17,6 @@ Forcing the state activates analytical resistance; patient, cued entry wins. Ini
 ## Entering the headspace
 
 Complementary techniques — layer them:
-
 1. **Rituals and anchors** — a fixed pre-session sequence conditions the mind to shift: kneeling in a prescribed posture, applying lipstick or perfume while reciting a mantra ("I soften and surrender"), a short grooming sequence. Over time the cues alone trigger the state — classical conditioning at work.
 2. **Affirmations and mantras** — spoken or written in a relaxed state, daily or pre-session: "I embrace my submissive nature with grace", "Obedience brings me calm", "I am soft, pretty, and devoted". Self-reflection during repetition deepens internalization (more patterns in `docs/training/sissy_mindset.md`).
 3. **Guided hypnosis** — sissy hypnosis audio drops the listener into focused trance through progressive relaxation, deepening imagery, and layered suggestions of femininity, obedience, and pleasure in surrender; 15–45 minutes is typical. Build sessions per `docs/conditioning/overview.md`. Mindfulness companions — body scans, softening visualization — raise receptivity and quiet the analytical mind.

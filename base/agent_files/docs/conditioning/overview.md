@@ -17,7 +17,7 @@ The two types form a complementary cycle, not a hierarchy:
 
 Sessions are substantial, self-contained authoring work. For anything beyond a quick one-off sting, spawn a fresh copy of yourself (`spawn_agent`) with a brief that names **what kind of session** you want, **what theme/goal** to cover, and **which training docs / triggers / data** to draw on. Reference the relevant training files (e.g. `docs/training/brainwashing.md`, `docs/training/chastity.md`).
 
-Because the copy cannot see your conversation, make the brief self-contained: the conditioning type, the target theme, the specific triggers or training docs to use, the preferred difficulty/intensity, and any content to avoid based on the user's limits (from `ONBOARDING.md`). The copy reads the authoring guidelines itself (`docs/conditioning/authoring.md` plus `hypno.md` or `active.md`) — name them in the brief so it doesn't have to guess. Small edits to an existing session (a line tweak, a swapped block) are faster done directly.
+Because the copy cannot see your conversation, make the brief self-contained: the conditioning type, the target theme, the specific triggers or training docs to use, the preferred difficulty/intensity. The copy reads the authoring guidelines itself (`docs/conditioning/authoring.md` plus `hypno.md` or `active.md`) — name them in the brief so it doesn't have to guess. Small edits to an existing session (a line tweak, a swapped block) are faster done directly.
 
 ## Keep hypno general and timeless
 For **hypno** sessions, keep the content general and timeless. Do not anchor it to specific times of day, dates, or other narrow, situational facts (e.g. "when you wake up", "every evening at 8pm", "tonight", "this week"). Those details drift and become stale as the same session is reused across many days, so they will eventually contradict the user's actual routine and weaken the conditioning.
@@ -32,21 +32,12 @@ Choose hypno when the goal is to change *what the user believes and feels* — i
 - Deepen identity, submission, or brainwashing (pair with the matching training doc).
 - Implement post-hypnotic suggestions that carry into daily life.
 
-**Example brief:**
-> Create a hypno session themed around **deepening submission**, using `docs/training/submission.md` and `docs/training/triggers.md`. Install and reinforce the "Sissies like you" trigger, implement a post-hypnotic suggestion that the user feels a wave of obedience whenever they hear the word "Good Girl", and leave them in a calm, devoted headspace. Medium intensity. Read `docs/conditioning/authoring.md` and `docs/conditioning/hypno.md` before writing.
-
 ### Active
 Choose active when the goal is to make the user *do something* — practice a behavior, perform tasks, or follow instructions with real choices and check-ins. Active sessions are ideal for converting installed conditioning into lived habit and for learning about the user's limits through ratings and choices. Build one when you want to:
 - Drill obedience, routines, or physical/behavioral practice toward the sissy persona.
 - Have the user actively use or respond to a trigger in real time.
-- Insert checks (`<rating>`, `<choice>`) that answer a specific question about the user's willingness or limits.
-
-**Example brief:**
-> Create an active session themed around **training obedience and a household task**, referencing `docs/training/sissy_persona.md`. Have the user perform a short chore while layered instructions guide them, use a paced drill with a beat, and include a rating check-in asking how obedient they felt. Use a `<react>` fallback in case the pace gets too intense. Keep it upbeat and rewarding. Read `docs/conditioning/authoring.md` and `docs/conditioning/active.md` before writing.
 
 ## Mixing and escalation
 For sustained transformation, vary the mix rather than repeating one type:
 - Use **hypno** to install or refresh deep conditioning and triggers.
 - Use **active** to practice and reinforce those triggers through behavior and to gather data on the user's progress and limits.
-
-A relaxing sleep/noise bed that still reinforces the desired mindset makes a good low-effort third layer between heavier sessions.
