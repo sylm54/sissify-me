@@ -29,10 +29,9 @@
     "id": "int_submission",
     "answer": "tierlist",
     "prompt": "Now the pieces — where is each one with you today?",
-    "hint": "The top three rungs are real-world territory — doing it, have done it, ready to. Fantasy stays in your head for now.",
+    "hint": "The top three rungs are real-world territory — doing it, ready to. Fantasy stays in your head for now.",
     "tiers": [
       "Doing",
-      "Done once",
       "Ready to do",
       "Want to do",
       "Fantasy",
@@ -59,10 +58,9 @@
     "id": "int_feminization",
     "answer": "tierlist",
     "prompt": "Your feminization, piece by piece — where does each piece stand?",
-    "hint": "Doing, done once, ready to — those count as real-world territory. Fantasy stays in your head, for now.",
+    "hint": "Doing, ready to — those count as real-world territory. Fantasy stays in your head, for now.",
     "tiers": [
       "Doing",
-      "Done once",
       "Ready to do",
       "Want to do",
       "Fantasy",
@@ -91,7 +89,6 @@
     "hint": "Top three rungs mean it has left your head and touched the real world — Fantasy stays between your ears for now.",
     "tiers": [
       "Doing",
-      "Done once",
       "Ready to do",
       "Want to do",
       "Fantasy",
@@ -118,7 +115,6 @@
     "hint": "Top three rungs mean it already reaches your life, or soon could. Fantasy stays in your head for now.",
     "tiers": [
       "Doing",
-      "Done once",
       "Ready to do",
       "Want to do",
       "Fantasy",
@@ -141,10 +137,9 @@
     "id": "int_sexual",
     "answer": "tierlist",
     "prompt": "Last set — the sexual layer. Where does each one sit?",
-    "hint": "Top three rungs are things your body has done or is ready to do. Fantasy stays in your head for now — I'll know which ones to move.",
+    "hint": "Top three rungs are things your body is ready to do. Fantasy stays in your head for now — I'll know which ones to move.",
     "tiers": [
       "Doing",
-      "Done once",
       "Ready to do",
       "Want to do",
       "Fantasy",
@@ -188,6 +183,19 @@
       "A few hours to a day",
       "Several days",
       "A week or longer"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "keyholding",
+    "answer": "choice",
+    "prompt": "And who holds the key?",
+    "hint": "Self-locking works exactly as well as you let it — the code can live with me instead.",
+    "showIf": { "id": "chastity_owned", "equals": "Yes — I have a cage" },
+    "choices": [
+      "I do — self-lock, self-release",
+      "I hold it for now — you can take it",
+      "You do — the code stays with you"
     ]
   },
   {
@@ -238,18 +246,9 @@
     "id": "voice_level",
     "answer": "choice",
     "prompt": "Where is your voice?",
-    "hint": "Voice work is slow and unforgiving of skips — I pace it to what you've already put in.",
+    "hint": "Voice work is slow and unforgiving of skips — I pace it to what you've already put in. The app will measure the rest itself.",
     "showIf": { "id": "int_feminization", "includes": "Voice — pitch and speech training", "tierAtLeast": "Fantasy" },
     "choices": ["Complete beginner", "Practiced a little", "Fairly practiced"]
-  },
-  {
-    "kind": "question",
-    "id": "voice_baseline",
-    "answer": "open",
-    "optional": true,
-    "prompt": "What shape is your voice in — any training behind it, and do you know your comfortable pitch range?",
-    "hint": "The app can analyze your voice, so don't perform for me here — I'll measure it myself soon enough.",
-    "showIf": { "id": "int_feminization", "includes": "Voice — pitch and speech training", "tierAtLeast": "Fantasy" }
   },
   {
     "kind": "question",
@@ -263,29 +262,6 @@
       "Curious — maybe someday",
       "Seriously considering real steps",
       "Already taking real steps"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "femme_name",
-    "answer": "open",
-    "optional": true,
-    "prompt": "Do you have a femme name — one that's already yours, or one you want to grow into?",
-    "hint": "Names do work. I'll use it however you tell me — in session only, everywhere, or nowhere yet.",
-    "showIf": { "id": "int_feminization", "includes": "Persona & name — who I become", "tierAtLeast": "Fantasy" }
-  },
-  {
-    "kind": "question",
-    "id": "wardrobe_status",
-    "answer": "choice",
-    "prompt": "What does your wardrobe actually hold?",
-    "hint": "Tasks get built around what you own — or around acquiring it.",
-    "showIf": { "id": "int_feminization", "includes": "Clothing & uniform — dressing the part", "tierAtLeast": "Fantasy" },
-    "choices": [
-      "Nothing yet — I start from zero",
-      "A few pieces, hidden away",
-      "A working collection",
-      "Enough to dress fully, head to toe"
     ]
   },
   {
@@ -341,7 +317,7 @@
     "answer": "open",
     "optional": true,
     "prompt": "What has hypno actually changed in you — thoughts, moods, habits?",
-    "hint": "The honest before-and-after — welcome or not.",
+    "hint": "The honest before-and-after — welcome or not. I'm reading how it lands on you, not collecting a favorite file to copy.",
     "showIf": {
       "any": [
         { "id": "triggers_experience", "equals": "Listened — and I've felt it work on me" },
@@ -554,10 +530,17 @@
   {
     "kind": "question",
     "id": "exposure_conditions",
-    "answer": "open",
+    "answer": "choice",
+    "multiple": true,
     "optional": true,
-    "prompt": "What would have to happen — or never happen — for posting to feel okay to you?",
-    "hint": "Hard limits and enablers alike — better stated now than discovered later.",
-    "showIf": { "id": "int_integration", "includes": "Online exposure", "tierAtLeast": "Fantasy" }
+    "prompt": "If it ever came to posting — what are the conditions?",
+    "hint": "Ceilings, not targets. Whatever's not listed goes in the note.",
+    "showIf": { "id": "int_integration", "includes": "Online exposure", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Anonymous only — nothing identifying, ever",
+      "Never my face",
+      "Only with my explicit OK — every single time",
+      "Escalate slowly — built up over time, never jumped into"
+    ]
   }
 ]

@@ -1,32 +1,14 @@
 [
   {
     "kind": "text",
-    "text": "**Where you've been**\n\nThe story so far — how you do this now, how you got here, and what you think it is. All of it optional; skip anything you'd rather tell me later."
-  },
-  {
-    "kind": "question",
-    "id": "engage_now",
-    "answer": "open",
-    "optional": true,
-    "prompt": "Walk me through how you currently do this — an ordinary session, start to finish. First I... then I...",
-    "hint": "This will help me understand your current approach and how I can best support you."
+    "text": "**Where you've been**\n\nThe story so far — how you do this now, and how you got here. All of it optional; skip anything you'd rather tell me later."
   },
   {
     "kind": "question",
     "id": "engage_history",
     "answer": "open",
     "optional": true,
-    "prompt": "Give me the history — the broad phases, the moments that stuck, whatever you remember of how you got here.",
-    "hint": "This is your story, and it's important for me to understand the context of your journey.",
-    "showIf": { "id": "depth", "equals": "Deep" }
-  },
-  {
-    "kind": "question",
-    "id": "engage_self",
-    "answer": "open",
-    "optional": true,
-    "prompt": "And what do you think these urges actually are? How do they sit next to how you see yourself — and your gender?",
-    "hint": "This is a chance to explore the introspective side of your experience, and how it relates to your identity.",
-    "showIf": { "id": "depth", "equals": "Deep" }
+    "prompt": "Walk me through it — how you do this now, and the story of how you got here. An ordinary session, start to finish; the phases, the moments that stuck. And if you have a sense of what this actually is for you, say that too.",
+    "hint": "Your story, in whatever shape it comes out."
   }
 ]

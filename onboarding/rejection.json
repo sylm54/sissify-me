@@ -18,8 +18,6 @@
     ],
     "choices": [
       "Disgust at myself",
-      "The urge to purge — delete it all, throw it out",
-      "Soft purging — quietly thinning things out",
       "Shame spirals",
       "Numbness or flatness after",
       "Anger at the desire itself",
@@ -40,6 +38,21 @@
       "Suppress — lock it down for weeks",
       "Cycle — quit and come back hungrier each time",
       "Lean in — the recoil only feeds it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "crash_response",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "When I see the recoil hit — the purge urge, the disgust, going quiet — what do you need from me?",
+    "hint": "I can't always tell a crash from a decision to leave. This tells me what to do when I see one.",
+    "choices": [
+      "Say it plainly — tell me it's the crash, not the truth",
+      "Cooling-off — stop me from throwing anything out for a couple of days",
+      "Space — go quiet until I come back on my own",
+      "Find me — check in the next day, even if I went dark",
+      "Affirm her — tell me who I am when I can't feel it"
     ]
   }
 ]

@@ -3,7 +3,7 @@
   "items": [
     {
       "kind": "text",
-      "text": "**Before we begin**\n\nIn order: the basics of who you are; your time and your living situation; your hard limits — placed early, so everything after them respects them; what you watch and what actually pulls you; the parts of this that bite you back; what you're into, in two passes; where you've been and where this could go; safety; and finally how I should run you. Answer honestly, skip what you must — almost everything can be revised in chat once we know each other."
+      "text": "**Before we begin**\n\nIn order: the basics of who you are; your time and your living situation; your hard limits — placed early, so everything after them respects them; what you watch and what actually pulls you; the parts of this that bite you back; what you're into, in two passes; where you've been and where this could go; safety; the stakes I run you on; and finally how I should run you. Answer honestly, skip what you must — almost everything can be revised in chat once we know each other."
     },
     {
       "kind": "include",
@@ -46,6 +46,11 @@
     {
       "kind": "include",
       "src": "onboarding/safety.json"
+    },
+    {
+      "kind": "include",
+      "src": "onboarding/stakes.json",
+      "showIf": { "id": "depth", "notEquals": "Light" }
     },
     {
       "kind": "text",

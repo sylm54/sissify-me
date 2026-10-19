@@ -18,6 +18,19 @@
   },
   {
     "kind": "question",
+    "id": "touch_frequency",
+    "answer": "choice",
+    "prompt": "And how often do you touch — masturbating, edging, anything of the sort?",
+    "hint": "Denial, habits, and retraining are all paced against this number — same honesty as above.",
+    "choices": [
+      "Rarely",
+      "A few times a week",
+      "Daily",
+      "More than once a day, most days"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "attraction_map",
     "answer": "tierlist",
     "prompt": "And who actually turns you on — people and selves, not genres.",
@@ -43,7 +56,7 @@
     "id": "media_tastes",
     "answer": "tierlist",
     "prompt": "Sort these themes for me — where does each one actually sit?",
-    "hint": "The top two tiers are the ones I care about: \"Strong fantasy\" is what pulls hardest, and \"Strong fantasy with later rejection\" means hot right up until you finish — then you want it gone. I need to know which is which.",
+    "hint": "The top two tiers are the ones I care about: \"Strong fantasy\" is what pulls hardest, and \"Strong fantasy with later rejection\" means hot right up until you finish — then you want it gone. I need to know which is which. If a theme comes with specifics — the flavor of it, the scene it feeds — put that in the note.",
     "tiers": [
       "Strong fantasy with later rejection",
       "Strong fantasy",
@@ -66,14 +79,5 @@
       "JOI / instructions"
     ],
     "showIf": { "id": "depth", "notEquals": "Light" }
-  },
-  {
-    "kind": "question",
-    "id": "media_deep",
-    "answer": "open",
-    "prompt": "For the themes you put in the top tiers — what about them turns you on, and what fantasies do they feed?",
-    "hint": "This is where I learn your actual levers — the more specific you are, the more I can do with it. (As a reminder, the themes in the previous question are: Straight / vanilla porn, Gay porn, BNWO / raceplay, Beta & sissy hierarchy, Humiliation, Captions, Cuckold, Femdom, Sissy porn, Forced bi, Hypno porn, JOI / instructions; Feel free to add others if you want.)",
-    "optional": true,
-    "showIf": { "id": "depth", "equals": "Deep" }
   }
 ]

@@ -24,6 +24,20 @@
   },
   {
     "kind": "question",
+    "id": "reference",
+    "answer": "choice",
+    "prompt": "And when I speak of you — to you, about you, in audio — which is it?",
+    "hint": "No wrong answer. 'You decide' hands it to me.",
+    "choices": [
+      "She/her — I'm her",
+      "She/her when we play — he/him the rest of the time",
+      "He/him — keep it that way",
+      "It — objectify me",
+      "You decide for me"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "body_basics",
     "answer": "open",
     "optional": true,

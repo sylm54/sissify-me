@@ -6,10 +6,14 @@
   {
     "kind": "question",
     "id": "safeword",
-    "answer": "open",
-    "optional": true,
+    "answer": "choice",
     "prompt": "Choose your safeword — the one thing you can say that stops everything, instantly.",
-    "hint": "Pick something you'd never say mid-scene by accident — \"red\" is the classic. Skip this and I'll take it as working without one."
+    "hint": "It should never come up in play by accident. Rather work without one? Say so — that's a choice, not a skip.",
+    "choices": [
+      "Red — the classic",
+      "Something else — it's in the note",
+      "None by choice — my hard limits are the wall"
+    ]
   },
   {
     "kind": "question",
