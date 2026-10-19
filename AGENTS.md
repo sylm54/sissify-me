@@ -29,7 +29,7 @@ personality_superior/   part:
 - **Prompt directives**: `{{embed './x.md'}}` resolves in the *prompt store* (use for sibling prompts, e.g. `role.md`); `{{include './x.md'}}` resolves in the *sandbox* (`agent_data/`, use for fixed files like `USER.md`); `{{docs}}` renders the docs index (every `docs/**/*.md` listed by its `description` frontmatter; `inline: true` inlines a body). `{{docs}}` is app-provided — don't shadow it.
 - **Docs**: every markdown file under `base/agent_files/docs/` needs `description` frontmatter (lint error otherwise; the linter also warns when an `inline: true` body exceeds ~500 words). `docs/internal/` is app-owned and seeded at startup — never ship files there.
 - **Fixed files** (`USER.md`, `PLAN.md`, `PROGRESS.md`, `PERSONALITY.md`, `CONDITIONING.md`) are `preserve`d — user/agent edits survive updates. Ship only placeholders for them; real content is written in-app. `USER.md` is (re)written by app onboarding from `onboarding.json`.
-- **Audio scripts** live under `hypnos/` (e.g. `hypnos/hypno/compositions/*.xml`). A script only reaches the user when referenced from a feature file (audio block, `[x](hypnos/….xml)` link, or `script` action).
+- **Audio scripts** live under `hypnos/` (e.g. `hypnos/hypno/compositions/*.xml`). A script only reaches the user when referenced from a feature file (a `script` action, or `audio.prepare`/`audio.play` in a routine/task body).
 - Retiring an installed file: delete it here **and** list its path under `owned_files` (or `remove`) in the manifest, or it lingers in user sandboxes forever.
 
 ## Tooling

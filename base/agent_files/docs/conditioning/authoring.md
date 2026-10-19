@@ -24,12 +24,11 @@ Before writing new content, check whether a suitable subscript already exists (s
 - Update a part in place when its content changes; never fork a copy for a single session.
 
 ## Making a session playable
-An XML script alone does nothing for the user — it must be referenced so the app surfaces it. After writing a session, wire it in through one of:
-- An `audio` feature block in a routine or task (`src` pointing at the `.xml` file), so it plays as a gated step of a session.
-- A markdown audio link on a routine/task page pointing at the script (e.g. at `hypnos/hypno/compositions/<session>.xml`).
-- A `script` action (e.g. a routine's `success` action, a timeout escalation, or a store entry the user buys with points), which queues the script for the user to play.
+An XML script alone does nothing for the user — it must be referenced so the app surfaces it. Every script in the sandbox pre-renders in the background after startup, and referenced scripts render first. After writing a session, wire it in through one of:
+- A `script` action (e.g. a routine's `success` action, a task timeout escalation, or a store entry the user buys with points), which queues the script for the user to play.
+- `audio.prepare(src)` / `audio.play(src)` inside a routine or task body, so it plays as a stage of the session — the body can sync to the audio through the script's `<zone>`/`<mark>` markers (`await handle.zone('warmup')`). See `docs/internal/runtime-api.md` for the full API.
 
 You own the feature files as much as the scripts: when a commissioned session is part of a plan, wire it into (or create) the routine/task it belongs in rather than leaving the file unreferenced.
 
 ## Validate before you finish
-Scripts are written in XML and can import other scripts via `<include>` (see `docs/internal/tts-tags.md` for the syntax). After writing scripts or sessions, validate them with the `validate_files` tool (optionally scoped to a path, e.g. `validate_files({ path: "hypnos" })` or `validate_files({ path: "hypnos/hypno/compositions/reinforce_sissy_identity.xml" })`): it parses and semantically checks the markup and chases includes, reporting dangling/circular includes as errors. Fix every reported `error` before considering the script done; `warning`s are not fatal but usually indicate something unintended.
+Scripts are written in XML and can import other scripts via `<include>` (see `docs/internal/tts-tags.md` for the syntax). After writing scripts or sessions, validate them with the `validate_files` tool (optionally scoped to a path, e.g. `validate_files({ path: "hypnos" })` or `validate_files({ path: "hypnos/hypno/compositions/reinforce_sissy_identity.xml" })`): it parses and semantically checks the markup and chases includes, reporting dangling/circular includes, unknown/removed tags, and missing `<clip>` sources as errors. Fix every reported `error` before considering the script done; `warning`s are not fatal but usually indicate something unintended.

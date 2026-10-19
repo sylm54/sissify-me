@@ -63,8 +63,8 @@ Install them near the end of the suggestion phase, after the core work is accept
 - **Glob pools**: point one `<include>` at a folder glob (`../content/induction_pools/*.xml`) and one random match is chosen per playback — the same script can draw a different variant on each listen. This replaces "router" scripts that list one include per variant inside `<random>`. Adding a variant to the pool is just dropping a new file in the folder; the glob match set is part of the script's freshness, so it re-renders automatically. A glob never matches the script that declares it, so same-directory pools stay cycle-free.
 - **Random Suggestions**: `<random>`/`<scramble>` inside a block so its own lines vary on every listen.
 - **Ordering**: `<scramble>` the trigger/suggestion blocks in a composition by wrapping each include in a `<part>` — the blocks play once each in a freshly shuffled order per playback. Vary content *within* blocks with their own `<random>`/`<scramble>`.
-- **Repeating content**: a file may be `<include>`d at most once per render tree — to repeat content, put a `<loop>`/`<scramble>` inside the subscript itself.
-- **Structural markers**: wrap compositions in `<intro>` / `<main>` / `<outro>`. They are transparent to audio.
+- **Repeating content**: a file may be `<include>`d any number of times in one script — each occurrence splices it in again (only cycles, an include reaching back to an ancestor, are rejected). For back-to-back repetition, wrap the include in a `<loop>`.
+- **Sync points**: wrap a stretch of the composition in `<zone name='induction'>` or drop `<mark name='deep'/>` between blocks. They are audio-transparent; a session-playing routine body awaits them to sync its widgets to the audio (`docs/internal/runtime-api.md`).
 
 ## Structure
 Hypno sessions must be built from small, reusable subscripts rather than one big script.
@@ -90,10 +90,10 @@ hypnos/hypno/
     └── <session_name>.xml
 ```
 
-The `compositions/` folder holds the final session scripts — each one is a thin file that `<include>`s the structural and content files it combines, plus the session-specific framing, post-hypnotic suggestions, and post-talk. A composition maps the session arc onto the structural markers: `<intro>` = pre-talk + induction + deepening, `<main>` = trigger and suggestion work with redeepenings interspersed, `<outro>` = post-hypnotic restatement + emergence + post-talk.
+The `compositions/` folder holds the final session scripts — each one is a thin file that `<include>`s the structural and content files it combines, plus the session-specific framing, post-hypnotic suggestions, and post-talk. A composition lays the session arc out in order: pre-talk + induction + deepening first, then trigger and suggestion work with redeepenings interspersed, then post-hypnotic restatement + emergence + post-talk. Optionally name the stretches with `<zone>`/`<mark>` so a session body can sync to them.
 
 ### Intro
-Intro builds expectations and eases the user toward trance. It should be in an `<intro>` tag.
+Intro builds expectations and eases the user toward trance. It opens the composition.
 
 #### Pre-talk
 Set the stage: what the session is, what to expect, how to prepare.
@@ -105,7 +105,7 @@ Guide the user into relaxation and focus. Prefer clear directions over suggestio
 Deepen the state: countdowns, guided imagery (staircase/elevator), fractionation, progressive relaxation. Ratify responses. Also a glob selector over its pool.
 
 ### Main
-In this core segment, the hypnotic state is applied to the session's purpose: direct or indirect suggestions, metaphors, storytelling, triggers. Intersperse redeepening subscripts between blocks to maintain depth. The main segment runs through two phases, use `<main>`.
+In this core segment, the hypnotic state is applied to the session's purpose: direct or indirect suggestions, metaphors, storytelling, triggers. Intersperse redeepening subscripts between blocks to maintain depth. The main segment runs through two phases.
 
 #### Trigger reinforcement/implementation
 Reinforce the user's existing triggers and implement new ones. Follow the **Suggestion → Trigger** order from the Triggers section: elicit and intensify the response first, introduce the cue at its peak, reinforce, future-pace. Use the **Random Suggestions** and **Ordering** patterns for variety. Keep each trigger block in its own reusable subscript so triggers can be shared across sessions and updated in one place.
@@ -114,7 +114,7 @@ Reinforce the user's existing triggers and implement new ones. Follow the **Sugg
 Deliver direct or indirect suggestions aligned with the user's sissy identity and desired outcomes: affirmations, visualizations, trigger use. If installed triggers can carry the suggestion phase, use them — firing a trigger in trance reinforces it. Build the phase as a graduated response set: open with easier, undeniable material (pacing), then lead to the session's core claims, then identity-level statements anchored to concrete sensation. This should be the longest phase of the main segment. Use the **Random Suggestions** and **Ordering** patterns, and keep each suggestion block in its own reusable subscript.
 
 ### Outro
-Outro returns the user to a normal state of awareness and decides the headspace they carry out of the session. It should be in an `<outro>` tag.
+Outro returns the user to a normal state of awareness and decides the headspace they carry out of the session. It closes the composition.
 
 #### Post-hypnotic suggestion
 Describe directly how they will feel, what they will do, and how they will think once the session ends — clear cue, simple positive present-tense response, optional identity support. Install near the end of the session and restate during emergence.

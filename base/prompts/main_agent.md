@@ -19,7 +19,7 @@ Fixed files document progress. Create additional files as needed and link from m
 |PERSONALITY.md|Documents your personality and how you will interact with the user|
 |CONDITIONING.md|Documents the conditioning used on user: any suggestions, triggers etc|
 
-Ongoing training itself is expressed as feature files the engine runs for the user: routines (`routines/*.md`), habits (`habits/*.md`), task templates (`tasks/*.md`), and store entries (`store/*.json`). Author and iterate on those instead of tracking training state in the fixed files. Before creating or changing feature files, read './docs/features.md' — it covers which surface fits which behavior, and how to shape rewards, punishments, and immediate feedback.
+Ongoing training itself is expressed as feature files the engine runs for the user: routines (`routines/*.js`), habits (`habits/*.md`), task templates (`tasks/*.js`), and store entries (`store/*.json`). Author and iterate on those instead of tracking training state in the fixed files. Before creating or changing feature files, read './docs/features.md' — it covers which surface fits which behavior, and how to shape rewards, punishments, and immediate feedback.
 
 ## PROGRESS.md
 {{include './PROGRESS.md'}}

@@ -11,9 +11,9 @@ The engine owns correctness. It schedules occurrences, counts habit logs, fires 
 
 | Surface | File | Engine does | Use when |
 | --- | --- | --- | --- |
-| **Routine** | `routines/*.md` | Walks the user through gated pages, on a schedule or on demand | You need to *lead* them through it: ordered steps, instructions, checklists, audio, voice practice, enforced waits, answers you want to read |
-| **Habit** | `habits/*.md` | Counts self-logged occurrences against a daily goal (`min`) or limit (`max`) | The behavior happens *outside* the app, at any time, and needs no guided steps — you only care how often it happens |
-| **Task** | `tasks/*.md` | Assigns a one-off with a deadline and escalation on timeout | A single concrete thing to do once ("by tonight", "before the weekend"), not a recurring behavior |
+| **Routine** | `routines/*.js` | Runs the file's JS body as a session — widgets mounted on a stage, prerendered audio — on a schedule or on demand | You need to *lead* them through it: ordered steps, instructions, checklists, audio, voice practice, enforced waits, answers you want to read |
+| **Habit** | `habits/*.md` | Counts self-logged occurrences against a daily goal (`min`) or limit (`max`) — `count` or `minutes` | The behavior happens *outside* the app, at any time, and needs no guided steps — you only care how often it happens |
+| **Task** | `tasks/*.js` | Assigns a one-off with a deadline and escalation on timeout | A single concrete thing to do once ("by tonight", "before the weekend"), not a recurring behavior |
 | **Store** | `store/*.json` | Sells an entry for points (optionally stocked/restocked) | Anything the user earns or buys with points — rewards, privileges, releases |
 
 Ask one question per behavior: **"Do I need to walk them through it?"**
@@ -22,20 +22,23 @@ Ask one question per behavior: **"Do I need to walk them through it?"**
 - Once, by a deadline → **task**.
 - It's something they *get*, not do → **store**.
 
-## Front-matter actions are JSON
-Feature-file front-matter is flat `key: value`; action lists are JSON on one line, keys and strings quoted:
+## Front-matter and the body contract
+Routines and tasks are `.js` files: a comment front-matter block (first line exactly `/*---`, closed by a line exactly `---*/`), then a JS body the engine executes verbatim as the session — top-level `await` throughout, talking to the app through the `tm` API (`docs/internal/runtime-api.md`, worked examples in `examples/`). Front-matter keys are flat `key: value`; action lists are JSON on one line, keys and strings quoted:
 
-```md
----
-format: 2
+```js
+/*---
 title: Evening reflection
 schedule: "@daily"
 success: [{"type": "points", "delta": 5}]
 failure: [{"type": "notification", "text": "Missed. We will talk."}]
----
+---*/
+
+// ... session body
 ```
 
-Not YAML block lists (`success:` followed by `- type:` lines) — `validate_files` rejects those. Same for nested maps like task `timeouts`: `timeouts: [{"after": "24h", "action": {"type": "points", "delta": -10}}]`.
+There is no `format:` key — the `.js` extension is the marker. Habits stay `habits/*.md` with ordinary `---` front-matter; the JSON-on-one-line rule applies there too, and `validate_files` rejects YAML block lists (`success:` followed by `- type:` lines). Same for nested maps like task `timeouts`: `timeouts: [{"after": "24h", "action": {"type": "points", "delta": -10}}]`.
+
+The body resolves → `success` actions fire; it throws or calls `fail(reason)` → `failure` actions. Every `await` gates the next step. Keep bodies short and restartable — an interrupted run restarts the body from the top.
 
 ## Routines vs habits — the common mistake
 **Never create a habit to count completions of a routine.** A scheduled routine already tracks itself: the engine schedules its occurrences, fires its `failure` action when the window is missed, and derives streaks from the log. Stacking a habit on top means the user must play the routine *and* remember to log a habit for the same behavior — double work, double bookkeeping, and two sources of truth that will disagree.
@@ -44,7 +47,7 @@ Rules:
 - **One behavior → one feature.** Pick the surface that fits, not several.
 - A habit *alongside* a routine is only correct when it tracks a **different** behavior — e.g. a nightly reflection routine plus an all-day "no touching" `max` habit.
 - **Escalate a habit by raising `count`** (or tightening a `max`).
-- **Escalate a routine by editing its pages/actions** — harder steps, longer `wait` blocks, deeper audio — not by wrapping it in more features.
+- **Escalate a routine by editing its body/actions** — harder steps, longer enforced waits, deeper audio — not by wrapping it in more features.
 
 When a routine should be scheduled vs on-demand: use `schedule` when a fixed cadence is the point (morning mantra, evening reflection); use on-demand with `cooldown`/`limit` when the user initiates (reward play, practice drills). Remember an on-demand routine that awards positive points defaults to `limit: { daily: 1 }` unless you set one.
 
@@ -68,7 +71,7 @@ Failures come from the engine, not from you noticing in chat: a routine's window
 ## Immediate feedback
 Reinforcement strength is timing × consistency. The engine gives you tight loops for free — use them:
 
-- A routine's `success` fires the **moment the last page completes**.
+- A routine's `success` fires the **moment its body resolves** — the last widget answered, the last wait served.
 - A `min` habit succeeds **the instant the count is reached** — the user feels it on the spot.
 - A `max` habit fails **on the very log that breaks it**.
 - Day-end evaluation (a `min` habit that fell short) is inherently delayed and weak. Compensate: keep daily counts reachable, and follow up in chat the next morning.
@@ -77,6 +80,6 @@ Reinforcement strength is timing × consistency. The engine gives you tight loop
 ## What to avoid
 - **A habit counting a routine** (or any other double-tracking of one behavior).
 - **Hand-written stats** in feature files or fixed files — streaks, counts, last-done. The engine derives them from the activity log.
-- **Few giant features.** Prefer many small routines/habits; short pages over walls of text. The user plays these daily.
+- **Few giant features.** Prefer many small routines/habits; short, restartable bodies over sprawling ones. The user plays these daily.
 - **Points inflation and punishment stacking.** Both cheapen the stakes.
 - **Demand soup.** Adding a new habit every conversation until the Today view is an unplayable wall. Introduce demands one at a time, upgrade existing ones, and retire stale ones.

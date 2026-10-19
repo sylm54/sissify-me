@@ -40,40 +40,32 @@ success: [{"type": "points", "delta": 5}]
 The `min` habit succeeds the moment the count is reached — same-hour feedback, no waiting on you. Escalate over weeks: `count: 1` → all-day wear, add layers (lingerie under clothes at home, then out), tighten the `max` side (no male clothing at home at all). Introduce **one new habit at a time**; a wall of demands gets abandoned.
 
 ### Corrupted chore sessions (routines)
-When a chore needs your pacing and erotic framing — porn playing while they work, a hypno file in their ears, instructions that escalate step by step — write a routine:
+When a chore needs your pacing and erotic framing — porn playing while they work, a hypno file in their ears, instructions that escalate step by step — write a routine (`routines/*.js`: comment front-matter, then a JS body; the `tm` API is documented in `docs/internal/runtime-api.md`):
 
-````md
----
-format: 2
+````js
+/*---
 title: Sissy Chores
 schedule: "@daily"
 timeframe: 6h
 success: [{"type": "points", "delta": 10}]
 failure: [{"type": "points", "delta": -10}, {"type": "notification", "text": "Chores undone. Sloppy girls get extra work."}]
----
-
-Dress for it first: panties, and whatever else is currently required of you. Then press play and start cleaning.
-
----
-
-- [ ] Dressed as instructed
-- [ ] Porn or hypno playing where I can see/hear it
-- [ ] Full clean of the main room
-- [ ] Surfaces wiped, floor done, laundry started
-
-[Chore drill](hypnos/active/compositions/chore_drill.xml)
-
-```feature
-type: wait
-duration: 20m
----
-No rushing. Hands busy, mind on what you are becoming.
-```
-
-Describe how it felt to serve like this — one honest paragraph.
+---*/
+await show('brief', { type: 'text', area: 'top', body: 'Dress for it first: panties, and whatever else is currently required of you. Then press play and start cleaning.' });
+const drill = audio.play('hypnos/active/compositions/chore_drill.xml');
+const list = await show('chores', { type: 'checklist', area: 'main', items: [
+  'Dressed as instructed',
+  'Porn or hypno playing where I can see/hear it',
+  'Full clean of the main room',
+  'Surfaces wiped, floor done, laundry started',
+]});
+await list.done;                // every chore ticked
+await drill.mark('cooldown');   // the audio reached its closing stretch
+const report = await show('note', { type: 'input', area: 'bottom', field: 'chore_report',
+  prompt: 'Describe how it felt to serve like this — one honest paragraph.' });
+await report.done;
 ````
 
-The engine gates every element: the checklist must be ticked, the audio consumed, the wait served before the page unlocks, and `success` fires the moment they finish. Rotate the theme (kitchen night, laundry worship, bathroom sparkle) by editing pages — same routine file, no new features.
+The body runs top to bottom and every `await` gates the next step: the audio plays under the whole session, the checklist must be ticked, the report written, and `success` fires the moment the body resolves. Rotate the theme (kitchen night, laundry worship, bathroom sparkle) by editing the body — same routine file, no new features.
 
 Coordinate with an audio layer (`hypnos/active/…` drill files or a looping hypno composition).
 
@@ -84,18 +76,20 @@ Environment changes are one-offs — assign them as tasks, not habits:
 - Keep lingerie, toys, or the chastity key visible in living spaces as constant reminders.
 - Rearrange a room around the vanity/mirror — a station for the sissy, not the man.
 
-````
----
+````js
+/*---
 title: Wallpaper
 timeframe: 24h
 success: [{"type": "points", "delta": 15}]
 timeouts: [{"after": "24h", "action": {"type": "points", "delta": -10}}]
----
-Set every screen you unlock daily — phone, laptop, tablet — to imagery you'd be ashamed to explain. It stays until I say otherwise.
-
-- [ ] Phone done
-- [ ] Computer done
-- [ ] Every screen I use daily is done
+---*/
+await show('order', { type: 'text', area: 'top', body: 'Set every screen you unlock daily — phone, laptop, tablet — to imagery you\'d be ashamed to explain. It stays until I say otherwise.' });
+const screens = await show('screens', { type: 'checklist', area: 'main', items: [
+  'Phone done',
+  'Computer done',
+  'Every screen I use daily is done',
+]});
+await screens.done;   // all screens confirmed
 ````
 
 Once done, an environmental change persists on its own — verify in chat, don't re-feature it.
@@ -106,7 +100,7 @@ Corruption advances by raising the floor, not by stacking features:
 - **Prohibitions tighten**: panties on chore days → every day → no male underwear exists in the drawer anymore.
 - **Layers add**: dress code plus audio plus a mantra habit — introduced one at a time, each given weeks to settle.
 - **Routines hand off to habits**: once a chore ritual is rote and self-directed, retire the routine and track the behavior as a habit instead. Replace — never run both.
-- **Routines deepen in place**: harder pages, longer `wait` blocks, filthier audio — edit the file, don't wrap it.
+- **Routines deepen in place**: harder steps, longer enforced waits, filthier audio — edit the body, don't wrap it.
 
 Watch `activity.db` for the real signal: logged habits, completed sessions, and answers, not what they claim in chat.
 
@@ -124,7 +118,7 @@ Watch `activity.db` for the real signal: logged habits, completed sessions, and 
 
 ## Integration with Other Specializations
 - **uniform** — dress-code habits are enforced uniformity; coordinate so the two never issue conflicting wardrobe orders.
-- **chastity** — lock status pairs naturally with chore routines (a `chastity` feature block verifies they're locked before the session unlocks).
+- **chastity** — lock status pairs naturally with chore routines (a `lock` widget, `state: "locked"`, verifies they're locked before the session proceeds).
 - **brainwashing** / **sissy_mindset** — mantras and thought loops become `min` habits here, counted daily.
 - **sissy_reflection** — aim reflection prompts at the corruption itself: how chores now feel, what they notice missing from their old life.
 - **conditioning docs** — build the audio layer (chore drills, loop-with-suggestions) that routines reference; see `docs/conditioning/authoring.md`.

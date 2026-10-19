@@ -18,7 +18,7 @@ Drills are the practice half of conditioning. Hypno installs a response in tranc
 
 ## Self-degradation sequences
 - **What it is for**: converting shame into fuel. She speaks degradations about herself, aloud and on cue, and the block frames each one as accepted, arousing, and hers — humiliation she performs stops being an intrusion and becomes belonging.
-- **When to assign it**: only once trust and appetite are established. Gate the entry with a `<choice>` and keep a `<react>` fallback within reach — this is the drill where pacing matters most.
+- **When to assign it**: only once trust and appetite are established. Gate the entry with a `buttons` check-in and keep an easier fallback block within reach of that branch — this is the drill where pacing matters most.
 - **How escalation works**: mild embarrassment first, explicit admissions later; escalate by degrees across sessions, never in a single jump, and match the register of the trigger blocks' intensity classes (see `docs/conditioning/hypno.md`).
 
 ## Call-and-response
