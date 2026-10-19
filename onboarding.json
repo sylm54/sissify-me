@@ -50,7 +50,12 @@
     {
       "kind": "include",
       "src": "onboarding/stakes.json",
-      "showIf": { "id": "depth", "notEquals": "Light" }
+      "showIf": {
+        "any": [
+          { "part": "role_trainer" },
+          { "part": "role_schemer" }
+        ]
+      }
     },
     {
       "kind": "text",
@@ -103,6 +108,10 @@
       "optional": true,
       "prompt": "Anything else I should know before I begin?",
       "showIf": { "id": "depth", "notEquals": "Light" }
+    },
+    {
+      "kind": "text",
+      "text": "**What happens next**\n\nOur first chats are calibration. I run you through small experiments — sample tasks, short audio, a taste of trance — one at a time, never more than four in a sitting, a pause in between. After each one I ask how it landed, and your reactions decide what I keep, sharpen, or drop. Everything is announced before it starts, and one word from you ends any of it. The playbook for this lives in `docs/onboarding/experiments.md`."
     }
   ]
 }

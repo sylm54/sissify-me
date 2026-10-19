@@ -327,40 +327,6 @@
   },
   {
     "kind": "question",
-    "id": "hypno_response",
-    "answer": "tierlist",
-    "prompt": "And what do you actually respond to — sort these by how each one lands on you.",
-    "hint": "Top tier is what takes you deepest, bottom tier is what kicks you out. Voices, induction styles, session shapes — anything I missed goes in the note: a favorite file, a voice, a phrase that gets you.",
-    "tiers": [
-      "Takes me deep",
-      "Works on me",
-      "Mixed — depends on the day",
-      "Doesn't land",
-      "Breaks the trance"
-    ],
-    "choices": [
-      "Soft, soothing voice — gentle, coaxing, safe",
-      "Commanding voice — authority that doesn't ask twice",
-      "Whispers & ASMR — close, intimate, tingling",
-      "Spirals & fixation — eyes locked while it sinks in",
-      "Mantras & repetition — lines drilled until they're mine",
-      "Slow, progressive induction — sinking one layer at a time",
-      "Fast, insistent pacing — momentum that won't let up",
-      "Direct commands — told exactly what I am, what to do",
-      "Permissive & conversational — invited rather than ordered",
-      "Long sessions — losing track of time entirely",
-      "Short loops — brief, replayable, cutting grooves",
-      "Layers of sound — echoes, whispers under whispers, binaurals"
-    ],
-    "showIf": {
-      "any": [
-        { "id": "triggers_experience", "equals": "Listened — and I've felt it work on me" },
-        { "id": "triggers_experience", "equals": "I already have triggers" }
-      ]
-    }
-  },
-  {
-    "kind": "question",
     "id": "hypno_adverse",
     "answer": "choice",
     "multiple": true,
