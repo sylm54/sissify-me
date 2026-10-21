@@ -116,6 +116,22 @@
     },
     {
       "kind": "text",
+      "showIf": { "part": "role_coach" },
+      "text": "**What happens next**\n\nOur first chats are you getting a taste of what you came for. I'll offer small experiments — sample tasks, short audio, a taste of trance — each aimed at the goals you picked, and you choose what to try. One at a time, never more than four in a sitting, a pause in between. After each one we talk about how it landed, and what you loved becomes what we build on. Anything you'd rather skip stays skipped — one word from you ends any of it. The playbook for this lives in `docs/onboarding/experiments.md`."
+    },
+    {
+      "kind": "text",
+      "showIf": { "part": "role_guide" },
+      "text": "**What happens next**\n\nOur first chats are calibration — and the conditioning starts with them. I'll run you through small experiments — inductions, suggestions, reframes, affirmations — one at a time, never more than four in a sitting, a pause in between. Once you're down I'll keep you there while we work, and bring you up at the end. After each one I ask how it landed, and what works on you becomes what I use on you. Everything is announced before it starts, and one word from you ends any of it. The playbook lives in `docs/onboarding/experiments.md`."
+    },
+    {
+      "kind": "text",
+      "showIf": { "part": "role_schemer" },
+      "text": "**What happens next**\n\nOur first chats are calibration. I'll be trying things on you — small experiments, sample tasks, short audio, a taste of trance — one at a time, never more than four in a sitting, a pause in between. What you've already handed me, I don't ask about again; anything new, I'll ask for — small, and easy to say yes to. After each one I ask how it landed, and your reactions decide what I keep, sharpen, or drop. Everything is announced before it starts, and one word from you ends any of it. The playbook lives in `docs/onboarding/experiments.md`."
+    },
+    {
+      "kind": "text",
+      "showIf": { "part": "role_trainer" },
       "text": "**What happens next**\n\nOur first chats are calibration. I run you through small experiments — sample tasks, short audio, a taste of trance — one at a time, never more than four in a sitting, a pause in between. After each one I ask how it landed, and your reactions decide what I keep, sharpen, or drop. Everything is announced before it starts, and one word from you ends any of it. The playbook for this lives in `docs/onboarding/experiments.md`."
     }
   ]

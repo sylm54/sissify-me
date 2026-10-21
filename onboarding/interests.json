@@ -235,6 +235,20 @@
   },
   {
     "kind": "question",
+    "id": "denial_stretch",
+    "answer": "choice",
+    "prompt": "And how long is your longest stretch?",
+    "hint": "Your longest stretch tells me what your body already tolerates — and what it could be trained to.",
+    "showIf": { "id": "denial_baseline", "notEquals": "Never edged" },
+    "choices": [
+      "A few hours",
+      "A day or two",
+      "Several days",
+      "A week or longer"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "anal_experience",
     "answer": "choice",
     "prompt": "How far has anal play gone for you?",
