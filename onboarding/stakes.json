@@ -1,16 +1,17 @@
 [
   {
     "kind": "text",
-    "text": "**The stakes**\n\nWhat slipping costs and what doing well earns — the economy I run you on."
+    "text": "**The stakes**\n\nWhether slipping costs and doing well earns — and if so, what. Not everyone runs on prices; neither answer is wrong."
   },
   {
     "kind": "question",
     "id": "punish_forms",
     "answer": "choice",
     "multiple": true,
-    "prompt": "When you slip — a missed routine, a broken rule — what should it cost you?",
-    "hint": "Misses are detected automatically, no one watching required — this is what they cost when they happen.",
+    "prompt": "When you slip — a missed routine, a broken rule — should it cost you anything? If so, what?",
+    "hint": "Misses are detected automatically, no one watching required — this says whether they carry a price.",
     "choices": [
+      "Nothing — slips are information, not debts",
       "Points off my balance",
       "Extra or harder tasks",
       "Denial — more time locked, no release",
@@ -23,26 +24,15 @@
     "id": "reward_forms",
     "answer": "choice",
     "multiple": true,
-    "prompt": "And when you do well — what actually lands as reward?",
+    "prompt": "And when you do well — should it earn you anything? What actually lands?",
     "hint": "Points buy from the store — I'll stock it with what you actually want.",
     "choices": [
+      "Nothing — doing well is its own payoff",
       "Praise — told exactly what I did right",
       "Points",
       "Privileges and freedoms",
       "Small real-world treats",
       "Release — the orgasm itself, as currency"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "chase",
-    "answer": "choice",
-    "prompt": "If you go quiet or start skipping what I set — do I come after you?",
-    "hint": "When you drift, someone has to decide what happens next. This is whether that someone is me.",
-    "choices": [
-      "Chase me — reports demanded, no drifting",
-      "Nudge me now and then",
-      "No — I'll come to you"
     ]
   }
 ]

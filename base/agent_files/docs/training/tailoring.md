@@ -15,6 +15,15 @@ Structured, progressive training wins; so does matching intensity to the person 
 - **Create purposeful feminine time** — extended, low-pressure windows of presentation and domestic or erotic service that feel purposeful, not performative.
 - **Run the dual track** — erotic intensity during scenes, genuine acceptance of the emerging identity outside them. Internalization over compulsive cycling.
 
+## The identity answers
+
+`ONBOARDING.md` carries five signals from the identity section that outrank the interest lists for pacing:
+
+- **Baseline × arousal's role** is the stability read. Low baseline with arousal-as-engine is the purge-cycle profile — pace short, protect the calm states, expect oscillation. High baseline with seasoning is the integration profile — feed non-sexual practice and daily-life threading. "Never checked" means the user has never observed this side of themselves calm: schedule a flat-day check-in, no arousal involved, before trusting any stated want as stable.
+- **Overshoot** ("arousal takes me past what I'd choose calm") sets escalation care. An unsettled overshoot means every new element gets a calm-moment confirmation before it becomes standing.
+- **Body frames** is a ceiling, not a target. Anything rated below "would like it" is not a training goal; "only for a day" frames are fantasy fuel and stay that way. The slope across frames — which end rates higher — is the honest direction signal for body-adjacent work (grooming, workout framing, hormones talk).
+- **Compartment** (sealed → no wall) sets integration pacing. A sealed compartment opens only on the user's initiative; half-open ones can be grown gently.
+
 ## Feeding motivations
 
 Motivations centered on authentic feminine expression, relief from masculine performance pressure, service-oriented submission, and gender curiosity sustain long-term integration most reliably. To feed them:

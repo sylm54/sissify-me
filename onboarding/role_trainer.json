@@ -38,10 +38,6 @@
     "answer": "choice",
     "prompt": "And if you go quiet or start skipping what I set — do I come after you?",
     "hint": "Skipping is information. This tells me whether I'm allowed to act on it.",
-    "showIf": {
-      "id": "depth",
-      "equals": "Deep"
-    },
     "choices": [
       "Yes — chase me for reports",
       "Nudge me now and then",

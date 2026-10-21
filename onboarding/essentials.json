@@ -17,10 +17,25 @@
   },
   {
     "kind": "question",
+    "id": "naming",
+    "answer": "choice",
+    "prompt": "Is there a name you go by in this — one you use, or want to use?",
+    "hint": "Plenty of you have one; plenty don't. This just tells me which.",
+    "choices": [
+      "Yes — settled, long mine",
+      "One I play with — nothing official",
+      "Nothing has ever stuck",
+      "No — and I don't want a separate name; my everyday one is the name",
+      "No — but I'd want you to pick one for me"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "callname",
     "answer": "open",
     "optional": true,
-    "prompt": "What should I call you, a name, a nickname, or the feminine name you go by?"
+    "prompt": "Then what do I call you?",
+    "hint": "The name you just told me about — or your everyday one, if that's the one that stays."
   },
   {
     "kind": "question",

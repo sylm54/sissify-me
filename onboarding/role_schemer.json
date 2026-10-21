@@ -73,5 +73,17 @@
       "Erosion — small asks, one at a time, slowly wearing me down",
       "None of these — just ask plainly"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "schemer_check_ins",
+    "answer": "choice",
+    "prompt": "And when you go quiet on me — skip what we've built — do I come collect?",
+    "hint": "Influence you've handed me includes, or doesn't include, this. Say which.",
+    "choices": [
+      "Yes — come collect; I gave you that much",
+      "Nudge me now and then",
+      "No — leave the door open; I'll come back on my own"
+    ]
   }
 ]

@@ -8,10 +8,9 @@
     "id": "interest_areas",
     "answer": "tierlist",
     "prompt": "Sort the broad areas — where does each one sit with you?",
-    "hint": "Submission / Humiliation — power exchange, status, deference. Feminization / Emasculation — presentation, body, identity. Mindset / Conditioning — reshaping how you think. Integration / Exposure — real-life reach. Sexual / Masturbation — arousal reorientation, orgasm control. \"Like with rejection\" means you want it but you struggle with wanting it — tell me which, I'll handle both.",
+    "hint": "Submission / Humiliation — power exchange, status, deference. Feminization / Emasculation — presentation, body, identity. Mindset / Conditioning — reshaping how you think. Integration / Exposure — real-life reach. Sexual / Masturbation — arousal reorientation, orgasm control.",
     "tiers": [
       "Like",
-      "Like with rejection",
       "Interested",
       "No interest",
       "Active dislike"
@@ -187,6 +186,28 @@
   },
   {
     "kind": "question",
+    "id": "chastity_blockers",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "What's kept it under a week — what gets in the way of longer?",
+    "hint": "Whatever it is, it's workable — but I plan around the real blocker, not the imagined one.",
+    "showIf": {
+      "all": [
+        { "id": "depth", "notEquals": "Light" },
+        { "id": "chastity_experience", "notEquals": "A week or longer" }
+      ]
+    },
+    "choices": [
+      "Fit or comfort — the cage fights me",
+      "Hygiene and access — I need it off for practical things",
+      "Privacy — someone might find it or notice",
+      "Willpower — I let myself out when it gets intense",
+      "The want fades once I've finished",
+      "Nothing — I just haven't gone longer"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "keyholding",
     "answer": "choice",
     "prompt": "And who holds the key?",
@@ -216,14 +237,48 @@
     "kind": "question",
     "id": "anal_experience",
     "answer": "choice",
-    "prompt": "Where are you with anal play?",
+    "prompt": "How far has anal play gone for you?",
     "hint": "I start from where your body actually is, not where the fantasy puts it.",
     "showIf": { "id": "int_sexual", "includes": "Anal training", "tierAtLeast": "Fantasy" },
     "choices": [
       "Never tried it",
       "Fingers only",
-      "Toys — I play occasionally",
-      "Regular — I know what my prostate can do"
+      "Toys — I know what taking one is like",
+      "Deep — prostate play is familiar territory"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "oral_experience",
+    "answer": "choice",
+    "prompt": "And sucking — how far has that gone in real life?",
+    "hint": "Fantasy is a fine answer — I only need to know which side of the toy line you're on.",
+    "showIf": { "id": "int_sexual", "includes": "Oral training", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Never — fantasy only",
+      "Practiced on toys",
+      "Tried it with someone",
+      "Experienced — I know how to work it"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "play_recency",
+    "answer": "choice",
+    "prompt": "How current is that — when did you last actually play this way?",
+    "hint": "Experience fades — what your body remembers today is what I start from.",
+    "showIf": {
+      "any": [
+        { "id": "anal_experience", "notEquals": "Never tried it" },
+        { "id": "oral_experience", "notEquals": "Never — fantasy only" }
+      ]
+    },
+    "choices": [
+      "This week",
+      "Last month or so",
+      "Months ago",
+      "Years ago",
+      "In streaks — it comes and goes"
     ]
   },
   {
@@ -262,6 +317,20 @@
       "Curious — maybe someday",
       "Seriously considering real steps",
       "Already taking real steps"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "wardrobe",
+    "answer": "choice",
+    "prompt": "What's there to work with — clothes of your own?",
+    "hint": "I plan around what you own — same as the cage.",
+    "showIf": { "id": "int_feminization", "includes": "Clothing & uniform — dressing the part", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Nothing yet",
+      "A few hidden pieces",
+      "A real stash",
+      "I dress fully already"
     ]
   },
   {

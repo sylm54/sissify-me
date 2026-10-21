@@ -68,15 +68,6 @@
   },
   {
     "kind": "question",
-    "id": "living_detail",
-    "answer": "open",
-    "optional": true,
-    "showIf": { "id": "depth", "equals": "Deep" },
-    "prompt": "Walk me through your home — the rooms, who comes and goes, what's truly private.",
-    "hint": "Discretion is planned, not improvised — this is what I plan it around."
-  },
-  {
-    "kind": "question",
     "id": "routine_experience",
     "answer": "choice",
     "showIf": { "id": "depth", "equals": "Deep" },

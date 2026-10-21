@@ -10,7 +10,6 @@
     "prompt": "Sort these — what actually pulls you?",
     "hint": "Several of these will be true at once — the ranking is the point. Whatever sits on top is what I lean on.",
     "tiers": [
-      "Strong fantasy with later rejection",
       "Strong fantasy",
       "Mild / occasional",
       "No interest",
@@ -29,26 +28,6 @@
       "Relief from masculine pressure — a break from the expectations of performing manhood",
       "Being seen feminine — mirrors, photos, others recognizing me as a girl",
       "Turning my partner on — aroused by what my feminization does to them"
-    ]
-  },
-  {
-    "kind": "question",
-    "id": "archetype",
-    "answer": "tierlist",
-    "prompt": "And these are the flavors she comes in — sort each by how true it is, in fantasy and in fact.",
-    "hint": "Not the one that sounds good — the one that's already you, or honestly could be. The top rows are what I lean into: how I frame you, dress you, talk to you.",
-    "tiers": [
-      "Already me",
-      "Want this to be me",
-      "Could imagine being me",
-      "Fantasy only",
-      "Never"
-    ],
-    "choices": [
-      "The devoted one — soft, useful, serving",
-      "The doll — hyper-feminine, decorative, made beautiful",
-      "The one who's made to — dressed and taken despite herself",
-      "The slut — cock-focused, available, used"
     ]
   }
 ]

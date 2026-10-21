@@ -8,7 +8,7 @@
     "id": "engage_history",
     "answer": "open",
     "optional": true,
-    "prompt": "Walk me through it — how you do this now, and the story of how you got here. An ordinary session, start to finish; the phases, the moments that stuck. And if you have a sense of what this actually is for you, say that too.",
+    "prompt": "Walk me through it — how you do this now, and the story of how you got here. An ordinary session, start to finish; the phases, the moments that stuck.",
     "hint": "Your story, in whatever shape it comes out."
   }
 ]

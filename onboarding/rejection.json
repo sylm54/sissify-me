@@ -42,10 +42,26 @@
   },
   {
     "kind": "question",
+    "id": "crash_timing",
+    "answer": "choice",
+    "multiple": true,
+    "prompt": "When does it usually land?",
+    "hint": "Timing is half the handling — a crash that always follows the same moment can be planned around.",
+    "choices": [
+      "Right after I finish",
+      "The morning after",
+      "After a binge — too much, too fast",
+      "When real life gets heavy",
+      "After I've gone further than I meant to",
+      "Out of nowhere"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "crash_response",
     "answer": "choice",
     "multiple": true,
-    "prompt": "When I see the recoil hit — the purge urge, the disgust, going quiet — what do you need from me?",
+    "prompt": "And when the recoil has you — or you've gone dark and I'm reading the silence — what should I do?",
     "hint": "I can't always tell a crash from a decision to leave. This tells me what to do when I see one.",
     "choices": [
       "Say it plainly — tell me it's the crash, not the truth",

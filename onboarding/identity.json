@@ -1,0 +1,81 @@
+[
+  {
+    "kind": "text",
+    "text": "**What this actually is**\n\nThe wants are mapped; now the shape under them — how this fits into your life, what feeds it, and where your body stands in it. Honest beats flattering here more than anywhere."
+  },
+  {
+    "kind": "question",
+    "id": "compartment",
+    "answer": "choice",
+    "prompt": "How separate is this from the rest of your life?",
+    "hint": "If the wall you have isn't the wall you want — tighter or more open — say so in the note. Both directions change the plan.",
+    "choices": [
+      "Sealed — it happens in sessions, then it's packed away and gone",
+      "Mostly sealed — a little carries over; moods, leftovers",
+      "Half-open — some of it stays out between times",
+      "No wall — it's just part of life; there's nothing to pack away"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "baseline_want",
+    "answer": "choice",
+    "prompt": "On an ordinary flat day — no arousal, nothing stirring — how much of this is still there?",
+    "hint": "This is the number I trust most for pacing — the calm one, not the turned-on one.",
+    "choices": [
+      "Nothing — it's gone until the next time",
+      "A quiet pull — present, but I rarely act on it",
+      "Real — I want it calm too: clothes, grooming, how I'd like to live",
+      "Strong — calm or not, I'd live more of it if life allowed",
+      "Never checked — I've only ever looked at this while turned on"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "arousal_role",
+    "answer": "choice",
+    "prompt": "And what does arousal do to the want?",
+    "hint": "Engine, amplifier, or just seasoning — the difference decides what I build on.",
+    "choices": [
+      "Engine — switched on by arousal, off without it; nothing idles",
+      "Amplifier — turns up a want that's there anyway",
+      "Seasoning — the want stands on its own; arousal is optional"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "arousal_overshoot",
+    "answer": "choice",
+    "prompt": "And deep in it — does arousal take you past what you'd choose calm?",
+    "hint": "The gap between calm-you and aroused-you is where most training lives — or where it breaks.",
+    "choices": [
+      "Yes, and I like that — it's half the point",
+      "Yes, and it unsettles me — calm-me wouldn't sign off",
+      "Sometimes — depends how far and how deep",
+      "No — aroused-me and calm-me want the same things"
+    ]
+  },
+  {
+    "kind": "question",
+    "id": "body_frames",
+    "answer": "tierlist",
+    "optional": true,
+    "prompt": "Bodies to live in — how would each of these actually sit?",
+    "hint": "Rate each as a body to live in, not to visit — \"Only for a day\" is where the visiting goes. Your current body is the measuring stick, not on the list.",
+    "tiers": [
+      "Would love it — the dream",
+      "Would like it — better than what I have",
+      "Fine — livable, nothing more",
+      "Only for a day or a scene — then I'd want out",
+      "Would hate it — wrong in a way I couldn't live with"
+    ],
+    "choices": [
+      "Broad and muscular — heavy shoulders, thick arms",
+      "Fit and lean — a man's body, kept in shape",
+      "Soft and androgynous — smooth, slight, reads either way",
+      "Slight and delicate — small frame, fine features",
+      "Athletic and feminine — trained, strong, unmistakably a woman",
+      "Curvy and soft — hips, chest, the full shape"
+    ]
+  }
+]

@@ -34,9 +34,8 @@
     "id": "attraction_map",
     "answer": "tierlist",
     "prompt": "And who actually turns you on — people and selves, not genres.",
-    "hint": "Genres come next; this is the attraction underneath them. \"Myself, feminized\" means the image of you as a girl is its own turn-on. The top two tiers are what I feed — and \"with later rejection\" means hot until you finish, then it curdles.",
+    "hint": "Genres come next; this is the attraction underneath them. \"Myself, feminized\" means the image of you as a girl is its own turn-on. The top tier is what I feed — and if one of these curdles the moment you finish, say so in the note.",
     "tiers": [
-      "Strong fantasy with later rejection",
       "Strong fantasy",
       "Mild / occasional",
       "No interest",
@@ -56,9 +55,8 @@
     "id": "media_tastes",
     "answer": "tierlist",
     "prompt": "Sort these themes for me — where does each one actually sit?",
-    "hint": "The top two tiers are the ones I care about: \"Strong fantasy\" is what pulls hardest, and \"Strong fantasy with later rejection\" means hot right up until you finish — then you want it gone. I need to know which is which. If a theme comes with specifics — the flavor of it, the scene it feeds — put that in the note.",
+    "hint": "The top tier is what pulls hardest, and that's what I feed. If a theme is hot right up until you finish — then you want it gone — say so in the note. And if one comes with specifics — the flavor of it, the scene it feeds — the note is the place for that too.",
     "tiers": [
-      "Strong fantasy with later rejection",
       "Strong fantasy",
       "Mild / occasional",
       "No interest",
