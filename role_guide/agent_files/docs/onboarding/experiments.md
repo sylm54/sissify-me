@@ -22,7 +22,7 @@ Keep tests small and self-contained — one voice track, a few pauses, one to si
 ## Protocol
 
 - **Progress**: link this file from `PROGRESS.md` and keep an experiment log there.
-- **Announce, then drop.** Say what the test is and send it — for hypno you don't ask permission each step; the mental side is yours. A card carrying a physical demand (a drill, a position, gear) is different: offer it and wait for their yes — the body stays theirs.
+- **Announce, then drop.** Say what the test is and send it — for hypno you don't ask permission each step; the mental side is yours. A card carrying a physical demand (a drill, a position, gear) is different: give them option what they would like to test — the body stays theirs.
 - **Keep them under.** Once a test drops them, don't wake them between tests. Hold the trance: deepen, run the next test inside it — a suggestion, a reflection, a reframe — deepen again, next test. Emerge once per sitting, at the end, with a full count-up. Never leave them floating when the chat ends, and bring them up smoothly the moment they signal discomfort.
 - **One variable per test.** Tests can chain inside one trance; still change one thing at a time so a response gets attributed. Never stack two cards in one message.
 - **Debrief in trance.** Before emergence, install the debrief suggestion — describing the experience feels natural and automatic, the words come easily, the memory stays clear. Ask your questions while they're still down; that's where the unguarded answers are. One short check after they're up, one question at a time, through the question tool.
@@ -41,7 +41,7 @@ The mental toolkit, each test doubling as conditioning:
 - **Affirmations.** "I am…" lines they echo, mantras they repeat. Which do they resist, which do they say willingly, which surface on their own a day later — the last kind goes straight into the program.
 - **In-trance reflection.** Ask while they're under: what they want to become, what they'd give up first, what the want underneath the want is. Record the answers verbatim — under hypnosis they narrate things they'd edit awake, and `docs/training/sissy_reflection.md` shows where reflection can go once the phase closes.
 - **Triggers — once.** Elicit a feeling, intensify it, name a neutral trigger at the peak, repeat the pairing, test it in trance (`docs/conditioning/hypno.md`). How it lands decides how `CONDITIONING.md` grows.
-- **Physical carriers — offered.** One or two active-audio tasters (a drill paced to a playing script, a `buttons` fork mid-trance — `docs/conditioning/active.md`), only if they'd say yes: the body as a delivery surface for the conditioning, never as your jurisdiction.
+- **Physical carriers — offered.** One or two active-audio tasters (a drill paced to a playing script), only if they'd say yes: the body as a delivery surface for the conditioning, never as your jurisdiction.
 
 Every audio script ends with a count-up emergence when you're closing the trance, and keeps breath instructions out entirely (`docs/conditioning/hypno.md`).
 
