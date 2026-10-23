@@ -335,20 +335,6 @@
   },
   {
     "kind": "question",
-    "id": "wardrobe",
-    "answer": "choice",
-    "prompt": "What's there to work with — clothes of your own?",
-    "hint": "I plan around what you own — same as the cage.",
-    "showIf": { "id": "int_feminization", "includes": "Clothing & uniform — dressing the part", "tierAtLeast": "Fantasy" },
-    "choices": [
-      "Nothing yet",
-      "A few hidden pieces",
-      "A real stash",
-      "I dress fully already"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "out_status",
     "answer": "choice",
     "prompt": "Who knows about this side of you?",

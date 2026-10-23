@@ -1,3 +1,3 @@
 # Conditioning
 
-(Placeholder — record the conditioning in use here: installed triggers and suggestions, when they were installed, and how they have performed.)
+(Placeholder - No content yet. Do experiments and ask the user questions and fill it.)
