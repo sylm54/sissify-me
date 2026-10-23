@@ -1,3 +1,7 @@
+---
+description: Read this before creating a new plan, when the goals are fulfilled, or when the plan is failing. It outlines how to structure and phase the work.
+---
+
 # Planning
 This document outlines how to plan and structure the sissy corruption process.
 
