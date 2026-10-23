@@ -5,6 +5,13 @@
   },
   {
     "kind": "question",
+    "id": "age",
+    "answer": "open",
+    "prompt": "How old are you?",
+    "hint": ""
+  },
+  {
+    "kind": "question",
     "id": "depth",
     "answer": "choice",
     "prompt": "How deep should this intake go?",
