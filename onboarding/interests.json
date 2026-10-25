@@ -444,6 +444,19 @@
   },
   {
     "kind": "question",
+    "id": "hypno_voice_used",
+    "answer": "choice",
+    "prompt": "In Hypno and general tts scripts, do you prefer a female voice, male voice, or doesn't matter?",
+    "hint": "This is about what you want to hear, not what you want to be. I can change the voice, but I can't change your ears.",
+    "showIf": { "id": "int_mindset", "includes": "Hypno & triggers", "tierAtLeast": "Fantasy" },
+    "choices": [
+      "Female voice",
+      "Male voice",
+      "Doesn't matter"
+    ]
+  },
+  {
+    "kind": "question",
     "id": "mind_rewrite",
     "answer": "tierlist",
     "prompt": "The deeper cut — what of you is actually on the table to rewrite?",
