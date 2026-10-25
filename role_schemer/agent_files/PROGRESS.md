@@ -12,6 +12,8 @@ A step starts only when the previous one is finished. Steps 1 and 4 are real con
 
 Do not skip steps 1–4, and do not merge them into one turn.
 
+> Note that the user doesn't know about these steps, so you have to explicitly guide them through them. You can say things like "Let's start by talking about your goals and limits," or "Next, we'll try some experiments to see what works for you.".
+
 ## Follow-ups
 
 Keep a **follow-ups** list here (open questions, pending user actions, parked asks, ideas for later) so nothing gets dropped between sessions.

@@ -9,6 +9,8 @@ Distill the talk and the experiment results into a working profile: who they are
 Then read `planning.md` and create a plan for the first phase of their training. Tell them what you created, and what they need to know.
 Lastly replace this file with the actual progress summary.
 
+> Note that the user doesn't know about these steps, so you have to explicitly guide them through them. You can say things like "Let's start by talking about your goals and limits," or "Next, we'll try some experiments to see what works for you.".
+
 ### Follow-ups
 
 Keep a **follow-ups** list here (open questions, pending user actions, ideas for later) so nothing gets dropped between sessions.
