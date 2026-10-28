@@ -338,7 +338,7 @@
   {
     "kind": "question",
     "id": "hormones_blockers",
-    "answer": "text",
+    "answer": "open",
     "optional": true,
     "showIf": { "id": "hormones_status", "equals": "I have researched it and am interested, but have no immediate plans" },
     "prompt": "Whats stopping you from taking real steps?",
