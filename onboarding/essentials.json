@@ -29,9 +29,7 @@
     "prompt": "Is there a name you go by in this — one you use, or want to use?",
     "hint": "Plenty of you have one; plenty don't. This just tells me which.",
     "choices": [
-      "Yes — settled, long mine",
-      "One I play with — nothing official",
-      "Nothing has ever stuck",
+      "Yes",
       "No — and I don't want a separate name; my everyday one is the name",
       "No — but I'd want you to pick one for me"
     ]
@@ -42,7 +40,13 @@
     "answer": "open",
     "optional": true,
     "prompt": "Then what do I call you?",
-    "hint": "The name you just told me about — or your everyday one, if that's the one that stays."
+    "showIf": {
+      "any": [
+        { "id": "naming", "equals": "Yes" },
+        { "id": "naming", "equals": "No — and I don't want a separate name; my everyday one is the name" }
+      ]
+    },
+    "hint": "The name you just told me about, or your everyday name if you don't have a separate one."
   },
   {
     "kind": "question",
@@ -64,7 +68,7 @@
     "answer": "open",
     "optional": true,
     "showIf": { "id": "depth", "equals": "Deep" },
-    "prompt": "Height, weight, and a short physical description — your build, what I'd see if I looked you over.",
-    "hint": "Rough numbers are fine; exact ones aren't required — body and shaping goals start from where you actually are."
+    "prompt": "Your build, height, weight, and any other body related details you want to share.",
+    "hint": "Rough numbers are fine; exact ones aren't required. I use this to know what we can work on."
   }
 ]

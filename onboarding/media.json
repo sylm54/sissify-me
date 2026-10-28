@@ -31,27 +31,6 @@
   },
   {
     "kind": "question",
-    "id": "attraction_map",
-    "answer": "tierlist",
-    "prompt": "And who actually turns you on — people and selves, not genres.",
-    "hint": "Genres come next; this is the attraction underneath them. \"Myself, feminized\" means the image of you as a girl is its own turn-on. The top tier is what I feed — and if one of these curdles the moment you finish, say so in the note.",
-    "tiers": [
-      "Strong fantasy",
-      "Mild / occasional",
-      "No interest",
-      "Active dislike"
-    ],
-    "choices": [
-      "Women",
-      "Men",
-      "Trans women",
-      "Femboys / feminized men",
-      "Myself, feminized — being my own turn-on",
-      "Cock itself — the object, not the man attached to it"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "media_tastes",
     "answer": "tierlist",
     "prompt": "Sort these themes for me — where does each one actually sit?",
@@ -68,7 +47,6 @@
       "BNWO / raceplay",
       "Beta & sissy hierarchy",
       "Humiliation",
-      "Captions",
       "Cuckold",
       "Femdom",
       "Sissy porn",

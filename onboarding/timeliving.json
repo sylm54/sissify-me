@@ -75,6 +75,7 @@
     "hint": "Tells me how much scaffolding to build so you can't quietly fall off.",
     "choices": [
       "Not at all — I drift",
+      "Not at all — I drift, but I want to be more structured",
       "Loosely — habits come and go",
       "Solidly — when it matters I hold structure",
       "My life already runs on schedule"

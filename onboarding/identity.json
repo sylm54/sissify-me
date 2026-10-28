@@ -10,17 +10,18 @@
     "prompt": "How separate is this from the rest of your life?",
     "hint": "If the wall you have isn't the wall you want — tighter or more open — say so in the note. Both directions change the plan.",
     "choices": [
-      "Sealed — it happens in sessions, then it's packed away and gone",
-      "Mostly sealed — a little carries over; moods, leftovers",
-      "Half-open — some of it stays out between times",
-      "No wall — it's just part of life; there's nothing to pack away"
+      "Purely Session",
+      "Mostly Session, some of it carries over",
+      "Sessions with a lot of carryover",
+      "Sessions that sometimes carry over, but sometimes don't",
+      "This is my life"
     ]
   },
   {
     "kind": "question",
     "id": "baseline_want",
     "answer": "choice",
-    "prompt": "On an ordinary flat day — no arousal, nothing stirring — how much of this is still there?",
+    "prompt": "When not aroused what is the want?",
     "hint": "This is the number I trust most for pacing — the calm one, not the turned-on one.",
     "choices": [
       "Nothing — it's gone until the next time",
@@ -37,9 +38,9 @@
     "prompt": "And what does arousal do to the want?",
     "hint": "Engine, amplifier, or just seasoning — the difference decides what I build on.",
     "choices": [
-      "Engine — switched on by arousal, off without it; nothing idles",
-      "Amplifier — turns up a want that's there anyway",
-      "Seasoning — the want stands on its own; arousal is optional"
+      "Switched on by arousal, off without it",
+      "Turns up a want that's there anyway",
+      "The want stands on its own; arousal is optional"
     ]
   },
   {
@@ -50,6 +51,7 @@
     "hint": "The gap between calm-you and aroused-you is where most training lives — or where it breaks.",
     "choices": [
       "Yes, and I like that — it's half the point",
+      "Yes, sometimes i do things I wouldn't if calm",
       "Yes, and it unsettles me — calm-me wouldn't sign off",
       "Sometimes — depends how far and how deep",
       "No — aroused-me and calm-me want the same things"
@@ -71,6 +73,7 @@
     ],
     "choices": [
       "Broad and muscular — heavy shoulders, thick arms",
+      "Beard and chest hair — a man's body",
       "Fit and lean — a man's body, kept in shape",
       "Soft and androgynous — smooth, slight, reads either way",
       "Slight and delicate — small frame, fine features",

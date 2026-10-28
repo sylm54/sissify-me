@@ -198,10 +198,10 @@
       ]
     },
     "choices": [
-      "Fit or comfort — the cage fights me",
-      "Hygiene and access — I need it off for practical things",
-      "Privacy — someone might find it or notice",
-      "Willpower — I let myself out when it gets intense",
+      "Fit or comfort",
+      "Hygiene and access",
+      "Privacy",
+      "Willpower",
       "The want fades once I've finished",
       "Nothing — I just haven't gone longer"
     ]
@@ -215,7 +215,7 @@
     "showIf": { "id": "chastity_owned", "equals": "Yes — I have a cage" },
     "choices": [
       "I do — self-lock, self-release",
-      "I hold it for now — you can take it",
+      "I hold it for now, but im open to you holding it",
       "You do — the code stays with you"
     ]
   },
@@ -305,9 +305,9 @@
     "showIf": { "id": "int_sexual", "includes": "Climax reconditioning", "tierAtLeast": "Fantasy" },
     "choices": [
       "Hands-free — climax from nothing but the right input",
-      "Prostate only — relearned from behind",
-      "Reoriented wants — what turns me on itself changes",
-      "Stamina — longer denial, harder edges"
+      "Limp — cumming while staying small and soft",
+      "Denial — cumming only when allowed, or not at all",
+      "Reoriented wants — what turns me on itself changes"
     ]
   },
   {
@@ -329,9 +329,20 @@
     "choices": [
       "Fantasy only — I never want the real thing",
       "Curious — maybe someday",
+      "I have researched it and am interested, but have no immediate plans",
       "Seriously considering real steps",
+      "Im planning to start soon",
       "Already taking real steps"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "hormones_blockers",
+    "answer": "text",
+    "optional": true,
+    "showIf": { "id": "hormones_status", "equals": "I have researched it and am interested, but have no immediate plans" },
+    "prompt": "Whats stopping you from taking real steps?",
+    "hint": "This is about the real-world blockers, not the fantasy ones. I need to know what the wall is before I can plan around it."
   },
   {
     "kind": "question",
@@ -346,8 +357,8 @@
       ]
     },
     "choices": [
-      "No one — fully closeted",
-      "Strangers online only — anonymous",
+      "No one",
+      "Strangers online only",
       "One or two people I trust",
       "Friends or a community know me this way"
     ]
@@ -430,20 +441,6 @@
   },
   {
     "kind": "question",
-    "id": "hypno_triggers_wanted",
-    "answer": "choice",
-    "prompt": "When it comes to triggers — what do you want built into you?",
-    "hint": "Words that reach past the session change what you are between chats — decide with that in mind.",
-    "showIf": { "id": "int_mindset", "includes": "Hypno & triggers", "tierAtLeast": "Fantasy" },
-    "choices": [
-      "Nothing new — keep all of it inside sessions",
-      "New ones — but only what I approve first",
-      "New ones — you choose, I don't need to vet them",
-      "New ones — and some I should never find out about"
-    ]
-  },
-  {
-    "kind": "question",
     "id": "hypno_voice_used",
     "answer": "choice",
     "prompt": "In Hypno and general tts scripts, do you prefer a female voice, male voice, or doesn't matter?",
@@ -473,7 +470,9 @@
       "My name and how I'm addressed",
       "My sense of self — who I understand me to be",
       "My past — how I remember who I was",
-      "My habits — the small ways I move through a day"
+      "My habits — the small ways I move through a day",
+      "Triggers — what words or phrases make me respond",
+      "My wants — what I want"
     ],
     "showIf": {
       "any": [
@@ -483,20 +482,6 @@
         { "id": "pulls", "includes": "Having my mind rewritten — thoughts, self-talk, name, sense of self altered or overwritten", "tierAtLeast": "Mild / occasional" }
       ]
     }
-  },
-  {
-    "kind": "question",
-    "id": "trance_depth",
-    "answer": "choice",
-    "prompt": "How deep is deep enough — how lost in it do you want to get?",
-    "hint": "Depth is a dial we turn together — this sets where it starts, and where I stop pushing it.",
-    "showIf": { "id": "pulls", "includes": "Escaping into the fantasy — sinking deep enough to lose ordinary self-awareness", "tierAtLeast": "Mild / occasional" },
-    "choices": [
-      "Surface — aware the whole time, savoring it",
-      "Deep — trance, but I remember everything",
-      "Deeper — gaps are fine, missing minutes is the point",
-      "Lost — as gone as I can get and still come back"
-    ]
   },
   {
     "kind": "question",
@@ -513,10 +498,11 @@
       ]
     },
     "choices": [
-      "Words in chat — private, between us",
-      "In audio — said out loud, straight into my ears",
-      "In tasks — written down, measured, on the record",
-      "Semi-public — out where a stranger could stumble on it"
+      "Words in chat",
+      "In audio",
+      "In tasks",
+      "Online Anonymously",
+      "Semi-public/Risky"
     ]
   },
   {

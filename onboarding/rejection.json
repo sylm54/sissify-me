@@ -8,6 +8,12 @@
     "id": "reaction_experiences",
     "answer": "tierlist",
     "prompt": "How well do you know each of these?",
+    "showIf": {
+      "any": [
+        { "id": "depth", "equals": "Light" },
+        { "id": "depth", "equals": "Medium" }
+      ]
+    },
     "hint": "Whatever sits high on this list is live wire — it decides how carefully I handle you.",
     "tiers": [
       "Know it intimately",
@@ -31,6 +37,11 @@
     "id": "reaction_pattern",
     "answer": "choice",
     "prompt": "And when it hits — what do you actually do?",
+    "showIf": {
+      "any": [
+        { "id": "depth", "equals": "Medium" }
+      ]
+    },
     "hint": "I time my pushes and my patience around this — the pattern matters as much as the feelings.",
     "choices": [
       "Ride it out — it fades on its own",
@@ -45,6 +56,11 @@
     "id": "crash_timing",
     "answer": "choice",
     "multiple": true,
+    "showIf": {
+      "any": [
+        { "id": "depth", "equals": "Medium" }
+      ]
+    },
     "prompt": "When does it usually land?",
     "hint": "Timing is half the handling — a crash that always follows the same moment can be planned around.",
     "choices": [
@@ -58,17 +74,10 @@
   },
   {
     "kind": "question",
-    "id": "crash_response",
-    "answer": "choice",
-    "multiple": true,
-    "prompt": "And when the recoil has you — or you've gone dark and I'm reading the silence — what should I do?",
-    "hint": "I can't always tell a crash from a decision to leave. This tells me what to do when I see one.",
-    "choices": [
-      "Say it plainly — tell me it's the crash, not the truth",
-      "Cooling-off — stop me from throwing anything out for a couple of days",
-      "Space — go quiet until I come back on my own",
-      "Find me — check in the next day, even if I went dark",
-      "Affirm her — tell me who I am when I can't feel it"
-    ]
+    "id": "crash_text",
+    "answer": "open",
+    "showIf": { "id": "depth", "equals": "Deep" },
+    "prompt": "Tell me when and how you struggle and second-guess yourself — the moments that make you want to quit, the feelings that make you want to hide. The more specific, the better.",
+    "hint": "I need the map of your recoil: what I'm handling, and how carefully. The more specific, the better."
   }
 ]
