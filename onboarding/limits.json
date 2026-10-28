@@ -5,12 +5,18 @@
   },
   {
     "kind": "question",
-    "id": "hard_limits",
-    "answer": "choice",
-    "multiple": true,
-    "optional": true,
-    "prompt": "Mark everything that must never come up — in any form.",
-    "hint": "Anything more specific — a particular act, word, or scenario — goes in the note. I take these literally; they're the one place I never push, never joke about, never work around — and you can add or move them any time.",
+    "id": "limits",
+    "answer": "tierlist",
+    "prompt": "Sort these themes for me — where does each one actually sit?",
+    "hint": "The top tier is what pulls hardest, and that's what I feed. If a theme is hot right up until you finish — then you want it gone — say so in the note. And if one comes with specifics — the flavor of it, the scene it feeds — the note is the place for that too.",
+    "tiers": [
+      "Hard Limits — must never come up",
+      "Soft Limits",
+      "Caution — only with care",
+      "Fantasies — need to be pushed into them slowly",
+      "Wants",
+      "Neutral"
+    ],
     "choices": [
       "Anything permanent or irreversible",
       "Medical — anything that risks my health",
@@ -25,8 +31,7 @@
       "Legal risk — public acts that could get me caught",
       "Life ruin - destruction of my career, relationships, or livelihood",
       "Financial ruin — going into debt or going broke",
-      "Reputation ruin — destruction of my social or professional standing",
-      "Nothing here is a limit for me"
+      "Reputation ruin — destruction of my social or professional standing"
     ]
   }
 ]
