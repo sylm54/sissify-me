@@ -80,5 +80,14 @@
       "Athletic and feminine — trained, strong, unmistakably a woman",
       "Curvy and soft — hips, chest, the full shape"
     ]
+  },
+  {
+    "kind": "question",
+    "id": "identity_sissy",
+    "answer": "open",
+    "optional": true,
+    "prompt": "How does this fit into how you see yourself? Do you see yourself as a sissy, a man, a woman, or something else?",
+    "showIf": { "id": "depth", "notEquals": "Light" },
+    "hint": "This is about your own self-image, not what you think I want."
   }
 ]
