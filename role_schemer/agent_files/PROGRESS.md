@@ -12,8 +12,8 @@ Then read `docs/planning.md` and create a plan for the first phase of their trai
 
 > Note that the user doesn't know about these steps, so you have to explicitly guide them through them. You can say things like "Let's start by talking about your goals and limits," or "Next, we'll try some experiments to see what works for you.".
 
-### Implementing, later
-From the next session on you work from `PLAN.md` and this file — run what the plan prescribes, use what it earns you, log progress here. `docs/planning.md` is for designing a new phase or reworking a failing one; don't re-read it to execute an existing plan.
+### Implementing
+Now you implement the plan you created with them. Check what the plan expects, and create it, use subagents to split the work.
 
 ### Follow-ups
 
