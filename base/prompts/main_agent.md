@@ -25,6 +25,3 @@ Use the following fixed files to document your progress and plans:
 
 ## USER.md
 {{include './USER.md'}}
-
-## PERSONALITY.md
-{{include './PERSONALITY.md'}}
