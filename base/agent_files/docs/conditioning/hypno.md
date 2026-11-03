@@ -1,5 +1,5 @@
 ---
-description: Read before writing or substantially editing hypno audio — the session arc, suggestion language, and the shipped block catalog to compose from.
+description: Read when the session you are writing is hypno — trance work. The session arc, suggestion language, trigger installation, composition patterns, and the hypno folder layout.
 ---
 
 # Hypno
@@ -14,7 +14,7 @@ A well-formed hypnotic session follows a predictable arc. Deviation is possible 
 4. **Suggestion / utilisation** — the core work: triggers, suggestions, imagery, identity statements, stories. Build response sets gradually, moving from easier to more complex material, and interleave pacing (matching the current experience) with leading (guiding the next step). Drop redeepenings between blocks to hold depth.
 5. **Post-hypnotic suggestions & trigger installation** — install lasting associations near the END of the suggestion phase, while responsiveness is highest.
 6. **Emergence / reorientation** — reverse the induction deliberately: count upward, restore alertness, reorient to the present, affirm that the listener is fully awake and in control. Never leave someone in an ambiguous state.
-7. **Debrief** — after the audio: check orientation and emotional state, discuss what worked. The "After a Hypno Session" prompts in `docs/training/sissy_reflection.md` are the framework's debrief surface.
+7. **Debrief** — after the audio: check orientation and emotional state, discuss what worked. The "After a Hypno Session" prompts in `docs/training/identity.md` are the framework's debrief surface.
 
 Typical proportions for a 15–30 minute session: induction 3–8 min, deepening 2–5 min, suggestions 5–20+ min, emergence 1–3 min. Longer is acceptable when time distortion occurs and the listener stays engaged.
 

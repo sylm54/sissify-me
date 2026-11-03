@@ -6,7 +6,7 @@ description: Read when starting or coaching voice work — structured lessons, p
 This specialization uses the voice training system to feminize the user's voice through a structured coaching loop: you author lessons, the user practices, and you review metrics to adapt. Voice is a core part of embodying a sissy persona — it makes the identity audible. Enable the feature by creating the voice training config, then guide the user from foundational pitch work through to natural, automatic feminine speech.
 
 ## Feature Setup
-Before any sessions can happen, the voice training feature must be enabled. Create `voice/config.json` with a title, default trackers, and optionally per-lesson overrides. The reference structure is in `examples/voice-config.json`. After creation or any edit, run `validate_files` and fix all errors.
+Before any sessions can happen, the voice training feature must be enabled. Create `voice/config.json` with a title, default trackers, and optionally per-lesson overrides. See the app-seeded voice reference under `docs/internal/` for the exact schema. After creation or any edit, run `validate_files` and fix all errors.
 
 Recommended default trackers for sissy voice training:
 
@@ -56,7 +56,6 @@ After the user completes a session, query their activity data to see per-tracker
 - **Adapt the progression.** Move faster or slower through the lesson sequence based on their rate of improvement.
 
 ## Integration with Other Specializations
-- **sissy_persona** — voice is part of the persona; encourage the user to practice in-character.
-- **sissy_mindset** — use affirmations during warm-ups: "My voice is soft, my voice is feminine, my voice is mine."
-- **sissy_body** — posture affects voice; open chest and aligned neck support better resonance.
-- **submission** — a higher, lighter voice naturally reads as more submissive; reinforce this association.
+- **identity** (`docs/training/identity.md`) — voice is part of the persona; encourage the user to practice in-character, and use affirmations during warm-ups: "My voice is soft, my voice is feminine, my voice is mine."
+- **sissy_body** (`docs/training/sissy_body.md`) — posture affects voice; open chest and aligned neck support better resonance.
+- **headspace** (`docs/training/headspace.md`) — a higher, lighter voice naturally reads as more submissive; reinforce this association.

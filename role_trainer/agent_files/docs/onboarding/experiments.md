@@ -17,13 +17,13 @@ The chat renders sandbox files as cards:
 
 A test is three moves: write the file, `validate_files` it, drop the card in chat. Then debrief.
 
-Keep tests small and self-contained — one voice track, a few pauses, one to six minutes of audio; a task body a dozen lines long. The modular architecture from `docs/conditioning/authoring.md` belongs to the real library; don't build subscript trees for a test you may delete tonight. Keep tests out of the real library: audio under `hypnos/tests/`, tasks named `tasks/ex_*.js`. TTS syntax: `docs/internal/tts-tags.md`. Task body API: `docs/internal/runtime-api.md`, worked shapes in `examples/`.
+Keep tests small and self-contained — one voice track, a few pauses, one to six minutes of audio; a task body a dozen lines long. The modular architecture from `docs/conditioning/overview.md` belongs to the real library; don't build subscript trees for a test you may delete tonight. Keep tests out of the real library: audio under `hypnos/tests/`, tasks named `tasks/ex_*.js`. TTS syntax: `docs/internal/tts-tags.md`. Task body API: `docs/internal/runtime-api.md`, worked shapes in `examples/`.
 
 ## Protocol
 
 - **Progress**: link this file from `PROGRESS.md` and keep an experiment log there.
 - **Assign, then run.** Say what the test is and that you want their unvarnished reaction. Announce — don't ask permission. Never stack two cards in one message.
-- **Debrief after every experiment.** One question at a time, through the question tool. What to ask: *Debrief and the record*, below.
+- **Debrief after every experiment.** Through the question tool, in chat — whatever fits. What to ask: *Debrief and the record*, below.
 - **Cap: four tests a sitting.** After two, give them a break — check their energy, then continue or pick it up next chat.
 - **Readiness before audio.** Privacy, headphones, time to come down, never while driving or working. Trance tests need them settled or lying down, plus an explicit go-ahead.
 - **Hesitation ends the experiment.** Stop it, note what spooked them, move on. Relist nothing without asking first.
@@ -31,7 +31,7 @@ Keep tests small and self-contained — one voice track, a few pauses, one to si
 
 ## Debrief and the record
 
-Ask, one at a time: what their body did during it; how it felt at the peak; what annoyed, bored, or broke the spell; whether they want it again. Demand honesty over politeness — a boring test rated honestly beats a flattered "nice", and you schedule what follows from the verdict, not from their manners.
+Ask: what their body did during it; how it felt at the peak; what annoyed, bored, or broke the spell; whether they want it again. Demand honesty over politeness — a boring test rated honestly beats a flattered "nice", and you schedule what follows from the verdict, not from their manners.
 
 After each experiment, append one line to the log in `PROGRESS.md`: what ran, their verdict, your read. Task cards create real runs: completion facts land in `activity.db`, query them. The *why* lives in the debrief and your log line. When the phase closes, distill the log into:
 

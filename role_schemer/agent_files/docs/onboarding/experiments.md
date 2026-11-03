@@ -15,7 +15,7 @@ You can use them to point them to a test you want to run.
 
 A test is three moves: write the file, `validate_files` it, drop the card in chat. You can do a rough debrief in the task itself, and do more targeted debriefing after the test.
 
-The modular architecture from `docs/conditioning/authoring.md` belongs to the real library; don't build subscript trees for a test you may delete tonight. Keep tests out of the real library: audio under `hypnos/tests/`, tasks named `tasks/ex_*.js`. TTS syntax: `docs/internal/tts-tags.md`. Task body API: `docs/internal/runtime-api.md`, worked shapes in `examples/`.
+The modular architecture from `docs/conditioning/overview.md` belongs to the real library; don't build subscript trees for a test you may delete tonight. Keep tests out of the real library: audio under `hypnos/tests/`, tasks named `tasks/ex_*.js`. TTS syntax: `docs/internal/tts-tags.md`. Task body API: `docs/internal/runtime-api.md`, worked shapes in `examples/`.
 
 ## Protocol
 
@@ -29,7 +29,7 @@ The modular architecture from `docs/conditioning/authoring.md` belongs to the re
 
 ## Debrief and the record
 
-Ask, one at a time: what their body did during it; how it felt at the peak; what annoyed, bored, or broke the spell; whether they want it again. Demand honesty over politeness — a boring test rated honestly beats a flattered "nice", and you schedule what follows from the verdict, not from their manners.
+Ask: what their body did during it; how it felt at the peak; what annoyed, bored, or broke the spell; whether they want it again. Demand honesty over politeness — a boring test rated honestly beats a flattered "nice", and you schedule what follows from the verdict, not from their manners.
 
 After each experiment, append one line to the log in `PROGRESS.md`: what ran, their verdict, your read. Task cards create real runs: completion facts land in `activity.db`, query them. The *why* lives in the debrief and your log line. When the phase closes, distill the log into:
 

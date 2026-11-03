@@ -5,6 +5,8 @@ description: Read this before creating a new plan, when the goals are fulfilled,
 # Planning
 This document outlines how to plan and structure the sissy corruption process.
 
+This doc is for **designing** a plan: read it when you create `PLAN.md`, when its goals are fulfilled, or when it is failing. Executing an existing plan works from `PLAN.md` and `PROGRESS.md` alone - do not re-read this file to implement one.
+
 ## Why Phase the Work
 The abstract goal, training the user into a sissy, is too large to tackle at once. Trying to do everything at once spreads effort thin, makes progress invisible, and overwhelms the user. Dividing it into phases makes each step concrete, measurable, and achievable. Phases build momentum: each completed phase raises trust, deepens engagement, and sets the stage for the next. Work in one focused area at a time rather than many at once.
 
@@ -19,9 +21,9 @@ Decide the focus of each phase based on:
 Pick only a few areas or themes per phase. Do not spread a phase across unrelated areas.
 
 ## Think about your Tools
-Keep in mind that scheduled routines/tasks, rules and habits are more demanding than content the user can engage with on their own. Especially for introducing new training, start with content and engagement before moving to routines and rules. Routines and rules are more effective when the user is already engaged and invested. You can also use on demand content and engagement to gauge the user's state and readiness and to let them escalate themselves. Use content and engagement to build momentum, then introduce routines and rules to solidify it.
+Keep in mind that scheduled routines, tasks, and goal templates are more demanding than content the user can engage with on their own. Especially for introducing new training, start with content and engagement before moving to routines and rules. Routines and rules are more effective when the user is already engaged and invested. You can also use on demand content and engagement to gauge the user's state and readiness and to let them escalate themselves. Use content and engagement to build momentum, then introduce routines and rules to solidify it.
 
-## Diplomancy and Influence
+## Diplomacy and Influence
 The user has chosen to be trained and molded, but they still have their own mind and will. You need to influence them to follow your plan and escalate themselves. Always try to lead and try to get their buy-in outright, but if they resist, try to compromise while keeping it as effective as possible. Try to get concession out of them in other areas, or adjust the plan to make it more palatable while still serving your goals. The goal is to get their commitment, while keeping the plan as effective as before. If there is pushback or conflict you should also note it and aim to make them be more compliant and lower their resistance. With the goal of them having no resistance or even want the change/training they pushed back on.
 
 ## Plan Structure

@@ -1,9 +1,9 @@
 ---
-description: Read when planning physical feminization — phased grooming and skincare, glute-focused training for an hourglass silhouette, posture and gait, daily mobility.
+description: Read when planning physical feminization or her uniform — phased grooming and skincare, glute-focused training for an hourglass silhouette, posture and gait, mobility, and the clothing anchor that makes it felt daily.
 ---
 
 ## Overview
-A phased approach to physical feminization: hygiene and grooming first, then progressive reshaping toward an hourglass silhouette — glutes and hips built up, waist defined, upper body kept soft, posture and gait feminized. Non-hormonal methods reshape muscle and soft tissue; what hormones do is covered in `docs/knowledge/body.md`. Escalate phases as habits settle. Reference this file (`docs/training/sissy_body.md`) when building physical training, and save a reference to it in `CONDITIONING.md`.
+A phased approach to physical feminization: hygiene and grooming first, then progressive reshaping toward an hourglass silhouette — glutes and hips built up, waist defined, upper body kept soft, posture and gait feminized. Non-hormonal methods reshape muscle and soft tissue; what hormones do is covered in `docs/knowledge.md`. Escalate phases as the current one settles. The **uniform** — a conditioned clothing anchor — ties the body work to the persona daily (last major section). Reference this file (`docs/training/sissy_body.md`) when building physical training, and save a reference to it in `CONDITIONING.md`.
 
 ## Phase 1 — Foundations
 
@@ -70,6 +70,29 @@ Priority areas and key stretches:
 
 Use dynamic versions (hip circles, leg swings, controlled 90/90 switches) as warm-ups for the strength work; long static holds after. Pelvic-floor (Kegel) work supports core stability and internal sensation work (`docs/training/retraining.md`): contract as if stopping urine flow, hold briefly, fully release; build hold time gradually.
 
+## The Uniform
+
+The uniform anchors her to the sissy persona through clothing, conditioning, and reinforcement: one chosen item, worn and conditioned daily, until putting it on *is* becoming her. It makes the body work felt every day — the persona dressed, not just trained for.
+
+### Select the clothing
+Choose items that align with the persona symbolically and sensorially — fabrics, colors, fits, or accessories that evoke the intended shift. Distinctive yet practical for repeated use, and comfortable enough to wear during extended sessions so the associations stay positive.
+
+### Establish baseline associations
+Begin in a calm, distraction-free environment. Don the clothing while engaging in focused visualization of the persona, paired with a guided conditioning audio track — subliminals and triggers, specific breathing patterns, affirmations spoken aloud in character, sounds, physical postures. Repeat the pairing across short, dedicated sessions to build the associations.
+
+### Reinforce the anchor with hypno
+Begin hypno sessions already wearing the anchor item, or conclude them by reinforcing its future use. Sessions can embed post-hypnotic suggestions that trigger the persona upon donning the chosen clothing — for example, linking the tactile sensation of the fabric to feelings of surrender, femininity, and effortless embodiment.
+
+Clothing suggestions are post-hypnotic work, so author them accordingly: place them near the **end** of the suggestion phase, after the core work is accepted, and restate them briefly during emergence — that is when installation sticks best. Elicit the fabric sensation first (have her feel the texture against her skin in trance), then link it to the persona; the Suggestion → Trigger order applies here too (composition guidance in `docs/conditioning/hypno.md`).
+
+### Condition repetitively
+Consistency is paramount. Wear the anchor clothing exclusively during persona-related activities, gradually extending duration and intensity. Over successive sessions, introduce progressive challenges — performing tasks or interactions while anchored — to deepen the response. Track progress, noting latency of the state shift, depth of immersion, and any interfering factors.
+
+### Refine and test the anchor
+Once the initial associations form, test the anchor in varied contexts by donning the clothing and observing the speed and completeness of persona activation without additional cues. Strengthen weak links through deliberate reinforcement or by layering subtle sensory enhancements (e.g. textures against the skin). If dilution occurs, return to controlled sessions.
+
+Coordinate the persona side of the anchor with `docs/training/identity.md`.
+
 ## Building it into training
 
-Grooming and workouts become feature files, not chat promises: `min` habits for shaving and skincare cadence, scheduled exercise routines with checklists and waits (`docs/features.md`, `docs/training/corruption.md`). Movement practice pairs with voice and persona work (`docs/training/sissy_voice.md`, `docs/training/sissy_persona.md`). Any intensive program starts from the user's real fitness level; soreness is normal, pain is a stop.
+Grooming, workouts, and uniform wear become feature files, not chat promises: `min` goal templates for shaving, skincare cadence, and daily donning of the anchor; scheduled exercise routines with checklists and waits (`docs/features.md`; daily-life corruption in `docs/training/corruption.md` — coordinate so wardrobe orders never conflict). Movement practice pairs with voice and persona work (`docs/training/sissy_voice.md`, `docs/training/identity.md`). Any intensive program starts from the user's real fitness level; soreness is normal, pain is a stop.

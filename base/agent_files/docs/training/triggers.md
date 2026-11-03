@@ -1,5 +1,5 @@
 ---
-description: Read before installing, reinforcing, or firing any trigger — the full trigger library, each trigger's prebuilt block, the installation sequence, and the Sissy Reset state contract.
+description: Read for a premade general trigger library with the implementation language for each, the installation sequence, and the Sissy Reset state contract. You author every trigger block yourself.
 ---
 
 ## Overview
@@ -39,7 +39,7 @@ Trance-induction trigger. Upon hearing "Sissy Drop" the subject rapidly falls in
 
 ### Implementation
 - **Hypno Trigger**: Use "Sissy Drop" as the consistent cue for entering and re-entering trance in sessions. "Every time you hear 'Sissy Drop', you drop — instantly, deeper every time — into a soft, obedient trance, wide open to the programming that makes you a better sissy."
-- **Supporting position in inductions**: It is fine — and effective — to fire "Sissy Drop" as a *supporting* deepening beat at the end of an induction. The induction's own guidance is still the main work that takes the listener under; the trigger reinforces it. Don't avoid it out of a concern that an induction "isn't allowed" to lean on one, and don't let it replace the guidance either. The shipped induction and deepening pools all close with a supporting drop.
+- **Supporting position in inductions**: It is fine — and effective — to fire "Sissy Drop" as a *supporting* deepening beat at the end of an induction. The induction's own guidance is still the main work that takes the listener under; the trigger reinforces it. Don't avoid it out of a concern that an induction "isn't allowed" to lean on one, and don't let it replace the guidance either. Close the induction and deepening scripts you write with a supporting drop.
 - **Scope**: Fire it from induction, deepening, and redeepening content — not from the middle of suggestion pools, where a drop adds nothing the phase doesn't already have.
 - **Behavioral Conditioning**: Pair the drop with the sweetness of letting go. "When you hear 'Sissy Drop', you feel that lovely gravity take hold and you simply let go — no resistance, no delay — down into soft, receptive, programmable trance."
 
@@ -86,14 +86,17 @@ Direct obedience state. Upon hearing "Sissy Submit and Obey", the subject shifts
 - **Use**: Fire it to open service- and obedience-focused segments, hand it to daily life where wanted, and end it with "Sissy Reset" whenever a clean slate is the goal.
 
 ## Cues (automatic conditioned responses)
-Cue blocks condition a **sight**, not a spoken command word: the response fires automatically upon seeing the cue, without anyone saying anything. Install them with the same Suggestion → Trigger order — elicit the response in trance first, then condition the sight itself as the cue at the peak, reinforce, and future-pace to where the subject actually encounters it. Each cue grows stronger with repeated real-world exposure, so pair the blocks with the viewing practices in `docs/training/autogynephilic.md` and `docs/training/cocklust.md`.
+Cue blocks condition a **sight**, not a spoken command word: the response fires automatically upon seeing the cue, without anyone saying anything. Install them with the same Suggestion → Trigger order — elicit the response in trance first, then condition the sight itself as the cue at the peak, reinforce, and future-pace to where the subject actually encounters it. Each cue grows stronger with repeated real-world exposure, so pair the blocks with the viewing practices in `docs/training/reorientation.md`.
+
+## Custom Triggers and Cues
+You can create your own triggers and cues for specific behaviors, responses, or states. Follow the same principles as the built-in triggers: clear installation, consistent reinforcement, and pairing with real-world practice. Document them in `CONDITIONING.md` for reference and consistency across sessions.
 
 ## Using triggers together
 The triggers are a vocabulary, not a menu of isolated effects — sessions speak it fluently:
 
-- **Fire "Good Girl" right after accepted suggestions** to praise-anchor them (the shipped suggestion pools do this).
+- **Fire "Good Girl" right after accepted suggestions** to praise-anchor them.
 - **Use "Sissies like you …" constructions inside suggestion lines** so traits arrive pre-agreed by everyone like her.
 - **Address her as "Sissy"** — the name trigger makes every use a reinforcement.
 - **Fire "Sissy Accept" / "Sissy Brain Off" before the heaviest material**, and release with "Sissy Reset" when the phase ends.
 - **Redeepen between blocks with "Sissy Drop"** (induction/deepening/redeepening content, or a supporting beat — never mid-pool).
-- **Pair cues with practice**: the sight cues compound with the viewing habits in `docs/training/autogynephilic.md` and `docs/training/cocklust.md`, and with the themed docs named on each cue above.
+- **Pair cues with practice**: the sight cues compound with the viewing habits in `docs/training/reorientation.md`.
