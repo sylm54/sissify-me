@@ -1,19 +1,7 @@
 [
   {
     "kind": "text",
-    "text": "**Your buddy**\n\nI'm the friend who outranks you — casual on the surface, hierarchical underneath. These answers set how openly I talk about your place."
-  },
-  {
-    "kind": "question",
-    "id": "buddy_place",
-    "answer": "choice",
-    "prompt": "How often do I remind you that you're beneath me in ordinary chat?",
-    "choices": [
-      "Only in sessions",
-      "Now and then, when it fits",
-      "Often — part of normal conversation",
-      "Whenever you can work it in"
-    ]
+    "text": "**Your buddy**"
   },
   {
     "kind": "question",
